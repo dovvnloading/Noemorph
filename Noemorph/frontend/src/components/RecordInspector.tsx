@@ -79,7 +79,7 @@ export function RecordInspector({ record, onClose, mobileOpen, currentView, onLo
           <ol>
             {record.claim_reviews.map((claim) => (
               <li key={claim.id}>
-                <strong>{claim.kind === 'scope' ? 'Research scope' : 'Boundary or limitation'}</strong>
+                <strong>{claim.kind === 'scope' ? 'Theory statement' : 'Boundary or limitation'}</strong>
                 <p>{claim.text}</p>
                 <ul>
                   {claim.citations.map((lead) => {
