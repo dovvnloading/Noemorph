@@ -25,8 +25,33 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.14'
+          cache: pip
+          cache-dependency-path: Noemorph/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: Noemorph/frontend/package-lock.json
+      - name: Install Python test dependencies
+        run: python -m pip install -r Noemorph/requirements.txt httpx==0.28.1
+      - name: Verify research catalog and API
+        working-directory: Noemorph
+        run: python -m unittest discover -s tests -v
+      - name: Build desktop frontend
+        working-directory: Noemorph/frontend
+        run: |
+          npm ci
+          npm run build
+      - name: Check public app and interaction tests
+        run: |
+          node --check public-site/dist/app.js
+          if compgen -G "public-site/tests/*.test.mjs" > /dev/null; then
+            node --test public-site/tests/*.test.mjs
+          fi
       - name: Refresh public catalog
         run: python public-site/build.py
+      - name: Verify generated public export and coverage report
+        run: python -m unittest discover -s public-site/tests -p 'test_*.py' -v
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
