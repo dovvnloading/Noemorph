@@ -7,6 +7,12 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
+from .claim_evidence import (
+    ClaimReviewIntegrityError,
+    apply_claim_review_supplement,
+    stable_source_uid,
+)
+
 
 class CatalogIntegrityError(RuntimeError):
     """Raised when the curated corpus violates a publication invariant."""
@@ -69,6 +75,7 @@ class CatalogRepository:
         self._source_mtimes: tuple[tuple[str, int], ...] = ()
         self._supplement_paths: tuple[Path, ...] = ()
         self._profile_paths: tuple[Path, ...] = ()
+        self._claim_review_paths: tuple[Path, ...] = ()
         self._snapshot: CatalogSnapshot | None = None
         self._discovery_mtime: int | None = None
         self._discovery_payload: dict[str, Any] | None = None
@@ -79,6 +86,7 @@ class CatalogRepository:
                 self.catalog_path,
                 *self._supplement_paths,
                 *self._profile_paths,
+                *self._claim_review_paths,
             )
             try:
                 known_mtimes = tuple(
@@ -106,6 +114,14 @@ class CatalogRepository:
                     "Catalog profile_enrichments must be a list of filenames"
                 )
 
+            claim_review_names = payload.get("claim_review_supplements", [])
+            if not isinstance(claim_review_names, list) or not all(
+                isinstance(name, str) for name in claim_review_names
+            ):
+                raise CatalogIntegrityError(
+                    "Catalog claim_review_supplements must be a list of filenames"
+                )
+
             catalog_directory = self.catalog_path.parent.resolve()
             supplement_paths: list[Path] = []
             for name in supplement_names:
@@ -124,6 +140,15 @@ class CatalogRepository:
                         f"Catalog profile enrichment must be a sibling JSON file: {name}"
                     )
                 profile_paths.append(candidate)
+
+            claim_review_paths: list[Path] = []
+            for name in claim_review_names:
+                candidate = (self.catalog_path.parent / name).resolve()
+                if candidate.parent != catalog_directory or candidate.suffix.lower() != ".json":
+                    raise CatalogIntegrityError(
+                        f"Claim review supplement must be a sibling JSON file: {name}"
+                    )
+                claim_review_paths.append(candidate)
 
             merged_records = list(payload.get("records", []))
             collection_manifests: list[dict[str, Any]] = []
@@ -227,24 +252,49 @@ class CatalogRepository:
             if profile_paths:
                 merged_records = [record_by_id[str(record.get("id"))] for record in merged_records]
 
+            claim_review_manifests: list[dict[str, Any]] = []
+            for path in claim_review_paths:
+                try:
+                    review_payload = json.loads(path.read_text(encoding="utf-8"))
+                except FileNotFoundError as exc:
+                    raise CatalogIntegrityError(
+                        f"Claim review supplement is missing: {path}"
+                    ) from exc
+                try:
+                    manifest = apply_claim_review_supplement(
+                        record_by_id, review_payload
+                    )
+                except ClaimReviewIntegrityError as exc:
+                    raise CatalogIntegrityError(
+                        f"Invalid claim review supplement {path.name}: {exc}"
+                    ) from exc
+                claim_review_manifests.append({**manifest, "file": path.name})
+            if claim_review_paths:
+                merged_records = [
+                    record_by_id[str(record.get("id"))] for record in merged_records
+                ]
+
             metadata = payload.get("metadata")
             if isinstance(metadata, dict):
                 metadata = {
                     **metadata,
                     "collections": collection_manifests,
                     "profile_collections": profile_manifests,
+                    "claim_review_collections": claim_review_manifests,
                 }
             merged_payload = {"metadata": metadata, "records": merged_records}
             snapshot = self._validate(merged_payload)
             self._snapshot = snapshot
             self._supplement_paths = tuple(supplement_paths)
             self._profile_paths = tuple(profile_paths)
+            self._claim_review_paths = tuple(claim_review_paths)
             self._source_mtimes = tuple(
                 (str(path), path.stat().st_mtime_ns)
                 for path in (
                     self.catalog_path,
                     *self._supplement_paths,
                     *self._profile_paths,
+                    *self._claim_review_paths,
                 )
             )
             return snapshot
@@ -323,6 +373,7 @@ class CatalogRepository:
                         f"Citation {citation_index} on {record_id} has unsupported verification: {verification}"
                     )
                 source_key = str(citation.get("doi") or citation["url"]).lower()
+                source_uid = stable_source_uid(citation)
                 if source_key in citation_keys:
                     raise CatalogIntegrityError(
                         f"Record {record_id} repeats citation locator {citation['url']}"
@@ -334,6 +385,7 @@ class CatalogRepository:
                 else:
                     source = {
                         "id": source_id,
+                        "source_uid": source_uid,
                         "title": citation["title"],
                         "authors": citation["authors"],
                         "year": citation["year"],
@@ -356,7 +408,9 @@ class CatalogRepository:
                         "url": citation["url"],
                     }
                 )
-                normalized_citations.append({**citation, "source_id": source_id})
+                normalized_citations.append(
+                    {**citation, "source_id": source_id, "source_uid": source_uid}
+                )
 
             normalized = {**record, "id": record_id, "citations": normalized_citations}
             by_id[record_id] = normalized
