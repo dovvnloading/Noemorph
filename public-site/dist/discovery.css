@@ -288,3 +288,10 @@
   .site-header nav a[href="#approach"] { display: none; }
   .site-header nav a { font-size: .66rem; }
 }
+
+/* Compact navigation for Discovery Mode. */
+@media (max-width: 540px) {
+  .site-header { flex-wrap: wrap; justify-content: center; row-gap: .65rem; padding: .9rem 5%; }
+  .site-header nav { width: 100%; justify-content: center; gap: .65rem 1rem; flex-wrap: wrap; }
+  .site-header nav a[href="#approach"] { display: none; }
+}
