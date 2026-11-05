@@ -1,0 +1,301 @@
+{
+  "collection": {
+    "name": "Core consciousness-theory claim-review leads, tranche 1",
+    "created": "2026-11-05",
+    "review_state": "unreviewed-source-leads",
+    "method": "Claim texts are resolved from existing catalog research fields; retained bibliography URLs are review leads only.",
+    "limits": "No source passage has been reviewed in this file; leads do not establish support or refutation and do not create conceptual relationships."
+  },
+  "records": [
+    {
+      "id": "seed-026-global-workspace-theory-gwt",
+      "claims": [
+        {
+          "id": "seed-026-global-workspace-theory-gwt:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1016/S0079-6123%2805%2950004-9",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-026-global-workspace-theory-gwt:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1038/s41583-022-00587-4",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-027-global-neuronal-workspace-theory-gnwt",
+      "claims": [
+        {
+          "id": "seed-027-global-neuronal-workspace-theory-gnwt:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1016/j.neuron.2011.03.018",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-027-global-neuronal-workspace-theory-gnwt:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1038/s41586-025-08888-1",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-030-higher-order-thought-hot-theory",
+      "claims": [
+        {
+          "id": "seed-030-higher-order-thought-hot-theory:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1016/j.tics.2011.05.009",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-030-higher-order-thought-hot-theory:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://plato.stanford.edu/entries/consciousness-higher/",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-031-higher-order-perception-inner-sense-theory-hop",
+      "claims": [
+        {
+          "id": "seed-031-higher-order-perception-inner-sense-theory-hop:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://mitpress.mit.edu/9780262121972/consciousness-and-experience/",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-031-higher-order-perception-inner-sense-theory-hop:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://plato.stanford.edu/entries/consciousness-higher/",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-032-dispositional-higher-order-thought-theory",
+      "claims": [
+        {
+          "id": "seed-032-dispositional-higher-order-thought-theory:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://plato.stanford.edu/entries/consciousness-higher/",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-032-dispositional-higher-order-thought-theory:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://www.cambridge.org/core/books/phenomenal-consciousness/0DD6B1E20472D0B76BFEBED4C7C0D0A6",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-033-higher-order-global-states-hogs-model",
+      "claims": [
+        {
+          "id": "seed-033-higher-order-global-states-hogs-model:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://plato.stanford.edu/entries/consciousness-higher/",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-033-higher-order-global-states-hogs-model:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://philpapers.org/rec/GENCAS",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-039-attention-schema-theory-ast",
+      "claims": [
+        {
+          "id": "seed-039-attention-schema-theory-ast:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.3389/fpsyg.2015.00500",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-039-attention-schema-theory-ast:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1080/17588928.2011.565121",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-044-dynamic-core-theory",
+      "claims": [
+        {
+          "id": "seed-044-dynamic-core-theory:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1126/science.282.5395.1846",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-044-dynamic-core-theory:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.3390/brainsci11050535",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-060-predictive-processing-approaches-to-consciousness",
+      "claims": [
+        {
+          "id": "seed-060-predictive-processing-approaches-to-consciousness:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.33735/phimisci.2020.II.64",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-060-predictive-processing-approaches-to-consciousness:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1080/17588928.2020.1838467",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-149-predictive-global-neuronal-workspace-pgnw",
+      "claims": [
+        {
+          "id": "seed-149-predictive-global-neuronal-workspace-pgnw:scope",
+          "field": "claim_scope.target",
+          "kind": "scope",
+          "citations": [
+            {
+              "citation_url": "https://doi.org/10.1016/j.pneurobio.2020.101918",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        },
+        {
+          "id": "seed-149-predictive-global-neuronal-workspace-pgnw:boundary",
+          "field": "boundary_note",
+          "kind": "boundary",
+          "citations": [
+            {
+              "citation_url": "https://pubmed.ncbi.nlm.nih.gov/33039416/",
+              "locator_kind": "source-url-only",
+              "review_state": "unreviewed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
