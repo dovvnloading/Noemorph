@@ -256,7 +256,8 @@ test('discovery cards lead with questions while leaving the full catalog availab
   }
   assert.equal(app.elements['#discovery-stage'].hidden, true);
   assert.match(app.elements['#discovery-status'].textContent, /Choose a question/);
-  assert.match(app.elements['#records'].innerHTML, /Global Neuronal Workspace/);
+  assert.match(app.elements['#results-status'].textContent, /records/);
+  assert.match(app.elements['#records'].innerHTML, /data-record-id="breadth-neuro-021-insect-subjective-experience"/);
   assert.match(html, /id="discover"/);
   assert.match(html, /src="discovery.js"/);
 });
@@ -356,6 +357,6 @@ test('broken discovery data fails independently without breaking catalog search'
   });
   assert.equal(app.elements['#discovery-stage'].hidden, true);
   assert.match(app.elements['#discovery-status'].textContent, /full catalog remains accessible/);
-  assert.match(app.elements['#records'].innerHTML, /Global Neuronal Workspace/);
+  assert.match(app.elements['#records'].innerHTML, /data-record-id="breadth-neuro-021-insect-subjective-experience"/);
   assert.match(app.elements['#results-status'].textContent, /records/);
 });
