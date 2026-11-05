@@ -84,6 +84,22 @@ The same information is available through the read-only `/api/profile-quality` e
 
 The historical 577-record audit remains archived as a snapshot. `Noemorph/data/coverage-report.json` and the new profile report track the current merged corpus; automated checks now reject stale profile report snapshots.
 
+## Interactive public taxonomy atlas
+
+The public site includes a **zoomable, read-only visual atlas** at [#atlas](https://dovvnloading.github.io/Noemorph/#atlas). It derives its structure directly from the validated merged catalog export—there is no separate relationship dataset or inferred network graph. Visitors can drill from **record type → domain → record**, inspect summaries, boundaries and citations, or open the full catalog entry. Lines represent **category membership only**.
+
+The map shows at most 16 selectable nodes at once. Pagination keeps highly fragmented domains navigable. A synchronized text list provides a keyboard-accessible alternative to the SVG. Search finds records across the corpus; the kind filter narrows classification. Controls support zoom buttons, pointer pan and wheel zoom, Enter/Space node selection, and arrow-key panning. The layout adapts to phones and respects reduced-motion preferences.
+
+You can share a taxonomy location using URL parameters, for example:
+
+```text
+https://dovvnloading.github.io/Noemorph/?atlasKind=Scientific+theory&atlasDomain=Neural+dynamics+%26+integration#atlas
+```
+
+A selected record can also include an `atlasRecord` parameter. The atlas only accepts kind/domain/record combinations that exist in the current validated catalog. Neither links nor the interface assert agreement, contradiction, source support, or a scientific relationship between records. The existing `/api/graph/relationships` gate stays locked.
+
+The static assets are `public-site/dist/atlas.js` and `atlas.css`. The feature initializes after the catalog and fails independently; Discovery Mode, search, comparison, and citation exports remain available if the map cannot load. Node smoke tests cover drill-down, pagination, search, keyboard selection, zoom, pan, and URL validation. Python tests assert category membership and prevent accidental theory-to-theory edges.
+
 ## Question-led discovery on the public site
 
 The public atlas starts with **Discovery Mode**: four short, curated three-step reading journeys on consciousness, artificial consciousness, awareness, and selfhood, plus **Surprise me** for a rotating selection of less-familiar catalog records. Each step shows a short prompt, a real research record with its current provisional state, a reflective question, and optional expandable research notes and retained citations. Visitors can jump into the full existing catalog record at any point.
