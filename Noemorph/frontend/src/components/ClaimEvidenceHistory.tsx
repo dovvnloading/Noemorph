@@ -43,7 +43,7 @@ export function ClaimEvidenceHistory({ recordId, claimId }: {
               {' · '}{source.active_reviewer_count} self-declared reviewer
               {source.active_reviewer_count === 1 ? '' : 's'}
             </p>
-            {source.status === 'independent-agreement-recorded' && (
+            {source.status === 'recorded-concordance' && (
               <p>Multiple matching reviewer labels are recorded. This is not independently authenticated or a verified claim.</p>
             )}
             {events.length > 0 && (
