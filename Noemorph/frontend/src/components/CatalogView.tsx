@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { DiscoveryEntry, TheoryRecord } from '../types'
 import { researchProfileText } from './ResearchProfileValue'
+import { RecordComparison } from './RecordComparison'
 
 const DISCOVERY_MATCH_LABELS: Record<DiscoveryEntry['catalog_match']['status'], string> = {
   'likely-present': 'Strong title candidate',
@@ -19,6 +20,9 @@ interface CatalogViewProps {
   onSelectDiscovery: (entry: DiscoveryEntry) => void
   selectedId?: string
   onSelect: (record: TheoryRecord) => void
+  comparisonIds: string[]
+  onToggleComparison: (recordId: string) => void
+  onClearComparison: () => void
   query: string
   selectedKind: string
   onKindChange: (kind: string) => void
@@ -36,6 +40,9 @@ export function CatalogView({
   onSelectDiscovery,
   selectedId,
   onSelect,
+  comparisonIds,
+  onToggleComparison,
+  onClearComparison,
   query,
   selectedKind,
   onKindChange,
@@ -45,6 +52,8 @@ export function CatalogView({
   const [sortKey, setSortKey] = useState<'name' | 'kind' | 'domain' | 'proponents' | 'sources'>('name')
   const [sortDirection, setSortDirection] = useState<1 | -1>(1)
   const [selectedDiscoveryCategory, setSelectedDiscoveryCategory] = useState('All categories')
+  const comparisonRecords = comparisonIds.map((id) => records.find((record) => record.id === id))
+  const canCompare = comparisonRecords.length === 2 && comparisonRecords.every((item): item is TheoryRecord => Boolean(item))
   const kinds = [...new Set(records.map((record) => record.kind))].sort()
   const discoveryCategories = [...new Set(discovery.map((entry) => entry.category))].sort()
   const filtered = records.filter((record) => {
@@ -156,6 +165,21 @@ export function CatalogView({
         </div>
       </header>
 
+      {scope === 'catalog' && (
+        <div className="comparison-selection" aria-label="Choose two records for read-only comparison">
+          <p aria-live="polite"><strong>{comparisonIds.length} of 2 selected</strong> · Choose two records to view their research fields side by side. Selecting them does not assert a relationship.</p>
+          {comparisonIds.length > 0 && (
+            <div className="comparison-selection-actions">
+              <span>{comparisonIds.map((id) => records.find((record) => record.id === id)?.name ?? 'Unknown record').join(' / ')}</span>
+              <button type="button" onClick={onClearComparison}>Clear selections</button>
+            </div>
+          )}
+        </div>
+      )}
+      {scope === 'catalog' && canCompare && (
+        <RecordComparison left={comparisonRecords[0]!} right={comparisonRecords[1]!} onClear={onClearComparison} />
+      )}
+
       {scope === 'discovery' && (discoveryState === 'idle' || discoveryState === 'loading') ? (
         <div className="empty-state"><h2>Loading source registry</h2><p>Retrieving the discovery screen only; reviewed records remain available.</p></div>
       ) : scope === 'discovery' && discoveryState === 'error' ? (
@@ -192,7 +216,20 @@ export function CatalogView({
                   <td>{record.domain}</td>
                   <td>{record.proponents.slice(0, 2).join(', ')}{record.proponents.length > 2 ? ' et al.' : ''}</td>
                   <td><span className="source-count">{record.citations.length}<small> works</small></span></td>
-                  <td><button onClick={() => onSelect(record)} aria-label={`Inspect ${record.name}`}>Open</button></td>
+                  <td>
+                    <div className="catalog-record-actions">
+                      <button type="button" onClick={() => onSelect(record)} aria-label={`Inspect ${record.name}`}>Open</button>
+                      <button
+                        type="button"
+                        aria-pressed={comparisonIds.includes(record.id)}
+                        aria-label={`${comparisonIds.includes(record.id) ? 'Remove' : 'Add'} ${record.name} ${comparisonIds.includes(record.id) ? 'from' : 'to'} comparison`}
+                        disabled={comparisonIds.length === 2 && !comparisonIds.includes(record.id)}
+                        onClick={() => onToggleComparison(record.id)}
+                      >
+                        {comparisonIds.includes(record.id) ? 'Selected' : 'Compare'}
+                      </button>
+                    </div>
+                  </td>
                 </tr>
               ))}
             </tbody>
