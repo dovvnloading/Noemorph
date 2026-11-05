@@ -84,6 +84,14 @@ The same information is available through the read-only `/api/profile-quality` e
 
 The historical 577-record audit remains archived as a snapshot. `Noemorph/data/coverage-report.json` and the new profile report track the current merged corpus; automated checks now reject stale profile report snapshots.
 
+## Public website experience
+
+The homepage is deliberately **search-first**: one concise introduction, one functional collection search, and three curated starting questions. The full record catalog follows immediately and now shows compact summaries before revealing source-rich research notes. The existing evidence-review disclaimers, CSL-JSON citations, permanent record URLs and two-record comparison remain available.
+
+Guided reading and the visual taxonomy map are now **optional collapsed tools**, rather than sequential full-screen experiences. Direct `journey` and `atlasKind` links reopen the appropriate tool; browser navigation and existing record links remain supported. The visual system uses a small, consistent editorial palette, spacing system and typography; no floating constellation or extra decorative hero artwork.
+
+The PR-specific CI artifact `noemorph-public-ux-preview` includes the built static site for actual desktop/mobile rendering. Static DOM and interaction tests protect the simplified hierarchy and ensure progressive disclosure doesn't hide research provenance permanently. These changes are presentation-only: the catalog, source roles, verification states, and locked conceptual relationships do not change.
+
 ## Interactive public taxonomy atlas
 
 The public site includes a **zoomable, read-only visual atlas** at [#atlas](https://dovvnloading.github.io/Noemorph/#atlas). It derives its structure directly from the validated merged catalog export—there is no separate relationship dataset or inferred network graph. Visitors can drill from **record type → domain → record**, inspect summaries, boundaries and citations, or open the full catalog entry. Lines represent **category membership only**.
