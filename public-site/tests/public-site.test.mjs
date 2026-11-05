@@ -89,7 +89,7 @@ async function boot(locationHref = 'https://example.org/Noemorph/') {
     body: { append: link => links.push(link) },
   };
   const context = {
-    document, window, URL: FakeURL, Blob, Element: FakeElement,
+    document, window, URL: FakeURL, URLSearchParams, Blob, Element: FakeElement,
     fetch: () => Promise.resolve({ ok: true, json: () => Promise.resolve({ records }) }),
   };
   vm.runInNewContext(script, context, { filename: 'public-site/dist/app.js' });
