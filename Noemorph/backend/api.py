@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+from ipaddress import ip_address
 from pathlib import Path
 from typing import Annotated, Any, Literal
 
-from fastapi import FastAPI, HTTPException, Query, WebSocket
+from fastapi import FastAPI, HTTPException, Query, Request, Response, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
@@ -214,13 +215,29 @@ def create_app(
     def taxonomy_graph() -> dict[str, object]:
         return repository.taxonomy_graph()
 
+    def require_local_evidence_reader(request: Request, response: Response) -> None:
+        """Local review notes and short excerpts must not leak via network API mode."""
+        try:
+            peer = request.client.host if request.client is not None else ""
+            if not ip_address(peer).is_loopback:
+                raise HTTPException(status_code=403, detail="Local review history is loopback-only")
+        except ValueError as exc:
+            raise HTTPException(
+                status_code=403, detail="Local review history is loopback-only"
+            ) from exc
+        response.headers["Cache-Control"] = "no-store"
+
     @app.get("/api/claim-evidence/status")
-    def claim_evidence_status() -> dict[str, Any]:
+    def claim_evidence_status(request: Request, response: Response) -> dict[str, Any]:
         """Read-only. Never create a database or accept review writes over HTTP."""
+        require_local_evidence_reader(request, response)
         return claim_evidence_ledger.status()
 
     @app.get("/api/claim-evidence/records/{record_id}/claims/{claim_id}")
-    def claim_evidence_history(record_id: str, claim_id: str) -> dict[str, Any]:
+    def claim_evidence_history(
+        record_id: str, claim_id: str, request: Request, response: Response
+    ) -> dict[str, Any]:
+        require_local_evidence_reader(request, response)
         try:
             return claim_evidence_ledger.history(record_id, claim_id)
         except EvidenceReviewError as exc:
