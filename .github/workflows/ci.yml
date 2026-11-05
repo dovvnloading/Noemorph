@@ -25,6 +25,19 @@ jobs:
         working-directory: Noemorph
         run: python -m unittest discover -s tests -v
 
+  public-export:
+    name: Public export and coverage integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Rebuild public catalog from validated sources
+        run: python public-site/build.py
+      - name: Check published catalog and current coverage counts
+        run: python -m unittest discover -s public-site/tests -p 'test_*.py' -v
+
   frontend-build:
     name: Frontend build
     runs-on: ubuntu-latest
