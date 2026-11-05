@@ -103,7 +103,8 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
     '#atlas-search', '#atlas-record-detail', '#atlas-back', '#atlas-home',
     '#atlas-previous', '#atlas-next', '#atlas-page-label',
     '#atlas-zoom-in', '#atlas-zoom-out', '#atlas-zoom-reset',
-    '#atlas-record-total'];
+    '#atlas-record-total', '#hero-search-form', '#hero-record-count',
+    '#catalog', '#comparison-tools'];
   const elements = Object.fromEntries(ids.map(id => [id, new FakeElement()]));
   const selectedSummary = new FakeElement();
   const atlasTransform = new FakeElement();
@@ -512,4 +513,40 @@ test('missing atlas is optional, and a separate discovery journey still function
   assert.match(app.elements['#discovery-stage'].innerHTML, /Is attention the same as awareness?/);
   assert.match(app.elements['#atlas-status'].textContent, /types/);
   assert.match(app.elements['#results-status'].textContent, /records/);
+});
+
+
+test('subtractive homepage puts real catalog search before optional experiences', async () => {
+  const index = html;
+  const start = index.indexOf('id="top"');
+  const catalog = index.indexOf('id="catalog"');
+  const secondary = index.indexOf('class="secondary-tools');
+  assert.ok(start >= 0 && start < catalog && catalog < secondary);
+  assert.match(index, /id="hero-search-form"/);
+  assert.match(index, /id="search"/);
+  assert.match(index, /id="discovery-disclosure"/);
+  assert.match(index, /id="atlas-disclosure"/);
+  assert.doesNotMatch(index, /class="hero-art"/);
+  assert.doesNotMatch(index, /class="principles"/);
+  const app = await boot();
+  assert.equal(app.elements['#hero-record-count'].textContent, '2');
+  assert.equal(app.elements['#comparison-tools'].hidden, true);
+  assert.match(app.elements['#records'].innerHTML, /record-summary-text/);
+  assert.match(app.elements['#records'].innerHTML, /Explore research notes and sources/);
+});
+
+test('prominent hero search updates the real catalog and jumps to its results on submit', async () => {
+  const app = await boot();
+  const { elements } = app;
+  elements['#search'].value = 'Panpsychism';
+  elements['#search'].listeners.input();
+  assert.match(elements['#results-status'].textContent, /^1 record/);
+  assert.match(elements['#records'].innerHTML, /Panpsychism/);
+  let prevented = false;
+  elements['#hero-search-form'].listeners.submit({
+    preventDefault() { prevented = true; },
+  });
+  assert.equal(prevented, true);
+  assert.equal(elements['#catalog'].scrolled, true);
+  assert.equal(elements['#results-status'].focused, true);
 });
