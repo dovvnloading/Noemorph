@@ -10,6 +10,11 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, field_validator, model_validator
 
 from .catalog import CatalogIntegrityError, CatalogRepository
+from .evidence_ledger import (
+    ClaimEvidenceLedger,
+    EvidenceIntegrityError,
+    EvidenceReviewError,
+)
 from .semantic import (
     SemanticCandidateNotFoundError,
     SemanticIntegrityError,
@@ -66,10 +71,16 @@ def create_app(
     *,
     serve_frontend: bool = True,
     semantic_db_path: Path | None = None,
+    claim_evidence_db_path: Path | None = None,
 ) -> FastAPI:
     repository = CatalogRepository(project_root / "data" / "catalog.json")
     semantic_repository = SemanticRepository(
         semantic_db_path or project_root / "data" / "semantic" / "semantic.sqlite3",
+        repository,
+    )
+    claim_evidence_ledger = ClaimEvidenceLedger(
+        claim_evidence_db_path
+        or project_root / "data" / "reviews" / "claim-evidence.sqlite3",
         repository,
     )
     app = FastAPI(
@@ -81,6 +92,7 @@ def create_app(
     )
     app.state.repository = repository
     app.state.semantic_repository = semantic_repository
+    app.state.claim_evidence_ledger = claim_evidence_ledger
     app.add_middleware(
         CORSMiddleware,
         allow_origins=["http://127.0.0.1:5173", "http://localhost:5173"],
@@ -92,6 +104,12 @@ def create_app(
     @app.exception_handler(CatalogIntegrityError)
     async def catalog_error_handler(_, exc: CatalogIntegrityError) -> JSONResponse:
         return JSONResponse(status_code=500, content={"detail": str(exc)})
+
+    @app.exception_handler(EvidenceIntegrityError)
+    async def evidence_integrity_handler(_, exc: EvidenceIntegrityError) -> JSONResponse:
+        return JSONResponse(
+            status_code=503, content={"detail": str(exc), "state": "invalid"}
+        )
 
     @app.exception_handler(SemanticUnavailableError)
     async def semantic_unavailable_handler(
@@ -195,6 +213,18 @@ def create_app(
     @app.get("/api/graph/taxonomy")
     def taxonomy_graph() -> dict[str, object]:
         return repository.taxonomy_graph()
+
+    @app.get("/api/claim-evidence/status")
+    def claim_evidence_status() -> dict[str, Any]:
+        """Read-only. Never create a database or accept review writes over HTTP."""
+        return claim_evidence_ledger.status()
+
+    @app.get("/api/claim-evidence/records/{record_id}/claims/{claim_id}")
+    def claim_evidence_history(record_id: str, claim_id: str) -> dict[str, Any]:
+        try:
+            return claim_evidence_ledger.history(record_id, claim_id)
+        except EvidenceReviewError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
 
     @app.get("/api/semantic/status")
     def semantic_status() -> dict[str, Any]:
