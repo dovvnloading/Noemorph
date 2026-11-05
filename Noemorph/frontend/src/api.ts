@@ -2,6 +2,7 @@ import type {
   CatalogMetadata,
   CatalogResponse,
   CoverageResponse,
+  ProfileQualityReport,
   ClaimEvidenceHistory,
   DiscoveryResponse,
   SemanticCandidateDetail,
@@ -160,6 +161,10 @@ export function loadClaimEvidenceHistory(
     `/api/claim-evidence/records/${encodeURIComponent(recordId)}/claims/${encodeURIComponent(claimId)}`,
     { signal },
   )
+}
+
+export function loadProfileQuality(signal?: AbortSignal): Promise<ProfileQualityReport> {
+  return request<ProfileQualityReport>('/api/profile-quality', { signal })
 }
 
 export async function loadWorkspace() {
