@@ -15,6 +15,14 @@ const records = [
     kind: 'Scientific theory', domain: 'Neuroscience',
     tradition: 'Contemporary', review_state: 'provisional',
     summary: 'A theory of conscious access.', proponents: [],
+    claim_reviews: [{
+      id: 'record-one:scope', kind: 'scope', field: 'claim_scope.target',
+      text: 'A theory of conscious access.', review_state: 'unreviewed',
+      citations: [{
+        citation_url: 'https://example.org/one', source_uid: 'work-demo',
+        locator_kind: 'source-url-only', review_state: 'unreviewed',
+      }],
+    }],
     citations: [{
       title: 'Original model', authors: 'Researcher', year: 2024,
       authority: 'primary-original', verification: 'human-verified',
@@ -121,6 +129,13 @@ test('a permanent record URL expands and focuses its entry', async () => {
   assert.match(app.elements['#records'].innerHTML, /data-record-id="record-two" open/);
   assert.equal(app.selectedSummary.focused, true);
   assert.match(app.elements['#records'].innerHTML, /Permanent link/);
+});
+
+test('claim review leads remain visibly unverified in the public catalog', async () => {
+  const app = await boot();
+  assert.match(app.elements['#records'].innerHTML, /Claim-level source review leads/);
+  assert.match(app.elements['#records'].innerHTML, /do not verify support/);
+  assert.match(app.elements['#records'].innerHTML, /source URL only/i);
 });
 
 test('citation export retains recorded provenance without inventing a publication year', async () => {

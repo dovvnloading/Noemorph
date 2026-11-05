@@ -71,9 +71,23 @@
     else content = `<p>${esc(value)}</p>`;
     return `<h4>${esc(label)}</h4>${content}`;
   }
+  function claimReviewHtml(r) {
+    if (!Array.isArray(r.claim_reviews) || !r.claim_reviews.length) return '';
+    const items = r.claim_reviews.map(claim => {
+      const leads = (claim.citations || []).map(lead => {
+        const cited = (r.citations || []).find(citation => citation.url === lead.citation_url);
+        const link = safeUrl(lead.citation_url);
+        const label = esc(cited?.title || 'Retained source');
+        const citationState = esc(cited?.verification || 'pending metadata review');
+        return `<li>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener noreferrer">${label} ↗</a>` : label}<small>Source URL only · claim match unreviewed · citation metadata: ${citationState}</small></li>`;
+      }).join('');
+      return `<li><strong>${esc(claim.kind === 'scope' ? 'Theory statement' : 'Boundary or limitation')}</strong><p>${esc(claim.text)}</p><ul>${leads}</ul></li>`;
+    }).join('');
+    return `<section class="claim-review-leads"><h4>Claim-level source review leads — unverified</h4><p>Retained bibliography links proposed for passage review. These links do not verify support, refutation, or theoretical relationships.</p><ol>${items}</ol></section>`;
+  }
   function recordHtml(r, expanded = false) {
     const citations = (r.citations || []).map(c => { const url = safeUrl(c.url); const title = esc(c.title || 'Source'); return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${title} ↗</a>` : title}<div class="citation-meta">${esc([c.authors, c.year, c.venue].filter(Boolean).join(' · '))}${c.verification ? ` · ${esc(c.verification)}` : ''}${c.authority ? ` · ${esc(c.authority)}` : ''}</div></li>`; }).join('');
-    return `<details class="record" data-record-id="${esc(r.id)}"${expanded ? ' open' : ''}><summary><span class="record-name">${esc(r.name)}</span><span class="record-kind">${esc(r.kind)}</span><span class="record-toggle" aria-hidden="true">+</span></summary><div class="record-content"><div class="record-actions"><a href="${esc(recordHref(r.id))}">Permanent link</a><button type="button" data-export="${esc(r.id)}">Export citations (CSL-JSON)</button></div>${detail('Overview', r.summary)}${detail('Scope', r.claim_scope || r.scope)}${detail('Boundaries', r.boundary_note || r.status_note)}${detail('Evidence profile', r.evidence_profile)}${detail('Open questions', r.open_questions)}${detail('People associated', r.proponents)}${detail('Review state', r.review_state)}${citations ? `<h4>Retained citations</h4><ul>${citations}</ul>` : ''}</div></details>`;
+    return `<details class="record" data-record-id="${esc(r.id)}"${expanded ? ' open' : ''}><summary><span class="record-name">${esc(r.name)}</span><span class="record-kind">${esc(r.kind)}</span><span class="record-toggle" aria-hidden="true">+</span></summary><div class="record-content"><div class="record-actions"><a href="${esc(recordHref(r.id))}">Permanent link</a><button type="button" data-export="${esc(r.id)}">Export citations (CSL-JSON)</button></div>${detail('Overview', r.summary)}${detail('Scope', r.claim_scope || r.scope)}${detail('Boundaries', r.boundary_note || r.status_note)}${detail('Evidence profile', r.evidence_profile)}${detail('Open questions', r.open_questions)}${detail('People associated', r.proponents)}${detail('Review state', r.review_state)}${claimReviewHtml(r)}${citations ? `<h4>Retained citations</h4><ul>${citations}</ul>` : ''}</div></details>`;
   }
   function draw() {
     const terms = search.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);

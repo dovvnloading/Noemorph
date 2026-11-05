@@ -11,6 +11,7 @@ export type RecordKind =
 
 export interface Citation {
   source_id?: string
+  source_uid?: string
   title: string
   authors: string
   year: number | string
@@ -21,6 +22,22 @@ export interface Citation {
   verification?: 'doi-resolved' | 'locator-recorded' | 'human-verified' | 'pending-metadata-review'
   note?: string
   retrieved?: string
+}
+
+export interface ClaimReviewLead {
+  citation_url: string
+  source_uid: string
+  locator_kind: 'source-url-only'
+  review_state: 'unreviewed'
+}
+
+export interface ClaimReview {
+  id: string
+  kind: 'scope' | 'boundary'
+  field: string
+  text: string
+  citations: ClaimReviewLead[]
+  review_state: 'unreviewed'
 }
 
 export type ResearchProfileValue =
@@ -50,6 +67,7 @@ export interface TheoryRecord {
   mechanism?: string
   keywords?: string[]
   citations: Citation[]
+  claim_reviews?: ClaimReview[]
   review_state?: 'verified-seed' | 'provisional' | 'needs-review'
 }
 
@@ -70,6 +88,7 @@ export interface SourceUse {
 // Bibliographic source metadata is distinct from a citation's role and review state.
 export interface SourceRecord extends Omit<Citation, 'authority' | 'verification'> {
   id: string
+  source_uid: string
   used_by: string[]
   uses: SourceUse[]
   authority_roles: string[]

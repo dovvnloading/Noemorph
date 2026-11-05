@@ -15,3 +15,11 @@
 .record-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.7rem;margin:.2rem 0 1.4rem}
 @media(max-width:800px){.catalog-filter-actions{flex-wrap:wrap}.advanced-filters{flex-basis:100%}}
 @media(max-width:500px){.advanced-grid{grid-template-columns:1fr}}
+
+.claim-review-leads{border-top:1px solid var(--line);padding-top:.4rem;margin-top:1.5rem}
+.claim-review-leads>p{font-size:.83rem;color:#53645a}
+.claim-review-leads ol{padding-left:1.2rem}
+.claim-review-leads ol>li{margin:1rem 0}
+.claim-review-leads ul{padding-left:1.2rem;margin-top:.3rem}
+.claim-review-leads ul li{margin:.35rem 0}
+.claim-review-leads small{display:block;font-size:.74rem;color:#637569}
