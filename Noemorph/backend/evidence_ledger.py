@@ -205,6 +205,7 @@ class ClaimEvidenceLedger:
         reviewer_id = _require_text(reviewer_id, "reviewer_id", min_len=3, max_len=80)
         if not _REVIEWER.fullmatch(reviewer_id):
             raise EvidenceReviewError("reviewer_id must be an identifier, not a display name")
+        reviewer_id = reviewer_id.casefold()
         if decision not in DECISIONS:
             raise EvidenceReviewError("Invalid evidence decision")
         if locator_kind not in LOCATOR_KINDS:
