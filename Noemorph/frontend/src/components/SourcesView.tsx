@@ -24,11 +24,11 @@ export function SourcesView({ sources, records, query, onInspectRecord }: Source
     [records],
   )
   const authorityRoles = useMemo(
-    () => [...new Set(sources.map((source) => source.authority))].sort(),
+    () => [...new Set(sources.flatMap((source) => source.authority_roles))].sort(),
     [sources],
   )
   const filtered = sources.filter((source) => {
-    if (authority !== 'All authority roles' && source.authority !== authority) return false
+    if (authority !== 'All authority roles' && !source.authority_roles.includes(authority)) return false
     if (!query.trim()) return true
     const usedByNames = source.used_by.map((id) => recordById[id]?.name ?? id).join(' ')
     const haystack = `${source.title} ${source.authors} ${source.venue ?? ''} ${source.doi ?? ''} ${usedByNames}`.toLocaleLowerCase()
@@ -52,7 +52,7 @@ export function SourcesView({ sources, records, query, onInspectRecord }: Source
       </header>
 
       {filtered.length === 0 ? (
-        <div className="empty-state"><h2>No matching sources</h2><p>Search by title, author, venue, DOI, or supported record.</p></div>
+        <div className="empty-state"><h2>No matching sources</h2><p>Search by title, author, venue, DOI, or citing record.</p></div>
       ) : (
         <div className="source-table-wrap">
           <table className="source-table">
@@ -60,8 +60,8 @@ export function SourcesView({ sources, records, query, onInspectRecord }: Source
               <tr>
                 <th>Work</th>
                 <th>Year</th>
-                <th>Authority role</th>
-                <th>Supports</th>
+                <th>Citation roles</th>
+                <th>Cited by</th>
                 <th>Identifier</th>
                 <th><span className="sr-only">Open</span></th>
               </tr>
@@ -74,14 +74,21 @@ export function SourcesView({ sources, records, query, onInspectRecord }: Source
                     <small>{source.authors}{source.venue ? ` · ${source.venue}` : ''}</small>
                   </td>
                   <td className="source-year">{source.year}</td>
-                  <td><span className={`authority-tag authority-${source.authority}`}>{authorityLabels[source.authority] ?? source.authority}</span></td>
+                  <td>
+                    {source.authority_roles.map((role) => (
+                      <span key={role} className={`authority-tag authority-${role}`}>
+                        {authorityLabels[role] ?? role}
+                      </span>
+                    ))}
+                  </td>
                   <td>
                     <div className="source-record-links">
-                      {source.used_by.slice(0, 2).map((id) => {
-                        const record = recordById[id]
+                      {source.uses.slice(0, 2).map((use) => {
+                        const record = recordById[use.record_id]
+                        const context = `Cited as ${authorityLabels[use.authority] ?? use.authority}; ${use.verification.replaceAll('-', ' ')}`
                         return record
-                          ? <button type="button" key={id} onClick={() => onInspectRecord(record)}>{record.name}</button>
-                          : <span key={id}>{id}</span>
+                          ? <button type="button" key={use.record_id} title={context} onClick={() => onInspectRecord(record)}>{record.name}</button>
+                          : <span key={use.record_id} title={context}>{use.record_id}</span>
                       })}
                       {source.used_by.length > 2 && <span>+{source.used_by.length - 2}</span>}
                     </div>

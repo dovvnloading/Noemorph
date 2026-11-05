@@ -60,9 +60,20 @@ export interface CatalogResponse {
   limit: number
 }
 
-export interface SourceRecord extends Citation {
+export interface SourceUse {
+  record_id: string
+  authority: string
+  verification: NonNullable<Citation['verification']>
+  url: string
+}
+
+// Bibliographic source metadata is distinct from a citation's role and review state.
+export interface SourceRecord extends Omit<Citation, 'authority' | 'verification'> {
   id: string
   used_by: string[]
+  uses: SourceUse[]
+  authority_roles: string[]
+  verification_states: Array<NonNullable<Citation['verification']>>
 }
 
 export interface SourcesResponse {

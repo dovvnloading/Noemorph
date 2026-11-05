@@ -340,17 +340,36 @@ class CatalogRepository:
                         "url": citation["url"],
                         "doi": citation.get("doi"),
                         "venue": citation.get("venue"),
-                        "authority": citation["authority"],
                         "retrieved": citation.get("retrieved"),
-                        "verification": citation.get("verification", "pending-metadata-review"),
                         "used_by": [],
+                        "uses": [],
+                        "authority_roles": [],
+                        "verification_states": [],
                     }
                     source_by_key[source_key] = source
                 source_by_key[source_key]["used_by"].append(record_id)
+                source_by_key[source_key]["uses"].append(
+                    {
+                        "record_id": record_id,
+                        "authority": citation["authority"],
+                        "verification": verification,
+                        "url": citation["url"],
+                    }
+                )
                 normalized_citations.append({**citation, "source_id": source_id})
 
             normalized = {**record, "id": record_id, "citations": normalized_citations}
             by_id[record_id] = normalized
+
+        # Authority and verification belong to a citation use, not the work.
+        # Preserve all roles/states rather than inheriting the first citation's values.
+        for source in source_by_key.values():
+            source["authority_roles"] = sorted(
+                {use["authority"] for use in source["uses"]}
+            )
+            source["verification_states"] = sorted(
+                {use["verification"] for use in source["uses"]}
+            )
 
         normalized_records = tuple(by_id.values())
         return CatalogSnapshot(
@@ -610,7 +629,10 @@ class CatalogRepository:
             sources = [
                 item
                 for item in sources
-                if str(item["authority"]).casefold() == authority.casefold()
+                if any(
+                    str(role).casefold() == authority.casefold()
+                    for role in item["authority_roles"]
+                )
             ]
         if query_terms:
             sources = [
