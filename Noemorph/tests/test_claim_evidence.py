@@ -2,10 +2,12 @@
 from __future__ import annotations
 
 import copy
+import json
+import tempfile
 import unittest
 from pathlib import Path
 
-from backend.catalog import CatalogRepository
+from backend.catalog import CatalogIntegrityError, CatalogRepository
 from backend.claim_evidence import (
     ClaimReviewIntegrityError,
     apply_claim_review_supplement,
@@ -149,6 +151,31 @@ class ClaimReviewRejectsOverclaimsTests(unittest.TestCase):
         bad["collection"]["review_state"] = "human-verified"
         with self.assertRaises(ClaimReviewIntegrityError):
             self.apply(bad)
+
+    def test_rejects_extra_metadata_claims(self) -> None:
+        bad = copy.deepcopy(self.payload)
+        bad["collection"]["verified_claim_count"] = 1
+        with self.assertRaises(ClaimReviewIntegrityError):
+            self.apply(bad)
+
+    def test_catalog_disallows_unvalidated_inline_claim_reviews(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "catalog.json"
+            path.write_text(json.dumps({
+                "metadata": {"version": "test"},
+                "records": [{
+                    **self.record,
+                    "kind": "Scientific theory",
+                    "domain": "Example",
+                    "tradition": "Example",
+                    "status": "provisional",
+                    "name": "Example record",
+                    "proponents": [],
+                    "claim_reviews": [{"review_state": "human-verified"}],
+                }],
+            }), encoding="utf-8")
+            with self.assertRaises(CatalogIntegrityError):
+                CatalogRepository(path).list_records()
 
 
 if __name__ == "__main__":
