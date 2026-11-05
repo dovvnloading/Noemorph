@@ -60,6 +60,14 @@ python research\build_coverage_report.py
 
 DOI resolution, locator recording, and human semantic review are intentionally separate provenance states. A resolvable DOI is not represented as proof that its title, authors, or content support a catalog claim. Known misdirected citations are prohibited by automated integrity tests.
 
+## Claim-level source review leads
+
+The checked-in `Noemorph/data/claim-review-2026-11-05-core-theories.json` registers an initial set of **20 review leads across 10 priority theories**. This is a separate annotation layer, not new theories and not a source-verification milestone. At load time, `backend.claim_evidence` resolves each claim from an existing catalog `claim_scope.target` or `boundary_note` field and checks that the nominated source URL is already cited by that same record.
+
+The public site and desktop inspector show these as **unreviewed bibliography leads**. Their `source-url-only` locators are not passage locators; even a DOI-resolved or bibliographically human-verified citation does **not** establish that the work supports or refutes a specific claim. No claim-level human verification, source support/refutation edges, or theory-to-theory relationships are published by this tranche. The API retains the original numeric source IDs for compatibility and additionally returns a deterministic `source_uid` for future source identity work.
+
+Reviewers should consult the original work, identify an exact in-source passage or page, check work identity and interpretation, and record a substantive determination **in a future independent review mechanism**, not by changing `review_state` in this lead file. The loader rejects attempts to mark these leads verified or to reference a source absent from the record. The next milestone is a reviewer-aware, append-only claim evidence ledger.
+
 ## Local semantic candidate analysis
 
 The **Relationship review** workspace is a separate, review-only queue. It does not draw semantic edges on the Taxonomic Atlas and it does not unlock `/api/graph/relationships`. Every row is a machine-generated research lead; embedding proximity is not represented as correlation, causation, influence, equivalence, support, refutation, or novelty.
