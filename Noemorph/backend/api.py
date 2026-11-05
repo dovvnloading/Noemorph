@@ -211,6 +211,11 @@ def create_app(
     def coverage() -> dict[str, object]:
         return repository.coverage()
 
+    @app.get("/api/profile-quality")
+    def profile_quality() -> dict[str, Any]:
+        """Current editorial completeness, never a ranking of theoretical validity."""
+        return repository.profile_quality()
+
     @app.get("/api/graph/taxonomy")
     def taxonomy_graph() -> dict[str, object]:
         return repository.taxonomy_graph()
