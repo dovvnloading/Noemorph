@@ -4,6 +4,7 @@ import { AtlasInspector } from './components/AtlasInspector'
 import { CatalogView } from './components/CatalogView'
 import { DiscoveryInspector } from './components/DiscoveryInspector'
 import { recordMatches, recordSearchRank } from './components/atlasModel'
+import { parseComparisonIds } from './components/recordComparison'
 import { MethodsView } from './components/MethodsView'
 import { RecordInspector } from './components/RecordInspector'
 import { SourcesView } from './components/SourcesView'
@@ -48,7 +49,8 @@ const VIEW_TITLES: Record<ViewKey, string> = {
 }
 
 export default function App() {
-  const [view, setView] = useState<ViewKey>('atlas')
+  const [view, setView] = useState<ViewKey>(() => parseComparisonIds(window.location.search).length === 2 ? 'catalog' : 'atlas')
+  const [comparisonIds, setComparisonIds] = useState<string[]>(() => parseComparisonIds(window.location.search))
   const [recordQuery, setRecordQuery] = useState('')
   const [sourceQuery, setSourceQuery] = useState('')
   const [semanticQuery, setSemanticQuery] = useState('')
@@ -140,6 +142,39 @@ export default function App() {
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [view])
+
+  useEffect(() => {
+    if (!data || comparisonIds.length !== 2) return
+    if (comparisonIds.some((id) => !data.records.some((record) => record.id === id))) {
+      setComparisonIds([])
+    }
+  }, [comparisonIds, data])
+
+  useEffect(() => {
+    const url = new URL(window.location.href)
+    if (comparisonIds.length === 2) {
+      url.searchParams.set('compare', comparisonIds.join(','))
+      url.searchParams.delete('record')
+    } else {
+      url.searchParams.delete('compare')
+    }
+    window.history.replaceState(null, '', url.href)
+  }, [comparisonIds])
+
+  useEffect(() => {
+    if (comparisonIds.length === 2 && view === 'catalog' && catalogScope === 'catalog' && data) {
+      window.requestAnimationFrame(() => document.getElementById('compare-title')?.focus({ preventScroll: true }))
+    }
+  }, [comparisonIds, view, catalogScope, data])
+
+  const toggleComparison = (id: string) => {
+    setComparisonIds((current) => {
+      if (current.includes(id)) return current.filter((item) => item !== id)
+      if (current.length === 2) return current
+      return [...current, id]
+    })
+    setInspectorOpen(false)
+  }
 
   const records = data?.records ?? []
   const selectedRecord = useMemo(
@@ -237,6 +272,9 @@ export default function App() {
           onSelectDiscovery={handleSelectDiscovery}
           selectedId={selectedId}
           onSelect={handleSelect}
+          comparisonIds={comparisonIds}
+          onToggleComparison={toggleComparison}
+          onClearComparison={() => setComparisonIds([])}
           query={recordQuery}
           selectedKind={selectedKind}
           onKindChange={setSelectedKind}
