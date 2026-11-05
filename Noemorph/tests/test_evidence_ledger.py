@@ -81,6 +81,15 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
         self.assertTrue(result["sources"][0]["recorded_agreement_is_not_verification"])
         self.assertIn("self-declared", result["identity_note"])
 
+    def test_reviewer_identifier_case_does_not_create_fake_independence(self) -> None:
+        initialize_evidence_database(self.db)
+        self.record_review("Reviewer-A")
+        self.record_review("reviewer-a")
+        history = self.ledger.history(self.record_id, self.claim_id)
+        self.assertEqual(history["sources"][0]["active_reviewer_count"], 1)
+        self.assertEqual(history["sources"][0]["status"], "single-review")
+        self.assertEqual(self.ledger.status()["reviewer_label_count"], 1)
+
     def test_conflict_and_latest_event_per_reviewer(self) -> None:
         initialize_evidence_database(self.db)
         self.record_review("reviewer-a")
