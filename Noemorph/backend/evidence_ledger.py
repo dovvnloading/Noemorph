@@ -291,7 +291,7 @@ class ClaimEvidenceLedger:
             elif votes == {"inconclusive"}:
                 status = "inconclusive"
             elif len(votes) == 1:
-                status = "independent-agreement-recorded"
+                status = "recorded-concordance"
             else:
                 status = "disagreement"
             sources.append({
