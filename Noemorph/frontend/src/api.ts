@@ -2,6 +2,7 @@ import type {
   CatalogMetadata,
   CatalogResponse,
   CoverageResponse,
+  ClaimEvidenceHistory,
   DiscoveryResponse,
   SemanticCandidateDetail,
   SemanticPriorArtScreen,
@@ -148,6 +149,17 @@ export async function updateSemanticReview(candidateId: string, review: Semantic
     body: JSON.stringify(review),
   })
   return normalizeSemanticDetail(payload)
+}
+
+export function loadClaimEvidenceHistory(
+  recordId: string,
+  claimId: string,
+  signal?: AbortSignal,
+): Promise<ClaimEvidenceHistory> {
+  return request<ClaimEvidenceHistory>(
+    `/api/claim-evidence/records/${encodeURIComponent(recordId)}/claims/${encodeURIComponent(claimId)}`,
+    { signal },
+  )
 }
 
 export async function loadWorkspace() {
