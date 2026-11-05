@@ -175,10 +175,11 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
             APP_DIR, serve_frontend=False,
             claim_evidence_db_path=self.db,
         )
-        with TestClient(app) as client:
+        with TestClient(app, client=("127.0.0.1", 5555)) as client:
             status = client.get("/api/claim-evidence/status")
             self.assertEqual(status.status_code, 200)
             self.assertEqual(status.json()["event_count"], 1)
+            self.assertEqual(status.headers["cache-control"], "no-store")
             item = client.get(
                 f"/api/claim-evidence/records/{self.record_id}/claims/{self.claim_id}"
             )
@@ -198,6 +199,14 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
             relation = client.get("/api/graph/relationships")
             self.assertEqual(relation.status_code, 423)
             self.assertEqual(self.ledger.status()["event_count"], 1)
+
+        with TestClient(app, client=("192.0.2.22", 4321)) as remote:
+            denied = remote.get("/api/claim-evidence/status")
+            self.assertEqual(denied.status_code, 403)
+            denied_history = remote.get(
+                f"/api/claim-evidence/records/{self.record_id}/claims/{self.claim_id}"
+            )
+            self.assertEqual(denied_history.status_code, 403)
 
 
 if __name__ == "__main__":
