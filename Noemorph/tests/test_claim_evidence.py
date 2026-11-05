@@ -85,7 +85,13 @@ class ClaimReviewRejectsOverclaimsTests(unittest.TestCase):
             ],
         }
         self.payload = {
-            "collection": {"review_state": "unreviewed-source-leads"},
+            "collection": {
+                "name": "Test collection",
+                "created": "2026-11-05",
+                "review_state": "unreviewed-source-leads",
+                "method": "Unit test leads only",
+                "limits": "No passage review or evidence support asserted",
+            },
             "records": [
                 {"id": "example-record", "claims": [
                     {
