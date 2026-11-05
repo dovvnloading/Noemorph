@@ -3,144 +3,161 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Noemorph is an open, citation-first research atlas of mind and consciousness. Explore a collection in progress, its sources, and its limits.">
-  <meta name="theme-color" content="#101c1a">
-  <title>Noemorph — an open atlas of mind &amp; consciousness</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Explore consciousness research by question, concept, or source. A thoughtful, open research index—not a claim to have solved the mind.">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>Noemorph — A field guide to consciousness</title>
   <link rel="stylesheet" href="discovery.css">
   <link rel="stylesheet" href="atlas.css">
-  <link rel="stylesheet" href="atlas.css">
+  <link rel="stylesheet" href="styles.css">
   <script src="discovery.js" defer></script>
-  <script src="atlas.js" defer></script>
   <script src="atlas.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
-  <a class="brand" href="#top" aria-label="Noemorph home"><span class="brand-mark" aria-hidden="true">✳</span><span>noemorph</span></a>
-  <nav aria-label="Main navigation"><a href="#discover">Discovery</a><a href="#atlas">Visual atlas</a><a href="#approach">Approach</a><a href="#catalog">Browse records</a><a href="#participate">Contribute <span aria-hidden="true">↗</span></a></nav>
+  <a class="brand" href="#top" aria-label="Noemorph home"><span class="brand-mark" aria-hidden="true">✳</span>noemorph<span class="brand-suffix"> / the mind index</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#catalog">Explore</a>
+    <a href="#discover">Guided paths</a>
+    <a href="#atlas">Map</a>
+    <a class="nav-repo" href="https://github.com/dovvnloading/Noemorph">GitHub <span aria-hidden="true">↗</span></a>
+  </nav>
 </header>
 <main id="main">
-<section class="hero" id="top">
-  <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> OPEN RESEARCH ATLAS <span class="eyebrow-divider">/</span> COLLECTION PHASE</p>
-    <h1>Making space<br>for <em>mind.</em></h1>
-    <p class="hero-intro">A citation-first atlas of the many ways we study, describe, and question consciousness.</p>
-    <p class="hero-sub">Explore theories, philosophical positions, traditions, and clinical models—together with the sources and boundaries that give them context.</p>
-    <div class="actions"><a class="button button-light" href="#discover">Start with a question <span aria-hidden="true">↗</span></a><a class="text-link light-link" href="#catalog">Browse the full atlas <span aria-hidden="true">↓</span></a></div>
-  </div>
-  <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="orbit orbit-four"></div><div class="art-center"><span>THE STUDY OF</span><strong>experience</strong><span>IS AN OPEN QUESTION</span></div><i class="point p1"></i><i class="point p2"></i><i class="point p3"></i><i class="point p4"></i><div class="art-label art-label-one">MIND <span>01 / ∞</span></div><div class="art-label art-label-two">A LIVING COLLECTION<br>OF IDEAS &amp; SOURCES</div></div>
-  <div class="hero-foot"><span>AN OPEN INVITATION TO LOOK CLOSER</span><span>SCROLL TO EXPLORE ↓</span></div>
-</section>
-<section class="discovery-section" id="discover" aria-labelledby="discovery-heading">
-  <div class="section-wrap discovery-layout">
-    <header class="discovery-heading">
-      <div><div class="section-tag"><span>01</span> START HERE</div><h2 id="discovery-heading">Follow your<br><em>curiosity.</em></h2></div>
-      <div class="discovery-heading-copy"><p class="lead">You don't need to know the terminology to start exploring.</p><p>Choose a question to reveal a short, curated route through different research perspectives. Open the notes when you're curious, or jump into the full cited record at any point.</p><p class="discovery-intro-caveat">These are reading routes, not quizzes, rankings, or scientific verdicts.</p></div>
-    </header>
-    <div id="discovery-status" class="discovery-status" role="status" aria-live="polite">Preparing the discovery journeys…</div>
-    <div id="discovery-choices" class="discovery-choices" tabindex="-1" aria-label="Choose a discovery question"></div>
-    <section id="discovery-stage" class="discovery-stage" tabindex="-1" aria-label="Guided discovery journey" hidden></section>
-    <noscript><p>The interactive journeys require JavaScript. You can still <a href="#catalog">browse the full research atlas</a>.</p></noscript>
-  </div>
-</section>
-<section class="atlas-section" id="atlas" aria-labelledby="atlas-heading">
-  <div class="section-wrap atlas-layout">
-    <header class="atlas-heading">
-      <div>
-        <div class="section-tag"><span>02</span> THE VISUAL ATLAS</div>
-        <h2 id="atlas-heading">Find your place<br><em>among ideas.</em></h2>
-      </div>
-      <div>
-        <p class="lead">Explore the collection like a constellation.</p>
-        <p>Choose a research type, zoom into its domains, and open a record. Every line shows <strong>category membership only</strong>, not agreement or evidence between theories.</p>
-        <p class="atlas-heading-caveat"><span id="atlas-record-total">595</span> indexed entries · organization, not conceptual synthesis</p>
-      </div>
-    </header>
-    <div class="atlas-explorer">
-      <div class="atlas-toolbar">
-        <div class="atlas-breadcrumbs">
-          <button type="button" id="atlas-home">All record types</button>
-          <button type="button" id="atlas-back" disabled>← Go up one level</button>
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> AN OPEN RESEARCH INDEX <span class="eyebrow-divider">·</span> COLLECTION IN PROGRESS</p>
+      <h1 id="hero-title">The mind is a<br><em>question.</em></h1>
+      <p class="hero-intro">A calmer way to explore what consciousness is, how we study it, and what we still don't know.</p>
+      <form id="hero-search-form" class="hero-search" role="search" aria-label="Search the Noemorph collection">
+        <label for="search">Search the collection</label>
+        <div class="hero-search-field">
+          <span aria-hidden="true" class="search-symbol">⌕</span>
+          <input id="search" type="search" placeholder="A theory, a question, a researcher…" autocomplete="off">
+          <button type="submit">Explore <span aria-hidden="true">↗</span></button>
         </div>
-        <div class="atlas-filters">
-          <label for="atlas-kind-filter">Research type
-            <select id="atlas-kind-filter"><option value="">All record types</option></select>
-          </label>
-          <label for="atlas-search">Find an idea
-            <input type="search" id="atlas-search" placeholder="Search any record or domain" autocomplete="off">
-          </label>
-        </div>
-      </div>
-      <div class="atlas-main-grid">
-        <div class="atlas-map-column">
-          <p id="atlas-status" class="atlas-status" tabindex="-1" role="status" aria-live="polite">Preparing the visual atlas…</p>
-          <div class="atlas-canvas-shell">
-            <svg id="atlas-svg" viewBox="0 0 1000 600" role="group" aria-label="Interactive taxonomic constellation. Use Tab to focus a node and Enter to explore, or use the matching list beside the map. Arrow keys pan; plus and minus zoom." preserveAspectRatio="xMidYMid meet"></svg>
-            <div class="atlas-zoom-controls" aria-label="Map viewport controls">
-              <button type="button" id="atlas-zoom-in" aria-label="Zoom in">+</button>
-              <button type="button" id="atlas-zoom-out" aria-label="Zoom out">−</button>
-              <button type="button" id="atlas-zoom-reset">100% · Reset view</button>
-            </div>
-          </div>
-          <div class="atlas-map-footer">
-            <p>Drag to pan · Scroll to zoom · Tab to select nodes. No theory-to-theory links are shown.</p>
-            <div class="atlas-pages">
-              <button type="button" id="atlas-previous" disabled>← Previous</button>
-              <span id="atlas-page-label">Page 1</span>
-              <button type="button" id="atlas-next" disabled>Next →</button>
-            </div>
-          </div>
-        </div>
-        <aside class="atlas-explorer-sidebar" aria-label="Accessible atlas categories and records">
-          <h3>Explore the visible nodes</h3>
-          <p>Every selectable node also appears here for keyboard and screen-reader navigation.</p>
-          <ol id="atlas-node-list" class="atlas-node-list"></ol>
-          <div id="atlas-record-detail" class="atlas-record-detail">
-            <p>Choose a record to inspect its source trail.</p>
-          </div>
-        </aside>
-      </div>
-      <p class="atlas-policy">Organizational spokes connect the current collection category to its members. They never represent a scientific relationship, source support, endorsement, or a verified theory link. The research-synthesis gate remains locked.</p>
+      </form>
+      <p class="hero-search-hint">Browse <span id="hero-record-count">595</span> research entries. Sources and uncertainty included.</p>
     </div>
-    <noscript><p>The interactive map requires JavaScript; the <a href="#catalog">full catalog</a> is still browsable.</p></noscript>
-  </div>
-</section>
-<section class="intro section-wrap" id="approach"><div class="section-tag"><span>03</span> THE PURPOSE</div><div><h2>One question.<br><em>Many ways in.</em></h2><div class="intro-grid"><p class="lead">Consciousness is studied across disciplines, traditions, and scales. No single map can settle the question.</p><div><p>Noemorph brings records and their citations into one browsable collection. It is designed to help curious readers find their bearings, follow a source, and see where a claim begins and ends.</p><p>This is a collection in progress—not a finished synthesis or a claim to completeness. Inclusion of a position is not endorsement.</p></div></div></div></section>
-<section class="principles"><div class="section-wrap"><div class="principles-head"><div class="section-tag"><span>04</span> OUR APPROACH</div><h2>A map with<br><em>its edges showing.</em></h2><p>Good research makes its sources visible and its uncertainties legible. These are the principles behind the collection.</p></div><div class="principle-grid"><article><span>01 / TRACE</span><h3>Follow the source.</h3><p>Each record points to retained citations, with source roles and verification states where available. A recorded locator is a starting point, not proof that a source supports every claim.</p></article><article><span>02 / DISTINGUISH</span><h3>Keep differences intact.</h3><p>Scientific theories, philosophical positions, lived traditions, constructs, and clinical models are separately typed rather than treated as interchangeable theories.</p></article><article><span>03 / QUESTION</span><h3>Leave room for review.</h3><p>The collection has no fixed denominator. Relationships between ideas remain locked until the coverage protocol and independent review are complete.</p></article></div></div></section>
-<section class="catalog-section section-wrap" id="catalog"><div class="catalog-heading"><div><div class="section-tag"><span>05</span> THE COLLECTION</div><h2>Explore the <em>atlas.</em></h2></div><p>Start with a question, a name, or a discipline. Open a record to examine its description, limits, and citations, then share it or export its references.</p></div>
-<div class="notice"><span aria-hidden="true">✳</span><p><strong>A note on interpretation.</strong> Records are provisional research entries. Citation locators and DOI resolution do not by themselves verify that a source supports a claim. Non-consensus positions are included for study, not endorsement.</p></div>
-<div class="catalog-controls" role="search" aria-label="Filter catalog records">
-  <label class="search-label" for="search">Search the collection<span class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try attention, self, or a researcher" autocomplete="off"></span></label>
-  <label for="kind">Filter by record type<select id="kind"><option value="">All record types</option></select></label>
-</div>
-<div class="catalog-filter-actions">
-  <details class="advanced-filters"><summary>More filters</summary>
-    <div class="advanced-grid">
-      <label for="domain">Domain<select id="domain"><option value="">All domains</option></select></label>
-      <label for="tradition">Tradition<select id="tradition"><option value="">All traditions</option></select></label>
-      <label for="review">Record review state<select id="review"><option value="">All review states</option></select></label>
-      <label for="verification">Citation verification<select id="verification">
-        <option value="">Any citation status</option>
-        <option value="human-verified">At least one human-verified citation</option>
-        <option value="doi-resolved">At least one DOI-resolved citation</option>
-        <option value="locator-recorded">At least one recorded locator</option>
-        <option value="pending-metadata-review">At least one pending metadata review</option>
-      </select></label>
+    <div class="hero-prompts">
+      <div class="hero-prompts-head"><h2>Or follow a question</h2><span>THREE STARTING POINTS</span></div>
+      <div class="prompt-grid">
+        <a href="?journey=experience&amp;step=1#discover"><span>01 / EXPERIENCE</span><strong>What makes us conscious?</strong><span class="prompt-arrow" aria-hidden="true">↗</span></a>
+        <a href="?journey=machines&amp;step=1#discover"><span>02 / MACHINES</span><strong>Could AI be conscious?</strong><span class="prompt-arrow" aria-hidden="true">↗</span></a>
+        <a href="?journey=awareness&amp;step=1#discover"><span>03 / AWARENESS</span><strong>Is attention the same as awareness?</strong><span class="prompt-arrow" aria-hidden="true">↗</span></a>
+      </div>
     </div>
-    <p class="filter-note">Citation filters find records with at least one citation in that state. They do not verify all claims in a record.</p>
-  </details>
-  <button type="button" id="reset-filters" class="reset-filters">Clear filters</button>
-</div>
-<div class="public-comparison-toolbar" aria-label="Choose two catalog records for comparison">
-  <p id="comparison-status" aria-live="polite">Open two records and select Compare to inspect them side by side.</p>
-  <button type="button" id="clear-comparison" hidden>Clear comparison</button>
-</div>
-<section id="comparison" class="public-comparison" aria-label="Read-only side-by-side record comparison" tabindex="-1" hidden></section>
-<div class="catalog-meta"><p id="results-status" aria-live="polite" tabindex="-1">Loading the collection…</p><span>SELECT A RECORD TO EXPLORE ↓</span></div><div id="records" class="records"></div><div id="pagination" class="pagination"></div><noscript><p>The catalog search requires JavaScript. The complete catalog is available in the project source.</p></noscript>
-</section>
-<section class="participate" id="participate"><div class="section-wrap participate-grid"><div><div class="section-tag"><span>06</span> AN OPEN INVITATION</div><h2>Better questions<br>are a <em>shared effort.</em></h2></div><div><p class="lead">Help make the atlas more useful, more careful, and more accessible.</p><p>Suggest a source, identify a gap, improve an entry, or help review its evidence. Contributions from different disciplines and communities can make the collection stronger.</p><a class="button button-dark repo-link" href="https://github.com/dovvnloading/Noemorph">Explore the repository <span aria-hidden="true">↗</span></a><p class="small-note">Please bring context, citations, and a willingness to question assumptions.</p></div></div></section>
-</main>
-<footer><div class="footer-top"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✳</span><span>noemorph</span></a><p>An open research atlas for<br>mind and consciousness.</p><a href="#top">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>BUILT FOR CURIOSITY &amp; CAREFUL RESEARCH</span><span>COLLECTION PHASE · OPEN TO CONTRIBUTION</span></div></footer>
-</body></html>
+  </section>
 
+  <section class="catalog-section section-wrap" id="catalog" aria-labelledby="catalog-heading">
+    <header class="catalog-heading">
+      <div><p class="eyebrow eyebrow-dark">THE COLLECTION / 01</p><h2 id="catalog-heading">Browse the ideas.</h2></div>
+      <p>Short introductions first. Expand only what interests you. Every record keeps its original sources and review boundaries.</p>
+    </header>
+    <div class="catalog-controls" aria-label="Filter catalog records">
+      <label for="kind">Record type<select id="kind"><option value="">All record types</option></select></label>
+      <details class="advanced-filters"><summary>More filters <span aria-hidden="true">+</span></summary>
+        <div class="advanced-grid">
+          <label for="domain">Domain<select id="domain"><option value="">All domains</option></select></label>
+          <label for="tradition">Tradition<select id="tradition"><option value="">All traditions</option></select></label>
+          <label for="review">Record review state<select id="review"><option value="">All review states</option></select></label>
+          <label for="verification">Citation metadata status<select id="verification">
+            <option value="">All citation statuses</option>
+            <option value="human-verified">At least one human-verified citation</option>
+            <option value="doi-resolved">At least one DOI-resolved citation</option>
+            <option value="locator-recorded">At least one recorded locator</option>
+            <option value="pending-metadata-review">At least one pending metadata review</option>
+          </select></label>
+        </div>
+        <p class="filter-note">Citation metadata checks are not verification of a research claim.</p>
+      </details>
+      <button type="button" id="reset-filters" class="reset-filters">Reset</button>
+    </div>
+    <div class="catalog-meta"><p id="results-status" aria-live="polite" tabindex="-1">Loading the collection…</p><span>SELECT A RECORD TO READ MORE</span></div>
+    <div id="comparison-tools" class="comparison-tools" hidden>
+      <div class="public-comparison-toolbar">
+        <p id="comparison-status" aria-live="polite">Choose two records for a read-only comparison.</p>
+        <button type="button" id="clear-comparison" hidden>Clear comparison</button>
+      </div>
+    </div>
+    <section id="comparison" class="public-comparison" aria-label="Read-only side-by-side record comparison" tabindex="-1" hidden></section>
+    <div id="records" class="records" aria-label="Catalog records"></div>
+    <div id="pagination" class="pagination"></div>
+    <p class="catalog-integrity"><span aria-hidden="true">ⓘ</span> Inclusion is not endorsement. A citation or DOI is a lead to investigate, not proof that a specific claim is supported.</p>
+    <noscript><p>The search and record expansion require JavaScript. The full dataset is available in the <a href="https://github.com/dovvnloading/Noemorph">repository</a>.</p></noscript>
+  </section>
+
+  <section class="secondary-tools section-wrap" aria-label="Optional ways to explore">
+    <div class="section-divider"><span>GO FURTHER / 02</span><h2>Explore another way.</h2></div>
+    <section class="secondary-tool" id="discover" aria-labelledby="discovery-heading">
+      <details id="discovery-disclosure">
+        <summary><span class="tool-index">01</span><span class="tool-title"><strong id="discovery-heading">Guided reading paths</strong><small>Short, curated routes through real catalog entries.</small></span><span class="tool-toggle" aria-hidden="true">+</span></summary>
+        <div class="secondary-tool-body">
+          <p class="tool-caveat">Choose a question, reveal one perspective at a time, and open the original record whenever you want. These are reading routes—not rankings or scientific verdicts.</p>
+          <div id="discovery-status" role="status" aria-live="polite">Preparing reading paths…</div>
+          <div id="discovery-choices" tabindex="-1" aria-label="Choose a discovery question"></div>
+          <section id="discovery-stage" tabindex="-1" aria-label="Guided discovery journey" hidden></section>
+        </div>
+      </details>
+    </section>
+    <section class="secondary-tool" id="atlas" aria-labelledby="atlas-heading">
+      <details id="atlas-disclosure">
+        <summary><span class="tool-index">02</span><span class="tool-title"><strong id="atlas-heading">The visual map</strong><small>Browse by record type, domain, and individual entry.</small></span><span class="tool-toggle" aria-hidden="true">+</span></summary>
+        <div class="secondary-tool-body atlas-section">
+          <p class="tool-caveat">A visual index of <span id="atlas-record-total">595</span> entries. Every line shows category membership only. No theory-to-theory links are shown. The research-synthesis gate remains locked.</p>
+          <div class="atlas-explorer">
+            <div class="atlas-toolbar">
+              <div class="atlas-breadcrumbs">
+                <button type="button" id="atlas-home">All record types</button>
+                <button type="button" id="atlas-back" disabled>← Go up</button>
+              </div>
+              <div class="atlas-filters">
+                <label for="atlas-kind-filter">Type<select id="atlas-kind-filter"><option value="">All record types</option></select></label>
+                <label for="atlas-search">Search the map<input type="search" id="atlas-search" placeholder="Find an idea or domain"></label>
+              </div>
+            </div>
+            <div class="atlas-main-grid">
+              <div class="atlas-map-column">
+                <p id="atlas-status" class="atlas-status" tabindex="-1" role="status" aria-live="polite">Preparing the map…</p>
+                <div class="atlas-canvas-shell">
+                  <svg id="atlas-svg" viewBox="0 0 1000 600" role="group" aria-label="Interactive category map. Tab to focus a node, Enter to explore; arrow keys pan and plus/minus zoom. An equivalent text list follows." preserveAspectRatio="xMidYMid meet"></svg>
+                  <div class="atlas-zoom-controls">
+                    <button type="button" id="atlas-zoom-in" aria-label="Zoom in">+</button>
+                    <button type="button" id="atlas-zoom-out" aria-label="Zoom out">−</button>
+                    <button type="button" id="atlas-zoom-reset">100% · Reset view</button>
+                  </div>
+                </div>
+                <div class="atlas-map-footer">
+                  <p>Drag to pan · Scroll to zoom · Tab to select</p>
+                  <div class="atlas-pages">
+                    <button type="button" id="atlas-previous" disabled>← Previous</button>
+                    <span id="atlas-page-label">Page 1</span>
+                    <button type="button" id="atlas-next" disabled>Next →</button>
+                  </div>
+                </div>
+              </div>
+              <aside class="atlas-explorer-sidebar" aria-label="Accessible category and record list">
+                <h3>Visible entries</h3><p>Select a category or record using this list.</p>
+                <ol id="atlas-node-list" class="atlas-node-list"></ol>
+                <div id="atlas-record-detail" class="atlas-record-detail"><p>Choose a record to read more.</p></div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+  </section>
+
+  <aside class="editorial-note section-wrap">
+    <span aria-hidden="true">✳</span>
+    <p><strong>Research in progress, not a finished answer.</strong> Noemorph brings competing perspectives into a single index without declaring them equivalent, proven, or exhaustive. <a href="https://github.com/dovvnloading/Noemorph">How the research is assembled ↗</a></p>
+  </aside>
+</main>
+<footer>
+  <div class="footer-inner"><div><a class="brand" href="#top">✳ noemorph</a><p>An open index of mind and consciousness.</p></div>
+  <nav aria-label="Footer links"><a href="#catalog">Research catalog</a><a href="#discover">Guided paths</a><a href="https://github.com/dovvnloading/Noemorph">Source and contributions ↗</a></nav></div>
+  <p class="footer-small">COLLECTION PHASE · OPEN TO REVISION</p>
+</footer>
+</body>
+</html>
