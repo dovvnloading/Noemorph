@@ -32,6 +32,79 @@ class CatalogIntegrityTests(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
         self.assertGreaterEqual(len(self.repository.list_sources()), 1000)
 
+    def test_source_roles_and_verification_are_per_citation_use(self) -> None:
+        shared_url = "https://example.org/shared-work"
+
+        def citation(url: str, authority: str, verification: str) -> dict:
+            return {
+                "title": "Test work",
+                "authors": "A. Researcher",
+                "year": 2025,
+                "url": url,
+                "authority": authority,
+                "verification": verification,
+            }
+
+        def record(identifier: str, citations: list[dict]) -> dict:
+            return {
+                "id": identifier,
+                "name": identifier,
+                "kind": "Scientific theory",
+                "domain": "Test domain",
+                "tradition": "Test tradition",
+                "status": "provisional",
+                "summary": "A test record.",
+                "proponents": [],
+                "citations": citations,
+            }
+
+        payload = {
+            "metadata": {"version": "test"},
+            "records": [
+                record("record-a", [
+                    citation(shared_url, "primary-original", "human-verified"),
+                    citation("https://example.org/unique-a", "scholarly-secondary", "locator-recorded"),
+                ]),
+                record("record-b", [
+                    citation(shared_url, "scholarly-secondary", "locator-recorded"),
+                    citation("https://example.org/unique-b", "primary-original", "doi-resolved"),
+                ]),
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "catalog.json"
+            path.write_text(json.dumps(payload), encoding="utf-8")
+            repository = CatalogRepository(path)
+            sources = repository.list_sources()
+            shared = next(source for source in sources if source["url"] == shared_url)
+
+            self.assertEqual(shared["used_by"], ["record-a", "record-b"])
+            self.assertEqual(
+                shared["authority_roles"], ["primary-original", "scholarly-secondary"]
+            )
+            self.assertEqual(
+                shared["verification_states"], ["human-verified", "locator-recorded"]
+            )
+            self.assertEqual(
+                shared["uses"],
+                [
+                    {"record_id": "record-a", "authority": "primary-original",
+                     "verification": "human-verified", "url": shared_url},
+                    {"record_id": "record-b", "authority": "scholarly-secondary",
+                     "verification": "locator-recorded", "url": shared_url},
+                ],
+            )
+            self.assertNotIn("authority", shared)
+            self.assertNotIn("verification", shared)
+            self.assertIn(
+                shared["id"],
+                {source["id"] for source in repository.list_sources(authority="primary-original")},
+            )
+            self.assertIn(
+                shared["id"],
+                {source["id"] for source in repository.list_sources(authority="scholarly-secondary")},
+            )
+
     def test_awareness_clinical_and_comparative_strata_are_present(self) -> None:
         names = {record["name"] for record in self.records}
         expected = {
