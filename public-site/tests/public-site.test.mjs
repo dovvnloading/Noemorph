@@ -7,6 +7,26 @@ import vm from 'node:vm';
 
 const dist = resolve(dirname(fileURLToPath(import.meta.url)), '../dist');
 const script = readFileSync(resolve(dist, 'app.js'), 'utf8');
+const discoveryScript = readFileSync(resolve(dist, 'discovery.js'), 'utf8');
+const curated = JSON.parse(readFileSync(resolve(dist, 'discovery-journeys.json'), 'utf8'));
+const curatedIds = [...new Set([
+  ...curated.journeys.flatMap(path => path.steps.map(step => step.record_id)),
+  ...curated.surprise.record_ids,
+])];
+const curatedRecords = curatedIds.map(id => ({
+  id, name: 'Catalog record ' + id, kind: 'Model or framework',
+  domain: 'Research', tradition: 'Various', review_state: 'provisional',
+  summary: 'A provisional catalog summary for ' + id + '.',
+  claim_scope: { target: 'A narrower research question.' },
+  boundary_note: 'This explanation does not establish claim verification.',
+  open_questions: ['What evidence would discriminate this interpretation?'],
+  proponents: [],
+  citations: [{
+    title: 'Research source', authors: 'Researcher', year: 2024,
+    url: 'https://example.org/research', authority: 'primary-original',
+    verification: 'doi-resolved',
+  }],
+}));
 const html = readFileSync(resolve(dist, 'index.html'), 'utf8');
 
 const records = [
@@ -42,7 +62,7 @@ const records = [
   },
 ];
 
-async function boot(locationHref = 'https://example.org/Noemorph/') {
+async function boot(locationHref = 'https://example.org/Noemorph/', options = {}) {
   class FakeElement {
     constructor() {
       this.value = '';
@@ -68,7 +88,8 @@ async function boot(locationHref = 'https://example.org/Noemorph/') {
   }
   const ids = ['#records', '#results-status', '#search', '#kind',
     '#domain', '#tradition', '#review', '#verification', '#reset-filters', '#pagination',
-    '#comparison', '#comparison-status', '#clear-comparison'];
+    '#comparison', '#comparison-status', '#clear-comparison',
+    '#discover', '#discovery-choices', '#discovery-stage', '#discovery-status'];
   const elements = Object.fromEntries(ids.map(id => [id, new FakeElement()]));
   const selectedSummary = new FakeElement();
   const downloaded = [];
@@ -77,21 +98,41 @@ async function boot(locationHref = 'https://example.org/Noemorph/') {
   FakeURL.createObjectURL = blob => { downloaded.push(blob); return 'blob:test'; };
   FakeURL.revokeObjectURL = () => {};
 
+  const listeners = {};
   const window = {
     location: { href: locationHref },
-    history: { replaceState: (_state, _title, url) => { window.location.href = url; } },
+    history: {
+      replaceState: (_state, _title, url) => { window.location.href = url; },
+      pushState: (_state, _title, url) => { window.location.href = url; },
+    },
     requestAnimationFrame: fn => fn(),
     setTimeout: fn => fn(),
+    addEventListener: (name, fn) => { listeners[name] = fn; },
+    listeners,
   };
   const document = {
     querySelector: selector => elements[selector] || null,
     createElement: () => new FakeElement(),
     body: { append: link => links.push(link) },
   };
+  const availableRecords = options.discovery ? [...records, ...curatedRecords] : records;
   const context = {
     document, window, URL: FakeURL, URLSearchParams, Blob, Element: FakeElement,
-    fetch: () => Promise.resolve({ ok: true, json: () => Promise.resolve({ records }) }),
+    fetch: path => {
+      if (path === 'catalog.json' && options.catalogFailure) {
+        return Promise.resolve({ ok: false });
+      }
+      if (path === 'discovery-journeys.json') {
+        return Promise.resolve(options.discoveryFailure
+          ? { ok: false }
+          : { ok: true, json: () => Promise.resolve(curated) });
+      }
+      return Promise.resolve({
+        ok: true, json: () => Promise.resolve({ records: availableRecords }),
+      });
+    },
   };
+  vm.runInNewContext(discoveryScript, context, { filename: 'public-site/dist/discovery.js' });
   vm.runInNewContext(script, context, { filename: 'public-site/dist/app.js' });
   await new Promise(resolve => setImmediate(resolve));
   return { elements, selectedSummary, downloaded, links, FakeElement, window };
