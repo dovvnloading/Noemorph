@@ -84,6 +84,20 @@ The same information is available through the read-only `/api/profile-quality` e
 
 The historical 577-record audit remains archived as a snapshot. `Noemorph/data/coverage-report.json` and the new profile report track the current merged corpus; automated checks now reject stale profile report snapshots.
 
+## Read-only record comparison
+
+The desktop **Record catalog** and the [public atlas](https://dovvnloading.github.io/Noemorph/) now let readers **select exactly two reviewed catalog records** and inspect their entries side by side. Open a record on the public website and choose **Compare this record**; choose a second entry to show both. The desktop table offers a dedicated **Compare** control per row. Each side retains its own kind, domain, summary, scope, boundaries, evidence profile, open questions, citation roles, and citation verification states.
+
+Comparison is an **editorial juxtaposition only**: shared words, shared sources, or visible differences are not evidence of causal influence, conceptual identity, convergence, support, or refutation. No relationship graph edges are generated, and `/api/graph/relationships` stays locked. Claim-level review leads remain unverified; the public site never exports private local review-ledger events.
+
+The pair has a shareable public link using a single `compare` query parameter with two distinct stable record IDs. For example:
+
+```text
+https://dovvnloading.github.io/Noemorph/?compare=seed-026-global-workspace-theory-gwt%2Cseed-027-global-neuronal-workspace-theory-gnwt#catalog
+```
+
+Links are validated against the catalog when opened; unknown or duplicated IDs do not render a misleading comparison. Selection can be cleared, and the interface is keyboard-operable. Comparison does not change the underlying research records, verification states, or collection-phase gate.
+
 ## Local claim evidence review ledger
 
 The first 20 claim-to-bibliography links are **unreviewed source leads**. They remain unchanged in the public catalog. PR #5 adds an **optional, local-only SQLite ledger** for recording human interpretations of a specifically located source passage. Review decisions are not verified publication content and never unlock conceptual relationships.
