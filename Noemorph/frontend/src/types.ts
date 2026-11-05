@@ -238,6 +238,47 @@ export interface CoverageResponse {
   notice: string
 }
 
+export interface ProfileQualityGap {
+  id: string
+  name: string
+  kind: string
+  domain: string
+  missing_fields: string[]
+  missing_field_count: number
+  pending_metadata_citations: number
+  has_primary_citation: boolean
+  citation_count: number
+  triage_priority: number
+}
+
+export interface ProfileQualityReport {
+  schema_version: number
+  catalog_version: string
+  corpus_date: string
+  method: string
+  limitations: string
+  required_profile_fields: string[]
+  triage_formula: string
+  summary: {
+    record_count: number
+    complete_profiles: number
+    incomplete_profiles: number
+    completion_percent: number
+    citation_occurrences: number
+    citation_verification_counts: Record<string, number>
+    missing_required_field_counts: Record<string, number>
+  }
+  by_kind: Array<{
+    kind: string
+    records: number
+    complete_profiles: number
+    incomplete_profiles: number
+    records_with_pending_citations: number
+    records_with_no_primary_anchor: number
+  }>
+  backlog: ProfileQualityGap[]
+}
+
 export interface CatalogMetadata {
   title: string
   version: string

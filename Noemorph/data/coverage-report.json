@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30",
+  "generated_at": "2026-11-05",
   "phase": "collection",
   "coverage_gate": "locked",
   "interpretation": "Counts describe indexed and reviewed material; they are not a claim that the open world of consciousness theories is complete.",
@@ -7,8 +7,8 @@
     "record_count": 595,
     "citation_count": 1256,
     "unique_source_count": 1045,
-    "full_research_profile_count": 453,
-    "research_profile_gap_count": 142,
+    "full_research_profile_count": 463,
+    "research_profile_gap_count": 132,
     "base_record_count": 207,
     "supplements": [
       {
@@ -87,6 +87,11 @@
         "file": "catalog-2026-08-30-core-profile-enrichments-2.json",
         "name": "Core consciousness-theory research-profile enrichments, tranche 2",
         "profile_count": 15
+      },
+      {
+        "file": "catalog-2026-11-05-profile-depth-tranche-1.json",
+        "name": "Profile depth: foundational and high-impact research distinctions (tranche 1)",
+        "profile_count": 10
       }
     ],
     "by_kind": [

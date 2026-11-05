@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react'
+import { loadProfileQuality } from '../api'
+import type { ProfileQualityReport } from '../types'
 import {
   Bar,
   BarChart,
@@ -9,7 +12,27 @@ import {
 } from 'recharts'
 import type { CoverageResponse } from '../types'
 
-export function CoverageView({ coverage }: { coverage: CoverageResponse }) {
+export function CoverageView({ coverage, onInspectRecord }: {
+  coverage: CoverageResponse
+  onInspectRecord?: (recordId: string) => void
+}) {
+  const [quality, setQuality] = useState<ProfileQualityReport | null>(null)
+  const [qualityError, setQualityError] = useState<string | null>(null)
+
+  useEffect(() => {
+    const controller = new AbortController()
+    loadProfileQuality(controller.signal)
+      .then((report) => {
+        if (!controller.signal.aborted) setQuality(report)
+      })
+      .catch((reason: unknown) => {
+        if (!controller.signal.aborted) {
+          setQualityError(reason instanceof Error ? reason.message : 'Profile audit unavailable.')
+        }
+      })
+    return () => controller.abort()
+  }, [])
+
   return (
     <section className="coverage-view view-frame" aria-labelledby="coverage-title">
       <h1 id="coverage-title" className="sr-only">Collection audit</h1>
@@ -24,6 +47,59 @@ export function CoverageView({ coverage }: { coverage: CoverageResponse }) {
           </div>
         </section>
         <p className="coverage-notice">{coverage.notice}</p>
+
+        <section className="protocol-card profile-quality-audit" aria-labelledby="profile-quality-title">
+          <header><h2 id="profile-quality-title">Research profile depth</h2></header>
+          {quality ? (
+            <>
+              <div className="profile-quality-summary">
+                <div>
+                  <strong>{quality.summary.complete_profiles} of {quality.summary.record_count}</strong>
+                  <span>records with all four research-profile fields</span>
+                </div>
+                <div>
+                  <strong>{quality.summary.incomplete_profiles}</strong>
+                  <span>records needing editorial enrichment</span>
+                </div>
+                <div>
+                  <strong>{quality.summary.completion_percent}%</strong>
+                  <span>field completeness, not evidential verification</span>
+                </div>
+              </div>
+              <p className="profile-quality-caveat">{quality.limitations}</p>
+              <div className="profile-quality-kinds">
+                {quality.by_kind.map((row) => (
+                  <div key={row.kind}>
+                    <span>{row.kind}</span>
+                    <strong>{row.complete_profiles}/{row.records}</strong>
+                    <small>{row.incomplete_profiles} incomplete</small>
+                  </div>
+                ))}
+              </div>
+              {quality.backlog.length > 0 && (
+                <details className="profile-quality-backlog">
+                  <summary>Open prioritized editorial queue ({quality.backlog.length} records)</summary>
+                  <p>Priority reflects missing fields and source-metadata follow-up, not scientific importance. Select a record to inspect its existing citations.</p>
+                  <ol>
+                    {quality.backlog.slice(0, 15).map((item) => (
+                      <li key={item.id}>
+                        <button type="button" disabled={!onInspectRecord} onClick={() => onInspectRecord?.(item.id)}>
+                          {item.name}
+                        </button>
+                        <small>{item.kind} · {item.missing_field_count} missing fields · {item.pending_metadata_citations} pending citation metadata</small>
+                      </li>
+                    ))}
+                  </ol>
+                </details>
+              )}
+            </>
+          ) : (
+            <p className="profile-quality-caveat" role="status">
+              {qualityError ? `Current profile audit unavailable: ${qualityError}` : 'Loading research profile quality…'}
+              {' '}The existing collection metrics remain available.
+            </p>
+          )}
+        </section>
 
         <section className="coverage-work" aria-label="Coverage blockers and evidence">
           <article className="protocol-card coverage-blockers">

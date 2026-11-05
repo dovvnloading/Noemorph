@@ -1,0 +1,262 @@
+{
+  "collection": {
+    "name": "Profile depth: foundational and high-impact research distinctions (tranche 1)",
+    "created": "2026-11-05",
+    "record_count": 10,
+    "purpose": "Complete four required research-profile fields for previously shallow catalog records while preserving record identity and citation provenance.",
+    "provenance_note": "Original source-bounded editorial summaries based on the existing cited works and catalog descriptions. Citation locators are retained as leads; this packet does not upgrade citation verification or claim-level support.",
+    "review_requirement": "All entries remain provisional pending independent source-passage review and domain-specific editorial assessment."
+  },
+  "profiles": [
+    {
+      "id": "seed-001-reductive-physicalism-materialism",
+      "claim_scope": {
+        "target": "Whether mental and conscious facts are identical with, or reducible to, physical facts; the precise form of reduction differs among theories.",
+        "level": "Metaphysical and philosophy-of-science claims about the mind–body relation, not a single neural mechanism or clinical assessment.",
+        "does_not_establish": "An empirically unique neural signature, a settled reductive bridge law, or agreement among type-identity, functional, and other physicalist accounts."
+      },
+      "boundary_note": "This umbrella record tracks reductive physicalism, not non-reductive physicalism, eliminativism, or a single scientific theory of phenomenal consciousness. Smart's identity argument is a particular historical proposal, not a demonstration that all versions of physicalism agree.",
+      "evidence_profile": {
+        "basis": [
+          "The retained Stanford Encyclopedia of Philosophy entry on physicalism provides authoritative orientation to the family of physicalist theses and their distinctions.",
+          "J. J. C. Smart's 1959 Sensations and Brain Processes provides a primary historical formulation of mind–brain identity arguments."
+        ],
+        "limitations": [
+          "These sources establish positions and arguments, not an experimental demonstration that any specific reductive account is correct.",
+          "Evidence of neural dependence or correlation alone cannot distinguish reduction from several competing interpretations of the mind–body relation."
+        ],
+        "independence": "One philosophical overview and one primary argument are retained. The primary citation is marked human-verified bibliographically; no claim-by-claim passage verification is asserted by this enrichment."
+      },
+      "open_questions": [
+        "What relation of identity, realization, or reduction could bridge the explanatory gap without redefining the target phenomenon?",
+        "Which physicalist variants make discriminating commitments rather than sharing a broad metaphysical label?",
+        "What would count as evidence against a particular reductive proposal rather than against physical explanation generally?"
+      ]
+    },
+    {
+      "id": "seed-010-illusionism-about-phenomenal-consciousness",
+      "claim_scope": {
+        "target": "Why subjects make judgments about irreducible phenomenal qualities when illusionists deny that those qualities are instantiated.",
+        "level": "Metaphysics, introspective representation, and explanatory psychology of phenomenal judgments.",
+        "does_not_establish": "That perception, affect, subjective reports, or neural processing do not occur, or that all illusionists share one completed psychological mechanism."
+      },
+      "boundary_note": "Illusionism disputes a particular conception of phenomenal properties; it is not the simplistic claim that people have no experiences. Distinguish the general research programme from Dennett's broader multiple-drafts framework and from specific future models of introspective error.",
+      "evidence_profile": {
+        "basis": [
+          "Keith Frankish's 2016 target article is a primary exposition of illusionism and explicitly frames the 'illusion problem' of apparent phenomenal properties.",
+          "Daniel Dennett's Consciousness Explained is retained as an influential related historical discussion; it must not be silently treated as identical to every subsequent illusionist thesis."
+        ],
+        "limitations": [
+          "Philosophical motivation and introspective intuitions do not independently validate a mechanism of phenomenal judgment.",
+          "Showing limits of introspection does not by itself show that all realists' candidate phenomenal properties are illusory."
+        ],
+        "independence": "Both citations are marked human-verified at the bibliographic level in the catalog. Their specific bearing on the boundary claims still needs passage-level independent review."
+      },
+      "open_questions": [
+        "What positive cognitive model predicts the strength and structure of phenomenal judgments?",
+        "How can competing versions of illusionism be distinguished from deflationary forms of phenomenal realism?",
+        "What observation would disconfirm an illusionist explanatory model rather than merely its philosophical framing?"
+      ]
+    },
+    {
+      "id": "seed-045-neural-darwinism-theory-of-neuronal-group-selection",
+      "claim_scope": {
+        "target": "How developmental and experience-dependent selection among neuronal groups, together with reentrant interaction, organize adaptive categorization and conscious processing.",
+        "level": "Systems neuroscience and neurodevelopmental explanatory framework with consciousness-related extensions.",
+        "does_not_establish": "That the broader selection framework alone suffices for consciousness or that neuronal group selection and Dynamic Core Theory are equivalent."
+      },
+      "boundary_note": "Neural Darwinism is a general organizing framework for brain function. Its reentry and selection constructs are related to—but not synonymous with—the later dynamic-core proposal about conscious integration; do not infer a causal or equivalence edge solely from overlap in language.",
+      "evidence_profile": {
+        "basis": [
+          "Edelman, Gally, and Baars's 2011 Biology of Consciousness presents the framework's consciousness-related rationale as a primary author account.",
+          "Kuhn's 2024 landscape supplies a broad secondary taxonomy and should be used for orientation, not independent empirical corroboration of selection mechanisms."
+        ],
+        "limitations": [
+          "Selection and reentry are broad mechanistic concepts that can also characterize processing not identified as conscious.",
+          "The two retained citations do not constitute a controlled experiment uniquely distinguishing the theory from alternative neural dynamics accounts."
+        ],
+        "independence": "The main retained mechanistic exposition is proponent-authored; the other work is a landscape review. DOI resolution is bibliographic, not claim-support verification."
+      },
+      "open_questions": [
+        "Which selection and reentrant dynamics are necessary for the framework's consciousness-related claims?",
+        "How would a neural selection account distinguish conscious categorization from unconscious adaptive learning?",
+        "What evidence would separate the framework's predictions from those of dynamic-core or global-workspace accounts?"
+      ]
+    },
+    {
+      "id": "seed-047-temporal-synchrony-binding-by-synchrony-account",
+      "claim_scope": {
+        "target": "Whether coordinated timing among distributed neural populations binds represented features, and under what conditions that coordination contributes to unified conscious content.",
+        "level": "Neural coding, temporal coordination, and proposed perceptual binding mechanism.",
+        "does_not_establish": "That gamma oscillations are sufficient or necessary for every conscious experience, or that all measured synchrony indicates phenomenal unity."
+      },
+      "boundary_note": "Feature binding and phenomenal consciousness are separate explanatory targets. The temporal synchrony proposal may address relations among neural representations without establishing a standalone theory of consciousness; synchrony observed during unconscious processing cannot be interpreted as a consciousness verdict.",
+      "evidence_profile": {
+        "basis": [
+          "Wolf Singer's 1999 Neuron review frames temporal synchrony as a possible coding strategy for relations among neurons, with attention to distributed recordings.",
+          "Crick and Koch's 1990 Towards a Neurobiological Theory of Consciousness is a historically important consciousness-oriented proposal, not a direct verification of Singer's mechanistic claims."
+        ],
+        "limitations": [
+          "Synchrony can arise from multiple processes, and the choice of recording scale or frequency band can affect its interpretation.",
+          "Correlation between synchrony and performance or report does not establish causal sufficiency for conscious unity."
+        ],
+        "independence": "Both listed works are historical primary theoretical sources. Their human-verified bibliographic status does not prove claim-specific mechanistic support."
+      },
+      "open_questions": [
+        "What intervention selectively disrupts proposed perceptual binding while controlling for attention and sensory encoding?",
+        "Which synchrony signatures discriminate conscious contents from matched unconscious coordination?",
+        "How should frequency, spatial scale, and causal direction enter a falsifiable version of the account?"
+      ]
+    },
+    {
+      "id": "seed-094-theory-theory-of-mindreading",
+      "claim_scope": {
+        "target": "How people interpret and predict others' behavior using structured beliefs and generalizations about mental states, and how those constructs develop.",
+        "level": "Developmental and social-cognitive explanatory framework rather than a theory of phenomenal consciousness.",
+        "does_not_establish": "That every attribution of another's mental state requires explicit reasoning or one fixed innate folk-psychological theory."
+      },
+      "boundary_note": "Theory-Theory is a family of accounts, including developmental conceptual-change and other variants. Keep its explanatory commitments separate from simulation-based, interaction-based, and hybrid mindreading models; an observed false-belief response need not uniquely identify an implicit-theory mechanism.",
+      "evidence_profile": {
+        "basis": [
+          "The Stanford Encyclopedia of Philosophy entry on Folk Psychology as a Theory maps the conceptual thesis and its variants.",
+          "Gopnik and Wellman's 1992 Why the Child's Theory of Mind Really Is a Theory offers a primary developmental and theory-change argument contrasting theory use with simulation."
+        ],
+        "limitations": [
+          "Behavioral tasks can be solved through multiple mechanisms and cannot by themselves reveal whether an implicit theory was deployed.",
+          "Developmental correlations, language demands, and explicit-report tasks limit a simple mapping between performance and representational theory."
+        ],
+        "independence": "The retained SEP overview and 1992 primary argument provide complementary conceptual provenance; the primary DOI is marked resolved, not independently claim-verified."
+      },
+      "open_questions": [
+        "Which experimental predictions distinguish implicit theory use from successful mental simulation?",
+        "How much of mindreading depends on cultural practices, language, and interaction?",
+        "What counts as theory revision rather than acquisition of task-specific strategies?"
+      ]
+    },
+    {
+      "id": "seed-095-simulation-theory-of-mindreading",
+      "claim_scope": {
+        "target": "Whether people predict or explain others by reusing their own decision-making or affective capacities in an offline, other-directed mode.",
+        "level": "Philosophy of social cognition, cognitive modeling, and selected developmental or neuroscience hypotheses.",
+        "does_not_establish": "That all mindreading is simulation, that mirror-neuron activity alone verifies simulation, or that psychological simulation entails a computer-simulation hypothesis."
+      },
+      "boundary_note": "Simulation Theory includes high-level, low-level, and hybrid variants and must remain distinct from Theory-Theory and from literal computer simulation. Projection and adjustments to differences between self and other are central unresolved constraints rather than automatic solutions.",
+      "evidence_profile": {
+        "basis": [
+          "The Stanford Encyclopedia of Philosophy entry Folk Psychology as Mental Simulation maps competing simulation interpretations and objections.",
+          "Robert Gordon's 1986 Folk Psychology as Simulation is a foundational philosophical argument for simulation as an alternative to theory-based attribution."
+        ],
+        "limitations": [
+          "A matching mental-state attribution outcome does not uniquely establish that the attributor simulated it.",
+          "Developmental task demands and alternative inferential strategies complicate mechanistic discrimination among simulation, theory use, and hybrid accounts."
+        ],
+        "independence": "One authoritative secondary orientation and one philosophical primary argument are retained. Their status is bibliographic and not claim-level evidence verification."
+      },
+      "open_questions": [
+        "Which tasks reveal a characteristic causal signature of simulation rather than explicit inference?",
+        "How do successful simulations avoid egocentric projection when the other person's beliefs differ from one's own?",
+        "Which forms of empathy or motor resonance are necessary, sufficient, or merely associated with mindreading?"
+      ]
+    },
+    {
+      "id": "seed-173-creature-state-and-content-consciousness-distinction",
+      "claim_scope": {
+        "target": "Keeping separate whether a creature is conscious, whether a particular mental state is conscious, and what experiential content that state represents.",
+        "level": "Conceptual taxonomy used to frame questions and measures across philosophical and empirical work.",
+        "does_not_establish": "A theory of what causes consciousness, a unidimensional clinical score, or a one-to-one mapping between reports and all aspects of experience."
+      },
+      "boundary_note": "Creature-, state-, and content-level descriptions answer different questions. They can be connected operationally but should not be conflated, nor should this distinction be counted as a causal theory of consciousness.",
+      "evidence_profile": {
+        "basis": [
+          "The Stanford Encyclopedia of Philosophy entry Consciousness outlines multiple senses of the term and their conceptual differences.",
+          "The Stanford Encyclopedia entry on Neuroscience of Consciousness connects distinctions of state and content to empirical research targets without turning them into a causal mechanism."
+        ],
+        "limitations": [
+          "Terminology differs among philosophers, neuroscientists, and clinical researchers; classification may require explicit operational definitions.",
+          "Behavioral report, wakefulness, and local perceptual content can dissociate, limiting any one-to-one measurement assumption."
+        ],
+        "independence": "Both retained citations are authoritative secondary entries and locator-recorded. They orient the taxonomy but are not independent empirical tests or verified passage mappings."
+      },
+      "open_questions": [
+        "Which operational measurements separately track organism state, state consciousness, and particular conscious contents?",
+        "How should borderline or intermittent responsiveness be classified without circular definitions?",
+        "When do theoretical vocabularies change the relevant unit of analysis?"
+      ]
+    },
+    {
+      "id": "seed-174-global-state-and-local-content-distinction",
+      "claim_scope": {
+        "target": "Disentangling an organism's overall conscious condition from particular conscious contents experienced within that condition.",
+        "level": "Cross-theory conceptual and experimental design framework spanning state-level and content-level investigations.",
+        "does_not_establish": "That conscious state is always a scalar level, that local perceptual content determines overall state, or that overt report is an exhaustive content measure."
+      },
+      "boundary_note": "Global-state and local-content distinctions are methodological and conceptual tools, not a separate sufficient causal theory. Arousal, responsiveness, conscious access, and particular phenomenal contents must be operationalized independently where possible.",
+      "evidence_profile": {
+        "basis": [
+          "Bayne, Hohwy, and Owen's 2016 Are There Levels of Consciousness? directly examines limits of a simple scalar-level framework.",
+          "Seth and Bayne's 2022 Theories of Consciousness is a broad secondary review placing content and state questions among different explanatory targets."
+        ],
+        "limitations": [
+          "Global labels such as wakeful or anesthetized can conceal within-state variation and residual experience.",
+          "Apparent content absence can reflect stimulus, task, memory, or reporting limitations rather than lack of phenomenality."
+        ],
+        "independence": "The 2016 conceptual argument and 2022 review are different scholarly roles, but neither is a direct measurement of all aspects of consciousness. Both citations are DOI-resolved only."
+      },
+      "open_questions": [
+        "Which multidimensional state descriptors predict dissociations more faithfully than a single consciousness level?",
+        "How should local content be operationalized when communication or memory is impaired?",
+        "What evidence is required before claiming that a state marker generalizes across sleep, anesthesia, and clinical disorders?"
+      ]
+    },
+    {
+      "id": "seed-191-disorders-of-consciousness-diagnostic-spectrum",
+      "claim_scope": {
+        "target": "Describing clinically defined conditions with differing patterns of wakefulness, behavioral responsiveness, and possible awareness after severe brain injury.",
+        "level": "Clinical classification, assessment methodology, and prognosis context; not a causal consciousness theory.",
+        "does_not_establish": "A diagnosis from a single behavior, universal absence of awareness in unresponsive patients, or interchangeable outcomes across etiologies and time points."
+      },
+      "boundary_note": "Coma, unresponsive wakefulness syndrome, minimally conscious state, and emergence from minimally conscious state are clinical assessment categories rather than theoretical explanations of consciousness. Confounds, repeated standardized evaluations, and specialized judgment are important. This record must not be used as diagnostic advice.",
+      "evidence_profile": {
+        "basis": [
+          "Giacino and colleagues' 2018 Neurology practice guideline addresses assessment and management of prolonged disorders of consciousness, including confounders and repeated standardized assessments.",
+          "The retained PMC guideline locator is an acquisition link requiring bibliographic reconciliation; it is not independently counted as a second confirming clinical study."
+        ],
+        "limitations": [
+          "Medication effects, sensory or motor impairments, sleep–wake variation, and fluctuating arousal can reduce observed responsiveness without proving lack of awareness.",
+          "Diagnosis and prognosis depend on clinical setting and expert assessment; category boundaries and follow-up outcomes are not universally deterministic."
+        ],
+        "independence": "The primary clinical guideline is DOI-resolved bibliographically, while the second locator remains pending metadata review. No patient-specific inference or claim-level passage verification is made."
+      },
+      "open_questions": [
+        "Which standardized behavioral and complementary neurophysiological assessments best reduce misclassification in different patient populations?",
+        "How should repeated examinations and confounds be represented without conflating diagnosis with prognosis?",
+        "What evidence separates covert cognition or command-following from routinely assessed bedside responsiveness?"
+      ]
+    },
+    {
+      "id": "seed-192-cognitive-motor-dissociation-and-covert-consciousness",
+      "claim_scope": {
+        "target": "Detecting cases where brain-based responses indicate preserved command following or related cognitive capacities despite absent reliable behavioral motor responses.",
+        "level": "Clinical neuroimaging and neurophysiological task paradigms; interpretation of individual cases and selected groups.",
+        "does_not_establish": "That every unresponsive patient is conscious, that a negative imaging task excludes awareness, or that neural activity alone settles all phenomenological questions."
+      },
+      "boundary_note": "Cognitive-motor dissociation is a clinical interpretation of behavior–brain response mismatch, not a general mechanism for consciousness. Positive task-specific modulation can indicate preserved instruction-following capacities under suitable controls, while nonresponse can reflect inability to perform the task; specialist clinical judgment is essential.",
+      "evidence_profile": {
+        "basis": [
+          "Owen and colleagues' 2006 Science report used mental-imagery functional MRI commands in a behaviorally unresponsive patient and motivated the possibility of covert command following.",
+          "Monti and colleagues' 2010 New England Journal of Medicine study further examined willful modulation of brain activity in patients with disorders of consciousness."
+        ],
+        "limitations": [
+          "Group and case findings should not be read as prevalence estimates for every clinically unresponsive patient.",
+          "Task complexity, language comprehension, vigilance, motor impairment, and imaging quality can affect both positive and negative results."
+        ],
+        "independence": "Two distinct retained primary studies are DOI-resolved. Their specific patient interpretations require specialist passage-level review and do not constitute a clinical diagnostic shortcut."
+      },
+      "open_questions": [
+        "How can task designs distinguish willful command following from automatic activity across patient populations?",
+        "What is the sensitivity and specificity of different paradigms in routine settings, including negative or inconclusive tests?",
+        "How should clinicians integrate behavioral and brain-based findings without claiming more than the measurements establish?"
+      ]
+    }
+  ]
+}
