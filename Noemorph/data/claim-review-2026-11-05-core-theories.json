@@ -12,7 +12,7 @@
       "claims": [
         {
           "id": "seed-026-global-workspace-theory-gwt:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -41,7 +41,7 @@
       "claims": [
         {
           "id": "seed-027-global-neuronal-workspace-theory-gnwt:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -70,7 +70,7 @@
       "claims": [
         {
           "id": "seed-030-higher-order-thought-hot-theory:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -99,7 +99,7 @@
       "claims": [
         {
           "id": "seed-031-higher-order-perception-inner-sense-theory-hop:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -128,7 +128,7 @@
       "claims": [
         {
           "id": "seed-032-dispositional-higher-order-thought-theory:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -157,7 +157,7 @@
       "claims": [
         {
           "id": "seed-033-higher-order-global-states-hogs-model:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -186,7 +186,7 @@
       "claims": [
         {
           "id": "seed-039-attention-schema-theory-ast:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -215,7 +215,7 @@
       "claims": [
         {
           "id": "seed-044-dynamic-core-theory:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -244,7 +244,7 @@
       "claims": [
         {
           "id": "seed-060-predictive-processing-approaches-to-consciousness:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
@@ -273,7 +273,7 @@
       "claims": [
         {
           "id": "seed-149-predictive-global-neuronal-workspace-pgnw:scope",
-          "field": "claim_scope.target",
+          "field": "summary",
           "kind": "scope",
           "citations": [
             {
