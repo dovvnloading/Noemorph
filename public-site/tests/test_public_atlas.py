@@ -67,7 +67,7 @@ class PublicAtlasIntegrityTests(unittest.TestCase):
         self.assertIn("No theory-to-theory links", page)
         self.assertNotIn("semantic_similarity", script)
         self.assertNotIn("/api/graph/relationships", script)
-        self.assertIn("No conceptual", page)
+        self.assertIn("The research-synthesis gate remains locked.", page)
 
 
 if __name__ == "__main__":
