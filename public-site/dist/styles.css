@@ -23,3 +23,30 @@
 .claim-review-leads ul{padding-left:1.2rem;margin-top:.3rem}
 .claim-review-leads ul li{margin:.35rem 0}
 .claim-review-leads small{display:block;font-size:.74rem;color:#637569}
+
+/* Read-only pair comparison. Source statuses remain per record, never inferred edges. */
+.public-comparison-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:1.3rem 0;padding:.9rem 1rem;border:1px solid #a9b7a8;background:#e8eee3}
+.public-comparison-toolbar p{font-size:.82rem;margin:0}
+.public-comparison-toolbar button{background:transparent;border:1px solid #718778;padding:.5rem .8rem;cursor:pointer;font-size:.78rem}
+.public-comparison[hidden],.public-comparison-toolbar [hidden]{display:none!important}
+.public-comparison{border-top:2px solid #385748;border-bottom:2px solid #385748;padding:1.4rem 0 1.8rem;margin-bottom:2rem;scroll-margin-top:1rem}
+.public-comparison h2{font-size:clamp(1.7rem,3vw,2.6rem);margin:0 0 1rem}
+.public-comparison>p{font-size:.87rem;line-height:1.6;max-width:900px;color:#455d4b}
+.public-comparison a{overflow-wrap:anywhere}
+.comparison-link{font-weight:700;text-underline-offset:4px}
+.comparison-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:1rem;margin:1.3rem 0}
+.comparison-card{border:1px solid #b6c0b4;background:#fafaf5;padding:1.2rem;min-width:0;overflow-wrap:anywhere}
+.comparison-card h3{font:400 1.5rem 'DM Serif Display',Georgia,serif;line-height:1.2;margin:.3rem 0}
+.comparison-classification{font-size:.78rem;color:#57695c}
+.comparison-card h4{font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;margin:1.3rem 0 .4rem}
+.comparison-card p,.comparison-card li,.comparison-card dd{font-size:.82rem;line-height:1.5}
+.comparison-card dl{margin:.4rem 0}
+.comparison-card dt{font-weight:700;margin-top:.55rem;font-size:.78rem}
+.comparison-card dd{margin:.2rem 0}
+.comparison-card ul{padding-left:1.2rem}
+.comparison-citations li{margin:.6rem 0}
+.comparison-citations small{display:block;font-size:.7rem;color:#647568}
+.comparison-disclaimer{border-top:1px solid #b6c0b4;padding-top:1rem}
+.record-actions button[aria-pressed="true"]{background:#d0ddcb;font-weight:700}
+.record-actions button:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:720px){.comparison-columns{grid-template-columns:1fr}.public-comparison-toolbar{align-items:start;flex-direction:column}}
