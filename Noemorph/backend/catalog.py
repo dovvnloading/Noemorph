@@ -179,6 +179,14 @@ class CatalogRepository:
                     }
                 )
 
+            if any(
+                isinstance(record, dict) and "claim_reviews" in record
+                for record in merged_records
+            ):
+                raise CatalogIntegrityError(
+                    "Claim reviews may only be added through validated claim_review_supplements"
+                )
+
             profile_manifests: list[dict[str, Any]] = []
             record_by_id = {str(record.get("id")): record for record in merged_records}
             enriched_ids: set[str] = set()
