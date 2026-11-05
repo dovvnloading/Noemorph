@@ -8,6 +8,7 @@ import vm from 'node:vm';
 const dist = resolve(dirname(fileURLToPath(import.meta.url)), '../dist');
 const script = readFileSync(resolve(dist, 'app.js'), 'utf8');
 const discoveryScript = readFileSync(resolve(dist, 'discovery.js'), 'utf8');
+const atlasScript = readFileSync(resolve(dist, 'atlas.js'), 'utf8');
 const curated = JSON.parse(readFileSync(resolve(dist, 'discovery-journeys.json'), 'utf8'));
 const curatedIds = [...new Set([
   ...curated.journeys.flatMap(path => path.steps.map(step => step.record_id)),
@@ -71,11 +72,18 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
       this.dataset = {};
       this.listeners = {};
       this.children = [];
+      this.attributes = {};
+      this.disabled = false;
     }
     addEventListener(type, callback) { this.listeners[type] = callback; }
     append(child) { this.children.push(child); }
     click() { this.clicked = true; }
     remove() {}
+    setAttribute(name, value) { this.attributes[name] = String(value); }
+    getAttribute(name) { return this.attributes[name] ?? null; }
+    getBoundingClientRect() { return { width: 1000, height: 600 }; }
+    setPointerCapture() {}
+    releasePointerCapture() {}
     closest() { return this; }
     focus() { this.focused = true; }
     scrollIntoView() { this.scrolled = true; }
@@ -83,15 +91,22 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
       if (selector === 'details[open] summary' && this.innerHTML.includes(' open>')) {
         return selectedSummary;
       }
+      if (selector === '#atlas-viewport-transform') return atlasTransform;
       return null;
     }
   }
   const ids = ['#records', '#results-status', '#search', '#kind',
     '#domain', '#tradition', '#review', '#verification', '#reset-filters', '#pagination',
     '#comparison', '#comparison-status', '#clear-comparison',
-    '#discover', '#discovery-choices', '#discovery-stage', '#discovery-status'];
+    '#discover', '#discovery-choices', '#discovery-stage', '#discovery-status',
+    '#atlas-svg', '#atlas-node-list', '#atlas-status', '#atlas-kind-filter',
+    '#atlas-search', '#atlas-record-detail', '#atlas-back', '#atlas-home',
+    '#atlas-previous', '#atlas-next', '#atlas-page-label',
+    '#atlas-zoom-in', '#atlas-zoom-out', '#atlas-zoom-reset',
+    '#atlas-record-total'];
   const elements = Object.fromEntries(ids.map(id => [id, new FakeElement()]));
   const selectedSummary = new FakeElement();
+  const atlasTransform = new FakeElement();
   const downloaded = [];
   const links = [];
   class FakeURL extends URL {}
@@ -115,7 +130,15 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
     createElement: () => new FakeElement(),
     body: { append: link => links.push(link) },
   };
-  const availableRecords = options.discovery ? [...records, ...curatedRecords] : records;
+  const atlasExtra = options.atlasMany
+    ? Array.from({ length: 34 }, (_, index) => ({
+      ...records[0],
+      id: 'atlas-extra-' + index,
+      name: 'Atlas entry ' + index,
+      domain: 'Synthetic domain ' + index,
+    }))
+    : [];
+  const availableRecords = [...records, ...(options.discovery ? curatedRecords : []), ...atlasExtra];
   const context = {
     document, window, URL: FakeURL, URLSearchParams, Blob, Element: FakeElement,
     fetch: path => {
@@ -133,9 +156,10 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
     },
   };
   vm.runInNewContext(discoveryScript, context, { filename: 'public-site/dist/discovery.js' });
+  vm.runInNewContext(atlasScript, context, { filename: 'public-site/dist/atlas.js' });
   vm.runInNewContext(script, context, { filename: 'public-site/dist/app.js' });
   await new Promise(resolve => setImmediate(resolve));
-  return { elements, selectedSummary, downloaded, links, FakeElement, window };
+  return { elements, selectedSummary, atlasTransform, downloaded, links, FakeElement, window };
 }
 
 test('public HTML exposes every filter and labeled results', () => {
@@ -358,5 +382,134 @@ test('broken discovery data fails independently without breaking catalog search'
   assert.equal(app.elements['#discovery-stage'].hidden, true);
   assert.match(app.elements['#discovery-status'].textContent, /full catalog remains accessible/);
   assert.match(app.elements['#records'].innerHTML, /data-record-id="breadth-neuro-021-insect-subjective-experience"/);
+  assert.match(app.elements['#results-status'].textContent, /records/);
+});
+
+
+function atlasTarget(app, type, value) {
+  const target = new app.FakeElement();
+  target.dataset.atlasType = type;
+  target.dataset.atlasValue = value;
+  return target;
+}
+
+test('visual atlas groups the same catalog records by type and domain, without theory edges', async () => {
+  const app = await boot();
+  const svg = app.elements['#atlas-svg'].innerHTML;
+  const text = app.elements['#atlas-status'].textContent;
+  assert.match(text, /2 types/);
+  assert.equal(app.elements['#atlas-record-total'].textContent, '2');
+  assert.match(text, /no theory-to-theory links/i);
+  assert.match(svg, /atlas-membership-spoke/);
+  assert.doesNotMatch(svg, /data-edge-type="theory-relationship"/);
+  assert.match(app.elements['#atlas-node-list'].innerHTML, /Scientific theory/);
+  assert.match(app.elements['#atlas-node-list'].innerHTML, /Philosophical position/);
+  assert.match(html, /id="atlas"/);
+  assert.match(html, /src="atlas.js"/);
+  assert.match(html, /href="#atlas"/);
+});
+
+test('atlas drills from kind to domain to record using both the map and accessible list', async () => {
+  const app = await boot();
+  app.elements['#atlas-node-list'].listeners.click({
+    target: atlasTarget(app, 'kind', 'Scientific theory'),
+  });
+  assert.match(app.elements['#atlas-status'].textContent, /1 domains/);
+  assert.match(app.elements['#atlas-node-list'].innerHTML, /Neuroscience/);
+
+  app.elements['#atlas-svg'].listeners.keydown({
+    target: atlasTarget(app, 'domain', 'Neuroscience'),
+    key: 'Enter', preventDefault() {},
+  });
+  assert.match(app.elements['#atlas-status'].textContent, /1 records/);
+  assert.match(app.elements['#atlas-node-list'].innerHTML, /Global Neuronal Workspace/);
+  app.elements['#atlas-node-list'].listeners.click({
+    target: atlasTarget(app, 'record', 'record-one'),
+  });
+  assert.match(app.elements['#atlas-record-detail'].innerHTML, /Original model/);
+  assert.match(app.elements['#atlas-record-detail'].innerHTML, /human-verified/);
+  assert.match(app.elements['#atlas-record-detail'].innerHTML, /do not verify claim-level support/);
+  assert.match(app.elements['#atlas-record-detail'].innerHTML, /Read the full cited record/);
+  assert.equal(new URL(app.window.location.href).searchParams.get('atlasRecord'), 'record-one');
+  assert.equal(app.elements['#atlas-status'].focused, true);
+
+  app.elements['#atlas-back'].listeners.click();
+  assert.match(app.elements['#atlas-status'].textContent, /1 domains/);
+  app.elements['#atlas-home'].listeners.click();
+  assert.match(app.elements['#atlas-status'].textContent, /2 types/);
+  assert.equal(new URL(app.window.location.href).searchParams.has('atlasKind'), false);
+});
+
+test('atlas paging prevents unreadable maps for highly fragmented domains', async () => {
+  const app = await boot('https://example.org/Noemorph/', { atlasMany: true });
+  app.elements['#atlas-kind-filter'].value = 'Scientific theory';
+  app.elements['#atlas-kind-filter'].listeners.change();
+  assert.match(app.elements['#atlas-status'].textContent, /35 domains/);
+  assert.equal(app.elements['#atlas-page-label'].textContent, 'Page 1 of 3');
+  assert.equal(app.elements['#atlas-previous'].disabled, true);
+  app.elements['#atlas-next'].listeners.click();
+  assert.equal(app.elements['#atlas-page-label'].textContent, 'Page 2 of 3');
+  assert.equal(app.elements['#atlas-previous'].disabled, false);
+  assert.match(app.elements['#atlas-svg'].innerHTML, /atlas-node-domain/);
+});
+
+test('atlas global record search, zoom and pointer pan stay independent of catalog search', async () => {
+  const app = await boot();
+  const search = app.elements['#atlas-search'];
+  search.value = 'panpsychism';
+  search.listeners.input();
+  assert.match(app.elements['#atlas-status'].textContent, /1 matching records/);
+  assert.match(app.elements['#atlas-node-list'].innerHTML, /Panpsychism/);
+  app.elements['#atlas-node-list'].listeners.click({
+    target: atlasTarget(app, 'record', 'record-two'),
+  });
+  assert.equal(new URL(app.window.location.href).searchParams.get('atlasKind'), 'Philosophical position');
+  assert.equal(new URL(app.window.location.href).searchParams.get('atlasRecord'), 'record-two');
+  assert.match(app.elements['#atlas-record-detail'].innerHTML, /Citation locators/);
+
+  app.elements['#atlas-zoom-in'].listeners.click();
+  assert.match(app.elements['#atlas-zoom-reset'].textContent, /120%/);
+  assert.match(app.atlasTransform.attributes.transform, /scale\(1.2\)/);
+  const svg = app.elements['#atlas-svg'];
+  svg.listeners.pointerdown({
+    button: 0, pointerId: 2, clientX: 100, clientY: 100,
+  });
+  svg.listeners.pointermove({
+    pointerId: 2, clientX: 120, clientY: 110,
+  });
+  svg.listeners.pointerup({ pointerId: 2 });
+  assert.match(app.atlasTransform.attributes.transform, /translate\(20 10\)/);
+  app.elements['#atlas-zoom-reset'].listeners.click();
+  assert.match(app.elements['#atlas-zoom-reset'].textContent, /100%/);
+  assert.match(app.elements['#results-status'].textContent, /2 records/);
+});
+
+test('atlas deep links restore a valid record and ignore malformed or conflicting claims', async () => {
+  const url = 'https://example.org/Noemorph/?atlasKind=Scientific+theory' +
+    '&atlasDomain=Neuroscience&atlasRecord=record-one#atlas';
+  const app = await boot(url);
+  assert.match(app.elements['#atlas-record-detail'].innerHTML, /Global Neuronal Workspace/);
+  assert.match(app.elements['#atlas-status'].textContent, /Neuroscience/);
+  assert.equal(app.elements['#atlas-status'].focused, true);
+  for (const query of [
+    '?atlasKind=not-a-type',
+    '?atlasKind=Scientific+theory&atlasDomain=Philosophy',
+    '?atlasKind=Scientific+theory&atlasDomain=Neuroscience&atlasRecord=record-two',
+    '?atlasKind=Scientific+theory&atlasKind=Philosophical+position',
+    '?atlasRecord=%3Cscript%3E',
+    '?record=record-two&atlasKind=Scientific+theory',
+    '?compare=record-one%2Crecord-two&atlasKind=Scientific+theory',
+  ]) {
+    const invalid = await boot('https://example.org/Noemorph/' + query);
+    assert.match(invalid.elements['#atlas-status'].textContent, /2 types/, query);
+    assert.doesNotMatch(invalid.elements['#atlas-record-detail'].innerHTML, /Original model/, query);
+  }
+});
+
+test('missing atlas is optional, and a separate discovery journey still functions', async () => {
+  const app = await boot('https://example.org/Noemorph/?journey=awareness&step=1#discover',
+    { discovery: true });
+  assert.match(app.elements['#discovery-stage'].innerHTML, /Is attention the same as awareness?/);
+  assert.match(app.elements['#atlas-status'].textContent, /types/);
   assert.match(app.elements['#results-status'].textContent, /records/);
 });

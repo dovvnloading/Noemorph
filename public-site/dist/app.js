@@ -234,6 +234,7 @@
     draw();
     // Discovery is optional: a missing or invalid reading path never blocks the catalog.
     void window.NoemorphDiscovery?.mount(records);
+    try { window.NoemorphAtlas?.mount(records); } catch { /* Map is optional. */ }
     if (requestedComparison) window.requestAnimationFrame(() => {
       comparison.scrollIntoView({ block: 'start' });
       comparison.focus({ preventScroll: true });
