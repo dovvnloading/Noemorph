@@ -243,3 +243,119 @@ test('citation export retains recorded provenance without inventing a publicatio
   assert.equal(exported[0].issued, undefined);
   assert.match(exported[0].note, /not proof of claim support/);
 });
+
+
+test('discovery cards lead with questions while leaving the full catalog available', async () => {
+  const app = await boot('https://example.org/Noemorph/', { discovery: true });
+  const panel = app.elements['#discovery-choices'].innerHTML;
+  for (const label of [
+    'What makes us conscious?', 'Could AI be conscious?',
+    'What is awareness?', 'What makes a self?', 'Surprise me.',
+  ]) {
+    assert.ok(panel.includes(label), label);
+  }
+  assert.equal(app.elements['#discovery-stage'].hidden, true);
+  assert.match(app.elements['#discovery-status'].textContent, /Choose a question/);
+  assert.match(app.elements['#records'].innerHTML, /Global Neuronal Workspace/);
+  assert.match(html, /id="discover"/);
+  assert.match(html, /src="discovery.js"/);
+});
+
+test('a question reveals three progressive, source-bounded steps with a full-record exit', async () => {
+  const app = await boot('https://example.org/Noemorph/', { discovery: true });
+  const activate = (where, dataset) => {
+    const button = new app.FakeElement();
+    Object.assign(button.dataset, dataset);
+    app.elements[where].listeners.click({ target: button });
+  };
+  activate('#discovery-choices', { discoveryJourney: 'experience' });
+  let stage = app.elements['#discovery-stage'];
+  assert.equal(stage.hidden, false);
+  assert.equal(stage.focused, true);
+  assert.match(stage.innerHTML, /What are we trying to explain?/);
+  assert.match(stage.innerHTML, /Phenomenological construct|Model or framework/);
+  assert.match(stage.innerHTML, /Unfold research notes/);
+  assert.match(stage.innerHTML, /Citation resolution does not establish claim support/);
+  assert.match(stage.innerHTML, /Explore the full record/);
+  assert.match(new URL(app.window.location.href).searchParams.get('journey'), /experience/);
+  assert.equal(new URL(app.window.location.href).searchParams.get('step'), '1');
+
+  activate('#discovery-stage', { discoveryAction: 'next' });
+  assert.match(stage.innerHTML, /Could access be the key?/);
+  assert.match(stage.innerHTML, /aria-valuenow="2"/);
+  assert.equal(new URL(app.window.location.href).searchParams.get('step'), '2');
+
+  activate('#discovery-stage', { discoveryAction: 'next' });
+  assert.match(stage.innerHTML, /What if structure matters?/);
+  assert.match(stage.innerHTML, /aria-valuenow="3"/);
+  assert.match(stage.innerHTML, /Explore another question/);
+  activate('#discovery-stage', { discoveryAction: 'previous' });
+  assert.match(stage.innerHTML, /Could access be the key?/);
+  activate('#discovery-stage', { discoveryAction: 'reset' });
+  assert.equal(stage.hidden, true);
+  assert.equal(new URL(app.window.location.href).searchParams.has('journey'), false);
+});
+
+test('a shared discovery URL reopens a precise step and respects browser navigation', async () => {
+  const app = await boot(
+    'https://example.org/Noemorph/?journey=awareness&step=3#discover',
+    { discovery: true },
+  );
+  const stage = app.elements['#discovery-stage'];
+  assert.equal(stage.hidden, false);
+  assert.equal(stage.focused, true);
+  assert.match(stage.innerHTML, /What if someone cannot respond?/);
+  assert.match(stage.innerHTML, /seed-192-cognitive-motor-dissociation/);
+  const moved = new URL('https://example.org/Noemorph/?journey=awareness&step=1#discover');
+  app.window.location.href = moved.href;
+  app.window.listeners.popstate();
+  assert.match(stage.innerHTML, /Is attention the same as awareness?/);
+  assert.match(stage.innerHTML, /aria-valuenow="1"/);
+});
+
+test('Surprise me draws from real curated entries and does not repeat immediately', async () => {
+  const app = await boot('https://example.org/Noemorph/', { discovery: true });
+  const button = new app.FakeElement();
+  button.dataset.discoveryAction = 'surprise';
+  app.elements['#discovery-choices'].listeners.click({ target: button });
+  const first = new URL(app.window.location.href).searchParams.get('surprise');
+  assert.ok(curated.surprise.record_ids.includes(first));
+  assert.equal(app.elements['#discovery-stage'].hidden, false);
+  assert.match(app.elements['#discovery-stage'].innerHTML, /AN UNEXPECTED ENTRY/);
+  app.elements['#discovery-stage'].listeners.click({ target: button });
+  const next = new URL(app.window.location.href).searchParams.get('surprise');
+  assert.ok(curated.surprise.record_ids.includes(next));
+  assert.notEqual(next, first);
+  const reopened = await boot(
+    'https://example.org/Noemorph/?surprise=' + encodeURIComponent(next) + '#discover',
+    { discovery: true },
+  );
+  assert.equal(reopened.elements['#discovery-stage'].hidden, false);
+  assert.match(reopened.elements['#discovery-stage'].innerHTML, new RegExp(next));
+});
+
+test('malformed and conflicting discovery links never misrepresent a research journey', async () => {
+  for (const query of [
+    '?journey=experience&step=99',
+    '?journey=not-a-journey&step=1',
+    '?surprise=not-a-record',
+    '?journey=experience&step=1&journey=machines',
+    '?journey=experience&step=%3Cscript%3E',
+    '?record=record-one&journey=experience&step=2',
+    '?compare=record-one%2Crecord-two&journey=experience&step=2',
+  ]) {
+    const app = await boot('https://example.org/Noemorph/' + query, { discovery: true });
+    assert.equal(app.elements['#discovery-stage'].hidden, true, query);
+    assert.match(app.elements['#discovery-choices'].innerHTML, /What makes us conscious?/);
+  }
+});
+
+test('broken discovery data fails independently without breaking catalog search', async () => {
+  const app = await boot('https://example.org/Noemorph/', {
+    discovery: true, discoveryFailure: true,
+  });
+  assert.equal(app.elements['#discovery-stage'].hidden, true);
+  assert.match(app.elements['#discovery-status'].textContent, /full catalog remains accessible/);
+  assert.match(app.elements['#records'].innerHTML, /Global Neuronal Workspace/);
+  assert.match(app.elements['#results-status'].textContent, /records/);
+});
