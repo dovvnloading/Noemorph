@@ -80,6 +80,7 @@
     const choices = document.querySelector('#discovery-choices');
     const stage = document.querySelector('#discovery-stage');
     const status = document.querySelector('#discovery-status');
+    const disclosure = document.querySelector('#discovery-disclosure');
     if (!choices || !stage || !status) return Promise.resolve();
     const byId = new Map(records.map(record => [record.id, record]));
 
@@ -222,6 +223,7 @@
           } else {
             navigation = '<button type="button" data-discovery-action="surprise">Another surprise ↗</button>';
           }
+          if (disclosure) disclosure.open = true;
           stage.hidden = false;
           stage.innerHTML = '<div class="discovery-stage-top"><span class="discovery-overline">' +
             esc(path ? path.title : 'Unscripted discovery') + '</span>' +
@@ -315,8 +317,16 @@
           if (active) focusStage();
         });
         active = readLink();
+        if (disclosure && new URL(window.location.href).hash === '#discover') {
+          disclosure.open = true;
+        }
         drawStage();
         if (active) focusStage();
+        window.addEventListener('hashchange', () => {
+          if (disclosure && new URL(window.location.href).hash === '#discover') {
+            disclosure.open = true;
+          }
+        });
       })
       .catch(() => {
         choices.innerHTML = '';

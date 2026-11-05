@@ -43,6 +43,7 @@
     const svg = document.querySelector('#atlas-svg');
     const list = document.querySelector('#atlas-node-list');
     const status = document.querySelector('#atlas-status');
+    const disclosure = document.querySelector('#atlas-disclosure');
     const kindSelect = document.querySelector('#atlas-kind-filter');
     const search = document.querySelector('#atlas-search');
     const detail = document.querySelector('#atlas-record-detail');
@@ -466,6 +467,14 @@
       render();
     });
     const initial = validRoute();
+    if (disclosure && new URL(window.location.href).hash === '#atlas') {
+      disclosure.open = true;
+    }
+    window.addEventListener('hashchange', () => {
+      if (disclosure && new URL(window.location.href).hash === '#atlas') {
+        disclosure.open = true;
+      }
+    });
     state.kind = initial?.kind || null;
     state.domain = initial?.domain || null;
     state.record = initial?.record || null;

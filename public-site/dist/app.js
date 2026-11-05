@@ -12,7 +12,9 @@
   const comparison = document.querySelector('#comparison');
   const comparisonStatus = document.querySelector('#comparison-status');
   const clearComparison = document.querySelector('#clear-comparison');
-  const pageSize = 12;
+  const comparisonTools = document.querySelector('#comparison-tools');
+  const heroCount = document.querySelector('#hero-record-count');
+  const pageSize = 8;
   let records = [], page = 1;
   let requestedRecordId = new URL(window.location.href).searchParams.get('record');
   function parseComparisonIds(search) {
@@ -126,6 +128,7 @@
       ? `${comparisonIds.length} of 2 selected: ${selected.map(record => record?.name || 'Unavailable record').join(' / ')}${comparisonIds.length === 2 ? '. Clear a selection to choose another record.' : '. Select one more record.'}`
       : 'Open two records and choose Compare to inspect them side by side.';
     clearComparison.hidden = comparisonIds.length === 0;
+    if (comparisonTools) comparisonTools.hidden = comparisonIds.length === 0;
     if (selected.length !== 2 || selected.some(record => !record)) {
       comparison.hidden = true;
       comparison.innerHTML = '';
@@ -149,8 +152,51 @@
     }
   }
   function recordHtml(r, expanded = false) {
-    const citations = (r.citations || []).map(c => { const url = safeUrl(c.url); const title = esc(c.title || 'Source'); return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${title} ↗</a>` : title}<div class="citation-meta">${esc([c.authors, c.year, c.venue].filter(Boolean).join(' · '))}${c.verification ? ` · ${esc(c.verification)}` : ''}${c.authority ? ` · ${esc(c.authority)}` : ''}</div></li>`; }).join('');
-    return `<details class="record" data-record-id="${esc(r.id)}"${expanded ? ' open' : ''}><summary><span class="record-name">${esc(r.name)}</span><span class="record-kind">${esc(r.kind)}</span><span class="record-toggle" aria-hidden="true">+</span></summary><div class="record-content"><div class="record-actions"><a href="${esc(recordHref(r.id))}">Permanent link</a><button type="button" data-compare="${esc(r.id)}" aria-pressed="${comparisonIds.includes(r.id)}" ${comparisonIds.length === 2 && !comparisonIds.includes(r.id) ? 'disabled' : ''}>${comparisonIds.includes(r.id) ? 'Remove from comparison' : 'Compare this record'}</button><button type="button" data-export="${esc(r.id)}">Export citations (CSL-JSON)</button></div>${detail('Overview', r.summary)}${detail('Scope', r.claim_scope || r.scope)}${detail('Boundaries', r.boundary_note || r.status_note)}${detail('Evidence profile', r.evidence_profile)}${detail('Open questions', r.open_questions)}${detail('People associated', r.proponents)}${detail('Review state', r.review_state)}${claimReviewHtml(r)}${citations ? `<h4>Retained citations</h4><ul>${citations}</ul>` : ''}</div></details>`;
+    const citations = (r.citations || []).map(c => {
+      const url = safeUrl(c.url);
+      const title = esc(c.title || 'Retained source');
+      return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${title} ↗</a>` : title}
+        <div class="citation-meta">${esc([c.authors, c.year, c.venue].filter(Boolean).join(' · '))}
+        ${c.verification ? ` · ${esc(c.verification)}` : ''}
+        ${c.authority ? ` · ${esc(c.authority)}` : ''}</div></li>`;
+    }).join('');
+    const summary = String(r.summary || '').trim();
+    const preview = summary.length > 160
+      ? summary.slice(0, 157).replace(/\s+\S*$/, '') + '…'
+      : summary;
+    return `<details class="record" data-record-id="${esc(r.id)}"${expanded ? ' open' : ''}>
+      <summary><span class="record-summary-main">
+        <span class="record-name">${esc(r.name)}</span>
+        <span class="record-summary-text">${esc(preview)}</span>
+      </span><span class="record-kind">${esc(r.kind)}</span>
+      <span class="record-toggle" aria-hidden="true">+</span></summary>
+      <div class="record-content">
+        <div class="record-at-glance">
+          <h4>In brief</h4><p>${esc(r.summary)}</p>
+          ${detail('A key boundary', r.boundary_note || r.status_note)}
+        </div>
+        <div class="record-actions">
+          <a href="${esc(recordHref(r.id))}">Permanent link</a>
+          <button type="button" data-compare="${esc(r.id)}" aria-pressed="${comparisonIds.includes(r.id)}"
+            ${comparisonIds.length === 2 && !comparisonIds.includes(r.id) ? 'disabled' : ''}>
+            ${comparisonIds.includes(r.id) ? 'Remove from comparison' : 'Compare this record'}
+          </button>
+          <button type="button" data-export="${esc(r.id)}">Export citations (CSL-JSON)</button>
+        </div>
+        <details class="record-depth">
+          <summary>Explore research notes and sources</summary>
+          <div>
+            ${detail('Research scope', r.claim_scope || r.scope)}
+            ${detail('Evidence profile', r.evidence_profile)}
+            ${detail('Open questions', r.open_questions)}
+            ${detail('People associated', r.proponents)}
+            ${detail('Record review state', r.review_state || 'unspecified')}
+            ${claimReviewHtml(r)}
+            ${citations ? `<h4>Retained citations · ${(r.citations || []).length}</h4><ul>${citations}</ul>` : ''}
+          </div>
+        </details>
+      </div>
+    </details>`;
   }
   function draw() {
     const opened = new Set(Array.from(recordsEl.querySelectorAll?.('details[open]') ?? [], element => element.dataset.recordId));
@@ -186,6 +232,11 @@
       });
     }
   }
+  document.querySelector('#hero-search-form')?.addEventListener('submit', event => {
+    event.preventDefault();
+    document.querySelector('#catalog')?.scrollIntoView({ block: 'start' });
+    window.requestAnimationFrame(() => status.focus({ preventScroll: true }));
+  });
   const filters = [search, kind, domain, tradition, review, verification];
   filters.forEach(element => element.addEventListener(element === search ? 'input' : 'change', () => {
     clearRecordLink();
@@ -220,6 +271,7 @@
   });
   fetch('catalog.json').then(response => { if (!response.ok) throw new Error('Could not load catalog'); return response.json(); }).then(data => {
     records = data.records.slice().sort((a,b) => a.name.localeCompare(b.name));
+    if (heroCount) heroCount.textContent = String(records.length);
     if (comparisonIds.length && (
       comparisonIds.length !== 2 || comparisonIds.some(id => !records.some(record => record.id === id))
     )) {
