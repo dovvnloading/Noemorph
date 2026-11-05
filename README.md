@@ -1,5 +1,7 @@
 # Noemorph
 
+The [public website](https://dovvnloading.github.io/Noemorph/) offers a searchable, read-only view of the catalog. Its source is in `public-site/`. Changes merged to `main` are published through GitHub Pages; the workflow regenerates the catalog export from the repository data. To refresh the export locally, run `python public-site/build.py` from the repository root and serve `public-site/dist` with a static HTTP server.
+
 Noemorph is a citation-first research atlas for theories, constructs, clinical state models, and positions concerning mind and consciousness. The current release remains in **collection phase**, not finished synthesis: it publishes typed records and their provenance while keeping theory-to-theory relationship claims locked until the coverage protocol passes independent review.
 
 ## Run the desktop application
