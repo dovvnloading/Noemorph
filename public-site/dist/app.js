@@ -81,7 +81,7 @@
         const citationState = esc(cited?.verification || 'pending metadata review');
         return `<li>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener noreferrer">${label} ↗</a>` : label}<small>Source URL only · claim match unreviewed · citation metadata: ${citationState}</small></li>`;
       }).join('');
-      return `<li><strong>${esc(claim.kind === 'scope' ? 'Research scope' : 'Boundary or limitation')}</strong><p>${esc(claim.text)}</p><ul>${leads}</ul></li>`;
+      return `<li><strong>${esc(claim.kind === 'scope' ? 'Theory statement' : 'Boundary or limitation')}</strong><p>${esc(claim.text)}</p><ul>${leads}</ul></li>`;
     }).join('');
     return `<section class="claim-review-leads"><h4>Claim-level source review leads — unverified</h4><p>Retained bibliography links proposed for passage review. These links do not verify support, refutation, or theoretical relationships.</p><ol>${items}</ol></section>`;
   }
