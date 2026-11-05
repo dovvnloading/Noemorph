@@ -102,7 +102,8 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
     '#atlas-svg', '#atlas-node-list', '#atlas-status', '#atlas-kind-filter',
     '#atlas-search', '#atlas-record-detail', '#atlas-back', '#atlas-home',
     '#atlas-previous', '#atlas-next', '#atlas-page-label',
-    '#atlas-zoom-in', '#atlas-zoom-out', '#atlas-zoom-reset'];
+    '#atlas-zoom-in', '#atlas-zoom-out', '#atlas-zoom-reset',
+    '#atlas-record-total'];
   const elements = Object.fromEntries(ids.map(id => [id, new FakeElement()]));
   const selectedSummary = new FakeElement();
   const atlasTransform = new FakeElement();
@@ -397,6 +398,7 @@ test('visual atlas groups the same catalog records by type and domain, without t
   const svg = app.elements['#atlas-svg'].innerHTML;
   const text = app.elements['#atlas-status'].textContent;
   assert.match(text, /2 types/);
+  assert.equal(app.elements['#atlas-record-total'].textContent, '2');
   assert.match(text, /no theory-to-theory links/i);
   assert.match(svg, /atlas-membership-spoke/);
   assert.doesNotMatch(svg, /data-edge-type="theory-relationship"/);
