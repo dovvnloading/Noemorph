@@ -1,5 +1,7 @@
 # Noemorph coverage audit — 577-record collection
 
+> **Historical snapshot, not the live collection report.** This audit covers catalog version `0.5.0-collection` with 577 records on 2026-08-30. The merged catalog has since changed. For current counts use `Noemorph/data/coverage-report.json`, the API's `/api/coverage` endpoint, or regenerate the report from current records.
+
 Date: 2026-08-30  
 Catalog hash: `85e9a147b2271795176927e8c2cfb935f08b7bf98b983171145376c20ca81387`  
 Machine-readable companion: `research/coverage_audit.json`
