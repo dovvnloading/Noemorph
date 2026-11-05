@@ -279,3 +279,12 @@
   .discovery-choice { transition: none; }
   .discovery-choice:hover { transform: none; }
 }
+
+/* Keep the Discovery destination visible on narrow navigation bars. */
+@media (max-width: 440px) {
+  .site-header { padding-left: 4%; padding-right: 4%; }
+  .site-header nav { gap: .65rem; }
+  .site-header nav a:first-child { display: inline-block; }
+  .site-header nav a[href="#approach"] { display: none; }
+  .site-header nav a { font-size: .66rem; }
+}
