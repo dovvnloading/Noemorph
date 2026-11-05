@@ -72,6 +72,34 @@ export function RecordInspector({ record, onClose, mobileOpen, currentView, onLo
         </details>
       )}
 
+      {record.claim_reviews && record.claim_reviews.length > 0 && (
+        <section className="commitments" aria-label="Claim-level source review leads">
+          <p className="eyebrow">CLAIM REVIEW LEADS · UNVERIFIED</p>
+          <p>These are retained source URLs nominated for passage-level review. No claim-to-source support or refutation has been verified by these links.</p>
+          <ol>
+            {record.claim_reviews.map((claim) => (
+              <li key={claim.id}>
+                <strong>{claim.kind === 'scope' ? 'Research scope' : 'Boundary or limitation'}</strong>
+                <p>{claim.text}</p>
+                <ul>
+                  {claim.citations.map((lead) => {
+                    const cited = record.citations.find((citation) => citation.url === lead.citation_url)
+                    return (
+                      <li key={lead.source_uid}>
+                        <button type="button" onClick={() => void openResearchSource(lead.citation_url, cited?.title ?? 'Review lead')}>
+                          Open candidate source: {cited?.title ?? lead.citation_url}
+                        </button>
+                        <small> · Source URL only · Claim match unreviewed · Citation metadata: {cited?.verification ?? 'pending'}</small>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
       <section className="inspector-citations">
         <div className="section-heading"><p className="eyebrow">CITATION TRAIL</p><span>{record.citations.length} work{record.citations.length === 1 ? '' : 's'}</span></div>
         {record.citations.map((citation, index) => (
