@@ -62,7 +62,7 @@ DOI resolution, locator recording, and human semantic review are intentionally s
 
 ## Claim-level source review leads
 
-The checked-in `Noemorph/data/claim-review-2026-11-05-core-theories.json` registers an initial set of **20 review leads across 10 priority theories**. This is a separate annotation layer, not new theories and not a source-verification milestone. At load time, `backend.claim_evidence` resolves each claim from an existing catalog `claim_scope.target` or `boundary_note` field and checks that the nominated source URL is already cited by that same record.
+The checked-in `Noemorph/data/claim-review-2026-11-05-core-theories.json` registers an initial set of **20 review leads across 10 priority theories**. This is a separate annotation layer, not new theories and not a source-verification milestone. At load time, `backend.claim_evidence` resolves each claim from an existing catalog `summary` or `boundary_note` field and checks that the nominated source URL is already cited by that same record.
 
 The public site and desktop inspector show these as **unreviewed bibliography leads**. Their `source-url-only` locators are not passage locators; even a DOI-resolved or bibliographically human-verified citation does **not** establish that the work supports or refutes a specific claim. No claim-level human verification, source support/refutation edges, or theory-to-theory relationships are published by this tranche. The API retains the original numeric source IDs for compatibility and additionally returns a deterministic `source_uid` for future source identity work.
 
