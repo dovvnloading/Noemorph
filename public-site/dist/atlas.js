@@ -67,7 +67,8 @@
       zoom: 1, panX: 0, panY: 0,
     };
     const kindByName = new Map(catalog.kinds.map(kind => [kind.value, kind]));
-    const reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+    const count = document.querySelector('#atlas-record-total');
+    if (count) count.textContent = String(catalog.records.length);
 
     function recordHref(record) {
       const url = new URL(window.location.href);
