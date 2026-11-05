@@ -7,6 +7,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
+from .profile_quality import profile_quality_report
+
 from .claim_evidence import (
     ClaimReviewIntegrityError,
     apply_claim_review_supplement,
@@ -715,6 +717,15 @@ class CatalogRepository:
 
         sources.sort(key=lambda source: (-sortable_year(source), source["title"]))
         return sources
+
+    def profile_quality(self) -> dict[str, Any]:
+        """Current profile-depth audit; completeness is not evidence verification."""
+        snapshot = self._load_if_changed()
+        return profile_quality_report(
+            snapshot.records,
+            catalog_version=str(snapshot.metadata.get("version", "unknown")),
+            corpus_date=str(snapshot.metadata.get("generated_at", "unknown")),
+        )
 
     def coverage(self) -> dict[str, Any]:
         snapshot = self._load_if_changed()
