@@ -269,7 +269,10 @@ export default function App() {
         />
       )
     }
-    if (view === 'coverage') return <CoverageView coverage={data.coverage} />
+    if (view === 'coverage') return <CoverageView coverage={data.coverage} onInspectRecord={(recordId) => {
+      const match = records.find((record) => record.id === recordId)
+      if (match) inspectRecordIn(match, 'catalog')
+    }} />
     return <MethodsView metadata={data.metadata} onNavigate={changeView} />
   }
 
