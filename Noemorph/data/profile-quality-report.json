@@ -1,0 +1,2345 @@
+{
+  "schema_version": 1,
+  "catalog_version": "0.6.1-collection",
+  "corpus_date": "2026-08-30",
+  "method": "Read-only profiling of merged catalog records. Four required fields must contain nonempty material; citation statuses and authority roles are descriptive metadata and do not validate claims.",
+  "limitations": "Profile completeness measures editorial depth, not evidential support, scientific merit, coverage exhaustiveness, or verification. Triage priority ranks missing editorial work and source-metadata follow-up; it does not rank theories or patients.",
+  "required_profile_fields": [
+    "claim_scope",
+    "boundary_note",
+    "evidence_profile",
+    "open_questions"
+  ],
+  "triage_formula": "10 * missing_required_fields + 3 * min(pending_metadata_citations, 3) + (2 if no primary-authority citation else 0) + (1 if citation_count <= 2 else 0)",
+  "summary": {
+    "record_count": 595,
+    "complete_profiles": 463,
+    "incomplete_profiles": 132,
+    "completion_percent": 77.8,
+    "citation_occurrences": 1256,
+    "citation_verification_counts": {
+      "doi-resolved": 718,
+      "human-verified": 176,
+      "locator-recorded": 283,
+      "pending-metadata-review": 79
+    },
+    "missing_required_field_counts": {
+      "claim_scope": 132,
+      "boundary_note": 132,
+      "evidence_profile": 132,
+      "open_questions": 132
+    }
+  },
+  "by_kind": [
+    {
+      "kind": "Argument / challenge",
+      "records": 28,
+      "complete_profiles": 28,
+      "incomplete_profiles": 0,
+      "records_with_pending_citations": 0,
+      "records_with_no_primary_anchor": 8
+    },
+    {
+      "kind": "Clinical / state model",
+      "records": 37,
+      "complete_profiles": 23,
+      "incomplete_profiles": 14,
+      "records_with_pending_citations": 10,
+      "records_with_no_primary_anchor": 3
+    },
+    {
+      "kind": "Historical tradition",
+      "records": 112,
+      "complete_profiles": 78,
+      "incomplete_profiles": 34,
+      "records_with_pending_citations": 12,
+      "records_with_no_primary_anchor": 55
+    },
+    {
+      "kind": "Model or framework",
+      "records": 166,
+      "complete_profiles": 156,
+      "incomplete_profiles": 10,
+      "records_with_pending_citations": 10,
+      "records_with_no_primary_anchor": 17
+    },
+    {
+      "kind": "Phenomenological construct",
+      "records": 33,
+      "complete_profiles": 20,
+      "incomplete_profiles": 13,
+      "records_with_pending_citations": 5,
+      "records_with_no_primary_anchor": 10
+    },
+    {
+      "kind": "Philosophical position",
+      "records": 79,
+      "complete_profiles": 63,
+      "incomplete_profiles": 16,
+      "records_with_pending_citations": 6,
+      "records_with_no_primary_anchor": 34
+    },
+    {
+      "kind": "Scientific theory",
+      "records": 119,
+      "complete_profiles": 85,
+      "incomplete_profiles": 34,
+      "records_with_pending_citations": 25,
+      "records_with_no_primary_anchor": 4
+    },
+    {
+      "kind": "Theory of mind / social cognition",
+      "records": 21,
+      "complete_profiles": 10,
+      "incomplete_profiles": 11,
+      "records_with_pending_citations": 7,
+      "records_with_no_primary_anchor": 0
+    }
+  ],
+  "backlog": [
+    {
+      "id": "seed-130-cortico-striato-thalamo-cortical-altered-state-model",
+      "name": "Cortico-striato-thalamo-cortical altered-state model",
+      "kind": "Clinical / state model",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 2,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 47
+    },
+    {
+      "id": "seed-198-delirium-and-fluctuating-awareness",
+      "name": "Delirium and fluctuating awareness",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 2,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 47
+    },
+    {
+      "id": "seed-014-fundamental-property-dualism-naturalistic-dualism",
+      "name": "Fundamental property dualism / naturalistic dualism",
+      "kind": "Philosophical position",
+      "domain": "Analytic metaphysics of consciousness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 2,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 47
+    },
+    {
+      "id": "seed-190-arousal-wakefulness-responsiveness-and-awareness-dissociations",
+      "name": "Arousal, wakefulness, responsiveness, and awareness dissociations",
+      "kind": "Phenomenological construct",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 46
+    },
+    {
+      "id": "seed-131-aim-model-of-brain-mind-states",
+      "name": "AIM model of brain-mind states",
+      "kind": "Clinical / state model",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-128-fronto-limbic-model-of-depersonalization",
+      "name": "Fronto-limbic model of depersonalization",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-127-ipseity-disturbance-model-of-schizophrenia",
+      "name": "Ipseity-disturbance model of schizophrenia",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-126-mesocircuit-hypothesis-of-consciousness-recovery",
+      "name": "Mesocircuit hypothesis of consciousness recovery",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-164-network-inhibition-hypothesis",
+      "name": "Network Inhibition Hypothesis",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-129-rebus-and-the-anarchic-brain",
+      "name": "REBUS and the Anarchic Brain",
+      "kind": "Clinical / state model",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-199-seizure-related-impairment-of-consciousness",
+      "name": "Seizure-related impairment of consciousness",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-107-augustinian-immediate-self-presence",
+      "name": "Augustinian immediate self-presence",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-110-bergsonian-duration-and-memory",
+      "name": "Bergsonian duration and memory",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-112-carvaka-and-lokayata-embodied-materialism",
+      "name": "Cārvāka and Lokāyata embodied materialism",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-121-dzogchen-rigpa-and-pristine-awareness",
+      "name": "Dzogchen rigpa and pristine awareness",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-106-humean-bundle-and-succession-account-of-self",
+      "name": "Humean bundle and succession account of self",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-084-jamesian-stream-of-consciousness-and-radical-empiricism",
+      "name": "Jamesian stream of consciousness and radical empiricism",
+      "kind": "Historical tradition",
+      "domain": "Psychology / pragmatism",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-083-kantian-transcendental-unity-of-apperception",
+      "name": "Kantian transcendental unity of apperception",
+      "kind": "Historical tradition",
+      "domain": "Transcendental philosophy / philosophy of mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-081-leibnizian-monadology-and-pre-established-harmony",
+      "name": "Leibnizian monadology and pre-established harmony",
+      "kind": "Historical tradition",
+      "domain": "Early modern metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-105-locke-s-consciousness-criterion-of-personal-identity",
+      "name": "Locke's consciousness criterion of personal identity",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-120-mahamudra-empty-luminous-mind",
+      "name": "Mahāmudrā empty-luminous mind",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-116-pratyabhijna-recognition-philosophy",
+      "name": "Pratyabhijñā recognition philosophy",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-115-visis-advaita-intentional-consciousness",
+      "name": "Viśiṣṭādvaita intentional consciousness",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-134-attentional-constructive-and-deconstructive-meditation-taxonomy",
+      "name": "Attentional, constructive, and deconstructive meditation taxonomy",
+      "kind": "Model or framework",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-162-consciousness-state-space-css-model",
+      "name": "Consciousness State Space (CSS) model",
+      "kind": "Model or framework",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-168-layered-reference-model-of-the-brain-lrmb",
+      "name": "Layered Reference Model of the Brain (LRMB)",
+      "kind": "Model or framework",
+      "domain": "Cognitive architecture & access",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-125-multidimensional-global-state-framework",
+      "name": "Multidimensional global-state framework",
+      "kind": "Model or framework",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-167-retinoid-system-model-and-theater-of-consciousness",
+      "name": "Retinoid System Model and Theater of Consciousness",
+      "kind": "Model or framework",
+      "domain": "Cognitive architecture & access",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-133-s-art-mindfulness-framework",
+      "name": "S-ART mindfulness framework",
+      "kind": "Model or framework",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-135-lucid-dreaming-as-a-hybrid-state",
+      "name": "Lucid dreaming as a hybrid state",
+      "kind": "Phenomenological construct",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-183-sense-of-agency",
+      "name": "Sense of agency",
+      "kind": "Phenomenological construct",
+      "domain": "Embodied self & affect",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-100-extended-mind-thesis",
+      "name": "Extended Mind thesis",
+      "kind": "Philosophical position",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-170-markovian-monism",
+      "name": "Markovian Monism",
+      "kind": "Philosophical position",
+      "domain": "Predictive & representational models",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-077-consciousness-as-a-state-of-matter-perceptronium",
+      "name": "Consciousness as a State of Matter (“perceptronium”)",
+      "kind": "Scientific theory",
+      "domain": "Mathematical physics / information theory",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-150-counterfactual-information-generation-hypothesis",
+      "name": "Counterfactual Information Generation hypothesis",
+      "kind": "Scientific theory",
+      "domain": "Predictive & representational models",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-166-cross-order-integration-theory-coi",
+      "name": "Cross-Order Integration theory (COI)",
+      "kind": "Scientific theory",
+      "domain": "Metacognition & higher-order awareness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-151-dynamical-emergence-theory-det",
+      "name": "Dynamical Emergence Theory (DET)",
+      "kind": "Scientific theory",
+      "domain": "Neural dynamics & integration",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-169-global-latent-workspace-glw",
+      "name": "Global Latent Workspace (GLW)",
+      "kind": "Scientific theory",
+      "domain": "Cognitive architecture & access",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-153-maxcon-maximizing-configurations-of-brain-connectivity",
+      "name": "MaxCon: Maximizing Configurations of Brain Connectivity",
+      "kind": "Scientific theory",
+      "domain": "Neural dynamics & integration",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-160-memory-theory-of-consciousness-mtoc",
+      "name": "Memory Theory of Consciousness (MToC)",
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-165-memory-consciousness-and-temporality-theory-mctt",
+      "name": "Memory, Consciousness and Temporality Theory (MCTT)",
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-157-microconsciousness-and-multistage-visual-integration-theory",
+      "name": "Microconsciousness and multistage visual integration theory",
+      "kind": "Scientific theory",
+      "domain": "Neural dynamics & integration",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-152-nested-observer-windows-now-model",
+      "name": "Nested Observer Windows (NOW) model",
+      "kind": "Scientific theory",
+      "domain": "Neural dynamics & integration",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-154-neural-subjective-frame-hypothesis",
+      "name": "Neural Subjective Frame hypothesis",
+      "kind": "Scientific theory",
+      "domain": "Embodied self & affect",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-148-neurorepresentationalism-nrep",
+      "name": "Neurorepresentationalism (NREP)",
+      "kind": "Scientific theory",
+      "domain": "Predictive & representational models",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-161-passive-frame-theory-pft",
+      "name": "Passive Frame Theory (PFT)",
+      "kind": "Scientific theory",
+      "domain": "Cognitive architecture & access",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-072-pockett-electromagnetic-field-theory",
+      "name": "Pockett Electromagnetic Field Theory",
+      "kind": "Scientific theory",
+      "domain": "Biophysics / neuroscience",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-158-proto-self-core-consciousness-and-extended-consciousness-model",
+      "name": "Proto-self, core consciousness, and extended consciousness model",
+      "kind": "Scientific theory",
+      "domain": "Embodied self & affect",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-147-self-organizing-metarepresentational-account-soma",
+      "name": "Self-Organizing Metarepresentational Account (SOMA)",
+      "kind": "Scientific theory",
+      "domain": "Metacognition & higher-order awareness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-074-stapp-quantum-interactive-quantum-zeno-model",
+      "name": "Stapp quantum-interactive / Quantum Zeno model",
+      "kind": "Scientific theory",
+      "domain": "Quantum foundations / dualist philosophy of mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-048-thalamocortical-resonance-temporal-conjunction",
+      "name": "Thalamocortical Resonance / Temporal Conjunction",
+      "kind": "Scientific theory",
+      "domain": "Neurophysiology",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-155-upper-brainstem-integration-for-action-theory",
+      "name": "Upper-brainstem integration-for-action theory",
+      "kind": "Scientific theory",
+      "domain": "Subcortical & biological models",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-144-dialogical-self-theory",
+      "name": "Dialogical Self Theory",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-097-intentional-systems-theory-intentional-stance",
+      "name": "Intentional Systems Theory / Intentional Stance",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Philosophy of mind / cognitive science",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-138-like-me-developmental-framework",
+      "name": "Like Me developmental framework",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-140-participatory-sense-making",
+      "name": "Participatory sense-making",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-137-primary-and-secondary-infant-intersubjectivity",
+      "name": "Primary and secondary infant intersubjectivity",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-141-submentalizing-challenge",
+      "name": "Submentalizing challenge",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-139-two-system-account-of-mindreading",
+      "name": "Two-system account of mindreading",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 1,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 44
+    },
+    {
+      "id": "seed-195-blindsight-and-residual-visual-processing-without-acknowledged-awareness",
+      "name": "Blindsight and residual visual processing without acknowledged awareness",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-196-hemispatial-neglect-and-anosognosia",
+      "name": "Hemispatial neglect and anosognosia",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-090-abhidharma-no-self-and-momentary-mind-analysis",
+      "name": "Abhidharma no-self and momentary mind analysis",
+      "kind": "Historical tradition",
+      "domain": "Buddhist philosophy / philosophical psychology",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-087-advaita-vedanta-nondual-consciousness",
+      "name": "Advaita Vedānta nondual consciousness",
+      "kind": "Historical tradition",
+      "domain": "Classical Indian philosophy / Vedānta",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-124-akan-theories-of-personhood",
+      "name": "Akan theories of personhood",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-093-avicennian-immaterial-rational-soul-flying-man",
+      "name": "Avicennian immaterial rational soul / Flying Man",
+      "kind": "Historical tradition",
+      "domain": "Arabic/Islamic philosophy of mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-104-brentanian-intentionality-and-inner-perception",
+      "name": "Brentanian intentionality and inner perception",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-114-dignaga-dharmakirti-reflexive-awareness",
+      "name": "Dignāga–Dharmakīrti reflexive awareness",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-109-hegelian-recognition-account-of-self-consciousness",
+      "name": "Hegelian recognition account of self-consciousness",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-092-jaina-jiva-as-unobstructed-consciousness",
+      "name": "Jaina jīva as unobstructed consciousness",
+      "kind": "Historical tradition",
+      "domain": "Jaina philosophy",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-113-madhyamaka-emptiness-and-no-intrinsic-self",
+      "name": "Madhyamaka emptiness and no-intrinsic-self",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-086-merleau-ponty-s-embodied-phenomenology",
+      "name": "Merleau-Ponty’s embodied phenomenology",
+      "kind": "Historical tradition",
+      "domain": "Phenomenology / embodied mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-118-mulla-sadra-s-graded-consciousness-and-unity-of-knower-and-known",
+      "name": "Mullā Ṣadrā's graded consciousness and unity of knower and known",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-089-nyaya-vaisesika-substantial-self-theory",
+      "name": "Nyāya–Vaiśeṣika substantial self theory",
+      "kind": "Historical tradition",
+      "domain": "Classical Indian philosophy",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-108-plotinian-intellect-soul-and-the-shifting-conscious-self",
+      "name": "Plotinian Intellect, Soul, and the shifting conscious self",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-102-prereflective-self-consciousness",
+      "name": "Prereflective self-consciousness",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-082-spinoza-s-attribute-mode-theory-of-mind",
+      "name": "Spinoza’s attribute/mode theory of mind",
+      "kind": "Historical tradition",
+      "domain": "Early modern metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-111-stein-s-phenomenology-of-empathy",
+      "name": "Stein's phenomenology of empathy",
+      "kind": "Historical tradition",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-117-suhrawardi-s-knowledge-by-presence",
+      "name": "Suhrawardī's knowledge by presence",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-088-samkhya-yoga-purusa-prakrti-dualism",
+      "name": "Sāṃkhya–Yoga puruṣa/prakṛti dualism",
+      "kind": "Historical tradition",
+      "domain": "Classical Indian philosophy",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-123-wang-yangming-s-school-of-heart-mind",
+      "name": "Wang Yangming's school of heart-mind",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-091-yogacara-mind-only-and-eight-consciousness-model",
+      "name": "Yogācāra mind-only and eight-consciousness model",
+      "kind": "Historical tradition",
+      "domain": "Mahāyāna Buddhist philosophy",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-122-zhuangzian-heart-mind-fasting-and-responsive-awareness",
+      "name": "Zhuangzian heart-mind fasting and responsive awareness",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-184-affective-consciousness-and-valence",
+      "name": "Affective consciousness and valence",
+      "kind": "Phenomenological construct",
+      "domain": "Embodied self & affect",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-188-graded-and-dichotomous-consciousness-models",
+      "name": "Graded and dichotomous consciousness models",
+      "kind": "Phenomenological construct",
+      "domain": "Attention & conscious access",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-178-intentionality-and-aboutness",
+      "name": "Intentionality and aboutness",
+      "kind": "Phenomenological construct",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-176-subjectivity-and-for-me-ness",
+      "name": "Subjectivity and for-me-ness",
+      "kind": "Phenomenological construct",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-180-temporal-consciousness",
+      "name": "Temporal consciousness",
+      "kind": "Phenomenological construct",
+      "domain": "Memory & temporal consciousness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-012-cartesian-substance-dualism",
+      "name": "Cartesian substance dualism",
+      "kind": "Philosophical position",
+      "domain": "Early modern philosophy / metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-143-collective-intentionality-family",
+      "name": "Collective intentionality family",
+      "kind": "Philosophical position",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-080-consciousness-causes-collapse-london-bauer-wigner-family",
+      "name": "Consciousness-causes-collapse (London–Bauer / Wigner family)",
+      "kind": "Philosophical position",
+      "domain": "Quantum foundations / philosophy of mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-015-hylomorphism-about-mind",
+      "name": "Hylomorphism about mind",
+      "kind": "Philosophical position",
+      "domain": "Ancient/medieval and analytic philosophy",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-022-idealism-metaphysical-family",
+      "name": "Idealism (metaphysical family)",
+      "kind": "Philosophical position",
+      "domain": "Metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-007-strong-emergence-emergent-property-dualism",
+      "name": "Strong emergence / emergent property dualism",
+      "kind": "Philosophical position",
+      "domain": "Metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-006-weak-emergentism",
+      "name": "Weak emergentism",
+      "kind": "Philosophical position",
+      "domain": "Metaphysics / complex systems",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-025-whiteheadian-process-panexperientialism",
+      "name": "Whiteheadian process panexperientialism",
+      "kind": "Philosophical position",
+      "domain": "Process metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": false,
+      "citation_count": 2,
+      "triage_priority": 43
+    },
+    {
+      "id": "seed-193-anesthesia-induced-unconsciousness",
+      "name": "Anesthesia-induced unconsciousness",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-200-near-death-and-out-of-body-experience-reports",
+      "name": "Near-death and out-of-body experience reports",
+      "kind": "Clinical / state model",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-197-split-brain-consciousness",
+      "name": "Split-brain consciousness",
+      "kind": "Clinical / state model",
+      "domain": "Clinical states & disorders",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-119-tathagatagarbha-and-luminous-mind-family",
+      "name": "Tathāgatagarbha and luminous-mind family",
+      "kind": "Historical tradition",
+      "domain": "Historical & comparative traditions",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-076-dissipative-quantum-brain-dynamics-qbd",
+      "name": "Dissipative Quantum Brain Dynamics (QBD)",
+      "kind": "Model or framework",
+      "domain": "Quantum field theory / brain dynamics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-142-distributed-cognition",
+      "name": "Distributed cognition",
+      "kind": "Model or framework",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-079-interface-theory-of-perception-itp",
+      "name": "Interface Theory of Perception (ITP)",
+      "kind": "Model or framework",
+      "domain": "Perceptual psychology / evolutionary modeling",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-068-lida-learning-intelligent-distribution-agent-global-workspace-architectu",
+      "name": "LIDA (Learning Intelligent Distribution Agent) / Global Workspace Architecture",
+      "kind": "Model or framework",
+      "domain": "Cognitive architecture / AI",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-182-body-ownership",
+      "name": "Body ownership",
+      "kind": "Phenomenological construct",
+      "domain": "Embodied self & affect",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-185-interoceptive-awareness",
+      "name": "Interoceptive awareness",
+      "kind": "Phenomenological construct",
+      "domain": "Embodied self & affect",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-132-minimal-phenomenal-experience-and-aras-model",
+      "name": "Minimal Phenomenal Experience and ARAS model",
+      "kind": "Phenomenological construct",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-186-noetic-anoetic-and-autonoetic-consciousness",
+      "name": "Noetic, anoetic, and autonoetic consciousness",
+      "kind": "Phenomenological construct",
+      "domain": "Memory & temporal consciousness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-187-pure-consciousness-and-contentless-awareness",
+      "name": "Pure consciousness and contentless awareness",
+      "kind": "Phenomenological construct",
+      "domain": "Contemplative & altered states",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-013-interactionist-dualism",
+      "name": "Interactionist dualism",
+      "kind": "Philosophical position",
+      "domain": "Metaphysics / neurophilosophy",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-040-na-ve-realism-relationalism-about-perception",
+      "name": "Naïve realism / relationalism about perception",
+      "kind": "Philosophical position",
+      "domain": "Philosophy of perception",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-024-new-mysterianism-cognitive-closure",
+      "name": "New mysterianism / cognitive closure",
+      "kind": "Philosophical position",
+      "domain": "Meta-philosophy of mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-101-phenomenal-intentionality-theory",
+      "name": "Phenomenal Intentionality Theory",
+      "kind": "Philosophical position",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-002-type-identity-theory",
+      "name": "Type-identity theory",
+      "kind": "Philosophical position",
+      "domain": "Philosophy of mind",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-075-beck-eccles-quantum-exocytosis-model",
+      "name": "Beck–Eccles quantum exocytosis model",
+      "kind": "Scientific theory",
+      "domain": "Neurophysiology / interactionist dualism / quantum proposal",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-078-conscious-agent-theory",
+      "name": "Conscious Agent Theory",
+      "kind": "Scientific theory",
+      "domain": "Mathematical psychology / idealist or consciousness-first metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-203-fractal-and-sentyon-theory-of-consciousness",
+      "name": "Fractal and sentyon theory of consciousness",
+      "kind": "Scientific theory",
+      "domain": "Neural dynamics & integration",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-063-general-resonance-theory-grt",
+      "name": "General Resonance Theory (GRT)",
+      "kind": "Scientific theory",
+      "domain": "Theoretical neuroscience / metaphysics",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-204-gurwitsch-consciousness-field-extension",
+      "name": "Gurwitsch consciousness-field extension",
+      "kind": "Scientific theory",
+      "domain": "Physical & field proposals",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-202-hall-of-mirrors-and-dynamic-mosaics-hypothesis",
+      "name": "Hall of Mirrors and dynamic-mosaics hypothesis",
+      "kind": "Scientific theory",
+      "domain": "Neural dynamics & integration",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-156-neurobiological-naturalism",
+      "name": "Neurobiological Naturalism",
+      "kind": "Scientific theory",
+      "domain": "Subcortical & biological models",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-052-operational-architectonics-oa-theory",
+      "name": "Operational Architectonics (OA) theory",
+      "kind": "Scientific theory",
+      "domain": "EEG / systems neuroscience",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-073-orchestrated-objective-reduction-orch-or",
+      "name": "Orchestrated Objective Reduction (Orch OR)",
+      "kind": "Scientific theory",
+      "domain": "Quantum foundations / neurobiology",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-205-psychological-theory-of-consciousness-ptoc",
+      "name": "Psychological Theory of Consciousness (PToC)",
+      "kind": "Scientific theory",
+      "domain": "Awareness & selfhood",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-207-qualia-as-neural-phenotype-hypothesis",
+      "name": "Qualia-as-neural-phenotype hypothesis",
+      "kind": "Scientific theory",
+      "domain": "Subcortical & biological models",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-206-radical-plasticity-thesis",
+      "name": "Radical Plasticity Thesis",
+      "kind": "Scientific theory",
+      "domain": "Metacognition & higher-order awareness",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-053-semantic-pointer-competition-spc-theory",
+      "name": "Semantic Pointer Competition (SPC) theory",
+      "kind": "Scientific theory",
+      "domain": "Computational neuroscience / cognitive architecture",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-049-temporo-spatial-theory-of-consciousness-ttc",
+      "name": "Temporo-Spatial Theory of Consciousness (TTC)",
+      "kind": "Scientific theory",
+      "domain": "Systems neuroscience / neurophenomenology",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-056-unlimited-associative-learning-ual-framework",
+      "name": "Unlimited Associative Learning (UAL) framework",
+      "kind": "Scientific theory",
+      "domain": "Evolutionary biology / comparative cognition",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-098-interaction-theory-of-social-cognition",
+      "name": "Interaction Theory of social cognition",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Phenomenology / developmental and embodied social cognition",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-099-narrative-practice-hypothesis-nph",
+      "name": "Narrative Practice Hypothesis (NPH)",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Developmental philosophy / cultural psychology",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-136-shared-intentionality-theory",
+      "name": "Shared Intentionality theory",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    },
+    {
+      "id": "seed-096-theory-of-mind-mechanism-tomm-modular-mindreading",
+      "name": "Theory-of-Mind Mechanism (ToMM) / modular mindreading",
+      "kind": "Theory of mind / social cognition",
+      "domain": "Developmental cognitive science / neuropsychology",
+      "missing_fields": [
+        "claim_scope",
+        "boundary_note",
+        "evidence_profile",
+        "open_questions"
+      ],
+      "missing_field_count": 4,
+      "pending_metadata_citations": 0,
+      "has_primary_citation": true,
+      "citation_count": 2,
+      "triage_priority": 41
+    }
+  ]
+}
