@@ -232,9 +232,16 @@
     fillSelect(tradition, records.map(r => r.tradition));
     fillSelect(review, records.map(r => r.review_state));
     draw();
+    // Discovery is optional: a missing or invalid reading path never blocks the catalog.
+    void window.NoemorphDiscovery?.mount(records);
     if (requestedComparison) window.requestAnimationFrame(() => {
       comparison.scrollIntoView({ block: 'start' });
       comparison.focus({ preventScroll: true });
     });
-  }).catch(() => { status.textContent = 'The collection could not be loaded.'; recordsEl.innerHTML = '<p class="empty">Please reload the page, or visit the repository to explore the source data.</p>'; });
+  }).catch(() => {
+    status.textContent = 'The collection could not be loaded.';
+    recordsEl.innerHTML = '<p class="empty">Please reload the page, or visit the repository to explore the source data.</p>';
+    const discoveryStatus = document.querySelector('#discovery-status');
+    if (discoveryStatus) discoveryStatus.textContent = 'Discovery paths require the catalog. Please try reloading the page.';
+  });
 })();

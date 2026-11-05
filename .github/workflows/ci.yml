@@ -65,6 +65,8 @@ jobs:
         with:
           node-version: '24'
       - name: Check public JavaScript syntax
-        run: node --check public-site/dist/app.js
+        run: |
+          node --check public-site/dist/app.js
+          node --check public-site/dist/discovery.js
       - name: Exercise public catalog filters, links, and exports
         run: node --test public-site/tests/*.test.mjs

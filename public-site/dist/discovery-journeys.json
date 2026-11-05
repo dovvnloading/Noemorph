@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "editorial_policy": "These are curated reading pathways through existing provisional catalog entries. Their order does not imply agreement, disagreement, influence, sufficiency, or claim-level source verification.",
+  "journeys": [
+    {
+      "id": "experience",
+      "title": "What makes us conscious?",
+      "subtitle": "From the question itself to competing kinds of explanation",
+      "theme": "orbit",
+      "number": "01",
+      "steps": [
+        {
+          "record_id": "seed-171-phenomenal-consciousness",
+          "prompt": "What are we trying to explain?",
+          "orientation": "Start with the experiential character of a state. Being available for report and having a felt quality are not automatically the same research question.",
+          "reflection": "Which part of experience would you want a theory to explain?"
+        },
+        {
+          "record_id": "seed-026-global-workspace-theory-gwt",
+          "prompt": "Could access be the key?",
+          "orientation": "Examine a cognitive architecture proposed to make selected information broadly available. This is one framework, not a settled account of phenomenality.",
+          "reflection": "Does global availability explain experience, or only what we can do with information?"
+        },
+        {
+          "record_id": "seed-028-integrated-information-theory-iit",
+          "prompt": "What if structure matters?",
+          "orientation": "Consider a proposal centered on intrinsic causal organization. Its assumptions and empirical interpretation are contested.",
+          "reflection": "What would count as an independent test of its central claims?"
+        }
+      ]
+    },
+    {
+      "id": "machines",
+      "title": "Could AI be conscious?",
+      "subtitle": "Investigate indicators without turning them into verdicts",
+      "theme": "signal",
+      "number": "02",
+      "steps": [
+        {
+          "record_id": "breadth-neuro-024-ai-theory-indicators",
+          "prompt": "What would we even look for?",
+          "orientation": "One research approach turns neuroscientific theories into candidate indicators for artificial systems. An indicator is not a test that grants consciousness.",
+          "reflection": "Which signs could distinguish a mechanism from an imitation?"
+        },
+        {
+          "record_id": "emerging-breadth-043-mechanistic-implementation-ai-consciousness",
+          "prompt": "Is matching behavior enough?",
+          "orientation": "This framework asks whether an implementation has the proposed causal organization, not merely superficially similar outputs.",
+          "reflection": "How could the relevant mechanism be examined independently?"
+        },
+        {
+          "record_id": "emerging-breadth-042-behavioral-inference-principle",
+          "prompt": "What can behavior tell us?",
+          "orientation": "Explore a complementary argument about drawing inferences from controlled behavior. It does not settle how subjective experience should be attributed.",
+          "reflection": "How much uncertainty should remain even after impressive performance?"
+        }
+      ]
+    },
+    {
+      "id": "awareness",
+      "title": "What is awareness?",
+      "subtitle": "Separate attention, access, and responses from experience",
+      "theme": "focus",
+      "number": "03",
+      "steps": [
+        {
+          "record_id": "seed-175-awareness-and-attention-distinction",
+          "prompt": "Is attention the same as awareness?",
+          "orientation": "Attention prioritizes information, but awareness has distinct meanings and may dissociate from selection in some paradigms.",
+          "reflection": "What could attention do without making something conscious?"
+        },
+        {
+          "record_id": "seed-172-access-consciousness",
+          "prompt": "What does conscious access mean?",
+          "orientation": "Study a functional distinction focused on information usable for reasoning, action, or report—without assuming it captures every phenomenal aspect.",
+          "reflection": "How could you examine access without requiring verbal report?"
+        },
+        {
+          "record_id": "seed-192-cognitive-motor-dissociation-and-covert-consciousness",
+          "prompt": "What if someone cannot respond?",
+          "orientation": "Certain clinical findings make behavioral nonresponse an unreliable stand-alone proxy for awareness. These studies require careful interpretation.",
+          "reflection": "Which kinds of evidence can supplement bedside behavior, and what are their limits?"
+        }
+      ]
+    },
+    {
+      "id": "selfhood",
+      "title": "What makes a self?",
+      "subtitle": "Explore modeling, philosophical traditions, and divided access",
+      "theme": "mirror",
+      "number": "04",
+      "steps": [
+        {
+          "record_id": "seed-159-self-model-theory-of-subjectivity-and-phenomenal-self-model",
+          "prompt": "Could the self be a model?",
+          "orientation": "A philosophical account examines how a transparent self-model may structure first-person experience. This is not a verified neural diagnosis.",
+          "reflection": "How does an experience seem to belong to someone?"
+        },
+        {
+          "record_id": "seed-087-advaita-vedanta-nondual-consciousness",
+          "prompt": "Must selfhood be an object?",
+          "orientation": "Consider a historical tradition that treats consciousness and selfhood through a nondual metaphysical framework. Do not read it as a modern neuroscience hypothesis.",
+          "reflection": "How do different traditions define the subject of experience?"
+        },
+        {
+          "record_id": "seed-197-split-brain-consciousness",
+          "prompt": "Can unity be interrupted?",
+          "orientation": "Neuropsychological disconnection studies raise disputed questions about perceptual access, report, action, and the unity of subjectivity.",
+          "reflection": "What would an observed dissociation establish—and what would it leave open?"
+        }
+      ]
+    }
+  ],
+  "surprise": {
+    "title": "An unexpected corner of mind",
+    "prompt": "One idea you might not have gone looking for",
+    "record_ids": [
+      "seed-187-pure-consciousness-and-contentless-awareness",
+      "breadth-neuro-021-insect-subjective-experience",
+      "seed-059-entropic-brain-hypothesis",
+      "seed-092-jaina-jiva-as-unobstructed-consciousness",
+      "seed-195-blindsight-and-residual-visual-processing-without-acknowledged-awareness",
+      "seed-010-illusionism-about-phenomenal-consciousness"
+    ]
+  }
+}
