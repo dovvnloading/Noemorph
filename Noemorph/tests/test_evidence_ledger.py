@@ -75,7 +75,7 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
         self.assertTrue(result["relationships_locked"])
         self.assertEqual(result["publication_state"], "review-only")
         self.assertEqual(
-            result["sources"][0]["status"], "independent-agreement-recorded"
+            result["sources"][0]["status"], "recorded-concordance"
         )
         self.assertEqual(result["sources"][0]["active_reviewer_count"], 2)
         self.assertTrue(result["sources"][0]["recorded_agreement_is_not_verification"])
@@ -92,7 +92,7 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
         self.assertEqual(len(current["events"]), 3)
         self.assertEqual(current["sources"][0]["active_reviewer_count"], 2)
         self.assertEqual(
-            current["sources"][0]["status"], "independent-agreement-recorded"
+            current["sources"][0]["status"], "recorded-concordance"
         )
 
     def test_exact_locator_and_short_excerpt_required_for_strong_decisions(self) -> None:
