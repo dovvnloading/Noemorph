@@ -68,5 +68,6 @@ jobs:
         run: |
           node --check public-site/dist/app.js
           node --check public-site/dist/discovery.js
+          node --check public-site/dist/atlas.js
       - name: Exercise public catalog filters, links, and exports
         run: node --test public-site/tests/*.test.mjs
