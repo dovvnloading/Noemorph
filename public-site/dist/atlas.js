@@ -295,8 +295,17 @@
           return;
         }
         state.record = value;
+        if (state.query) {
+          state.kind = record.kind;
+          state.domain = record.domain;
+          state.query = '';
+        }
+        const domainGroup = kindByName.get(record.kind)?.domains.find(x => x.value === record.domain);
+        state.page = Math.max(0, Math.floor(
+          (domainGroup?.records.findIndex(item => item.id === value) ?? 0) / PAGE_SIZE
+        ));
       } else return;
-      state.page = 0;
+      if (type !== 'record') state.page = 0;
       resetViewport();
       syncUrl();
       render();
@@ -446,6 +455,12 @@
       state.record = route?.record || null;
       state.query = '';
       state.page = 0;
+      if (state.record) {
+        const group = kindByName.get(state.kind)?.domains.find(x => x.value === state.domain);
+        state.page = Math.max(0, Math.floor(
+          (group?.records.findIndex(item => item.id === state.record) ?? 0) / PAGE_SIZE
+        ));
+      }
       resetViewport();
       render();
     });
@@ -453,6 +468,12 @@
     state.kind = initial?.kind || null;
     state.domain = initial?.domain || null;
     state.record = initial?.record || null;
+    if (state.record) {
+      const group = kindByName.get(state.kind)?.domains.find(x => x.value === state.domain);
+      state.page = Math.max(0, Math.floor(
+        (group?.records.findIndex(item => item.id === state.record) ?? 0) / PAGE_SIZE
+      ));
+    }
     render();
     if (initial?.kind) {
       window.requestAnimationFrame(() => status.focus({ preventScroll: true }));
