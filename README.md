@@ -84,6 +84,20 @@ The same information is available through the read-only `/api/profile-quality` e
 
 The historical 577-record audit remains archived as a snapshot. `Noemorph/data/coverage-report.json` and the new profile report track the current merged corpus; automated checks now reject stale profile report snapshots.
 
+## Question-led discovery on the public site
+
+The public atlas starts with **Discovery Mode**: four short, curated three-step reading journeys on consciousness, artificial consciousness, awareness, and selfhood, plus **Surprise me** for a rotating selection of less-familiar catalog records. Each step shows a short prompt, a real research record with its current provisional state, a reflective question, and optional expandable research notes and retained citations. Visitors can jump into the full existing catalog record at any point.
+
+Discovery material is stored separately in `public-site/dist/discovery-journeys.json`; the interface lives in `public-site/dist/discovery.js` and `discovery.css`. The public site still works as a searchable catalog if the discovery overlay is unavailable. Use the same validated stable IDs as the existing catalog. Links such as:
+
+```text
+https://dovvnloading.github.io/Noemorph/?journey=awareness&step=2#discover
+```
+
+reopen a specific reading step. The surprise route can also be shared through a `surprise` query parameter. Invalid or conflicting routes are ignored safely; browser Back supports undoing journey navigation. Journey data is checked against the real merged catalog in Python tests, and the interactive states are covered by dependency-free Node smoke tests.
+
+**Editorial boundary:** A journey is a reading path, not an evidence-based theory relationship, sequence of scientific progress, diagnosis, ranking, or automatic recommendation. Citation metadata does not prove claim-level support. The research atlas and all source verification/relationship locks remain unchanged. The controls are keyboard accessible, responsive, and support reduced-motion preferences.
+
 ## Read-only record comparison
 
 The desktop **Record catalog** and the [public atlas](https://dovvnloading.github.io/Noemorph/) now let readers **select exactly two reviewed catalog records** and inspect their entries side by side. Open a record on the public website and choose **Compare this record**; choose a second entry to show both. The desktop table offers a dedicated **Compare** control per row. Each side retains its own kind, domain, summary, scope, boundaries, evidence profile, open questions, citation roles, and citation verification states.
