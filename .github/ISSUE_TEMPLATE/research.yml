@@ -1,0 +1,23 @@
+name: Research correction or addition
+description: Suggest a correction, source, or missing perspective in the catalog.
+title: '[Research]: '
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should change?
+      description: Identify the record and explain the correction or addition.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and exact locators
+      description: Link to the relevant primary or authoritative sources and identify the passages supporting the change.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Scope or uncertainty
+      description: Note any interpretation, attribution, translation, or evidence limits that reviewers should consider.

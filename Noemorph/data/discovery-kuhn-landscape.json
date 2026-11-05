@@ -1,0 +1,5062 @@
+{
+  "collection": {
+    "name": "Kuhn 2024 landscape headings",
+    "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+    "source_pdf": "https://rlkuhn.com/wp-content/uploads/2024/11/A-Landscape-of-Consciousness-%E2%80%94-Robert-Lawrence-Kuhn-%E2%80%94-Progress-in-Biophysics-and-Molecular-Biology-%E2%80%94-August-2024r.pdf",
+    "retrieved": "2026-08-30",
+    "role": "Inclusive discovery frame; headings require identity and source screening before catalog promotion",
+    "entry_count": 219,
+    "named_position_count": 209,
+    "overview_count": 10
+  },
+  "discovery_frame": "Kuhn landscape sections 9-18",
+  "source": "https://rlkuhn.com/wp-content/uploads/2024/11/A-Landscape-of-Consciousness-%E2%80%94-Robert-Lawrence-Kuhn-%E2%80%94-Progress-in-Biophysics-and-Molecular-Biology-%E2%80%94-August-2024r.pdf",
+  "catalog_records": 594,
+  "heading_count": 219,
+  "counts": {
+    "matched": 27,
+    "review": 53,
+    "unmatched": 139
+  },
+  "matches": [
+    {
+      "section": "9.1",
+      "heading": "Philosophical Theories",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-054",
+      "catalog_name": "Tempels's colonial Bantu vital-force formulation",
+      "score": 0.64
+    },
+    {
+      "section": "9.1.1",
+      "heading": "Eliminative materialism/illusionism",
+      "status": "review",
+      "catalog_id": "seed-009-eliminative-materialism",
+      "catalog_name": "Eliminative materialism",
+      "score": 0.691
+    },
+    {
+      "section": "9.1.2",
+      "heading": "Epiphenomenalism",
+      "status": "matched",
+      "catalog_id": "seed-011-epiphenomenalism",
+      "catalog_name": "Epiphenomenalism",
+      "score": 1.0
+    },
+    {
+      "section": "9.1.3",
+      "heading": "Functionalism",
+      "status": "matched",
+      "catalog_id": "seed-004-functionalism",
+      "catalog_name": "Functionalism",
+      "score": 1.0
+    },
+    {
+      "section": "9.1.4",
+      "heading": "Emergence",
+      "status": "unmatched",
+      "catalog_id": "seed-006-weak-emergentism",
+      "catalog_name": "Weak emergentism",
+      "score": 0.56
+    },
+    {
+      "section": "9.1.5",
+      "heading": "Mind-brain identity theory",
+      "status": "review",
+      "catalog_id": "seed-002-type-identity-theory",
+      "catalog_name": "Type-identity theory",
+      "score": 0.696
+    },
+    {
+      "section": "9.1.6",
+      "heading": "Searle’s biological naturalism",
+      "status": "review",
+      "catalog_id": "seed-156-neurobiological-naturalism",
+      "catalog_name": "Neurobiological Naturalism",
+      "score": 0.836
+    },
+    {
+      "section": "9.1.7",
+      "heading": "Block’s biological reductionism",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-004-biological-computationalism",
+      "catalog_name": "Biological Computationalism",
+      "score": 0.667
+    },
+    {
+      "section": "9.1.8",
+      "heading": "Flanagan",
+      "status": "unmatched",
+      "catalog_id": "gap-phil-003-explanatory-gap",
+      "catalog_name": "Explanatory gap",
+      "score": 0.522
+    },
+    {
+      "section": "9.1.9",
+      "heading": "Papineau’s mind-brain identity",
+      "status": "unmatched",
+      "catalog_id": "candidate-life-story-model-narrative-identity",
+      "catalog_name": "Life-Story Model of Narrative Identity",
+      "score": 0.537
+    },
+    {
+      "section": "9.1.10",
+      "heading": "Goldstein’s mind-body problem",
+      "status": "review",
+      "catalog_id": "gap-breadth-007-other-minds",
+      "catalog_name": "Problem of other minds",
+      "score": 0.681
+    },
+    {
+      "section": "9.1.11",
+      "heading": "Hardcastle",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-001-hard-problem",
+      "catalog_name": "Hard problem of consciousness",
+      "score": 0.545
+    },
+    {
+      "section": "9.1.12",
+      "heading": "Stoljar’s epistemic view and non-standard physicalism",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-027-stoljar-epistemic-view",
+      "catalog_name": "Stoljar's epistemic view of the consciousness problem",
+      "score": 0.629
+    },
+    {
+      "section": "9.2",
+      "heading": "Neurobiological theories",
+      "status": "review",
+      "catalog_id": "seed-156-neurobiological-naturalism",
+      "catalog_name": "Neurobiological Naturalism",
+      "score": 0.8
+    },
+    {
+      "section": "9.2.1",
+      "heading": "Edelman",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-022-nrem-dreaming",
+      "catalog_name": "Non-REM Dreaming",
+      "score": 0.5
+    },
+    {
+      "section": "9.2.2",
+      "heading": "Crick and Koch’s neural correlates of consciousness (NCC)",
+      "status": "review",
+      "catalog_id": "seed-046-neural-correlates-of-consciousness-ncc-framework",
+      "catalog_name": "Neural Correlates of Consciousness (NCC) framework",
+      "score": 0.745
+    },
+    {
+      "section": "9.2.3",
+      "heading": "Baars",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-031-maas",
+      "catalog_name": "Mindful Attention Awareness Scale",
+      "score": 0.667
+    },
+    {
+      "section": "9.2.4",
+      "heading": "Dennett’s multiple drafts model",
+      "status": "review",
+      "catalog_id": "seed-037-multiple-drafts-model",
+      "catalog_name": "Multiple Drafts Model",
+      "score": 0.73
+    },
+    {
+      "section": "9.2.5",
+      "heading": "Minsky’s society of mind",
+      "status": "review",
+      "catalog_id": "seed-069-society-of-mind",
+      "catalog_name": "Society of Mind",
+      "score": 0.687
+    },
+    {
+      "section": "9.2.6",
+      "heading": "Graziano’s attention schema theory",
+      "status": "review",
+      "catalog_id": "seed-039-attention-schema-theory-ast",
+      "catalog_name": "Attention Schema Theory (AST)",
+      "score": 0.767
+    },
+    {
+      "section": "9.2.7",
+      "heading": "Prinz’s neurofunctionalism: how attention engenders experience",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-019-functional-value-phenomenal-experience",
+      "catalog_name": "Functional-Value Account of Phenomenal Experience",
+      "score": 0.55
+    },
+    {
+      "section": "9.2.8",
+      "heading": "Sapolsky’s hard incompatibilism",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-045-structural-turn-functionalism",
+      "catalog_name": "Structural Turn in Computational Functionalism",
+      "score": 0.526
+    },
+    {
+      "section": "9.2.9",
+      "heading": "Mitchell’s free agents",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-021-microsleep",
+      "catalog_name": "Microsleep Episodes",
+      "score": 0.579
+    },
+    {
+      "section": "9.2.10",
+      "heading": "Bach’s cortical conductor theory",
+      "status": "unmatched",
+      "catalog_id": "candidate-teleological-stance",
+      "catalog_name": "Teleological Stance and Naïve Theory of Rational Action",
+      "score": 0.61
+    },
+    {
+      "section": "9.2.11",
+      "heading": "Brain circuits and cycles theories",
+      "status": "unmatched",
+      "catalog_id": "seed-052-operational-architectonics-oa-theory",
+      "catalog_name": "Operational Architectonics (OA) theory",
+      "score": 0.514
+    },
+    {
+      "section": "9.2.12",
+      "heading": "Northoff’s temporo-spatial sentience",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-033-premotor-attention",
+      "catalog_name": "Premotor Theory of Attention",
+      "score": 0.563
+    },
+    {
+      "section": "9.2.13",
+      "heading": "Bunge’s emergent materialism",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-030-hobbes-materialist-psychology",
+      "catalog_name": "Hobbesian materialist psychology",
+      "score": 0.667
+    },
+    {
+      "section": "9.2.14",
+      "heading": "Hirstein’s mindmelding",
+      "status": "unmatched",
+      "catalog_id": "seed-094-theory-theory-of-mindreading",
+      "catalog_name": "Theory-Theory of mindreading",
+      "score": 0.571
+    },
+    {
+      "section": "9.3",
+      "heading": "Electromagnetic field theories",
+      "status": "review",
+      "catalog_id": "seed-072-pockett-electromagnetic-field-theory",
+      "catalog_name": "Pockett Electromagnetic Field Theory",
+      "score": 0.818
+    },
+    {
+      "section": "9.3.1",
+      "heading": "Jones’s electromagnetic fields",
+      "status": "review",
+      "catalog_id": "seed-072-pockett-electromagnetic-field-theory",
+      "catalog_name": "Pockett Electromagnetic Field Theory",
+      "score": 0.738
+    },
+    {
+      "section": "9.3.2",
+      "heading": "Pockett’s conscious and non-conscious patterns",
+      "status": "unmatched",
+      "catalog_id": "seed-187-pure-consciousness-and-contentless-awareness",
+      "catalog_name": "Pure consciousness and contentless awareness",
+      "score": 0.607
+    },
+    {
+      "section": "9.3.3",
+      "heading": "McFadden’s conscious electromagnetic information theory",
+      "status": "review",
+      "catalog_id": "seed-071-conscious-electromagnetic-information-cemi-field-theory",
+      "catalog_name": "Conscious Electromagnetic Information (CEMI) Field Theory",
+      "score": 0.807
+    },
+    {
+      "section": "9.3.4",
+      "heading": "Ephaptic coupling",
+      "status": "unmatched",
+      "catalog_id": "candidate-affective-computing-framework",
+      "catalog_name": "Affective Computing Framework",
+      "score": 0.556
+    },
+    {
+      "section": "9.3.5",
+      "heading": "Ambron’s local field potentials and electromagnetic waves",
+      "status": "unmatched",
+      "catalog_id": "seed-072-pockett-electromagnetic-field-theory",
+      "catalog_name": "Pockett Electromagnetic Field Theory",
+      "score": 0.5
+    },
+    {
+      "section": "9.3.6",
+      "heading": "Llinas’s mindness state of oscillations",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-020-detachment-compartmentalization",
+      "catalog_name": "Detachment-Compartmentalization Model of Dissociation",
+      "score": 0.522
+    },
+    {
+      "section": "9.3.7",
+      "heading": "Zhang’s long-distance light-speed telecommunications",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-046",
+      "catalog_name": "Chabad Tanya two-soul psychology",
+      "score": 0.484
+    },
+    {
+      "section": "9.4",
+      "heading": "Computational and Informational Theories",
+      "status": "unmatched",
+      "catalog_id": "seed-067-computational-theory-of-mind-computationalism",
+      "catalog_name": "Computational Theory of Mind / computationalism",
+      "score": 0.659
+    },
+    {
+      "section": "9.4.1",
+      "heading": "Computational theories",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-030-biased-competition",
+      "catalog_name": "Biased Competition Model of Attention",
+      "score": 0.638
+    },
+    {
+      "section": "9.4.2",
+      "heading": "Grossberg’s adaptive resonance theory",
+      "status": "unmatched",
+      "catalog_id": "seed-063-general-resonance-theory-grt",
+      "catalog_name": "General Resonance Theory (GRT)",
+      "score": 0.656
+    },
+    {
+      "section": "9.4.3",
+      "heading": "Complex adaptive systems models",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-006",
+      "catalog_name": "Theravāda citta-vīthi cognitive-process model",
+      "score": 0.604
+    },
+    {
+      "section": "9.4.4",
+      "heading": "Critical brain hypothesis",
+      "status": "review",
+      "catalog_id": "seed-059-entropic-brain-hypothesis",
+      "catalog_name": "Entropic Brain Hypothesis",
+      "score": 0.8
+    },
+    {
+      "section": "9.4.5",
+      "heading": "Pribram’s holonomic brain theory",
+      "status": "review",
+      "catalog_id": "seed-070-holonomic-brain-theory",
+      "catalog_name": "Holonomic Brain Theory",
+      "score": 0.739
+    },
+    {
+      "section": "9.4.6",
+      "heading": "Doyle’s experience recorder and reproducer",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-030-mathematical-structure-experience",
+      "catalog_name": "Mathematical Structure of Conscious Experience Program",
+      "score": 0.548
+    },
+    {
+      "section": "9.4.7",
+      "heading": "Informational realism and emergent information theory",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-013-extended-information-theory",
+      "catalog_name": "Extended Information Theory",
+      "score": 0.659
+    },
+    {
+      "section": "9.4.8",
+      "heading": "Mathematical theories",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-047-apoha-content",
+      "catalog_name": "Dignāga–Dharmakīrti apoha theory of conceptual content",
+      "score": 0.667
+    },
+    {
+      "section": "9.5",
+      "heading": "Homeostatic and affective theories",
+      "status": "review",
+      "catalog_id": "seed-058-homeostatic-feelings-theory",
+      "catalog_name": "Homeostatic Feelings theory",
+      "score": 0.689
+    },
+    {
+      "section": "9.5.1",
+      "heading": "Predictive theories (Top-down)",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-006",
+      "catalog_name": "Theravāda citta-vīthi cognitive-process model",
+      "score": 0.56
+    },
+    {
+      "section": "9.5.2",
+      "heading": "Seth’s “beast machine” theory",
+      "status": "unmatched",
+      "catalog_id": "candidate-two-factor-theory-emotion",
+      "catalog_name": "Two-Factor Theory of Emotion",
+      "score": 0.625
+    },
+    {
+      "section": "9.5.3",
+      "heading": "Damasio’s homeostatic feelings and emergence of consciousness",
+      "status": "unmatched",
+      "catalog_id": "frontier-science-003-attentional-modulation-energy",
+      "catalog_name": "Attentional Modulation of Energy Theory",
+      "score": 0.595
+    },
+    {
+      "section": "9.5.4",
+      "heading": "Friston’s free-energy principle and active inference",
+      "status": "review",
+      "catalog_id": "seed-062-free-energy-principle-active-inference",
+      "catalog_name": "Free-Energy Principle / Active Inference",
+      "score": 0.854
+    },
+    {
+      "section": "9.5.5",
+      "heading": "Solms’s affect as the hidden spring of consciousness",
+      "status": "unmatched",
+      "catalog_id": "seed-057-affective-brainstem-theory-of-consciousness",
+      "catalog_name": "Affective / Brainstem Theory of Consciousness",
+      "score": 0.66
+    },
+    {
+      "section": "9.5.6",
+      "heading": "Carhart-Harris’s entropic brain hypothesis",
+      "status": "unmatched",
+      "catalog_id": "seed-059-entropic-brain-hypothesis",
+      "catalog_name": "Entropic Brain Hypothesis",
+      "score": 0.649
+    },
+    {
+      "section": "9.5.7",
+      "heading": "Buzs ´aki’s neural syntax and self-caused rhythms",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-006-neural-syntax-framework",
+      "catalog_name": "Neural Syntax Framework",
+      "score": 0.618
+    },
+    {
+      "section": "9.5.8",
+      "heading": "Deacon’s self-organized constraint and emergence of self",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-052",
+      "catalog_name": "Evagrius Ponticus's logismoi and pure-nous model",
+      "score": 0.485
+    },
+    {
+      "section": "9.5.9",
+      "heading": "Pereira’s sentience",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-017-teleosemantics",
+      "catalog_name": "Teleosemantics",
+      "score": 0.5
+    },
+    {
+      "section": "9.5.10",
+      "heading": "Mansell’s perceptual control theory",
+      "status": "review",
+      "catalog_id": "breadth-neuro-003-perceptual-control-theory",
+      "catalog_name": "Perceptual Control Theory",
+      "score": 0.778
+    },
+    {
+      "section": "9.5.11",
+      "heading": "Projective consciousness model",
+      "status": "review",
+      "catalog_id": "seed-055-projective-consciousness-model-pcm",
+      "catalog_name": "Projective Consciousness Model (PCM)",
+      "score": 0.894
+    },
+    {
+      "section": "9.5.12",
+      "heading": "Pepperell’s organization of energy",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-004-energy-organization-consciousness",
+      "catalog_name": "Energy-Organization Account of Consciousness",
+      "score": 0.571
+    },
+    {
+      "section": "9.6",
+      "heading": "Embodied and enactive theories",
+      "status": "review",
+      "catalog_id": "gap-breadth-024-embodied-cognition",
+      "catalog_name": "Embodied cognition thesis",
+      "score": 0.68
+    },
+    {
+      "section": "9.6.1",
+      "heading": "Embodied cognition",
+      "status": "review",
+      "catalog_id": "gap-breadth-024-embodied-cognition",
+      "catalog_name": "Embodied cognition thesis",
+      "score": 0.748
+    },
+    {
+      "section": "9.6.2",
+      "heading": "Enactivism",
+      "status": "unmatched",
+      "catalog_id": "seed-004-functionalism",
+      "catalog_name": "Functionalism",
+      "score": 0.609
+    },
+    {
+      "section": "9.6.3",
+      "heading": "Varela’s neurophenomenology",
+      "status": "review",
+      "catalog_id": "seed-043-neurophenomenology",
+      "catalog_name": "Neurophenomenology",
+      "score": 0.723
+    },
+    {
+      "section": "9.6.4",
+      "heading": "Thompson’s mind in life",
+      "status": "unmatched",
+      "catalog_id": "seed-094-theory-theory-of-mindreading",
+      "catalog_name": "Theory-Theory of mindreading",
+      "score": 0.512
+    },
+    {
+      "section": "9.6.5",
+      "heading": "Frank/Gleiser/Thompson’s “The Blind Spot”",
+      "status": "unmatched",
+      "catalog_id": "gap-hist-013-ghazali-faculty-heart-self",
+      "catalog_name": "Al-Ghazālī's faculty psychology and heart-self vocabulary",
+      "score": 0.479
+    },
+    {
+      "section": "9.6.6",
+      "heading": "Bitbol’s radical neurophenomenology",
+      "status": "unmatched",
+      "catalog_id": "kac-015-bitbol-s-phenomenological-ontology",
+      "catalog_name": "Bitbol’s Phenomenological Ontology",
+      "score": 0.627
+    },
+    {
+      "section": "9.6.7",
+      "heading": "Direct perception theory",
+      "status": "review",
+      "catalog_id": "emerging-breadth-005-irruption-theory",
+      "catalog_name": "Irruption Theory",
+      "score": 0.75
+    },
+    {
+      "section": "9.6.8",
+      "heading": "Gibson’s ecological psychology",
+      "status": "unmatched",
+      "catalog_id": "kac-015-bitbol-s-phenomenological-ontology",
+      "catalog_name": "Bitbol’s Phenomenological Ontology",
+      "score": 0.645
+    },
+    {
+      "section": "9.7",
+      "heading": "Relational theories",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-005-irruption-theory",
+      "catalog_name": "Irruption Theory",
+      "score": 0.629
+    },
+    {
+      "section": "9.7.1",
+      "heading": "A. Clark’s extended mind",
+      "status": "unmatched",
+      "catalog_id": "seed-100-extended-mind-thesis",
+      "catalog_name": "Extended Mind thesis",
+      "score": 0.619
+    },
+    {
+      "section": "9.7.2",
+      "heading": "No¨e’s “out of our heads” theory",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-008-anesthetic-cascade",
+      "catalog_name": "Anesthetic Cascade Theory",
+      "score": 0.556
+    },
+    {
+      "section": "9.7.3",
+      "heading": "Loorits’s structural realism",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-008",
+      "catalog_name": "Sautrāntika representational perception and seed continuity",
+      "score": 0.545
+    },
+    {
+      "section": "9.7.4",
+      "heading": "Lahav’s relativistic theory",
+      "status": "review",
+      "catalog_id": "gap-breadth-047-apoha-content",
+      "catalog_name": "Dignāga–Dharmakīrti apoha theory of conceptual content",
+      "score": 0.681
+    },
+    {
+      "section": "9.7.5",
+      "heading": "Tsuchiya’s relational approach to consciousness",
+      "status": "unmatched",
+      "catalog_id": "seed-060-predictive-processing-approaches-to-consciousness",
+      "catalog_name": "Predictive Processing approaches to consciousness",
+      "score": 0.674
+    },
+    {
+      "section": "9.7.6",
+      "heading": "Jaworski’s hylomorphism",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-041",
+      "catalog_name": "Ibn Gabirol's universal hylomorphism of soul and intellect",
+      "score": 0.63
+    },
+    {
+      "section": "9.7.7",
+      "heading": "Process theory",
+      "status": "review",
+      "catalog_id": "emerging-breadth-011-local-prospect-theory",
+      "catalog_name": "Local Prospect Theory of Consciousness",
+      "score": 0.684
+    },
+    {
+      "section": "9.8",
+      "heading": "Representational theories",
+      "status": "review",
+      "catalog_id": "seed-034-self-representational-same-order-theory",
+      "catalog_name": "Self-representational / same-order theory",
+      "score": 0.688
+    },
+    {
+      "section": "9.8.1",
+      "heading": "First-order representationalism",
+      "status": "matched",
+      "catalog_id": "seed-035-first-order-representationalism",
+      "catalog_name": "First-Order Representationalism",
+      "score": 1.0
+    },
+    {
+      "section": "9.8.2",
+      "heading": "Lamme’s recurrent processing theory",
+      "status": "review",
+      "catalog_id": "seed-029-recurrent-processing-theory-rpt",
+      "catalog_name": "Recurrent Processing Theory (RPT)",
+      "score": 0.831
+    },
+    {
+      "section": "9.8.3",
+      "heading": "Higher-order theories",
+      "status": "review",
+      "catalog_id": "seed-030-higher-order-thought-hot-theory",
+      "catalog_name": "Higher-Order Thought (HOT) theory",
+      "score": 0.692
+    },
+    {
+      "section": "9.8.4",
+      "heading": "Lau’s perceptual reality monitoring theory",
+      "status": "review",
+      "catalog_id": "seed-146-perceptual-reality-monitoring-theory-prm",
+      "catalog_name": "Perceptual Reality Monitoring theory (PRM)",
+      "score": 0.889
+    },
+    {
+      "section": "9.8.5",
+      "heading": "LeDoux’s higher-order theory of emotional consciousness",
+      "status": "review",
+      "catalog_id": "breadth-neuro-048-higher-order-emotional-consciousness",
+      "catalog_name": "Higher-Order Theory of Emotional Consciousness",
+      "score": 0.867
+    },
+    {
+      "section": "9.8.6",
+      "heading": "Humphrey’s mental representations and brain attractors",
+      "status": "unmatched",
+      "catalog_id": "frontier-science-002-process-meta-representation",
+      "catalog_name": "Process Meta-Representation and Qualia-Space Hypothesis",
+      "score": 0.667
+    },
+    {
+      "section": "9.8.7",
+      "heading": "Metzinger’s no-self representational theory of subjectivity",
+      "status": "unmatched",
+      "catalog_id": "seed-034-self-representational-same-order-theory",
+      "catalog_name": "Self-representational / same-order theory",
+      "score": 0.577
+    },
+    {
+      "section": "9.8.8",
+      "heading": "Jackson’s diaphanous representationalism and the knowledge",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-043-saadia-soul-knowledge",
+      "catalog_name": "Saadia Gaon's rational soul and sources of knowledge",
+      "score": 0.606
+    },
+    {
+      "section": "9.8.9",
+      "heading": "Lycan’s homuncular functionalism",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-045-structural-turn-functionalism",
+      "catalog_name": "Structural Turn in Computational Functionalism",
+      "score": 0.609
+    },
+    {
+      "section": "9.8.10",
+      "heading": "Transparency theory",
+      "status": "review",
+      "catalog_id": "breadth-neuro-039-multiple-trace-transformation",
+      "catalog_name": "Multiple Trace / Transformation Theory of Memory",
+      "score": 0.7
+    },
+    {
+      "section": "9.8.11",
+      "heading": "Tye’s contingentism",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-039-heartbeat-counting",
+      "catalog_name": "Heartbeat Counting Task",
+      "score": 0.585
+    },
+    {
+      "section": "9.8.12",
+      "heading": "Thagard’s neural representation, binding, coherence, competition",
+      "status": "unmatched",
+      "catalog_id": "seed-163-higher-order-representation-of-a-representation-horor",
+      "catalog_name": "Higher-Order Representation of a Representation (HOROR)",
+      "score": 0.549
+    },
+    {
+      "section": "9.8.13",
+      "heading": "T. Clark’s content hypothesis",
+      "status": "review",
+      "catalog_id": "breadth-neuro-005-claustrum-integration-hypothesis",
+      "catalog_name": "Claustrum Integration Hypothesis",
+      "score": 0.702
+    },
+    {
+      "section": "9.8.14",
+      "heading": "Deacon’s symbolic communication (human consciousness)",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-039-nonseparability-foundation",
+      "catalog_name": "Physical Non-Separability Foundation of Consciousness",
+      "score": 0.621
+    },
+    {
+      "section": "9.9",
+      "heading": "Language relationships",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-027",
+      "catalog_name": "Watsuji's aidagara relational self",
+      "score": 0.56
+    },
+    {
+      "section": "9.9.1",
+      "heading": "Chomsky",
+      "status": "unmatched",
+      "catalog_id": "seed-033-higher-order-global-states-hogs-model",
+      "catalog_name": "Higher-Order Global States (HOGS) model",
+      "score": 0.545
+    },
+    {
+      "section": "9.9.2",
+      "heading": "Searle’s language and consciousness",
+      "status": "unmatched",
+      "catalog_id": "seed-194-dreaming-and-rem-protoconsciousness",
+      "catalog_name": "Dreaming and REM protoconsciousness",
+      "score": 0.638
+    },
+    {
+      "section": "9.9.3",
+      "heading": "Koch’s consciousness does not depend on language",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-009",
+      "catalog_name": "Early Buddhist consciousness–name-and-form reciprocal conditioning",
+      "score": 0.611
+    },
+    {
+      "section": "9.9.4",
+      "heading": "Smith’s language as classifier of consciousness",
+      "status": "unmatched",
+      "catalog_id": "kac-022-s-harris-s-mystery-of-consciousness",
+      "catalog_name": "S. Harris’s Mystery of Consciousness",
+      "score": 0.625
+    },
+    {
+      "section": "9.9.5",
+      "heading": "Jaynes’s breakdown of the bicameral mind",
+      "status": "unmatched",
+      "catalog_id": "gap-hist-006-averroes-unity-material-intellect",
+      "catalog_name": "Averroes' unity of the material intellect",
+      "score": 0.532
+    },
+    {
+      "section": "9.9.6",
+      "heading": "Parrington’s language and tool-driven consciousness",
+      "status": "unmatched",
+      "catalog_id": "seed-186-noetic-anoetic-and-autonoetic-consciousness",
+      "catalog_name": "Noetic, anoetic, and autonoetic consciousness",
+      "score": 0.602
+    },
+    {
+      "section": "9.10",
+      "heading": "Phylogenetic evolution",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-019-agent-causation",
+      "catalog_name": "Agent-causal theory of action",
+      "score": 0.541
+    },
+    {
+      "section": "9.10.1",
+      "heading": "Dennett’s evolution of minds",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-048-aurobindo-integral-consciousness",
+      "catalog_name": "Sri Aurobindo's integral evolution of consciousness",
+      "score": 0.537
+    },
+    {
+      "section": "9.10.2",
+      "heading": "LeDoux’s deep roots of consciousness",
+      "status": "review",
+      "catalog_id": "cross-breadth-006",
+      "catalog_name": "Theravāda citta-vīthi cognitive-process model",
+      "score": 0.696
+    },
+    {
+      "section": "9.10.3",
+      "heading": "Ginsburg and Jablonka’s associative learning during evolution",
+      "status": "unmatched",
+      "catalog_id": "seed-056-unlimited-associative-learning-ual-framework",
+      "catalog_name": "Unlimited Associative Learning (UAL) framework",
+      "score": 0.538
+    },
+    {
+      "section": "9.10.4",
+      "heading": "Cleeremans and Tallon-Baudry’s phenomenal experience has",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-019-functional-value-phenomenal-experience",
+      "catalog_name": "Functional-Value Account of Phenomenal Experience",
+      "score": 0.577
+    },
+    {
+      "section": "9.10.5",
+      "heading": "Andrew’s consciousness without complex brains",
+      "status": "unmatched",
+      "catalog_id": "kac-021-davies-s-consciousness-in-the-cosmos",
+      "catalog_name": "Davies’s Consciousness in the Cosmos",
+      "score": 0.658
+    },
+    {
+      "section": "9.10.6",
+      "heading": "Reber’s cellular basis of consciousness",
+      "status": "review",
+      "catalog_id": "breadth-neuro-001-cellular-basis-consciousness",
+      "catalog_name": "Cellular Basis of Consciousness",
+      "score": 0.834
+    },
+    {
+      "section": "9.10.7",
+      "heading": "Feinberg and Mallatt’s ancient origins of consciousness",
+      "status": "unmatched",
+      "catalog_id": "seed-203-fractal-and-sentyon-theory-of-consciousness",
+      "catalog_name": "Fractal and sentyon theory of consciousness",
+      "score": 0.639
+    },
+    {
+      "section": "9.10.8",
+      "heading": "Levin’s technological approach to mind everywhere",
+      "status": "review",
+      "catalog_id": "breadth-neuro-002-tame",
+      "catalog_name": "Technological Approach to Mind Everywhere",
+      "score": 0.869
+    },
+    {
+      "section": "9.10.9",
+      "heading": "No hard problem in William James’s psychology",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-030-hobbes-materialist-psychology",
+      "catalog_name": "Hobbesian materialist psychology",
+      "score": 0.579
+    },
+    {
+      "section": "10.1",
+      "heading": "Ellis",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-038-complementary-learning-systems",
+      "catalog_name": "Complementary Learning Systems Theory",
+      "score": 0.5
+    },
+    {
+      "section": "10.2",
+      "heading": "Murphy’s non-reductive physicalism",
+      "status": "review",
+      "catalog_id": "seed-005-non-reductive-physicalism",
+      "catalog_name": "Non-reductive physicalism",
+      "score": 0.782
+    },
+    {
+      "section": "10.3",
+      "heading": "Van Inwagen’s Christian materialism and the resurrection of the",
+      "status": "unmatched",
+      "catalog_id": "gap-hist-006-averroes-unity-material-intellect",
+      "catalog_name": "Averroes' unity of the material intellect",
+      "score": 0.489
+    },
+    {
+      "section": "10.4",
+      "heading": "Nagasawa’s nontheoretical physicalism",
+      "status": "unmatched",
+      "catalog_id": "seed-005-non-reductive-physicalism",
+      "catalog_name": "Non-reductive physicalism",
+      "score": 0.623
+    },
+    {
+      "section": "10.5",
+      "heading": "Sanfey’s Abstract Realism",
+      "status": "unmatched",
+      "catalog_id": "seed-012-cartesian-substance-dualism",
+      "catalog_name": "Cartesian substance dualism",
+      "score": 0.588
+    },
+    {
+      "section": "10.6",
+      "heading": "Northoff’s non-reductive neurophilosophy",
+      "status": "unmatched",
+      "catalog_id": "seed-005-non-reductive-physicalism",
+      "catalog_name": "Non-reductive physicalism",
+      "score": 0.531
+    },
+    {
+      "section": "11.1",
+      "heading": "Penrose-Hameroff’s orchestrated objective reduction",
+      "status": "review",
+      "catalog_id": "seed-073-orchestrated-objective-reduction-orch-or",
+      "catalog_name": "Orchestrated Objective Reduction (Orch OR)",
+      "score": 0.711
+    },
+    {
+      "section": "11.2",
+      "heading": "Stapp’s collapsing the wave function via asking “questions”",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-017",
+      "catalog_name": "Zhang Zai's qi-based mind and enlarged heart",
+      "score": 0.452
+    },
+    {
+      "section": "11.3",
+      "heading": "Bohm’s implicate-explicate order",
+      "status": "unmatched",
+      "catalog_id": "kac-003-graboi-s-three-aspect-model",
+      "catalog_name": "Graboi’s Three-Aspect Model",
+      "score": 0.491
+    },
+    {
+      "section": "11.4",
+      "heading": "Pylkk ¨anen’s quantum potential energy and active information",
+      "status": "unmatched",
+      "catalog_id": "seed-062-free-energy-principle-active-inference",
+      "catalog_name": "Free-Energy Principle / Active Inference",
+      "score": 0.495
+    },
+    {
+      "section": "11.5",
+      "heading": "Wolfram’s consciousness in the ruliad",
+      "status": "review",
+      "catalog_id": "emerging-breadth-007-maps-of-meaning",
+      "catalog_name": "Maps of Meaning Consciousness Theory",
+      "score": 0.7
+    },
+    {
+      "section": "11.6",
+      "heading": "Beck-Eccles’s quantum processes in the synapse",
+      "status": "unmatched",
+      "catalog_id": "seed-075-beck-eccles-quantum-exocytosis-model",
+      "catalog_name": "Beck–Eccles quantum exocytosis model",
+      "score": 0.625
+    },
+    {
+      "section": "11.7",
+      "heading": "Kauffman’s mind mediating possibles to actuals",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-007-maps-of-meaning",
+      "catalog_name": "Maps of Meaning Consciousness Theory",
+      "score": 0.494
+    },
+    {
+      "section": "11.8",
+      "heading": "Torday’s cellular and cosmic consciousness",
+      "status": "review",
+      "catalog_id": "breadth-neuro-001-cellular-basis-consciousness",
+      "catalog_name": "Cellular Basis of Consciousness",
+      "score": 0.722
+    },
+    {
+      "section": "11.9",
+      "heading": "Smolin’s causal theory of views",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-018-causal-action",
+      "catalog_name": "Causal theory of action",
+      "score": 0.679
+    },
+    {
+      "section": "11.10",
+      "heading": "Carr’s quantum theory, psi, mental space",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-017-teleosemantics",
+      "catalog_name": "Teleosemantics",
+      "score": 0.541
+    },
+    {
+      "section": "11.11",
+      "heading": "Faggin’s quantum information-based panpsychism",
+      "status": "unmatched",
+      "catalog_id": "candidate-feelings-as-information",
+      "catalog_name": "Feelings-as-Information Account",
+      "score": 0.553
+    },
+    {
+      "section": "11.12",
+      "heading": "Fisher’s quantum cognition",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-043-saadia-soul-knowledge",
+      "catalog_name": "Saadia Gaon's rational soul and sources of knowledge",
+      "score": 0.566
+    },
+    {
+      "section": "11.13",
+      "heading": "Globus’s quantum thermofield brain dynamics",
+      "status": "unmatched",
+      "catalog_id": "seed-076-dissipative-quantum-brain-dynamics-qbd",
+      "catalog_name": "Dissipative Quantum Brain Dynamics (QBD)",
+      "score": 0.625
+    },
+    {
+      "section": "11.14",
+      "heading": "Poznanski’s dynamic organicity theory",
+      "status": "unmatched",
+      "catalog_id": "seed-044-dynamic-core-theory",
+      "catalog_name": "Dynamic Core Theory",
+      "score": 0.618
+    },
+    {
+      "section": "11.15",
+      "heading": "Quantum consciousness extensions",
+      "status": "review",
+      "catalog_id": "seed-204-gurwitsch-consciousness-field-extension",
+      "catalog_name": "Gurwitsch consciousness-field extension",
+      "score": 0.732
+    },
+    {
+      "section": "11.16",
+      "heading": "Rovelli’s relational physics",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-065",
+      "catalog_name": "Samoan vā relational-self framework",
+      "score": 0.571
+    },
+    {
+      "section": "12.1",
+      "heading": "Critiques of integrated information theory",
+      "status": "review",
+      "catalog_id": "seed-028-integrated-information-theory-iit",
+      "catalog_name": "Integrated Information Theory (IIT)",
+      "score": 0.773
+    },
+    {
+      "section": "12.2",
+      "heading": "Koch compares integrated information theory with panpsychism",
+      "status": "review",
+      "catalog_id": "seed-028-integrated-information-theory-iit",
+      "catalog_name": "Integrated Information Theory (IIT)",
+      "score": 0.688
+    },
+    {
+      "section": "13.1",
+      "heading": "Micropsychism",
+      "status": "review",
+      "catalog_id": "seed-021-cosmopsychism",
+      "catalog_name": "Cosmopsychism",
+      "score": 0.769
+    },
+    {
+      "section": "13.2",
+      "heading": "Panprotopsychism",
+      "status": "matched",
+      "catalog_id": "seed-020-panprotopsychism",
+      "catalog_name": "Panprotopsychism",
+      "score": 1.0
+    },
+    {
+      "section": "13.3",
+      "heading": "Cosmopsychism",
+      "status": "matched",
+      "catalog_id": "seed-021-cosmopsychism",
+      "catalog_name": "Cosmopsychism",
+      "score": 1.0
+    },
+    {
+      "section": "13.4",
+      "heading": "Qualia force",
+      "status": "unmatched",
+      "catalog_id": "seed-177-qualia-and-phenomenal-character",
+      "catalog_name": "Qualia and phenomenal character",
+      "score": 0.512
+    },
+    {
+      "section": "13.5",
+      "heading": "Qualia space",
+      "status": "unmatched",
+      "catalog_id": "candidate-evaluative-space-model",
+      "catalog_name": "Evaluative Space Model",
+      "score": 0.529
+    },
+    {
+      "section": "13.6",
+      "heading": "Chalmers’s panpsychism",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-003-combination-problem",
+      "catalog_name": "Combination problem for panpsychism",
+      "score": 0.607
+    },
+    {
+      "section": "13.7",
+      "heading": "Strawson’s panpsychism",
+      "status": "unmatched",
+      "catalog_id": "seed-020-panprotopsychism",
+      "catalog_name": "Panprotopsychism",
+      "score": 0.595
+    },
+    {
+      "section": "13.8",
+      "heading": "Goff’s panpsychism",
+      "status": "review",
+      "catalog_id": "seed-019-panpsychism",
+      "catalog_name": "Panpsychism",
+      "score": 0.682
+    },
+    {
+      "section": "13.9",
+      "heading": "A. Harris’s panpsychism as fundamental field",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-040-al-farabi-faculty-psychology",
+      "catalog_name": "Al-Fārābī's faculty psychology and active intellect",
+      "score": 0.495
+    },
+    {
+      "section": "13.10",
+      "heading": "Sheldrake’s self-organizing systems at all levels of complexity",
+      "status": "unmatched",
+      "catalog_id": "candidate-dynamic-systems-development",
+      "catalog_name": "Dynamic Systems Approach to Cognitive Development",
+      "score": 0.465
+    },
+    {
+      "section": "13.11",
+      "heading": "Wallace’s panpsychism inside physics",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-003-combination-problem",
+      "catalog_name": "Combination problem for panpsychism",
+      "score": 0.485
+    },
+    {
+      "section": "13.12",
+      "heading": "Whitehead’s process theory",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-031-consciousness-only-process-model",
+      "catalog_name": "Consciousness-Only Process Model",
+      "score": 0.621
+    },
+    {
+      "section": "14.1",
+      "heading": "Russellian Monism",
+      "status": "matched",
+      "catalog_id": "seed-018-russellian-monism",
+      "catalog_name": "Russellian monism",
+      "score": 1.0
+    },
+    {
+      "section": "14.2",
+      "heading": "Davidson’s anomalous monism",
+      "status": "unmatched",
+      "catalog_id": "seed-003-anomalous-monism",
+      "catalog_name": "Anomalous monism",
+      "score": 0.654
+    },
+    {
+      "section": "14.3",
+      "heading": "Velmans’s reflexive monism",
+      "status": "matched",
+      "catalog_id": "gap-breadth-026-reflexive-monism",
+      "catalog_name": "Velmans's reflexive monism",
+      "score": 0.98
+    },
+    {
+      "section": "14.4",
+      "heading": "Strawson’s realistic monism and real materialism",
+      "status": "unmatched",
+      "catalog_id": "kac-009-radin-s-challenge-to-materialism",
+      "catalog_name": "Radin’s Challenge to Materialism",
+      "score": 0.538
+    },
+    {
+      "section": "14.5",
+      "heading": "Polkinghorne’s dual-aspect monism",
+      "status": "unmatched",
+      "catalog_id": "seed-017-dual-aspect-monism",
+      "catalog_name": "Dual-aspect monism",
+      "score": 0.606
+    },
+    {
+      "section": "14.6",
+      "heading": "Teilhard de Cardin’s evolving consciousness",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-001-cellular-basis-consciousness",
+      "catalog_name": "Cellular Basis of Consciousness",
+      "score": 0.658
+    },
+    {
+      "section": "14.7",
+      "heading": "Atmanspacher’s dual-aspect monism",
+      "status": "unmatched",
+      "catalog_id": "seed-017-dual-aspect-monism",
+      "catalog_name": "Dual-aspect monism",
+      "score": 0.606
+    },
+    {
+      "section": "14.8",
+      "heading": "Ramachandran’s new physics and neuroscience",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-002",
+      "catalog_name": "Māṇḍūkya four-state analysis and turīya",
+      "score": 0.469
+    },
+    {
+      "section": "14.9",
+      "heading": "Tegmark’s state of matter",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-002",
+      "catalog_name": "Māṇḍūkya four-state analysis and turīya",
+      "score": 0.596
+    },
+    {
+      "section": "14.10",
+      "heading": "Qualia Research Institute’s state-space, qualia formalism, valence",
+      "status": "unmatched",
+      "catalog_id": "seed-145-higher-order-state-space-account-hoss",
+      "catalog_name": "Higher-Order State Space account (HOSS)",
+      "score": 0.44
+    },
+    {
+      "section": "14.11",
+      "heading": "Bentley Hart",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-036-multicomponent-working-memory",
+      "catalog_name": "Multicomponent Model of Working Memory",
+      "score": 0.5
+    },
+    {
+      "section": "14.12",
+      "heading": "Leslie’s consciousness inside an infinite mind",
+      "status": "unmatched",
+      "catalog_id": "kac-002-dops-s-consciousness-research-and-theory",
+      "catalog_name": "DOPS’s Consciousness Research and Theory",
+      "score": 0.595
+    },
+    {
+      "section": "15.1",
+      "heading": "Property dualism",
+      "status": "unmatched",
+      "catalog_id": "seed-013-interactionist-dualism",
+      "catalog_name": "Interactionist dualism",
+      "score": 0.579
+    },
+    {
+      "section": "15.2",
+      "heading": "Historical and traditional dualisms",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-045-structural-turn-functionalism",
+      "catalog_name": "Structural Turn in Computational Functionalism",
+      "score": 0.575
+    },
+    {
+      "section": "15.3",
+      "heading": "Swinburne’s substance dualism",
+      "status": "review",
+      "catalog_id": "seed-012-cartesian-substance-dualism",
+      "catalog_name": "Cartesian substance dualism",
+      "score": 0.764
+    },
+    {
+      "section": "15.4",
+      "heading": "Composite dualism",
+      "status": "unmatched",
+      "catalog_id": "seed-012-cartesian-substance-dualism",
+      "catalog_name": "Cartesian substance dualism",
+      "score": 0.591
+    },
+    {
+      "section": "15.5",
+      "heading": "Stump’s Thomistic dualism",
+      "status": "unmatched",
+      "catalog_id": "seed-013-interactionist-dualism",
+      "catalog_name": "Interactionist dualism",
+      "score": 0.609
+    },
+    {
+      "section": "15.6",
+      "heading": "Feser’s neo-Thomistic, neo-Aristotelian, common-sense dualism",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-029-aristotle-faculty-psychology",
+      "catalog_name": "Aristotelian faculty psychology in De Anima",
+      "score": 0.455
+    },
+    {
+      "section": "15.7",
+      "heading": "Moreland’s Christian soul",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-064",
+      "catalog_name": "Strathern's Melanesian dividual-person model",
+      "score": 0.558
+    },
+    {
+      "section": "15.8",
+      "heading": "Interactive dualism",
+      "status": "review",
+      "catalog_id": "seed-013-interactionist-dualism",
+      "catalog_name": "Interactionist dualism",
+      "score": 0.829
+    },
+    {
+      "section": "15.9",
+      "heading": "Emergent dualism",
+      "status": "review",
+      "catalog_id": "seed-006-weak-emergentism",
+      "catalog_name": "Weak emergentism",
+      "score": 0.688
+    },
+    {
+      "section": "15.10",
+      "heading": "Kind",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-036-nada",
+      "catalog_name": "Nondual Awareness Dimensional Assessment",
+      "score": 0.5
+    },
+    {
+      "section": "15.11",
+      "heading": "Soul in the Hebrew Bible and Jewish philosophy",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-011",
+      "catalog_name": "Sikh haumai–sahaj transformation of mind",
+      "score": 0.543
+    },
+    {
+      "section": "15.12",
+      "heading": "Soul in the New Testament and Christian philosophy",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-011",
+      "catalog_name": "Sikh haumai–sahaj transformation of mind",
+      "score": 0.518
+    },
+    {
+      "section": "15.13",
+      "heading": "Soul in Islamic philosophy",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-011",
+      "catalog_name": "Sikh haumai–sahaj transformation of mind",
+      "score": 0.557
+    },
+    {
+      "section": "15.14",
+      "heading": "God as the supplier of souls",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-032",
+      "catalog_name": "Abū Bakr al-Rāzī's three-soul moral psychology",
+      "score": 0.565
+    },
+    {
+      "section": "15.15",
+      "heading": "Personal and cosmic consciousness in Indian philosophy",
+      "status": "unmatched",
+      "catalog_id": "seed-173-creature-state-and-content-consciousness-distinction",
+      "catalog_name": "Creature, state, and content consciousness distinction",
+      "score": 0.566
+    },
+    {
+      "section": "15.16",
+      "heading": "Soul in indigenous religions",
+      "status": "unmatched",
+      "catalog_id": "gap-hist-016-watts-place-thought-agency",
+      "catalog_name": "Anishinaabe Place-Thought and human/nonhuman agency in Vanessa Watts",
+      "score": 0.5
+    },
+    {
+      "section": "15.17",
+      "heading": "Realms of the soul",
+      "status": "review",
+      "catalog_id": "cross-breadth-031",
+      "catalog_name": "Al-Kindī's tripartite immaterial-soul psychology",
+      "score": 0.684
+    },
+    {
+      "section": "15.18",
+      "heading": "Theosophy’s eclectic soul and consciousness",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-048-ny-declaration",
+      "catalog_name": "New York Declaration on Animal Consciousness",
+      "score": 0.65
+    },
+    {
+      "section": "15.19",
+      "heading": "Steiner’s esoteric soul and consciousness",
+      "status": "unmatched",
+      "catalog_id": "kac-006-hiller-s-eternal-discarnate-consciousness",
+      "catalog_name": "Hiller’s Eternal Discarnate Consciousness",
+      "score": 0.675
+    },
+    {
+      "section": "15.20",
+      "heading": "Nonphysical component in the human mind",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-005",
+      "catalog_name": "Theravāda bhavaṅga continuity model",
+      "score": 0.517
+    },
+    {
+      "section": "16.1",
+      "heading": "Indian cosmic consciousness",
+      "status": "review",
+      "catalog_id": "seed-172-access-consciousness",
+      "catalog_name": "Access consciousness",
+      "score": 0.723
+    },
+    {
+      "section": "16.2",
+      "heading": "Buddhism’s empty, illusory phenomenal consciousness",
+      "status": "review",
+      "catalog_id": "seed-010-illusionism-about-phenomenal-consciousness",
+      "catalog_name": "Illusionism about phenomenal consciousness",
+      "score": 0.681
+    },
+    {
+      "section": "16.3",
+      "heading": "Dao De Jing’s constant dao",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-016",
+      "catalog_name": "Laozian empty and still heart-mind",
+      "score": 0.51
+    },
+    {
+      "section": "16.4",
+      "heading": "Kastrup’s analytic idealism",
+      "status": "review",
+      "catalog_id": "seed-023-analytic-idealism",
+      "catalog_name": "Analytic idealism",
+      "score": 0.688
+    },
+    {
+      "section": "16.5",
+      "heading": "Hoffman’s conscious realism: the case against reality",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-012-modular-constitutive-conscious-vision",
+      "catalog_name": "Modular-Constitutive Model of Conscious Vision",
+      "score": 0.554
+    },
+    {
+      "section": "16.6",
+      "heading": "McGilchrist’s relational, creative-process idealism",
+      "status": "unmatched",
+      "catalog_id": "frontier-science-002-process-meta-representation",
+      "catalog_name": "Process Meta-Representation and Qualia-Space Hypothesis",
+      "score": 0.535
+    },
+    {
+      "section": "16.7",
+      "heading": "Chopra’s only the whole is conscious",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-039-nonseparability-foundation",
+      "catalog_name": "Physical Non-Separability Foundation of Consciousness",
+      "score": 0.587
+    },
+    {
+      "section": "16.8",
+      "heading": "How consciousness becomes the physical universe",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-007-maps-of-meaning",
+      "catalog_name": "Maps of Meaning Consciousness Theory",
+      "score": 0.563
+    },
+    {
+      "section": "16.9",
+      "heading": "Goswami’s self-aware universe",
+      "status": "unmatched",
+      "catalog_id": "candidate-partial-awareness-hypothesis",
+      "catalog_name": "Partial Awareness Hypothesis",
+      "score": 0.533
+    },
+    {
+      "section": "16.10",
+      "heading": "Spira’s non-duality",
+      "status": "unmatched",
+      "catalog_id": "seed-013-interactionist-dualism",
+      "catalog_name": "Interactionist dualism",
+      "score": 0.55
+    },
+    {
+      "section": "16.11",
+      "heading": "Nader’s all there is",
+      "status": "unmatched",
+      "catalog_id": "emerging-breadth-027-universality-criterion",
+      "catalog_name": "Universality Criterion for Consciousness Theories",
+      "score": 0.578
+    },
+    {
+      "section": "16.12",
+      "heading": "Ward’s personal idealism: souls as embodied agents created by",
+      "status": "unmatched",
+      "catalog_id": "gap-breadth-039-fanon-epidermal-schema",
+      "catalog_name": "Fanon's epidermal racial schema and embodied subjectivity",
+      "score": 0.517
+    },
+    {
+      "section": "16.13",
+      "heading": "Albahari’s perennial idealism",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-007",
+      "catalog_name": "Pudgalavāda person theory",
+      "score": 0.583
+    },
+    {
+      "section": "16.14",
+      "heading": "Meijer’s universal knowledge field",
+      "status": "unmatched",
+      "catalog_id": "cross-breadth-004",
+      "catalog_name": "Bhagavad Gītā field–knower distinction",
+      "score": 0.516
+    },
+    {
+      "section": "16.15",
+      "heading": "Idealism’s imaginative expressions",
+      "status": "unmatched",
+      "catalog_id": "seed-009-eliminative-materialism",
+      "catalog_name": "Eliminative materialism",
+      "score": 0.536
+    },
+    {
+      "section": "17.1",
+      "heading": "Bergson’s multiplicity, duration, perception, memory",
+      "status": "unmatched",
+      "catalog_id": "seed-110-bergsonian-duration-and-memory",
+      "catalog_name": "Bergsonian duration and memory",
+      "score": 0.667
+    },
+    {
+      "section": "17.2",
+      "heading": "Jung’s collective unconscious and synchronicity",
+      "status": "matched",
+      "catalog_id": "kac-008-jung-s-collective-unconscious-and-synchronicity",
+      "catalog_name": "Jung’s Collective Unconscious and Synchronicity",
+      "score": 1.0
+    },
+    {
+      "section": "17.3",
+      "heading": "Radin’s challenge to materialism",
+      "status": "matched",
+      "catalog_id": "kac-009-radin-s-challenge-to-materialism",
+      "catalog_name": "Radin’s Challenge to Materialism",
+      "score": 1.0
+    },
+    {
+      "section": "17.4",
+      "heading": "Tart’s emergent interactionism",
+      "status": "matched",
+      "catalog_id": "kac-013-tart-s-emergent-interactionism",
+      "catalog_name": "Tart’s Emergent Interactionism",
+      "score": 1.0
+    },
+    {
+      "section": "17.5",
+      "heading": "Josephson’s psi-informed models",
+      "status": "matched",
+      "catalog_id": "kac-007-josephson-s-psi-informed-models",
+      "catalog_name": "Josephson’s Psi-Informed Models",
+      "score": 1.0
+    },
+    {
+      "section": "17.6",
+      "heading": "Wilber’s Integral Theory",
+      "status": "matched",
+      "catalog_id": "kac-014-wilber-s-integral-theory",
+      "catalog_name": "Wilber’s Integral Theory",
+      "score": 1.0
+    },
+    {
+      "section": "17.7",
+      "heading": "Combs’s chaotic attractor and autopoietic systems",
+      "status": "matched",
+      "catalog_id": "kac-001-combs-s-chaotic-attractor-and-autopoietic-systems",
+      "catalog_name": "Combs’s Chaotic Attractor and Autopoietic Systems",
+      "score": 1.0
+    },
+    {
+      "section": "17.8",
+      "heading": "Schooler’s resonance theory and subjective time",
+      "status": "unmatched",
+      "catalog_id": "seed-063-general-resonance-theory-grt",
+      "catalog_name": "General Resonance Theory (GRT)",
+      "score": 0.568
+    },
+    {
+      "section": "17.9",
+      "heading": "Sheldrake’s morphic fields",
+      "status": "matched",
+      "catalog_id": "kac-010-sheldrake-s-morphic-fields",
+      "catalog_name": "Sheldrake’s Morphic Fields",
+      "score": 1.0
+    },
+    {
+      "section": "17.10",
+      "heading": "Grinberg’s syntergic/neuronal field theory",
+      "status": "matched",
+      "catalog_id": "kac-004-grinberg-s-syntergic-neuronal-field-theory",
+      "catalog_name": "Grinberg’s Syntergic/Neuronal Field Theory",
+      "score": 1.0
+    },
+    {
+      "section": "17.11",
+      "heading": "Graboi’s three-aspect model",
+      "status": "matched",
+      "catalog_id": "kac-003-graboi-s-three-aspect-model",
+      "catalog_name": "Graboi’s Three-Aspect Model",
+      "score": 1.0
+    },
+    {
+      "section": "17.12",
+      "heading": "Near death experiences, survival, past lives",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-021-insect-subjective-experience",
+      "catalog_name": "Insect Midbrain-Analogue Hypothesis of Subjective Experience",
+      "score": 0.519
+    },
+    {
+      "section": "17.13",
+      "heading": "DOPS’s consciousness research and theory",
+      "status": "matched",
+      "catalog_id": "kac-002-dops-s-consciousness-research-and-theory",
+      "catalog_name": "DOPS’s Consciousness Research and Theory",
+      "score": 1.0
+    },
+    {
+      "section": "17.14",
+      "heading": "Bitbol",
+      "status": "unmatched",
+      "catalog_id": "states-clinical-015-modified-brice",
+      "catalog_name": "Modified Brice Interview",
+      "score": 0.5
+    },
+    {
+      "section": "17.15",
+      "heading": "Campbell’s theory of everything",
+      "status": "matched",
+      "catalog_id": "kac-012-campbell-s-theory-of-everything",
+      "catalog_name": "T. Campbell’s Theory of Everything",
+      "score": 0.944
+    },
+    {
+      "section": "17.16",
+      "heading": "Hiller’s eternal discarnate consciousness",
+      "status": "matched",
+      "catalog_id": "kac-006-hiller-s-eternal-discarnate-consciousness",
+      "catalog_name": "Hiller’s Eternal Discarnate Consciousness",
+      "score": 1.0
+    },
+    {
+      "section": "17.17",
+      "heading": "Harp’s universal or God consciousness",
+      "status": "matched",
+      "catalog_id": "kac-005-harp-s-universal-or-god-consciousness",
+      "catalog_name": "Harp’s Universal or God Consciousness",
+      "score": 1.0
+    },
+    {
+      "section": "17.18",
+      "heading": "Swimme’s cosmogenesis",
+      "status": "matched",
+      "catalog_id": "kac-011-swimme-s-cosmogenesis",
+      "catalog_name": "Swimme’s Cosmogenesis",
+      "score": 1.0
+    },
+    {
+      "section": "17.19",
+      "heading": "Langan’s cognitive-theoretic model of the universe",
+      "status": "unmatched",
+      "catalog_id": "breadth-neuro-013-neurocognitive-dreaming",
+      "catalog_name": "Neurocognitive Theory of Dreaming",
+      "score": 0.537
+    },
+    {
+      "section": "17.20",
+      "heading": "Meditation and the brain",
+      "status": "review",
+      "catalog_id": "seed-038-fame-in-the-brain",
+      "catalog_name": "Fame in the Brain",
+      "score": 0.683
+    },
+    {
+      "section": "17.21",
+      "heading": "Psychedelic theories of consciousness",
+      "status": "review",
+      "catalog_id": "seed-171-phenomenal-consciousness",
+      "catalog_name": "Phenomenal consciousness",
+      "score": 0.776
+    },
+    {
+      "section": "18.1",
+      "heading": "Nagel’s mind and cosmos",
+      "status": "matched",
+      "catalog_id": "kac-016-nagel-s-mind-and-cosmos",
+      "catalog_name": "Nagel’s Mind and Cosmos",
+      "score": 1.0
+    },
+    {
+      "section": "18.2",
+      "heading": "McGinn’s ultimate mystery (mysterianism)",
+      "status": "unmatched",
+      "catalog_id": "seed-009-eliminative-materialism",
+      "catalog_name": "Eliminative materialism",
+      "score": 0.533
+    },
+    {
+      "section": "18.3",
+      "heading": "S. Harris’s mystery of consciousness",
+      "status": "matched",
+      "catalog_id": "kac-022-s-harris-s-mystery-of-consciousness",
+      "catalog_name": "S. Harris’s Mystery of Consciousness",
+      "score": 1.0
+    },
+    {
+      "section": "18.4",
+      "heading": "Eagleman’s possibilianism",
+      "status": "matched",
+      "catalog_id": "kac-017-eagleman-s-possibilianism",
+      "catalog_name": "Eagleman’s Possibilianism",
+      "score": 1.0
+    },
+    {
+      "section": "18.5",
+      "heading": "Tallis’s anti-neuromania skepticism",
+      "status": "matched",
+      "catalog_id": "kac-018-tallis-s-anti-neuromania-skepticism",
+      "catalog_name": "Tallis’s Anti-Neuromania Skepticism",
+      "score": 1.0
+    },
+    {
+      "section": "18.6",
+      "heading": "Nagasawa’s mind-body problem in an infinitely decomposable",
+      "status": "review",
+      "catalog_id": "kac-019-nagasawa-s-mind-body-problem-in-an-infinitely-decomposable-universe",
+      "catalog_name": "Nagasawa’s Mind-Body Problem in an Infinitely Decomposable Universe",
+      "score": 0.877
+    },
+    {
+      "section": "18.7",
+      "heading": "Musser’s “is it really so hard?”",
+      "status": "matched",
+      "catalog_id": "kac-020-musser-s-is-it-really-so-hard",
+      "catalog_name": "Musser’s “Is It Really So Hard?”",
+      "score": 1.0
+    },
+    {
+      "section": "18.8",
+      "heading": "Davies’s consciousness in the cosmos",
+      "status": "matched",
+      "catalog_id": "kac-021-davies-s-consciousness-in-the-cosmos",
+      "catalog_name": "Davies’s Consciousness in the Cosmos",
+      "score": 1.0
+    }
+  ],
+  "entries": [
+    {
+      "id": "kuhn-9-1",
+      "section": "9.1",
+      "name": "Philosophical Theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-1-1",
+      "section": "9.1.1",
+      "name": "Eliminative materialism/illusionism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-009-eliminative-materialism",
+        "record_name": "Eliminative materialism",
+        "score": 0.691
+      }
+    },
+    {
+      "id": "kuhn-9-1-2",
+      "section": "9.1.2",
+      "name": "Epiphenomenalism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "seed-011-epiphenomenalism",
+        "record_name": "Epiphenomenalism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-9-1-3",
+      "section": "9.1.3",
+      "name": "Functionalism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "seed-004-functionalism",
+        "record_name": "Functionalism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-9-1-4",
+      "section": "9.1.4",
+      "name": "Emergence",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-006-weak-emergentism",
+        "record_name": "Weak emergentism",
+        "score": 0.56
+      }
+    },
+    {
+      "id": "kuhn-9-1-5",
+      "section": "9.1.5",
+      "name": "Mind-brain identity theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-002-type-identity-theory",
+        "record_name": "Type-identity theory",
+        "score": 0.696
+      }
+    },
+    {
+      "id": "kuhn-9-1-6",
+      "section": "9.1.6",
+      "name": "Searle’s biological naturalism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-156-neurobiological-naturalism",
+        "record_name": "Neurobiological Naturalism",
+        "score": 0.836
+      }
+    },
+    {
+      "id": "kuhn-9-1-7",
+      "section": "9.1.7",
+      "name": "Block’s biological reductionism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-004-biological-computationalism",
+        "record_name": "Biological Computationalism",
+        "score": 0.667
+      }
+    },
+    {
+      "id": "kuhn-9-1-8",
+      "section": "9.1.8",
+      "name": "Flanagan",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-phil-003-explanatory-gap",
+        "record_name": "Explanatory gap",
+        "score": 0.522
+      }
+    },
+    {
+      "id": "kuhn-9-1-9",
+      "section": "9.1.9",
+      "name": "Papineau’s mind-brain identity",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-life-story-model-narrative-identity",
+        "record_name": "Life-Story Model of Narrative Identity",
+        "score": 0.537
+      }
+    },
+    {
+      "id": "kuhn-9-1-10",
+      "section": "9.1.10",
+      "name": "Goldstein’s mind-body problem",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "gap-breadth-007-other-minds",
+        "record_name": "Problem of other minds",
+        "score": 0.681
+      }
+    },
+    {
+      "id": "kuhn-9-1-11",
+      "section": "9.1.11",
+      "name": "Hardcastle",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-001-hard-problem",
+        "record_name": "Hard problem of consciousness",
+        "score": 0.545
+      }
+    },
+    {
+      "id": "kuhn-9-1-12",
+      "section": "9.1.12",
+      "name": "Stoljar’s epistemic view and non-standard physicalism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Philosophical Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-027-stoljar-epistemic-view",
+        "record_name": "Stoljar's epistemic view of the consciousness problem",
+        "score": 0.629
+      }
+    },
+    {
+      "id": "kuhn-9-2",
+      "section": "9.2",
+      "name": "Neurobiological theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-2-1",
+      "section": "9.2.1",
+      "name": "Edelman",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-022-nrem-dreaming",
+        "record_name": "Non-REM Dreaming",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-9-2-2",
+      "section": "9.2.2",
+      "name": "Crick and Koch’s neural correlates of consciousness (NCC)",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-046-neural-correlates-of-consciousness-ncc-framework",
+        "record_name": "Neural Correlates of Consciousness (NCC) framework",
+        "score": 0.745
+      }
+    },
+    {
+      "id": "kuhn-9-2-3",
+      "section": "9.2.3",
+      "name": "Baars",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-031-maas",
+        "record_name": "Mindful Attention Awareness Scale",
+        "score": 0.667
+      }
+    },
+    {
+      "id": "kuhn-9-2-4",
+      "section": "9.2.4",
+      "name": "Dennett’s multiple drafts model",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-037-multiple-drafts-model",
+        "record_name": "Multiple Drafts Model",
+        "score": 0.73
+      }
+    },
+    {
+      "id": "kuhn-9-2-5",
+      "section": "9.2.5",
+      "name": "Minsky’s society of mind",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-069-society-of-mind",
+        "record_name": "Society of Mind",
+        "score": 0.687
+      }
+    },
+    {
+      "id": "kuhn-9-2-6",
+      "section": "9.2.6",
+      "name": "Graziano’s attention schema theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-039-attention-schema-theory-ast",
+        "record_name": "Attention Schema Theory (AST)",
+        "score": 0.767
+      }
+    },
+    {
+      "id": "kuhn-9-2-7",
+      "section": "9.2.7",
+      "name": "Prinz’s neurofunctionalism: how attention engenders experience",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-019-functional-value-phenomenal-experience",
+        "record_name": "Functional-Value Account of Phenomenal Experience",
+        "score": 0.55
+      }
+    },
+    {
+      "id": "kuhn-9-2-8",
+      "section": "9.2.8",
+      "name": "Sapolsky’s hard incompatibilism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-045-structural-turn-functionalism",
+        "record_name": "Structural Turn in Computational Functionalism",
+        "score": 0.526
+      }
+    },
+    {
+      "id": "kuhn-9-2-9",
+      "section": "9.2.9",
+      "name": "Mitchell’s free agents",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-021-microsleep",
+        "record_name": "Microsleep Episodes",
+        "score": 0.579
+      }
+    },
+    {
+      "id": "kuhn-9-2-10",
+      "section": "9.2.10",
+      "name": "Bach’s cortical conductor theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-teleological-stance",
+        "record_name": "Teleological Stance and Naïve Theory of Rational Action",
+        "score": 0.61
+      }
+    },
+    {
+      "id": "kuhn-9-2-11",
+      "section": "9.2.11",
+      "name": "Brain circuits and cycles theories",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-052-operational-architectonics-oa-theory",
+        "record_name": "Operational Architectonics (OA) theory",
+        "score": 0.514
+      }
+    },
+    {
+      "id": "kuhn-9-2-12",
+      "section": "9.2.12",
+      "name": "Northoff’s temporo-spatial sentience",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-033-premotor-attention",
+        "record_name": "Premotor Theory of Attention",
+        "score": 0.563
+      }
+    },
+    {
+      "id": "kuhn-9-2-13",
+      "section": "9.2.13",
+      "name": "Bunge’s emergent materialism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-030-hobbes-materialist-psychology",
+        "record_name": "Hobbesian materialist psychology",
+        "score": 0.667
+      }
+    },
+    {
+      "id": "kuhn-9-2-14",
+      "section": "9.2.14",
+      "name": "Hirstein’s mindmelding",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Neurobiological theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-094-theory-theory-of-mindreading",
+        "record_name": "Theory-Theory of mindreading",
+        "score": 0.571
+      }
+    },
+    {
+      "id": "kuhn-9-3",
+      "section": "9.3",
+      "name": "Electromagnetic field theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-3-1",
+      "section": "9.3.1",
+      "name": "Jones’s electromagnetic fields",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-072-pockett-electromagnetic-field-theory",
+        "record_name": "Pockett Electromagnetic Field Theory",
+        "score": 0.738
+      }
+    },
+    {
+      "id": "kuhn-9-3-2",
+      "section": "9.3.2",
+      "name": "Pockett’s conscious and non-conscious patterns",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-187-pure-consciousness-and-contentless-awareness",
+        "record_name": "Pure consciousness and contentless awareness",
+        "score": 0.607
+      }
+    },
+    {
+      "id": "kuhn-9-3-3",
+      "section": "9.3.3",
+      "name": "McFadden’s conscious electromagnetic information theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-071-conscious-electromagnetic-information-cemi-field-theory",
+        "record_name": "Conscious Electromagnetic Information (CEMI) Field Theory",
+        "score": 0.807
+      }
+    },
+    {
+      "id": "kuhn-9-3-4",
+      "section": "9.3.4",
+      "name": "Ephaptic coupling",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-affective-computing-framework",
+        "record_name": "Affective Computing Framework",
+        "score": 0.556
+      }
+    },
+    {
+      "id": "kuhn-9-3-5",
+      "section": "9.3.5",
+      "name": "Ambron’s local field potentials and electromagnetic waves",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-072-pockett-electromagnetic-field-theory",
+        "record_name": "Pockett Electromagnetic Field Theory",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-9-3-6",
+      "section": "9.3.6",
+      "name": "Llinas’s mindness state of oscillations",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-020-detachment-compartmentalization",
+        "record_name": "Detachment-Compartmentalization Model of Dissociation",
+        "score": 0.522
+      }
+    },
+    {
+      "id": "kuhn-9-3-7",
+      "section": "9.3.7",
+      "name": "Zhang’s long-distance light-speed telecommunications",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Electromagnetic field theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-046",
+        "record_name": "Chabad Tanya two-soul psychology",
+        "score": 0.484
+      }
+    },
+    {
+      "id": "kuhn-9-4",
+      "section": "9.4",
+      "name": "Computational and Informational Theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-4-1",
+      "section": "9.4.1",
+      "name": "Computational theories",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-030-biased-competition",
+        "record_name": "Biased Competition Model of Attention",
+        "score": 0.638
+      }
+    },
+    {
+      "id": "kuhn-9-4-2",
+      "section": "9.4.2",
+      "name": "Grossberg’s adaptive resonance theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-063-general-resonance-theory-grt",
+        "record_name": "General Resonance Theory (GRT)",
+        "score": 0.656
+      }
+    },
+    {
+      "id": "kuhn-9-4-3",
+      "section": "9.4.3",
+      "name": "Complex adaptive systems models",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-006",
+        "record_name": "Theravāda citta-vīthi cognitive-process model",
+        "score": 0.604
+      }
+    },
+    {
+      "id": "kuhn-9-4-4",
+      "section": "9.4.4",
+      "name": "Critical brain hypothesis",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-059-entropic-brain-hypothesis",
+        "record_name": "Entropic Brain Hypothesis",
+        "score": 0.8
+      }
+    },
+    {
+      "id": "kuhn-9-4-5",
+      "section": "9.4.5",
+      "name": "Pribram’s holonomic brain theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-070-holonomic-brain-theory",
+        "record_name": "Holonomic Brain Theory",
+        "score": 0.739
+      }
+    },
+    {
+      "id": "kuhn-9-4-6",
+      "section": "9.4.6",
+      "name": "Doyle’s experience recorder and reproducer",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-030-mathematical-structure-experience",
+        "record_name": "Mathematical Structure of Conscious Experience Program",
+        "score": 0.548
+      }
+    },
+    {
+      "id": "kuhn-9-4-7",
+      "section": "9.4.7",
+      "name": "Informational realism and emergent information theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-013-extended-information-theory",
+        "record_name": "Extended Information Theory",
+        "score": 0.659
+      }
+    },
+    {
+      "id": "kuhn-9-4-8",
+      "section": "9.4.8",
+      "name": "Mathematical theories",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Computational and Informational Theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-047-apoha-content",
+        "record_name": "Dignāga–Dharmakīrti apoha theory of conceptual content",
+        "score": 0.667
+      }
+    },
+    {
+      "id": "kuhn-9-5",
+      "section": "9.5",
+      "name": "Homeostatic and affective theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-5-1",
+      "section": "9.5.1",
+      "name": "Predictive theories (Top-down)",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-006",
+        "record_name": "Theravāda citta-vīthi cognitive-process model",
+        "score": 0.56
+      }
+    },
+    {
+      "id": "kuhn-9-5-2",
+      "section": "9.5.2",
+      "name": "Seth’s “beast machine” theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-two-factor-theory-emotion",
+        "record_name": "Two-Factor Theory of Emotion",
+        "score": 0.625
+      }
+    },
+    {
+      "id": "kuhn-9-5-3",
+      "section": "9.5.3",
+      "name": "Damasio’s homeostatic feelings and emergence of consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "frontier-science-003-attentional-modulation-energy",
+        "record_name": "Attentional Modulation of Energy Theory",
+        "score": 0.595
+      }
+    },
+    {
+      "id": "kuhn-9-5-4",
+      "section": "9.5.4",
+      "name": "Friston’s free-energy principle and active inference",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-062-free-energy-principle-active-inference",
+        "record_name": "Free-Energy Principle / Active Inference",
+        "score": 0.854
+      }
+    },
+    {
+      "id": "kuhn-9-5-5",
+      "section": "9.5.5",
+      "name": "Solms’s affect as the hidden spring of consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-057-affective-brainstem-theory-of-consciousness",
+        "record_name": "Affective / Brainstem Theory of Consciousness",
+        "score": 0.66
+      }
+    },
+    {
+      "id": "kuhn-9-5-6",
+      "section": "9.5.6",
+      "name": "Carhart-Harris’s entropic brain hypothesis",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-059-entropic-brain-hypothesis",
+        "record_name": "Entropic Brain Hypothesis",
+        "score": 0.649
+      }
+    },
+    {
+      "id": "kuhn-9-5-7",
+      "section": "9.5.7",
+      "name": "Buzs ´aki’s neural syntax and self-caused rhythms",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-006-neural-syntax-framework",
+        "record_name": "Neural Syntax Framework",
+        "score": 0.618
+      }
+    },
+    {
+      "id": "kuhn-9-5-8",
+      "section": "9.5.8",
+      "name": "Deacon’s self-organized constraint and emergence of self",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-052",
+        "record_name": "Evagrius Ponticus's logismoi and pure-nous model",
+        "score": 0.485
+      }
+    },
+    {
+      "id": "kuhn-9-5-9",
+      "section": "9.5.9",
+      "name": "Pereira’s sentience",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-017-teleosemantics",
+        "record_name": "Teleosemantics",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-9-5-10",
+      "section": "9.5.10",
+      "name": "Mansell’s perceptual control theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-003-perceptual-control-theory",
+        "record_name": "Perceptual Control Theory",
+        "score": 0.778
+      }
+    },
+    {
+      "id": "kuhn-9-5-11",
+      "section": "9.5.11",
+      "name": "Projective consciousness model",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-055-projective-consciousness-model-pcm",
+        "record_name": "Projective Consciousness Model (PCM)",
+        "score": 0.894
+      }
+    },
+    {
+      "id": "kuhn-9-5-12",
+      "section": "9.5.12",
+      "name": "Pepperell’s organization of energy",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Homeostatic and affective theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-004-energy-organization-consciousness",
+        "record_name": "Energy-Organization Account of Consciousness",
+        "score": 0.571
+      }
+    },
+    {
+      "id": "kuhn-9-6",
+      "section": "9.6",
+      "name": "Embodied and enactive theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-6-1",
+      "section": "9.6.1",
+      "name": "Embodied cognition",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "gap-breadth-024-embodied-cognition",
+        "record_name": "Embodied cognition thesis",
+        "score": 0.748
+      }
+    },
+    {
+      "id": "kuhn-9-6-2",
+      "section": "9.6.2",
+      "name": "Enactivism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-004-functionalism",
+        "record_name": "Functionalism",
+        "score": 0.609
+      }
+    },
+    {
+      "id": "kuhn-9-6-3",
+      "section": "9.6.3",
+      "name": "Varela’s neurophenomenology",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-043-neurophenomenology",
+        "record_name": "Neurophenomenology",
+        "score": 0.723
+      }
+    },
+    {
+      "id": "kuhn-9-6-4",
+      "section": "9.6.4",
+      "name": "Thompson’s mind in life",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-094-theory-theory-of-mindreading",
+        "record_name": "Theory-Theory of mindreading",
+        "score": 0.512
+      }
+    },
+    {
+      "id": "kuhn-9-6-5",
+      "section": "9.6.5",
+      "name": "Frank/Gleiser/Thompson’s “The Blind Spot”",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-hist-013-ghazali-faculty-heart-self",
+        "record_name": "Al-Ghazālī's faculty psychology and heart-self vocabulary",
+        "score": 0.479
+      }
+    },
+    {
+      "id": "kuhn-9-6-6",
+      "section": "9.6.6",
+      "name": "Bitbol’s radical neurophenomenology",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-015-bitbol-s-phenomenological-ontology",
+        "record_name": "Bitbol’s Phenomenological Ontology",
+        "score": 0.627
+      }
+    },
+    {
+      "id": "kuhn-9-6-7",
+      "section": "9.6.7",
+      "name": "Direct perception theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "emerging-breadth-005-irruption-theory",
+        "record_name": "Irruption Theory",
+        "score": 0.75
+      }
+    },
+    {
+      "id": "kuhn-9-6-8",
+      "section": "9.6.8",
+      "name": "Gibson’s ecological psychology",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Embodied and enactive theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-015-bitbol-s-phenomenological-ontology",
+        "record_name": "Bitbol’s Phenomenological Ontology",
+        "score": 0.645
+      }
+    },
+    {
+      "id": "kuhn-9-7",
+      "section": "9.7",
+      "name": "Relational theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-7-1",
+      "section": "9.7.1",
+      "name": "A. Clark’s extended mind",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-100-extended-mind-thesis",
+        "record_name": "Extended Mind thesis",
+        "score": 0.619
+      }
+    },
+    {
+      "id": "kuhn-9-7-2",
+      "section": "9.7.2",
+      "name": "No¨e’s “out of our heads” theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-008-anesthetic-cascade",
+        "record_name": "Anesthetic Cascade Theory",
+        "score": 0.556
+      }
+    },
+    {
+      "id": "kuhn-9-7-3",
+      "section": "9.7.3",
+      "name": "Loorits’s structural realism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-008",
+        "record_name": "Sautrāntika representational perception and seed continuity",
+        "score": 0.545
+      }
+    },
+    {
+      "id": "kuhn-9-7-4",
+      "section": "9.7.4",
+      "name": "Lahav’s relativistic theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "gap-breadth-047-apoha-content",
+        "record_name": "Dignāga–Dharmakīrti apoha theory of conceptual content",
+        "score": 0.681
+      }
+    },
+    {
+      "id": "kuhn-9-7-5",
+      "section": "9.7.5",
+      "name": "Tsuchiya’s relational approach to consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-060-predictive-processing-approaches-to-consciousness",
+        "record_name": "Predictive Processing approaches to consciousness",
+        "score": 0.674
+      }
+    },
+    {
+      "id": "kuhn-9-7-6",
+      "section": "9.7.6",
+      "name": "Jaworski’s hylomorphism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-041",
+        "record_name": "Ibn Gabirol's universal hylomorphism of soul and intellect",
+        "score": 0.63
+      }
+    },
+    {
+      "id": "kuhn-9-7-7",
+      "section": "9.7.7",
+      "name": "Process theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Relational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "emerging-breadth-011-local-prospect-theory",
+        "record_name": "Local Prospect Theory of Consciousness",
+        "score": 0.684
+      }
+    },
+    {
+      "id": "kuhn-9-8",
+      "section": "9.8",
+      "name": "Representational theories",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-8-1",
+      "section": "9.8.1",
+      "name": "First-order representationalism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "seed-035-first-order-representationalism",
+        "record_name": "First-Order Representationalism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-9-8-2",
+      "section": "9.8.2",
+      "name": "Lamme’s recurrent processing theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-029-recurrent-processing-theory-rpt",
+        "record_name": "Recurrent Processing Theory (RPT)",
+        "score": 0.831
+      }
+    },
+    {
+      "id": "kuhn-9-8-3",
+      "section": "9.8.3",
+      "name": "Higher-order theories",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-030-higher-order-thought-hot-theory",
+        "record_name": "Higher-Order Thought (HOT) theory",
+        "score": 0.692
+      }
+    },
+    {
+      "id": "kuhn-9-8-4",
+      "section": "9.8.4",
+      "name": "Lau’s perceptual reality monitoring theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-146-perceptual-reality-monitoring-theory-prm",
+        "record_name": "Perceptual Reality Monitoring theory (PRM)",
+        "score": 0.889
+      }
+    },
+    {
+      "id": "kuhn-9-8-5",
+      "section": "9.8.5",
+      "name": "LeDoux’s higher-order theory of emotional consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-048-higher-order-emotional-consciousness",
+        "record_name": "Higher-Order Theory of Emotional Consciousness",
+        "score": 0.867
+      }
+    },
+    {
+      "id": "kuhn-9-8-6",
+      "section": "9.8.6",
+      "name": "Humphrey’s mental representations and brain attractors",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "frontier-science-002-process-meta-representation",
+        "record_name": "Process Meta-Representation and Qualia-Space Hypothesis",
+        "score": 0.667
+      }
+    },
+    {
+      "id": "kuhn-9-8-7",
+      "section": "9.8.7",
+      "name": "Metzinger’s no-self representational theory of subjectivity",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-034-self-representational-same-order-theory",
+        "record_name": "Self-representational / same-order theory",
+        "score": 0.577
+      }
+    },
+    {
+      "id": "kuhn-9-8-8",
+      "section": "9.8.8",
+      "name": "Jackson’s diaphanous representationalism and the knowledge",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-043-saadia-soul-knowledge",
+        "record_name": "Saadia Gaon's rational soul and sources of knowledge",
+        "score": 0.606
+      }
+    },
+    {
+      "id": "kuhn-9-8-9",
+      "section": "9.8.9",
+      "name": "Lycan’s homuncular functionalism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-045-structural-turn-functionalism",
+        "record_name": "Structural Turn in Computational Functionalism",
+        "score": 0.609
+      }
+    },
+    {
+      "id": "kuhn-9-8-10",
+      "section": "9.8.10",
+      "name": "Transparency theory",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-039-multiple-trace-transformation",
+        "record_name": "Multiple Trace / Transformation Theory of Memory",
+        "score": 0.7
+      }
+    },
+    {
+      "id": "kuhn-9-8-11",
+      "section": "9.8.11",
+      "name": "Tye’s contingentism",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-039-heartbeat-counting",
+        "record_name": "Heartbeat Counting Task",
+        "score": 0.585
+      }
+    },
+    {
+      "id": "kuhn-9-8-12",
+      "section": "9.8.12",
+      "name": "Thagard’s neural representation, binding, coherence, competition",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-163-higher-order-representation-of-a-representation-horor",
+        "record_name": "Higher-Order Representation of a Representation (HOROR)",
+        "score": 0.549
+      }
+    },
+    {
+      "id": "kuhn-9-8-13",
+      "section": "9.8.13",
+      "name": "T. Clark’s content hypothesis",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-005-claustrum-integration-hypothesis",
+        "record_name": "Claustrum Integration Hypothesis",
+        "score": 0.702
+      }
+    },
+    {
+      "id": "kuhn-9-8-14",
+      "section": "9.8.14",
+      "name": "Deacon’s symbolic communication (human consciousness)",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Representational theories",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-039-nonseparability-foundation",
+        "record_name": "Physical Non-Separability Foundation of Consciousness",
+        "score": 0.621
+      }
+    },
+    {
+      "id": "kuhn-9-9",
+      "section": "9.9",
+      "name": "Language relationships",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-9-1",
+      "section": "9.9.1",
+      "name": "Chomsky",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Language relationships",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-033-higher-order-global-states-hogs-model",
+        "record_name": "Higher-Order Global States (HOGS) model",
+        "score": 0.545
+      }
+    },
+    {
+      "id": "kuhn-9-9-2",
+      "section": "9.9.2",
+      "name": "Searle’s language and consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Language relationships",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-194-dreaming-and-rem-protoconsciousness",
+        "record_name": "Dreaming and REM protoconsciousness",
+        "score": 0.638
+      }
+    },
+    {
+      "id": "kuhn-9-9-3",
+      "section": "9.9.3",
+      "name": "Koch’s consciousness does not depend on language",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Language relationships",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-009",
+        "record_name": "Early Buddhist consciousness–name-and-form reciprocal conditioning",
+        "score": 0.611
+      }
+    },
+    {
+      "id": "kuhn-9-9-4",
+      "section": "9.9.4",
+      "name": "Smith’s language as classifier of consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Language relationships",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-022-s-harris-s-mystery-of-consciousness",
+        "record_name": "S. Harris’s Mystery of Consciousness",
+        "score": 0.625
+      }
+    },
+    {
+      "id": "kuhn-9-9-5",
+      "section": "9.9.5",
+      "name": "Jaynes’s breakdown of the bicameral mind",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Language relationships",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-hist-006-averroes-unity-material-intellect",
+        "record_name": "Averroes' unity of the material intellect",
+        "score": 0.532
+      }
+    },
+    {
+      "id": "kuhn-9-9-6",
+      "section": "9.9.6",
+      "name": "Parrington’s language and tool-driven consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Language relationships",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-186-noetic-anoetic-and-autonoetic-consciousness",
+        "record_name": "Noetic, anoetic, and autonoetic consciousness",
+        "score": 0.602
+      }
+    },
+    {
+      "id": "kuhn-9-10",
+      "section": "9.10",
+      "name": "Phylogenetic evolution",
+      "entry_type": "section-overview",
+      "category": "Materialist and physicalist theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-applicable",
+        "record_id": null,
+        "record_name": null,
+        "score": 0.0
+      }
+    },
+    {
+      "id": "kuhn-9-10-1",
+      "section": "9.10.1",
+      "name": "Dennett’s evolution of minds",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-048-aurobindo-integral-consciousness",
+        "record_name": "Sri Aurobindo's integral evolution of consciousness",
+        "score": 0.537
+      }
+    },
+    {
+      "id": "kuhn-9-10-2",
+      "section": "9.10.2",
+      "name": "LeDoux’s deep roots of consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "cross-breadth-006",
+        "record_name": "Theravāda citta-vīthi cognitive-process model",
+        "score": 0.696
+      }
+    },
+    {
+      "id": "kuhn-9-10-3",
+      "section": "9.10.3",
+      "name": "Ginsburg and Jablonka’s associative learning during evolution",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-056-unlimited-associative-learning-ual-framework",
+        "record_name": "Unlimited Associative Learning (UAL) framework",
+        "score": 0.538
+      }
+    },
+    {
+      "id": "kuhn-9-10-4",
+      "section": "9.10.4",
+      "name": "Cleeremans and Tallon-Baudry’s phenomenal experience has",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-019-functional-value-phenomenal-experience",
+        "record_name": "Functional-Value Account of Phenomenal Experience",
+        "score": 0.577
+      }
+    },
+    {
+      "id": "kuhn-9-10-5",
+      "section": "9.10.5",
+      "name": "Andrew’s consciousness without complex brains",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-021-davies-s-consciousness-in-the-cosmos",
+        "record_name": "Davies’s Consciousness in the Cosmos",
+        "score": 0.658
+      }
+    },
+    {
+      "id": "kuhn-9-10-6",
+      "section": "9.10.6",
+      "name": "Reber’s cellular basis of consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-001-cellular-basis-consciousness",
+        "record_name": "Cellular Basis of Consciousness",
+        "score": 0.834
+      }
+    },
+    {
+      "id": "kuhn-9-10-7",
+      "section": "9.10.7",
+      "name": "Feinberg and Mallatt’s ancient origins of consciousness",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-203-fractal-and-sentyon-theory-of-consciousness",
+        "record_name": "Fractal and sentyon theory of consciousness",
+        "score": 0.639
+      }
+    },
+    {
+      "id": "kuhn-9-10-8",
+      "section": "9.10.8",
+      "name": "Levin’s technological approach to mind everywhere",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-002-tame",
+        "record_name": "Technological Approach to Mind Everywhere",
+        "score": 0.869
+      }
+    },
+    {
+      "id": "kuhn-9-10-9",
+      "section": "9.10.9",
+      "name": "No hard problem in William James’s psychology",
+      "entry_type": "named-position",
+      "category": "Materialist and physicalist theories",
+      "subcategory": "Phylogenetic evolution",
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-030-hobbes-materialist-psychology",
+        "record_name": "Hobbesian materialist psychology",
+        "score": 0.579
+      }
+    },
+    {
+      "id": "kuhn-10-1",
+      "section": "10.1",
+      "name": "Ellis",
+      "entry_type": "named-position",
+      "category": "Non-reductive physicalism",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-038-complementary-learning-systems",
+        "record_name": "Complementary Learning Systems Theory",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-10-2",
+      "section": "10.2",
+      "name": "Murphy’s non-reductive physicalism",
+      "entry_type": "named-position",
+      "category": "Non-reductive physicalism",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-005-non-reductive-physicalism",
+        "record_name": "Non-reductive physicalism",
+        "score": 0.782
+      }
+    },
+    {
+      "id": "kuhn-10-3",
+      "section": "10.3",
+      "name": "Van Inwagen’s Christian materialism and the resurrection of the",
+      "entry_type": "named-position",
+      "category": "Non-reductive physicalism",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-hist-006-averroes-unity-material-intellect",
+        "record_name": "Averroes' unity of the material intellect",
+        "score": 0.489
+      }
+    },
+    {
+      "id": "kuhn-10-4",
+      "section": "10.4",
+      "name": "Nagasawa’s nontheoretical physicalism",
+      "entry_type": "named-position",
+      "category": "Non-reductive physicalism",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-005-non-reductive-physicalism",
+        "record_name": "Non-reductive physicalism",
+        "score": 0.623
+      }
+    },
+    {
+      "id": "kuhn-10-5",
+      "section": "10.5",
+      "name": "Sanfey’s Abstract Realism",
+      "entry_type": "named-position",
+      "category": "Non-reductive physicalism",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-012-cartesian-substance-dualism",
+        "record_name": "Cartesian substance dualism",
+        "score": 0.588
+      }
+    },
+    {
+      "id": "kuhn-10-6",
+      "section": "10.6",
+      "name": "Northoff’s non-reductive neurophilosophy",
+      "entry_type": "named-position",
+      "category": "Non-reductive physicalism",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-005-non-reductive-physicalism",
+        "record_name": "Non-reductive physicalism",
+        "score": 0.531
+      }
+    },
+    {
+      "id": "kuhn-11-1",
+      "section": "11.1",
+      "name": "Penrose-Hameroff’s orchestrated objective reduction",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-073-orchestrated-objective-reduction-orch-or",
+        "record_name": "Orchestrated Objective Reduction (Orch OR)",
+        "score": 0.711
+      }
+    },
+    {
+      "id": "kuhn-11-2",
+      "section": "11.2",
+      "name": "Stapp’s collapsing the wave function via asking “questions”",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-017",
+        "record_name": "Zhang Zai's qi-based mind and enlarged heart",
+        "score": 0.452
+      }
+    },
+    {
+      "id": "kuhn-11-3",
+      "section": "11.3",
+      "name": "Bohm’s implicate-explicate order",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-003-graboi-s-three-aspect-model",
+        "record_name": "Graboi’s Three-Aspect Model",
+        "score": 0.491
+      }
+    },
+    {
+      "id": "kuhn-11-4",
+      "section": "11.4",
+      "name": "Pylkk ¨anen’s quantum potential energy and active information",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-062-free-energy-principle-active-inference",
+        "record_name": "Free-Energy Principle / Active Inference",
+        "score": 0.495
+      }
+    },
+    {
+      "id": "kuhn-11-5",
+      "section": "11.5",
+      "name": "Wolfram’s consciousness in the ruliad",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "emerging-breadth-007-maps-of-meaning",
+        "record_name": "Maps of Meaning Consciousness Theory",
+        "score": 0.7
+      }
+    },
+    {
+      "id": "kuhn-11-6",
+      "section": "11.6",
+      "name": "Beck-Eccles’s quantum processes in the synapse",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-075-beck-eccles-quantum-exocytosis-model",
+        "record_name": "Beck–Eccles quantum exocytosis model",
+        "score": 0.625
+      }
+    },
+    {
+      "id": "kuhn-11-7",
+      "section": "11.7",
+      "name": "Kauffman’s mind mediating possibles to actuals",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-007-maps-of-meaning",
+        "record_name": "Maps of Meaning Consciousness Theory",
+        "score": 0.494
+      }
+    },
+    {
+      "id": "kuhn-11-8",
+      "section": "11.8",
+      "name": "Torday’s cellular and cosmic consciousness",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "breadth-neuro-001-cellular-basis-consciousness",
+        "record_name": "Cellular Basis of Consciousness",
+        "score": 0.722
+      }
+    },
+    {
+      "id": "kuhn-11-9",
+      "section": "11.9",
+      "name": "Smolin’s causal theory of views",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-018-causal-action",
+        "record_name": "Causal theory of action",
+        "score": 0.679
+      }
+    },
+    {
+      "id": "kuhn-11-10",
+      "section": "11.10",
+      "name": "Carr’s quantum theory, psi, mental space",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-017-teleosemantics",
+        "record_name": "Teleosemantics",
+        "score": 0.541
+      }
+    },
+    {
+      "id": "kuhn-11-11",
+      "section": "11.11",
+      "name": "Faggin’s quantum information-based panpsychism",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-feelings-as-information",
+        "record_name": "Feelings-as-Information Account",
+        "score": 0.553
+      }
+    },
+    {
+      "id": "kuhn-11-12",
+      "section": "11.12",
+      "name": "Fisher’s quantum cognition",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-043-saadia-soul-knowledge",
+        "record_name": "Saadia Gaon's rational soul and sources of knowledge",
+        "score": 0.566
+      }
+    },
+    {
+      "id": "kuhn-11-13",
+      "section": "11.13",
+      "name": "Globus’s quantum thermofield brain dynamics",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-076-dissipative-quantum-brain-dynamics-qbd",
+        "record_name": "Dissipative Quantum Brain Dynamics (QBD)",
+        "score": 0.625
+      }
+    },
+    {
+      "id": "kuhn-11-14",
+      "section": "11.14",
+      "name": "Poznanski’s dynamic organicity theory",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-044-dynamic-core-theory",
+        "record_name": "Dynamic Core Theory",
+        "score": 0.618
+      }
+    },
+    {
+      "id": "kuhn-11-15",
+      "section": "11.15",
+      "name": "Quantum consciousness extensions",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-204-gurwitsch-consciousness-field-extension",
+        "record_name": "Gurwitsch consciousness-field extension",
+        "score": 0.732
+      }
+    },
+    {
+      "id": "kuhn-11-16",
+      "section": "11.16",
+      "name": "Rovelli’s relational physics",
+      "entry_type": "named-position",
+      "category": "Quantum theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-065",
+        "record_name": "Samoan vā relational-self framework",
+        "score": 0.571
+      }
+    },
+    {
+      "id": "kuhn-12-1",
+      "section": "12.1",
+      "name": "Critiques of integrated information theory",
+      "entry_type": "named-position",
+      "category": "Integrated information theory",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-028-integrated-information-theory-iit",
+        "record_name": "Integrated Information Theory (IIT)",
+        "score": 0.773
+      }
+    },
+    {
+      "id": "kuhn-12-2",
+      "section": "12.2",
+      "name": "Koch compares integrated information theory with panpsychism",
+      "entry_type": "named-position",
+      "category": "Integrated information theory",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-028-integrated-information-theory-iit",
+        "record_name": "Integrated Information Theory (IIT)",
+        "score": 0.688
+      }
+    },
+    {
+      "id": "kuhn-13-1",
+      "section": "13.1",
+      "name": "Micropsychism",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-021-cosmopsychism",
+        "record_name": "Cosmopsychism",
+        "score": 0.769
+      }
+    },
+    {
+      "id": "kuhn-13-2",
+      "section": "13.2",
+      "name": "Panprotopsychism",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "seed-020-panprotopsychism",
+        "record_name": "Panprotopsychism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-13-3",
+      "section": "13.3",
+      "name": "Cosmopsychism",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "seed-021-cosmopsychism",
+        "record_name": "Cosmopsychism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-13-4",
+      "section": "13.4",
+      "name": "Qualia force",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-177-qualia-and-phenomenal-character",
+        "record_name": "Qualia and phenomenal character",
+        "score": 0.512
+      }
+    },
+    {
+      "id": "kuhn-13-5",
+      "section": "13.5",
+      "name": "Qualia space",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-evaluative-space-model",
+        "record_name": "Evaluative Space Model",
+        "score": 0.529
+      }
+    },
+    {
+      "id": "kuhn-13-6",
+      "section": "13.6",
+      "name": "Chalmers’s panpsychism",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-003-combination-problem",
+        "record_name": "Combination problem for panpsychism",
+        "score": 0.607
+      }
+    },
+    {
+      "id": "kuhn-13-7",
+      "section": "13.7",
+      "name": "Strawson’s panpsychism",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-020-panprotopsychism",
+        "record_name": "Panprotopsychism",
+        "score": 0.595
+      }
+    },
+    {
+      "id": "kuhn-13-8",
+      "section": "13.8",
+      "name": "Goff’s panpsychism",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-019-panpsychism",
+        "record_name": "Panpsychism",
+        "score": 0.682
+      }
+    },
+    {
+      "id": "kuhn-13-9",
+      "section": "13.9",
+      "name": "A. Harris’s panpsychism as fundamental field",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-040-al-farabi-faculty-psychology",
+        "record_name": "Al-Fārābī's faculty psychology and active intellect",
+        "score": 0.495
+      }
+    },
+    {
+      "id": "kuhn-13-10",
+      "section": "13.10",
+      "name": "Sheldrake’s self-organizing systems at all levels of complexity",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-dynamic-systems-development",
+        "record_name": "Dynamic Systems Approach to Cognitive Development",
+        "score": 0.465
+      }
+    },
+    {
+      "id": "kuhn-13-11",
+      "section": "13.11",
+      "name": "Wallace’s panpsychism inside physics",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-003-combination-problem",
+        "record_name": "Combination problem for panpsychism",
+        "score": 0.485
+      }
+    },
+    {
+      "id": "kuhn-13-12",
+      "section": "13.12",
+      "name": "Whitehead’s process theory",
+      "entry_type": "named-position",
+      "category": "Panpsychisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-031-consciousness-only-process-model",
+        "record_name": "Consciousness-Only Process Model",
+        "score": 0.621
+      }
+    },
+    {
+      "id": "kuhn-14-1",
+      "section": "14.1",
+      "name": "Russellian Monism",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "seed-018-russellian-monism",
+        "record_name": "Russellian monism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-14-2",
+      "section": "14.2",
+      "name": "Davidson’s anomalous monism",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-003-anomalous-monism",
+        "record_name": "Anomalous monism",
+        "score": 0.654
+      }
+    },
+    {
+      "id": "kuhn-14-3",
+      "section": "14.3",
+      "name": "Velmans’s reflexive monism",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "gap-breadth-026-reflexive-monism",
+        "record_name": "Velmans's reflexive monism",
+        "score": 0.98
+      }
+    },
+    {
+      "id": "kuhn-14-4",
+      "section": "14.4",
+      "name": "Strawson’s realistic monism and real materialism",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-009-radin-s-challenge-to-materialism",
+        "record_name": "Radin’s Challenge to Materialism",
+        "score": 0.538
+      }
+    },
+    {
+      "id": "kuhn-14-5",
+      "section": "14.5",
+      "name": "Polkinghorne’s dual-aspect monism",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-017-dual-aspect-monism",
+        "record_name": "Dual-aspect monism",
+        "score": 0.606
+      }
+    },
+    {
+      "id": "kuhn-14-6",
+      "section": "14.6",
+      "name": "Teilhard de Cardin’s evolving consciousness",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-001-cellular-basis-consciousness",
+        "record_name": "Cellular Basis of Consciousness",
+        "score": 0.658
+      }
+    },
+    {
+      "id": "kuhn-14-7",
+      "section": "14.7",
+      "name": "Atmanspacher’s dual-aspect monism",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-017-dual-aspect-monism",
+        "record_name": "Dual-aspect monism",
+        "score": 0.606
+      }
+    },
+    {
+      "id": "kuhn-14-8",
+      "section": "14.8",
+      "name": "Ramachandran’s new physics and neuroscience",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-002",
+        "record_name": "Māṇḍūkya four-state analysis and turīya",
+        "score": 0.469
+      }
+    },
+    {
+      "id": "kuhn-14-9",
+      "section": "14.9",
+      "name": "Tegmark’s state of matter",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-002",
+        "record_name": "Māṇḍūkya four-state analysis and turīya",
+        "score": 0.596
+      }
+    },
+    {
+      "id": "kuhn-14-10",
+      "section": "14.10",
+      "name": "Qualia Research Institute’s state-space, qualia formalism, valence",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-145-higher-order-state-space-account-hoss",
+        "record_name": "Higher-Order State Space account (HOSS)",
+        "score": 0.44
+      }
+    },
+    {
+      "id": "kuhn-14-11",
+      "section": "14.11",
+      "name": "Bentley Hart",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-036-multicomponent-working-memory",
+        "record_name": "Multicomponent Model of Working Memory",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-14-12",
+      "section": "14.12",
+      "name": "Leslie’s consciousness inside an infinite mind",
+      "entry_type": "named-position",
+      "category": "Monisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-002-dops-s-consciousness-research-and-theory",
+        "record_name": "DOPS’s Consciousness Research and Theory",
+        "score": 0.595
+      }
+    },
+    {
+      "id": "kuhn-15-1",
+      "section": "15.1",
+      "name": "Property dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-013-interactionist-dualism",
+        "record_name": "Interactionist dualism",
+        "score": 0.579
+      }
+    },
+    {
+      "id": "kuhn-15-2",
+      "section": "15.2",
+      "name": "Historical and traditional dualisms",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-045-structural-turn-functionalism",
+        "record_name": "Structural Turn in Computational Functionalism",
+        "score": 0.575
+      }
+    },
+    {
+      "id": "kuhn-15-3",
+      "section": "15.3",
+      "name": "Swinburne’s substance dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-012-cartesian-substance-dualism",
+        "record_name": "Cartesian substance dualism",
+        "score": 0.764
+      }
+    },
+    {
+      "id": "kuhn-15-4",
+      "section": "15.4",
+      "name": "Composite dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-012-cartesian-substance-dualism",
+        "record_name": "Cartesian substance dualism",
+        "score": 0.591
+      }
+    },
+    {
+      "id": "kuhn-15-5",
+      "section": "15.5",
+      "name": "Stump’s Thomistic dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-013-interactionist-dualism",
+        "record_name": "Interactionist dualism",
+        "score": 0.609
+      }
+    },
+    {
+      "id": "kuhn-15-6",
+      "section": "15.6",
+      "name": "Feser’s neo-Thomistic, neo-Aristotelian, common-sense dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-029-aristotle-faculty-psychology",
+        "record_name": "Aristotelian faculty psychology in De Anima",
+        "score": 0.455
+      }
+    },
+    {
+      "id": "kuhn-15-7",
+      "section": "15.7",
+      "name": "Moreland’s Christian soul",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-064",
+        "record_name": "Strathern's Melanesian dividual-person model",
+        "score": 0.558
+      }
+    },
+    {
+      "id": "kuhn-15-8",
+      "section": "15.8",
+      "name": "Interactive dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-013-interactionist-dualism",
+        "record_name": "Interactionist dualism",
+        "score": 0.829
+      }
+    },
+    {
+      "id": "kuhn-15-9",
+      "section": "15.9",
+      "name": "Emergent dualism",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-006-weak-emergentism",
+        "record_name": "Weak emergentism",
+        "score": 0.688
+      }
+    },
+    {
+      "id": "kuhn-15-10",
+      "section": "15.10",
+      "name": "Kind",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-036-nada",
+        "record_name": "Nondual Awareness Dimensional Assessment",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-15-11",
+      "section": "15.11",
+      "name": "Soul in the Hebrew Bible and Jewish philosophy",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-011",
+        "record_name": "Sikh haumai–sahaj transformation of mind",
+        "score": 0.543
+      }
+    },
+    {
+      "id": "kuhn-15-12",
+      "section": "15.12",
+      "name": "Soul in the New Testament and Christian philosophy",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-011",
+        "record_name": "Sikh haumai–sahaj transformation of mind",
+        "score": 0.518
+      }
+    },
+    {
+      "id": "kuhn-15-13",
+      "section": "15.13",
+      "name": "Soul in Islamic philosophy",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-011",
+        "record_name": "Sikh haumai–sahaj transformation of mind",
+        "score": 0.557
+      }
+    },
+    {
+      "id": "kuhn-15-14",
+      "section": "15.14",
+      "name": "God as the supplier of souls",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-032",
+        "record_name": "Abū Bakr al-Rāzī's three-soul moral psychology",
+        "score": 0.565
+      }
+    },
+    {
+      "id": "kuhn-15-15",
+      "section": "15.15",
+      "name": "Personal and cosmic consciousness in Indian philosophy",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-173-creature-state-and-content-consciousness-distinction",
+        "record_name": "Creature, state, and content consciousness distinction",
+        "score": 0.566
+      }
+    },
+    {
+      "id": "kuhn-15-16",
+      "section": "15.16",
+      "name": "Soul in indigenous religions",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-hist-016-watts-place-thought-agency",
+        "record_name": "Anishinaabe Place-Thought and human/nonhuman agency in Vanessa Watts",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-15-17",
+      "section": "15.17",
+      "name": "Realms of the soul",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "cross-breadth-031",
+        "record_name": "Al-Kindī's tripartite immaterial-soul psychology",
+        "score": 0.684
+      }
+    },
+    {
+      "id": "kuhn-15-18",
+      "section": "15.18",
+      "name": "Theosophy’s eclectic soul and consciousness",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-048-ny-declaration",
+        "record_name": "New York Declaration on Animal Consciousness",
+        "score": 0.65
+      }
+    },
+    {
+      "id": "kuhn-15-19",
+      "section": "15.19",
+      "name": "Steiner’s esoteric soul and consciousness",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "kac-006-hiller-s-eternal-discarnate-consciousness",
+        "record_name": "Hiller’s Eternal Discarnate Consciousness",
+        "score": 0.675
+      }
+    },
+    {
+      "id": "kuhn-15-20",
+      "section": "15.20",
+      "name": "Nonphysical component in the human mind",
+      "entry_type": "named-position",
+      "category": "Dualisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-005",
+        "record_name": "Theravāda bhavaṅga continuity model",
+        "score": 0.517
+      }
+    },
+    {
+      "id": "kuhn-16-1",
+      "section": "16.1",
+      "name": "Indian cosmic consciousness",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-172-access-consciousness",
+        "record_name": "Access consciousness",
+        "score": 0.723
+      }
+    },
+    {
+      "id": "kuhn-16-2",
+      "section": "16.2",
+      "name": "Buddhism’s empty, illusory phenomenal consciousness",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-010-illusionism-about-phenomenal-consciousness",
+        "record_name": "Illusionism about phenomenal consciousness",
+        "score": 0.681
+      }
+    },
+    {
+      "id": "kuhn-16-3",
+      "section": "16.3",
+      "name": "Dao De Jing’s constant dao",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-016",
+        "record_name": "Laozian empty and still heart-mind",
+        "score": 0.51
+      }
+    },
+    {
+      "id": "kuhn-16-4",
+      "section": "16.4",
+      "name": "Kastrup’s analytic idealism",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-023-analytic-idealism",
+        "record_name": "Analytic idealism",
+        "score": 0.688
+      }
+    },
+    {
+      "id": "kuhn-16-5",
+      "section": "16.5",
+      "name": "Hoffman’s conscious realism: the case against reality",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-012-modular-constitutive-conscious-vision",
+        "record_name": "Modular-Constitutive Model of Conscious Vision",
+        "score": 0.554
+      }
+    },
+    {
+      "id": "kuhn-16-6",
+      "section": "16.6",
+      "name": "McGilchrist’s relational, creative-process idealism",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "frontier-science-002-process-meta-representation",
+        "record_name": "Process Meta-Representation and Qualia-Space Hypothesis",
+        "score": 0.535
+      }
+    },
+    {
+      "id": "kuhn-16-7",
+      "section": "16.7",
+      "name": "Chopra’s only the whole is conscious",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-039-nonseparability-foundation",
+        "record_name": "Physical Non-Separability Foundation of Consciousness",
+        "score": 0.587
+      }
+    },
+    {
+      "id": "kuhn-16-8",
+      "section": "16.8",
+      "name": "How consciousness becomes the physical universe",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-007-maps-of-meaning",
+        "record_name": "Maps of Meaning Consciousness Theory",
+        "score": 0.563
+      }
+    },
+    {
+      "id": "kuhn-16-9",
+      "section": "16.9",
+      "name": "Goswami’s self-aware universe",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "candidate-partial-awareness-hypothesis",
+        "record_name": "Partial Awareness Hypothesis",
+        "score": 0.533
+      }
+    },
+    {
+      "id": "kuhn-16-10",
+      "section": "16.10",
+      "name": "Spira’s non-duality",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-013-interactionist-dualism",
+        "record_name": "Interactionist dualism",
+        "score": 0.55
+      }
+    },
+    {
+      "id": "kuhn-16-11",
+      "section": "16.11",
+      "name": "Nader’s all there is",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "emerging-breadth-027-universality-criterion",
+        "record_name": "Universality Criterion for Consciousness Theories",
+        "score": 0.578
+      }
+    },
+    {
+      "id": "kuhn-16-12",
+      "section": "16.12",
+      "name": "Ward’s personal idealism: souls as embodied agents created by",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "gap-breadth-039-fanon-epidermal-schema",
+        "record_name": "Fanon's epidermal racial schema and embodied subjectivity",
+        "score": 0.517
+      }
+    },
+    {
+      "id": "kuhn-16-13",
+      "section": "16.13",
+      "name": "Albahari’s perennial idealism",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-007",
+        "record_name": "Pudgalavāda person theory",
+        "score": 0.583
+      }
+    },
+    {
+      "id": "kuhn-16-14",
+      "section": "16.14",
+      "name": "Meijer’s universal knowledge field",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "cross-breadth-004",
+        "record_name": "Bhagavad Gītā field–knower distinction",
+        "score": 0.516
+      }
+    },
+    {
+      "id": "kuhn-16-15",
+      "section": "16.15",
+      "name": "Idealism’s imaginative expressions",
+      "entry_type": "named-position",
+      "category": "Idealisms",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-009-eliminative-materialism",
+        "record_name": "Eliminative materialism",
+        "score": 0.536
+      }
+    },
+    {
+      "id": "kuhn-17-1",
+      "section": "17.1",
+      "name": "Bergson’s multiplicity, duration, perception, memory",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-110-bergsonian-duration-and-memory",
+        "record_name": "Bergsonian duration and memory",
+        "score": 0.667
+      }
+    },
+    {
+      "id": "kuhn-17-2",
+      "section": "17.2",
+      "name": "Jung’s collective unconscious and synchronicity",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-008-jung-s-collective-unconscious-and-synchronicity",
+        "record_name": "Jung’s Collective Unconscious and Synchronicity",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-3",
+      "section": "17.3",
+      "name": "Radin’s challenge to materialism",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-009-radin-s-challenge-to-materialism",
+        "record_name": "Radin’s Challenge to Materialism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-4",
+      "section": "17.4",
+      "name": "Tart’s emergent interactionism",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-013-tart-s-emergent-interactionism",
+        "record_name": "Tart’s Emergent Interactionism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-5",
+      "section": "17.5",
+      "name": "Josephson’s psi-informed models",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-007-josephson-s-psi-informed-models",
+        "record_name": "Josephson’s Psi-Informed Models",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-6",
+      "section": "17.6",
+      "name": "Wilber’s Integral Theory",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-014-wilber-s-integral-theory",
+        "record_name": "Wilber’s Integral Theory",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-7",
+      "section": "17.7",
+      "name": "Combs’s chaotic attractor and autopoietic systems",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-001-combs-s-chaotic-attractor-and-autopoietic-systems",
+        "record_name": "Combs’s Chaotic Attractor and Autopoietic Systems",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-8",
+      "section": "17.8",
+      "name": "Schooler’s resonance theory and subjective time",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-063-general-resonance-theory-grt",
+        "record_name": "General Resonance Theory (GRT)",
+        "score": 0.568
+      }
+    },
+    {
+      "id": "kuhn-17-9",
+      "section": "17.9",
+      "name": "Sheldrake’s morphic fields",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-010-sheldrake-s-morphic-fields",
+        "record_name": "Sheldrake’s Morphic Fields",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-10",
+      "section": "17.10",
+      "name": "Grinberg’s syntergic/neuronal field theory",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-004-grinberg-s-syntergic-neuronal-field-theory",
+        "record_name": "Grinberg’s Syntergic/Neuronal Field Theory",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-11",
+      "section": "17.11",
+      "name": "Graboi’s three-aspect model",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-003-graboi-s-three-aspect-model",
+        "record_name": "Graboi’s Three-Aspect Model",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-12",
+      "section": "17.12",
+      "name": "Near death experiences, survival, past lives",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-021-insect-subjective-experience",
+        "record_name": "Insect Midbrain-Analogue Hypothesis of Subjective Experience",
+        "score": 0.519
+      }
+    },
+    {
+      "id": "kuhn-17-13",
+      "section": "17.13",
+      "name": "DOPS’s consciousness research and theory",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-002-dops-s-consciousness-research-and-theory",
+        "record_name": "DOPS’s Consciousness Research and Theory",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-14",
+      "section": "17.14",
+      "name": "Bitbol",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "states-clinical-015-modified-brice",
+        "record_name": "Modified Brice Interview",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "kuhn-17-15",
+      "section": "17.15",
+      "name": "Campbell’s theory of everything",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-012-campbell-s-theory-of-everything",
+        "record_name": "T. Campbell’s Theory of Everything",
+        "score": 0.944
+      }
+    },
+    {
+      "id": "kuhn-17-16",
+      "section": "17.16",
+      "name": "Hiller’s eternal discarnate consciousness",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-006-hiller-s-eternal-discarnate-consciousness",
+        "record_name": "Hiller’s Eternal Discarnate Consciousness",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-17",
+      "section": "17.17",
+      "name": "Harp’s universal or God consciousness",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-005-harp-s-universal-or-god-consciousness",
+        "record_name": "Harp’s Universal or God Consciousness",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-18",
+      "section": "17.18",
+      "name": "Swimme’s cosmogenesis",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-011-swimme-s-cosmogenesis",
+        "record_name": "Swimme’s Cosmogenesis",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-17-19",
+      "section": "17.19",
+      "name": "Langan’s cognitive-theoretic model of the universe",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "breadth-neuro-013-neurocognitive-dreaming",
+        "record_name": "Neurocognitive Theory of Dreaming",
+        "score": 0.537
+      }
+    },
+    {
+      "id": "kuhn-17-20",
+      "section": "17.20",
+      "name": "Meditation and the brain",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-038-fame-in-the-brain",
+        "record_name": "Fame in the Brain",
+        "score": 0.683
+      }
+    },
+    {
+      "id": "kuhn-17-21",
+      "section": "17.21",
+      "name": "Psychedelic theories of consciousness",
+      "entry_type": "named-position",
+      "category": "Anomalous and altered-state theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "seed-171-phenomenal-consciousness",
+        "record_name": "Phenomenal consciousness",
+        "score": 0.776
+      }
+    },
+    {
+      "id": "kuhn-18-1",
+      "section": "18.1",
+      "name": "Nagel’s mind and cosmos",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-016-nagel-s-mind-and-cosmos",
+        "record_name": "Nagel’s Mind and Cosmos",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-18-2",
+      "section": "18.2",
+      "name": "McGinn’s ultimate mystery (mysterianism)",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "not-matched",
+        "record_id": "seed-009-eliminative-materialism",
+        "record_name": "Eliminative materialism",
+        "score": 0.533
+      }
+    },
+    {
+      "id": "kuhn-18-3",
+      "section": "18.3",
+      "name": "S. Harris’s mystery of consciousness",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-022-s-harris-s-mystery-of-consciousness",
+        "record_name": "S. Harris’s Mystery of Consciousness",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-18-4",
+      "section": "18.4",
+      "name": "Eagleman’s possibilianism",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-017-eagleman-s-possibilianism",
+        "record_name": "Eagleman’s Possibilianism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-18-5",
+      "section": "18.5",
+      "name": "Tallis’s anti-neuromania skepticism",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-018-tallis-s-anti-neuromania-skepticism",
+        "record_name": "Tallis’s Anti-Neuromania Skepticism",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-18-6",
+      "section": "18.6",
+      "name": "Nagasawa’s mind-body problem in an infinitely decomposable",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "possible-match",
+        "record_id": "kac-019-nagasawa-s-mind-body-problem-in-an-infinitely-decomposable-universe",
+        "record_name": "Nagasawa’s Mind-Body Problem in an Infinitely Decomposable Universe",
+        "score": 0.877
+      }
+    },
+    {
+      "id": "kuhn-18-7",
+      "section": "18.7",
+      "name": "Musser’s “is it really so hard?”",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-020-musser-s-is-it-really-so-hard",
+        "record_name": "Musser’s “Is It Really So Hard?”",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "kuhn-18-8",
+      "section": "18.8",
+      "name": "Davies’s consciousness in the cosmos",
+      "entry_type": "named-position",
+      "category": "Challenge theories",
+      "subcategory": null,
+      "source": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "catalog_match": {
+        "status": "likely-present",
+        "record_id": "kac-021-davies-s-consciousness-in-the-cosmos",
+        "record_name": "Davies’s Consciousness in the Cosmos",
+        "score": 1.0
+      }
+    }
+  ]
+}

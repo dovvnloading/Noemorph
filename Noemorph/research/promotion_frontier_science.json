@@ -1,0 +1,432 @@
+{
+  "collection": {
+    "title": "Promotion-gated frontier consciousness science candidates",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "base_catalog": "data/catalog.json plus all supplements and profile enrichments registered on 2026-08-30",
+    "screened_candidate_count": 4,
+    "record_count": 4,
+    "backlog_count": 0,
+    "promotion_rule": "A candidate is promotion-ready only when it is absent as an identity from the 577-record merged catalog, has at least two distinct authoritative scholarly works rather than two manifestations of one work, uses catalog-allowed kind and verification values, and carries a full claim, boundary, evidence, and open-question profile.",
+    "identity_check": "Names, aliases, summaries, keywords, and adjacent families in the merged catalog were reviewed. Exact candidate identities were absent. Near-neighbor distinctions are recorded per row and must survive any later editorial compression.",
+    "citation_policy": "Defining DOI records are paired with distinct theoretical precursors, methodological treatments, empirical explanandum sources, or critical analyses. A second locator establishes context or ancestry only where explicitly stated; it is never described as independent empirical confirmation.",
+    "kind_allowlist": [
+      "Scientific theory",
+      "Model or framework",
+      "Clinical / state model",
+      "Theory of mind / social cognition",
+      "Phenomenological construct",
+      "Philosophical position",
+      "Argument / challenge",
+      "Historical tradition"
+    ],
+    "verification_allowlist": [
+      "doi-resolved",
+      "locator-recorded",
+      "human-verified",
+      "pending-metadata-review"
+    ],
+    "registration_policy": "Review artifact only. Do not add this file to catalog.json automatically. Re-run the catalog collision audit immediately before promotion because other research packets may have changed the merged corpus."
+  },
+  "records": [
+    {
+      "id": "frontier-science-001-multiple-generator-hypothesis",
+      "name": "Multiple Generator Hypothesis",
+      "aliases": [
+        "MGH",
+        "Multiple Generator Hypothesis of Consciousness"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Neural mechanisms and theory pluralism",
+      "tradition": "Pluralistic neural-correlate research",
+      "status": "peer-reviewed theoretical hypothesis · no direct empirical test",
+      "status_note": "MGH is a live pluralistic hypothesis about human consciousness, not a finding that multiple generators exist and not a license to count all rival theories as true.",
+      "summary": "The Multiple Generator Hypothesis rejects the default assumption that only one consciousness principle or one neural generator can be correct. It distinguishes a principle, meaning a way conscious experience can be generated, from a generator, meaning a physical implementation specified by what, where, and how. Its minimal commitment is that more than one independently sufficient principle or more than one independently sufficient neural generator may operate in the human brain.",
+      "proponents": [
+        "Asger Kirkeby-Hinrup",
+        "Sascha B. Fink",
+        "Morten S. Overgaard"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Pluralistic hypothesis about the number of independently sufficient principles and physical generators of conscious experience in humans.",
+      "keywords": [
+        "multiple generators",
+        "principle-generator distinction",
+        "neural correlates of consciousness",
+        "pluralism",
+        "independent sufficiency",
+        "theory comparison"
+      ],
+      "boundary_note": "MGH is not Joint Determinant Theory: JDT proposes that multiple circuit determinants jointly shape dimensions or aspects of consciousness, whereas MGH permits more than one principle or physical generator to be independently sufficient. It is also not generic multiple realization across possible substrates, theory integration, or the construct-first methodology. MGH concerns what may actually generate consciousness in human brains and does not assert that every extant theory identifies a real generator.",
+      "claim_scope": {
+        "target": "The possible multiplicity of independently sufficient consciousness-generating principles and their neural implementations.",
+        "level": "Conceptual and systems-neural hypothesis about NCC sufficiency and theory pluralism.",
+        "does_not_establish": "That any proposed generator has been isolated, that rival evidence is genuinely theory-specific, that all theories are compatible, or that consciousness is multiply realized outside human brains."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The defining peer-reviewed paper specifies a two-dimensional possibility space separating the number of principles from the number of generators and derives methodological consequences.",
+          "A distinct peer-reviewed methodology paper develops the surrounding objection to winner-take-all theory comparison and explicitly presents MGH as one alternative.",
+          "A later critical preprint directly analyzes MGH-style pluralism and identifies constraints needed to keep multiple NCC kinds scientifically informative."
+        ],
+        "limitations": [
+          "Apparent empirical support for competing theories is motivation for MGH, not evidence that the purported NCCs are independently sufficient generators.",
+          "No lesion, perturbation, anesthesia, developmental, or comparative design has yet isolated two generator candidates while showing that either one alone is sufficient for experience.",
+          "The unity or natural-kind status of consciousness becomes difficult to explain if proposed principles share no relevant mechanism."
+        ],
+        "independence": "The defining and methodology papers share Kirkeby-Hinrup and Overgaard and belong to one research program. The Kob and Marvan preprint is a distinct critical treatment, but it is not peer-reviewed empirical validation."
+      },
+      "open_questions": [
+        "What operational criterion distinguishes an independently sufficient generator from a precursor, enabling condition, content mechanism, report process, or consequence of consciousness?",
+        "Can selective perturbation demonstrate two generator candidates such that conscious experience persists when either candidate operates without the other?",
+        "How many principles can be admitted before pluralism loses explanatory unity or becomes post hoc?",
+        "Which observations would favor MGH over a single dynamically reconfiguring generator?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The multiple generator hypothesis of consciousness",
+          "authors": "Asger Kirkeby-Hinrup; Sascha B. Fink; Morten S. Overgaard",
+          "year": 2025,
+          "venue": "Neuroscience of Consciousness",
+          "url": "https://doi.org/10.1093/nc/niaf035",
+          "doi": "10.1093/nc/niaf035",
+          "authority": "primary-defining-hypothesis",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Methodological issues in consciousness research: theory comparison, the role of empirical evidence, and a replication crisis",
+          "authors": "Asger Kirkeby-Hinrup; Andreas Stephens; Aron Balogh Sjöstrand; Morten Overgaard",
+          "year": 2025,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2025.1633907",
+          "doi": "10.3389/fpsyg.2025.1633907",
+          "authority": "distinct-methodological-context",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Pluralism within limits: How to make the idea of multiple NCC kinds useful",
+          "authors": "Lukas Kob; Tomáš Marvan",
+          "year": 2026,
+          "venue": "PsyArXiv",
+          "url": "https://doi.org/10.31234/osf.io/9mx8r_v2",
+          "doi": "10.31234/osf.io/9mx8r_v2",
+          "authority": "independent-critical-preprint",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "frontier-science-002-process-meta-representation",
+      "name": "Process Meta-Representation and Qualia-Space Hypothesis",
+      "aliases": [
+        "Meta-representations as representations of processes",
+        "Qualia as Meta-representation Hypothesis",
+        "Process-level meta-representation framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Metacognition and computational consciousness",
+      "tradition": "Higher-order representation / deep-learning modeling",
+      "status": "peer-reviewed computational proof-of-concept · biological hypothesis untested",
+      "status_note": "The artificial-network result demonstrates that a meta-network can classify properties of trained networks from their weights. The proposed biological process representation and qualia space remain hypotheses.",
+      "summary": "Kanai, Takatsuki, and Fujisawa operationalize a meta-representation as a representation of the process that transforms inputs into first-order representations, rather than as another transformed state or a confidence estimate. Their meta-autoencoders embed the weight structures of first-order visual and auditory networks into a common space. They then hypothesize that a biological system could represent input-output transformations in a dedicated relational qualia space whose geometry supports comparison and report of qualitative experience.",
+      "proponents": [
+        "Ryota Kanai",
+        "Ryota Takatsuki",
+        "Ippei Fujisawa"
+      ],
+      "era": "2024–present",
+      "year": 2025,
+      "scope": "Computational operationalization of process-level meta-representation and a linked hypothesis about relational representation of qualitative character.",
+      "keywords": [
+        "meta-representation",
+        "process representation",
+        "meta-network",
+        "qualia space",
+        "higher-order theory",
+        "connectivity weights",
+        "deep learning"
+      ],
+      "boundary_note": "This proposal is not generic HOT, Radical Plasticity, SOMA, or Bayesian confidence estimation. Its differentiating object is a transformation process, represented through a meta-network embedding of another network's parameters or input-output relation. It extends earlier computational metarepresentation work but adds a weight-embedding implementation and the named qualia-space hypothesis. It must also remain distinct from IIT: the authors discuss a structural analogy but do not compute integrated information or adopt IIT's identity claim.",
+      "claim_scope": {
+        "target": "How a higher-order system might represent the qualitative structure of first-order computational processes and compare them relationally.",
+        "level": "Artificial-neural-network proof of concept plus a speculative biological and phenomenal hypothesis.",
+        "does_not_establish": "That the brain contains meta-networks, that network-weight similarity is phenomenal similarity, that meta-representation is necessary or sufficient for consciousness, or that the model explains why qualia exist."
+      },
+      "evidence_profile": {
+        "basis": [
+          "In the defining study, meta-autoencoder embeddings separated first-order networks trained on visual versus auditory datasets and retained above-chance information about specific training categories.",
+          "Earlier computational work independently established second-order networks that receive first-order inputs and outputs as a concrete model of metarepresentation, providing a distinct technical precursor.",
+          "The Radical Plasticity Thesis supplies the broader learned-redescription lineage that the 2025 proposal explicitly extends."
+        ],
+        "limitations": [
+          "The proof of concept uses small artificial autoencoders and model weights, not biological neural recordings or subjective reports.",
+          "Successful modality classification may reflect ordinary statistical differences between training domains rather than anything constitutive of qualitative experience.",
+          "Distant biological regions do not directly read one another's complete synaptic weight matrices; the proposed input-output alternative remains unspecified and untested in vivo."
+        ],
+        "independence": "The 2007 and 2011 sources are genuinely distinct works from another research group and establish conceptual ancestry, not validation of the 2025 meta-autoencoder or qualia-space claims. No independent replication of the defining computational result or biological hypothesis was located."
+      },
+      "open_questions": [
+        "Can the reported embeddings replicate across architectures, random seeds, modalities, task families, and controls matched for weight statistics?",
+        "What biologically plausible circuit could learn and update a representation of another circuit's transformation without direct access to its full weights?",
+        "Does process-space geometry predict human similarity judgments or confusions among sensory qualities beyond stimulus and report structure?",
+        "What result would distinguish a consciousness-relevant meta-representation from ordinary system identification or mechanistic interpretability?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Meta-representations as representations of processes",
+          "authors": "Ryota Kanai; Ryota Takatsuki; Ippei Fujisawa",
+          "year": 2025,
+          "venue": "Neuroscience of Consciousness",
+          "url": "https://doi.org/10.1093/nc/niaf038",
+          "doi": "10.1093/nc/niaf038",
+          "authority": "primary-defining-framework-and-model",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Consciousness and metarepresentation: a computational sketch",
+          "authors": "Axel Cleeremans; Bert Timmermans; Antoine Pasquali",
+          "year": 2007,
+          "venue": "Neural Networks",
+          "url": "https://doi.org/10.1016/j.neunet.2007.09.011",
+          "doi": "10.1016/j.neunet.2007.09.011",
+          "authority": "distinct-computational-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Radical Plasticity Thesis: How the Brain Learns to be Conscious",
+          "authors": "Axel Cleeremans",
+          "year": 2011,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2011.00086",
+          "doi": "10.3389/fpsyg.2011.00086",
+          "authority": "distinct-theoretical-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "frontier-science-003-attentional-modulation-energy",
+      "name": "Attentional Modulation of Energy Theory",
+      "aliases": [
+        "AME theory of consciousness",
+        "Attentional Modulation of Energy",
+        "Marchetti's attention-based theory of consciousness"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Attention, affect, and phenomenal consciousness",
+      "tradition": "Attention-based neurofunctional theory",
+      "status": "peer-reviewed theory exposition · core mechanism not operationally validated",
+      "status_note": "The theory has multiple peer-reviewed expositions and now an explicit AME name, but its organ-of-attention area and relevant energy variable have not been uniquely measured or experimentally validated.",
+      "summary": "AME proposes that attentional activity detects the state of a value-organized self and modulates the energy level of the neural area that supports the current attentional act, termed an area of the organ of attention. This modulation is proposed to generate the phenomenal aspect of consciousness. Qualitative, quantitative, hedonic, temporal, and spatial dimensions of experience are mapped to different features of the modulation; a 2026 extension applies the framework to emotion and self-regulation.",
+      "proponents": [
+        "Giorgio Marchetti"
+      ],
+      "era": "2018–present; explicitly named AME in 2026",
+      "year": 2022,
+      "scope": "Attention-based account of the generation, dimensions, functions, and self-related organization of phenomenal conscious experience.",
+      "keywords": [
+        "attention",
+        "energy modulation",
+        "organ of attention",
+        "phenomenal aspect of consciousness",
+        "sense of self",
+        "emotion",
+        "set-point"
+      ],
+      "boundary_note": "AME is not Attention Schema Theory, AIR, Attention Network Theory, or the claim that attention merely selects or amplifies already-conscious contents. Its distinctive constitutive claim is that attention-driven modulation of an area's energy level generates phenomenality and its dimensions. The proposed organ of attention is a distributed functional neural substrate, not a presently localized anatomical organ. Similarities to Damasio, active inference, and affective-brainstem theories do not make those accounts aliases.",
+      "claim_scope": {
+        "target": "The phenomenal aspect and five dimensions of conscious experience, including their relation to self and emotion.",
+        "level": "Functional-neural and phenomenological theory centered on attentional energy modulation.",
+        "does_not_establish": "A validated physical measure of the relevant energy, a unique anatomical organ of attention, that every form of attention is conscious, or that attention-consciousness dissociations have been resolved."
+      },
+      "evidence_profile": {
+        "basis": [
+          "A 2022 peer-reviewed hypothesis article states the core self-attention-energy mechanism and maps five phenomenal dimensions to proposed modulation features.",
+          "A distinct 2026 peer-reviewed article explicitly names AME, applies it to emotion, and lists predictions, supporting observations, and potential falsifiers.",
+          "An independently authored editorial accurately records the 2022 proposal's self, attention, energy-modulation, and phenomenal-dimension claims."
+        ],
+        "limitations": [
+          "Most cited empirical findings concern attention, arousal, affect, or neural energy in broader senses and do not uniquely test AME's constitutive mapping.",
+          "The terms energy level, organ of attention, modulation amplitude, direction, polarity, and set-point need operational definitions that connect to measurable neural variables.",
+          "Existing demonstrations of attention without awareness and awareness under low focal attention constrain any unrestricted necessity or sufficiency claim."
+        ],
+        "independence": "The 2022 and 2026 sources are single-author developments of the same theory. The 2023 editorial is independently authored but summarizes rather than tests it. No independent theory-specific experiment was located."
+      },
+      "open_questions": [
+        "Which measurable biophysical variable corresponds to the proposed energy level, and at what spatial and temporal scale?",
+        "How can an area of the organ of attention be localized for a given conscious content before observing the predicted modulation?",
+        "Can preregistered dual-task, no-report, or stimulation experiments discriminate AME from attention-as-precision, amplification, or schema accounts?",
+        "Do the proposed modulation parameters quantitatively predict qualitative, hedonic, spatial, temporal, and intensity reports across modalities?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The why of the phenomenal aspect of consciousness: Its main functions and the mechanisms underpinning it",
+          "authors": "Giorgio Marchetti",
+          "year": 2022,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2022.913309",
+          "doi": "10.3389/fpsyg.2022.913309",
+          "authority": "primary-core-theory-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Conscious experience and emotion: an attention-based account",
+          "authors": "Giorgio Marchetti",
+          "year": 2026,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1738304",
+          "doi": "10.3389/fpsyg.2026.1738304",
+          "authority": "primary-named-theory-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Editorial: Insights in consciousness research 2021",
+          "authors": "Narayanan Srinivasan; Luca Simione; Xerxes D. Arsiwalla; Johannes Kleiner; Antonino Raffone",
+          "year": 2023,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2023.1182690",
+          "doi": "10.3389/fpsyg.2023.1182690",
+          "authority": "independent-editorial-summary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "frontier-science-004-pure-awareness-entropy",
+      "name": "Pure-Awareness Entropy Model for Minimal Phenomenal Experience",
+      "aliases": [
+        "Pure awareness, entropy, and the foundation of perception framework",
+        "Active-inference pure-awareness model",
+        "Precision-entropy model of minimal phenomenal experience"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Contemplative states and computational neurophenomenology",
+      "tradition": "Active inference / predictive processing",
+      "status": "peer-reviewed computational framework · in-silico result only · empirical validation pending",
+      "status_note": "The model is a state-specific extension within the active-inference and epistemic-depth research program. Its simulation generates testable synthetic signals but is not evidence that human pure-awareness states use the proposed mechanism.",
+      "summary": "Mago, Chandaria, Miller, and Laukkonen model minimal phenomenal experiences as a redistribution of precision toward lower levels of a hierarchical active-inference system. The proposed shift reduces conceptual content while increasing entropy, while epistemic depth, defined as reflexive sharing of the organism's reality model with itself, preserves awareness of the simplified field. An in-silico model links precision distribution to entropy and produces synthetic EEG predictions for later empirical testing.",
+      "proponents": [
+        "Jonas Mago",
+        "Shamil Chandaria",
+        "Mark Miller",
+        "Ruben Laukkonen"
+      ],
+      "era": "2024 preprint; 2026 peer-reviewed publication",
+      "year": 2026,
+      "scope": "Computational account of low-content or pure-awareness states using hierarchical precision, entropy, and epistemic depth.",
+      "keywords": [
+        "minimal phenomenal experience",
+        "pure awareness",
+        "active inference",
+        "precision weighting",
+        "entropy",
+        "epistemic depth",
+        "synthetic EEG",
+        "meditation"
+      ],
+      "boundary_note": "This is not the existing Minimal Phenomenal Experience and ARAS record, which catalogs the phenomenal construct, questionnaire work, and tonic-alertness/ascending-reticular proposal. It is a later active-inference mechanism for a subset of MPEs. It is also not Beautiful Loop Theory as a whole: it imports epistemic depth from BLT but adds a state-specific precision redistribution, an entropy claim, and an in-silico EEG model. It differs from the Entropic Brain Hypothesis, whose primary target is high-content psychedelic and other primary states rather than low-content pure awareness.",
+      "claim_scope": {
+        "target": "How minimal phenomenal or pure-awareness experiences could combine reduced conceptual content, preserved reflexive knowing, and increased neural entropy.",
+        "level": "Hierarchical active-inference model, computational neurophenomenology, and synthetic electrophysiology.",
+        "does_not_establish": "That all MPE reports refer to one state, that reduced conceptual content always increases neural entropy, that epistemic depth is necessary for awareness, or that simulated EEG patterns occur in human practitioners."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The defining 2026 paper gives an explicit precision-distribution model, an in-silico entropy analysis, and synthetic EEG outputs that make the proposal empirically addressable.",
+          "Beautiful Loop Theory is a distinct peer-reviewed source for the epistemic-depth construct used to explain preserved knowing when ordinary contents are attenuated.",
+          "The earlier many-to-(n)one review independently develops the predictive-processing claim that deconstructive meditation reduces temporally deep and abstract predictions toward non-dual or pure awareness.",
+          "The MPE-92M study provides a distinct empirical phenomenology source for the target construct, not for the active-inference mechanism."
+        ],
+        "limitations": [
+          "The central precision-entropy result is demonstrated in a synthetic model rather than concurrent first-person and neural data from verified MPE episodes.",
+          "Entropy and complexity estimates depend on signal, preprocessing, temporal scale, spatial scale, and estimator; low phenomenal content need not map monotonically to any one measure.",
+          "Authors and concepts overlap substantially with Beautiful Loop Theory and the many-to-(n)one program, so these citations are theoretical lineage rather than independent confirmation."
+        ],
+        "independence": "Gamma and Metzinger's questionnaire work independently helps define the explanandum. The mechanistic sources overlap through Laukkonen and Chandaria, and no external group has yet validated the precision, entropy, or epistemic-depth predictions together."
+      },
+      "open_questions": [
+        "Can prospective experience sampling identify MPE episodes independently of the neural measures used to test the model?",
+        "Which entropy or complexity estimators and frequency ranges correspond to the simulated prediction, and does the direction survive multiscale analysis?",
+        "What observation separates low-level precision redistribution from reduced arousal, sensory attenuation, absorption, nondual awareness, or report compression?",
+        "Can epistemic depth be measured without treating verbal confidence or retrospective report as the awareness mechanism itself?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Pure awareness, entropy, and the foundation of perception",
+          "authors": "Jonas Mago; Shamil Chandaria; Mark Miller; Ruben Laukkonen",
+          "year": 2026,
+          "venue": "Neurocomputing",
+          "url": "https://doi.org/10.1016/j.neucom.2026.133443",
+          "doi": "10.1016/j.neucom.2026.133443",
+          "authority": "primary-defining-model-and-simulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A beautiful loop: An active inference theory of consciousness",
+          "authors": "Ruben Laukkonen; Karl Friston; Shamil Chandaria",
+          "year": 2025,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "url": "https://doi.org/10.1016/j.neubiorev.2025.106296",
+          "doi": "10.1016/j.neubiorev.2025.106296",
+          "authority": "distinct-epistemic-depth-theory-source",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "From many to (n)one: Meditation and the plasticity of the predictive mind",
+          "authors": "Ruben E. Laukkonen; Heleen A. Slagter",
+          "year": 2021,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "url": "https://doi.org/10.1016/j.neubiorev.2021.06.021",
+          "doi": "10.1016/j.neubiorev.2021.06.021",
+          "authority": "distinct-predictive-meditation-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Minimal Phenomenal Experience questionnaire (MPE-92M): Towards a phenomenological profile of pure awareness experiences in meditators",
+          "authors": "Alex Gamma; Thomas Metzinger",
+          "year": 2021,
+          "venue": "PLOS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0253694",
+          "doi": "10.1371/journal.pone.0253694",
+          "authority": "independent-empirical-explanandum",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    }
+  ],
+  "backlog": []
+}

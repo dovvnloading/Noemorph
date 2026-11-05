@@ -1,0 +1,235 @@
+{
+  "source_batch": "proposals_crosscultural.json",
+  "generated_at": "2026-08-30",
+  "status": "ready-for-catalog-conversion-not-inserted",
+  "count": 8,
+  "gate": {
+    "minimum_exact_locators": 2,
+    "allowed_kinds": [
+      "Scientific theory",
+      "Model or framework",
+      "Clinical / state model",
+      "Theory of mind / social cognition",
+      "Phenomenological construct",
+      "Philosophical position",
+      "Argument / challenge",
+      "Historical tradition"
+    ],
+    "requirements": [
+      "At least two exact primary, authoritative, or scholarly locators",
+      "Clear differentiation from existing catalog records",
+      "Explicit cultural and non-equivalence boundary",
+      "No unresolved translation, source-metadata, lineage, or community-governance blocker"
+    ]
+  },
+  "records": [
+    {
+      "proposal_id": "xc-prop-002",
+      "name": "Oyěwùmí's seniority-centered critique of gendered social personhood",
+      "proposed_catalog_kind": "Philosophical position",
+      "differentiation": "The existing Yorùbá person-components record addresses ara, ẹ̀mí, orí, and ọkàn; this proposal instead tracks a historically specific argument about seniority, social classification, and colonial gender categories.",
+      "boundary": "Limit to Oyěwùmí's reconstruction of precolonial Ọ̀yọ́-Yorùbá society, record the published critique, and do not generalize to all Yorùbá people, all African societies, or the absence of gender everywhere.",
+      "existing_neighbors": ["gap-hist-015-yoruba-person-components"],
+      "citations": [
+        {
+          "title": "The Invention of Women: Making an African Sense of Western Gender Discourses",
+          "authors": "Oyèrónkẹ́ Oyěwùmí",
+          "year": "1997",
+          "url": "https://www.jstor.org/stable/10.5749/j.ctttt0vh",
+          "authority": "primary-original",
+          "verification": "locator-recorded"
+        },
+        {
+          "title": "Yorubas Don't Do Gender: A Critical Review of Oyèrónkẹ́ Oyěwùmí's The Invention of Women",
+          "authors": "Bibi Bakare-Yusuf",
+          "year": "2004",
+          "url": "https://www.africabib.org/rec.php?RID=A00009157",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-010",
+      "name": "Ambedkar's anti-caste account of socially degraded selfhood and democratic self-respect",
+      "proposed_catalog_kind": "Philosophical position",
+      "differentiation": "No current catalog record treats caste as a structure of graded inequality shaping agency, social recognition, self-respect, fraternity, and associated democratic life.",
+      "boundary": "Keep the claim within Ambedkar's anti-caste and Dalit political philosophy; do not present it as a general South Asian metaphysics of self or reduce caste to class, race, status, or stigma.",
+      "existing_neighbors": ["gap-breadth-038-du-bois-double-consciousness"],
+      "citations": [
+        {
+          "title": "Annihilation of Caste",
+          "authors": "B. R. Ambedkar",
+          "year": "1936",
+          "url": "https://ccnmtl.columbia.edu/projects/mmt/ambedkar/web/readings/aoc_print_2004.pdf",
+          "authority": "primary-original",
+          "verification": "locator-recorded"
+        },
+        {
+          "title": "Ambedkar's Political Philosophy: A Grammar of Public Life from the Social Margins",
+          "authors": "Valerian Rodrigues",
+          "year": "2024",
+          "url": "https://academic.oup.com/book/57546",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-019",
+      "name": "Kohn's ecology of selves",
+      "proposed_catalog_kind": "Model or framework",
+      "differentiation": "The catalog contains Amerindian perspectivism and Hallowell's Northern Ojibwe account, but not Kohn's Peircean semiotic anthropology of nonhuman selfhood based on Runa-grounded fieldwork.",
+      "boundary": "Label this as Eduardo Kohn's anthropological construction, not a direct or timeless statement of Runa doctrine, a pan-Amazonian view, or an identity claim about perspectivism.",
+      "existing_neighbors": ["cross-breadth-059", "gap-breadth-055-hallowell-northern-ojibwe-persons"],
+      "citations": [
+        {
+          "title": "How Forests Think: Toward an Anthropology Beyond the Human",
+          "authors": "Eduardo Kohn",
+          "year": "2013",
+          "url": "https://www.ucpress.edu/book/9780520276116/how-forests-think",
+          "authority": "primary-original",
+          "verification": "locator-recorded"
+        },
+        {
+          "title": "Anthropology of Ontologies",
+          "authors": "Eduardo Kohn",
+          "year": "2015",
+          "url": "https://doi.org/10.1146/annurev-anthro-102214-014127",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-020",
+      "name": "Descola's four modes of identification",
+      "proposed_catalog_kind": "Model or framework",
+      "differentiation": "The catalog has particular ethnographic and perspectivist records but not Descola's explicit comparative typology of animism, naturalism, totemism, and analogism via interiority and physicality.",
+      "boundary": "Present these as the analyst's ideal types rather than community self-descriptions, exhaustive cultures, cognitive modules, or evolutionary stages.",
+      "existing_neighbors": ["cross-breadth-059", "gap-breadth-055-hallowell-northern-ojibwe-persons"],
+      "citations": [
+        {
+          "title": "Beyond Nature and Culture",
+          "authors": "Philippe Descola; translated by Janet Lloyd",
+          "year": "2013 English translation",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/B/bo9826233.html",
+          "authority": "primary-translation",
+          "verification": "locator-recorded"
+        },
+        {
+          "title": "Modes of Being and Forms of Predication",
+          "authors": "Philippe Descola",
+          "year": "2014",
+          "url": "https://www.journals.uchicago.edu/doi/10.14318/hau4.1.012",
+          "authority": "primary-original",
+          "verification": "doi-resolved"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-022",
+      "name": "Beauvoir's situated, embodied, and ambiguous subjectivity",
+      "proposed_catalog_kind": "Philosophical position",
+      "differentiation": "No current record integrates Beauvoir's account of embodied freedom, oppression, social Othering, ambiguity, and situated agency.",
+      "boundary": "Do not universalize 'woman,' reduce ambiguity to uncertainty, or omit the historical, racial, and colonial limitations identified in Beauvoir scholarship.",
+      "existing_neighbors": ["gap-breadth-036-heidegger-being-in-world"],
+      "citations": [
+        {
+          "title": "Simone de Beauvoir",
+          "authors": "Debra Bergoffen and Megan Burke",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/beauvoir/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded"
+        },
+        {
+          "title": "Simone de Beauvoir and the Politics of Ambiguity",
+          "authors": "Sonia Kruks",
+          "year": "2012",
+          "url": "https://academic.oup.com/book/11006",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-023",
+      "name": "Lugones's world-traveling and plural self",
+      "proposed_catalog_kind": "Philosophical position",
+      "differentiation": "The catalog lacks Lugones's technical account of differently constituted social worlds, plural selfhood, playful perception, and resistant coalition.",
+      "boundary": "Retain its Latina and Women-of-Color feminist genealogy. A 'world' is a technical social-experiential construction, and plural selfhood is not dissociative identity or code-switching alone.",
+      "existing_neighbors": ["gap-breadth-038-du-bois-double-consciousness"],
+      "citations": [
+        {
+          "title": "Playfulness, 'World'-Travelling, and Loving Perception",
+          "authors": "María Lugones",
+          "year": "1987",
+          "url": "https://doi.org/10.1111/j.1527-2001.1987.tb01062.x",
+          "authority": "primary-original",
+          "verification": "doi-resolved"
+        },
+        {
+          "title": "Pilgrimages/Peregrinajes: Theorizing Coalition against Multiple Oppressions",
+          "authors": "María Lugones",
+          "year": "2003",
+          "url": "https://www.bloomsbury.com/us/pilgrimagesperegrinajes-9780742514584/",
+          "authority": "primary-original",
+          "verification": "locator-recorded"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-024",
+      "name": "Milton's Double Empathy Problem",
+      "proposed_catalog_kind": "Theory of mind / social cognition",
+      "differentiation": "The catalog includes interaction theory and the submentalizing challenge, but not Milton's autistic-led account of reciprocal experiential and communicative mismatch.",
+      "boundary": "Do not infer that all mismatches are symmetric, that individual impairments never exist, or that autistic people do not require support and accommodation.",
+      "existing_neighbors": ["seed-098-interaction-theory-of-social-cognition", "seed-141-submentalizing-challenge"],
+      "citations": [
+        {
+          "title": "On the Ontological Status of Autism: The 'Double Empathy Problem'",
+          "authors": "Damian E. M. Milton",
+          "year": "2012",
+          "url": "https://doi.org/10.1080/09687599.2012.710008",
+          "authority": "primary-original",
+          "verification": "doi-resolved"
+        },
+        {
+          "title": "The 'Double Empathy Problem': Ten Years On",
+          "authors": "Damian Milton, Emine Gurbuz, and Beatriz López",
+          "year": "2022",
+          "url": "https://doi.org/10.1177/13623613221129123",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved"
+        }
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-026",
+      "name": "Neurodiversity paradigm",
+      "proposed_catalog_kind": "Model or framework",
+      "differentiation": "No current record explicitly separates neurodiversity as a fact of variation, the neurodiversity movement, and the neurodiversity paradigm's normative interpretation of mind, disability, and environment.",
+      "boundary": "Credit collective autistic-community origins. Do not treat the paradigm as a unitary empirical theory or claim that it denies impairment, disability, high support needs, care, or intervention.",
+      "existing_neighbors": ["seed-098-interaction-theory-of-social-cognition"],
+      "citations": [
+        {
+          "title": "The Neurodiversity Concept Was Developed Collectively: An Overdue Correction on the Origins of Neurodiversity Theory",
+          "authors": "Monique Botha, Robert Chapman, Morénike Giwa Onaiwu, Steven K. Kapp, Abs Stannard Ashley, and Nick Walker",
+          "year": "2024",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/13623613241237871",
+          "authority": "community-historical-scholarship",
+          "verification": "doi-resolved"
+        },
+        {
+          "title": "Neurodiversity as Politics",
+          "authors": "Ari Ne'eman and Elizabeth Pellicano",
+          "year": "2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9881465/",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded"
+        }
+      ]
+    }
+  ]
+}

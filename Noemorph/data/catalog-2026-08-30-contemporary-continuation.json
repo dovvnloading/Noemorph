@@ -1,0 +1,284 @@
+{
+  "collection": {
+    "title": "Noemorph contemporary consciousness continuation supplement",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "base_catalog": "data/catalog.json",
+    "record_count": 5,
+    "purpose": "A conservative continuation packet of source-bounded clinical, dream-research, and artificial-consciousness methods that passed a two-source promotion gate.",
+    "selection_policy": "Each row is absent from the checked catalog as an exact name or alias, has a stable named identity distinct from adjacent records, uses a catalog-allowlisted kind, and retains at least two distinct authoritative or primary locators. COGITATE is excluded because its results belong as evidence additions to existing IIT and GNWT profiles.",
+    "source_policy": "Defining peer-reviewed studies, independent or cross-cultural validations, official versioned program materials, and primary scholarly elaborations are retained with exact locators. Two sources establish traceability, not truth or evidential independence; dependence is stated in each evidence profile.",
+    "deduplication_note": "DoC Common Data Elements is infrastructure rather than a diagnostic measure; SECONDs remains separate from CRS-R and other abbreviated DoC tools; LuCiD is a retrospective dream scale rather than physiological lucid-dream verification; Targeted Dream Incubation is a specific N1 protocol rather than broad Dream Engineering; ACT is a training-restricted language proposal distinct from ConsScale, theory-derived AI indicators, naturalness-constrained tests, and bilateral simulation tests.",
+    "synthesis_policy": "These are provisional collection objects. The supplement does not endorse a measure, infer phenomenality, rank theories, or license semantic synthesis before specialist review and broader coverage checks."
+  },
+  "records": [
+    {
+      "id": "proposal-contemporary-005-doc-common-data-elements",
+      "name": "Curing Coma Disorders-of-Consciousness Common Data Elements",
+      "aliases": ["DoC CDE", "Curing Coma CDE"],
+      "kind": "Model or framework",
+      "kind_codes": ["CS", "MF"],
+      "domain": "Clinical assessment and data standards",
+      "tradition": "Disorders-of-consciousness research infrastructure",
+      "status": "official standardization program · version 1.1",
+      "status_note": "A harmonization framework for variables and metadata, not a diagnostic scale or theory.",
+      "summary": "The Curing Coma Campaign CDE framework standardizes research variables across behavioral phenotyping, hospital course, neuroimaging, electrophysiology, biospecimens, physiology, interventions, outcomes, family goals, and pediatric work.",
+      "proponents": ["Curing Coma Campaign", "Brian L. Edlow", "Jan Claassen", "Jose I. Suarez"],
+      "era": "2020–present",
+      "year": 2020,
+      "scope": "Interoperable data collection for coma and disorders-of-consciousness studies.",
+      "keywords": ["common data elements", "coma", "DoC", "harmonization", "multimodal data"],
+      "boundary_note": "Do not catalog as a measure of awareness. Its function is dataset comparability and reporting consistency.",
+      "claim_scope": {
+        "target": "Standardized representation of DoC research variables.",
+        "level": "Infrastructure / methodology.",
+        "does_not_establish": "A patient's state, prognosis, or a mechanism of consciousness."
+      },
+      "evidence_profile": {
+        "basis": ["International working-group process, official versioned materials, and peer-reviewed overview."],
+        "limitations": ["Adoption, completion burden, interoperability, and psychometric validity vary by element."],
+        "independence": "The two sources document the same program from scholarly and official perspectives; they establish identity and versioning, not independent outcome validation."
+      },
+      "open_questions": ["Which elements most improve cross-cohort reproducibility?", "How will version changes and missingness be represented?"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Common Data Elements for Disorders of Consciousness",
+          "authors": "Brian L. Edlow; Jan Claassen; Jose I. Suarez",
+          "year": 2024,
+          "venue": "Neurocritical Care",
+          "url": "https://doi.org/10.1007/s12028-023-01931-x",
+          "doi": "10.1007/s12028-023-01931-x",
+          "authority": "scholarly-overview",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Common Data Elements",
+          "authors": "Curing Coma Campaign",
+          "year": 2024,
+          "venue": "Curing Coma Campaign official site",
+          "url": "https://www.curingcoma.org/About-Curing-Coma/Pathway-to-Curing-Coma/Common-Data-Elements",
+          "authority": "official-program",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "proposal-contemporary-006-seconds",
+      "name": "Simplified Evaluation of CONsciousness Disorders",
+      "aliases": ["SECONDs"],
+      "kind": "Model or framework",
+      "kind_codes": ["CS", "MF"],
+      "domain": "Clinical assessment and data standards",
+      "tradition": "Disorders-of-consciousness bedside assessment",
+      "status": "validated in initial and multicenter cross-cultural cohorts",
+      "status_note": "An eight-item bedside instrument; not a replacement for repeated comprehensive and multimodal assessment.",
+      "summary": "SECONDs is an eight-item standardized bedside assessment designed to identify diagnostic signs of consciousness more rapidly than the CRS-R. The defining 57-patient study was followed by a 60-patient, three-center Italian validation with repeated blinded assessments.",
+      "proponents": ["Charlène Aubinet", "Camille Chatelle", "Olivia Gosseries"],
+      "era": "2020–present",
+      "year": 2021,
+      "scope": "Rapid behavioral assessment of patients with disorders of consciousness.",
+      "keywords": ["SECONDs", "bedside assessment", "DoC", "MCS", "UWS"],
+      "boundary_note": "Retain as a named abbreviated scale adjacent to, not merged with, CRS-R. A negative behavioral result cannot exclude covert consciousness.",
+      "claim_scope": {
+        "target": "Observable behaviors used in clinical DoC classification.",
+        "level": "Clinical measurement.",
+        "does_not_establish": "Absence of covert consciousness when command-following behavior is absent."
+      },
+      "evidence_profile": {
+        "basis": ["Initial prospective validation in 57 patients.", "Multicenter Italian cross-cultural validation in 60 patients with repeated blinded assessments."],
+        "limitations": ["Speed trades away some sampling depth; results remain dependent on arousal, motor output, examiner training, and repeated testing."],
+        "independence": "The Italian study used different lead investigators but included collaborators from the original expert network; it is a distinct cohort, not fully independent intellectual replication."
+      },
+      "open_questions": ["How does serial SECONDs perform across etiologies and acute settings?", "What multimodal escalation rule should follow an indeterminate screen?"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Simplified evaluation of CONsciousness disorders (SECONDs) in individuals with severe brain injury: A validation study",
+          "authors": "Charlène Aubinet; Helena Cassol; Olivier Bodart; Leandro R. D. Sanz; Sarah Wannez; Charlotte Martial; Aurore Thibaut; Géraldine Martens; Manon Carrière; Olivia Gosseries; Steven Laureys; Camille Chatelle",
+          "year": 2021,
+          "venue": "Annals of Physical and Rehabilitation Medicine",
+          "url": "https://doi.org/10.1016/j.rehab.2020.09.001",
+          "doi": "10.1016/j.rehab.2020.09.001",
+          "authority": "primary-validation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Cross-cultural adaptation and multicentric validation of the Italian version of the Simplified Evaluation of CONsciousness Disorders (SECONDs)",
+          "authors": "Bahia Hakiki; Silvia Pancani; Agnese De Nisco; Anna Maria Romoli; Francesca Draghi; Daniela Maccanti; Anna Estraneo; Alfonso Magliacano; Marcella Spinola; Cinzia Fasano; Matilde Leonardi; Martina Cacciatore; Francesca Giulia Magnani; Davide Sattin; Camilla Ippoliti; Filippo Barbadoro; Antonello Grippo; Claudio Macchi; Charlotte Martial; Olivia Gosseries; Francesca Cecchi",
+          "year": 2025,
+          "venue": "PLOS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0317626",
+          "doi": "10.1371/journal.pone.0317626",
+          "authority": "independent-multicenter-validation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "proposal-contemporary-016-lucid-consciousness-dreams-scale",
+      "name": "Lucidity and Consciousness in Dreams Scale",
+      "aliases": ["LuCiD scale"],
+      "kind": "Model or framework",
+      "kind_codes": ["CS", "MF"],
+      "domain": "Dreaming and sleep consciousness",
+      "tradition": "Lucid-dream psychometrics",
+      "status": "peer-reviewed · translated validation",
+      "status_note": "Retrospective phenomenology scale; it is not physiological verification of lucid dreaming.",
+      "summary": "LuCiD measures eight dimensions of dream experience: insight, control, thought, realism, memory, dissociation, negative emotion, and positive emotion.",
+      "proponents": ["Ursula Voss", "Karin Schermelleh-Engel", "Jennifer Windt", "Allan Hobson"],
+      "era": "2013–present",
+      "year": 2013,
+      "scope": "Multidimensional retrospective characterization of ordinary and lucid dreams.",
+      "keywords": ["LuCiD", "lucid dreaming", "insight", "dream control", "dream phenomenology"],
+      "boundary_note": "Do not merge LuCiD self-report with signal-verified lucid-dream paradigms or infer lucidity from one high subscale alone.",
+      "claim_scope": {
+        "target": "Dimensions of remembered dream experience.",
+        "level": "Self-report measurement.",
+        "does_not_establish": "Online physiological state, report accuracy, or a mechanism of dream consciousness."
+      },
+      "evidence_profile": {
+        "basis": ["Initial factor development.", "Independent Spanish-language validation."],
+        "limitations": ["Recall, selection, and demand effects; objective state verification is external to the scale."],
+        "independence": "The later Spanish study used a different author team and sample, providing genuine independent psychometric evidence for that adaptation."
+      },
+      "open_questions": ["How stable are factors across cultures and induction methods?", "How do LuCiD dimensions map to preregistered physiological markers?"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Measuring consciousness in dreams: The lucidity and consciousness in dreams scale",
+          "authors": "Ursula Voss; Karin Schermelleh-Engel; Jennifer Windt; Clemens Frenzel; Allan Hobson",
+          "year": 2013,
+          "venue": "Consciousness and Cognition",
+          "url": "https://doi.org/10.1016/j.concog.2012.11.001",
+          "doi": "10.1016/j.concog.2012.11.001",
+          "authority": "primary-validation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Validation of the Spanish version of the Lucidity and Consciousness in Dreams Scale",
+          "authors": "Javier García-Campayo; Nieves Moyano; Marta Modrego-Alarcón; Paola Herrera-Mercadal; Marta Puebla-Guedea; Daniel Campos; Santiago Gascón",
+          "year": 2021,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2021.742438",
+          "doi": "10.3389/fpsyg.2021.742438",
+          "authority": "independent-validation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "proposal-contemporary-017-targeted-dream-incubation",
+      "name": "Targeted Dream Incubation protocol",
+      "aliases": ["TDI", "Dormio protocol"],
+      "kind": "Model or framework",
+      "kind_codes": ["CS", "MF"],
+      "domain": "Dreaming and sleep consciousness",
+      "tradition": "Closed-loop hypnagogia research",
+      "status": "peer-reviewed · early experimental evidence",
+      "status_note": "A cueing-and-awakening protocol for N1 hypnagogia, not general dream control or lucid dreaming.",
+      "summary": "TDI uses state-sensitive auditory cues during sleep onset, followed by repeated awakenings and dream reports, to increase incorporation of a target theme into hypnagogic experience. A follow-up experiment related theme incubation to post-sleep creative performance.",
+      "proponents": ["Adam Haar Horowitz", "Pattie Maes", "Robert Stickgold"],
+      "era": "2020–present",
+      "year": 2020,
+      "scope": "Closed-loop incubation and sampling of targeted content during N1 sleep onset.",
+      "keywords": ["TDI", "Dormio", "hypnagogia", "N1", "dream incubation", "closed loop"],
+      "boundary_note": "Distinguish this protocol from broad dream engineering and from ocular-signal verified lucid dreaming.",
+      "claim_scope": {
+        "target": "Probability that a cued theme appears in immediate hypnagogic reports.",
+        "level": "Experimental manipulation.",
+        "does_not_establish": "Precise control of dream narratives, lucidity, or direct readout of experience."
+      },
+      "evidence_profile": {
+        "basis": ["Peer-reviewed device and protocol report.", "Controlled follow-up relating targeted incubation to creative performance."],
+        "limitations": ["Small selected samples, subjective reports, suggestion effects, and imperfect N1 detection."],
+        "independence": "The two distinct studies share the same core laboratory and proponents; external replication remains needed."
+      },
+      "open_questions": ["How specific is cue incorporation under blinded scoring?", "What safety and consent standards apply to repeated closed-loop use?"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Dormio: A targeted dream incubation device",
+          "authors": "Adam Haar Horowitz; Tony J. Cunningham; Pattie Maes; Robert Stickgold",
+          "year": 2020,
+          "venue": "Consciousness and Cognition",
+          "url": "https://doi.org/10.1016/j.concog.2020.102938",
+          "doi": "10.1016/j.concog.2020.102938",
+          "authority": "primary-method",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Targeted dream incubation at sleep onset increases post-sleep creative performance",
+          "authors": "Adam Haar Horowitz; Kathleen Esfahany; Tomás Vega Gálvez; Pattie Maes; Robert Stickgold",
+          "year": 2023,
+          "venue": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-023-31361-w",
+          "doi": "10.1038/s41598-023-31361-w",
+          "authority": "primary-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "proposal-contemporary-023-ai-consciousness-test",
+      "name": "AI Consciousness Test",
+      "aliases": ["ACT", "Behavior-based AI Consciousness Test"],
+      "kind": "Model or framework",
+      "kind_codes": ["MF", "MP"],
+      "domain": "Artificial consciousness",
+      "tradition": "Behavioral machine-consciousness testing",
+      "status": "published proposal · contested",
+      "status_note": "A language-based proposal designed for training-restricted systems; not a validated diagnostic.",
+      "summary": "ACT proposes increasingly demanding natural-language questions about internally experienced and consciousness-related concepts, ideally administered to an AI whose training has been restricted to reduce learned imitation of human discourse about consciousness.",
+      "proponents": ["Susan Schneider", "Edwin Turner"],
+      "era": "2017–present",
+      "year": 2017,
+      "scope": "Behavioral evidence for consciousness in language-capable artificial systems under controlled training conditions.",
+      "keywords": ["ACT", "AI consciousness", "behavioral test", "training restriction", "language"],
+      "boundary_note": "The authors characterize passing as sufficient but not necessary evidence; that sufficiency claim is philosophical and contested, not experimentally established.",
+      "claim_scope": {
+        "target": "Spontaneous grasp of consciousness-related concepts under restricted exposure.",
+        "level": "Behavioral / philosophical test.",
+        "does_not_establish": "A substrate-independent gold standard, applicability to nonlinguistic systems, or immunity to hidden training contamination."
+      },
+      "evidence_profile": {
+        "basis": ["Explicit behavior-based test proposal.", "Later monograph chapter elaborating the test and its rationale."],
+        "limitations": ["Language dependence, false negatives, gaming, auditability of training, and the gap between discourse and experience."],
+        "independence": "The two works share Susan Schneider and elaborate the same proposal; no empirical gold-standard validation exists."
+      },
+      "open_questions": ["Can restricted training be verified in modern foundation models?", "What response criteria avoid anthropocentric grading?"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A Behavior-based AI Consciousness Test",
+          "authors": "Edwin Turner; Susan Schneider",
+          "year": 2017,
+          "venue": "Scientific American / Princeton University research record",
+          "url": "https://collaborate.princeton.edu/en/publications/a-behavior-based-ai-consciousness-test/",
+          "authority": "primary-proposal",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "How to Catch an AI Zombie",
+          "authors": "Susan Schneider",
+          "year": 2020,
+          "venue": "The Language of Thought, Oxford University Press",
+          "url": "https://doi.org/10.1093/oso/9780190905033.003.0016",
+          "doi": "10.1093/oso/9780190905033.003.0016",
+          "authority": "primary-elaboration",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}

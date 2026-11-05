@@ -1,0 +1,1210 @@
+{
+  "collection": {
+    "title": "Noemorph philosophy, arguments, and historical traditions gap additions",
+    "version": "1.0.0-provisional",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "synthesis": "deferred",
+    "record_count": 16,
+    "method": "Exact-name and semantic gap audit against the 207-record base catalog, followed by source-level checking against primary works, primary-source translations, DOI records, and authoritative scholarly reference entries.",
+    "source_policy": "Each candidate retains at least two exact HTTPS locators. Summaries report source-attributable claims only; boundary notes identify common overextensions and translation risks.",
+    "coverage_note": "These are independent, provisional catalog candidates. The collection does not claim exhaustiveness and asserts no cross-record relationships, equivalences, or synthesis. Living and internally diverse traditions are represented through named texts and interpreters rather than as uniform civilizational views."
+  },
+  "records": [
+    {
+      "id": "gap-phil-001-knowledge-argument",
+      "name": "Knowledge argument (Mary thought experiment)",
+      "aliases": [
+        "Mary's room",
+        "Mary the color scientist"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "ARG"
+      ],
+      "domain": "Qualia & explanatory challenges",
+      "tradition": "Analytic philosophy of mind",
+      "status": "major argument · actively contested",
+      "status_note": "Jackson's 1982 formulation remains a central anti-physicalist argument, but ability, acquaintance, phenomenal-concept, and new-knowledge/old-fact replies dispute its conclusion; Jackson later rejected the argument's anti-physicalist use.",
+      "summary": "Mary is stipulated to possess complete physical information about human color vision while lacking color experience. When she first sees color, she appears to learn what such experience is like; Jackson argued that this shows that not all information or facts are physical.",
+      "proponents": [
+        "Frank Jackson"
+      ],
+      "era": "1982–present",
+      "year": 1982,
+      "scope": "Epistemic argument about whether complete physical knowledge exhausts phenomenal knowledge.",
+      "keywords": [
+        "Mary",
+        "qualia",
+        "physicalism",
+        "phenomenal knowledge",
+        "thought experiment"
+      ],
+      "boundary_note": "The thought experiment does not by itself identify a nonphysical substance or mechanism. A weaker conclusion about a new way of knowing may be accepted without accepting nonphysical facts.",
+      "claim_scope": {
+        "type": "anti-physicalist epistemic argument",
+        "applies_to": "Claims that complete physical knowledge necessarily includes every fact or kind of knowledge about conscious experience.",
+        "does_not_establish": "A specific ontology of qualia, substance dualism, or an empirical mechanism of consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "primary philosophical article",
+          "authoritative scholarly reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "One original formulation and one peer-reviewed living reference entry.",
+        "verification_summary": "Primary DOI resolved; SEP locator and authorship checked."
+      },
+      "open_questions": [
+        "Does Mary acquire a new fact, a new concept, an ability, acquaintance, or only a new mode of presentation?",
+        "Can complete physical knowledge coherently be specified without already including phenomenal concepts?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Epiphenomenal Qualia",
+          "authors": "Frank Jackson",
+          "year": 1982,
+          "venue": "The Philosophical Quarterly, 32(127), 127–136",
+          "url": "https://doi.org/10.2307/2960077",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.2307/2960077"
+        },
+        {
+          "title": "Qualia: The Knowledge Argument",
+          "authors": "Martine Nida-Rümelin and Donnchadh O'Conaill",
+          "year": 2024,
+          "venue": "Stanford Encyclopedia of Philosophy, substantive revision",
+          "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-phil-002-zombie-conceivability-argument",
+      "name": "Philosophical-zombie conceivability argument",
+      "aliases": [
+        "zombie argument against physicalism",
+        "p-zombie argument"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "ARG"
+      ],
+      "domain": "Modal arguments about phenomenal consciousness",
+      "tradition": "Analytic philosophy of mind",
+      "status": "major modal argument · actively contested",
+      "status_note": "Debate turns on ideal conceivability, the move from conceivability to metaphysical possibility, and whether a physical duplicate without experience is coherently specified.",
+      "summary": "Chalmers argues that a molecule-for-molecule physical duplicate of a conscious person that lacks phenomenal experience is ideally conceivable; if such ideal conceivability entails metaphysical possibility, then physical truths do not metaphysically necessitate all phenomenal truths.",
+      "proponents": [
+        "David J. Chalmers"
+      ],
+      "era": "1996–present",
+      "year": 1996,
+      "scope": "Modal challenge to physicalist supervenience claims about phenomenal consciousness.",
+      "keywords": [
+        "philosophical zombie",
+        "conceivability",
+        "metaphysical possibility",
+        "physicalism",
+        "supervenience"
+      ],
+      "boundary_note": "A philosophical zombie is a stipulated modal case, not an empirically detected organism. The argument depends on controversial bridge principles between conceivability and possibility.",
+      "claim_scope": {
+        "type": "modal anti-physicalist argument",
+        "applies_to": "The claim that a complete physical duplicate must necessarily duplicate phenomenal consciousness.",
+        "does_not_establish": "That zombies actually exist, that consciousness lacks physical correlates, or which nonphysical theory is correct."
+      },
+      "evidence_profile": {
+        "basis": [
+          "primary philosophical monograph",
+          "authoritative scholarly reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "One author-maintained locator for the primary monograph and one SEP entry.",
+        "verification_summary": "Primary author page and SEP locator checked."
+      },
+      "open_questions": [
+        "What standard of ideal or positive conceivability is strong enough to support the modal inference?",
+        "Can phenomenal concepts explain the intuition of separability while preserving physical necessity?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Conscious Mind: In Search of a Fundamental Theory",
+          "authors": "David J. Chalmers",
+          "year": 1996,
+          "venue": "Oxford University Press",
+          "url": "https://consc.net/the-conscious-mind/",
+          "authority": "primary-original",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Zombies",
+          "authors": "Robert Kirk",
+          "year": 2003,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/zombies/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-phil-003-explanatory-gap",
+      "name": "Explanatory gap",
+      "aliases": [
+        "Levine's explanatory gap"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "ARG"
+      ],
+      "domain": "Qualia & explanatory challenges",
+      "tradition": "Analytic philosophy of mind",
+      "status": "foundational challenge · interpretation contested",
+      "status_note": "Levine framed an explanatory or epistemic problem for materialist identities and did not treat the gap alone as a deductive refutation of materialism.",
+      "summary": "Even if a pain state is identified with a neural or functional state, the physical description may appear not to explain why that state feels painful or why it has that qualitative character. Levine names this residual intelligibility problem the explanatory gap.",
+      "proponents": [
+        "Joseph Levine"
+      ],
+      "era": "1983–present",
+      "year": 1983,
+      "scope": "Explanatory and epistemic adequacy of physical accounts of qualitative experience.",
+      "keywords": [
+        "explanatory gap",
+        "qualia",
+        "materialism",
+        "intelligibility",
+        "phenomenal character"
+      ],
+      "boundary_note": "The explanatory gap is related to but not identical with Chalmers's later hard problem. It is a diagnosis of explanatory insufficiency and does not, without further premises, prove an ontological gap.",
+      "claim_scope": {
+        "type": "explanatory challenge",
+        "applies_to": "Whether psychophysical identities make the qualitative character of experience intelligible.",
+        "does_not_establish": "Property dualism, substance dualism, or the impossibility of future physical explanation."
+      },
+      "evidence_profile": {
+        "basis": [
+          "primary philosophical article",
+          "authoritative scholarly reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "One original DOI-indexed article and one broad SEP orientation entry.",
+        "verification_summary": "Primary DOI resolved; SEP locator and authorship checked."
+      },
+      "open_questions": [
+        "Is the gap generated by phenomenal concepts, by limits of current science, or by a genuine ontological discontinuity?",
+        "What would count as closing rather than merely correlating across the gap?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Materialism and Qualia: The Explanatory Gap",
+          "authors": "Joseph Levine",
+          "year": 1983,
+          "venue": "Pacific Philosophical Quarterly, 64(4), 354–361",
+          "url": "https://doi.org/10.1111/j.1468-0114.1983.tb00207.x",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1111/j.1468-0114.1983.tb00207.x"
+        },
+        {
+          "title": "Consciousness",
+          "authors": "Robert Van Gulick",
+          "year": 2004,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/consciousness/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-phil-004-chinese-room-argument",
+      "name": "Chinese Room argument",
+      "aliases": [
+        "Chinese Room thought experiment"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "ARG"
+      ],
+      "domain": "Intentionality, computation & understanding",
+      "tradition": "Analytic philosophy of mind and artificial intelligence",
+      "status": "major argument · actively contested",
+      "status_note": "Systems, robot, brain-simulator, other-minds, and virtual-mind replies dispute what follows from the room operator's lack of understanding.",
+      "summary": "A person who understands no Chinese follows formal rules for transforming Chinese symbols and produces answers indistinguishable from those of a fluent speaker. Searle argues that successful symbol manipulation or program execution is not, by itself, sufficient for understanding or intentional content.",
+      "proponents": [
+        "John R. Searle"
+      ],
+      "era": "1980–present",
+      "year": 1980,
+      "scope": "Whether formal program execution is sufficient for linguistic understanding and intentional mentality.",
+      "keywords": [
+        "Chinese Room",
+        "syntax",
+        "semantics",
+        "understanding",
+        "strong AI",
+        "intentionality"
+      ],
+      "boundary_note": "Searle's target is the sufficiency claim associated with strong AI, not the proposition that no machine could think. The argument addresses understanding more directly than phenomenal consciousness.",
+      "claim_scope": {
+        "type": "anti-computational-sufficiency argument",
+        "applies_to": "The claim that implementing the right formal program is sufficient for genuine understanding.",
+        "does_not_establish": "That artificial systems cannot understand, that brains are noncomputational, or that phenomenal consciousness is nonphysical."
+      },
+      "evidence_profile": {
+        "basis": [
+          "primary philosophical article",
+          "authoritative scholarly reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "One original article and one SEP entry surveying the argument and replies.",
+        "verification_summary": "Primary DOI resolved; SEP locator and authorship checked."
+      },
+      "open_questions": [
+        "Is understanding attributable to the whole system even if it is not attributable to the rule-following individual?",
+        "What role do embodiment, causal grounding, learning, and social use play in semantic understanding?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Minds, Brains, and Programs",
+          "authors": "John R. Searle",
+          "year": 1980,
+          "venue": "Behavioral and Brain Sciences, 3(3), 417–457",
+          "url": "https://doi.org/10.1017/S0140525X00005756",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1017/S0140525X00005756"
+        },
+        {
+          "title": "The Chinese Room Argument",
+          "authors": "David Cole",
+          "year": 2004,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/chinese-room/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-005-thomistic-intellective-soul",
+      "name": "Thomistic intellective soul and reflexive self-knowledge",
+      "aliases": [
+        "Aquinas on the rational soul",
+        "Thomistic faculty psychology"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Soul, intellect & self-knowledge",
+      "tradition": "Latin scholastic Aristotelianism",
+      "status": "historically foundational · living Thomist reception · contested",
+      "status_note": "The account remains active in Thomist philosophy but its metaphysics, interpretation of subsistence, and relation to contemporary mind science are disputed.",
+      "summary": "Aquinas treats the human soul as the substantial form of a living human body while arguing that intellectual activity is not the act of a bodily organ. The intellect ordinarily knows itself through awareness of its own acts rather than through an immediate grasp of its essence.",
+      "proponents": [
+        "Thomas Aquinas",
+        "Thomist commentators"
+      ],
+      "era": "13th century–present reception",
+      "year": 1270,
+      "scope": "Aquinas's account of the human soul, immaterial intellectual operation, and intellectual self-knowledge.",
+      "keywords": [
+        "Aquinas",
+        "intellective soul",
+        "hylomorphism",
+        "self-knowledge",
+        "faculty psychology"
+      ],
+      "boundary_note": "This is a specifically Thomistic hylomorphic account, not generic Aristotelianism and not Cartesian substance dualism. Claims about postmortem subsistence belong to Aquinas's larger metaphysical and theological system.",
+      "claim_scope": {
+        "type": "historical metaphysical-psychological framework",
+        "applies_to": "The unity of the living human being, the non-organic operation of intellect, and how intellect knows itself.",
+        "does_not_establish": "A modern empirical theory of neural consciousness or a simple mind-body substance separation."
+      },
+      "evidence_profile": {
+        "basis": [
+          "two exact sections of a primary scholastic text in translation"
+        ],
+        "source_count": 2,
+        "citation_mix": "Primary-text locators for the soul's status and intellectual self-knowledge.",
+        "verification_summary": "Question-level locators checked against the online Summa text."
+      },
+      "open_questions": [
+        "How should Aquinas's claim that the soul is both form and subsistent be interpreted without importing Cartesian categories?",
+        "What is the exact phenomenological content, if any, of knowing one's act of understanding?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Summa Theologiae, Prima Pars, Question 75: The Essence of the Soul",
+          "authors": "Thomas Aquinas",
+          "year": "ca. 1265–1274",
+          "venue": "Summa Theologiae, English translation hosted by New Advent",
+          "url": "https://www.newadvent.org/summa/1075.htm",
+          "authority": "primary-source-translation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Summa Theologiae, Prima Pars, Question 87: How the Intellectual Soul Knows Itself",
+          "authors": "Thomas Aquinas",
+          "year": "ca. 1265–1274",
+          "venue": "Summa Theologiae, English translation hosted by New Advent",
+          "url": "https://www.newadvent.org/summa/1087.htm",
+          "authority": "primary-source-translation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-006-averroes-unity-material-intellect",
+      "name": "Averroes' unity of the material intellect",
+      "aliases": [
+        "unity of intellect thesis",
+        "Averroist material intellect"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MP"
+      ],
+      "domain": "Intellect, cognition & individuation",
+      "tradition": "Andalusian Arabic Aristotelianism and Latin Averroist reception",
+      "status": "historically influential · interpretation contested",
+      "status_note": "The mature Long Commentary's unity thesis is clear enough to be a major interpretive locus, while Averroes' developmental views and the thesis's consequences for individual cognition remain debated.",
+      "summary": "In the mature Long Commentary on Aristotle's De Anima, Averroes argues for a numerically single, separate material intellect and agent intellect shared by human thinkers. Individual acts of thinking nevertheless depend on bodily imaginative intentions supplied by particular people.",
+      "proponents": [
+        "Averroes (Ibn Rushd)",
+        "later Latin Averroists"
+      ],
+      "era": "12th century; Latin reception in the 13th–14th centuries",
+      "year": 1190,
+      "scope": "The ontology and numerical unity of receptive intellect in Averroes' mature psychology.",
+      "keywords": [
+        "Averroes",
+        "Ibn Rushd",
+        "material intellect",
+        "agent intellect",
+        "unity of intellect",
+        "cogitation"
+      ],
+      "boundary_note": "The polemical label 'monopsychism' can mislead: the unity claim concerns intellect, not a claim that all people are one complete soul or person. Earlier and middle commentaries should not be collapsed into the mature position.",
+      "claim_scope": {
+        "type": "historical metaphysics of intellect",
+        "applies_to": "The receptive and agent intellects and their relation to individualized imaginative cognition.",
+        "does_not_establish": "A single shared phenomenal field, loss of bodily individuality, or a general doctrine that all souls are numerically one."
+      },
+      "evidence_profile": {
+        "basis": [
+          "scholarly primary-source translation",
+          "authoritative scholarly reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "Yale translation locator plus SEP historical orientation.",
+        "verification_summary": "Book DOI resolved; SEP locator and authorship checked."
+      },
+      "open_questions": [
+        "How do individual humans own or participate in thoughts if the receptive intellect is numerically one?",
+        "How sharply should the mature view be separated from Averroes' earlier commentaries?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Long Commentary on the De Anima of Aristotle",
+          "authors": "Averroes; translated by Richard C. Taylor with Thérèse-Anne Druart",
+          "year": 2009,
+          "venue": "Yale University Press",
+          "url": "https://doi.org/10.12987/9780300164794",
+          "authority": "primary-source-translation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.12987/9780300164794"
+        },
+        {
+          "title": "Ibn Rushd [Averroes]",
+          "authors": "Fouad Ben Ahmed and Robert Pasnau",
+          "year": 2021,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/ibn-rushd/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-007-stoic-corporeal-psychology",
+      "name": "Stoic corporeal psychology, impression and assent",
+      "aliases": [
+        "Stoic psychology of the hegemonikon",
+        "Stoic commanding-faculty account"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT"
+      ],
+      "domain": "Embodied cognition, judgment & agency",
+      "tradition": "Ancient Greek and Roman Stoicism",
+      "status": "historically foundational · fragmentarily reconstructed",
+      "status_note": "The school developed across centuries and much early evidence survives through fragments and later reports; Chrysippus is especially important but should not stand for every Stoic phase.",
+      "summary": "Stoics treat the soul as corporeal pneuma and locate the adult rational commanding faculty, the hegemonikon, within the embodied organism. Impressions present content; assent, withholding, impulse, and judgment are functions of the rational commanding faculty and are central to belief and action.",
+      "proponents": [
+        "Zeno of Citium",
+        "Chrysippus",
+        "later Greek and Roman Stoics"
+      ],
+      "era": "3rd century BCE–late antiquity",
+      "year": -280,
+      "scope": "Stoic accounts of the embodied soul, rational impressions, assent, impulse, and the commanding faculty.",
+      "keywords": [
+        "Stoicism",
+        "pneuma",
+        "hegemonikon",
+        "impression",
+        "assent",
+        "impulse"
+      ],
+      "boundary_note": "Calling Stoicism 'materialist' must not import contemporary identity theory. Evidence is distributed across hostile and sympathetic reports, and later Stoic practical vocabularies do not always preserve early technical detail.",
+      "claim_scope": {
+        "type": "historical school-level psychological framework",
+        "applies_to": "Embodied psychic organization and the role of impression, assent, and impulse in rational agency.",
+        "does_not_establish": "A single unchanged Stoic doctrine across all periods or a modern neuroscientific account of consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "two authoritative scholarly reference entries synthesizing fragmentary ancient evidence"
+        ],
+        "source_count": 2,
+        "citation_mix": "Specialist SEP entries on Stoicism and ancient soul theory.",
+        "verification_summary": "Both SEP locators, publication metadata, and authorship checked."
+      },
+      "open_questions": [
+        "How should differences among early, middle, and Roman Stoic psychologies be represented at record level?",
+        "What evidential weight should be assigned to later doxographical reports about early Stoic localization of the hegemonikon?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Stoicism",
+          "authors": "Marion Durand, Simon Shogry, and Dirk Baltzly",
+          "year": 2023,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/stoicism/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Ancient Theories of Soul",
+          "authors": "Hendrik Lorenz",
+          "year": 2003,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/ancient-soul/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-008-epicurean-corporeal-soul",
+      "name": "Epicurean corporeal soul, sensation and mind",
+      "aliases": [
+        "Epicurean atomist psychology",
+        "Epicurus on soul and sensation"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT"
+      ],
+      "domain": "Soul, sensation & mortality",
+      "tradition": "Ancient Greek and Roman Epicureanism",
+      "status": "historically foundational · textually reconstructed",
+      "status_note": "Epicurus' surviving letters and later Epicurean witnesses support the core corporeal account, while detailed reconstruction depends on fragmentary and transmitted texts.",
+      "summary": "Epicurus describes the soul as a fine corporeal aggregate dispersed through the body and as a principal cause of sensation only while organized with the body. Later Epicurean exposition distinguishes rational mind from the soul distributed through the frame and treats both as mortal when their atoms disperse.",
+      "proponents": [
+        "Epicurus",
+        "Lucretius",
+        "Epicurean school"
+      ],
+      "era": "4th century BCE–1st century BCE and later reception",
+      "year": -305,
+      "scope": "Epicurean atomist accounts of soul, mind, bodily organization, sensation, and death.",
+      "keywords": [
+        "Epicurus",
+        "Lucretius",
+        "corporeal soul",
+        "atomism",
+        "sensation",
+        "mortality"
+      ],
+      "boundary_note": "The record distinguishes Epicurus' surviving formulation from Lucretius' later exposition. Ancient atomism should not be redescribed as contemporary neural reductionism, and 'soul' here does not mean an incorporeal immortal substance.",
+      "claim_scope": {
+        "type": "historical atomist psychology",
+        "applies_to": "The material composition of soul, the body-soul conditions of sensation, and psychic mortality.",
+        "does_not_establish": "Modern atomic neuroscience or that every later Epicurean retained an identical component model."
+      },
+      "evidence_profile": {
+        "basis": [
+          "primary-source translation excerpt",
+          "authoritative scholarly reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "University-hosted Letter to Herodotus excerpt plus specialist SEP entry.",
+        "verification_summary": "Columbia primary-text locator and SEP metadata checked."
+      },
+      "open_questions": [
+        "How should Epicurus' fine-particle account be separated from later Lucretian terminology for mind and soul?",
+        "What exactly individuates mental functions within the body-soul compound in the surviving evidence?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Letter to Herodotus, section V: The Soul",
+          "authors": "Epicurus",
+          "year": "ca. 305 BCE",
+          "venue": "Primary-text translation excerpt hosted by Columbia College",
+          "url": "https://www.college.columbia.edu/sites/default/files/Letter%20to%20Herodotus.pdf",
+          "authority": "primary-source-translation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Epicurus",
+          "authors": "David Konstan",
+          "year": 2005,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/epicurus/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-009-mimamsa-self-awareness-rivals",
+      "name": "Mīmāṃsā rival accounts of self-awareness",
+      "aliases": [
+        "Prābhākara tripuṭī-saṃvit and Kumārila's cognition theory",
+        "Mīmāṃsā cognition and self-awareness debate"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Cognition, self-awareness & epistemology",
+      "tradition": "Classical Indian Mīmāṃsā",
+      "status": "historically foundational · internally contested",
+      "status_note": "The entry deliberately preserves the opposition between Prābhākara and Bhāṭṭa Mīmāṃsā rather than inventing a single school view.",
+      "summary": "Prābhākara theorists hold that a cognition manifests its object, the cognizing self, and itself together, often described as tripuṭī-saṃvit. Kumārila rejects direct self-cognition of cognition and instead explains awareness of cognition through its effects or the object's knownness, while defending an enduring subject.",
+      "proponents": [
+        "Prabhākara Miśra",
+        "Kumārila Bhaṭṭa",
+        "Śālikanātha Miśra"
+      ],
+      "era": "approximately 7th–9th centuries",
+      "year": 700,
+      "scope": "Competing Mīmāṃsā accounts of how cognition, object, and subject become known.",
+      "keywords": [
+        "Mīmāṃsā",
+        "Prābhākara",
+        "Kumārila",
+        "tripuṭī-saṃvit",
+        "self-awareness",
+        "knownness"
+      ],
+      "boundary_note": "This is not one Mīmāṃsā theory. It should not be collapsed into Advaita's witness-consciousness vocabulary or Buddhist theories of reflexive awareness, despite partial overlap in translated terms.",
+      "claim_scope": {
+        "type": "historical intra-traditional debate",
+        "applies_to": "Whether and how cognition discloses itself, its object, and an enduring subject.",
+        "does_not_establish": "A uniform Indian account of consciousness or identity between Mīmāṃsā and other South Asian self-awareness theories."
+      },
+      "evidence_profile": {
+        "basis": [
+          "two specialist authoritative scholarly reference entries"
+        ],
+        "source_count": 2,
+        "citation_mix": "SEP entries on Kumārila and personhood in classical Indian philosophy.",
+        "verification_summary": "Both SEP locators and authorship metadata checked."
+      },
+      "open_questions": [
+        "How should later Prābhākara and Bhāṭṭa refinements be split into separate versioned records?",
+        "Which Sanskrit technical terms should remain untranslated in UI labels to avoid false equivalence?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Kumārila",
+          "authors": "Daniel Arnold",
+          "year": 2010,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/kumaarila/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Personhood in Classical Indian Philosophy",
+          "authors": "Monima Chadha",
+          "year": 2022,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/personhood-india/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-010-nishida-pure-experience-jikaku",
+      "name": "Nishida's pure experience and later self-awareness",
+      "aliases": [
+        "Nishida Kitarō's pure experience",
+        "Nishida on jikaku"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Experience, self-awareness & subject-object formation",
+      "tradition": "Kyoto School and modern Japanese philosophy",
+      "status": "historically foundational · developmentally complex",
+      "status_note": "Nishida's vocabulary and architecture changed substantially; the early pure-experience account and later work on self-awareness, place, and nothingness require phase-sensitive cataloging.",
+      "summary": "In An Inquiry into the Good, Nishida presents pure experience as experience prior to the subject-object division, encompassing sensory and intellectual activity. His later philosophy reworks the problem through self-awareness (jikaku), place (basho), and the logic of nothingness rather than simply repeating the early formulation.",
+      "proponents": [
+        "Nishida Kitarō"
+      ],
+      "era": "1911–1945",
+      "year": 1911,
+      "scope": "Nishida's early account of pre-subject-object experience and its later philosophical transformations.",
+      "keywords": [
+        "Nishida Kitarō",
+        "pure experience",
+        "jikaku",
+        "basho",
+        "subject-object",
+        "Kyoto School"
+      ],
+      "boundary_note": "The record does not equate early pure experience with Nishida's entire mature system, reduce the philosophy to Zen doctrine, or identify Nishida's use of experience with William James's despite acknowledged influence.",
+      "claim_scope": {
+        "type": "developmental historical framework",
+        "applies_to": "The emergence of subject-object differentiation and Nishida's changing accounts of self-awareness and place.",
+        "does_not_establish": "A timeless Japanese theory of consciousness or a single doctrine unchanged across Nishida's career."
+      },
+      "evidence_profile": {
+        "basis": [
+          "scholarly primary-source translation",
+          "authoritative specialist reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "Yale translation locator for the early work plus SEP developmental overview.",
+        "verification_summary": "Publisher metadata and SEP authorship checked."
+      },
+      "open_questions": [
+        "Which later texts should be registered separately for jikaku, basho, and absolute nothingness?",
+        "How should translations of keiken and jikaku preserve their distinct technical roles?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "An Inquiry into the Good",
+          "authors": "Nishida Kitarō; translated by Masao Abe and Christopher Ives",
+          "year": 1992,
+          "venue": "Yale University Press; original Japanese work published 1911",
+          "url": "https://yalebooks.yale.edu/book/9780300052336/an-inquiry-into-the-good/",
+          "authority": "primary-source-translation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Nishida Kitarō",
+          "authors": "John C. Maraldo",
+          "year": 2005,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/nishida-kitaro/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-011-xunzi-heart-mind",
+      "name": "Xunzi's empty, unified and still heart-mind",
+      "aliases": [
+        "Xunzi on xin",
+        "Xunzi's resolving-obsession psychology"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Heart-mind, attention & cultivated judgment",
+      "tradition": "Classical Chinese philosophy",
+      "status": "historically foundational · textually interpreted",
+      "status_note": "The received Xunzi is composite and redactional questions remain; the account is best attributed to the text and its named authorial tradition with chapter-level precision.",
+      "summary": "The Xunzi treats the heart-mind (xin) as the embodied center that knows, commands, desires, and judges. In 'Resolving Obsession,' apprehending the Way requires the heart-mind to be empty of fixed preoccupation, unified rather than divided, and still enough not to be disturbed by fantasy or distraction.",
+      "proponents": [
+        "Xunzi",
+        "the received Xunzi textual tradition"
+      ],
+      "era": "late 3rd century BCE",
+      "year": -250,
+      "scope": "The Xunzi's account of xin, cognitive distortion, attention, judgment, and disciplined knowing.",
+      "keywords": [
+        "Xunzi",
+        "xin",
+        "heart-mind",
+        "emptiness",
+        "unity",
+        "stillness",
+        "obsession"
+      ],
+      "boundary_note": "Xin should not be translated as a disembodied Cartesian mind. 'Empty' does not mean devoid of content; it describes freedom from prejudicial occupation while retaining prior knowledge.",
+      "claim_scope": {
+        "type": "historical ethical-epistemic psychology",
+        "applies_to": "How fixation distorts judgment and how cultivated attention enables apprehension of the Way.",
+        "does_not_establish": "A substance ontology of mind or a modern clinical theory of attention."
+      },
+      "evidence_profile": {
+        "basis": [
+          "chapter-level bilingual primary-text locator",
+          "authoritative specialist reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "Chinese Text Project primary chapter plus SEP scholarship.",
+        "verification_summary": "Exact chapter URL recorded; SEP metadata and authorship checked."
+      },
+      "open_questions": [
+        "Which psychological claims belong specifically to 'Resolving Obsession' rather than to the Xunzi corpus generally?",
+        "How should xin be displayed across translations without forcing a choice between 'heart' and 'mind'?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Xunzi, Chapter 21: Resolving Obsession (Jie Bi)",
+          "authors": "Xunzi; received-text tradition",
+          "year": "late 3rd century BCE",
+          "venue": "Chinese Text Project bilingual primary text",
+          "url": "https://ctext.org/xunzi/jie-bi/ens",
+          "authority": "primary-text-digital-edition",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Xunzi",
+          "authors": "Paul R. Goldin",
+          "year": 2018,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/xunzi/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-012-tiantai-contemplation-mind",
+      "name": "Tiantai contemplation of mind and three thousand realms in one thought",
+      "aliases": [
+        "yinian sanqian",
+        "three thousand realms in a single thought-moment",
+        "Tiantai threefold contemplation"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Mind, experience & Buddhist contemplative analysis",
+      "tradition": "Chinese Tiantai Buddhism and later Tiantai/Tendai traditions",
+      "status": "historically foundational · living reception · interpretation contested",
+      "status_note": "Doctrinal interpretation varies across Tiantai lineages and periods; the record concerns a named Zhiyi-centered framework rather than all Chinese Buddhist accounts of mind.",
+      "summary": "Tiantai analysis associated with Zhiyi treats any moment of thought as involving the mutual inclusion of the three thousand dharmic realms and coordinates contemplation through the threefold truth of emptiness, provisional existence, and the middle. Mind is used as an accessible contemplative locus, not straightforwardly as a substance that manufactures an external world.",
+      "proponents": [
+        "Zhiyi",
+        "Guanding",
+        "later Tiantai and Tendai exegetes"
+      ],
+      "era": "6th century–present reception",
+      "year": 594,
+      "scope": "Tiantai doctrines and practices concerning thought-moments, mutual inclusion, threefold truth, and contemplation of mind.",
+      "keywords": [
+        "Tiantai",
+        "Zhiyi",
+        "yinian sanqian",
+        "threefold truth",
+        "contemplation",
+        "thought-moment"
+      ],
+      "boundary_note": "Do not flatten the doctrine into subjective idealism or the slogan 'mind creates matter.' Specialist scholarship emphasizes that mind has no unilateral ontological privilege over the dharmas it mutually includes.",
+      "claim_scope": {
+        "type": "historical doctrinal-practical framework",
+        "applies_to": "The structure and contemplation of experiential moments within Tiantai Buddhist soteriology.",
+        "does_not_establish": "An empirical consciousness theory, a creator mind, or a doctrine shared by every East Asian Buddhist school."
+      },
+      "evidence_profile": {
+        "basis": [
+          "authoritative specialist reference entry",
+          "peer-reviewed specialist article"
+        ],
+        "source_count": 2,
+        "citation_mix": "SEP tradition overview plus DOI-indexed analysis of mind and creation language.",
+        "verification_summary": "SEP locator checked; journal DOI resolved and retained."
+      },
+      "open_questions": [
+        "How should Zhiyi's own formulations be distinguished from later yinian sanqian systematization?",
+        "Which practice texts should be registered separately to keep doctrine, phenomenology, and ritual context distinct?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Tiantai Buddhism",
+          "authors": "Brook Ziporyn",
+          "year": 2014,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/buddhism-tiantai/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mind and Its 'Creation' of All Phenomena in Tiantai Buddhism",
+          "authors": "Brook Ziporyn",
+          "year": 2010,
+          "venue": "Journal of Chinese Philosophy, 37(2)",
+          "url": "https://doi.org/10.1111/j.1540-6253.2010.01576.x",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1111/j.1540-6253.2010.01576.x"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-013-ghazali-faculty-heart-self",
+      "name": "Al-Ghazālī's faculty psychology and heart-self vocabulary",
+      "aliases": [
+        "Ghazalian psychology of qalb and nafs",
+        "al-Ghazālī on the inner faculties"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Faculties, self-knowledge & spiritual psychology",
+      "tradition": "Classical Islamic philosophy, theology and Sufism",
+      "status": "historically foundational · polysemous and context-sensitive",
+      "status_note": "Al-Ghazālī employs philosophical faculty theory alongside ethical, theological, and Sufi registers; the same term can function differently across works and passages.",
+      "summary": "Al-Ghazālī describes sensory and internal faculties such as imagination, estimation, memory, and intellect while also using qalb, rūḥ, nafs, and ʿaql for bodily, psychic, ethical, and spiritual aspects of the person. In the Iḥyāʾ, the 'heart' can designate the bodily organ or the subtle knowing and morally responsible center, depending on context.",
+      "proponents": [
+        "Abū Ḥāmid al-Ghazālī"
+      ],
+      "era": "late 11th–early 12th century; continuing reception",
+      "year": 1100,
+      "scope": "Al-Ghazālī's internal-sense psychology and context-dependent vocabulary for the knowing, desiring, and morally cultivated self.",
+      "keywords": [
+        "al-Ghazālī",
+        "qalb",
+        "nafs",
+        "rūḥ",
+        "ʿaql",
+        "internal senses",
+        "faculty psychology"
+      ],
+      "boundary_note": "No single English word captures qalb, nafs, rūḥ, or ʿaql across contexts. The record is about al-Ghazālī, not an undifferentiated 'Islamic view,' and it keeps Avicennian philosophical analysis distinct from ethical-spiritual usage.",
+      "claim_scope": {
+        "type": "historical philosophical-theological psychology",
+        "applies_to": "Named faculties and the multiple registers in which al-Ghazālī analyzes cognition, desire, character, and inner knowledge.",
+        "does_not_establish": "One stable component diagram for all of al-Ghazālī's works or a universal Muslim theory of consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "published primary-source translation",
+          "authoritative specialist reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "Publisher-verified Iḥyāʾ translation locator plus SEP historical analysis.",
+        "verification_summary": "Translation publication metadata and SEP authorship checked."
+      },
+      "open_questions": [
+        "How should differences among al-Ghazālī's philosophical, theological, and Iḥyāʾ vocabularies be versioned?",
+        "Which claims in later translations depend on choices among 'heart,' 'soul,' 'spirit,' 'self,' and 'intellect'?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Marvels of the Heart: Science of the Spirit",
+          "authors": "Abū Ḥāmid al-Ghazālī; translated by Walter James Skellie",
+          "year": 2010,
+          "venue": "Fons Vitae; Book 21 of Iḥyāʾ ʿUlūm al-Dīn",
+          "url": "https://www.ipgbook.com/the-marvels-of-the-heart-products-9781887752312.php",
+          "authority": "primary-source-translation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "al-Ghazali",
+          "authors": "Frank Griffel",
+          "year": 2007,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/al-ghazali/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-014-maimonidean-unitary-soul",
+      "name": "Maimonidean unitary soul and intellectual perfection",
+      "aliases": [
+        "Maimonides on the soul's faculties",
+        "Maimonidean psychology"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Soul, faculties, intellect & prophecy",
+      "tradition": "Medieval Jewish Aristotelian philosophy in Arabic intellectual context",
+      "status": "historically foundational · interpretation contested",
+      "status_note": "The unity of the soul and its faculties is textually explicit, while the precise account of active intellect, prophecy, conjunction, and individual immortality remains interpretively disputed.",
+      "summary": "Maimonides presents the human soul as one soul with nutritive, sensory, imaginative, appetitive, and rational faculties rather than as several souls. Intellectual perfection is central to human fulfillment, and the active intellect figures in his accounts of perfected knowledge and prophecy.",
+      "proponents": [
+        "Moses Maimonides"
+      ],
+      "era": "12th century; continuing Jewish philosophical reception",
+      "year": 1168,
+      "scope": "Maimonides' unitary faculty psychology and the role of intellect in human perfection and prophecy.",
+      "keywords": [
+        "Maimonides",
+        "Eight Chapters",
+        "unitary soul",
+        "faculties",
+        "active intellect",
+        "prophecy"
+      ],
+      "boundary_note": "This is a Maimonidean Jewish-Aristotelian account shaped by Arabic philosophy, not a single Jewish doctrine. Strong claims about personal immortality or conjunction with the active intellect require separate textual adjudication.",
+      "claim_scope": {
+        "type": "historical philosophical-theological psychology",
+        "applies_to": "The unity and faculties of the human soul and their role in intellectual and prophetic perfection.",
+        "does_not_establish": "A consensus Jewish account of mind or an uncontested theory of individual postmortem survival."
+      },
+      "evidence_profile": {
+        "basis": [
+          "chapter-level primary-source digital edition",
+          "authoritative specialist reference entry"
+        ],
+        "source_count": 2,
+        "citation_mix": "Eight Chapters primary locator plus SEP orientation.",
+        "verification_summary": "Sefaria chapter locator and SEP authorship checked."
+      },
+      "open_questions": [
+        "How should the Eight Chapters account be coordinated with qualified or esoteric passages in the Guide of the Perplexed?",
+        "What form of individual persistence, if any, follows from Maimonides' treatment of acquired intellect?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Eight Chapters, Chapter 1: Concerning the Human Soul and Its Faculties",
+          "authors": "Moses Maimonides",
+          "year": "ca. 1160s",
+          "venue": "Sefaria digital primary-text edition",
+          "url": "https://www.sefaria.org/Eight_Chapters.1",
+          "authority": "primary-text-digital-edition",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Maimonides",
+          "authors": "Kenneth Seeskin",
+          "year": 2006,
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/maimonides/",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-015-yoruba-person-components",
+      "name": "Yorùbá conceptions of person: ara, ẹ̀mí, orí and ọkàn",
+      "aliases": [
+        "Yorùbá concept of ènìyàn",
+        "Yorùbá psychophysical personhood debates"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT"
+      ],
+      "domain": "Personhood, agency, destiny & psychophysical vocabulary",
+      "tradition": "Yorùbá philosophical and intellectual traditions",
+      "status": "living tradition · active scholarship · internally contested",
+      "status_note": "Named Yorùbá scholars offer overlapping but nonidentical analyses; component counts, translations, and the roles assigned to orí, ẹ̀mí, ọkàn, ara, and ìwà vary by source and context.",
+      "summary": "Scholarly articulations of Yorùbá personhood analyze ènìyàn through terms including ara (body), ẹ̀mí (life-breath or life principle), orí or orí-inú (inner head, personal orientation, or destiny), ọkàn (with cognitive and affective uses), and ìwà (character or mode of being). Their boundaries and relations are disputed rather than fixed in a single canonical component chart.",
+      "proponents": [
+        "Segun Gbadegesin",
+        "E. Ayotunde Yoloye",
+        "Yorùbá intellectual and oral traditions"
+      ],
+      "era": "living traditions; 20th–21st century scholarly articulations",
+      "year": 1983,
+      "scope": "Named scholarly analyses of Yorùbá concepts used to describe embodied personhood, life, thought and feeling, destiny, agency, and character.",
+      "keywords": [
+        "Yorùbá",
+        "ènìyàn",
+        "ara",
+        "ẹ̀mí",
+        "orí",
+        "ọkàn",
+        "ìwà",
+        "personhood"
+      ],
+      "boundary_note": "There is no warrant for presenting one frozen component list as 'the African mind.' English glosses such as soul, mind, spirit, personality, and destiny are interpretive and should remain linked to the author and linguistic context that uses them.",
+      "claim_scope": {
+        "type": "situated comparative-philosophical scholarship on a living tradition",
+        "applies_to": "Named Yorùbá concepts of personhood as analyzed by specified scholars and sources.",
+        "does_not_establish": "A uniform view held by every Yorùbá person, a pan-African ontology, or exact equivalence with Western mind-body categories."
+      },
+      "evidence_profile": {
+        "basis": [
+          "book-length primary scholarly articulation",
+          "peer-reviewed primary scholarly article"
+        ],
+        "source_count": 2,
+        "citation_mix": "A Yorùbá philosopher's monograph and a DOI-indexed Yorùbá-perspective article.",
+        "verification_summary": "Book identity and table-of-contents scope checked; journal DOI resolved."
+      },
+      "open_questions": [
+        "How do regional, religious, gendered, and diasporic contexts alter the use of these person terms?",
+        "Which interpretations are linguistic descriptions, philosophical reconstructions, or claims grounded in ritual and oral knowledge?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "African Philosophy: Traditional Yoruba Philosophy and Contemporary African Realities",
+          "authors": "Segun Gbadegesin",
+          "year": 1991,
+          "venue": "Peter Lang",
+          "url": "https://books.google.com/books/about/African_Philosophy.html?id=POQQAQAAIAAJ",
+          "authority": "primary-scholarly-articulation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Personality, Education and Society: A Yoruba Perspective",
+          "authors": "E. Ayotunde Yoloye",
+          "year": 1983,
+          "venue": "International Journal of Educational Development, 3(1), 97–104",
+          "url": "https://doi.org/10.1016/0738-0593(83)90036-6",
+          "authority": "primary-scholarly-articulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/0738-0593(83)90036-6"
+        }
+      ]
+    },
+    {
+      "id": "gap-hist-016-watts-place-thought-agency",
+      "name": "Anishinaabe Place-Thought and human/nonhuman agency in Vanessa Watts",
+      "aliases": [
+        "Indigenous Place-Thought",
+        "Watts on Place-Thought"
+      ],
+      "kind": "Historical tradition",
+      "kind_codes": [
+        "HT",
+        "MF"
+      ],
+      "domain": "Place, relational agency & more-than-human mind",
+      "tradition": "Anishinaabe and Haudenosaunee scholarship; related Neshnabék articulation",
+      "status": "living situated articulation · anti-universalizing boundary required",
+      "status_note": "The record is anchored to Vanessa Watts's named argument and uses Kimmerer only as a related Neshnabék articulation, not as interchangeable evidence for every Anishinaabe or Indigenous nation.",
+      "summary": "Watts articulates Place-Thought as an Indigenous account in which land is alive and thinking and agency circulates through human and nonhuman worlds rather than belonging exclusively to humans. Kimmerer's related discussion of the grammar of animacy shows how language can sustain recognition of plants and other beings as active relations rather than inert objects.",
+      "proponents": [
+        "Vanessa Watts",
+        "Robin Wall Kimmerer as a related Neshnabék articulator"
+      ],
+      "era": "living knowledge traditions; 2013–present scholarly articulation",
+      "year": 2013,
+      "scope": "Named, place-specific Indigenous scholarly articulations of land, thought, language, and human/nonhuman agency.",
+      "keywords": [
+        "Place-Thought",
+        "Vanessa Watts",
+        "Anishinaabe",
+        "Haudenosaunee",
+        "Neshnabék",
+        "more-than-human agency",
+        "animacy"
+      ],
+      "boundary_note": "This is not a universal 'Indigenous ontology,' a generic animism category, or a claim that publication exhausts community knowledge. Nation, author, story, language, land, governance, and colonial context must remain attached to each claim.",
+      "claim_scope": {
+        "type": "situated Indigenous scholarly articulation",
+        "applies_to": "Watts's account of Place-Thought and a clearly marked related discussion of grammatical animacy by Kimmerer.",
+        "does_not_establish": "Uniform belief across Indigenous peoples, scientific evidence that all matter is conscious, or equivalence among distinct nations' knowledge systems."
+      },
+      "evidence_profile": {
+        "basis": [
+          "open-access primary scholarly articulation",
+          "peer-reviewed related primary scholarly articulation"
+        ],
+        "source_count": 2,
+        "citation_mix": "University-repository copy of Watts's article plus Kimmerer's DOI-indexed article.",
+        "verification_summary": "Repository metadata and article abstract checked; Kimmerer DOI resolved."
+      },
+      "open_questions": [
+        "What permissions and community review are appropriate before adding oral, ceremonial, legal, or land-specific knowledge beyond published scholarship?",
+        "How should the catalog represent related but nonidentical Anishinaabe, Haudenosaunee, Potawatomi, and broader Neshnabék contexts without collapsing them?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Indigenous Place-Thought and Agency Amongst Humans and Non Humans (First Woman and Sky Woman Go On a European World Tour!)",
+          "authors": "Vanessa Watts",
+          "year": 2013,
+          "venue": "Decolonization: Indigeneity, Education & Society, 2(1), 20–34",
+          "url": "https://ikdll.nau.edu/id/eprint/80/",
+          "authority": "primary-scholarly-articulation",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Learning the Grammar of Animacy",
+          "authors": "Robin Wall Kimmerer",
+          "year": 2017,
+          "venue": "Anthropology of Consciousness, 28(2), 128–134",
+          "url": "https://doi.org/10.1111/anoc.12081",
+          "authority": "primary-scholarly-articulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1111/anoc.12081"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "audit_version": "1.0.0",
+  "generated_at": "2026-08-30",
+  "scope": "Merged Noemorph catalog registered by data/catalog.json; this is a coverage audit, not a claim of exhaustiveness or a theory-synthesis product.",
+  "catalog": {
+    "version": "0.5.0-collection",
+    "catalog_hash_sha256": "85e9a147b2271795176927e8c2cfb935f08b7bf98b983171145376c20ca81387",
+    "record_count": 577,
+    "base_record_count": 207,
+    "supplement_record_count": 370,
+    "supplements": [
+      {"file": "catalog-2026-08-30-neuroscience.json", "records": 10},
+      {"file": "catalog-2026-08-30-awareness-social.json", "records": 16},
+      {"file": "catalog-2026-08-30-philosophy-history.json", "records": 16},
+      {"file": "catalog-2026-08-30-anomalous-challenge.json", "records": 22},
+      {"file": "catalog-2026-08-30-neuroscience-breadth.json", "records": 48},
+      {"file": "catalog-2026-08-30-cognitive-breadth.json", "records": 47},
+      {"file": "catalog-2026-08-30-philosophy-breadth.json", "records": 55},
+      {"file": "catalog-2026-08-30-states-clinical-breadth.json", "records": 56},
+      {"file": "catalog-2026-08-30-cross-cultural-breadth.json", "records": 65},
+      {"file": "catalog-2026-08-30-emerging-breadth.json", "records": 35}
+    ],
+    "collection_state": "provisional",
+    "provisional_records": 577,
+    "citations": 1209,
+    "unique_sources": 1004,
+    "full_profile_records": 405,
+    "shallow_profile_records": 172,
+    "full_profile_definition": "claim_scope, boundary_note, evidence_profile, and open_questions are all populated"
+  },
+  "methodology": {
+    "unit": "catalog record after supplement merge",
+    "identity_screen": "Normalized names, aliases, and structured record text were searched. A not-found result is a proposal for curator identity resolution, not proof of absence from the literature.",
+    "kind_domain_tradition": "Exact catalog field counts.",
+    "era": "Formation-start heuristic: earliest explicit four-digit year or ordinal-century onset in the era field; BCE is separated. Broad spans are assigned to their start. This is not publication-year output.",
+    "geography": "No normalized geography field exists. Counts are a conservative, mutually exclusive intellectual-provenance coding of the 112 Historical tradition records only; they are not participant location, author nationality, or source language.",
+    "evidence": "No normalized evidence-level field exists. Citation verification, source authority, profile completeness, and pending-review state are reported as proxies and must not be read as effect strength or theory support.",
+    "research_methods": "No normalized method field exists. Counts are non-exclusive, recursive keyword signals across record and citation values; a hit can describe context rather than a method actually used by a cited study.",
+    "target_families": "Non-exclusive keyword signals in structured name/domain/tradition/keyword fields; useful for triage, not an ontology or recall estimate.",
+    "external_sources": "Authoritative or primary sources are attached only where they support a proposed gap or boundary. No source was treated as evidence that the catalog is exhaustive.",
+    "synthesis_gate": "Do not infer novel theory-to-theory relationships from these counts. Normalize identities and fields, complete core profiles, then require human review of any semantic candidate before promotion."
+  },
+  "coverage": {
+    "kind": [
+      {"value": "Model or framework", "count": 154, "percent": 26.7},
+      {"value": "Scientific theory", "count": 117, "percent": 20.3},
+      {"value": "Historical tradition", "count": 112, "percent": 19.4},
+      {"value": "Philosophical position", "count": 75, "percent": 13.0},
+      {"value": "Clinical or state", "count": 37, "percent": 6.4},
+      {"value": "Phenomenological construct", "count": 33, "percent": 5.7},
+      {"value": "Argument or challenge", "count": 28, "percent": 4.9},
+      {"value": "Theory of mind or social cognition", "count": 21, "percent": 3.6}
+    ],
+    "taxonomy_fragmentation": {
+      "domain": {"distinct_values": 299, "singleton_values": 247, "singleton_percent": 82.6, "top_10_record_share_percent": 28.6},
+      "tradition": {"distinct_values": 422, "singleton_values": 385, "singleton_percent": 91.2, "top_10_record_share_percent": 19.4},
+      "catalog_status": {"distinct_values": 433, "singleton_values": 417, "singleton_percent": 96.3, "top_10_record_share_percent": 25.5},
+      "citation_authority_label": {"distinct_values": 236, "singleton_values": 165},
+      "finding": "Domain, tradition, and status values are functioning partly as prose, not controlled vocabularies; apparent breadth is inflated and filtering/coverage comparison is weakened."
+    },
+    "top_domains": [
+      {"value": "Clinical states and disorders", "count": 28},
+      {"value": "Awareness and selfhood", "count": 22},
+      {"value": "Memory and temporal consciousness", "count": 21},
+      {"value": "Anomalous and altered proposals", "count": 15},
+      {"value": "Social cognition", "count": 15},
+      {"value": "Metacognition and higher-order theories", "count": 14},
+      {"value": "Attention and access", "count": 13},
+      {"value": "Historical and comparative traditions", "count": 13},
+      {"value": "Neural dynamics and integration", "count": 13},
+      {"value": "Contemplative and altered states", "count": 11},
+      {"value": "Embodied cognition", "count": 9},
+      {"value": "Artificial intelligence and machine consciousness", "count": 7},
+      {"value": "Embodied self and affect", "count": 7},
+      {"value": "Evolutionary and comparative cognition", "count": 7},
+      {"value": "Meta-theory", "count": 7},
+      {"value": "Taxonomy and methods", "count": 7}
+    ],
+    "top_traditions": [
+      {"value": "Awareness and selfhood", "count": 18},
+      {"value": "Anomalous proposals", "count": 15},
+      {"value": "Clinical consciousness", "count": 15},
+      {"value": "Historical traditions", "count": 13},
+      {"value": "Contemplative traditions", "count": 11},
+      {"value": "Analytic philosophy of mind", "count": 10},
+      {"value": "Social cognition", "count": 9},
+      {"value": "Neural dynamics", "count": 8},
+      {"value": "Arguments and challenges", "count": 7},
+      {"value": "Embodied self", "count": 7},
+      {"value": "Metacognition and higher-order theory", "count": 7}
+    ],
+    "profile_completeness_by_kind": [
+      {"kind": "Argument or challenge", "records": 28, "full_profiles": 28, "full_profile_percent": 100.0, "records_with_primary_or_community_source": 20, "source_percent": 71.4, "records_with_pending_citations": 0},
+      {"kind": "Clinical or state", "records": 37, "full_profiles": 21, "full_profile_percent": 56.8, "records_with_primary_or_community_source": 34, "source_percent": 91.9, "records_with_pending_citations": 10},
+      {"kind": "Historical tradition", "records": 112, "full_profiles": 78, "full_profile_percent": 69.6, "records_with_primary_or_community_source": 57, "source_percent": 50.9, "records_with_pending_citations": 12},
+      {"kind": "Model or framework", "records": 154, "full_profiles": 141, "full_profile_percent": 91.6, "records_with_primary_or_community_source": 143, "source_percent": 92.9, "records_with_pending_citations": 10},
+      {"kind": "Phenomenological construct", "records": 33, "full_profiles": 10, "full_profile_percent": 30.3, "records_with_primary_or_community_source": 23, "source_percent": 69.7, "records_with_pending_citations": 5},
+      {"kind": "Philosophical position", "records": 75, "full_profiles": 56, "full_profile_percent": 74.7, "records_with_primary_or_community_source": 42, "source_percent": 56.0, "records_with_pending_citations": 6},
+      {"kind": "Scientific theory", "records": 117, "full_profiles": 63, "full_profile_percent": 53.8, "records_with_primary_or_community_source": 113, "source_percent": 96.6, "records_with_pending_citations": 25},
+      {"kind": "Theory of mind or social cognition", "records": 21, "full_profiles": 8, "full_profile_percent": 38.1, "records_with_primary_or_community_source": 21, "source_percent": 100.0, "records_with_pending_citations": 7}
+    ],
+    "evidence_proxies": {
+      "citations_by_verification_state": [
+        {"state": "doi-resolved", "count": 680, "percent": 56.2},
+        {"state": "locator-recorded", "count": 276, "percent": 22.8},
+        {"state": "human-verified", "count": 174, "percent": 14.4},
+        {"state": "pending-metadata-review", "count": 79, "percent": 6.5}
+      ],
+      "records_with_primary_or_community_source": 453,
+      "records_with_primary_or_community_source_percent": 78.5,
+      "records_with_all_citations_doi_resolved_or_human_verified": 332,
+      "records_with_all_citations_doi_resolved_or_human_verified_percent": 57.5,
+      "records_affected_by_pending_metadata_review": 75,
+      "records_affected_by_pending_metadata_review_percent": 13.0,
+      "warning": "Verification state is locator integrity, not evidential strength, replication status, or degree of support."
+    },
+    "source_concentration": {
+      "citation_assignments": 1209,
+      "unique_sources": 1004,
+      "sources_used_by_one_record": 916,
+      "sources_used_by_one_record_percent": 91.2,
+      "sources_used_by_at_least_five_records": 13,
+      "sources_used_by_at_least_five_records_percent": 1.3,
+      "finding": "The source graph is broad but extremely shallow. Claim-level citation mapping and deliberate authoritative hub sources are needed before source-overlap can support inference."
+    },
+    "era_onset_heuristic": [
+      {"bucket": "BCE", "count": 20, "percent": 3.5},
+      {"bucket": "0-600 CE", "count": 8, "percent": 1.4},
+      {"bucket": "601-1500", "count": 46, "percent": 8.0},
+      {"bucket": "1501-1800", "count": 22, "percent": 3.8},
+      {"bucket": "1801-1949", "count": 70, "percent": 12.1},
+      {"bucket": "1950-1989", "count": 88, "percent": 15.3},
+      {"bucket": "1990-2009", "count": 171, "percent": 29.6},
+      {"bucket": "2010-2019", "count": 74, "percent": 12.8},
+      {"bucket": "2020-2026", "count": 56, "percent": 9.7},
+      {"bucket": "unresolved", "count": 22, "percent": 3.8}
+    ],
+    "geography_historical_traditions_only": {
+      "denominator": 112,
+      "coding": "mutually exclusive intellectual-provenance heuristic",
+      "buckets": [
+        {"region": "Middle East and North Africa", "count": 27, "percent": 24.1},
+        {"region": "Europe and Mediterranean", "count": 25, "percent": 22.3},
+        {"region": "South Asia", "count": 24, "percent": 21.4},
+        {"region": "East Asia", "count": 17, "percent": 15.2},
+        {"region": "Africa and African diaspora", "count": 5, "percent": 4.5},
+        {"region": "Buddhist transregional or unresolved", "count": 4, "percent": 3.6},
+        {"region": "Tibetan and Himalayan", "count": 3, "percent": 2.7},
+        {"region": "Indigenous North America and Arctic", "count": 3, "percent": 2.7},
+        {"region": "Latin America and Caribbean", "count": 2, "percent": 1.8},
+        {"region": "Southeast Asia", "count": 2, "percent": 1.8},
+        {"region": "Pacific and Aboriginal Australia", "count": 0, "percent": 0.0}
+      ],
+      "finding": "The historical-tradition tranche has meaningful MENA, South Asian, and East Asian breadth, but Africa, Latin America, Indigenous Americas, Southeast Asia, and especially Pacific/Aboriginal Australian traditions remain underrepresented."
+    },
+    "target_family_keyword_signals": [
+      {"family": "core consciousness", "count": 199, "percent": 34.5},
+      {"family": "attention, awareness, and metacognition", "count": 114, "percent": 19.8},
+      {"family": "selfhood, agency, and embodiment", "count": 134, "percent": 23.2},
+      {"family": "altered states, sleep, dreams, and anesthesia", "count": 76, "percent": 13.2},
+      {"family": "animal, comparative, and evolutionary", "count": 24, "percent": 4.2},
+      {"family": "artificial and machine consciousness", "count": 34, "percent": 5.9},
+      {"family": "clinical disorders and disorders of consciousness", "count": 57, "percent": 9.9},
+      {"family": "measurement and method", "count": 73, "percent": 12.7},
+      {"family": "social mind", "count": 42, "percent": 7.3},
+      {"family": "affect and interoception", "count": 59, "percent": 10.2},
+      {"family": "memory, time, and language", "count": 61, "percent": 10.6}
+    ],
+    "research_method_keyword_signals": [
+      {"method_family": "conceptual, formal, or philosophical analysis", "count": 363, "percent": 62.9},
+      {"method_family": "historical, textual, translation, or ethnographic", "count": 202, "percent": 35.0},
+      {"method_family": "behavioral, psychophysics, or task paradigm", "count": 220, "percent": 38.1},
+      {"method_family": "self-report, psychometric, interview, or experience sampling", "count": 30, "percent": 5.2},
+      {"method_family": "EEG, MEG, or electrophysiology", "count": 24, "percent": 4.2},
+      {"method_family": "MRI, PET, fNIRS, or neuroimaging", "count": 15, "percent": 2.6},
+      {"method_family": "perturbation or stimulation", "count": 34, "percent": 5.9},
+      {"method_family": "clinical, bedside, or diagnostic", "count": 125, "percent": 21.7},
+      {"method_family": "pharmacology, anesthesia, or drug challenge", "count": 40, "percent": 6.9},
+      {"method_family": "computational, mathematical, or simulation", "count": 113, "percent": 19.6},
+      {"method_family": "cellular, molecular, or biophysical", "count": 80, "percent": 13.9},
+      {"method_family": "comparative animal or evolutionary", "count": 57, "percent": 9.9},
+      {"method_family": "developmental or infant", "count": 49, "percent": 8.5},
+      {"method_family": "systematic review, meta-analysis, or consensus", "count": 79, "percent": 13.7},
+      {"method_family": "AI, robotics, or software implementation", "count": 61, "percent": 10.6}
+    ]
+  },
+  "external_discovery_frames": {
+    "closer_to_truth": {"screened_items": 474, "likely_matches": 71, "possible_matches": 29, "not_matched": 351, "not_applicable": 23, "warning": "Episode/topic title matching has substantial alias, guest, and scope noise; not-matched titles are discovery leads, not 351 missing theories."},
+    "kuhn_landscape": {"screened_items": 219, "likely_matches": 27, "possible_matches": 48, "not_matched": 134, "not_applicable": 10, "warning": "Identity resolution is required before creating records."},
+    "tsc_2024_taxonomy": {"topic_count": 102, "group_count": 6, "source_id": "S32", "warning": "Conference topics include methods, populations, applications, and contexts; they are not all theories."}
+  },
+  "prioritized_actions": {
+    "ranked_top_15": [
+      {
+        "rank": 1,
+        "category": "existing_profile_enrichment",
+        "targets": ["Global Workspace Theory (GWT)", "Global Neuronal Workspace Theory (GNWT)"],
+        "action": "Complete separate target, mechanism, broadcast/access, prediction, evidence-for, evidence-against, variant, and claim-citation fields; do not merge the psychological and neuronal accounts.",
+        "acceptance": "Both records have all four full-profile fields, at least one primary-source locator per central claim, and an explicit GWT-versus-GNWT boundary."
+      },
+      {
+        "rank": 2,
+        "category": "existing_profile_enrichment",
+        "targets": ["Higher-Order Thought Theory (HOT)", "Higher-Order Perception / Inner Sense Theory", "Dispositional Higher-Order Thought Theory", "Higher-Order Global States Theory (HOGS)"],
+        "action": "Build a parent/variant family and encode differences in higher-order state type, actuality/disposition, global/local scope, misrepresentation, and unconscious first-order states.",
+        "acceptance": "No variant is represented as an alias; each has a cited differentiating claim and open objections."
+      },
+      {
+        "rank": 3,
+        "category": "existing_profile_enrichment",
+        "targets": ["Attention Schema Theory (AST)", "Awareness and attention distinction"],
+        "action": "Separate AST's model-of-attention claim from generic attention/consciousness correlation and encode testable predictions and dissociations.",
+        "acceptance": "AST mechanism, target, evidence, alternatives, and relation to the construct record are explicitly bounded."
+      },
+      {
+        "rank": 4,
+        "category": "existing_profile_enrichment",
+        "targets": ["Predictive processing approaches to consciousness", "Predictive Global Neuronal Workspace"],
+        "action": "Disaggregate umbrella predictive-processing claims from the specific hybrid architecture; record precision weighting, hierarchy, content/level target, and falsifiable predictions.",
+        "acceptance": "Umbrella, variant, and hybrid records are identity-resolved with non-circular prediction fields."
+      },
+      {
+        "rank": 5,
+        "category": "existing_profile_enrichment",
+        "targets": ["Dynamic Core Hypothesis"],
+        "action": "Complete integration/differentiation, reentrant dynamics, temporal-core, and evidence-boundary fields; distinguish it from Neural Darwinism and IIT.",
+        "acceptance": "The record contains primary claims, explicit neighboring-theory boundaries, evidence for and against, and unresolved measurement questions."
+      },
+      {
+        "rank": 6,
+        "category": "existing_construct_enrichment",
+        "targets": ["Phenomenal consciousness", "Access consciousness", "Global-state and local-content distinction", "Intentionality and aboutness", "Phenomenal intentionality"],
+        "action": "Treat these as constructs/distinctions, not causal theories; add origin, operational use, contested interpretations, counterexamples, and claim-level sources.",
+        "acceptance": "Each record exposes a clear construct-versus-theory boundary and does not generate causal edges by type confusion."
+      },
+      {
+        "rank": 7,
+        "category": "existing_profile_enrichment",
+        "targets": ["Self-Model Theory of Subjectivity / Phenomenal Self-Model", "Interoceptive inference / Beast Machine", "Minimal-self and narrative-self distinction", "Interoceptive awareness"],
+        "action": "Encode model/construct boundaries and separate ownership, agency, embodiment, interoception, narrative identity, and phenomenal transparency claims.",
+        "acceptance": "Every proposed connection is tied to a shared or contrasting claim, not lexical similarity around self."
+      },
+      {
+        "rank": 8,
+        "category": "missing_named_theory_family",
+        "targets": ["Neodissociation theory", "Dissociated Control theory", "Cold Control theory", "Response Expectancy / Response Set theory", "sociocognitive hypnosis accounts"],
+        "action": "Create a curator-reviewed hypnosis family with theory records plus separate agency, involuntariness, suggestibility, and instrument records.",
+        "acceptance": "Each theory is sourced, non-duplicative, and mapped to distinct mechanisms and discriminating predictions; scales are typed as measures."
+      },
+      {
+        "rank": 9,
+        "category": "class_depth_remediation",
+        "targets": ["Phenomenological construct class", "Theory of mind or social cognition class", "Scientific theory class", "Clinical or state class"],
+        "action": "Complete shallow profiles in the four weakest classes before adding long-tail candidates: current full-profile rates are 30.3%, 38.1%, 53.8%, and 56.8% respectively.",
+        "acceptance": "Each class reaches at least 80% full profiles or all remaining shallow records have an explicit quarantine reason."
+      },
+      {
+        "rank": 10,
+        "category": "missing_architecture_family",
+        "targets": ["ACT-R", "Soar", "CLARION", "EPIC", "Sigma", "Leabra"],
+        "action": "Add bounded architecture-of-mind records with modules, learning mechanisms, implementation evidence, scope, and explicit non-equivalence to phenomenal-consciousness theories.",
+        "acceptance": "All identities are verified against authoritative project or primary sources and EPIC is not confused with Epicurean records."
+      },
+      {
+        "rank": 11,
+        "category": "missing_self_awareness_models",
+        "targets": ["Pattern Theory of Self", "Cognitive Awareness Model of anosognosia"],
+        "action": "Add integrative-self and clinical-awareness models with target populations, mechanism, assessment linkage, variants, and evidence limits.",
+        "acceptance": "The records remain distinct from minimal/narrative-self constructs and from generic anosognosia state descriptions."
+      },
+      {
+        "rank": 12,
+        "category": "comparative_evidence_dossiers",
+        "targets": ["mammals", "birds", "fish", "cephalopods", "decapod crustaceans", "insects"],
+        "action": "Create per-taxon dossiers covering neural architecture, behavior, analgesia/anesthesia, motivational trade-offs, metacognition, alternative explanations, and confidence.",
+        "acceptance": "No conscious/not-conscious verdict is generated from a single marker; every conclusion is dimensional and uncertainty-coded."
+      },
+      {
+        "rank": 13,
+        "category": "measurement_and_method_ontology",
+        "targets": ["PCI-ST", "coalition entropies", "Motor Behavior Tool-Revised", "SECONDs", "SWADOC", "Descriptive Experience Sampling", "micro-phenomenological interview", "Experience Sampling Method"],
+        "action": "Add measure/method records with validation population, target construct, reliability, confounders, variants, and links to—not identity with—theories.",
+        "acceptance": "Measures and methods cannot appear as theory nodes and variants inherit from a parent measure family."
+      },
+      {
+        "rank": 14,
+        "category": "artificial_consciousness_evidence_layers",
+        "targets": ["Reggia research program", "Gamez MC1-MC4 taxonomy", "Synthetic Phenomenology", "indicator implementation dossiers", "AI welfare and moral uncertainty"],
+        "action": "Separate research programs, taxonomies, indicators, implementation evidence, behavioral claims, and ethical precaution into typed records.",
+        "acceptance": "No theory-derived indicator or simulation result is promoted to a consciousness verdict; implementation and welfare claims have independent sources."
+      },
+      {
+        "rank": 15,
+        "category": "provenance_and_geography_remediation",
+        "targets": ["Pacific and Aboriginal Australian", "Southeast Asian", "Latin American and Caribbean", "Indigenous American", "sub-Saharan African", "non-English scholarship"],
+        "action": "Commission source-positioned dossiers and add geography, language, translator, community, genre, and interpretive-provenance fields.",
+        "acceptance": "Coverage is documented through primary/community scholarship where available and avoids one-row decontextualized tradition summaries."
+      }
+    ],
+    "P0_existing_core_profile_enrichment": {
+      "priority": 0,
+      "reason": "The highest-risk gap is shallow treatment of canonical records already in the graph. Enrich before using embeddings or adding speculative relationships.",
+      "catalog_wide_shallow_count": 172,
+      "first_tranche_records": [
+        "Global Workspace Theory (GWT)",
+        "Global Neuronal Workspace Theory (GNWT)",
+        "Higher-Order Thought Theory (HOT)",
+        "Higher-Order Perception / Inner Sense Theory",
+        "Dispositional Higher-Order Thought Theory",
+        "Higher-Order Global States Theory (HOGS)",
+        "Attention Schema Theory (AST)",
+        "Dynamic Core Hypothesis",
+        "Predictive processing approaches to consciousness",
+        "Predictive Global Neuronal Workspace",
+        "Interoceptive inference / Beast Machine",
+        "Self-Model Theory of Subjectivity / Phenomenal Self-Model",
+        "Illusionism about phenomenal consciousness",
+        "Phenomenal consciousness",
+        "Access consciousness",
+        "Global-state and local-content distinction",
+        "Intentionality and aboutness",
+        "Minimal-self and narrative-self distinction",
+        "Phenomenal intentionality",
+        "Shared intentionality",
+        "Interoceptive awareness",
+        "Awareness and attention distinction"
+      ],
+      "required_fields": ["claim_scope", "boundary_note", "evidence_profile", "open_questions", "claim_level_citations", "identity_aliases"],
+      "completion_rule": "Each profile must separate target phenomenon, mechanism, predictions, evidence for and against, theory variants, and current contested status."
+    },
+    "P0_missing_named_theory_or_model_families": [
+      {
+        "family": "Hypnosis and hypnotic agency",
+        "record_type": "named theories/models",
+        "catalog_match": "not found after name, alias, and structured-text screen",
+        "members": ["Neodissociation theory", "Dissociated Control theory", "Cold Control theory", "Response Expectancy / Response Set theory", "sociocognitive and integrative social-cognitive accounts of hypnosis"],
+        "why_high_impact": "The catalog contains altered-state breadth but lacks the field's major competing causal accounts of hypnotic experience, agency, response, and social context.",
+        "source_ids": ["S01", "S02", "S03", "S04"]
+      },
+      {
+        "family": "Self-awareness and anosognosia",
+        "record_type": "named theories/models",
+        "catalog_match": "not found after name, alias, and structured-text screen",
+        "members": ["Pattern Theory of Self", "Cognitive Awareness Model of anosognosia"],
+        "why_high_impact": "These provide integrative and clinically testable accounts of self-patterning and impaired self-awareness that are not interchangeable with existing minimal/narrative-self constructs.",
+        "source_ids": ["S10", "S11", "S12"]
+      },
+      {
+        "family": "General cognitive architectures",
+        "record_type": "architectural models of mind, not consciousness theories by default",
+        "catalog_match": "not found after name, alias, and structured-text screen",
+        "members": ["ACT-R", "Soar", "CLARION", "EPIC", "Sigma", "Leabra"],
+        "why_high_impact": "A project cataloging theories of mind needs bounded representation of major integrative architectures, while explicitly preventing their relabeling as theories of phenomenal consciousness.",
+        "source_ids": ["S13", "S14", "S15", "S16"]
+      },
+      {
+        "family": "Social and interactive mind",
+        "record_type": "named theories/models and one challenge",
+        "catalog_match": "not found after name, alias, and structured-text screen",
+        "members": ["Social Baseline Theory", "Interactive Alignment Model", "Relational Frame Theory", "Double Empathy Problem"],
+        "why_high_impact": "The 21-record social-mind class is shallow and misses influential accounts spanning energetic/social regulation, dialogue, relational learning, and reciprocal misunderstanding.",
+        "source_ids": ["S22", "S23", "S24", "S25"]
+      },
+      {
+        "family": "Neural reuse and redeployment",
+        "record_type": "named theory/framework",
+        "catalog_match": "not found after name, alias, and structured-text screen",
+        "members": ["Massive Redeployment Hypothesis", "Neural Reuse"],
+        "why_high_impact": "These constrain how cognitive functions and architectures should be mapped onto neural systems and provide an important counterweight to one-region/one-function assumptions.",
+        "source_ids": ["S20", "S21"]
+      }
+    ],
+    "P1_missing_named_theory_or_model_families": [
+      {
+        "family": "Mindfulness and transformative altered states",
+        "record_type": "named models",
+        "members": ["Monitor and Acceptance Theory", "Mindfulness-to-Meaning Theory", "Reperceiving / Intention-Attention-Attitude model", "Pivotal Mental States model"],
+        "source_ids": ["S05", "S06", "S07", "S08", "S09"]
+      },
+      {
+        "family": "Dream function",
+        "record_type": "named theory",
+        "members": ["Social Simulation Theory of Dreaming", "Continual-Activation Theory of Dreaming"],
+        "boundary": "Treat dream function, dream generation, and dream consciousness as different targets; require primary-source verification before adding the continual-activation record.",
+        "source_ids": ["S26", "S27"]
+      },
+      {
+        "family": "Reasoning and general cognition",
+        "record_type": "named theories of cognition",
+        "members": ["Mental Models Theory of reasoning", "domain-general Dual-Process theories"],
+        "boundary": "Do not merge with the existing Shared Mental Models or Dual-Process Recognition Memory records.",
+        "source_ids": ["S17", "S18", "S19"]
+      },
+      {
+        "family": "Machine-consciousness research foundations",
+        "record_type": "research programs and taxonomies, not evidence that current AI is conscious",
+        "members": ["Reggia computational machine-consciousness research program", "Gamez MC1-MC4 taxonomy", "Synthetic Phenomenology research program"],
+        "source_ids": ["S28", "S29", "S30"]
+      },
+      {
+        "family": "Clinical neural mechanisms",
+        "record_type": "clinical mechanism",
+        "members": ["Thalamocortical Dysrhythmia"],
+        "boundary": "Do not label as a standalone general theory of consciousness.",
+        "source_ids": ["S31"]
+      }
+    ],
+    "missing_or_underdeveloped_construct_records": [
+      {
+        "construct": "Hypnotic agency, involuntariness, and suggestibility",
+        "record_type": "construct family",
+        "reason": "Needed to compare hypnosis theories without treating a measurement scale or induction protocol as a theory.",
+        "source_ids": ["S01", "S02", "S03"]
+      },
+      {
+        "construct": "Pivotal or plasticity-enhanced mental state",
+        "record_type": "cross-state construct",
+        "reason": "Should remain distinct from the Pivotal Mental States causal model and from any claim that psychedelics, trauma, psychosis, and spiritual experiences are equivalent.",
+        "source_ids": ["S09"]
+      },
+      {
+        "construct": "Multidimensional animal-consciousness profile",
+        "record_type": "comparative construct and coding frame",
+        "reason": "A one-dimensional conscious/not-conscious field erases perceptual, affective, evaluative, temporal, self-related, and social dimensions.",
+        "source_ids": ["S35"]
+      },
+      {
+        "construct": "Cognitive-motor dissociation and covert command following",
+        "record_type": "clinical construct enrichment",
+        "reason": "Represent as a clinical interpretation layer tied to validated paradigms, not as a theory of consciousness.",
+        "source_ids": ["S42", "S43"]
+      }
+    ],
+    "missing_or_underdeveloped_measure_and_method_records": [
+      {
+        "group": "Perturbational and signal-diversity measures",
+        "members": ["PCI-ST as a validated variant of the existing PCI record", "amplitude coalition entropy", "synchrony coalition entropy", "aperiodic spectral-exponent marker", "pupillometry markers"],
+        "record_type": "measure or emerging marker, never theory",
+        "source_ids": ["S38", "S39"]
+      },
+      {
+        "group": "Bedside and rehabilitation measures",
+        "members": ["Motor Behavior Tool-Revised", "SECONDs", "SWADOC", "Coma/Near-Coma Scale", "Loewenstein Communication Scale"],
+        "record_type": "clinical measure",
+        "source_ids": ["S40", "S41", "S42", "S43", "S44"]
+      },
+      {
+        "group": "First-person and ecological sampling",
+        "members": ["Descriptive Experience Sampling", "micro-phenomenological interview", "Experience Sampling Method"],
+        "record_type": "research method",
+        "source_ids": ["S45", "S46", "S47"]
+      },
+      {
+        "group": "Hypnotizability instruments",
+        "members": ["Stanford Hypnotic Susceptibility Scales", "Harvard Group Scale of Hypnotic Susceptibility", "Elkins Hypnotizability Scale"],
+        "record_type": "psychometric instrument",
+        "source_ids": ["S01"]
+      },
+      {
+        "group": "Comparative markers",
+        "members": ["trace conditioning paradigms", "species-appropriate metacognitive uncertainty paradigms", "analgesic-preference and motivational trade-off paradigms"],
+        "record_type": "method family",
+        "boundary": "A marker is not sufficient evidence of phenomenal consciousness; store validation population, task demands, alternative explanations, and uncertainty.",
+        "source_ids": ["S34", "S35", "S36"]
+      }
+    ],
+    "missing_context_and_evidence_dossiers": [
+      {
+        "context": "Per-taxon animal-consciousness dossiers",
+        "members": ["non-human mammals", "birds", "fish", "cephalopods", "decapod crustaceans", "insects"],
+        "reason": "The existing declaration and dimensions records cannot substitute for taxon-specific anatomy, behavior, pharmacology, competing explanations, and confidence coding.",
+        "source_ids": ["S34", "S35", "S36"]
+      },
+      {
+        "context": "Artificial-consciousness evidence and welfare",
+        "members": ["indicator implementation dossiers", "architecture-to-indicator traceability", "AI welfare and moral-patienthood uncertainty", "synthetic-phenomenology methods"],
+        "reason": "Separate theory-derived indicators from implementation evidence and from ethical precaution; none licenses a present-consciousness verdict.",
+        "source_ids": ["S30", "S37"]
+      },
+      {
+        "context": "Clinical boundary conditions",
+        "members": ["brain-death and determination-of-death frameworks", "locked-in syndrome", "akinetic mutism", "pediatric disorders of consciousness", "confounders from sedation, aphasia, sensory loss, and motor impairment"],
+        "source_ids": ["S42", "S43"]
+      },
+      {
+        "context": "Adversarial theory testing",
+        "members": ["2025 IIT-GNWT adversarial collaboration", "preregistered prediction matrix", "result-to-claim mapping", "negative and ambiguous outcomes"],
+        "reason": "Store direct experimental constraints without converting them into a winner-take-all ranking or inferred synthesis edge.",
+        "source_ids": ["S33"]
+      },
+      {
+        "context": "Underrepresented intellectual geographies and languages",
+        "members": ["Pacific and Aboriginal Australian traditions", "Southeast Asian traditions", "Latin American and Caribbean traditions", "Indigenous American traditions", "sub-Saharan African traditions", "non-English primary-source and community scholarship"],
+        "reason": "Commission source-positioned dossiers with language, translator, community, and interpretive provenance instead of adding decontextualized one-row summaries."
+      }
+    ],
+    "schema_and_workflow_actions": [
+      {"priority": 0, "action": "Replace prose-like domain, tradition, and catalog-status fields with controlled identifiers plus display labels; retain original strings for migration audit."},
+      {"priority": 0, "action": "Add normalized evidence_level, evidence_target, research_method, population_or_system, measurement, geography, source_language, and record_type fields."},
+      {"priority": 0, "action": "Add claim-level citations with claim text/hash, source locator, quotation/paraphrase status, authority role, verification state, and support/challenge/neutral stance."},
+      {"priority": 0, "action": "Add parent/variant/version relationships so measures such as PCI-ST enrich PCI rather than becoming duplicate theories."},
+      {"priority": 0, "action": "Run alias and identity resolution before adding any proposed record; specifically guard against Epicurean/EPIC, Shared Mental Models/Mental Models Theory, and recognition-memory/domain-general dual-process collisions."},
+      {"priority": 1, "action": "Create stratified coverage dashboards using controlled fields; do not use raw distinct prose labels as diversity metrics."},
+      {"priority": 1, "action": "Require two-stage human review for semantic candidates: bibliographic identity review, then substantive relationship review with cited claim evidence."},
+      {"priority": 1, "action": "Keep synthesis and novel-edge promotion locked until the core-profile tranche, pending citation review, and controlled-field migration pass acceptance criteria."}
+    ]
+  },
+  "confirmed_present_do_not_duplicate": [
+    "AIR Theory",
+    "Entropic Brain Hypothesis",
+    "Integrated Information Decomposition",
+    "Dynamic Core Hypothesis",
+    "Neural Darwinism",
+    "Integrated World Modeling Theory",
+    "Unlimited Associative Learning",
+    "Neurobiological Naturalism",
+    "Self-Model Theory of Subjectivity",
+    "Judgement Bias Paradigm",
+    "Dendritic Integration Theory",
+    "Commensurability framework",
+    "Perturbational Complexity Index",
+    "Coma Recovery Scale-Revised",
+    "Glasgow Coma Scale",
+    "FOUR Score",
+    "Wessex Head Injury Matrix",
+    "Sensory Modality Assessment and Rehabilitation Technique",
+    "Disorders of Consciousness Scale",
+    "Nociception Coma Scale-Revised",
+    "Music Therapy Assessment Tool for Awareness in Disorders of Consciousness",
+    "Bispectral Index",
+    "Patient State Index",
+    "State Entropy and Response Entropy",
+    "Observer's Assessment of Alertness/Sedation",
+    "Richmond Agitation-Sedation Scale",
+    "Modified Brice Interview",
+    "Lempel-Ziv complexity",
+    "weighted symbolic mutual information",
+    "local-global auditory paradigm",
+    "fMRI motor imagery paradigm",
+    "no-report paradigms",
+    "infant consciousness markers",
+    "New York Declaration on Animal Consciousness",
+    "Cambridge Declaration on Consciousness",
+    "Dimensions of Animal Consciousness framework",
+    "theory-derived indicators of AI consciousness",
+    "ConsScale"
+  ],
+  "sources": [
+    {"id": "S01", "title": "Theories of hypnosis: A systematic review and conceptual analysis", "url": "https://doi.org/10.1016/j.concog.2024.103730", "role": "hypnosis theory landscape"},
+    {"id": "S02", "title": "Sociocognitive and dissociation theories of hypnosis", "url": "https://pubmed.ncbi.nlm.nih.gov/21644121/", "role": "hypnosis theory comparison"},
+    {"id": "S03", "title": "Cold control theory of hypnosis", "url": "https://doi.org/10.1016/j.neubiorev.2009.10.007", "role": "primary theory source"},
+    {"id": "S04", "title": "Response-set theory of hypnosis", "url": "https://doi.org/10.1080/00029157.2000.10734362", "role": "primary theory source"},
+    {"id": "S05", "title": "Monitor and Acceptance Theory", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5195874/", "role": "primary model source"},
+    {"id": "S06", "title": "Mindfulness-to-Meaning Theory", "url": "https://pubmed.ncbi.nlm.nih.gov/27087765/", "role": "primary model source"},
+    {"id": "S07", "title": "Mindfulness-to-Meaning Theory empirical test", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718463/", "role": "model test"},
+    {"id": "S08", "title": "Reperceiving as a mechanism of mindfulness", "url": "https://doi.org/10.1002/jclp.20237", "role": "primary model source"},
+    {"id": "S09", "title": "Pivotal mental states", "url": "https://journals.sagepub.com/doi/10.1177/0269881120959637", "role": "primary model source"},
+    {"id": "S10", "title": "A Pattern Theory of Self", "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00443/full", "role": "primary theory source"},
+    {"id": "S11", "title": "Cognitive Awareness Model reformulation", "url": "https://doi.org/10.1016/j.cortex.2012.09.006", "role": "clinical model source"},
+    {"id": "S12", "title": "Implicit awareness in anosognosia", "url": "https://pubmed.ncbi.nlm.nih.gov/24251606/", "role": "clinical evidence and boundary"},
+    {"id": "S13", "title": "ACT-R official research project", "url": "https://act-r.psy.cmu.edu/", "role": "architecture authority"},
+    {"id": "S14", "title": "Soar: An architecture for general intelligence", "url": "https://doi.org/10.1016/0004-3702(87)90050-6", "role": "primary architecture source"},
+    {"id": "S15", "title": "The CLARION cognitive architecture", "url": "https://doi.org/10.1080/09528130701191560", "role": "primary architecture source"},
+    {"id": "S16", "title": "Executive-Process/Interactive-Control architecture", "url": "https://doi.org/10.1207/s15327051hci1204_4", "role": "primary architecture source"},
+    {"id": "S17", "title": "Mental models in reasoning", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2972923/", "role": "primary theory and evidence source"},
+    {"id": "S18", "title": "Dual-process theories of higher cognition", "url": "https://doi.org/10.1177/1745691612460685", "role": "theory review"},
+    {"id": "S19", "title": "Mental Models Theory DOI record", "url": "https://doi.org/10.1073/pnas.1012933107", "role": "primary theory source"},
+    {"id": "S20", "title": "Neural reuse: a fundamental organizational principle", "url": "https://pubmed.ncbi.nlm.nih.gov/20964882/", "role": "theory review"},
+    {"id": "S21", "title": "Massive Redeployment Hypothesis", "url": "https://doi.org/10.1007/s11229-007-9233-2", "role": "primary theory source"},
+    {"id": "S22", "title": "Social Baseline Theory", "url": "https://doi.org/10.1111/j.1751-9004.2011.00400.x", "role": "primary theory source"},
+    {"id": "S23", "title": "Interactive Alignment Model", "url": "https://doi.org/10.1017/S0140525X04000056", "role": "primary theory source"},
+    {"id": "S24", "title": "The double empathy problem", "url": "https://doi.org/10.1080/09687599.2012.710008", "role": "primary challenge source"},
+    {"id": "S25", "title": "Relational Frame Theory", "url": "https://doi.org/10.1007/b108413", "role": "primary book locator"},
+    {"id": "S26", "title": "Social Simulation Theory of Dreaming", "url": "https://doi.org/10.15502/9783958570375", "role": "primary theory source"},
+    {"id": "S27", "title": "Empirical test of Social Simulation Theory", "url": "https://pubmed.ncbi.nlm.nih.gov/30769273/", "role": "theory test"},
+    {"id": "S28", "title": "The rise of machine consciousness", "url": "https://pubmed.ncbi.nlm.nih.gov/23597599/", "role": "machine-consciousness program review"},
+    {"id": "S29", "title": "Progress in machine consciousness", "url": "https://doi.org/10.1016/j.concog.2007.04.005", "role": "MC1-MC4 taxonomy source"},
+    {"id": "S30", "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness", "url": "https://arxiv.org/abs/2308.08708", "role": "theory-derived indicator framework"},
+    {"id": "S31", "title": "Thalamocortical dysrhythmia", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC24801/", "role": "primary clinical mechanism source"},
+    {"id": "S32", "title": "Toward a Science of Consciousness 2024 taxonomy", "url": "https://consciousness.arizona.edu/sites/consciousness.arizona.edu/files/2024-02/NEW%20TAXONOMY%20for%20TSC_2024.pdf", "role": "external scope frame"},
+    {"id": "S33", "title": "Adversarial testing of global neuronal workspace and integrated information theories", "url": "https://www.nature.com/articles/s41586-025-08888-1", "role": "direct theory-comparison evidence"},
+    {"id": "S34", "title": "New York Declaration on Animal Consciousness", "url": "https://sites.google.com/nyu.edu/nydeclaration/declaration", "role": "expert declaration and scope"},
+    {"id": "S35", "title": "Dimensions of Animal Consciousness", "url": "https://doi.org/10.1016/j.tics.2020.07.007", "role": "comparative construct framework"},
+    {"id": "S36", "title": "Review of evidence of sentience in cephalopod molluscs and decapod crustaceans", "url": "https://www.lse.ac.uk/asset-library/news/sentience-in-cephalopod-molluscs-and-decapod-crustaceans-final-report-november-2021.pdf", "role": "taxon evidence synthesis"},
+    {"id": "S37", "title": "Theory-derived indicators of AI consciousness", "url": "https://arxiv.org/abs/2308.08708", "role": "AI evidence-boundary framework"},
+    {"id": "S38", "title": "Perturbational Complexity Index based on a single-channel EEG", "url": "https://doi.org/10.1016/j.brs.2019.05.013", "role": "measure variant"},
+    {"id": "S39", "title": "Algorithmic complexity for the consciousness level of humans and other animals", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4529106/", "role": "signal-diversity measures"},
+    {"id": "S40", "title": "Motor Behavior Tool-Revised validation", "url": "https://doi.org/10.1002/ana.25417", "role": "clinical measure"},
+    {"id": "S41", "title": "SECONDs validation", "url": "https://doi.org/10.1016/j.rehab.2020.09.001", "role": "clinical measure"},
+    {"id": "S42", "title": "SWADOC validation protocol", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8116670/", "role": "clinical measure and context"},
+    {"id": "S43", "title": "AAN guideline update for disorders of consciousness", "url": "https://pubmed.ncbi.nlm.nih.gov/30089618/", "role": "clinical guideline"},
+    {"id": "S44", "title": "Loewenstein Communication Scale", "url": "https://pubmed.ncbi.nlm.nih.gov/12119078/", "role": "clinical measure"},
+    {"id": "S45", "title": "Descriptive Experience Sampling", "url": "https://doi.org/10.1080/14780880903009274", "role": "first-person method"},
+    {"id": "S46", "title": "Micro-phenomenology interview method", "url": "https://doi.org/10.1007/s11097-006-9022-2", "role": "first-person method"},
+    {"id": "S47", "title": "Experience Sampling Method", "url": "https://pubmed.ncbi.nlm.nih.gov/3655778/", "role": "ecological self-report method"}
+  ],
+  "bottom_line": {
+    "exhaustiveness_assessment": "not yet defensible",
+    "highest_risk": "Canonical core records and high-value constructs are unevenly profiled; taxonomy fields are too fragmented for trustworthy comparative coverage.",
+    "next_sequence": [
+      "normalize identities and controlled fields",
+      "enrich the 22-record P0 core tranche and resolve 75 pending-citation records",
+      "add source-backed missing named families after curator identity review",
+      "add measures, constructs, and context as separate record types",
+      "build taxon, geography, language, and clinical-boundary dossiers",
+      "only then review semantic candidates and consider synthesis"
+    ]
+  }
+}

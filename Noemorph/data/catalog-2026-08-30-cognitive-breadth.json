@@ -1,0 +1,2741 @@
+{
+  "collection": {
+    "title": "Cognitive breadth expansion: attention, self, agency, time, memory, language, affect, development, comparative, collective, and machine social cognition",
+    "created": "2026-08-30",
+    "record_count": 47,
+    "phase": "collection-only",
+    "scope": "Provisional breadth records absent from the merged 249-record Noemorph corpus. This shard covers named theories, models, frameworks, and bounded empirical constructs across cognitive domains adjacent to or constitutive of research on mind and consciousness.",
+    "method": "Exact-name, alias, and citation-locator collision audit against catalog.json and every 2026-08-30 shard, followed by verification against DOI metadata, official proceedings, publisher records, PubMed, and the Stanford Encyclopedia of Philosophy.",
+    "boundary_policy": "Adjacent attention, timing, memory, group, and machine models explicitly state what they do and do not claim about phenomenal consciousness.",
+    "attribution_policy": "Claims remain local to each named record and cited authors. No inter-theory relationship, convergence, compatibility, causal synthesis, or ranking is asserted.",
+    "review_state": "provisional"
+  },
+  "records": [
+    {
+      "id": "candidate-guided-search-model",
+      "name": "Guided Search Model of Visual Search",
+      "aliases": [
+        "Guided Search",
+        "Guided Search 2.0"
+      ],
+      "kind": "Model or framework",
+      "domain": "Attention & conscious access",
+      "tradition": "Experimental visual search / computational attention",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Successive versions revise feature guidance, scene structure, search history, and target templates and should not be collapsed.",
+      "summary": "Parallel feature processing generates priority signals that guide limited-capacity selection toward likely target locations using both salience and top-down target information.",
+      "proponents": [
+        "Jeremy M. Wolfe",
+        "Kyle R. Cave",
+        "Susan L. Franzel"
+      ],
+      "year": 1989,
+      "era": "1989–present",
+      "boundary_note": "Guided Search predicts selection and search order; it neither defines conscious visibility nor makes all selected items conscious.",
+      "claim_scope": "Target selection and search efficiency in cluttered displays and scenes.",
+      "evidence_profile": "Reaction-time slopes, eye movements, feature and conjunction search, and computational simulation.",
+      "open_questions": [
+        "How should guidance be modeled in natural dynamic scenes?",
+        "What priority-map information is consciously reportable?"
+      ],
+      "keywords": [
+        "visual search",
+        "priority map",
+        "attentional guidance",
+        "target template"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Guided search: An alternative to the feature integration model for visual search.",
+          "authors": "Jeremy M. Wolfe; Kyle R. Cave; Susan L. Franzel",
+          "year": 1989,
+          "venue": "Journal of Experimental Psychology: Human Perception and Performance 15(3): 419-433",
+          "url": "https://doi.org/10.1037/0096-1523.15.3.419",
+          "doi": "10.1037/0096-1523.15.3.419",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Guided Search 2.0 A revised model of visual search",
+          "authors": "Jeremy M. Wolfe",
+          "year": 1994,
+          "venue": "Psychonomic Bulletin &amp; Review 1(2): 202-238",
+          "url": "https://doi.org/10.3758/BF03200774",
+          "doi": "10.3758/BF03200774",
+          "authority": "primary-self-revision",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-attention-network-theory",
+      "name": "Attention Network Theory",
+      "aliases": [
+        "alerting–orienting–executive framework"
+      ],
+      "kind": "Model or framework",
+      "domain": "Attention & conscious access",
+      "tradition": "Cognitive neuroscience / network neuropsychology",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Alerting, orienting, and executive distinctions remain productive while later network mapping refines their independence and interaction.",
+      "summary": "Attention comprises partially separable systems for alertness, sensory orienting, and executive conflict resolution, with characteristic brain networks and neuromodulatory influences.",
+      "proponents": [
+        "Michael I. Posner",
+        "Steven E. Petersen"
+      ],
+      "year": 1990,
+      "era": "1990–present",
+      "boundary_note": "The framework decomposes attention functions; no network is thereby identified as sufficient for consciousness.",
+      "claim_scope": "Functional and neural organization of alerting, orienting, and executive attention.",
+      "evidence_profile": "Cueing and conflict tasks, lesions, neuroimaging, electrophysiology, genetics, and development.",
+      "open_questions": [
+        "How do modern control networks map onto the original executive system?",
+        "Which network operations proceed without awareness?"
+      ],
+      "keywords": [
+        "alerting",
+        "orienting",
+        "executive attention",
+        "attention networks"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Attention System of the Human Brain",
+          "authors": "Michael I. Posner; Steven E. Petersen",
+          "year": 1990,
+          "venue": "Annual Review of Neuroscience 13: 25–42",
+          "url": "https://doi.org/10.1146/annurev.ne.13.030190.000325",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "doi": "10.1146/annurev.ne.13.030190.000325",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Attention System of the Human Brain: 20 Years After",
+          "authors": "Steven E. Petersen; Michael I. Posner",
+          "year": 2012,
+          "venue": "Annual Review of Neuroscience 35(1): 73-89",
+          "url": "https://doi.org/10.1146/annurev-neuro-062111-150525",
+          "doi": "10.1146/annurev-neuro-062111-150525",
+          "authority": "primary-self-revision",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-attentional-blink",
+      "name": "Attentional Blink",
+      "aliases": [
+        "AB"
+      ],
+      "kind": "Phenomenological construct",
+      "domain": "Attention & conscious access",
+      "tradition": "Temporal attention / rapid serial visual presentation",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The second-target deficit is robust, but bottleneck, gating, episodic-integration, and resource accounts compete.",
+      "summary": "When two targets occur close together in a rapid stream, report of the second is often impaired for several hundred milliseconds despite preserved processing in some conditions.",
+      "proponents": [
+        "Jane E. Raymond",
+        "Kimron L. Shapiro",
+        "Karen M. Arnell",
+        "Marvin M. Chun",
+        "Mary C. Potter"
+      ],
+      "year": 1992,
+      "era": "1992–present",
+      "boundary_note": "The blink is an experimental access failure, not a standalone theory of consciousness; missed targets can retain objective processing.",
+      "claim_scope": "Temporal limits on selection, consolidation, and report of successive targets.",
+      "evidence_profile": "Rapid serial visual presentation, lag functions, priming, electrophysiology, and model comparison.",
+      "open_questions": [
+        "Which stage produces the blink across tasks?",
+        "When does an unreported target retain semantic or phenomenal processing?"
+      ],
+      "keywords": [
+        "attentional blink",
+        "temporal attention",
+        "RSVP",
+        "conscious access"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Temporary suppression of visual processing in an RSVP task: An attentional blink?",
+          "authors": "Jane E. Raymond; Kimron L. Shapiro; Karen M. Arnell",
+          "year": 1992,
+          "venue": "Journal of Experimental Psychology: Human Perception and Performance 18(3): 849-860",
+          "url": "https://doi.org/10.1037/0096-1523.18.3.849",
+          "doi": "10.1037/0096-1523.18.3.849",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A two-stage model for multiple target detection in rapid serial visual presentation.",
+          "authors": "Marvin M. Chun; Mary C. Potter",
+          "year": 1995,
+          "venue": "Journal of Experimental Psychology: Human Perception and Performance 21(1): 109-127",
+          "url": "https://doi.org/10.1037/0096-1523.21.1.109",
+          "doi": "10.1037/0096-1523.21.1.109",
+          "authority": "primary-theoretical-model",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-inattentional-blindness",
+      "name": "Inattentional Blindness",
+      "aliases": [
+        "sustained inattentional blindness"
+      ],
+      "kind": "Phenomenological construct",
+      "domain": "Attention & conscious access",
+      "tradition": "Experimental attention / awareness failure",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Nonreport of unexpected stimuli is robust, but prevalence depends on questioning, relevance, expectation, and residual processing.",
+      "summary": "Observers occupied by a demanding task can fail to report an otherwise visible and salient unexpected object, revealing a strong dependence of reportable awareness on attentional set.",
+      "proponents": [
+        "Arien Mack",
+        "Irvin Rock",
+        "Daniel J. Simons",
+        "Christopher F. Chabris"
+      ],
+      "year": 1999,
+      "era": "1990s–present",
+      "boundary_note": "Nonreport is not automatically absence of all phenomenal experience; detection, identification, and retrospective report must be measured separately.",
+      "claim_scope": "Awareness of unexpected stimuli while attention is engaged elsewhere.",
+      "evidence_profile": "Unexpected-object tasks, post-trial questioning, eye tracking, and implicit-processing measures.",
+      "open_questions": [
+        "Which processing survives nonreport?",
+        "How much do retrospective questioning and response criteria contribute?"
+      ],
+      "keywords": [
+        "inattentional blindness",
+        "unexpected stimulus",
+        "attention",
+        "awareness"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events",
+          "authors": "Daniel J Simons; Christopher F Chabris",
+          "year": 1999,
+          "venue": "Perception 28(9): 1059-1074",
+          "url": "https://doi.org/10.1068/p281059",
+          "doi": "10.1068/p281059",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "How not to be Seen: The Contribution of Similarity and Selective Ignoring to Sustained Inattentional Blindness",
+          "authors": "Steven B. Most; Daniel J. Simons; Brian J. Scholl; Rachel Jimenez; Erin Clifford; Christopher F. Chabris",
+          "year": 2001,
+          "venue": "Psychological Science 12(1): 9-17",
+          "url": "https://doi.org/10.1111/1467-9280.00303",
+          "doi": "10.1111/1467-9280.00303",
+          "authority": "primary-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-change-blindness",
+      "name": "Change Blindness",
+      "aliases": [],
+      "kind": "Phenomenological construct",
+      "domain": "Attention & conscious access",
+      "tradition": "Visual cognition / scene perception",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Large change-detection failures are robust but do not uniquely settle the richness or format of visual representation.",
+      "summary": "Observers can miss substantial changes across a visual disruption when attention is not directed to the changing element despite an impression of a stable, detailed scene.",
+      "proponents": [
+        "Daniel J. Simons",
+        "Daniel T. Levin",
+        "Ronald A. Rensink",
+        "J. Kevin O'Regan",
+        "James J. Clark"
+      ],
+      "year": 1997,
+      "era": "1997–present",
+      "boundary_note": "Failure to detect change is not direct proof that unattended details were wholly absent from experience or memory.",
+      "claim_scope": "Comparison and detection of scene changes across saccades, blanks, occlusion, and transients.",
+      "evidence_profile": "Flicker, mud-splash, real-world person-change, eye-tracking, and memory-probe studies.",
+      "open_questions": [
+        "What representations persist when explicit change report fails?",
+        "How do attention, memory precision, comparison, and criterion contribute?"
+      ],
+      "keywords": [
+        "change blindness",
+        "scene perception",
+        "visual memory",
+        "awareness"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Change blindness",
+          "authors": "Daniel J. Simons; Daniel T. Levin",
+          "year": 1997,
+          "venue": "Trends in Cognitive Sciences 1(7): 261-267",
+          "url": "https://doi.org/10.1016/S1364-6613(97)01080-2",
+          "doi": "10.1016/S1364-6613(97)01080-2",
+          "authority": "authoritative-original-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Change-blindness as a result of ‘mudsplashes’",
+          "authors": "J. Kevin O'Regan; Ronald A. Rensink; James J. Clark",
+          "year": 1999,
+          "venue": "Nature 398(6722): 34-34",
+          "url": "https://doi.org/10.1038/17953",
+          "doi": "10.1038/17953",
+          "authority": "primary-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cue-familiarity-accessibility-feeling-knowing",
+      "name": "Cue-Familiarity and Accessibility Accounts of Feeling of Knowing",
+      "aliases": [
+        "accessibility model",
+        "cue-familiarity heuristic"
+      ],
+      "kind": "Model or framework",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Metamemory / inferential metacognition",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Cue familiarity and accessibility are dissociable inferential bases whose weighting varies with task and timing.",
+      "summary": "Feeling-of-knowing judgments can derive from rapid familiarity with a cue and from the amount or strength of partial information accessed during unsuccessful retrieval rather than direct inspection of a stored target.",
+      "proponents": [
+        "Asher Koriat",
+        "Janet Metcalfe",
+        "Bennett L. Schwartz",
+        "Susan S. Joaquim"
+      ],
+      "year": 1993,
+      "era": "1993–present",
+      "boundary_note": "These accounts model metamemory judgments, not a direct conscious readout of memory contents.",
+      "claim_scope": "Prospective judgments of later recognition or recall following retrieval failure.",
+      "evidence_profile": "Feeling-of-knowing accuracy, cue manipulation, partial retrieval, and recognition prediction.",
+      "open_questions": [
+        "How are familiarity and accessibility weighted when they conflict?",
+        "Which components enter conscious metacognitive feeling?"
+      ],
+      "keywords": [
+        "feeling of knowing",
+        "cue familiarity",
+        "accessibility",
+        "metamemory"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "How do we know that we know? The accessibility model of the feeling of knowing.",
+          "authors": "Asher Koriat",
+          "year": 1993,
+          "venue": "Psychological Review 100(4): 609-639",
+          "url": "https://doi.org/10.1037/0033-295X.100.4.609",
+          "doi": "10.1037/0033-295X.100.4.609",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The cue-familiarity heuristic in metacognition.",
+          "authors": "Janet Metcalfe; Bennett L. Schwartz; Scott G. Joaquim",
+          "year": 1993,
+          "venue": "Journal of Experimental Psychology: Learning, Memory, and Cognition 19(4): 851-861",
+          "url": "https://doi.org/10.1037/0278-7393.19.4.851",
+          "doi": "10.1037/0278-7393.19.4.851",
+          "authority": "primary-complementary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-two-stage-dynamic-signal-detection",
+      "name": "Two-Stage Dynamic Signal Detection Theory of Confidence",
+      "aliases": [
+        "2DSD"
+      ],
+      "kind": "Model or framework",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Sequential sampling / confidence modeling",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The joint account of choice, latency, and confidence remains active alongside alternative stopping and readout rules.",
+      "summary": "A first accumulation stage produces a choice, then continued post-choice accumulation informs confidence, predicting systematic effects of additional time and evidence.",
+      "proponents": [
+        "Timothy J. Pleskac",
+        "Jerome R. Busemeyer"
+      ],
+      "year": 2010,
+      "era": "2010–present",
+      "boundary_note": "This is a confidence-formation theory, not a claim that confidence constitutes consciousness or is always post-decisional.",
+      "claim_scope": "Joint distributions of choice, response time, post-choice evidence, and confidence.",
+      "evidence_profile": "Choice-confidence experiments, latency distributions, model fits, and neural accumulation measures.",
+      "open_questions": [
+        "When is confidence read out concurrently with choice?",
+        "How do post-decision evidence and error monitoring interact?"
+      ],
+      "keywords": [
+        "confidence",
+        "post-decision evidence",
+        "signal detection",
+        "sequential sampling"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Two-stage dynamic signal detection: A theory of choice, decision time, and confidence.",
+          "authors": "Timothy J. Pleskac; Jerome R. Busemeyer",
+          "year": 2010,
+          "venue": "Psychological Review 117(3): 864-901",
+          "url": "https://doi.org/10.1037/a0019737",
+          "doi": "10.1037/a0019737",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Neural evidence accumulation persists after choice to inform metacognitive judgments",
+          "authors": "Peter R Murphy; Ian H Robertson; Siobhán Harty; Redmond G O'Connell",
+          "year": 2015,
+          "venue": "eLife 4",
+          "url": "https://doi.org/10.7554/eLife.11946",
+          "doi": "10.7554/eLife.11946",
+          "authority": "primary-neural-evidence",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-intentional-binding-effect",
+      "name": "Intentional Binding Effect",
+      "aliases": [
+        "intentional binding"
+      ],
+      "kind": "Phenomenological construct",
+      "domain": "Embodied self & agency",
+      "tradition": "Experimental action awareness / subjective time",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Temporal attraction between action and outcome is widely observed, but its validity as an implicit agency measure is disputed.",
+      "summary": "A voluntary action and its effect can be perceived as closer in time than comparable involuntary or unrelated events.",
+      "proponents": [
+        "Patrick Haggard",
+        "Sam Clark",
+        "Jeri Kalogeras",
+        "James W. Moore",
+        "Sukhvinder S. Obhi"
+      ],
+      "year": 2002,
+      "era": "2002–present",
+      "boundary_note": "Binding is a timing effect, not agency itself; causality, prediction, attention, and timing method can influence it.",
+      "claim_scope": "Perceived temporal relation between voluntary action and anticipated or actual outcomes.",
+      "evidence_profile": "Libet-clock judgments, interval estimates, causal and probability manipulations, and action-selection tasks.",
+      "open_questions": [
+        "Which component reflects agency rather than causal binding?",
+        "How comparable are shifts across timing methods?"
+      ],
+      "keywords": [
+        "intentional binding",
+        "agency",
+        "subjective time",
+        "action outcome"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Voluntary action and conscious awareness",
+          "authors": "Patrick Haggard; Sam Clark; Jeri Kalogeras",
+          "year": 2002,
+          "venue": "Nature Neuroscience 5(4): 382-385",
+          "url": "https://doi.org/10.1038/nn827",
+          "doi": "10.1038/nn827",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Intentional binding and the sense of agency: A review",
+          "authors": "James W. Moore; Sukhvinder S. Obhi",
+          "year": 2012,
+          "venue": "Consciousness and Cognition 21(1): 546-561",
+          "url": "https://doi.org/10.1016/j.concog.2011.12.002",
+          "doi": "10.1016/j.concog.2011.12.002",
+          "authority": "authoritative-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-multisensory-bodily-self-model",
+      "name": "Multisensory Bodily Self Model",
+      "aliases": [
+        "bodily self-consciousness framework"
+      ],
+      "kind": "Model or framework",
+      "domain": "Embodied self & agency",
+      "tradition": "Multisensory neuroscience / bodily self-consciousness",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Ownership, self-location, perspective, and agency are separable components with partially shared multisensory mechanisms.",
+      "summary": "Visual, tactile, proprioceptive, vestibular, and interoceptive signals are integrated in body-centered frames supporting ownership, self-location, and first-person perspective.",
+      "proponents": [
+        "Olaf Blanke",
+        "Bigna Lenggenhager"
+      ],
+      "year": 2012,
+      "era": "2012–present",
+      "boundary_note": "This mechanism-level model is distinct from the catalog's generic body-ownership construct and does not reduce all selfhood to multisensory integration.",
+      "claim_scope": "Multisensory mechanisms of ownership, self-location, and first-person perspective.",
+      "evidence_profile": "Full-body illusions, visuotactile synchrony, vestibular manipulation, lesions, and neuroimaging.",
+      "open_questions": [
+        "Which computations distinguish ownership from location and perspective?",
+        "How do interoceptive and vestibular precision alter embodiment?"
+      ],
+      "keywords": [
+        "bodily self",
+        "multisensory integration",
+        "self-location",
+        "perspective"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Multisensory brain mechanisms of bodily self-consciousness",
+          "authors": "Olaf Blanke",
+          "year": 2012,
+          "venue": "Nature Reviews Neuroscience 13(8): 556-571",
+          "url": "https://doi.org/10.1038/nrn3292",
+          "doi": "10.1038/nrn3292",
+          "authority": "authoritative-primary-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Video Ergo Sum: Manipulating Bodily Self-Consciousness",
+          "authors": "Bigna Lenggenhager; Tej Tadi; Thomas Metzinger; Olaf Blanke",
+          "year": 2007,
+          "venue": "Science 317(5841): 1096-1099",
+          "url": "https://doi.org/10.1126/science.1143439",
+          "doi": "10.1126/science.1143439",
+          "authority": "primary-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-life-story-model-narrative-identity",
+      "name": "Life-Story Model of Narrative Identity",
+      "aliases": [
+        "life story model"
+      ],
+      "kind": "Model or framework",
+      "domain": "Awareness & selfhood",
+      "tradition": "Personality psychology / autobiographical narrative",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Narrative identity is studied as one personality level; developmental timing, cultural variation, and causal effects remain open.",
+      "summary": "People construct an internalized and evolving life story integrating reconstructed past and imagined future to provide identity with temporal unity and meaning.",
+      "proponents": [
+        "Dan P. McAdams",
+        "Kate C. McLean"
+      ],
+      "year": 2001,
+      "era": "2001–present",
+      "boundary_note": "This is McAdams's empirical personality framework for extended narrative identity, not Schechtman's philosophical self-constitution criterion or a theory of minimal prereflective selfhood; it does not make every self-experience linguistic.",
+      "claim_scope": "Autobiographical meaning-making, identity development, and life-story coherence.",
+      "evidence_profile": "Narrative interviews, coding of agency and communion, longitudinal and cross-cultural studies.",
+      "open_questions": [
+        "How causally do narratives shape behavior and well-being?",
+        "Which elements generalize across cultures and nonverbal populations?"
+      ],
+      "keywords": [
+        "narrative identity",
+        "life story",
+        "autobiographical reasoning",
+        "self"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Psychology of Life Stories",
+          "authors": "Dan P. McAdams",
+          "year": 2001,
+          "venue": "Review of General Psychology 5(2): 100-122",
+          "url": "https://doi.org/10.1037/1089-2680.5.2.100",
+          "doi": "10.1037/1089-2680.5.2.100",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Narrative Identity",
+          "authors": "Dan P. McAdams; Kate C. McLean",
+          "year": 2013,
+          "venue": "Current Directions in Psychological Science 22(3): 233-238",
+          "url": "https://doi.org/10.1177/0963721413475622",
+          "doi": "10.1177/0963721413475622",
+          "authority": "authoritative-self-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-scalar-expectancy-theory",
+      "name": "Scalar Expectancy Theory",
+      "aliases": [
+        "SET",
+        "scalar timing theory"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Interval timing / information-processing model",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Scalar variability is a central benchmark, while clock, memory, and decision components face competing implementations.",
+      "summary": "Pulses accumulated during an interval are stored and compared with remembered samples; proportional noise yields Weber-like scalar variability.",
+      "proponents": [
+        "John Gibbon",
+        "Russell M. Church"
+      ],
+      "year": 1977,
+      "era": "1977–present",
+      "boundary_note": "SET models interval timing, not the full phenomenology or metaphysics of temporal consciousness.",
+      "claim_scope": "Timing and discrimination of intervals, including scalar variability and memory comparison.",
+      "evidence_profile": "Peak-interval, bisection, reproduction, animal timing, and quantitative fits.",
+      "open_questions": [
+        "Which neural process implements accumulation and reference memory?",
+        "When do nonscalar patterns require alternatives?"
+      ],
+      "keywords": [
+        "interval timing",
+        "scalar expectancy",
+        "internal clock",
+        "temporal memory"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Scalar expectancy theory and Weber's law in animal timing.",
+          "authors": "John Gibbon",
+          "year": 1977,
+          "venue": "Psychological Review 84(3): 279-325",
+          "url": "https://doi.org/10.1037/0033-295X.84.3.279",
+          "doi": "10.1037/0033-295X.84.3.279",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Scalar Timing in Memory",
+          "authors": "JOHN GIBBON; RUSSELL M. CHURCH; WARREN H. MECK",
+          "year": 1984,
+          "venue": "Annals of the New York Academy of Sciences 423(1): 52-77",
+          "url": "https://doi.org/10.1111/j.1749-6632.1984.tb23417.x",
+          "doi": "10.1111/j.1749-6632.1984.tb23417.x",
+          "authority": "primary-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-striatal-beat-frequency-model",
+      "name": "Striatal Beat-Frequency Model of Interval Timing",
+      "aliases": [
+        "SBF model"
+      ],
+      "kind": "Model or framework",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Neurocomputational interval timing",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The corticostriatal coincidence proposal remains active alongside population-clock and state-dependent models.",
+      "summary": "Distributed cortical oscillations begin in a reproducible phase relation, and striatal neurons detect coincidence patterns corresponding to learned durations.",
+      "proponents": [
+        "Warren H. Meck",
+        "Matthew S. Matell",
+        "Catalin V. Buhusi"
+      ],
+      "year": 2004,
+      "era": "2004–present",
+      "boundary_note": "The model explains timing; oscillatory coincidence is not claimed to be sufficient for conscious temporal experience.",
+      "claim_scope": "Corticostriatal encoding and learning of interval duration.",
+      "evidence_profile": "Behavioral pharmacology, lesions, electrophysiology, timing tasks, and simulations.",
+      "open_questions": [
+        "Are sufficiently stable oscillators present across relevant intervals?",
+        "How does the model generalize across contexts and timescales?"
+      ],
+      "keywords": [
+        "interval timing",
+        "striatal beat frequency",
+        "corticostriatal",
+        "oscillation"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Cortico-striatal circuits and interval timing: coincidence detection of oscillatory processes",
+          "authors": "Matthew S. Matell; Warren H. Meck",
+          "year": 2004,
+          "venue": "Cognitive Brain Research 21(2): 139-170",
+          "url": "https://doi.org/10.1016/j.cogbrainres.2004.06.012",
+          "doi": "10.1016/j.cogbrainres.2004.06.012",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "What makes us tick? Functional and neural mechanisms of interval timing",
+          "authors": "Catalin V. Buhusi; Warren H. Meck",
+          "year": 2005,
+          "venue": "Nature Reviews Neuroscience 6(10): 755-765",
+          "url": "https://doi.org/10.1038/nrn1764",
+          "doi": "10.1038/nrn1764",
+          "authority": "authoritative-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-state-dependent-network-timing",
+      "name": "State-Dependent Network Model of Timing",
+      "aliases": [
+        "SDN timing"
+      ],
+      "kind": "Model or framework",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Neural dynamics / subsecond timing",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Network trajectories offer a clock-free short-interval account, while generalization across longer timescales remains unresolved.",
+      "summary": "Elapsed time is encoded implicitly in an evolving recurrent-network state, so a later input's response depends on the trajectory initiated by earlier stimulation.",
+      "proponents": [
+        "Mani Karmarkar",
+        "Dean V. Buonomano"
+      ],
+      "year": 2007,
+      "era": "2007–present",
+      "boundary_note": "This is a neural timing model, not a theory of lived duration or conscious temporal unity.",
+      "claim_scope": "Encoding and discrimination of short intervals through transient neural dynamics.",
+      "evidence_profile": "In vitro dynamics, interval discrimination, recurrent-network simulation, and perturbation.",
+      "open_questions": [
+        "How can transient trajectories scale to seconds and minutes?",
+        "How are context and attention read out from network state?"
+      ],
+      "keywords": [
+        "state-dependent networks",
+        "interval timing",
+        "recurrent dynamics",
+        "neural trajectory"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Timing in the Absence of Clocks: Encoding Time in Neural Network States",
+          "authors": "Uma R. Karmarkar; Dean V. Buonomano",
+          "year": 2007,
+          "venue": "Neuron 53(3): 427-438",
+          "url": "https://doi.org/10.1016/j.neuron.2007.01.006",
+          "doi": "10.1016/j.neuron.2007.01.006",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "State-dependent computations: spatiotemporal processing in cortical networks",
+          "authors": "Dean V. Buonomano; Wolfgang Maass",
+          "year": 2009,
+          "venue": "Nature Reviews Neuroscience 10(2): 113-125",
+          "url": "https://doi.org/10.1038/nrn2558",
+          "doi": "10.1038/nrn2558",
+          "authority": "authoritative-theoretical-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-chronostasis",
+      "name": "Chronostasis",
+      "aliases": [
+        "stopped-clock illusion",
+        "saccadic chronostasis"
+      ],
+      "kind": "Phenomenological construct",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Experimental subjective timing / action perception",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Action-linked temporal expansion is robust in several modalities; arousal, backdating, and continuity mechanisms differ in support.",
+      "summary": "The first event perceived after a rapid movement, classically a saccade to a clock, can seem longer than it physically was.",
+      "proponents": [
+        "Kielan Yarrow",
+        "Patrick Haggard",
+        "John C. Rothwell"
+      ],
+      "year": 2001,
+      "era": "2001–present",
+      "boundary_note": "Chronostasis is a local timing illusion, not evidence that consciousness literally stops or uses one central clock.",
+      "claim_scope": "Subjective duration around saccades and other action-linked sensory transitions.",
+      "evidence_profile": "Duration comparison, saccadic and manual-action tasks, efference manipulation, and cross-modal variants.",
+      "open_questions": [
+        "How much reflects predictive remapping versus postdiction?",
+        "Which motor and sensory signals trigger temporal extension?"
+      ],
+      "keywords": [
+        "chronostasis",
+        "subjective time",
+        "saccade",
+        "postdiction"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Illusory perceptions of space and time preserve cross-saccadic perceptual continuity",
+          "authors": "Kielan Yarrow; Patrick Haggard; Ron Heal; Peter Brown; John C. Rothwell",
+          "year": 2001,
+          "venue": "Nature 414(6861): 302-305",
+          "url": "https://doi.org/10.1038/35104551",
+          "doi": "10.1038/35104551",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Action, arousal, and subjective time",
+          "authors": "Kielan Yarrow; Patrick Haggard; John C. Rothwell",
+          "year": 2004,
+          "venue": "Consciousness and Cognition 13(2): 373-390",
+          "url": "https://doi.org/10.1016/j.concog.2003.10.006",
+          "doi": "10.1016/j.concog.2003.10.006",
+          "authority": "primary-mechanism-test",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-dual-process-recognition-memory",
+      "name": "Dual-Process Theory of Recognition Memory",
+      "aliases": [
+        "recollection–familiarity model"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Cognitive memory / signal detection",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Recollection and familiarity dissociations are extensively studied; discreteness, independence, and measurement remain disputed.",
+      "summary": "Recognition can arise through recollection of contextual details or a graded familiarity signal without recovered context, with different behavioral and neural signatures.",
+      "proponents": [
+        "Andrew P. Yonelinas",
+        "Larry L. Jacoby"
+      ],
+      "year": 2002,
+      "era": "1980s–present; quantitative synthesis 2002",
+      "boundary_note": "Familiarity is not identical to noetic consciousness, and recollection is not a complete theory of phenomenal memory.",
+      "claim_scope": "Recognition, remember–know judgments, recollection, familiarity, and neural dissociations.",
+      "evidence_profile": "Receiver-operating curves, process dissociation, amnesia, aging, electrophysiology, and imaging.",
+      "open_questions": [
+        "Are the processes independent or outcomes on one continuum?",
+        "How do subjective reports map to model parameters?"
+      ],
+      "keywords": [
+        "recognition memory",
+        "recollection",
+        "familiarity",
+        "dual process"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Nature of Recollection and Familiarity: A Review of 30 Years of Research",
+          "authors": "Andrew P Yonelinas",
+          "year": 2002,
+          "venue": "Journal of Memory and Language 46(3): 441-517",
+          "url": "https://doi.org/10.1006/jmla.2002.2864",
+          "doi": "10.1006/jmla.2002.2864",
+          "authority": "authoritative-primary-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Recollection and familiarity: Examining controversial assumptions and new directions",
+          "authors": "Andrew P. Yonelinas; Mariam Aly; Wei‐Chun Wang; Joshua D. Koen",
+          "year": 2010,
+          "venue": "Hippocampus 20(11): 1178-1194",
+          "url": "https://doi.org/10.1002/hipo.20864",
+          "doi": "10.1002/hipo.20864",
+          "authority": "authoritative-update",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-constructive-episodic-simulation",
+      "name": "Constructive Episodic Simulation Hypothesis",
+      "aliases": [
+        "CESH"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Episodic memory / future cognition",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Memory recombination contributes to future simulation; process and neural specificity remain under study.",
+      "summary": "Episodic memory supports imagining possible futures by flexibly extracting and recombining details from past events, with the same flexibility enabling distortion.",
+      "proponents": [
+        "Daniel L. Schacter",
+        "Donna Rose Addis"
+      ],
+      "year": 2007,
+      "era": "2007–present",
+      "boundary_note": "The hypothesis explains one function of constructive episodic memory, not all imagination, foresight, or conscious recollection.",
+      "claim_scope": "Recombination of episodic details in personal future simulation.",
+      "evidence_profile": "Autobiographical generation, amnesia, aging, detail coding, experimental recombination, and imaging.",
+      "open_questions": [
+        "Which simulations require episodic rather than semantic support?",
+        "How are recombinations evaluated for plausibility and relevance?"
+      ],
+      "keywords": [
+        "episodic simulation",
+        "future thinking",
+        "constructive memory",
+        "mental time travel"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The cognitive neuroscience of constructive memory: remembering the past and imagining the future",
+          "authors": "Daniel L Schacter; Donna Rose Addis",
+          "year": 2007,
+          "venue": "Philosophical Transactions of the Royal Society B: Biological Sciences 362(1481): 773-786",
+          "url": "https://doi.org/10.1098/rstb.2007.2087",
+          "doi": "10.1098/rstb.2007.2087",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Remembering the past and imagining the future: Common and distinct neural substrates during event construction and elaboration",
+          "authors": "Donna Rose Addis; Alana T. Wong; Daniel L. Schacter",
+          "year": 2007,
+          "venue": "Neuropsychologia 45(7): 1363-1377",
+          "url": "https://doi.org/10.1016/j.neuropsychologia.2006.10.016",
+          "doi": "10.1016/j.neuropsychologia.2006.10.016",
+          "authority": "primary-neuroimaging-evidence",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-scene-construction-theory",
+      "name": "Scene Construction Theory",
+      "aliases": [],
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Hippocampal cognition / spatial scene construction",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Scene construction explains broad hippocampal involvement, while relational and predictive alternatives contest its primacy.",
+      "summary": "The hippocampus integrates elements into spatially coherent scenes used by remembering, future imagination, navigation, and some mind wandering.",
+      "proponents": [
+        "Demis Hassabis",
+        "Eleanor A. Maguire"
+      ],
+      "year": 2007,
+      "era": "2007–present",
+      "boundary_note": "Scene construction is not equivalent to episodic memory or consciousness and does not exhaust all simulation.",
+      "claim_scope": "Hippocampal construction of coherent scenes in memory, imagination, and navigation.",
+      "evidence_profile": "Amnesia, imagined-scene tasks, autobiographical simulation, imaging, and coherence ratings.",
+      "open_questions": [
+        "Is scene construction primary or one relational computation?",
+        "Which conscious simulations lack spatial scenes?"
+      ],
+      "keywords": [
+        "scene construction",
+        "hippocampus",
+        "episodic memory",
+        "imagination"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Deconstructing episodic memory with construction",
+          "authors": "Demis Hassabis; Eleanor A. Maguire",
+          "year": 2007,
+          "venue": "Trends in Cognitive Sciences 11(7): 299-306",
+          "url": "https://doi.org/10.1016/j.tics.2007.05.001",
+          "doi": "10.1016/j.tics.2007.05.001",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Patients with hippocampal amnesia cannot imagine new experiences",
+          "authors": "Demis Hassabis; Dharshan Kumaran; Seralynne D. Vann; Eleanor A. Maguire",
+          "year": 2007,
+          "venue": "Proceedings of the National Academy of Sciences 104(5): 1726-1731",
+          "url": "https://doi.org/10.1073/pnas.0610561104",
+          "doi": "10.1073/pnas.0610561104",
+          "authority": "primary-neuropsychological-evidence",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-source-monitoring-framework",
+      "name": "Source Monitoring Framework",
+      "aliases": [
+        "SMF",
+        "reality-monitoring framework"
+      ],
+      "kind": "Model or framework",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Cognitive memory / attribution",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Source judgments are inferential and criterion-dependent; neural and metacognitive mechanisms continue to be refined.",
+      "summary": "Memory origins are usually inferred from perceptual, contextual, semantic, and cognitive-operation features under task-dependent criteria rather than stored as literal tags.",
+      "proponents": [
+        "Marcia K. Johnson",
+        "Shahin Hashtroudi",
+        "D. Stephen Lindsay",
+        "Karen J. Mitchell"
+      ],
+      "year": 1993,
+      "era": "1993–present",
+      "boundary_note": "Source monitoring explains attribution, not all reality testing or every aspect of conscious memory.",
+      "claim_scope": "Attribution of memories to perception, imagination, communication, and other sources.",
+      "evidence_profile": "Source-memory tasks, false memories, aging, clinical populations, and neuroimaging.",
+      "open_questions": [
+        "How are source features weighted under changing agendas?",
+        "Which attribution operations are conscious versus implicit?"
+      ],
+      "keywords": [
+        "source monitoring",
+        "reality monitoring",
+        "memory attribution",
+        "false memory"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Source monitoring.",
+          "authors": "Marcia K. Johnson; Shahin Hashtroudi; D. Stephen Lindsay",
+          "year": 1993,
+          "venue": "Psychological Bulletin 114(1): 3-28",
+          "url": "https://doi.org/10.1037/0033-2909.114.1.3",
+          "doi": "10.1037/0033-2909.114.1.3",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory?",
+          "authors": "Karen J. Mitchell; Marcia K. Johnson",
+          "year": 2009,
+          "venue": "Psychological Bulletin 135(4): 638-677",
+          "url": "https://doi.org/10.1037/a0015849",
+          "doi": "10.1037/a0015849",
+          "authority": "authoritative-neural-update",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-linguistic-relativity",
+      "name": "Linguistic Relativity Hypothesis",
+      "aliases": [
+        "Sapir–Whorf hypothesis",
+        "Whorfian hypothesis"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Language, representation & thought",
+      "tradition": "Psycholinguistics / cognitive anthropology",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Modern research tests circumscribed language effects; strong linguistic determinism is not accepted.",
+      "summary": "Habitual language properties can influence attention, categorization, memory, or reasoning, with effect size and persistence varying across domains and tasks.",
+      "proponents": [
+        "Edward Sapir",
+        "Benjamin Lee Whorf",
+        "Paul Kay",
+        "Willett Kempton",
+        "Lera Boroditsky"
+      ],
+      "year": 1956,
+      "era": "early 20th-century origins; experimental program 1980s–present",
+      "boundary_note": "Language does not rigidly determine all thought, and not every cross-linguistic difference demonstrates a cognitive effect.",
+      "claim_scope": "Language-linked variation in color, space, time, categorization, memory, and attention.",
+      "evidence_profile": "Cross-linguistic comparison, verbal interference, category learning, and developmental studies.",
+      "open_questions": [
+        "Which effects persist without online verbal mediation?",
+        "How can language be separated from culture and task strategy?"
+      ],
+      "keywords": [
+        "linguistic relativity",
+        "Sapir–Whorf",
+        "language and thought",
+        "cross-linguistic cognition"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "What Is the Sapir‐Whorf Hypothesis?",
+          "authors": "Paul Kay; Willett Kempton",
+          "year": 1984,
+          "venue": "American Anthropologist 86(1): 65-79",
+          "url": "https://doi.org/10.1525/aa.1984.86.1.02a00050",
+          "doi": "10.1525/aa.1984.86.1.02a00050",
+          "authority": "primary-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Does Language Shape Thought?: Mandarin and English Speakers' Conceptions of Time",
+          "authors": "Lera Boroditsky",
+          "year": 2001,
+          "venue": "Cognitive Psychology 43(1): 1-22",
+          "url": "https://doi.org/10.1006/cogp.2001.0748",
+          "doi": "10.1006/cogp.2001.0748",
+          "authority": "primary-modern-formulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-language-thought-hypothesis",
+      "name": "Language of Thought Hypothesis",
+      "aliases": [
+        "LOTH",
+        "Mentalese hypothesis"
+      ],
+      "kind": "Philosophical position",
+      "domain": "Language, representation & thought",
+      "tradition": "Computational-representational philosophy of mind",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Minimal compositional versions and stronger Fodorian commitments must be distinguished.",
+      "summary": "Propositional thought involves a compositional system of mental representations whose expressions have semantically relevant constituent structure and enter causal computations.",
+      "proponents": [
+        "Jerry A. Fodor"
+      ],
+      "year": 1975,
+      "era": "1975–present",
+      "boundary_note": "Mentalese is not spoken language or inner speech, and the hypothesis does not itself explain phenomenal consciousness.",
+      "claim_scope": "Representational format of propositional attitudes, reasoning, planning, and inference.",
+      "evidence_profile": "Arguments from systematicity and productivity, computational modeling, psycholinguistics, and connectionist debate.",
+      "open_questions": [
+        "Which domains require language-like representations?",
+        "How are Mentalese primitives acquired and realized?"
+      ],
+      "keywords": [
+        "language of thought",
+        "Mentalese",
+        "compositionality",
+        "mental representation"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "LOT 2",
+          "authors": "Jerry A. Fodor",
+          "year": 2008,
+          "venue": "Oxford University PressOxford",
+          "url": "https://doi.org/10.1093/acprof:oso/9780199548774.001.0001",
+          "doi": "10.1093/acprof:oso/9780199548774.001.0001",
+          "authority": "primary-self-revision",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Language of Thought Hypothesis",
+          "authors": "Michael Rescorla",
+          "year": "living entry",
+          "venue": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/language-thought/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-perceptual-symbol-systems",
+      "name": "Perceptual Symbol Systems",
+      "aliases": [
+        "PSS",
+        "perceptual symbol theory"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Language, representation & thought",
+      "tradition": "Embodied and grounded cognition",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Modal simulation is empirically productive while abstract concepts and the need for amodal structure remain disputed.",
+      "summary": "Conceptual knowledge is represented through partial reenactments of perceptual, motor, and introspective states organized by simulators rather than exclusively arbitrary amodal symbols.",
+      "proponents": [
+        "Lawrence W. Barsalou"
+      ],
+      "year": 1999,
+      "era": "1999–present",
+      "boundary_note": "The theory does not make every simulation conscious or deny all roles for language and amodal relations.",
+      "claim_scope": "Conceptual representation, categorization, comprehension, and grounded simulation.",
+      "evidence_profile": "Property verification, modality switching, action-sentence compatibility, imaging, and lesions.",
+      "open_questions": [
+        "How are abstract and relational concepts grounded?",
+        "Which findings require simulation rather than association?"
+      ],
+      "keywords": [
+        "perceptual symbols",
+        "grounded cognition",
+        "embodied concepts",
+        "simulation"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Perceptual symbol systems",
+          "authors": "Lawrence W. Barsalou",
+          "year": 1999,
+          "venue": "Behavioral and Brain Sciences 22(4): 577-660",
+          "url": "https://doi.org/10.1017/S0140525X99002149",
+          "doi": "10.1017/S0140525X99002149",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Grounded Cognition",
+          "authors": "Lawrence W. Barsalou",
+          "year": 2008,
+          "venue": "Annual Review of Psychology 59(1): 617-645",
+          "url": "https://doi.org/10.1146/annurev.psych.59.103006.093639",
+          "doi": "10.1146/annurev.psych.59.103006.093639",
+          "authority": "authoritative-update",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-expanded-vygotskian-inner-speech",
+      "name": "Expanded Vygotskian Framework of Inner Speech",
+      "aliases": [
+        "dialogic inner-speech framework"
+      ],
+      "kind": "Model or framework",
+      "domain": "Language, representation & thought",
+      "tradition": "Vygotskian development / cognitive neuroscience",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The framework organizes developmental, phenomenological, and neural variation in condensation and dialogicality.",
+      "summary": "Inner speech develops through internalization and transformation of social speech and ranges from expanded dialogue-like utterances to condensed semantic forms supporting planning and reflection.",
+      "proponents": [
+        "Charles Fernyhough",
+        "Ben Alderson-Day"
+      ],
+      "year": 2004,
+      "era": "2004–present",
+      "boundary_note": "Inner speech is not Mentalese and is not necessary for every thought or self-experience.",
+      "claim_scope": "Development, phenomenology, functions, and neural basis of covert self-directed speech.",
+      "evidence_profile": "Experience sampling, report scales, articulatory suppression, development, imaging, and hallucination research.",
+      "open_questions": [
+        "How can condensed inner speech be measured without overt-language assumptions?",
+        "Which functions require conscious inner speech?"
+      ],
+      "keywords": [
+        "inner speech",
+        "Vygotsky",
+        "dialogicality",
+        "verbal thought"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Alien voices and inner dialogue: towards a developmental account of auditory verbal hallucinations",
+          "authors": "Charles Fernyhough",
+          "year": 2004,
+          "venue": "New Ideas in Psychology 22(1): 49-68",
+          "url": "https://doi.org/10.1016/j.newideapsych.2004.09.001",
+          "doi": "10.1016/j.newideapsych.2004.09.001",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Inner speech: Development, cognitive functions, phenomenology, and neurobiology.",
+          "authors": "Ben Alderson-Day; Charles Fernyhough",
+          "year": 2015,
+          "venue": "Psychological Bulletin 141(5): 931-965",
+          "url": "https://doi.org/10.1037/bul0000021",
+          "doi": "10.1037/bul0000021",
+          "authority": "authoritative-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-deacon-symbolic-reference",
+      "name": "Deacon's Symbolic-Reference Account",
+      "aliases": [
+        "symbolic threshold account",
+        "Symbolic Species account"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Language, representation & thought",
+      "tradition": "Biosemiotics / language–brain coevolution",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The sign hierarchy and coevolution thesis remain influential while evolutionary details and species uniqueness are debated.",
+      "summary": "Symbolic reference depends on learned relations among signs rather than direct resemblance or correlation alone, and symbolic culture and brain organization coevolved.",
+      "proponents": [
+        "Terrence W. Deacon"
+      ],
+      "year": 1997,
+      "era": "1997–present",
+      "boundary_note": "The account concerns symbolic reference, not a claim that symbols suffice for consciousness or that nonhuman communication is simple.",
+      "claim_scope": "Emergence, learning, and evolutionary consequences of symbolic reference and language.",
+      "evidence_profile": "Comparative communication, semiotic analysis, language learning, neuroanatomy, and evolutionary argument.",
+      "open_questions": [
+        "What signatures uniquely distinguish symbolic from indexical learning?",
+        "How did cultural and biological selection interact?"
+      ],
+      "keywords": [
+        "symbolic reference",
+        "biosemiotics",
+        "language evolution",
+        "Deacon"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The symbol concept",
+          "authors": "Terrence W. Deacon",
+          "year": 2011,
+          "venue": "Oxford Handbooks Online",
+          "url": "https://doi.org/10.1093/oxfordhb/9780199541119.013.0043",
+          "doi": "10.1093/oxfordhb/9780199541119.013.0043",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A role for relaxed selection in the evolution of the language capacity",
+          "authors": "Terrence W. Deacon",
+          "year": 2010,
+          "venue": "Proceedings of the National Academy of Sciences 107(supplement_2): 9000-9006",
+          "url": "https://doi.org/10.1073/pnas.0914624107",
+          "doi": "10.1073/pnas.0914624107",
+          "authority": "primary-evolutionary-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-component-process-model-emotion",
+      "name": "Component Process Model of Emotion",
+      "aliases": [
+        "CPM"
+      ],
+      "kind": "Model or framework",
+      "domain": "Emotion, affect & regulation",
+      "tradition": "Appraisal theory / affective science",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Multicomponent appraisal is productive, but strict appraisal sequences and emotion-pattern specificity remain under test.",
+      "summary": "Emotion episodes emerge from recursive relevance, implication, coping, and normative appraisals that coordinate physiology, action tendency, expression, cognition, and feeling.",
+      "proponents": [
+        "Klaus R. Scherer"
+      ],
+      "year": 1984,
+      "era": "1980s–present",
+      "boundary_note": "Appraisals need not be verbally conscious, and felt experience is only one component rather than the sole cause.",
+      "claim_scope": "Elicitation, differentiation, synchronization, and unfolding of emotion episodes.",
+      "evidence_profile": "Appraisal report, expression, physiology, cross-cultural studies, and dynamic measurement.",
+      "open_questions": [
+        "How fixed is appraisal sequence?",
+        "Which appraisals and component changes are consciously felt?"
+      ],
+      "keywords": [
+        "emotion appraisal",
+        "component process",
+        "emotion differentiation",
+        "feeling"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "What are emotions? And how can they be measured?",
+          "authors": "Klaus R. Scherer",
+          "year": 2005,
+          "venue": "Social Science Information 44(4): 695-729",
+          "url": "https://doi.org/10.1177/0539018405058216",
+          "doi": "10.1177/0539018405058216",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The dynamic architecture of emotion: Evidence for the component process model",
+          "authors": "Klaus R. Scherer",
+          "year": 2009,
+          "venue": "Cognition and Emotion 23(7): 1307-1351",
+          "url": "https://doi.org/10.1080/02699930902928969",
+          "doi": "10.1080/02699930902928969",
+          "authority": "primary-update",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-affect-infusion-model",
+      "name": "Affect Infusion Model",
+      "aliases": [
+        "AIM"
+      ],
+      "kind": "Model or framework",
+      "domain": "Emotion, affect & regulation",
+      "tradition": "Social cognition / affect-cognition interaction",
+      "status": "influential active framework · boundary conditions studied",
+      "status_note": "Evidence supports context-dependent mood effects, while the recruitment and separation of its four processing strategies remain open to refinement.",
+      "summary": "Transient affect is more likely to enter and color a judgment when people use constructive heuristic or substantive processing than when they retrieve a ready answer or pursue a motivated conclusion.",
+      "proponents": [
+        "Joseph P. Forgas"
+      ],
+      "year": 1994,
+      "era": "1994–present",
+      "boundary_note": "The model predicts affective influence on judgment under specified processing conditions; it is not a general theory of emotion, phenomenal valence, or consciousness.",
+      "claim_scope": "When and through which information-processing strategies transient affect influences social judgments.",
+      "evidence_profile": "Mood induction, person perception, recall, relationship judgment, impression formation, and processing-demand manipulations.",
+      "open_questions": [
+        "How independently can the four judgment strategies be identified and manipulated?",
+        "Which task and cultural conditions reverse or suppress affect infusion?"
+      ],
+      "keywords": [
+        "affect infusion",
+        "mood",
+        "social judgment",
+        "processing strategy"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The role of emotion in social judgments: An introductory review and an Affect Infusion Model (AIM)",
+          "authors": "Joseph P. Forgas",
+          "year": 1994,
+          "venue": "European Journal of Social Psychology 24(1): 1-24",
+          "url": "https://doi.org/10.1002/ejsp.2420240102",
+          "doi": "10.1002/ejsp.2420240102",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mood and judgment: The affect infusion model (AIM).",
+          "authors": "Joseph P. Forgas",
+          "year": 1995,
+          "venue": "Psychological Bulletin 117(1): 39-66",
+          "url": "https://doi.org/10.1037/0033-2909.117.1.39",
+          "doi": "10.1037/0033-2909.117.1.39",
+          "authority": "primary-definitive",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-feelings-as-information",
+      "name": "Feelings-as-Information Account",
+      "aliases": [
+        "mood-as-information model",
+        "affect-as-information account"
+      ],
+      "kind": "Model or framework",
+      "domain": "Emotion, affect & regulation",
+      "tradition": "Social cognition / affect-cognition interaction",
+      "status": "influential active framework · source-attribution effects qualified",
+      "status_note": "Affective and experiential feelings can inform evaluation, but relevance, salience, attribution, goals, and context determine whether they are used.",
+      "summary": "People may treat their current feelings as information about a target; when a feeling is attributed to an irrelevant source, its influence on evaluation should diminish or change.",
+      "proponents": [
+        "Norbert Schwarz",
+        "Gerald L. Clore"
+      ],
+      "year": 1983,
+      "era": "1983–present",
+      "boundary_note": "The account concerns the informational use of felt states in judgment and processing; it does not claim that all judgments are affect-driven or explain how feelings become conscious.",
+      "claim_scope": "How affective and other experiential feelings contribute to evaluation, judgment, and processing style through perceived informational value.",
+      "evidence_profile": "Mood induction, weather and source-attribution manipulations, well-being judgments, processing fluency, and ease-of-retrieval paradigms.",
+      "open_questions": [
+        "When do people interrogate a feeling as information rather than respond through associative priming?",
+        "How reliably do source-attribution manipulations separate informational use from demand and awareness effects?"
+      ],
+      "keywords": [
+        "feelings as information",
+        "mood as information",
+        "misattribution",
+        "judgment"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Mood, misattribution, and judgments of well-being: Informative and directive functions of affective states.",
+          "authors": "Norbert Schwarz; Gerald L. Clore",
+          "year": 1983,
+          "venue": "Journal of Personality and Social Psychology 45(3): 513-523",
+          "url": "https://doi.org/10.1037/0022-3514.45.3.513",
+          "doi": "10.1037/0022-3514.45.3.513",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mood as Information: 20 Years Later",
+          "authors": "Norbert Schwarz; Gerald L. Clore",
+          "year": 2003,
+          "venue": "Psychological Inquiry 14(3-4): 296-303",
+          "url": "https://doi.org/10.1080/1047840X.2003.9682896",
+          "doi": "10.1080/1047840X.2003.9682896",
+          "authority": "primary-self-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-evaluative-space-model",
+      "name": "Evaluative Space Model",
+      "aliases": [
+        "ESM",
+        "bivariate evaluative-space account"
+      ],
+      "kind": "Model or framework",
+      "domain": "Emotion, affect & regulation",
+      "tradition": "Affective science / evaluative processing",
+      "status": "active framework · mixed-affect scope and measurement debated",
+      "status_note": "Positive and negative evaluative processes can be partly separable, although bipolar affect remains common and reports of coactivation depend on context and measurement.",
+      "summary": "Positive and negative evaluation arise from partly separable processes rather than a single strictly bipolar mechanism, permitting reciprocal activation, uncoupled activation, coactivation, and coinhibition.",
+      "proponents": [
+        "John T. Cacioppo",
+        "Gary G. Berntson",
+        "Jeff T. Larsen"
+      ],
+      "year": 1994,
+      "era": "1994–present",
+      "boundary_note": "The model concerns the functional organization of positive and negative evaluation and affect; it neither identifies all emotions with two processes nor by itself explains phenomenal valence or consciousness.",
+      "claim_scope": "Separability, coactivation, and integration of positive and negative evaluative processes in attitudes and affective experience.",
+      "evidence_profile": "Attitude measurement, psychophysiology, mixed-emotion elicitation, graduation and film paradigms, and bivariate affect ratings.",
+      "open_questions": [
+        "Which measures distinguish genuine positive-negative coactivation from response artifacts?",
+        "How do separable evaluative processes combine into a unitary or mixed conscious feeling?"
+      ],
+      "keywords": [
+        "evaluative space",
+        "positivity",
+        "negativity",
+        "mixed emotion"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Relationship between attitudes and evaluative space: A critical review, with emphasis on the separability of positive and negative substrates.",
+          "authors": "John T. Cacioppo; Gary G. Berntson",
+          "year": 1994,
+          "venue": "Psychological Bulletin 115(3): 401-423",
+          "url": "https://doi.org/10.1037/0033-2909.115.3.401",
+          "doi": "10.1037/0033-2909.115.3.401",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Can people feel happy and sad at the same time?",
+          "authors": "Jeff T. Larsen; A. Peter McGraw; John T. Cacioppo",
+          "year": 2001,
+          "venue": "Journal of Personality and Social Psychology 81(4): 684-696",
+          "url": "https://doi.org/10.1037/0022-3514.81.4.684",
+          "doi": "10.1037/0022-3514.81.4.684",
+          "authority": "primary-empirical-test",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-process-model-emotion-regulation",
+      "name": "Process Model of Emotion Regulation",
+      "aliases": [
+        "extended process model"
+      ],
+      "kind": "Model or framework",
+      "domain": "Emotion, affect & regulation",
+      "tradition": "Affective science / self-regulation",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The process sequence remains useful while regulation is increasingly modeled as iterative identification, selection, and implementation.",
+      "summary": "Regulation can intervene through situation selection or modification, attentional deployment, cognitive change, and response modulation at different points in an emotion trajectory.",
+      "proponents": [
+        "James J. Gross"
+      ],
+      "year": 1998,
+      "era": "1998–present",
+      "boundary_note": "The taxonomy does not make antecedent-focused strategies universally adaptive or require conscious deliberate control.",
+      "claim_scope": "Generation, selection, timing, and consequences of emotion-regulation strategies.",
+      "evidence_profile": "Reappraisal and suppression experiments, physiology, behavior, sampling, and clinical intervention.",
+      "open_questions": [
+        "How should strategy success be evaluated relative to context?",
+        "Which stages operate implicitly versus through meta-awareness?"
+      ],
+      "keywords": [
+        "emotion regulation",
+        "reappraisal",
+        "suppression",
+        "self-regulation"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Emerging Field of Emotion Regulation: An Integrative Review",
+          "authors": "James J. Gross",
+          "year": 1998,
+          "venue": "Review of General Psychology 2(3): 271-299",
+          "url": "https://doi.org/10.1037/1089-2680.2.3.271",
+          "doi": "10.1037/1089-2680.2.3.271",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Extended Process Model of Emotion Regulation: Elaborations, Applications, and Future Directions",
+          "authors": "James J. Gross",
+          "year": 2015,
+          "venue": "Psychological Inquiry 26(1): 130-137",
+          "url": "https://doi.org/10.1080/1047840X.2015.989751",
+          "doi": "10.1080/1047840X.2015.989751",
+          "authority": "primary-extended-model",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-core-knowledge-theory",
+      "name": "Core Knowledge Theory",
+      "aliases": [
+        "core knowledge systems"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Developmental cognition",
+      "tradition": "Developmental cognitive science / cognitive nativism",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Early competencies support constrained learning, while innateness, content, and the number of systems remain disputed.",
+      "summary": "Humans begin life with domain-specific systems for representing objects, agents, number, space, and social partners that guide prelinguistic learning.",
+      "proponents": [
+        "Elizabeth S. Spelke",
+        "Katherine D. Kinzler"
+      ],
+      "year": 1994,
+      "era": "1994–present",
+      "boundary_note": "Core knowledge is not mature explicit theory or proof of infant conscious awareness, and experience remains necessary.",
+      "claim_scope": "Early representations and constraints in object, numerical, spatial, and social cognition.",
+      "evidence_profile": "Infant looking, reaching, habituation, violation-of-expectation, and cross-cultural comparison.",
+      "open_questions": [
+        "Which competencies survive low-level novelty controls?",
+        "How do core systems combine with language and education?"
+      ],
+      "keywords": [
+        "core knowledge",
+        "infant cognition",
+        "objects",
+        "number"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Levels of causal understanding in chimpanzees and children",
+          "authors": "David Premack; Ann James Premack",
+          "year": 1994,
+          "venue": "Cognition 50(1-3): 347-362",
+          "url": "https://doi.org/10.1016/0010-0277(94)90035-3",
+          "doi": "10.1016/0010-0277(94)90035-3",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Core knowledge",
+          "authors": "Elizabeth S. Spelke; Katherine D. Kinzler",
+          "year": 2006,
+          "venue": "Developmental Science 10(1): 89-96",
+          "url": "https://doi.org/10.1111/j.1467-7687.2007.00569.x",
+          "doi": "10.1111/j.1467-7687.2007.00569.x",
+          "authority": "authoritative-self-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-dynamic-systems-development",
+      "name": "Dynamic Systems Approach to Cognitive Development",
+      "aliases": [
+        "dynamic systems theory of development"
+      ],
+      "kind": "Model or framework",
+      "domain": "Developmental cognition",
+      "tradition": "Developmental psychobiology / embodied dynamics",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The approach yields strong task-specific models; broad dynamical language without quantitative commitments is limited.",
+      "summary": "Developmental patterns emerge from reciprocal interactions among body, brain, task, environment, and prior activity across timescales without a single fixed program.",
+      "proponents": [
+        "Esther Thelen",
+        "Linda B. Smith"
+      ],
+      "year": 1995,
+      "era": "1995–present",
+      "boundary_note": "This is an approach to developmental change, not a claim that every system is chaotic or a theory of consciousness.",
+      "claim_scope": "Emergence, stability, variability, and transition in motor and cognitive development.",
+      "evidence_profile": "Longitudinal observation, infant motor tasks, perturbation, embodied manipulation, and dynamic-field models.",
+      "open_questions": [
+        "Which phenomena receive uniquely predictive dynamical models?",
+        "How can multiscale interactions be estimated prospectively?"
+      ],
+      "keywords": [
+        "dynamic systems",
+        "development",
+        "embodiment",
+        "self-organization"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Motor development: A new synthesis.",
+          "authors": "Esther Thelen",
+          "year": 1995,
+          "venue": "American Psychologist 50(2): 79-95",
+          "url": "https://doi.org/10.1037/0003-066X.50.2.79",
+          "doi": "10.1037/0003-066X.50.2.79",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Development as a dynamic system.",
+          "authors": "Linda B. Smith; Esther Thelen",
+          "year": 2003,
+          "venue": "Trends in Cognitive Sciences 7(8): 343-348",
+          "url": "https://doi.org/10.1016/S1364-6613(03)00156-6",
+          "doi": "10.1016/S1364-6613(03)00156-6",
+          "authority": "authoritative-self-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-mentalization-reflective-function",
+      "name": "Mentalization and Reflective-Functioning Framework",
+      "aliases": [
+        "mentalization framework",
+        "reflective function"
+      ],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Developmental cognition",
+      "tradition": "Attachment theory / developmental psychopathology",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "The construct is clinically productive, but specificity from metacognition, empathy, language, and executive control remains debated.",
+      "summary": "Mentalization is understanding behavior through intentional mental states in self and others, with attachment relationships proposed to support its development and regulation.",
+      "proponents": [
+        "Peter Fonagy",
+        "Mary Target"
+      ],
+      "year": 1991,
+      "era": "1991–present",
+      "boundary_note": "Mentalization is broader than false-belief reasoning and not synonymous with mindreading accuracy, empathy, or introspection.",
+      "claim_scope": "Development and clinical regulation of understanding agents through mental states.",
+      "evidence_profile": "Attachment interviews, reflective-function coding, development, clinical assessment, trials, and imaging.",
+      "open_questions": [
+        "How specifically does attachment cause later mentalization?",
+        "Which measures separate it from verbal and general social skill?"
+      ],
+      "keywords": [
+        "mentalization",
+        "reflective functioning",
+        "attachment",
+        "social cognition"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Thinking about thinking: some clinical and theoretical considerations in the treatment of a borderline patient",
+          "authors": "Peter Fonagy",
+          "year": 1991,
+          "venue": "International Journal of Psycho-Analysis 72(Pt 4): 639–656",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1797718/",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Attachment and reflective function: Their role in self-organization",
+          "authors": "PETER FONAGY; MARY TARGET",
+          "year": 1997,
+          "venue": "Development and Psychopathology 9(4): 679-700",
+          "url": "https://doi.org/10.1017/S0954579497001399",
+          "doi": "10.1017/S0954579497001399",
+          "authority": "primary-developmental-formulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-episodic-like-memory-animals",
+      "name": "Episodic-Like What–Where–When Memory",
+      "aliases": [
+        "episodic-like memory"
+      ],
+      "kind": "Model or framework",
+      "domain": "Comparative cognition",
+      "tradition": "Comparative memory / animal cognition",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Integrated flexible event memory is established in several species; autonoetic phenomenology remains inaccessible.",
+      "summary": "Nonhuman episodic-like memory is operationalized as integrated, flexible memory for what occurred, where, and when without requiring verbal evidence of subjective reliving.",
+      "proponents": [
+        "Nicola S. Clayton",
+        "Anthony Dickinson",
+        "Timothy J. Bussey"
+      ],
+      "year": 1998,
+      "era": "1998–present",
+      "boundary_note": "Successful what–where–when performance does not establish conscious recollection, self-projection, or human-like episodic phenomenology.",
+      "claim_scope": "Integrated memory for unique events in nonhuman animals.",
+      "evidence_profile": "Food caching, content–location–time memory, degradation sensitivity, future planning, and replication.",
+      "open_questions": [
+        "Which tasks distinguish event retrieval from semantic rules?",
+        "Can nonverbal evidence address autonoetic experience?"
+      ],
+      "keywords": [
+        "episodic-like memory",
+        "what where when",
+        "animal cognition"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Episodic-like memory during cache recovery by scrub jays",
+          "authors": "Nicola S. Clayton; Anthony Dickinson",
+          "year": 1998,
+          "venue": "Nature 395(6699): 272-274",
+          "url": "https://doi.org/10.1038/26216",
+          "doi": "10.1038/26216",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Can animals recall the past and plan for the future?",
+          "authors": "Nicola S. Clayton; Timothy J. Bussey; Anthony Dickinson",
+          "year": 2003,
+          "venue": "Nature Reviews Neuroscience 4(8): 685-691",
+          "url": "https://doi.org/10.1038/nrn1180",
+          "doi": "10.1038/nrn1180",
+          "authority": "authoritative-primary-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-comparative-animal-theory-mind",
+      "name": "Comparative Animal Theory-of-Mind Framework",
+      "aliases": [
+        "animal theory of mind"
+      ],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Comparative cognition",
+      "tradition": "Comparative psychology / social cognition",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Sensitivity to perception, goals, and knowledge varies by species and paradigm; strong belief attribution remains disputed.",
+      "summary": "Research tests whether nonhuman animals predict behavior using representations of others' perception, knowledge, goals, intentions, or beliefs rather than observable cues alone.",
+      "proponents": [
+        "David Premack",
+        "Guy Woodruff",
+        "Josep Call",
+        "Michael Tomasello"
+      ],
+      "year": 1978,
+      "era": "1978–present",
+      "boundary_note": "This is not one unified animal theory; performance must be separated from cue learning, submentalizing, and human-like explicit concepts.",
+      "claim_scope": "Nonhuman sensitivity to and possible representation of others' mental states.",
+      "evidence_profile": "Competition, cooperation, gaze, knowledge attribution, intentional action, false-belief variants, and cue controls.",
+      "open_questions": [
+        "Which tasks rule out behavior rules without over-demanding language?",
+        "Do any nonhumans represent false beliefs as such?"
+      ],
+      "keywords": [
+        "animal theory of mind",
+        "comparative cognition",
+        "mindreading",
+        "belief attribution"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Does the chimpanzee have a theory of mind?",
+          "authors": "David Premack; Guy Woodruff",
+          "year": 1978,
+          "venue": "Behavioral and Brain Sciences 1(4): 515-526",
+          "url": "https://doi.org/10.1017/S0140525X00076512",
+          "doi": "10.1017/S0140525X00076512",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Does the chimpanzee have a theory of mind? 30 years later",
+          "authors": "Josep Call; Michael Tomasello",
+          "year": 2008,
+          "venue": "Trends in Cognitive Sciences 12(5): 187-192",
+          "url": "https://doi.org/10.1016/j.tics.2008.02.010",
+          "doi": "10.1016/j.tics.2008.02.010",
+          "authority": "authoritative-reassessment",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-perception-action-model-empathy",
+      "name": "Perception–Action Model of Empathy",
+      "aliases": [
+        "PAM"
+      ],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Comparative cognition",
+      "tradition": "Affective neuroscience / comparative empathy",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Perception–action coupling offers continuity across levels; contagion, sympathy, and perspective taking must remain distinct.",
+      "summary": "Perceiving another's emotional state activates corresponding observer representations, with similarity, familiarity, salience, and regulation shaping response.",
+      "proponents": [
+        "Stephanie D. Preston",
+        "Frans B. M. de Waal"
+      ],
+      "year": 2002,
+      "era": "2002–present",
+      "boundary_note": "The model does not equate mimicry, contagion, personal distress, compassion, and explicit perspective taking.",
+      "claim_scope": "Mechanisms and evolutionary continuity of state matching and empathic response.",
+      "evidence_profile": "Behavioral contagion, autonomic and neural response, familiarity, comparative observation, and controlled empathy tasks.",
+      "open_questions": [
+        "Which shared responses causally support other-oriented concern?",
+        "How much is motor resonance versus appraisal and learning?"
+      ],
+      "keywords": [
+        "empathy",
+        "perception action",
+        "emotional contagion",
+        "comparative social cognition"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Empathy: Its ultimate and proximate bases",
+          "authors": "Stephanie D. Preston; Frans B. M. de Waal",
+          "year": 2002,
+          "venue": "Behavioral and Brain Sciences 25(1): 1-20",
+          "url": "https://doi.org/10.1017/S0140525X02000018",
+          "doi": "10.1017/S0140525X02000018",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mammalian empathy: behavioural manifestations and neural basis",
+          "authors": "Frans B. M. de Waal; Stephanie D. Preston",
+          "year": 2017,
+          "venue": "Nature Reviews Neuroscience 18(8): 498-509",
+          "url": "https://doi.org/10.1038/nrn.2017.72",
+          "doi": "10.1038/nrn.2017.72",
+          "authority": "authoritative-self-update",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-transactive-memory-systems",
+      "name": "Transactive Memory Systems",
+      "aliases": [
+        "TMS",
+        "transactive memory theory"
+      ],
+      "kind": "Model or framework",
+      "domain": "Collective & distributed cognition",
+      "tradition": "Group cognition / organizational psychology",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Specialization, credibility, and coordination are measurable; transfer across membership and technology-mediated groups remains studied.",
+      "summary": "Members develop specialized knowledge and shared knowledge of who knows what, enabling distributed encoding, retrieval, and coordination.",
+      "proponents": [
+        "Daniel M. Wegner",
+        "Diane Wei Liang",
+        "Richard L. Moreland",
+        "Linda Argote",
+        "Kyle Lewis"
+      ],
+      "year": 1985,
+      "era": "1985–present",
+      "boundary_note": "A TMS is coordinated group remembering, not a unified group subject or collective phenomenal consciousness.",
+      "claim_scope": "Specialization, directory knowledge, credibility, and coordination in groups.",
+      "evidence_profile": "Group training experiments, team performance, validated scales, communication, and longitudinal research.",
+      "open_questions": [
+        "How do digital agents and membership change alter directory knowledge?",
+        "When does specialization create fragility or bias?"
+      ],
+      "keywords": [
+        "transactive memory",
+        "group cognition",
+        "who knows what",
+        "team memory"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Group Versus Individual Training and Group Performance: The Mediating Role of Transactive Memory",
+          "authors": "Diane Wei Liang; Richard Moreland; Linda Argote",
+          "year": 1995,
+          "venue": "Personality and Social Psychology Bulletin 21(4): 384-393",
+          "url": "https://doi.org/10.1177/0146167295214009",
+          "doi": "10.1177/0146167295214009",
+          "authority": "primary-empirical-formulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Measuring transactive memory systems in the field: Scale development and validation.",
+          "authors": "Kyle Lewis",
+          "year": 2003,
+          "venue": "Journal of Applied Psychology 88(4): 587-604",
+          "url": "https://doi.org/10.1037/0021-9010.88.4.587",
+          "doi": "10.1037/0021-9010.88.4.587",
+          "authority": "primary-measurement-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-shared-mental-models",
+      "name": "Shared Mental Models Framework",
+      "aliases": [
+        "SMM",
+        "team mental models"
+      ],
+      "kind": "Model or framework",
+      "domain": "Collective & distributed cognition",
+      "tradition": "Team cognition / organizational psychology",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Model similarity and accuracy predict coordination, but content domains and measurement choices materially affect results.",
+      "summary": "Teams coordinate when members hold compatible organized knowledge about task, equipment, roles, and interactions, enabling prediction and implicit coordination.",
+      "proponents": [
+        "John E. Mathieu",
+        "Tonia S. Heffner",
+        "Gerald F. Goodwin",
+        "Eduardo Salas",
+        "Susan Mohammed"
+      ],
+      "year": 2000,
+      "era": "2000–present",
+      "boundary_note": "Compatible models are not necessarily identical beliefs, collective intentionality, or a shared stream of consciousness.",
+      "claim_scope": "Team knowledge similarity, accuracy, coordination, adaptation, and performance.",
+      "evidence_profile": "Concept maps, paired comparisons, questionnaires, simulations, longitudinal studies, and performance models.",
+      "open_questions": [
+        "Which form of similarity matters for each task?",
+        "How can convergence be balanced against useful dissent?"
+      ],
+      "keywords": [
+        "shared mental models",
+        "team cognition",
+        "coordination",
+        "knowledge structure"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The influence of shared mental models on team process and performance.",
+          "authors": "John E. Mathieu; Tonia S. Heffner; Gerald F. Goodwin; Eduardo Salas; Janis A. Cannon-Bowers",
+          "year": 2000,
+          "venue": "Journal of Applied Psychology 85(2): 273-283",
+          "url": "https://doi.org/10.1037/0021-9010.85.2.273",
+          "doi": "10.1037/0021-9010.85.2.273",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Metaphor No More: A 15-Year Review of the Team Mental Model Construct",
+          "authors": "Susan Mohammed; Lori Ferzandi; Katherine Hamilton",
+          "year": 2010,
+          "venue": "Journal of Management 36(4): 876-910",
+          "url": "https://doi.org/10.1177/0149206309356804",
+          "doi": "10.1177/0149206309356804",
+          "authority": "authoritative-integrative-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-collective-intelligence-factor",
+      "name": "Collective Intelligence Factor c",
+      "aliases": [
+        "group intelligence factor"
+      ],
+      "kind": "Model or framework",
+      "domain": "Collective & distributed cognition",
+      "tradition": "Psychometrics / group performance",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "A common group-performance factor replicates in some samples; stability, causes, and aggregation artifacts remain debated.",
+      "summary": "Performance across diverse group tasks can load on a common factor that predicts later group performance and was not reducible in initial studies to maximum or mean individual intelligence.",
+      "proponents": [
+        "Anita Williams Woolley",
+        "Christopher F. Chabris",
+        "Alex Pentland",
+        "Nada Hashmi",
+        "Thomas W. Malone"
+      ],
+      "year": 2010,
+      "era": "2010–present",
+      "boundary_note": "The c factor is statistical, not evidence for a group mind, shared phenomenology, or an invariant capacity across collectives.",
+      "claim_scope": "Covariation and prediction of small-group performance across task batteries.",
+      "evidence_profile": "Group-task batteries, factor analysis, social-sensitivity measures, communication patterns, and replication.",
+      "open_questions": [
+        "How stable is c across tasks, cultures, sizes, and time?",
+        "Which causal mechanisms generate the factor?"
+      ],
+      "keywords": [
+        "collective intelligence",
+        "group performance",
+        "c factor",
+        "team cognition"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+          "authors": "Anita Williams Woolley; Christopher F. Chabris; Alex Pentland; Nada Hashmi; Thomas W. Malone",
+          "year": 2010,
+          "venue": "Science 330(6004): 686-688",
+          "url": "https://doi.org/10.1126/science.1193147",
+          "doi": "10.1126/science.1193147",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Reading the Mind in the Eyes or Reading between the Lines? Theory of Mind Predicts Collective Intelligence Equally Well Online and Face-To-Face",
+          "authors": "David Engel; Anita Williams Woolley; Lisa X. Jing; Christopher F. Chabris; Thomas W. Malone",
+          "year": 2014,
+          "venue": "PLoS ONE 9(12): e115212",
+          "url": "https://doi.org/10.1371/journal.pone.0115212",
+          "doi": "10.1371/journal.pone.0115212",
+          "authority": "primary-replication",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-bdi-agent-architecture",
+      "name": "Belief–Desire–Intention Agent Architecture",
+      "aliases": [
+        "BDI architecture"
+      ],
+      "kind": "Model or framework",
+      "domain": "Machine social cognition",
+      "tradition": "Symbolic AI / rational agency",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "BDI remains widely used, but implementations differ in revision, uncertainty, learning, and tractability.",
+      "summary": "An artificial agent maintains informational beliefs, motivational goals, and committed intentions that constrain planning and action in changing environments.",
+      "proponents": [
+        "Anand S. Rao",
+        "Michael P. Georgeff"
+      ],
+      "year": 1995,
+      "era": "1995–present",
+      "boundary_note": "Engineered BDI states do not establish phenomenal belief, desire, intention, consciousness, or human-like understanding.",
+      "claim_scope": "Deliberation, commitment, plan selection, and intention revision in software agents.",
+      "evidence_profile": "Formal semantics, programming languages, simulation, planning benchmarks, and deployed systems.",
+      "open_questions": [
+        "How should BDI integrate uncertainty and learned representations?",
+        "What distinguishes flexible social modeling from state labels?"
+      ],
+      "keywords": [
+        "BDI",
+        "agent architecture",
+        "belief desire intention",
+        "machine agency"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "BDI Agents: From Theory to Practice",
+          "authors": "Anand S. Rao; Michael P. Georgeff",
+          "year": 1995,
+          "venue": "Proceedings of the First International Conference on Multi-Agent Systems: 312–319",
+          "url": "https://aaai.org/papers/icmas95-042-bdi-agents-from-theory-to-practice/",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Belief-Desire-Intention Model of Agency",
+          "authors": "Michael Georgeff; Barney Pell; Martha Pollack; Milind Tambe; Michael Wooldridge",
+          "year": 1999,
+          "venue": "Lecture Notes in Computer Science: 1-10",
+          "url": "https://doi.org/10.1007/3-540-49057-4_1",
+          "doi": "10.1007/3-540-49057-4_1",
+          "authority": "authoritative-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-interactive-pomdp",
+      "name": "Interactive Partially Observable Markov Decision Process",
+      "aliases": [
+        "I-POMDP",
+        "interactive POMDP"
+      ],
+      "kind": "Model or framework",
+      "domain": "Machine social cognition",
+      "tradition": "Bayesian multi-agent decision theory",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Nested beliefs are principled but exact inference and planning become intractable quickly.",
+      "summary": "An agent extends a POMDP state with models of other agents, including beliefs and preferences, and updates nested interactive beliefs to act under physical and social uncertainty.",
+      "proponents": [
+        "Piotr J. Gmytrasiewicz",
+        "Prashant Doshi"
+      ],
+      "year": 2004,
+      "era": "2004–present",
+      "boundary_note": "Formal agent models do not establish human-like phenomenal mind attribution or machine consciousness.",
+      "claim_scope": "Sequential planning and recursive modeling of other agents under partial observability.",
+      "evidence_profile": "Formal analysis, value iteration, interactive belief updates, particle filtering, and simulation.",
+      "open_questions": [
+        "How can nested reasoning scale without arbitrary depth limits?",
+        "How should learned human models replace idealized types?"
+      ],
+      "keywords": [
+        "I-POMDP",
+        "interactive beliefs",
+        "multi-agent planning",
+        "machine theory of mind"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Interactive POMDPs: Properties and Preliminary Results",
+          "authors": "Piotr J. Gmytrasiewicz; Prashant Doshi",
+          "year": 2004,
+          "venue": "Proceedings of AAMAS 2004: 1374–1375",
+          "url": "https://dblp.org/rec/conf/atal/GmytrasiewiczD04",
+          "authority": "authoritative-bibliographic-record",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A Framework for Sequential Planning in Multi-Agent Settings",
+          "authors": "P. J. Gmytrasiewicz; P. Doshi",
+          "year": 2005,
+          "venue": "Journal of Artificial Intelligence Research 24: 49-79",
+          "url": "https://doi.org/10.1613/jair.1579",
+          "doi": "10.1613/jair.1579",
+          "authority": "primary-full-formulation",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cooperative-inverse-reinforcement-learning",
+      "name": "Cooperative Inverse Reinforcement Learning",
+      "aliases": [
+        "CIRL"
+      ],
+      "kind": "Model or framework",
+      "domain": "Machine social cognition",
+      "tradition": "Machine learning / human–robot cooperation",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "CIRL centers preference uncertainty; practical models must handle biased, changing, and heterogeneous human behavior.",
+      "summary": "Human and robot cooperate under a shared reward set by latent human preferences, which the robot learns through observation and interaction while acting to help.",
+      "proponents": [
+        "Dylan Hadfield-Menell",
+        "Stuart Russell",
+        "Pieter Abbeel",
+        "Anca Dragan"
+      ],
+      "year": 2016,
+      "era": "2016–present",
+      "boundary_note": "Preference inference is not empathy, moral understanding, consciousness, or a guarantee of learning considered human values.",
+      "claim_scope": "Value alignment as cooperative sequential decision making under uncertain human reward.",
+      "evidence_profile": "Game theory, POMDP reduction, simulation, active learning, teaching behavior, and off-switch models.",
+      "open_questions": [
+        "How should inconsistent or evolving preferences be represented?",
+        "How can misspecified reward models be audited safely?"
+      ],
+      "keywords": [
+        "CIRL",
+        "value alignment",
+        "inverse reinforcement learning",
+        "human robot cooperation"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Cooperative Inverse Reinforcement Learning",
+          "authors": "Dylan Hadfield-Menell; Stuart Russell; Pieter Abbeel; Anca Dragan",
+          "year": 2016,
+          "venue": "Advances in Neural Information Processing Systems 29",
+          "url": "https://proceedings.neurips.cc/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Off-Switch Game",
+          "authors": "Dylan Hadfield-Menell; Anca Dragan; Pieter Abbeel; Stuart Russell",
+          "year": 2017,
+          "venue": "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence: 220-227",
+          "url": "https://doi.org/10.24963/ijcai.2017/32",
+          "doi": "10.24963/ijcai.2017/32",
+          "authority": "primary-formal-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-affective-computing-framework",
+      "name": "Affective Computing Framework",
+      "aliases": [
+        "affective computing"
+      ],
+      "kind": "Model or framework",
+      "domain": "Machine social cognition",
+      "tradition": "Human–computer interaction / affective AI",
+      "status": "active research program · scope and mechanisms contested",
+      "status_note": "Recognition and synthesis have expanded rapidly; validity, cultural bias, privacy, and claims about feeling require strict scrutiny.",
+      "summary": "Systems can recognize, model, respond to, and simulate affective signals so interaction adapts to users' emotional and regulatory states.",
+      "proponents": [
+        "Rosalind W. Picard",
+        "Rafael A. Calvo",
+        "Sidney D'Mello"
+      ],
+      "year": 1997,
+      "era": "1997–present",
+      "boundary_note": "Affective classification or expression does not establish felt emotion, empathy, or consciousness; signals are context-dependent proxies.",
+      "claim_scope": "Machine recognition, representation, generation, and use of affect-related signals.",
+      "evidence_profile": "Multimodal datasets, facial and vocal analysis, physiology, wearables, user studies, and benchmarks.",
+      "open_questions": [
+        "How can models avoid universalizing variable expressions?",
+        "What evidence could distinguish simulated affect from feeling?"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "affective AI",
+        "HCI"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Affective Computing",
+          "authors": "Rosalind W. Picard",
+          "year": 1997,
+          "venue": "MIT Press",
+          "url": "https://mitpress.mit.edu/9780262661157/affective-computing/",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Affect Detection: An Interdisciplinary Review of Models, Methods, and Their Applications",
+          "authors": "Rafael A Calvo; Sidney D'Mello",
+          "year": 2010,
+          "venue": "IEEE Transactions on Affective Computing 1(1): 18-37",
+          "url": "https://doi.org/10.1109/T-AFFC.2010.1",
+          "doi": "10.1109/T-AFFC.2010.1",
+          "authority": "authoritative-field-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-levels-processing-framework",
+      "name": "Levels of Processing Framework",
+      "aliases": [
+        "depth-of-processing framework",
+        "levels of processing"
+      ],
+      "kind": "Model or framework",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Cognitive memory / encoding",
+      "status": "foundational framework · depth construct substantially revised",
+      "status_note": "Elaborative semantic processing robustly benefits memory, while a single linear depth scale and circular definitions have been rejected.",
+      "summary": "Memory retention depends more on the qualitative operations performed during encoding—especially elaborative semantic analysis—than on transfer into a sequence of discrete memory stores.",
+      "proponents": [
+        "Fergus I. M. Craik",
+        "Robert S. Lockhart",
+        "Endel Tulving"
+      ],
+      "year": 1972,
+      "era": "1972–present",
+      "boundary_note": "The framework concerns encoding and later memory, not levels of consciousness; deeper processing does not guarantee conscious recollection.",
+      "claim_scope": "Effects of perceptual, phonological, semantic, and elaborative encoding operations on later memory.",
+      "evidence_profile": "Incidental learning, orienting questions, recall and recognition, transfer-appropriate processing, and elaboration manipulations.",
+      "open_questions": [
+        "How can processing quality be specified without circular reference to memory outcome?",
+        "How do depth, distinctiveness, elaboration, and retrieval match interact?"
+      ],
+      "keywords": [
+        "levels of processing",
+        "encoding",
+        "semantic processing",
+        "memory"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Levels of processing: A framework for memory research",
+          "authors": "Fergus I.M. Craik; Robert S. Lockhart",
+          "year": 1972,
+          "venue": "Journal of Verbal Learning and Verbal Behavior 11(6): 671-684",
+          "url": "https://doi.org/10.1016/S0022-5371(72)80001-X",
+          "doi": "10.1016/S0022-5371(72)80001-X",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Depth of processing and the retention of words in episodic memory.",
+          "authors": "Fergus I. M. Craik; Endel Tulving",
+          "year": 1975,
+          "venue": "Journal of Experimental Psychology: General 104(3): 268-294",
+          "url": "https://doi.org/10.1037/0096-3445.104.3.268",
+          "doi": "10.1037/0096-3445.104.3.268",
+          "authority": "primary-empirical-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-dual-coding-theory",
+      "name": "Dual Coding Theory",
+      "aliases": [
+        "DCT",
+        "verbal–nonverbal dual coding"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Language, representation & thought",
+      "tradition": "Cognitive representation / imagery and language",
+      "status": "influential active theory · code independence debated",
+      "status_note": "Separate but interacting verbal and nonverbal systems remain empirically productive, while their neural and computational format is contested.",
+      "summary": "Cognition uses partially independent verbal and nonverbal representational systems; information encoded in both can gain additive retrieval routes and support imagery, memory, and comprehension.",
+      "proponents": [
+        "Allan Paivio"
+      ],
+      "year": 1971,
+      "era": "1971–present",
+      "boundary_note": "Dual coding does not posit exactly two neural modules or make imagery intrinsically conscious; it is distinct from generic multimedia-design advice.",
+      "claim_scope": "Representation and memory of verbal and imaginal information and benefits of coordinated coding.",
+      "evidence_profile": "Concreteness and imagery effects, paired associates, picture superiority, educational studies, and neuropsychology.",
+      "open_questions": [
+        "How independent are verbal and nonverbal codes during retrieval?",
+        "Can distributed or embodied accounts reproduce dual-coding effects without separate systems?"
+      ],
+      "keywords": [
+        "dual coding",
+        "imagery",
+        "verbal representation",
+        "picture superiority"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Dual coding theory: Retrospect and current status.",
+          "authors": "Allan Paivio",
+          "year": 1991,
+          "venue": "Canadian Journal of Psychology / Revue canadienne de psychologie 45(3): 255-287",
+          "url": "https://doi.org/10.1037/h0084295",
+          "doi": "10.1037/h0084295",
+          "authority": "primary-self-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Dual coding theory and education",
+          "authors": "James M. Clark; Allan Paivio",
+          "year": 1991,
+          "venue": "Educational Psychology Review 3(3): 149-210",
+          "url": "https://doi.org/10.1007/BF01320076",
+          "doi": "10.1007/BF01320076",
+          "authority": "primary-application-and-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-two-factor-theory-emotion",
+      "name": "Two-Factor Theory of Emotion",
+      "aliases": [
+        "Schachter–Singer theory",
+        "two-factor emotion theory"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Emotion, affect & regulation",
+      "tradition": "Cognitive appraisal / social psychology",
+      "status": "historically foundational · original evidence and generality contested",
+      "status_note": "Arousal-plus-interpretation remains influential, but replications and later appraisal research reject a simple universal two-step formula.",
+      "summary": "Emotion arises through an interaction between physiological arousal and context-sensitive interpretation that labels the arousal, especially when bodily state is ambiguous.",
+      "proponents": [
+        "Stanley Schachter",
+        "Jerome E. Singer"
+      ],
+      "year": 1962,
+      "era": "1962–present",
+      "boundary_note": "The theory does not establish that every emotion requires undifferentiated arousal plus conscious labeling, and its original study is not decisive.",
+      "claim_scope": "How physiological arousal and situational interpretation contribute to experienced emotion.",
+      "evidence_profile": "Arousal manipulation, misattribution, social-context cues, replication attempts, and quantitative review.",
+      "open_questions": [
+        "When does labeling alter experience rather than only report?",
+        "How differentiated are physiological patterns before interpretation?"
+      ],
+      "keywords": [
+        "two-factor emotion",
+        "arousal",
+        "cognitive label",
+        "misattribution"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Cognitive, social, and physiological determinants of emotional state.",
+          "authors": "Stanley Schachter; Jerome Singer",
+          "year": 1962,
+          "venue": "Psychological Review 69(5): 379-399",
+          "url": "https://doi.org/10.1037/h0046234",
+          "doi": "10.1037/h0046234",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Schachter theory of emotion: Two decades later.",
+          "authors": "Rainer Reisenzein",
+          "year": 1983,
+          "venue": "Psychological Bulletin 94(2): 239-264",
+          "url": "https://doi.org/10.1037/0033-2909.94.2.239",
+          "doi": "10.1037/0033-2909.94.2.239",
+          "authority": "scholarly-critical-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-fuzzy-trace-theory",
+      "name": "Fuzzy-Trace Theory",
+      "aliases": [
+        "FTT",
+        "fuzzy-trace theory of memory and reasoning"
+      ],
+      "kind": "Scientific theory",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Cognitive development / memory and decision making",
+      "status": "major active theory · representational and process claims contested",
+      "status_note": "The verbatim–gist distinction explains broad memory and reasoning patterns, while trace independence and task-specific mechanisms remain debated.",
+      "summary": "Experience is encoded in parallel verbatim traces preserving surface detail and gist traces preserving bottom-line meaning; gist is often more durable and increasingly preferred with development, shaping true memory, false memory, and reasoning.",
+      "proponents": [
+        "Valerie F. Reyna",
+        "Charles J. Brainerd"
+      ],
+      "year": 1995,
+      "era": "1990s–present",
+      "boundary_note": "Fuzzy-Trace Theory concerns representation, memory, and reasoning; gist is not intrinsically conscious, and the theory is not a general account of phenomenal consciousness.",
+      "claim_scope": "Verbatim and gist representation in memory development, false memory, judgment, and decision making.",
+      "evidence_profile": "True and false recognition, developmental reversals, framing, delayed testing, mathematical modeling, and neuropsychological study.",
+      "open_questions": [
+        "How independently are gist and verbatim traces encoded and retrieved?",
+        "Which neural measures distinguish gist extraction from semantic association or decision strategy?"
+      ],
+      "keywords": [
+        "fuzzy trace",
+        "gist",
+        "verbatim memory",
+        "false memory",
+        "reasoning"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Fuzzy-trace theory: An interim synthesis",
+          "authors": "V.F. Reyna; C.J. Brainerd",
+          "year": 1995,
+          "venue": "Learning and Individual Differences 7(1): 1-75",
+          "url": "https://doi.org/10.1016/1041-6080(95)90031-4",
+          "doi": "10.1016/1041-6080(95)90031-4",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Fuzzy-Trace Theory and False Memory",
+          "authors": "C.J. Brainerd; V.F. Reyna",
+          "year": 2002,
+          "venue": "Current Directions in Psychological Science 11(5): 164-169",
+          "url": "https://doi.org/10.1111/1467-8721.00192",
+          "doi": "10.1111/1467-8721.00192",
+          "authority": "authoritative-primary-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-multiprocess-prospective-memory",
+      "name": "Multiprocess Framework of Prospective Memory",
+      "aliases": [
+        "prospective-memory multiprocess framework",
+        "dynamic multiprocess framework"
+      ],
+      "kind": "Model or framework",
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Prospective memory / cognitive control",
+      "status": "major active framework · process diagnostics refined",
+      "status_note": "Evidence supports both strategic monitoring and spontaneous retrieval, while task costs are an imperfect proxy and process mixtures vary dynamically.",
+      "summary": "Delayed intentions can be retrieved through resource-demanding monitoring for target events or through relatively spontaneous cue-driven retrieval; cue focality, context, ongoing-task demand, and individual differences shift reliance between processes.",
+      "proponents": [
+        "Mark A. McDaniel",
+        "Gilles O. Einstein",
+        "Michael K. Scullin",
+        "Jill Talley Shelton"
+      ],
+      "year": 2000,
+      "era": "2000–present",
+      "boundary_note": "This framework explains remembering to act in the future, not prospective phenomenal consciousness; spontaneous retrieval does not imply an unconscious intention remained continuously active.",
+      "claim_scope": "Retrieval and execution of delayed intentions through monitoring and spontaneous cue-triggered processes.",
+      "evidence_profile": "Event-based prospective-memory tasks, ongoing-task costs, cue focality, contextual variability, delay, and age comparisons.",
+      "open_questions": [
+        "How can monitoring and spontaneous retrieval be identified without circular task-cost assumptions?",
+        "How are intentions maintained and reactivated across long naturalistic delays?"
+      ],
+      "keywords": [
+        "prospective memory",
+        "multiprocess framework",
+        "monitoring",
+        "spontaneous retrieval",
+        "intention"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Strategic and automatic processes in prospective memory retrieval: a multiprocess framework",
+          "authors": "Mark A. McDaniel; Gilles O. Einstein",
+          "year": 2000,
+          "venue": "Applied Cognitive Psychology 14(7)",
+          "url": "https://doi.org/10.1002/acp.775",
+          "doi": "10.1002/acp.775",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The Dynamic Multiprocess Framework: Evidence from prospective memory with contextual variability",
+          "authors": "Michael K. Scullin; Mark A. McDaniel; Jill Talley Shelton",
+          "year": 2013,
+          "venue": "Cognitive Psychology 67(1-2): 55-71",
+          "url": "https://doi.org/10.1016/j.cogpsych.2013.07.001",
+          "doi": "10.1016/j.cogpsych.2013.07.001",
+          "authority": "primary-dynamic-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-choice-blindness",
+      "name": "Choice Blindness",
+      "aliases": [
+        "choice-blindness phenomenon"
+      ],
+      "kind": "Phenomenological construct",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Experimental introspection / decision awareness",
+      "status": "replicated experimental phenomenon · prevalence and interpretation task-sensitive",
+      "status_note": "Undetected outcome substitutions and post-hoc reasons recur across domains, but detection depends on discrepancy, confidence, delay, and manipulation method.",
+      "summary": "People can fail to notice that the outcome presented after a choice differs from what they selected and may nevertheless provide reasons for the manipulated outcome, revealing limits on access to choice history and preference stability.",
+      "proponents": [
+        "Petter Johansson",
+        "Lars Hall",
+        "Sverker Sikström",
+        "Andreas Olsson"
+      ],
+      "year": 2005,
+      "era": "2005–present",
+      "boundary_note": "Choice blindness does not show that all introspection is confabulation or that participants lacked an original preference; detection, compliance, memory, and demand effects require separate controls.",
+      "claim_scope": "Awareness of mismatches between intended choices and presented outcomes and explanations generated after undetected substitutions.",
+      "evidence_profile": "Covert outcome substitution, concurrent and retrospective detection, confidence, verbal explanation, consumer choice, and attitude-reversal paradigms.",
+      "open_questions": [
+        "Which failures reflect weak memory, flexible preference, response compliance, or limited metacognitive comparison?",
+        "How do detection rates change when choices are consequential or revisitable?"
+      ],
+      "keywords": [
+        "choice blindness",
+        "introspection",
+        "confabulation",
+        "decision awareness",
+        "preference"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Failure to Detect Mismatches Between Intention and Outcome in a Simple Decision Task",
+          "authors": "Petter Johansson; Lars Hall; Sverker Sikström; Andreas Olsson",
+          "year": 2005,
+          "venue": "Science 310(5745): 116-119",
+          "url": "https://doi.org/10.1126/science.1111709",
+          "doi": "10.1126/science.1111709",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Lifting the Veil of Morality: Choice Blindness and Attitude Reversals on a Self-Transforming Survey",
+          "authors": "Lars Hall; Petter Johansson; Thomas Strandberg",
+          "year": 2012,
+          "venue": "PLoS ONE 7(9): e45457",
+          "url": "https://doi.org/10.1371/journal.pone.0045457",
+          "doi": "10.1371/journal.pone.0045457",
+          "authority": "primary-domain-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}

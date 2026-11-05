@@ -1,0 +1,868 @@
+{
+  "collection": {
+    "title": "Noemorph neuroscience and clinical-state gap packet",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "base_catalog": "data/catalog.json",
+    "record_count": 10,
+    "purpose": "Provisional, citation-first additions that fill distinct neuroscience, computational, temporal, anesthesia, sleep, and disorders-of-consciousness gaps in the base catalog.",
+    "selection_policy": "Each candidate is absent from the base catalog as a named record, has a defensible identity distinct from adjacent entries, and retains at least two exact peer-reviewed DOI locators. Foundational theories, clinical-state mechanisms, and measurement frameworks remain separately typed.",
+    "source_policy": "Defining self-expositions and primary empirical papers are preferred. Reviews are used to bound evidence and disagreement, never to convert framework-level support into validation of a constitutive theory.",
+    "deduplication_note": "Beautiful Loop Theory is separated from generic Free-Energy Principle and predictive-processing entries; criticality from the Entropic Brain Hypothesis; Neural Hierarchy from GNWT, RPT, DIT, and Apical Amplification; PCI from IIT and generic disorders-of-consciousness records; Cognitive Unbinding, Neural Inertia, and cortical bistability from the umbrella anesthesia/state records.",
+    "synthesis_policy": "These records remain provisional collection objects. Cross-theory synthesis, endorsement, ranking, and causal unification are out of scope until coverage and independent review gates are met."
+  },
+  "records": [
+    {
+      "id": "gap-neuro-001-beautiful-loop-theory",
+      "name": "Beautiful Loop Theory",
+      "aliases": [
+        "BLT",
+        "Beautiful Loop active-inference theory"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Predictive & representational models",
+      "tradition": "Active inference / computational neuroscience",
+      "status": "newly proposed · formalized · not independently validated",
+      "status_note": "The 2025 paper is the defining peer-reviewed exposition. The 2026 active-inference review establishes the surrounding research program, but it is not an independent test of Beautiful Loop Theory.",
+      "summary": "Beautiful Loop Theory proposes three conditions for consciousness: an epistemic field or unified world model, inferential competition that binds uncertainty-reducing hypotheses into that model, and epistemic depth produced by recurrent sharing of Bayesian beliefs through a hierarchy. It formalizes the third condition with a precision-controlling hyper-model whose states govern weighting across levels of inference.",
+      "proponents": [
+        "Ruben Laukkonen",
+        "Karl Friston",
+        "Shamil Chandaria"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Computational and putatively constitutive account of conscious state and content within active inference; extended by its authors to sleep, dreaming, meditation, psychedelics, and artificial agents.",
+      "keywords": [
+        "active inference",
+        "epistemic field",
+        "Bayesian binding",
+        "epistemic depth",
+        "precision control",
+        "world model",
+        "hyper-model"
+      ],
+      "boundary_note": "Catalog separately from the Free-Energy Principle, Active Inference, and generic predictive-processing approaches because BLT adds named necessary conditions and a precision hyper-model. Its suggested neuromodulatory and electromagnetic broadcast routes are implementation proposals, not established consequences of active inference.",
+      "claim_scope": {
+        "target": "Minimal conditions proposed for conscious experience and its integration across states.",
+        "level": "Computational / functional, with candidate neural implementations.",
+        "does_not_establish": "That active inference alone is sufficient for consciousness, that the three conditions are empirically necessary, or that any proposed biological broadcast channel is uniquely correct."
+      },
+      "evidence_profile": {
+        "basis": [
+          "A peer-reviewed defining theory paper with an explicit three-condition architecture and formal precision-control proposal.",
+          "A broader peer-reviewed 2026 review identifies shared, potentially testable consciousness commitments across active-inference models."
+        ],
+        "limitations": [
+          "No published theory-specific experimental program yet discriminates BLT from GNWT, recurrent processing, higher-order, or other active-inference accounts.",
+          "Many applications to altered states are explanatory fits rather than risky prospective tests."
+        ],
+        "independence": "The second source overlaps intellectually and by one author with the defining paper; independent corroboration remains absent."
+      },
+      "open_questions": [
+        "Which operational measures separately identify epistemic field, Bayesian binding, and epistemic depth in vivo?",
+        "What observation would distinguish the precision hyper-model from ordinary hierarchical predictive control?",
+        "Which organisms or artificial systems satisfy the conditions without importing behavioral report as the criterion?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A beautiful loop: An active inference theory of consciousness",
+          "authors": "Ruben Laukkonen; Karl Friston; Shamil Chandaria",
+          "year": 2025,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "url": "https://doi.org/10.1016/j.neubiorev.2025.106296",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.neubiorev.2025.106296"
+        },
+        {
+          "title": "On the minimal theory of consciousness implicit in active inference",
+          "authors": "Christopher J. Whyte; Andrew W. Corcoran; Jonathan Robinson; Ryan Smith; Rosalyn J. Moran; Thomas Parr; Karl J. Friston; Anil K. Seth; Jakob Hohwy",
+          "year": 2026,
+          "venue": "Physics of Life Reviews",
+          "url": "https://doi.org/10.1016/j.plrev.2025.11.002",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.plrev.2025.11.002"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-002-alarm-theory",
+      "name": "ALARM theory of consciousness",
+      "aliases": [
+        "ALARM"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Subcortical & biological models",
+      "tradition": "Evolutionary / functional consciousness science",
+      "status": "newly proposed · evolving formulation · not independently validated",
+      "status_note": "The 2023 exposition presented a two-level theory; the 2025 expansion explicitly distinguishes three phenomena and functions. Version and date must be retained when comparing claims.",
+      "summary": "ALARM distinguishes basic arousal, general alertness, and reflexive self-consciousness rather than treating phenomenal consciousness as one undifferentiated capacity. It assigns basic arousal an alarm-and-survival role through intervention in slow homeostatic updating, general alertness roles in advanced learning and decision-making, and reflexive self-consciousness a role in future-directed planning that models self and other agents.",
+      "proponents": [
+        "Albert Newen",
+        "Carlos Montemayor"
+      ],
+      "era": "2023–present",
+      "year": 2023,
+      "scope": "Evolutionary and functional partition of phenomenal consciousness, intended to constrain searches for distinct neural correlates at subcortical and cortical levels.",
+      "keywords": [
+        "basic arousal",
+        "general alertness",
+        "reflexive self-consciousness",
+        "evolution",
+        "function of consciousness",
+        "homeostasis",
+        "neural correlates"
+      ],
+      "boundary_note": "Do not merge with affective/brainstem consciousness theories or multidimensional state frameworks. ALARM is a named evolutionary-functional partition that assigns different roles to three consciousness phenomena; it does not merely assert that arousal is multidimensional.",
+      "claim_scope": {
+        "target": "Functions and evolutionary organization of three forms of phenomenal consciousness.",
+        "level": "Functional / evolutionary, with constraints on candidate neural correlates.",
+        "does_not_establish": "A complete constitutive mechanism, a unique anatomical substrate for each form, or that all conscious contents require reflexive self-consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Two peer-reviewed self-expositions develop the framework from a two-level formulation into an explicit three-phenomenon account.",
+          "The account is constrained by comparative, arousal, homeostatic, learning, and self-modeling literatures reviewed by the authors."
+        ],
+        "limitations": [
+          "The proposed functions are theoretical assignments rather than results of direct comparative or lesion-based adjudication.",
+          "Boundaries among arousal, alertness, attention, access, and phenomenal consciousness remain operationally difficult."
+        ],
+        "independence": "Both retained sources are by the theory's proponents; independent tests and critical comparisons are needed."
+      },
+      "open_questions": [
+        "Can basic arousal be dissociated from phenomenal consciousness without defining either through responsiveness?",
+        "Which phylogenetic and developmental transitions mark general alertness and reflexive self-consciousness?",
+        "Do the three proposed functions map to separable and necessary neural mechanisms?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The ALARM Theory of Consciousness: A Two-Level Theory of Phenomenal Consciousness",
+          "authors": "Albert Newen; Carlos Montemayor",
+          "year": 2023,
+          "venue": "Journal of Consciousness Studies",
+          "url": "https://doi.org/10.53765/20512201.30.3.084",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.53765/20512201.30.3.084"
+        },
+        {
+          "title": "Three types of phenomenal consciousness and their functional roles: unfolding the ALARM theory of consciousness",
+          "authors": "Albert Newen; Carlos Montemayor",
+          "year": 2025,
+          "venue": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+          "url": "https://doi.org/10.1098/rstb.2024.0314",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1098/rstb.2024.0314"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-003-kolmogorov-theory-consciousness",
+      "name": "Algorithmic Information Theory of Consciousness",
+      "aliases": [
+        "Kolmogorov Theory of consciousness",
+        "KT"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Information theory / computational neuroscience",
+      "tradition": "Algorithmic information theory / computational neuroscience",
+      "status": "formal proposal · limited direct testing",
+      "status_note": "The framework supplies mathematical concepts and candidate complexity measures, but Kolmogorov complexity is not directly computable and available proxies are not specific to KT.",
+      "summary": "The theory begins from the existence of consciousness and addresses structured experience by proposing that recurrent cognitive systems construct succinct generative models of their input-output streams. Compressive models organize phenomenal structure, while self-awareness is proposed to arise when a bidirectionally interacting system includes itself in a better model. Algorithmic complexity and mutual algorithmic information motivate candidate measurements of brain state and brain-world coupling.",
+      "proponents": [
+        "Giulio Ruffini"
+      ],
+      "era": "2017–present",
+      "year": 2017,
+      "scope": "Formal account of structured experience and candidate state measures grounded in Kolmogorov complexity, model compression, and recurrent cognition.",
+      "keywords": [
+        "algorithmic information theory",
+        "Kolmogorov complexity",
+        "compression",
+        "generative model",
+        "mutual algorithmic information",
+        "structured experience",
+        "self-awareness"
+      ],
+      "boundary_note": "Keep separate from IIT, Information Closure Theory, raw entropy accounts, and generic predictive processing. KT concerns compressive generative models and algorithmic regularity; it does not identify consciousness with maximal randomness or with a single Lempel-Ziv score.",
+      "claim_scope": {
+        "target": "The structure of conscious experience and computational preconditions for self-modeling.",
+        "level": "Algorithmic / computational, with proposed neurophysiological measurement strategies.",
+        "does_not_establish": "That approximate compression metrics uniquely measure consciousness, that all model-building systems are conscious, or that algorithmic complexity solves the phenomenality question."
+      },
+      "evidence_profile": {
+        "basis": [
+          "A peer-reviewed formal exposition connects model compression, recurrent systems, and structured experience and lists candidate empirical probes.",
+          "A subsequent peer-reviewed information-generation theory explicitly compares KT with other information-centric accounts."
+        ],
+        "limitations": [
+          "Kolmogorov complexity is uncomputable in the general case, so empirical studies rely on estimator- and data-dependent proxies.",
+          "Neural complexity changes occur across many states and theories and therefore do not by themselves discriminate KT."
+        ],
+        "independence": "The comparison source is independent of Ruffini but is theoretical rather than a targeted empirical test."
+      },
+      "open_questions": [
+        "Which feasible estimator best preserves the theory's distinction between structured complexity and noise?",
+        "What compression-based prediction differs from IIT, predictive processing, and generic complexity accounts?",
+        "What recurrent or self-modeling architecture is sufficient without over-attributing consciousness to ordinary adaptive systems?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "An algorithmic information theory of consciousness",
+          "authors": "Giulio Ruffini",
+          "year": 2017,
+          "venue": "Neuroscience of Consciousness",
+          "url": "https://doi.org/10.1093/nc/nix019",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1093/nc/nix019"
+        },
+        {
+          "title": "Information generation as a functional basis of consciousness",
+          "authors": "Ryota Kanai; Acer Chang; Yen Yu; Ildefons Magrans de Abril; Martin Biehl; Nicholas Guttenberg",
+          "year": 2019,
+          "venue": "Neuroscience of Consciousness",
+          "url": "https://doi.org/10.1093/nc/niz016",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1093/nc/niz016"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-004-criticality-hypothesis-consciousness",
+      "name": "Criticality hypothesis of consciousness",
+      "aliases": [
+        "Critical brain hypothesis for consciousness",
+        "Criticality-based framework of conscious states"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Neural dynamics & integration",
+      "tradition": "Complex-systems neuroscience",
+      "status": "active empirical framework · heterogeneous evidence · contested",
+      "status_note": "A 2023 scoping review found altered states generally associated with departures from criticality, but methods were inhomogeneous and most studies could not establish the direction of departure.",
+      "summary": "The hypothesis holds that healthy conscious brain dynamics operate near a critical regime that balances integration and differentiation and supports a large repertoire, susceptibility, and flexible information processing. Unconscious or altered states are expected to shift away from that regime, although subcritical and supercritical directions may differ by state and metric.",
+      "proponents": [
+        "Dante R. Chialvo",
+        "Enzo Tagliazucchi",
+        "UnCheol Lee",
+        "Catherine Duclos"
+      ],
+      "era": "2000s–present",
+      "year": 2016,
+      "scope": "Dynamical-regime account of global conscious state and altered-state transitions across sleep, anesthesia, disorders of consciousness, epilepsy, psychedelics, delirium, and meditation.",
+      "keywords": [
+        "criticality",
+        "near-critical dynamics",
+        "phase transition",
+        "metastability",
+        "neuronal avalanches",
+        "altered states",
+        "complexity"
+      ],
+      "boundary_note": "Do not collapse into the Entropic Brain Hypothesis, which was formulated around psychedelic-state entropy, or into IIT, which makes a constitutive integrated-information claim. Criticality is a dynamical-regime hypothesis; entropy, avalanche statistics, long-range temporal correlations, and complexity are non-equivalent operationalizations.",
+      "claim_scope": {
+        "target": "Global state capacity, flexibility, and altered-state dynamics.",
+        "level": "Population and whole-brain dynamical regime.",
+        "does_not_establish": "Why any critical dynamics are phenomenal, which conscious contents occur, or that every conscious system must sit at a thermodynamic phase transition."
+      },
+      "evidence_profile": {
+        "basis": [
+          "A multimodal 2016 study found large-scale signatures of unconsciousness consistent with departure from critical dynamics.",
+          "A 2023 scoping review retained 49 primary studies spanning seven altered-state categories and found broad evidence of deviation from criticality."
+        ],
+        "limitations": [
+          "Criticality estimators and null models vary substantially, and finite-size or filtering effects can mimic critical signatures.",
+          "The review found that most studies could not determine whether deviations were subcritical or supercritical.",
+          "Covariation with arousal, connectivity, spectral slope, and generic signal complexity limits theory specificity."
+        ],
+        "independence": "The evidence spans independent groups and states, but conceptual and measurement heterogeneity prevents a single pooled adjudication."
+      },
+      "open_questions": [
+        "Which definition and estimator of criticality is valid across recording scales and conscious states?",
+        "Are departures from criticality causes, consequences, or correlates of altered consciousness?",
+        "Can prospective interventions move a brain toward criticality and restore consciousness without merely increasing arousal?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Large-scale signatures of unconsciousness are consistent with a departure from critical dynamics",
+          "authors": "Enzo Tagliazucchi; Dante R. Chialvo; Michael Siniatchkin; Enrico Amico; Jean-Francois Brichant; Vincent Bonhomme; Quentin Noirhomme; Helmut Laufs; Steven Laureys",
+          "year": 2016,
+          "venue": "Journal of the Royal Society Interface",
+          "url": "https://doi.org/10.1098/rsif.2015.1027",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1098/rsif.2015.1027"
+        },
+        {
+          "title": "A scoping review for building a criticality-based conceptual framework of altered states of consciousness",
+          "authors": "Charles Gervais; Louis-Philippe Boucher; Guillermo Martinez Villar; UnCheol Lee; Catherine Duclos",
+          "year": 2023,
+          "venue": "Frontiers in Systems Neuroscience",
+          "url": "https://doi.org/10.3389/fnsys.2023.1085902",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.3389/fnsys.2023.1085902"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-005-neural-hierarchy-consciousness",
+      "name": "Neural Hierarchy model of consciousness",
+      "aliases": [
+        "Neural Hierarchy model",
+        "Levels-of-processing neural hierarchy"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Neural dynamics & integration",
+      "tradition": "Cellular and thalamocortical neurophysiology",
+      "status": "integrative proposal · component evidence available · untested as a whole",
+      "status_note": "The model is a single-author synthesis. Layer-5 dendritic and central-thalamic components have causal animal evidence, but the proposed graded-to-nonlinear hierarchy has not been tested as one integrated theory.",
+      "summary": "The model attempts to reconcile graded recurrent processing with nonlinear global ignition by positing lower- and higher-order thresholds in a processing hierarchy. It links graded detection and local recurrent activity to lower-order awareness, and nonlinear identification or higher-order awareness to bursting and recurrent output involving thick-tufted layer-5 pyramidal neurons and higher-order thalamocortical interactions.",
+      "proponents": [
+        "Victor N. Almeida"
+      ],
+      "era": "2022–present",
+      "year": 2022,
+      "scope": "Multiscale model of conscious perceptual thresholds intended to bridge cellular neurophysiology, recurrent processing, and global cortical ignition.",
+      "keywords": [
+        "neural hierarchy",
+        "levels of processing",
+        "layer-5 pyramidal neurons",
+        "apical dendrites",
+        "higher-order thalamus",
+        "graded awareness",
+        "cortical ignition",
+        "P3b",
+        "VAN"
+      ],
+      "boundary_note": "Keep distinct from GNWT, RPT, Dendritic Integration Theory, and Apical Amplification. Neural Hierarchy is specifically an integrative graded-to-nonlinear levels-of-processing model; overlap in layer-5 dendrites and thalamocortical recurrence is evidence of shared mechanism, not identity among theories.",
+      "claim_scope": {
+        "target": "Lower- and higher-order conscious perceptual thresholds and their relation to graded versus all-or-none neural signatures.",
+        "level": "Cellular, laminar, thalamocortical, and large-scale cortical.",
+        "does_not_establish": "That P3b is a pure consciousness marker, that layer-5 bursting is sufficient for phenomenality, or that the hierarchy generalizes beyond the tested perceptual domains."
+      },
+      "evidence_profile": {
+        "basis": [
+          "A peer-reviewed defining model-and-review explicitly states the graded lower-order and nonlinear higher-order architecture.",
+          "Causal mouse work shows apical dendritic activity in layer-5 pyramidal neurons shifts perceptual detection thresholds.",
+          "Macaque work shows central-lateral thalamic stimulation can modulate arousal and layer-specific cortical activity under anesthesia."
+        ],
+        "limitations": [
+          "The component experiments were not designed to test the full Neural Hierarchy model.",
+          "Animal detection and anesthesia paradigms do not directly establish the proposed human phenomenological partition.",
+          "Ignition and P3b can be affected by task, report, attention, and post-perceptual processing."
+        ],
+        "independence": "Component evidence comes from independent laboratories; theory-level prospective tests are still absent."
+      },
+      "open_questions": [
+        "Can one experiment dissociate the predicted graded lower-order threshold from the nonlinear higher-order threshold without report confounds?",
+        "Which layer-5 cell classes and thalamic nuclei are necessary for each proposed level?",
+        "Does the hierarchy explain state consciousness, nonvisual content, and nonhuman experience as well as visual access?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The neural hierarchy of consciousness: A theoretical model and review on neurophysiology and NCCs",
+          "authors": "Victor N. Almeida",
+          "year": 2022,
+          "venue": "Neuropsychologia",
+          "url": "https://doi.org/10.1016/j.neuropsychologia.2022.108202",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.neuropsychologia.2022.108202"
+        },
+        {
+          "title": "Active cortical dendrites modulate perception",
+          "authors": "Naoya Takahashi; Thomas G. Oertner; Peter Hegemann; Matthew E. Larkum",
+          "year": 2016,
+          "venue": "Science",
+          "url": "https://doi.org/10.1126/science.aah6066",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1126/science.aah6066"
+        },
+        {
+          "title": "Thalamus Modulates Consciousness via Layer-Specific Control of Cortex",
+          "authors": "Michelle J. Redinbaugh; Jessica M. Phillips; Niranjan A. Kambi; Sounak Mohanta; Samantha Andryk; Gaven L. Dooley; Mohsen Afrasiabi; Aeyal Raz; Yuri B. Saalmann",
+          "year": 2020,
+          "venue": "Neuron",
+          "url": "https://doi.org/10.1016/j.neuron.2020.01.005",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.neuron.2020.01.005"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-006-perturbational-complexity-index",
+      "name": "Perturbational Complexity Index framework",
+      "aliases": [
+        "PCI",
+        "TMS–EEG PCI"
+      ],
+      "kind": "Clinical / state model",
+      "kind_codes": [
+        "CS",
+        "NF"
+      ],
+      "domain": "Clinical states & disorders",
+      "tradition": "Perturbational neurophysiology / disorders of consciousness",
+      "status": "validated research and clinical-assessment framework · interpretation bounded",
+      "status_note": "PCI has independent validation across report-capable states and has stratified unresponsive patients, but it is an index of the brain's capacity for complex causal responses rather than a standalone theory or direct readout of experience.",
+      "summary": "PCI perturbs cortex with transcranial magnetic stimulation and compresses the spatiotemporal EEG response to quantify the joint presence of distributed interaction and differentiated activity. It was designed to estimate conscious level without requiring sensory processing, command following, or behavioral report, then validated in wakefulness, dreaming, sleep, anesthesia, and severe brain injury.",
+      "proponents": [
+        "Adenauer G. Casali",
+        "Marcello Massimini",
+        "Silvia Casarotto",
+        "Giulio Tononi"
+      ],
+      "era": "2013–present",
+      "year": 2013,
+      "scope": "Theory-motivated TMS–EEG measurement and patient-stratification framework for global conscious capacity across physiological, pharmacological, and pathological states.",
+      "keywords": [
+        "perturbational complexity index",
+        "TMS–EEG",
+        "brain complexity",
+        "integration",
+        "differentiation",
+        "disorders of consciousness",
+        "covert consciousness",
+        "bedside assessment"
+      ],
+      "boundary_note": "PCI is not IIT itself and a high PCI is not direct proof of phenomenality or content. Keep it distinct from behavioral diagnostic categories, cognitive-motor dissociation, and spontaneous EEG complexity measures because it estimates causal response complexity after controlled perturbation.",
+      "claim_scope": {
+        "target": "Global capacity for consciousness when behavioral report is unavailable.",
+        "level": "Whole-cortex perturbational response measured with TMS–EEG.",
+        "does_not_establish": "Specific conscious content, moment-to-moment experience, a unique constitutive theory, or an infallible individual diagnosis."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The original study tested PCI in healthy wakefulness, dreaming, NREM sleep, multiple anesthetics, and patients emerging from coma.",
+          "A 2016 independently validated cutoff was applied to stratify a large cohort of unresponsive patients and identify heterogeneous residual complexity."
+        ],
+        "limitations": [
+          "Acquisition requires specialized stimulation, EEG, artifact control, and analyzable cortical responses.",
+          "Lesion location, medication, protocol, and hardware can affect responses and cross-site thresholds.",
+          "PCI estimates capacity and can remain silent about content or brief fluctuations."
+        ],
+        "independence": "The validation paper shares members of the originating consortium; external multicenter replication and protocol harmonization remain important."
+      },
+      "open_questions": [
+        "How stable are individual thresholds across devices, preprocessing pipelines, medications, and lesion etiologies?",
+        "How should PCI be combined with active-task fMRI/EEG evidence of cognitive-motor dissociation?",
+        "Can bedside variants preserve validity while reducing time, cost, and stimulation constraints?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A Theoretically Based Index of Consciousness Independent of Sensory Processing and Behavior",
+          "authors": "Adenauer G. Casali; Olivia Gosseries; Mario Rosanova; Mélanie Boly; Simone Sarasso; Karina R. Casali; Silvia Casarotto; Marie-Aurélie Bruno; Steven Laureys; Giulio Tononi; Marcello Massimini",
+          "year": 2013,
+          "venue": "Science Translational Medicine",
+          "url": "https://doi.org/10.1126/scitranslmed.3006294",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1126/scitranslmed.3006294"
+        },
+        {
+          "title": "Stratification of unresponsive patients by an independently validated index of brain complexity",
+          "authors": "Silvia Casarotto; Angela Comanducci; Mario Rosanova; Simone Sarasso; Matteo Fecchio; Martino Napolitani; Andrea Pigorini; Adenauer G. Casali; Pietro D. Trimarchi; Melanie Boly; Olivia Gosseries; Olivier Bodart; Francesco Curto; Cristina Landi; Maurizio Mariotti; Guya Devalle; Steven Laureys; Giulio Tononi; Marcello Massimini",
+          "year": 2016,
+          "venue": "Annals of Neurology",
+          "url": "https://doi.org/10.1002/ana.24779",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1002/ana.24779"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-007-cognitive-unbinding",
+      "name": "Cognitive Unbinding paradigm",
+      "aliases": [
+        "Cognitive unbinding account of unconsciousness"
+      ],
+      "kind": "Clinical / state model",
+      "kind_codes": [
+        "CS",
+        "NF"
+      ],
+      "domain": "Clinical states & disorders",
+      "tradition": "Anesthetic network neuroscience",
+      "status": "active mechanistic paradigm · convergent but non-unique evidence",
+      "status_note": "Neuroimaging and neurophysiology support impaired large-scale synthesis as a common proximal feature of anesthesia, but anesthetic agents, doses, networks, and behavioral endpoints remain heterogeneous.",
+      "summary": "Cognitive unbinding identifies impaired synthesis among specialized cognitive operations as a proximal mechanism of unconsciousness. In general anesthesia, molecularly diverse drugs may converge by disrupting the effective and functional interactions needed to bind distributed processing into coherent cognition; the paradigm has also been proposed as relevant to sleep and disorders of consciousness.",
+      "proponents": [
+        "George A. Mashour",
+        "Anthony G. Hudetz"
+      ],
+      "era": "2004–present",
+      "year": 2013,
+      "scope": "Systems-level mechanism for anesthetic-induced unconsciousness and a candidate cross-state account of impaired cognitive integration.",
+      "keywords": [
+        "cognitive unbinding",
+        "general anesthesia",
+        "effective connectivity",
+        "functional connectivity",
+        "information integration",
+        "frontoparietal networks",
+        "unconsciousness"
+      ],
+      "boundary_note": "This is a named proximal-mechanism paradigm nested under, but not duplicated by, the base catalog's generic anesthesia state. Keep separate from Neural Inertia, which concerns transition hysteresis, and cortical bistability, which specifies OFF-period dynamics. Unbinding does not posit one common molecular anesthetic target.",
+      "claim_scope": {
+        "target": "Proximal systems mechanism of loss of consciousness under general anesthesia and possibly related states.",
+        "level": "Large-scale cognitive and neural network interactions.",
+        "does_not_establish": "A universal molecular endpoint, which connection is necessary in every agent and state, or that behavioral unresponsiveness always indicates absent experience."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The defining review evaluates explicit tenets and predictions against neuroimaging and neurophysiology across anesthetic drug classes.",
+          "A later peer-reviewed review examines whether disrupted connectedness is a common anesthetic endpoint and separates molecular diversity from network convergence."
+        ],
+        "limitations": [
+          "Connectivity measures depend on directionality assumptions, preprocessing, dose, task, and agent.",
+          "Some anesthesia can preserve isolated experience, dreaming, or disconnected consciousness despite absent responsiveness.",
+          "Network disconnection is shared with several competing theories and is not uniquely diagnostic of cognitive unbinding."
+        ],
+        "independence": "Both core sources include Mashour; evidence reviewed within them comes from multiple independent laboratories."
+      },
+      "open_questions": [
+        "Which directed interactions are causally necessary for connected versus disconnected consciousness?",
+        "Do all major anesthetic classes converge on the same network failure after pharmacokinetic and dose differences are controlled?",
+        "Can restoring selected connectivity re-establish experience without restoring overt responsiveness?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Consciousness Unbound: Toward a Paradigm of General Anesthesia",
+          "authors": "George A. Mashour",
+          "year": 2004,
+          "venue": "Anesthesiology",
+          "url": "https://doi.org/10.1097/00000542-200402000-00035",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1097/00000542-200402000-00035"
+        },
+        {
+          "title": "Cognitive unbinding: A neuroscientific paradigm of general anesthesia and related states of unconsciousness",
+          "authors": "George A. Mashour",
+          "year": 2013,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "url": "https://doi.org/10.1016/j.neubiorev.2013.09.009",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.neubiorev.2013.09.009"
+        },
+        {
+          "title": "Disconnecting Consciousness: Is There a Common Anesthetic End Point?",
+          "authors": "Anthony G. Hudetz; George A. Mashour",
+          "year": 2016,
+          "venue": "Anesthesia & Analgesia",
+          "url": "https://doi.org/10.1213/ANE.0000000000001353",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1213/ANE.0000000000001353"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-008-neural-inertia",
+      "name": "Neural Inertia model",
+      "aliases": [
+        "Neural inertia",
+        "Anesthetic state-transition barrier"
+      ],
+      "kind": "Clinical / state model",
+      "kind_codes": [
+        "CS",
+        "NF"
+      ],
+      "domain": "Clinical states & disorders",
+      "tradition": "Anesthesia and arousal-state dynamics",
+      "status": "strong animal evidence · qualified human evidence",
+      "status_note": "Hysteresis beyond simple pharmacokinetics is robust in flies and mice, while controlled human results depend on anesthetic, endpoint, and method. The model concerns resistance to state transition, not a full theory of consciousness.",
+      "summary": "Neural Inertia proposes an active, biologically conserved barrier that resists transitions between wakefulness and anesthetic-induced unresponsiveness. The induction and emergence paths are therefore not necessarily mirror images: at the same drug level, the observed state can depend on prior state, producing hysteresis that sleep-wake genes and circuits can widen or collapse.",
+      "proponents": [
+        "Eliot B. Friedman",
+        "Max B. Kelz",
+        "William J. Joiner"
+      ],
+      "era": "2010–present",
+      "year": 2010,
+      "scope": "Dynamical model of induction-emergence asymmetry and state stability under anesthesia, with proposed links to sleep-wake regulation.",
+      "keywords": [
+        "neural inertia",
+        "hysteresis",
+        "state transition",
+        "anesthesia induction",
+        "emergence",
+        "sleep-wake circuits",
+        "arousal",
+        "bistability"
+      ],
+      "boundary_note": "Keep distinct from Cognitive Unbinding, which concerns loss of network synthesis after anesthesia, and from pharmacokinetic hysteresis alone. The observed endpoint is commonly loss or return of responsiveness; that endpoint must not be silently equated with the absence or return of subjective experience.",
+      "claim_scope": {
+        "target": "Path dependence and resistance at transitions between wakeful and anesthetic states.",
+        "level": "Behavioral state dynamics linked to sleep-wake genes, circuits, and anesthetic pharmacology.",
+        "does_not_establish": "A constitutive mechanism of phenomenality, universal hysteresis for every drug and endpoint, or a clean equivalence between unresponsiveness and unconsciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The defining study demonstrated hysteresis not fully explained by pharmacokinetics across multiple anesthetics in Drosophila and mice and manipulated it with sleep-wake mutations.",
+          "A controlled human study tested propofol and sevoflurane with several behavioral and EEG endpoints."
+        ],
+        "limitations": [
+          "The human study did not find significant induction-recovery differences for propofol and found endpoint- and co-medication-dependent effects for sevoflurane.",
+          "Apparent hysteresis can reflect equilibration, pharmacokinetic-pharmacodynamic modeling, endpoint selection, or population averaging.",
+          "Behavioral state barriers do not directly report disconnected or covert experience."
+        ],
+        "independence": "Human testing by an independent group both supports the relevance of the construct and materially narrows its universality."
+      },
+      "open_questions": [
+        "Which operational definition separates neural inertia from pharmacokinetic and measurement hysteresis in humans?",
+        "Which arousal circuits actively stabilize each side of the transition barrier?",
+        "Does neural inertia apply to sleep, coma recovery, and disconnected consciousness rather than only anesthetic responsiveness?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A Conserved Behavioral State Barrier Impedes Transitions between Anesthetic-Induced Unconsciousness and Wakefulness: Evidence for Neural Inertia",
+          "authors": "Eliot B. Friedman; Yi Sun; Jason T. Moore; Hsiao-Tung Hung; Qing Cheng Meng; Priyan Perera; William J. Joiner; Steven A. Thomas; Roderic G. Eckenhoff; Amita Sehgal; Max B. Kelz",
+          "year": 2010,
+          "venue": "PLOS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0011903",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1371/journal.pone.0011903"
+        },
+        {
+          "title": "Test of neural inertia in humans during general anaesthesia",
+          "authors": "M. H. Kuizenga; P. J. Colin; K. M. E. M. Reyntjens; D. J. Touw; H. Nalbat; F. H. Knotnerus; H. E. M. Vereecke; M. M. R. F. Struys",
+          "year": 2018,
+          "venue": "British Journal of Anaesthesia",
+          "url": "https://doi.org/10.1016/j.bja.2017.11.072",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.bja.2017.11.072"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-009-cortical-bistability-off-periods",
+      "name": "Cortical bistability / OFF-period account of impaired consciousness",
+      "aliases": [
+        "Sleep-like OFF-period account",
+        "Cortical down-state account"
+      ],
+      "kind": "Clinical / state model",
+      "kind_codes": [
+        "CS",
+        "NF"
+      ],
+      "domain": "Clinical states & disorders",
+      "tradition": "Sleep and perturbational neurophysiology",
+      "status": "mechanistically supported across NREM sleep and UWS · scope unresolved",
+      "status_note": "Intracranial and TMS–EEG evidence links activation-dependent OFF-periods to interrupted causal propagation and reduced complexity, but generalization to all unconscious states and causal rescue remain open.",
+      "summary": "The account proposes that when cortical circuits become bistable, an input can trigger a slow wave followed by an OFF-period or neuronal down-state. Activity later resumes, but the deterministic influence of the initiating event has been lost, preventing stable long-range causal interactions and complex responses. The mechanism has been observed in NREM sleep and in unresponsive wakefulness syndrome despite residual cortical activity and reactivity.",
+      "proponents": [
+        "Andrea Pigorini",
+        "Mario Rosanova",
+        "Marcello Massimini"
+      ],
+      "era": "2015–present",
+      "year": 2015,
+      "scope": "Local cellular-to-network mechanism proposed to explain impaired causal integration and global conscious capacity in NREM sleep and severe brain injury.",
+      "keywords": [
+        "cortical bistability",
+        "OFF-period",
+        "down-state",
+        "NREM sleep",
+        "unresponsive wakefulness syndrome",
+        "causal interaction",
+        "TMS–EEG",
+        "brain complexity"
+      ],
+      "boundary_note": "This record is a candidate mechanism, not another measure. PCI quantifies the resulting perturbational complexity; the OFF-period account explains one way complexity may collapse. It is also distinct from seizure-related Network Inhibition and from anesthetic Cognitive Unbinding, although their network consequences may overlap.",
+      "claim_scope": {
+        "target": "Failure of sustained causal interaction in specific physiological and pathological low-consciousness states.",
+        "level": "Activation-dependent local OFF-periods propagating consequences to global response complexity.",
+        "does_not_establish": "That every unconscious state contains cortical OFF-periods, that OFF-period absence proves consciousness, or that the mechanism specifies conscious content."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Intracranial stimulation in eight epilepsy patients compared wakefulness with NREM sleep and linked OFF-periods to loss of deterministic phase-locked propagation.",
+          "TMS–EEG in 16 unresponsive-wakefulness patients, 20 healthy awake participants, and eight sleeping participants linked sleep-like OFF-periods to reduced local causality and global complexity."
+        ],
+        "limitations": [
+          "The sleep study involved a small clinical intracranial sample, and the injury study involved heterogeneous lesions.",
+          "OFF-periods may be one of several mechanisms that reduce effective connectivity and complexity.",
+          "Both studies are observational with respect to subjective experience; direct selective reversal has not established necessity or sufficiency."
+        ],
+        "independence": "The two studies overlap substantially in research consortium and methods, so replication by independent groups is desirable."
+      },
+      "open_questions": [
+        "Are OFF-periods present in anesthesia, coma, seizures, and other states after controlling for spectral slow activity?",
+        "Can selective suppression of pathological OFF-periods restore complex causal interactions and reliable signs of consciousness?",
+        "How local must bistability be before global consciousness is impaired?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Bistability breaks-off deterministic responses to intracortical stimulation during non-REM sleep",
+          "authors": "Andrea Pigorini; Simone Sarasso; Paola Proserpio; Caroline Szymanski; Gabriele Arnulfo; Silvia Casarotto; Matteo Fecchio; Mario Rosanova; Maurizio Mariotti; Giorgio Lo Russo; J. Matias Palva; Lino Nobili; Marcello Massimini",
+          "year": 2015,
+          "venue": "NeuroImage",
+          "url": "https://doi.org/10.1016/j.neuroimage.2015.02.056",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.neuroimage.2015.02.056"
+        },
+        {
+          "title": "Sleep-like cortical OFF-periods disrupt causality and complexity in the brain of unresponsive wakefulness syndrome patients",
+          "authors": "M. Rosanova; M. Fecchio; S. Casarotto; S. Sarasso; A. G. Casali; A. Pigorini; A. Comanducci; F. Seregni; G. Devalle; G. Citerio; O. Bodart; M. Boly; O. Gosseries; S. Laureys; M. Massimini",
+          "year": 2018,
+          "venue": "Nature Communications",
+          "url": "https://doi.org/10.1038/s41467-018-06871-1",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1038/s41467-018-06871-1"
+        }
+      ]
+    },
+    {
+      "id": "gap-neuro-010-two-stage-discrete-perception",
+      "name": "Two-stage discrete perception model",
+      "aliases": [
+        "Two-stage discrete model of conscious perception",
+        "Time-slice model"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "NF",
+        "CT"
+      ],
+      "domain": "Memory & temporal consciousness",
+      "tradition": "Visual psychophysics / temporal consciousness",
+      "status": "active psychophysical model · domain-limited and contested",
+      "status_note": "Long-lasting postdictive effects motivate the model, but the duration, discreteness, neural implementation, and generalization beyond selected perceptual paradigms remain unresolved.",
+      "summary": "The model separates quasi-continuous, high-temporal-resolution unconscious processing from discrete conscious percepts. Features, including temporal features, can be analyzed and integrated over an extended period; once processing converges, a coherent feature set is rendered conscious together, allowing later events to shape the experienced interpretation of earlier stimuli without requiring a stream of continuously revised conscious snapshots.",
+      "proponents": [
+        "Michael H. Herzog",
+        "Leila Drissi-Daoudi",
+        "Adrien Doerig",
+        "Thomas Kammer",
+        "Frank Scharnowski"
+      ],
+      "era": "2016–present",
+      "year": 2016,
+      "scope": "Temporal architecture of conscious perception, developed primarily from visual psychophysics, feature fusion, masking, TMS, and postdictive phenomena.",
+      "keywords": [
+        "discrete perception",
+        "two-stage model",
+        "postdiction",
+        "time slices",
+        "feature integration",
+        "unconscious processing",
+        "temporal consciousness",
+        "visual psychophysics"
+      ],
+      "boundary_note": "This is a temporal model of conscious percept formation, not a complete theory of the substrate or function of consciousness. It differs from simple oscillatory snapshot theories: the first stage remains quasi-continuous and unconscious, and the authors do not infer conscious sampling rate directly from periodic behavior or sensory resolution.",
+      "claim_scope": {
+        "target": "When and how perceptual information becomes consciously available after extended unconscious integration.",
+        "level": "Psychophysical and computational temporal organization, with only partial neural localization.",
+        "does_not_establish": "A universal duration for percepts, discrete consciousness in every modality and cognitive domain, or a necessary neural oscillator."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The 2016 framework integrates visual illusions, feature fusion, temporal labeling, and TMS evidence into a two-stage architecture.",
+          "The 2020 review surveys long-lasting postdictive effects and argues they favor continuous unconscious processing followed by discrete conscious percepts."
+        ],
+        "limitations": [
+          "Much of the evidence comes from selected visual paradigms in which alternative buffering, recurrent, and decision-level explanations remain possible.",
+          "Behavior and report constrain the timing of access but do not directly reveal the duration of an unreported percept.",
+          "Cross-modal, ecological, and neural-causal tests are limited."
+        ],
+        "independence": "Both core sources come from overlapping proponents; independent adversarial tests against continuous models are needed."
+      },
+      "open_questions": [
+        "What neural event marks the proposed transition from continuous unconscious processing to a discrete conscious percept?",
+        "Does the architecture generalize to audition, interoception, action, thought, and ongoing self-experience?",
+        "Which postdictive results uniquely favor discreteness over continuous recurrent integration plus delayed report?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Time Slices: What Is the Duration of a Percept?",
+          "authors": "Michael H. Herzog; Thomas Kammer; Frank Scharnowski",
+          "year": 2016,
+          "venue": "PLOS Biology",
+          "url": "https://doi.org/10.1371/journal.pbio.1002433",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1371/journal.pbio.1002433"
+        },
+        {
+          "title": "All in Good Time: Long-Lasting Postdictive Effects Reveal Discrete Perception",
+          "authors": "Michael H. Herzog; Leila Drissi-Daoudi; Adrien Doerig",
+          "year": 2020,
+          "venue": "Trends in Cognitive Sciences",
+          "url": "https://doi.org/10.1016/j.tics.2020.07.001",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "doi": "10.1016/j.tics.2020.07.001"
+        }
+      ]
+    }
+  ]
+}

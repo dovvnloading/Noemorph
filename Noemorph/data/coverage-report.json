@@ -1,0 +1,4470 @@
+{
+  "generated_at": "2026-08-30",
+  "phase": "collection",
+  "coverage_gate": "locked",
+  "interpretation": "Counts describe indexed and reviewed material; they are not a claim that the open world of consciousness theories is complete.",
+  "reviewed_catalog": {
+    "record_count": 595,
+    "citation_count": 1256,
+    "unique_source_count": 1045,
+    "full_research_profile_count": 453,
+    "research_profile_gap_count": 142,
+    "base_record_count": 207,
+    "supplements": [
+      {
+        "file": "catalog-2026-08-30-neuroscience.json",
+        "name": "catalog-2026-08-30-neuroscience.json",
+        "record_count": 10
+      },
+      {
+        "file": "catalog-2026-08-30-awareness-social.json",
+        "name": "catalog-2026-08-30-awareness-social.json",
+        "record_count": 16
+      },
+      {
+        "file": "catalog-2026-08-30-philosophy-history.json",
+        "name": "catalog-2026-08-30-philosophy-history.json",
+        "record_count": 16
+      },
+      {
+        "file": "catalog-2026-08-30-anomalous-challenge.json",
+        "name": "Kuhn sections 17–18: anomalous proposals and explanatory challenges",
+        "record_count": 22
+      },
+      {
+        "file": "catalog-2026-08-30-neuroscience-breadth.json",
+        "name": "catalog-2026-08-30-neuroscience-breadth.json",
+        "record_count": 48
+      },
+      {
+        "file": "catalog-2026-08-30-cognitive-breadth.json",
+        "name": "catalog-2026-08-30-cognitive-breadth.json",
+        "record_count": 47
+      },
+      {
+        "file": "catalog-2026-08-30-philosophy-breadth.json",
+        "name": "catalog-2026-08-30-philosophy-breadth.json",
+        "record_count": 55
+      },
+      {
+        "file": "catalog-2026-08-30-states-clinical-breadth.json",
+        "name": "catalog-2026-08-30-states-clinical-breadth.json",
+        "record_count": 56
+      },
+      {
+        "file": "catalog-2026-08-30-cross-cultural-breadth.json",
+        "name": "catalog-2026-08-30-cross-cultural-breadth.json",
+        "record_count": 65
+      },
+      {
+        "file": "catalog-2026-08-30-emerging-breadth.json",
+        "name": "catalog-2026-08-30-emerging-breadth.json",
+        "record_count": 35
+      },
+      {
+        "file": "catalog-2026-08-30-contemporary-continuation.json",
+        "name": "catalog-2026-08-30-contemporary-continuation.json",
+        "record_count": 5
+      },
+      {
+        "file": "catalog-2026-08-30-crosscultural-continuation.json",
+        "name": "catalog-2026-08-30-crosscultural-continuation.json",
+        "record_count": 8
+      },
+      {
+        "file": "catalog-2026-08-30-frontier-science-continuation.json",
+        "name": "catalog-2026-08-30-frontier-science-continuation.json",
+        "record_count": 5
+      }
+    ],
+    "profile_enrichments": [
+      {
+        "file": "catalog-2026-08-30-core-profile-enrichments.json",
+        "name": "Core consciousness-theory research-profile enrichments",
+        "profile_count": 16
+      },
+      {
+        "file": "catalog-2026-08-30-core-profile-enrichments-2.json",
+        "name": "Core consciousness-theory research-profile enrichments, tranche 2",
+        "profile_count": 15
+      }
+    ],
+    "by_kind": [
+      {
+        "name": "Model or framework",
+        "count": 166
+      },
+      {
+        "name": "Scientific theory",
+        "count": 119
+      },
+      {
+        "name": "Historical tradition",
+        "count": 112
+      },
+      {
+        "name": "Philosophical position",
+        "count": 79
+      },
+      {
+        "name": "Clinical / state model",
+        "count": 37
+      },
+      {
+        "name": "Phenomenological construct",
+        "count": 33
+      },
+      {
+        "name": "Argument / challenge",
+        "count": 28
+      },
+      {
+        "name": "Theory of mind / social cognition",
+        "count": 21
+      }
+    ],
+    "by_domain": [
+      {
+        "name": "Clinical states & disorders",
+        "count": 28
+      },
+      {
+        "name": "Awareness & selfhood",
+        "count": 22
+      },
+      {
+        "name": "Memory & temporal consciousness",
+        "count": 21
+      },
+      {
+        "name": "Anomalous and altered-state proposals",
+        "count": 15
+      },
+      {
+        "name": "Social cognition & intersubjectivity",
+        "count": 15
+      },
+      {
+        "name": "Metacognition & higher-order awareness",
+        "count": 14
+      },
+      {
+        "name": "Attention & conscious access",
+        "count": 13
+      },
+      {
+        "name": "Historical & comparative traditions",
+        "count": 13
+      },
+      {
+        "name": "Neural dynamics & integration",
+        "count": 13
+      },
+      {
+        "name": "Contemplative & altered states",
+        "count": 11
+      },
+      {
+        "name": "Embodied cognition, judgment & agency",
+        "count": 9
+      },
+      {
+        "name": "Artificial, computational & machine consciousness",
+        "count": 7
+      },
+      {
+        "name": "Embodied self & affect",
+        "count": 7
+      },
+      {
+        "name": "Evolutionary biology / comparative cognition",
+        "count": 7
+      },
+      {
+        "name": "Meta-theoretical challenges",
+        "count": 7
+      },
+      {
+        "name": "Taxonomy, comparison & synthesis methods",
+        "count": 7
+      },
+      {
+        "name": "AI / cognitive architecture",
+        "count": 6
+      },
+      {
+        "name": "Affect, valuation & motivation",
+        "count": 6
+      },
+      {
+        "name": "Emotion, affect & regulation",
+        "count": 6
+      },
+      {
+        "name": "Formal, mathematical & information-theoretic models",
+        "count": 6
+      },
+      {
+        "name": "Language, representation & thought",
+        "count": 6
+      },
+      {
+        "name": "Biophysics / neuroscience",
+        "count": 5
+      },
+      {
+        "name": "Cognitive architecture & access",
+        "count": 5
+      },
+      {
+        "name": "Metaphysics",
+        "count": 5
+      },
+      {
+        "name": "Philosophy of mind",
+        "count": 5
+      },
+      {
+        "name": "Predictive & representational models",
+        "count": 5
+      },
+      {
+        "name": "Subcortical & biological models",
+        "count": 5
+      },
+      {
+        "name": "Disorders of consciousness / assessment",
+        "count": 4
+      },
+      {
+        "name": "Machine social cognition",
+        "count": 4
+      },
+      {
+        "name": "Neural mechanisms & computational architecture",
+        "count": 4
+      },
+      {
+        "name": "Cognitive psychology / cognitive architecture",
+        "count": 3
+      },
+      {
+        "name": "Collective & distributed cognition",
+        "count": 3
+      },
+      {
+        "name": "Comparative cognition",
+        "count": 3
+      },
+      {
+        "name": "Developmental cognition",
+        "count": 3
+      },
+      {
+        "name": "Visual neuroscience / consciousness science",
+        "count": 3
+      },
+      {
+        "name": "Acute impaired consciousness / assessment",
+        "count": 2
+      },
+      {
+        "name": "Affective neuroscience / interoception",
+        "count": 2
+      },
+      {
+        "name": "Analytic metaphysics",
+        "count": 2
+      },
+      {
+        "name": "Cellular neuroscience",
+        "count": 2
+      },
+      {
+        "name": "Classical Indian philosophy",
+        "count": 2
+      },
+      {
+        "name": "Clinical assessment and data standards",
+        "count": 2
+      },
+      {
+        "name": "Contemplative awareness / self-report assessment",
+        "count": 2
+      },
+      {
+        "name": "Contemplative states and computational neurophenomenology",
+        "count": 2
+      },
+      {
+        "name": "Developmental cognition / infant assessment",
+        "count": 2
+      },
+      {
+        "name": "Dreaming and sleep consciousness",
+        "count": 2
+      },
+      {
+        "name": "Early modern metaphysics",
+        "count": 2
+      },
+      {
+        "name": "Embodied self & agency",
+        "count": 2
+      },
+      {
+        "name": "Information theory / computational neuroscience",
+        "count": 2
+      },
+      {
+        "name": "Metaphysics, ontology & philosophy of mind",
+        "count": 2
+      },
+      {
+        "name": "Perception / embodied cognition",
+        "count": 2
+      },
+      {
+        "name": "Perception, memory, concepts & attention",
+        "count": 2
+      },
+      {
+        "name": "Philosophy / cognitive science",
+        "count": 2
+      },
+      {
+        "name": "Philosophy of mind / cognitive science",
+        "count": 2
+      },
+      {
+        "name": "Qualia & explanatory challenges",
+        "count": 2
+      },
+      {
+        "name": "Systems neuroscience",
+        "count": 2
+      },
+      {
+        "name": "Affect, knowledge, relation & decolonization",
+        "count": 1
+      },
+      {
+        "name": "Affect, reality-sense & world-experience",
+        "count": 1
+      },
+      {
+        "name": "Affective awareness, relation & moral agency",
+        "count": 1
+      },
+      {
+        "name": "Affective neuroscience / neuropsychoanalysis",
+        "count": 1
+      },
+      {
+        "name": "Agency, free will & causation",
+        "count": 1
+      },
+      {
+        "name": "Agency, identification & free will",
+        "count": 1
+      },
+      {
+        "name": "Agency, intention & action",
+        "count": 1
+      },
+      {
+        "name": "Agency, intention, knowledge & responsibility",
+        "count": 1
+      },
+      {
+        "name": "Altered states / evidence infrastructure",
+        "count": 1
+      },
+      {
+        "name": "Altered states / multidimensional assessment",
+        "count": 1
+      },
+      {
+        "name": "Analytic metaphysics of consciousness",
+        "count": 1
+      },
+      {
+        "name": "Analytic philosophy / cognitive neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Analytic philosophy / phenomenology",
+        "count": 1
+      },
+      {
+        "name": "Analytic philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Analytic philosophy of perception",
+        "count": 1
+      },
+      {
+        "name": "Ancient/medieval and analytic philosophy",
+        "count": 1
+      },
+      {
+        "name": "Anesthesia / EEG and EMG monitoring",
+        "count": 1
+      },
+      {
+        "name": "Anesthesia / EEG monitoring",
+        "count": 1
+      },
+      {
+        "name": "Anesthesia / connected consciousness assessment",
+        "count": 1
+      },
+      {
+        "name": "Anesthesia / conscious state taxonomy",
+        "count": 1
+      },
+      {
+        "name": "Anesthesia / explicit recall assessment",
+        "count": 1
+      },
+      {
+        "name": "Anesthesia and sedation / EEG monitoring",
+        "count": 1
+      },
+      {
+        "name": "Appetite, sensation, reason & scriptural psychology",
+        "count": 1
+      },
+      {
+        "name": "Arabic/Islamic philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Artificial consciousness",
+        "count": 1
+      },
+      {
+        "name": "Attention, affect, and phenomenal consciousness",
+        "count": 1
+      },
+      {
+        "name": "Attention, desire & noncoercive action",
+        "count": 1
+      },
+      {
+        "name": "Attention, thought, affect & contemplative transformation",
+        "count": 1
+      },
+      {
+        "name": "Autism, reciprocal social understanding & interaction",
+        "count": 1
+      },
+      {
+        "name": "Awareness, Buddha-nature & causal explanation",
+        "count": 1
+      },
+      {
+        "name": "Awareness, identity, connectedness & community protection",
+        "count": 1
+      },
+      {
+        "name": "Awareness, insight, habit & cultivation",
+        "count": 1
+      },
+      {
+        "name": "Body, soul, alterity & personhood",
+        "count": 1
+      },
+      {
+        "name": "Bodymind, skill, attention & cultivation",
+        "count": 1
+      },
+      {
+        "name": "Buddhist philosophy / philosophical psychology",
+        "count": 1
+      },
+      {
+        "name": "Classical Indian philosophy / Vedānta",
+        "count": 1
+      },
+      {
+        "name": "Cognition, agency & divine causation",
+        "count": 1
+      },
+      {
+        "name": "Cognition, body & environment",
+        "count": 1
+      },
+      {
+        "name": "Cognition, emotion, memory & moral identity",
+        "count": 1
+      },
+      {
+        "name": "Cognition, self-awareness & epistemology",
+        "count": 1
+      },
+      {
+        "name": "Cognitive architecture & AI",
+        "count": 1
+      },
+      {
+        "name": "Cognitive architecture / AI",
+        "count": 1
+      },
+      {
+        "name": "Cognitive development, self-knowledge & contemplation",
+        "count": 1
+      },
+      {
+        "name": "Cognitive neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Cognitive neuroscience / philosophy",
+        "count": 1
+      },
+      {
+        "name": "Cognitive neuroscience / social cognition",
+        "count": 1
+      },
+      {
+        "name": "Cognitive science / philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Comparative consciousness / affect assessment",
+        "count": 1
+      },
+      {
+        "name": "Comparative consciousness / evidential policy",
+        "count": 1
+      },
+      {
+        "name": "Comparative consciousness / neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Comparative consciousness / pain assessment",
+        "count": 1
+      },
+      {
+        "name": "Comparative personhood, interiority & human–nonhuman identification",
+        "count": 1
+      },
+      {
+        "name": "Computational neuroscience / AI",
+        "count": 1
+      },
+      {
+        "name": "Computational neuroscience / cognitive architecture",
+        "count": 1
+      },
+      {
+        "name": "Concepts, language & mental content",
+        "count": 1
+      },
+      {
+        "name": "Conscious access / auditory assessment",
+        "count": 1
+      },
+      {
+        "name": "Conscious self, affective disposition & karma",
+        "count": 1
+      },
+      {
+        "name": "Consciousness judgments & explanation",
+        "count": 1
+      },
+      {
+        "name": "Consciousness measurement / experimental design",
+        "count": 1
+      },
+      {
+        "name": "Consciousness measurement / functional connectivity",
+        "count": 1
+      },
+      {
+        "name": "Consciousness measurement / signal complexity",
+        "count": 1
+      },
+      {
+        "name": "Consciousness, embodiment & dependent arising",
+        "count": 1
+      },
+      {
+        "name": "Consciousness, evolution & spiritual development",
+        "count": 1
+      },
+      {
+        "name": "Consciousness, perception & mind-world relation",
+        "count": 1
+      },
+      {
+        "name": "Contemplative awareness / multidimensional assessment",
+        "count": 1
+      },
+      {
+        "name": "Contemplative awareness / nondual experience",
+        "count": 1
+      },
+      {
+        "name": "Contemplative awareness / state assessment",
+        "count": 1
+      },
+      {
+        "name": "Contemplative awareness / trait and state assessment",
+        "count": 1
+      },
+      {
+        "name": "Contemporary metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Critical care / arousal assessment",
+        "count": 1
+      },
+      {
+        "name": "Desire, feeling, deliberation & moral cognition",
+        "count": 1
+      },
+      {
+        "name": "Development, social cognition, responsibility & selfhood",
+        "count": 1
+      },
+      {
+        "name": "Developmental cognitive science / neuropsychology",
+        "count": 1
+      },
+      {
+        "name": "Developmental consciousness / neural assessment",
+        "count": 1
+      },
+      {
+        "name": "Developmental philosophy / cultural psychology",
+        "count": 1
+      },
+      {
+        "name": "Developmental psychology / philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Disorders of consciousness / auditory assessment",
+        "count": 1
+      },
+      {
+        "name": "Disorders of consciousness / covert command following",
+        "count": 1
+      },
+      {
+        "name": "Disorders of consciousness / pain assessment",
+        "count": 1
+      },
+      {
+        "name": "EEG / systems neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Early modern philosophy / metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Embodied cognition, affect & qi",
+        "count": 1
+      },
+      {
+        "name": "Embodied self, situated agency, oppression & ambiguity",
+        "count": 1
+      },
+      {
+        "name": "Embodiment, race & social perception",
+        "count": 1
+      },
+      {
+        "name": "Embodiment, self, time & practice",
+        "count": 1
+      },
+      {
+        "name": "Embodiment, witnessing & self",
+        "count": 1
+      },
+      {
+        "name": "Emotion, moral motivation & psychophysical activity",
+        "count": 1
+      },
+      {
+        "name": "Emotion, value & personhood",
+        "count": 1
+      },
+      {
+        "name": "Experience, self-awareness & subject-object formation",
+        "count": 1
+      },
+      {
+        "name": "Experimental neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Faculties, self-knowledge & spiritual psychology",
+        "count": 1
+      },
+      {
+        "name": "Heart, attention, affect & spiritual cognition",
+        "count": 1
+      },
+      {
+        "name": "Heart-mind, attention & cultivated judgment",
+        "count": 1
+      },
+      {
+        "name": "Heart-mind, attention, breath & affect regulation",
+        "count": 1
+      },
+      {
+        "name": "Heart-mind, emotion & moral cultivation",
+        "count": 1
+      },
+      {
+        "name": "Heart-mind, nature, emotion & deliberation",
+        "count": 1
+      },
+      {
+        "name": "Heart-mind, nature, feeling & cultivation",
+        "count": 1
+      },
+      {
+        "name": "Historical cognition, language & consciousness",
+        "count": 1
+      },
+      {
+        "name": "Imagination, perception & spiritual knowledge",
+        "count": 1
+      },
+      {
+        "name": "Intellect, cognition & individuation",
+        "count": 1
+      },
+      {
+        "name": "Intellect, knowledge & immortality",
+        "count": 1
+      },
+      {
+        "name": "Intentionality & mental content",
+        "count": 1
+      },
+      {
+        "name": "Intentionality, computation & understanding",
+        "count": 1
+      },
+      {
+        "name": "Interoception / behavioral assessment",
+        "count": 1
+      },
+      {
+        "name": "Interoception / neurophysiological assessment",
+        "count": 1
+      },
+      {
+        "name": "Interoception / predictive processing",
+        "count": 1
+      },
+      {
+        "name": "Interoception / psychophysical assessment",
+        "count": 1
+      },
+      {
+        "name": "Interoception / self-report assessment",
+        "count": 1
+      },
+      {
+        "name": "Interoception and autonomic symptoms / self-report",
+        "count": 1
+      },
+      {
+        "name": "Jaina philosophy",
+        "count": 1
+      },
+      {
+        "name": "Listening, attention, relation & place",
+        "count": 1
+      },
+      {
+        "name": "Mahāyāna Buddhist philosophy",
+        "count": 1
+      },
+      {
+        "name": "Mathematical neuroscience / metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Mathematical physics / information theory",
+        "count": 1
+      },
+      {
+        "name": "Mathematical psychology / idealist or consciousness-first metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Mathematical psychology / neurophenomenology",
+        "count": 1
+      },
+      {
+        "name": "Matter, perception & agency",
+        "count": 1
+      },
+      {
+        "name": "Mental causation & physicalism",
+        "count": 1
+      },
+      {
+        "name": "Mental continuity, cognition & rebirth",
+        "count": 1
+      },
+      {
+        "name": "Mental representation & biological function",
+        "count": 1
+      },
+      {
+        "name": "Mental, physical, spiritual & relational wellbeing",
+        "count": 1
+      },
+      {
+        "name": "Meta-philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Metacognition / awareness assessment",
+        "count": 1
+      },
+      {
+        "name": "Metacognition and computational consciousness",
+        "count": 1
+      },
+      {
+        "name": "Metacognition and contemplative practice / decentering",
+        "count": 1
+      },
+      {
+        "name": "Metaphysics / complex systems",
+        "count": 1
+      },
+      {
+        "name": "Metaphysics / neurophilosophy",
+        "count": 1
+      },
+      {
+        "name": "Metaphysics / philosophy of science",
+        "count": 1
+      },
+      {
+        "name": "Metaphysics of mind",
+        "count": 1
+      },
+      {
+        "name": "Methodology / cognitive neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Mind attribution & epistemology",
+        "count": 1
+      },
+      {
+        "name": "Mind, body & living substance",
+        "count": 1
+      },
+      {
+        "name": "Mind, delusion, awakening & doctrinal harmonization",
+        "count": 1
+      },
+      {
+        "name": "Mind, embodiment, qi & moral perception",
+        "count": 1
+      },
+      {
+        "name": "Mind, emotion, spirit, identity & whānau wellbeing",
+        "count": 1
+      },
+      {
+        "name": "Mind, experience & Buddhist contemplative analysis",
+        "count": 1
+      },
+      {
+        "name": "Mind, interdependence & Buddhist metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Mind, practice & Buddhist doctrinal classification",
+        "count": 1
+      },
+      {
+        "name": "Mind, senses, attention & health",
+        "count": 1
+      },
+      {
+        "name": "Modal arguments about phenomenal consciousness",
+        "count": 1
+      },
+      {
+        "name": "Moral awareness, self-reflection & principle",
+        "count": 1
+      },
+      {
+        "name": "Motivation, thought, affect & self-regulation",
+        "count": 1
+      },
+      {
+        "name": "Neural mechanisms and theory pluralism",
+        "count": 1
+      },
+      {
+        "name": "Neural networks / computational neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Neurocognitive variation, disability, identity & environment",
+        "count": 1
+      },
+      {
+        "name": "Neurophysiology",
+        "count": 1
+      },
+      {
+        "name": "Neurophysiology / interactionist dualism / quantum proposal",
+        "count": 1
+      },
+      {
+        "name": "Neuropsychopharmacology / dynamical systems",
+        "count": 1
+      },
+      {
+        "name": "Nonhuman selfhood, semiosis & ecological relations",
+        "count": 1
+      },
+      {
+        "name": "Panpsychism & subject unity",
+        "count": 1
+      },
+      {
+        "name": "Perception & appearance",
+        "count": 1
+      },
+      {
+        "name": "Perception & phenomenal character",
+        "count": 1
+      },
+      {
+        "name": "Perception, action & environment",
+        "count": 1
+      },
+      {
+        "name": "Perception, attention, intention & momentary cognition",
+        "count": 1
+      },
+      {
+        "name": "Perception, concepts & cross-modal learning",
+        "count": 1
+      },
+      {
+        "name": "Perception, hallucination & introspection",
+        "count": 1
+      },
+      {
+        "name": "Perception, ideas & divine causation",
+        "count": 1
+      },
+      {
+        "name": "Perception, representation & causal continuity",
+        "count": 1
+      },
+      {
+        "name": "Perceptual consciousness / subjective assessment",
+        "count": 1
+      },
+      {
+        "name": "Perceptual psychology / evolutionary modeling",
+        "count": 1
+      },
+      {
+        "name": "Personal identity & embodiment",
+        "count": 1
+      },
+      {
+        "name": "Personal identity & memory",
+        "count": 1
+      },
+      {
+        "name": "Personal identity & persistence",
+        "count": 1
+      },
+      {
+        "name": "Personhood, agency & human/nonhuman relations",
+        "count": 1
+      },
+      {
+        "name": "Personhood, agency, destiny & psychophysical vocabulary",
+        "count": 1
+      },
+      {
+        "name": "Personhood, community & moral agency",
+        "count": 1
+      },
+      {
+        "name": "Personhood, continuity & no-self",
+        "count": 1
+      },
+      {
+        "name": "Personhood, embodiment & perspective",
+        "count": 1
+      },
+      {
+        "name": "Personhood, embodiment, identity & afterlife",
+        "count": 1
+      },
+      {
+        "name": "Personhood, exchange, gender & agency",
+        "count": 1
+      },
+      {
+        "name": "Personhood, relation & moral agency",
+        "count": 1
+      },
+      {
+        "name": "Personhood, vitality, affect & cognition",
+        "count": 1
+      },
+      {
+        "name": "Personhood, vitality, relation & ontology",
+        "count": 1
+      },
+      {
+        "name": "Persons, bodies & persistence",
+        "count": 1
+      },
+      {
+        "name": "Phenomenal consciousness & explanation",
+        "count": 1
+      },
+      {
+        "name": "Phenomenology",
+        "count": 1
+      },
+      {
+        "name": "Phenomenology / developmental and embodied social cognition",
+        "count": 1
+      },
+      {
+        "name": "Phenomenology / embodied mind",
+        "count": 1
+      },
+      {
+        "name": "Philosophy / cognitive and social neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Philosophy / cognitive neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Philosophy of cognitive science / AI",
+        "count": 1
+      },
+      {
+        "name": "Philosophy of mind / action",
+        "count": 1
+      },
+      {
+        "name": "Philosophy of mind / biological naturalism",
+        "count": 1
+      },
+      {
+        "name": "Philosophy of mind / cognitive architecture",
+        "count": 1
+      },
+      {
+        "name": "Philosophy of mind / metacognition",
+        "count": 1
+      },
+      {
+        "name": "Philosophy of perception",
+        "count": 1
+      },
+      {
+        "name": "Physical & field proposals",
+        "count": 1
+      },
+      {
+        "name": "Physicalism, concepts & epistemic gaps",
+        "count": 1
+      },
+      {
+        "name": "Physicalism, ignorance & conceivability",
+        "count": 1
+      },
+      {
+        "name": "Place, relational agency & more-than-human mind",
+        "count": 1
+      },
+      {
+        "name": "Plural self, social worlds, perception & resistant coalition",
+        "count": 1
+      },
+      {
+        "name": "Process metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Psychedelic and contemplative states / psychometrics",
+        "count": 1
+      },
+      {
+        "name": "Psychedelic states / difficult experiences",
+        "count": 1
+      },
+      {
+        "name": "Psychedelic states / emotional process",
+        "count": 1
+      },
+      {
+        "name": "Psychedelic states / self-experience",
+        "count": 1
+      },
+      {
+        "name": "Psychedelic states / subjective effects",
+        "count": 1
+      },
+      {
+        "name": "Psychology / pragmatism",
+        "count": 1
+      },
+      {
+        "name": "Qualia, behavior & functionalism",
+        "count": 1
+      },
+      {
+        "name": "Quantum field theory / brain dynamics",
+        "count": 1
+      },
+      {
+        "name": "Quantum foundations / dualist philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Quantum foundations / neurobiology",
+        "count": 1
+      },
+      {
+        "name": "Quantum foundations / philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Racialized self-consciousness & social identity",
+        "count": 1
+      },
+      {
+        "name": "Reason, appetite, affect & moral therapy",
+        "count": 1
+      },
+      {
+        "name": "Relation, dialogue & selfhood",
+        "count": 1
+      },
+      {
+        "name": "Relational self, milieu & ethics",
+        "count": 1
+      },
+      {
+        "name": "Relational self, sacred space & social responsibility",
+        "count": 1
+      },
+      {
+        "name": "Sedation / behavioral assessment",
+        "count": 1
+      },
+      {
+        "name": "Self, consciousness, difference & dependence",
+        "count": 1
+      },
+      {
+        "name": "Self, embodiment & layered personhood",
+        "count": 1
+      },
+      {
+        "name": "Self, family, land, spirituality & collective wellbeing",
+        "count": 1
+      },
+      {
+        "name": "Self, intellect, attention & sensory control",
+        "count": 1
+      },
+      {
+        "name": "Self-awareness, memory & conventional person",
+        "count": 1
+      },
+      {
+        "name": "Self-awareness, memory & temporality",
+        "count": 1
+      },
+      {
+        "name": "Self-awareness, soul & bodily localization",
+        "count": 1
+      },
+      {
+        "name": "Self-orientation, attention & ethical awareness",
+        "count": 1
+      },
+      {
+        "name": "Selfhood, identity & narrative",
+        "count": 1
+      },
+      {
+        "name": "Sensation, imagination & material mind",
+        "count": 1
+      },
+      {
+        "name": "Sleep and dreaming / conscious contents",
+        "count": 1
+      },
+      {
+        "name": "Sleep and dreaming / dream phenomenology",
+        "count": 1
+      },
+      {
+        "name": "Sleep and dreaming / experimental method",
+        "count": 1
+      },
+      {
+        "name": "Sleep and dreaming / mixed states",
+        "count": 1
+      },
+      {
+        "name": "Sleep and wakefulness / brief lapses",
+        "count": 1
+      },
+      {
+        "name": "Sleep and wakefulness / local brain states",
+        "count": 1
+      },
+      {
+        "name": "Sleep and wakefulness / state transition",
+        "count": 1
+      },
+      {
+        "name": "Social self, caste, recognition & democratic agency",
+        "count": 1
+      },
+      {
+        "name": "Social self, gender, seniority & colonial classification",
+        "count": 1
+      },
+      {
+        "name": "Soul, cognition, embodiment & cosmic mixture",
+        "count": 1
+      },
+      {
+        "name": "Soul, conscience, agency & postmortem identity",
+        "count": 1
+      },
+      {
+        "name": "Soul, embodiment, affect & contemplation",
+        "count": 1
+      },
+      {
+        "name": "Soul, embodiment, prophecy & knowledge",
+        "count": 1
+      },
+      {
+        "name": "Soul, epistemology & religious reason",
+        "count": 1
+      },
+      {
+        "name": "Soul, faculties, cosmos & moral development",
+        "count": 1
+      },
+      {
+        "name": "Soul, faculties, intellect & prophecy",
+        "count": 1
+      },
+      {
+        "name": "Soul, imagination, intellect & prophecy",
+        "count": 1
+      },
+      {
+        "name": "Soul, intellect & self-knowledge",
+        "count": 1
+      },
+      {
+        "name": "Soul, intellect, imagination & embodiment",
+        "count": 1
+      },
+      {
+        "name": "Soul, intellect, matter & form",
+        "count": 1
+      },
+      {
+        "name": "Soul, intellect, spirit & emanation",
+        "count": 1
+      },
+      {
+        "name": "Soul, motivation & self-governance",
+        "count": 1
+      },
+      {
+        "name": "Soul, perception, imagination & intellect",
+        "count": 1
+      },
+      {
+        "name": "Soul, sensation & mortality",
+        "count": 1
+      },
+      {
+        "name": "States of consciousness, self & nonduality",
+        "count": 1
+      },
+      {
+        "name": "Subjectivity & objective explanation",
+        "count": 1
+      },
+      {
+        "name": "Systems neuroscience / neurophenomenology",
+        "count": 1
+      },
+      {
+        "name": "Temperament, mental health & cultivation",
+        "count": 1
+      },
+      {
+        "name": "Theoretical computer science / AI",
+        "count": 1
+      },
+      {
+        "name": "Theoretical neuroscience",
+        "count": 1
+      },
+      {
+        "name": "Theoretical neuroscience / computational biology",
+        "count": 1
+      },
+      {
+        "name": "Theoretical neuroscience / metaphysics",
+        "count": 1
+      },
+      {
+        "name": "Theoretical neuroscience / neuropsychology",
+        "count": 1
+      },
+      {
+        "name": "Thought, nonattachment & awareness",
+        "count": 1
+      },
+      {
+        "name": "Transcendental philosophy / philosophy of mind",
+        "count": 1
+      },
+      {
+        "name": "Unconscious mentality, conflict & repression",
+        "count": 1
+      },
+      {
+        "name": "Vision, optics & perceptual judgment",
+        "count": 1
+      },
+      {
+        "name": "Wellbeing, mental life, spirit, body & whānau",
+        "count": 1
+      },
+      {
+        "name": "Will, desire, love & freedom",
+        "count": 1
+      },
+      {
+        "name": "World, understanding & situated existence",
+        "count": 1
+      }
+    ],
+    "by_status": [
+      {
+        "name": "active research construct · interpretation bounded",
+        "count": 54
+      },
+      {
+        "name": "active research program · scope and mechanisms contested",
+        "count": 38
+      },
+      {
+        "name": "documented · contested · non-consensus",
+        "count": 22
+      },
+      {
+        "name": "active-minority · contested",
+        "count": 18
+      },
+      {
+        "name": "minority · speculative · contested",
+        "count": 4
+      },
+      {
+        "name": "historically foundational · interpretation contested",
+        "count": 3
+      },
+      {
+        "name": "major-active · contested",
+        "count": 3
+      },
+      {
+        "name": "active program · contested",
+        "count": 2
+      },
+      {
+        "name": "active-minority · speculative · contested",
+        "count": 2
+      },
+      {
+        "name": "emerging active-minority · contested",
+        "count": 2
+      },
+      {
+        "name": "foundational challenge · interpretation contested",
+        "count": 2
+      },
+      {
+        "name": "historical/living tradition · non-empirical",
+        "count": 2
+      },
+      {
+        "name": "historically influential · interpretation contested",
+        "count": 2
+      },
+      {
+        "name": "influential · contested",
+        "count": 2
+      },
+      {
+        "name": "major argument · actively contested",
+        "count": 2
+      },
+      {
+        "name": "speculative · active-minority",
+        "count": 2
+      },
+      {
+        "name": "2026 preprint model · proof-of-concept · not peer reviewed",
+        "count": 1
+      },
+      {
+        "name": "active and contested hypothesis",
+        "count": 1
+      },
+      {
+        "name": "active and methodologically contested research program",
+        "count": 1
+      },
+      {
+        "name": "active architecture · artificial-consciousness claim contested",
+        "count": 1
+      },
+      {
+        "name": "active cellular-neuroscience theory · scope contested",
+        "count": 1
+      },
+      {
+        "name": "active clinical model · evidence incomplete and heterogeneous",
+        "count": 1
+      },
+      {
+        "name": "active clinical-neural hypothesis · evidence evolving",
+        "count": 1
+      },
+      {
+        "name": "active computational account · empirically developing",
+        "count": 1
+      },
+      {
+        "name": "active computational framework",
+        "count": 1
+      },
+      {
+        "name": "active computational model · phenomenality claim contested",
+        "count": 1
+      },
+      {
+        "name": "active computational research program",
+        "count": 1
+      },
+      {
+        "name": "active computational synthesis · contested",
+        "count": 1
+      },
+      {
+        "name": "active computational theory · early-stage and contested",
+        "count": 1
+      },
+      {
+        "name": "active embodied-neuroscience hypothesis · contested",
+        "count": 1
+      },
+      {
+        "name": "active empirical construct · measurement contested",
+        "count": 1
+      },
+      {
+        "name": "active empirical construct · mechanisms contested",
+        "count": 1
+      },
+      {
+        "name": "active empirical construct · models contested",
+        "count": 1
+      },
+      {
+        "name": "active empirical construct · taxonomy evolving",
+        "count": 1
+      },
+      {
+        "name": "active empirical dispute · task-dependent evidence",
+        "count": 1
+      },
+      {
+        "name": "active empirical framework · heterogeneous evidence · contested",
+        "count": 1
+      },
+      {
+        "name": "active empirical hypothesis · contested",
+        "count": 1
+      },
+      {
+        "name": "active enactive theory · minority and contested",
+        "count": 1
+      },
+      {
+        "name": "active evolutionary theory · criteria contested",
+        "count": 1
+      },
+      {
+        "name": "active family · underspecified",
+        "count": 1
+      },
+      {
+        "name": "active formal and empirical program · peer-reviewed · consciousness interpretation conditional",
+        "count": 1
+      },
+      {
+        "name": "active framework · mixed-affect scope and measurement debated",
+        "count": 1
+      },
+      {
+        "name": "active framework · not standalone CT",
+        "count": 1
+      },
+      {
+        "name": "active functional hypothesis · empirical scope unsettled",
+        "count": 1
+      },
+      {
+        "name": "active functional theory · strongly contested",
+        "count": 1
+      },
+      {
+        "name": "active integrative theory · content evidence substantial · neural specificity incomplete",
+        "count": 1
+      },
+      {
+        "name": "active learning-based theory · contested",
+        "count": 1
+      },
+      {
+        "name": "active learning-based theory · empirically developing",
+        "count": 1
+      },
+      {
+        "name": "active mechanistic paradigm · convergent but non-unique evidence",
+        "count": 1
+      },
+      {
+        "name": "active minority framework",
+        "count": 1
+      },
+      {
+        "name": "active minority higher-order theory · contested",
+        "count": 1
+      },
+      {
+        "name": "active minority proposal · biologically motivated · strongly disputed",
+        "count": 1
+      },
+      {
+        "name": "active minority theory · conceptual overlap disputed",
+        "count": 1
+      },
+      {
+        "name": "active neuropsychological theory · limited program",
+        "count": 1
+      },
+      {
+        "name": "active philosophical family · contested",
+        "count": 1
+      },
+      {
+        "name": "active philosophical research family · contested",
+        "count": 1
+      },
+      {
+        "name": "active philosophical research program · peer-reviewed · empirical protocols emerging",
+        "count": 1
+      },
+      {
+        "name": "active program · consciousness extension contested",
+        "count": 1
+      },
+      {
+        "name": "active psychological theory · contested",
+        "count": 1
+      },
+      {
+        "name": "active psychophysical model · domain-limited and contested",
+        "count": 1
+      },
+      {
+        "name": "active recent theory · empirical program developing",
+        "count": 1
+      },
+      {
+        "name": "active research challenge · theory-neutral formulation",
+        "count": 1
+      },
+      {
+        "name": "active research framework · experimentally grounded components · broad claims unsettled",
+        "count": 1
+      },
+      {
+        "name": "active state-space framework · dimensions provisional",
+        "count": 1
+      },
+      {
+        "name": "active systems-neuroscience theory · contested",
+        "count": 1
+      },
+      {
+        "name": "active theoretical synthesis · highly contested",
+        "count": 1
+      },
+      {
+        "name": "active theory · empirically developing",
+        "count": 1
+      },
+      {
+        "name": "active-minority formulation · contested",
+        "count": 1
+      },
+      {
+        "name": "active-minority · empirically contested",
+        "count": 1
+      },
+      {
+        "name": "active-minority · highly contested",
+        "count": 1
+      },
+      {
+        "name": "active-minority · strongly contested",
+        "count": 1
+      },
+      {
+        "name": "canonical Daoist orientation · chapter readings contested",
+        "count": 1
+      },
+      {
+        "name": "canonical causal pattern · interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "canonical cognitive model · extensively supported and revised · component boundaries debated",
+        "count": 1
+      },
+      {
+        "name": "canonical distinction · school-specific metaphysics",
+        "count": 1
+      },
+      {
+        "name": "canonical feminist-phenomenological position · historically contested",
+        "count": 1
+      },
+      {
+        "name": "canonical metaphor · later philosophical uses vary",
+        "count": 1
+      },
+      {
+        "name": "canonical-classificatory model · sectarian and commentarial variation",
+        "count": 1
+      },
+      {
+        "name": "classic question · empirical interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "classic thought-experimental challenge · contested",
+        "count": 1
+      },
+      {
+        "name": "clinical classification · diagnosis and boundaries imperfect",
+        "count": 1
+      },
+      {
+        "name": "collectively developed normative paradigm · internally plural and contested",
+        "count": 1
+      },
+      {
+        "name": "community-driven evaluated intervention · locally adaptive",
+        "count": 1
+      },
+      {
+        "name": "community-specific external ethnographic model · translation and regional scope limited",
+        "count": 1
+      },
+      {
+        "name": "computational framework · limited consciousness-specific validation",
+        "count": 1
+      },
+      {
+        "name": "conditional 2024 no-go theorem · peer-reviewed · premises contested",
+        "count": 1
+      },
+      {
+        "name": "contested phenomenological construct · measurement developing",
+        "count": 1
+      },
+      {
+        "name": "core active developmental construct",
+        "count": 1
+      },
+      {
+        "name": "cross-genre historical model · lexical distinctions matter",
+        "count": 1
+      },
+      {
+        "name": "current peer-reviewed assessment method · indicators provisional · no validated diagnostic",
+        "count": 1
+      },
+      {
+        "name": "demonstrated biophysical mechanism · systems significance under active investigation",
+        "count": 1
+      },
+      {
+        "name": "developed computational architecture · robot demonstrations · sentience claim unverified",
+        "count": 1
+      },
+      {
+        "name": "developed minority position · actively debated",
+        "count": 1
+      },
+      {
+        "name": "developed physicalist proposal · contested",
+        "count": 1
+      },
+      {
+        "name": "distinctive historical position · sources and doctrinal affiliation disputed",
+        "count": 1
+      },
+      {
+        "name": "documented report family · causes and interpretation highly contested",
+        "count": 1
+      },
+      {
+        "name": "early philosophical synthesis · surviving account is fragmentary",
+        "count": 1
+      },
+      {
+        "name": "early textual model · authorship and dating are composite",
+        "count": 1
+      },
+      {
+        "name": "emerging active model · limited direct tests",
+        "count": 1
+      },
+      {
+        "name": "emerging biophysical hypothesis · early-stage",
+        "count": 1
+      },
+      {
+        "name": "emerging construct and model · phenomenology and mechanism unsettled",
+        "count": 1
+      },
+      {
+        "name": "emerging minority · speculative · contested",
+        "count": 1
+      },
+      {
+        "name": "emerging · speculative · contested",
+        "count": 1
+      },
+      {
+        "name": "emerging · speculative · early-stage",
+        "count": 1
+      },
+      {
+        "name": "empirically established phenomenon · functional theory contested",
+        "count": 1
+      },
+      {
+        "name": "empirically studied state construct · hybrid interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "encyclopedic school framework · authorship and affiliation debated",
+        "count": 1
+      },
+      {
+        "name": "enduring epistemological problem · plural responses",
+        "count": 1
+      },
+      {
+        "name": "enduring mechanistic hypothesis · extensive network evidence · causal specificity unresolved",
+        "count": 1
+      },
+      {
+        "name": "established clinical phenomenon · mechanism depends on seizure type",
+        "count": 1
+      },
+      {
+        "name": "established disconnection effects · subject-count interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "established hippocampal memory theory · extensive convergent support · indexing code remains underspecified",
+        "count": 1
+      },
+      {
+        "name": "established induced state · mechanisms plural and actively studied",
+        "count": 1
+      },
+      {
+        "name": "established learning framework · consciousness extension contested",
+        "count": 1
+      },
+      {
+        "name": "established minority research program · quantitatively modeled · evidence domain-limited",
+        "count": 1
+      },
+      {
+        "name": "established syndrome families · mechanisms heterogeneous",
+        "count": 1
+      },
+      {
+        "name": "established syndrome family · residual phenomenology contested",
+        "count": 1
+      },
+      {
+        "name": "established syndrome · mechanisms heterogeneous",
+        "count": 1
+      },
+      {
+        "name": "expert declaration · evidential scope explicitly graded",
+        "count": 1
+      },
+      {
+        "name": "expert declaration · historically influential · scope debated",
+        "count": 1
+      },
+      {
+        "name": "explicit 2021 classification · peer-reviewed · coding reliability still developing",
+        "count": 1
+      },
+      {
+        "name": "explicit 2021 formal framework · peer-reviewed · empirical mapping preliminary",
+        "count": 1
+      },
+      {
+        "name": "explicit 2021 formal model · peer-reviewed · speculative foundations",
+        "count": 1
+      },
+      {
+        "name": "explicit 2022 foundational proposal · peer-reviewed · highly speculative",
+        "count": 1
+      },
+      {
+        "name": "explicit 2022 proposal · peer-reviewed · causal role debated",
+        "count": 1
+      },
+      {
+        "name": "explicit 2023 framework · peer-reviewed · discriminating program not yet mature",
+        "count": 1
+      },
+      {
+        "name": "explicit 2023 methodological framework · peer-reviewed · uptake emerging",
+        "count": 1
+      },
+      {
+        "name": "explicit 2023 proposal · peer-reviewed · empirically speculative",
+        "count": 1
+      },
+      {
+        "name": "explicit 2024 argument · peer-reviewed · criterion conditional",
+        "count": 1
+      },
+      {
+        "name": "explicit 2024 formal program · peer-reviewed · empirical foundations unsettled",
+        "count": 1
+      },
+      {
+        "name": "explicit 2024 framework · peer-reviewed · primarily conceptual",
+        "count": 1
+      },
+      {
+        "name": "explicit 2024 program · peer-reviewed · criteria not yet decisive",
+        "count": 1
+      },
+      {
+        "name": "explicit 2024 proposal · peer-reviewed · no independent discriminating tests",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 basal-consciousness model · peer-reviewed · comparative tests pending",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 critical framework · peer-reviewed · programmatic",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 framework · peer-reviewed · implementation criteria debated",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 framework · peer-reviewed · theory-specific evidence preliminary",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 methodological framework · peer-reviewed · early application",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 proposal · peer-reviewed · direct evidence limited",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 proposal · peer-reviewed · speculative and singly authored",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 proposal · peer-reviewed · substrate conditions unsettled",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 theory extraction · peer-reviewed · necessity tests beginning",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025 theory · peer-reviewed · single-author program with limited testing",
+        "count": 1
+      },
+      {
+        "name": "explicit 2025–2026 framework · peer-reviewed · highly speculative synthesis",
+        "count": 1
+      },
+      {
+        "name": "explicit 2026 formal framework · peer-reviewed · no independent empirical test",
+        "count": 1
+      },
+      {
+        "name": "explicit 2026 foundational proposal · peer-reviewed · highly speculative",
+        "count": 1
+      },
+      {
+        "name": "explicit 2026 methodological principle · peer-reviewed · no application consensus",
+        "count": 1
+      },
+      {
+        "name": "explicit 2026 model · peer-reviewed · bounded visual test case",
+        "count": 1
+      },
+      {
+        "name": "explicit 2026 model · peer-reviewed · psychometric tests not yet reported",
+        "count": 1
+      },
+      {
+        "name": "explicit comparative hypothesis · active debate · inferential evidence only",
+        "count": 1
+      },
+      {
+        "name": "explicit hypothesis · peer-reviewed development · limited direct testing",
+        "count": 1
+      },
+      {
+        "name": "explicit theory of conscious emotion · integrates higher-order consciousness and survival circuits · direct discriminating tests limited",
+        "count": 1
+      },
+      {
+        "name": "family of lineage-specific models · no canonical universal map",
+        "count": 1
+      },
+      {
+        "name": "formal 2021 challenge framework · peer-reviewed · scope actively debated",
+        "count": 1
+      },
+      {
+        "name": "formal dynamical model · quantitative EEG predictions · model family remains contested",
+        "count": 1
+      },
+      {
+        "name": "formal influential model · strong explanatory reach · parameter and mechanism questions remain",
+        "count": 1
+      },
+      {
+        "name": "formal model · human experimental support · generality under active test",
+        "count": 1
+      },
+      {
+        "name": "formal proposal · limited direct testing",
+        "count": 1
+      },
+      {
+        "name": "foundational Chan textual tradition · authorship and layers contested",
+        "count": 1
+      },
+      {
+        "name": "foundational Geluk position · disputed by rival Tibetan schools",
+        "count": 1
+      },
+      {
+        "name": "foundational Korean Buddhist synthesis · source-specific readings differ",
+        "count": 1
+      },
+      {
+        "name": "foundational Korean Seon framework · multiple practice paths",
+        "count": 1
+      },
+      {
+        "name": "foundational Neo-Confucian formulation · textual attribution requires care",
+        "count": 1
+      },
+      {
+        "name": "foundational Song position · later reconstructions differ",
+        "count": 1
+      },
+      {
+        "name": "foundational Zen philosophy · phrase and corpus interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "foundational agency model · strong motor-prediction evidence · insufficient as a complete agency account",
+        "count": 1
+      },
+      {
+        "name": "foundational anti-caste social philosophy · continuing interpretation",
+        "count": 1
+      },
+      {
+        "name": "foundational ascetic model · textual and doctrinal context essential",
+        "count": 1
+      },
+      {
+        "name": "foundational attention model · extensive neural support · not exhaustive",
+        "count": 1
+      },
+      {
+        "name": "foundational but disputed construct family",
+        "count": 1
+      },
+      {
+        "name": "foundational challenge · actively contested",
+        "count": 1
+      },
+      {
+        "name": "foundational challenge · multiple formulations contested",
+        "count": 1
+      },
+      {
+        "name": "foundational clinical distinction · measurement remains imperfect",
+        "count": 1
+      },
+      {
+        "name": "foundational cognitive theory · extensive behavioral support · neural format unresolved",
+        "count": 1
+      },
+      {
+        "name": "foundational compatibilist account · regress and manipulation contested",
+        "count": 1
+      },
+      {
+        "name": "foundational construct family · multiple incompatible models",
+        "count": 1
+      },
+      {
+        "name": "foundational construct · boundary and dissociation contested",
+        "count": 1
+      },
+      {
+        "name": "foundational construct · definition and extension contested",
+        "count": 1
+      },
+      {
+        "name": "foundational construct · relation to consciousness contested",
+        "count": 1
+      },
+      {
+        "name": "foundational critical-phenomenological account · active debate",
+        "count": 1
+      },
+      {
+        "name": "foundational dimensional-affect theory · strong psychometric support · dimensional structure and mechanisms debated",
+        "count": 1
+      },
+      {
+        "name": "foundational distinction · degree of dissociation contested",
+        "count": 1
+      },
+      {
+        "name": "foundational explanandum · structure and mechanisms contested",
+        "count": 1
+      },
+      {
+        "name": "foundational framework · actively used",
+        "count": 1
+      },
+      {
+        "name": "foundational framework · depth construct substantially revised",
+        "count": 1
+      },
+      {
+        "name": "foundational historical theory · revised and actively tested",
+        "count": 1
+      },
+      {
+        "name": "foundational paradigm · interpretation actively contested",
+        "count": 1
+      },
+      {
+        "name": "foundational phenomenological construct · metaphysical interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "foundational quantitative model · repeatedly revised · original transmitter mapping incomplete",
+        "count": 1
+      },
+      {
+        "name": "foundational social-philosophical construct · multiple interpretations",
+        "count": 1
+      },
+      {
+        "name": "foundational state analysis · translation and ontology contested",
+        "count": 1
+      },
+      {
+        "name": "foundational taxonomy · continuing influence",
+        "count": 1
+      },
+      {
+        "name": "foundational xinxue position · slogan readings require context",
+        "count": 1
+      },
+      {
+        "name": "highly influential neurocognitive hypothesis · substantial lesion and psychophysiological evidence · canonical task interpretation disputed",
+        "count": 1
+      },
+      {
+        "name": "highly influential · extensively tested · boundary conditions and alternatives active",
+        "count": 1
+      },
+      {
+        "name": "historical",
+        "count": 1
+      },
+      {
+        "name": "historical Illuminationist philosophy · enduring influence",
+        "count": 1
+      },
+      {
+        "name": "historical Islamic philosophy · active scholarly tradition",
+        "count": 1
+      },
+      {
+        "name": "historical Neoplatonic account · scholarly interpretation active",
+        "count": 1
+      },
+      {
+        "name": "historical and living doctrinal family · interpretation disputed",
+        "count": 1
+      },
+      {
+        "name": "historical and living intellectual tradition",
+        "count": 1
+      },
+      {
+        "name": "historical and living scholarly tradition · non-empirical",
+        "count": 1
+      },
+      {
+        "name": "historical and living tradition · internally diverse",
+        "count": 1
+      },
+      {
+        "name": "historical and living tradition · non-empirical",
+        "count": 1
+      },
+      {
+        "name": "historical contemplative doctrine · interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historical influence · minority today",
+        "count": 1
+      },
+      {
+        "name": "historical medical psychology · school and text differences remain",
+        "count": 1
+      },
+      {
+        "name": "historical minority · speculative",
+        "count": 1
+      },
+      {
+        "name": "historical theological psychology · enduring philosophical influence",
+        "count": 1
+      },
+      {
+        "name": "historical with active minority · speculative",
+        "count": 1
+      },
+      {
+        "name": "historical with active research tradition",
+        "count": 1
+      },
+      {
+        "name": "historical with active revival · contested",
+        "count": 1
+      },
+      {
+        "name": "historical with contemporary dual-aspect influence",
+        "count": 1
+      },
+      {
+        "name": "historical with major contemporary influence",
+        "count": 1
+      },
+      {
+        "name": "historical · contemporary minority",
+        "count": 1
+      },
+      {
+        "name": "historical · corpus fragmentary and attribution contested",
+        "count": 1
+      },
+      {
+        "name": "historical · enduring influence",
+        "count": 1
+      },
+      {
+        "name": "historical · foundational influence",
+        "count": 1
+      },
+      {
+        "name": "historical · largely rejected in physics · speculative",
+        "count": 1
+      },
+      {
+        "name": "historical · major influence",
+        "count": 1
+      },
+      {
+        "name": "historical/living scholarly tradition",
+        "count": 1
+      },
+      {
+        "name": "historical/living tradition · interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historical/living traditions · internally diverse",
+        "count": 1
+      },
+      {
+        "name": "historically documented complex · meanings change across periods",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · Hume's own later reservations remain significant",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · developmental interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · developmentally complex",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · extensive interpretive dispute",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · fragmentarily reconstructed",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · internally contested",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · interpretation of inference debated",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · interpretation remains disputed",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · interpretations diverge by Vedānta school",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · interpretive and translation debates",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · key passages disputed",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · living Thomist reception · contested",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · living interpretive reception",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · living reception · interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · multiple Huayan formulations",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · original evidence and generality contested",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · polysemous and context-sensitive",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · substantially revised · content claims debated",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · text and classification interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · textually interpreted",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · textually reconstructed",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · translation-sensitive",
+        "count": 1
+      },
+      {
+        "name": "historically foundational · versions and translations contested",
+        "count": 1
+      },
+      {
+        "name": "historically global textual tradition · sources multilingual and polemical",
+        "count": 1
+      },
+      {
+        "name": "historically important · attribution and textual fragments contested",
+        "count": 1
+      },
+      {
+        "name": "historically influential criteria framework · implementable · phenomenal sufficiency disputed",
+        "count": 1
+      },
+      {
+        "name": "historically influential external account · authority and generalization heavily contested",
+        "count": 1
+      },
+      {
+        "name": "historically influential hypothesis · highly speculative and non-consensus",
+        "count": 1
+      },
+      {
+        "name": "historically influential mechanistic theory · partially supported · agent-general scope limited",
+        "count": 1
+      },
+      {
+        "name": "historically influential minority position · reconstructed largely through opponents",
+        "count": 1
+      },
+      {
+        "name": "historically influential neurobiological model · incomplete",
+        "count": 1
+      },
+      {
+        "name": "historically influential phenomenological account",
+        "count": 1
+      },
+      {
+        "name": "historically influential · active minority reception",
+        "count": 1
+      },
+      {
+        "name": "historically influential · active scholarly recovery",
+        "count": 1
+      },
+      {
+        "name": "historically influential · authorial identity was long obscured",
+        "count": 1
+      },
+      {
+        "name": "historically influential · competing interpretations",
+        "count": 1
+      },
+      {
+        "name": "historically influential · contemporary interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically influential · distinct from later school syntheses",
+        "count": 1
+      },
+      {
+        "name": "historically influential · immortality interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically influential · minority contemporary position",
+        "count": 1
+      },
+      {
+        "name": "historically influential · minority/speculative",
+        "count": 1
+      },
+      {
+        "name": "historically influential · not a standalone CT",
+        "count": 1
+      },
+      {
+        "name": "historically influential · partly absorbed into later IIT/reentry work",
+        "count": 1
+      },
+      {
+        "name": "historically influential · rejected by major Buddhist interlocutors",
+        "count": 1
+      },
+      {
+        "name": "historically influential · strongly criticized and revised",
+        "count": 1
+      },
+      {
+        "name": "historically influential · terminology and corpus interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically influential · theological and ethical interpretations vary",
+        "count": 1
+      },
+      {
+        "name": "historically layered living tradition · philology contested",
+        "count": 1
+      },
+      {
+        "name": "historically major · contemporary minority · contested",
+        "count": 1
+      },
+      {
+        "name": "historically significant recovered position · interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "historically significant · active scholarly reconstruction",
+        "count": 1
+      },
+      {
+        "name": "historically transformative · scientific and clinical claims deeply contested",
+        "count": 1
+      },
+      {
+        "name": "implemented research architecture · proof-of-concept demonstrations · no phenomenal validation",
+        "count": 1
+      },
+      {
+        "name": "important revisionary position · limited translation access",
+        "count": 1
+      },
+      {
+        "name": "influential Buddhist synthesis · doctrinal hierarchy contested",
+        "count": 1
+      },
+      {
+        "name": "influential active account · debated",
+        "count": 1
+      },
+      {
+        "name": "influential active family · modularity and developmental claims contested",
+        "count": 1
+      },
+      {
+        "name": "influential active framework",
+        "count": 1
+      },
+      {
+        "name": "influential active framework · boundary conditions studied",
+        "count": 1
+      },
+      {
+        "name": "influential active framework · dimensional choices contested",
+        "count": 1
+      },
+      {
+        "name": "influential active framework · scope contested",
+        "count": 1
+      },
+      {
+        "name": "influential active framework · source-attribution effects qualified",
+        "count": 1
+      },
+      {
+        "name": "influential active psychedelic model · contested",
+        "count": 1
+      },
+      {
+        "name": "influential active theory · code independence debated",
+        "count": 1
+      },
+      {
+        "name": "influential active theory · empirical basis contested",
+        "count": 1
+      },
+      {
+        "name": "influential active thesis · strongly contested for phenomenal extension",
+        "count": 1
+      },
+      {
+        "name": "influential active-minority · contested",
+        "count": 1
+      },
+      {
+        "name": "influential alternative model · substantial capacity evidence · focus boundary debated",
+        "count": 1
+      },
+      {
+        "name": "influential anatomical hypothesis · mixed evidence · revised rather than confirmed",
+        "count": 1
+      },
+      {
+        "name": "influential and controversial · partial support · strong equivalence claims challenged",
+        "count": 1
+      },
+      {
+        "name": "influential anthropological framework · debated within the ontological turn",
+        "count": 1
+      },
+      {
+        "name": "influential assessment framework · operationalization in progress",
+        "count": 1
+      },
+      {
+        "name": "influential challenge hypothesis · actively contested",
+        "count": 1
+      },
+      {
+        "name": "influential circuit model · extensively elaborated · simplified topology",
+        "count": 1
+      },
+      {
+        "name": "influential clinical systems hypothesis · actively investigated",
+        "count": 1
+      },
+      {
+        "name": "influential conceptual framework · boundaries contested",
+        "count": 1
+      },
+      {
+        "name": "influential contemporary framework · construct boundaries contested",
+        "count": 1
+      },
+      {
+        "name": "influential contested thesis · historically and regionally bounded",
+        "count": 1
+      },
+      {
+        "name": "influential developmental account · actively debated",
+        "count": 1
+      },
+      {
+        "name": "influential developmental framework · interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "influential developmental proposal · mechanisms contested",
+        "count": 1
+      },
+      {
+        "name": "influential ethnographic account · historical and methodological limits require explicit review",
+        "count": 1
+      },
+      {
+        "name": "influential external anthropological model · generalization contested",
+        "count": 1
+      },
+      {
+        "name": "influential external comparative theory · scope and generalization contested",
+        "count": 1
+      },
+      {
+        "name": "influential feminist account · continuing critical development",
+        "count": 1
+      },
+      {
+        "name": "influential framework · realist and instrumentalist readings contested",
+        "count": 1
+      },
+      {
+        "name": "influential functional hypothesis · broad comparative evidence · consciousness extension disputed",
+        "count": 1
+      },
+      {
+        "name": "influential heuristic typology · extensively debated",
+        "count": 1
+      },
+      {
+        "name": "influential historical program · contested",
+        "count": 1
+      },
+      {
+        "name": "influential hypothesis · strongly contested",
+        "count": 1
+      },
+      {
+        "name": "influential integrative framework · components variably supported",
+        "count": 1
+      },
+      {
+        "name": "influential integrative framework · supported by cue-integration findings · weighting mechanism underspecified",
+        "count": 1
+      },
+      {
+        "name": "influential interactional framework · empirical program developing",
+        "count": 1
+      },
+      {
+        "name": "influential mechanism · insufficient as standalone CT · contested",
+        "count": 1
+      },
+      {
+        "name": "influential mechanistic framework · convergent support · not sufficient for all psychosis",
+        "count": 1
+      },
+      {
+        "name": "influential memory framework · category boundaries contested",
+        "count": 1
+      },
+      {
+        "name": "influential memory theory family · substantial lesion and imaging support · trace transformation debated",
+        "count": 1
+      },
+      {
+        "name": "influential minority theory · comparative claims contested",
+        "count": 1
+      },
+      {
+        "name": "influential modern spiritual-philosophical system · non-consensus scientifically",
+        "count": 1
+      },
+      {
+        "name": "influential neurophilosophical theory · contested",
+        "count": 1
+      },
+      {
+        "name": "influential neuropsychological model · components contested",
+        "count": 1
+      },
+      {
+        "name": "influential organizing framework · substantial component evidence · not a consciousness theory",
+        "count": 1
+      },
+      {
+        "name": "influential phenomenological model · contested and non-exhaustive",
+        "count": 1
+      },
+      {
+        "name": "influential position family · scope contested",
+        "count": 1
+      },
+      {
+        "name": "influential proof-of-concept · active research direction",
+        "count": 1
+      },
+      {
+        "name": "influential research taxonomy · boundaries remain provisional",
+        "count": 1
+      },
+      {
+        "name": "influential state-space model · revised and contested",
+        "count": 1
+      },
+      {
+        "name": "influential taxonomic-mechanistic model · clinically useful · boundaries debated",
+        "count": 1
+      },
+      {
+        "name": "influential transdiagnostic framework · widely tested · specificity and causality limited",
+        "count": 1
+      },
+      {
+        "name": "influential visual theory · substantial psychophysical support · neural mechanisms debated",
+        "count": 1
+      },
+      {
+        "name": "influential visual-neuroscience proposal · contested",
+        "count": 1
+      },
+      {
+        "name": "integrative clinical framework · supported by multisensory illusion and pain findings · neural architecture provisional",
+        "count": 1
+      },
+      {
+        "name": "integrative proposal · component evidence available · untested as a whole",
+        "count": 1
+      },
+      {
+        "name": "internally diverse school tradition · many sources reconstructed",
+        "count": 1
+      },
+      {
+        "name": "large research family · strong and weak theses contested",
+        "count": 1
+      },
+      {
+        "name": "living Indigenous health framework · accountable use required",
+        "count": 1
+      },
+      {
+        "name": "living Indigenous teaching and research methodology · authority is situated",
+        "count": 1
+      },
+      {
+        "name": "living community-grounded framework · versions are program-specific",
+        "count": 1
+      },
+      {
+        "name": "living contemplative construct · interpretation tradition-specific",
+        "count": 1
+      },
+      {
+        "name": "living contemplative tradition · internally diverse",
+        "count": 1
+      },
+      {
+        "name": "living lineage-specific framework · not shared unchanged by all Hasidism",
+        "count": 1
+      },
+      {
+        "name": "living plural tradition · philosophical formulations contested",
+        "count": 1
+      },
+      {
+        "name": "living relational framework · term meanings are context-specific",
+        "count": 1
+      },
+      {
+        "name": "living scholastic-religious tradition · internally developed reception",
+        "count": 1
+      },
+      {
+        "name": "living scriptural-philosophical framework · translations contested",
+        "count": 1
+      },
+      {
+        "name": "living situated articulation · anti-universalizing boundary required",
+        "count": 1
+      },
+      {
+        "name": "living tradition and active scholarship · major interpretive disagreement",
+        "count": 1
+      },
+      {
+        "name": "living tradition · active scholarship · internally contested",
+        "count": 1
+      },
+      {
+        "name": "living tradition · philosophical, not empirical CT",
+        "count": 1
+      },
+      {
+        "name": "living traditional classification · psychometric translation unsettled",
+        "count": 1
+      },
+      {
+        "name": "major active framework · process diagnostics refined",
+        "count": 1
+      },
+      {
+        "name": "major active philosophical family · internally contested",
+        "count": 1
+      },
+      {
+        "name": "major active theory · representational and process claims contested",
+        "count": 1
+      },
+      {
+        "name": "major alternative to animalism · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major anti-Aristotelian position · interpretation of freedom contested",
+        "count": 1
+      },
+      {
+        "name": "major challenge · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major construct family · mechanisms and taxonomy contested",
+        "count": 1
+      },
+      {
+        "name": "major contemporary emotion theory · broad behavioral and neuroscience program · strong construction claims contested",
+        "count": 1
+      },
+      {
+        "name": "major contemporary position family · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major contemporary position · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major developmental-evolutionary program · contested",
+        "count": 1
+      },
+      {
+        "name": "major early-modern Chinese position · interpretations of monism vary",
+        "count": 1
+      },
+      {
+        "name": "major framework · CT status contested",
+        "count": 1
+      },
+      {
+        "name": "major framework · consciousness applications contested",
+        "count": 1
+      },
+      {
+        "name": "major framework · contested for consciousness",
+        "count": 1
+      },
+      {
+        "name": "major framework · not by itself a CT",
+        "count": 1
+      },
+      {
+        "name": "major framework · not originally a standalone CT",
+        "count": 1
+      },
+      {
+        "name": "major historical debate · internally plural",
+        "count": 1
+      },
+      {
+        "name": "major historical research family · active and contested",
+        "count": 1
+      },
+      {
+        "name": "major internal challenge · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major libertarian position · metaphysics contested",
+        "count": 1
+      },
+      {
+        "name": "major medieval position · dialogical voices require attribution",
+        "count": 1
+      },
+      {
+        "name": "major memory theory · extensive computational and empirical support · updated architecture",
+        "count": 1
+      },
+      {
+        "name": "major modal argument · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major modern position · political context requires scrutiny",
+        "count": 1
+      },
+      {
+        "name": "major naturalization program · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major perception framework · active empirical program",
+        "count": 1
+      },
+      {
+        "name": "major phenomenological family · interpretation and scope contested",
+        "count": 1
+      },
+      {
+        "name": "major philosophical family · active and contested",
+        "count": 1
+      },
+      {
+        "name": "major philosophical family · contested",
+        "count": 1
+      },
+      {
+        "name": "major physicalist response family · actively contested",
+        "count": 1
+      },
+      {
+        "name": "major position family · branching and circularity contested",
+        "count": 1
+      },
+      {
+        "name": "major position family · variants contested",
+        "count": 1
+      },
+      {
+        "name": "major post-classical position · development across works",
+        "count": 1
+      },
+      {
+        "name": "major research family · active and contested",
+        "count": 1
+      },
+      {
+        "name": "major revisionary Confucian position · continuing interpretation",
+        "count": 1
+      },
+      {
+        "name": "major scholarly debate · labels and interpretations contested",
+        "count": 1
+      },
+      {
+        "name": "major thought-experimental challenge · contested",
+        "count": 1
+      },
+      {
+        "name": "major-active family · contested for qualia",
+        "count": 1
+      },
+      {
+        "name": "major-active · heavily tested and contested",
+        "count": 1
+      },
+      {
+        "name": "major-active · highly contested",
+        "count": 1
+      },
+      {
+        "name": "mature cognitive framework · broad behavioral support · neural implementation plural",
+        "count": 1
+      },
+      {
+        "name": "mature scholastic model · textual layers require separation",
+        "count": 1
+      },
+      {
+        "name": "mechanistically supported across NREM sleep and UWS · scope unresolved",
+        "count": 1
+      },
+      {
+        "name": "minority evolutionary hypothesis · limited direct tests",
+        "count": 1
+      },
+      {
+        "name": "minority field hypothesis · speculative and contested",
+        "count": 1
+      },
+      {
+        "name": "minority neurocognitive model · speculative",
+        "count": 1
+      },
+      {
+        "name": "minority psychological theory · limited research program",
+        "count": 1
+      },
+      {
+        "name": "minority systems-neuroscience hypothesis · limited direct tests",
+        "count": 1
+      },
+      {
+        "name": "minority · challenge position",
+        "count": 1
+      },
+      {
+        "name": "minority · highly contested",
+        "count": 1
+      },
+      {
+        "name": "minority · historically influential · contested",
+        "count": 1
+      },
+      {
+        "name": "minority · largely philosophical · contested",
+        "count": 1
+      },
+      {
+        "name": "modern comparative framework · generalizations require review",
+        "count": 1
+      },
+      {
+        "name": "newly proposed · evolving formulation · not independently validated",
+        "count": 1
+      },
+      {
+        "name": "newly proposed · formalized · not independently validated",
+        "count": 1
+      },
+      {
+        "name": "official standardization program · version 1.1",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed computational framework · in-silico result only · empirical validation pending",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed computational proof-of-concept · biological hypothesis untested",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed theoretical hypothesis · no direct empirical test",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed theoretical model · computational and empirical tests proposed",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed theory exposition · core mechanism not operationally validated",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed · early experimental evidence",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed · translated validation",
+        "count": 1
+      },
+      {
+        "name": "philosophical narrative · interpretations of natural reason vary",
+        "count": 1
+      },
+      {
+        "name": "published pragmatic scale · architecturally detailed · phenomenal validity unestablished",
+        "count": 1
+      },
+      {
+        "name": "published proposal · contested",
+        "count": 1
+      },
+      {
+        "name": "quantitative body-ownership model · strong illusion-task support · ecological generality under study",
+        "count": 1
+      },
+      {
+        "name": "recent explicit hypothesis · computational analogy · limited direct testing",
+        "count": 1
+      },
+      {
+        "name": "reconstructed school family · attribution boundaries contested",
+        "count": 1
+      },
+      {
+        "name": "replicated clinical phenomenon · prevalence and interpretation evolving",
+        "count": 1
+      },
+      {
+        "name": "replicated experimental phenomenon · prevalence and interpretation task-sensitive",
+        "count": 1
+      },
+      {
+        "name": "scholarly Indigenous-centered framework · scope is explicitly bounded",
+        "count": 1
+      },
+      {
+        "name": "scholarly reconstruction from colonial and later sources · translation effects substantial",
+        "count": 1
+      },
+      {
+        "name": "school family · formulations vary across theologians",
+        "count": 1
+      },
+      {
+        "name": "school-specific classical model · historical development debated",
+        "count": 1
+      },
+      {
+        "name": "speculative formal model · active",
+        "count": 1
+      },
+      {
+        "name": "speculative integrative proposal",
+        "count": 1
+      },
+      {
+        "name": "speculative mathematical-biophysical theory · limited validation",
+        "count": 1
+      },
+      {
+        "name": "speculative · contested",
+        "count": 1
+      },
+      {
+        "name": "speculative · highly contested",
+        "count": 1
+      },
+      {
+        "name": "speculative · minority · contested",
+        "count": 1
+      },
+      {
+        "name": "standard account family · deviant causation contested",
+        "count": 1
+      },
+      {
+        "name": "standard conceptual distinction · terminology varies",
+        "count": 1
+      },
+      {
+        "name": "standard research distinction · operationalization contested",
+        "count": 1
+      },
+      {
+        "name": "strong animal evidence · qualified human evidence",
+        "count": 1
+      },
+      {
+        "name": "tentative 2024 framework · peer-reviewed · validation pending",
+        "count": 1
+      },
+      {
+        "name": "testable evolutionary theory · mixed supportive evidence · adaptation claim unresolved",
+        "count": 1
+      },
+      {
+        "name": "text-specific tripartition · terminology varies across works",
+        "count": 1
+      },
+      {
+        "name": "textual family · mappings vary across corpora and lineages",
+        "count": 1
+      },
+      {
+        "name": "validated in initial and multicenter cross-cultural cohorts",
+        "count": 1
+      },
+      {
+        "name": "validated research and clinical-assessment framework · interpretation bounded",
+        "count": 1
+      },
+      {
+        "name": "widely used Pacific framework · local adaptation required",
+        "count": 1
+      },
+      {
+        "name": "widely used living health framework · locally contextual",
+        "count": 1
+      },
+      {
+        "name": "widely used measurement framework · assumptions actively debated",
+        "count": 1
+      },
+      {
+        "name": "widely used paradigm · construct interpretation contested",
+        "count": 1
+      },
+      {
+        "name": "widespread family · contested, especially mental causation",
+        "count": 1
+      }
+    ],
+    "by_source_authority": [
+      {
+        "name": "primary-original",
+        "count": 356
+      },
+      {
+        "name": "authoritative-secondary",
+        "count": 275
+      },
+      {
+        "name": "authoritative-specialist-secondary",
+        "count": 69
+      },
+      {
+        "name": "scholarly-secondary",
+        "count": 45
+      },
+      {
+        "name": "referenced-source-locator",
+        "count": 18
+      },
+      {
+        "name": "primary-theory-development",
+        "count": 15
+      },
+      {
+        "name": "primary-theory-statement",
+        "count": 14
+      },
+      {
+        "name": "primary-text-digital-edition",
+        "count": 13
+      },
+      {
+        "name": "primary-source-scholarly-translation",
+        "count": 12
+      },
+      {
+        "name": "discovery-lead",
+        "count": 11
+      },
+      {
+        "name": "primary-scale-development",
+        "count": 11
+      },
+      {
+        "name": "primary-source-translation",
+        "count": 10
+      },
+      {
+        "name": "primary-empirical",
+        "count": 8
+      },
+      {
+        "name": "primary-formal-framework",
+        "count": 8
+      },
+      {
+        "name": "primary-self-exposition",
+        "count": 8
+      },
+      {
+        "name": "authoritative-review",
+        "count": 7
+      },
+      {
+        "name": "authoritative-scholarly-context",
+        "count": 6
+      },
+      {
+        "name": "authoritative-specialist-encyclopedia",
+        "count": 6
+      },
+      {
+        "name": "primary-methodological-framework",
+        "count": 6
+      },
+      {
+        "name": "primary-scholarly-articulation",
+        "count": 6
+      },
+      {
+        "name": "primary-theory-update",
+        "count": 6
+      },
+      {
+        "name": "authoritative-measure-review",
+        "count": 5
+      },
+      {
+        "name": "primary-scale-validation",
+        "count": 5
+      },
+      {
+        "name": "systematic-psychometric-review",
+        "count": 5
+      },
+      {
+        "name": "authoritative-primary-review",
+        "count": 4
+      },
+      {
+        "name": "peer-reviewed-contextual-analysis",
+        "count": 4
+      },
+      {
+        "name": "primary-argument",
+        "count": 4
+      },
+      {
+        "name": "primary-empirical-test",
+        "count": 4
+      },
+      {
+        "name": "primary-extension",
+        "count": 4
+      },
+      {
+        "name": "primary-paradigm-study",
+        "count": 4
+      },
+      {
+        "name": "primary-precursor",
+        "count": 4
+      },
+      {
+        "name": "primary-source-translation-record",
+        "count": 4
+      },
+      {
+        "name": "primary-validation",
+        "count": 4
+      },
+      {
+        "name": "systematic-review-guideline",
+        "count": 4
+      },
+      {
+        "name": "authoritative-clinical-review",
+        "count": 3
+      },
+      {
+        "name": "authoritative-methodological-review",
+        "count": 3
+      },
+      {
+        "name": "authoritative-self-review",
+        "count": 3
+      },
+      {
+        "name": "methodological-critique",
+        "count": 3
+      },
+      {
+        "name": "peer-reviewed-specialist-encyclopedia",
+        "count": 3
+      },
+      {
+        "name": "primary-author-peer-reviewed-article",
+        "count": 3
+      },
+      {
+        "name": "primary-formal-model",
+        "count": 3
+      },
+      {
+        "name": "primary-framework-statement",
+        "count": 3
+      },
+      {
+        "name": "primary-method",
+        "count": 3
+      },
+      {
+        "name": "primary-self-revision",
+        "count": 3
+      },
+      {
+        "name": "systematic-review-meta-analysis",
+        "count": 3
+      },
+      {
+        "name": "authoritative-analysis",
+        "count": 2
+      },
+      {
+        "name": "authoritative-construct-framework",
+        "count": 2
+      },
+      {
+        "name": "authoritative-methodological-analysis",
+        "count": 2
+      },
+      {
+        "name": "authoritative-preprint-framework",
+        "count": 2
+      },
+      {
+        "name": "authoritative-specialist-monograph",
+        "count": 2
+      },
+      {
+        "name": "authoritative-theoretical-review",
+        "count": 2
+      },
+      {
+        "name": "authoritative-update",
+        "count": 2
+      },
+      {
+        "name": "independent-empirical-explanandum",
+        "count": 2
+      },
+      {
+        "name": "independent-preregistered-theory-test",
+        "count": 2
+      },
+      {
+        "name": "independent-validation",
+        "count": 2
+      },
+      {
+        "name": "institutional-publication-record",
+        "count": 2
+      },
+      {
+        "name": "large-clinical-validation",
+        "count": 2
+      },
+      {
+        "name": "peer-reviewed-critical-analysis",
+        "count": 2
+      },
+      {
+        "name": "primary-anthropological-formulation",
+        "count": 2
+      },
+      {
+        "name": "primary-author-scholarly-monograph",
+        "count": 2
+      },
+      {
+        "name": "primary-consensus-statement",
+        "count": 2
+      },
+      {
+        "name": "primary-developmental",
+        "count": 2
+      },
+      {
+        "name": "primary-empirical-development",
+        "count": 2
+      },
+      {
+        "name": "primary-mechanistic-framework",
+        "count": 2
+      },
+      {
+        "name": "primary-model-and-empirical",
+        "count": 2
+      },
+      {
+        "name": "primary-model-statement",
+        "count": 2
+      },
+      {
+        "name": "primary-original-review",
+        "count": 2
+      },
+      {
+        "name": "primary-philosophical-analysis",
+        "count": 2
+      },
+      {
+        "name": "primary-programmatic",
+        "count": 2
+      },
+      {
+        "name": "primary-self-review",
+        "count": 2
+      },
+      {
+        "name": "primary-source-scholarly-translation-record",
+        "count": 2
+      },
+      {
+        "name": "primary-theory-exposition",
+        "count": 2
+      },
+      {
+        "name": "primary-theory-review",
+        "count": 2
+      },
+      {
+        "name": "primary-theory-revision",
+        "count": 2
+      },
+      {
+        "name": "scholarly-critical-analysis",
+        "count": 2
+      },
+      {
+        "name": "scholarly-critical-review",
+        "count": 2
+      },
+      {
+        "name": "systematic-review",
+        "count": 2
+      },
+      {
+        "name": "authoritative-background",
+        "count": 1
+      },
+      {
+        "name": "authoritative-bibliographic-record",
+        "count": 1
+      },
+      {
+        "name": "authoritative-comparative-framework",
+        "count": 1
+      },
+      {
+        "name": "authoritative-conceptual-precursor",
+        "count": 1
+      },
+      {
+        "name": "authoritative-contextualized-edition",
+        "count": 1
+      },
+      {
+        "name": "authoritative-developmental-review",
+        "count": 1
+      },
+      {
+        "name": "authoritative-field-review",
+        "count": 1
+      },
+      {
+        "name": "authoritative-government-context",
+        "count": 1
+      },
+      {
+        "name": "authoritative-government-guidance",
+        "count": 1
+      },
+      {
+        "name": "authoritative-historical-review",
+        "count": 1
+      },
+      {
+        "name": "authoritative-integrative-review",
+        "count": 1
+      },
+      {
+        "name": "authoritative-methodological",
+        "count": 1
+      },
+      {
+        "name": "authoritative-museum-object-record",
+        "count": 1
+      },
+      {
+        "name": "authoritative-neural-update",
+        "count": 1
+      },
+      {
+        "name": "authoritative-original-review",
+        "count": 1
+      },
+      {
+        "name": "authoritative-peer-reviewed-retrospective",
+        "count": 1
+      },
+      {
+        "name": "authoritative-peer-reviewed-review",
+        "count": 1
+      },
+      {
+        "name": "authoritative-primary-synthesis",
+        "count": 1
+      },
+      {
+        "name": "authoritative-primary-text-centered-study",
+        "count": 1
+      },
+      {
+        "name": "authoritative-reassessment",
+        "count": 1
+      },
+      {
+        "name": "authoritative-scholarly-synthesis",
+        "count": 1
+      },
+      {
+        "name": "authoritative-self-exposition",
+        "count": 1
+      },
+      {
+        "name": "authoritative-self-update",
+        "count": 1
+      },
+      {
+        "name": "authoritative-specialist-analysis",
+        "count": 1
+      },
+      {
+        "name": "authoritative-specialist-reference",
+        "count": 1
+      },
+      {
+        "name": "authoritative-test-record",
+        "count": 1
+      },
+      {
+        "name": "community-authored-peer-reviewed-method",
+        "count": 1
+      },
+      {
+        "name": "community-authored-peer-reviewed-model",
+        "count": 1
+      },
+      {
+        "name": "community-collaborative-evaluation",
+        "count": 1
+      },
+      {
+        "name": "community-collaborative-peer-reviewed-model",
+        "count": 1
+      },
+      {
+        "name": "community-grounded-scholarly-articulation",
+        "count": 1
+      },
+      {
+        "name": "community-health-authority-report",
+        "count": 1
+      },
+      {
+        "name": "community-historical-peer-reviewed-scholarship",
+        "count": 1
+      },
+      {
+        "name": "comparative-theory-analysis",
+        "count": 1
+      },
+      {
+        "name": "distinct-computational-precursor",
+        "count": 1
+      },
+      {
+        "name": "distinct-epistemic-depth-theory-source",
+        "count": 1
+      },
+      {
+        "name": "distinct-methodological-context",
+        "count": 1
+      },
+      {
+        "name": "distinct-predictive-meditation-precursor",
+        "count": 1
+      },
+      {
+        "name": "distinct-theoretical-precursor",
+        "count": 1
+      },
+      {
+        "name": "field-survey",
+        "count": 1
+      },
+      {
+        "name": "foundational-algorithmic-agent-framework",
+        "count": 1
+      },
+      {
+        "name": "independent-clinical-evaluation",
+        "count": 1
+      },
+      {
+        "name": "independent-critical-preprint",
+        "count": 1
+      },
+      {
+        "name": "independent-critical-review",
+        "count": 1
+      },
+      {
+        "name": "independent-cross-language-validation",
+        "count": 1
+      },
+      {
+        "name": "independent-editorial-summary",
+        "count": 1
+      },
+      {
+        "name": "independent-empirical-test",
+        "count": 1
+      },
+      {
+        "name": "independent-framework-extension",
+        "count": 1
+      },
+      {
+        "name": "independent-methodological-development",
+        "count": 1
+      },
+      {
+        "name": "independent-multicenter-validation",
+        "count": 1
+      },
+      {
+        "name": "independent-primary-model",
+        "count": 1
+      },
+      {
+        "name": "institutional-textual-commentary",
+        "count": 1
+      },
+      {
+        "name": "large-clinical-application",
+        "count": 1
+      },
+      {
+        "name": "large-clinical-trial-method",
+        "count": 1
+      },
+      {
+        "name": "large-factor-analysis",
+        "count": 1
+      },
+      {
+        "name": "large-meta-analysis",
+        "count": 1
+      },
+      {
+        "name": "multicenter-validation",
+        "count": 1
+      },
+      {
+        "name": "multisite-concurrent-validation",
+        "count": 1
+      },
+      {
+        "name": "multisite-primary-study",
+        "count": 1
+      },
+      {
+        "name": "official-community-accountable-guidance",
+        "count": 1
+      },
+      {
+        "name": "official-program",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-community-and-scholarly-commentary",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-comparative-analysis",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-critical-reception",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-ethnographic-analysis",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-historical-analysis",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-method",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-regional-review",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-secondary",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-specialist-secondary",
+        "count": 1
+      },
+      {
+        "name": "peer-reviewed-translation-history",
+        "count": 1
+      },
+      {
+        "name": "primary-algorithm-description",
+        "count": 1
+      },
+      {
+        "name": "primary-application-and-review",
+        "count": 1
+      },
+      {
+        "name": "primary-author-led-scope-clarification",
+        "count": 1
+      },
+      {
+        "name": "primary-author-manuscript",
+        "count": 1
+      },
+      {
+        "name": "primary-author-scholarly-translation",
+        "count": 1
+      },
+      {
+        "name": "primary-biophysical-precursor",
+        "count": 1
+      },
+      {
+        "name": "primary-book-development",
+        "count": 1
+      },
+      {
+        "name": "primary-case-demonstration",
+        "count": 1
+      },
+      {
+        "name": "primary-classification-framework",
+        "count": 1
+      },
+      {
+        "name": "primary-cohort-and-communication-study",
+        "count": 1
+      },
+      {
+        "name": "primary-community-authored-articulation",
+        "count": 1
+      },
+      {
+        "name": "primary-comparative-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-complementary",
+        "count": 1
+      },
+      {
+        "name": "primary-concept-and-study",
+        "count": 1
+      },
+      {
+        "name": "primary-contextual-review",
+        "count": 1
+      },
+      {
+        "name": "primary-convergent-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-core-theory-exposition",
+        "count": 1
+      },
+      {
+        "name": "primary-critical-framework",
+        "count": 1
+      },
+      {
+        "name": "primary-data-descriptor",
+        "count": 1
+      },
+      {
+        "name": "primary-defining-framework-and-model",
+        "count": 1
+      },
+      {
+        "name": "primary-defining-hypothesis",
+        "count": 1
+      },
+      {
+        "name": "primary-defining-model",
+        "count": 1
+      },
+      {
+        "name": "primary-defining-model-and-simulation",
+        "count": 1
+      },
+      {
+        "name": "primary-definitive",
+        "count": 1
+      },
+      {
+        "name": "primary-developmental-formulation",
+        "count": 1
+      },
+      {
+        "name": "primary-domain-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-dynamic-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-elaboration",
+        "count": 1
+      },
+      {
+        "name": "primary-empirical-formulation",
+        "count": 1
+      },
+      {
+        "name": "primary-empirical-model",
+        "count": 1
+      },
+      {
+        "name": "primary-empirical-precursor",
+        "count": 1
+      },
+      {
+        "name": "primary-empirical-protocol",
+        "count": 1
+      },
+      {
+        "name": "primary-ethnographic-account",
+        "count": 1
+      },
+      {
+        "name": "primary-evolutionary-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-extended-model",
+        "count": 1
+      },
+      {
+        "name": "primary-factor-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-formal-account",
+        "count": 1
+      },
+      {
+        "name": "primary-formal-argument",
+        "count": 1
+      },
+      {
+        "name": "primary-formal-development",
+        "count": 1
+      },
+      {
+        "name": "primary-formal-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-formulation",
+        "count": 1
+      },
+      {
+        "name": "primary-foundational-proposal",
+        "count": 1
+      },
+      {
+        "name": "primary-framework",
+        "count": 1
+      },
+      {
+        "name": "primary-framework-review",
+        "count": 1
+      },
+      {
+        "name": "primary-full-formulation",
+        "count": 1
+      },
+      {
+        "name": "primary-high-density-EEG-study",
+        "count": 1
+      },
+      {
+        "name": "primary-historical-empirical",
+        "count": 1
+      },
+      {
+        "name": "primary-hypothesis-statement",
+        "count": 1
+      },
+      {
+        "name": "primary-implementation",
+        "count": 1
+      },
+      {
+        "name": "primary-independent-demonstration",
+        "count": 1
+      },
+      {
+        "name": "primary-independent-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-index-development",
+        "count": 1
+      },
+      {
+        "name": "primary-infant-EEG-study",
+        "count": 1
+      },
+      {
+        "name": "primary-instrument-and-dose-study",
+        "count": 1
+      },
+      {
+        "name": "primary-instrument-development",
+        "count": 1
+      },
+      {
+        "name": "primary-measurement-framework",
+        "count": 1
+      },
+      {
+        "name": "primary-mechanism-test",
+        "count": 1
+      },
+      {
+        "name": "primary-meta-theory",
+        "count": 1
+      },
+      {
+        "name": "primary-method-and-clinical-study",
+        "count": 1
+      },
+      {
+        "name": "primary-method-and-study",
+        "count": 1
+      },
+      {
+        "name": "primary-method-demonstration",
+        "count": 1
+      },
+      {
+        "name": "primary-method-description",
+        "count": 1
+      },
+      {
+        "name": "primary-methodological-principle",
+        "count": 1
+      },
+      {
+        "name": "primary-model-institutional-record",
+        "count": 1
+      },
+      {
+        "name": "primary-modern-formulation",
+        "count": 1
+      },
+      {
+        "name": "primary-multidrug-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-multimodal-study",
+        "count": 1
+      },
+      {
+        "name": "primary-multistate-study",
+        "count": 1
+      },
+      {
+        "name": "primary-named-theory-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-neural-evidence",
+        "count": 1
+      },
+      {
+        "name": "primary-neuroimaging-evidence",
+        "count": 1
+      },
+      {
+        "name": "primary-neurophysiological-study",
+        "count": 1
+      },
+      {
+        "name": "primary-neuropsychological-evidence",
+        "count": 1
+      },
+      {
+        "name": "primary-original-author-manuscript",
+        "count": 1
+      },
+      {
+        "name": "primary-original-formal",
+        "count": 1
+      },
+      {
+        "name": "primary-original-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-philosophical-statement",
+        "count": 1
+      },
+      {
+        "name": "primary-polysomnographic-case-series",
+        "count": 1
+      },
+      {
+        "name": "primary-polysomnographic-study",
+        "count": 1
+      },
+      {
+        "name": "primary-precursor-development",
+        "count": 1
+      },
+      {
+        "name": "primary-preprint-model",
+        "count": 1
+      },
+      {
+        "name": "primary-preprint-report",
+        "count": 1
+      },
+      {
+        "name": "primary-preregistered-protocol",
+        "count": 1
+      },
+      {
+        "name": "primary-programmatic-method",
+        "count": 1
+      },
+      {
+        "name": "primary-programmatic-statement",
+        "count": 1
+      },
+      {
+        "name": "primary-proposal",
+        "count": 1
+      },
+      {
+        "name": "primary-psychedelic-study",
+        "count": 1
+      },
+      {
+        "name": "primary-psychophysical-study",
+        "count": 1
+      },
+      {
+        "name": "primary-replication",
+        "count": 1
+      },
+      {
+        "name": "primary-retrospective-review",
+        "count": 1
+      },
+      {
+        "name": "primary-revision-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-scale-application",
+        "count": 1
+      },
+      {
+        "name": "primary-scholarly-exposition",
+        "count": 1
+      },
+      {
+        "name": "primary-scholarly-monograph",
+        "count": 1
+      },
+      {
+        "name": "primary-short-form-validation",
+        "count": 1
+      },
+      {
+        "name": "primary-source-scholarly-edition",
+        "count": 1
+      },
+      {
+        "name": "primary-standardization",
+        "count": 1
+      },
+      {
+        "name": "primary-text-authorized-edition",
+        "count": 1
+      },
+      {
+        "name": "primary-text-digital-translation",
+        "count": 1
+      },
+      {
+        "name": "primary-text-institutional-archive",
+        "count": 1
+      },
+      {
+        "name": "primary-text-institutional-edition",
+        "count": 1
+      },
+      {
+        "name": "primary-text-scholarly-portal",
+        "count": 1
+      },
+      {
+        "name": "primary-text-scholarly-translation",
+        "count": 1
+      },
+      {
+        "name": "primary-theoretical-model",
+        "count": 1
+      },
+      {
+        "name": "primary-theory",
+        "count": 1
+      },
+      {
+        "name": "primary-theory-extension",
+        "count": 1
+      },
+      {
+        "name": "primary-theory-precursor",
+        "count": 1
+      },
+      {
+        "name": "primary-theory-retrospective",
+        "count": 1
+      },
+      {
+        "name": "primary-update",
+        "count": 1
+      },
+      {
+        "name": "primary-versioned-formalization",
+        "count": 1
+      },
+      {
+        "name": "psychometric-validation",
+        "count": 1
+      },
+      {
+        "name": "randomized-clinical-trial",
+        "count": 1
+      },
+      {
+        "name": "scholarly-commentary",
+        "count": 1
+      },
+      {
+        "name": "scholarly-critical-secondary",
+        "count": 1
+      },
+      {
+        "name": "scholarly-mechanistic-review",
+        "count": 1
+      },
+      {
+        "name": "scholarly-overview",
+        "count": 1
+      },
+      {
+        "name": "scholarly-reconstruction",
+        "count": 1
+      },
+      {
+        "name": "scholarly-review",
+        "count": 1
+      },
+      {
+        "name": "scholarly-textual-analysis",
+        "count": 1
+      },
+      {
+        "name": "specialist-ethnohistorical-analysis",
+        "count": 1
+      },
+      {
+        "name": "specialist-intellectual-biography",
+        "count": 1
+      },
+      {
+        "name": "specialist-monograph",
+        "count": 1
+      },
+      {
+        "name": "systematic-scoping-review",
+        "count": 1
+      }
+    ]
+  },
+  "discovery_frames": {
+    "closer_to_truth": {
+      "profile_count": 474,
+      "category_count": 23,
+      "key_takeaway_count": 1489,
+      "reference_entry_count": 1499,
+      "reference_locator_count": 1909,
+      "title_screen_counts": {
+        "likely-present": 71,
+        "possible-match": 29,
+        "not-matched": 351,
+        "not-applicable": 23
+      },
+      "by_category": [
+        {
+          "name": "Idealisms",
+          "count": 44
+        },
+        {
+          "name": "Dualisms",
+          "count": 36
+        },
+        {
+          "name": "Anomalous & Altered States",
+          "count": 35
+        },
+        {
+          "name": "Quantum & Dimensions",
+          "count": 33
+        },
+        {
+          "name": "Challenge",
+          "count": 31
+        },
+        {
+          "name": "Neurobiological",
+          "count": 28
+        },
+        {
+          "name": "Phenomenology",
+          "count": 22
+        },
+        {
+          "name": "Computational & Functionalism",
+          "count": 21
+        },
+        {
+          "name": "Homeostatic & Affective",
+          "count": 20
+        },
+        {
+          "name": "Panpsychisms",
+          "count": 20
+        },
+        {
+          "name": "Neutral Monisms",
+          "count": 19
+        },
+        {
+          "name": "Phylogenetic/Evolutionary",
+          "count": 18
+        },
+        {
+          "name": "Philosophical",
+          "count": 17
+        },
+        {
+          "name": "Higher-Order",
+          "count": 15
+        },
+        {
+          "name": "Electromagnetic Field",
+          "count": 14
+        },
+        {
+          "name": "Information",
+          "count": 14
+        },
+        {
+          "name": "Language Relationships",
+          "count": 14
+        },
+        {
+          "name": "Relational",
+          "count": 14
+        },
+        {
+          "name": "Non-Reductive Physicalism",
+          "count": 13
+        },
+        {
+          "name": "Eliminative/Illusionism",
+          "count": 12
+        },
+        {
+          "name": "Embodied & Enactive",
+          "count": 12
+        },
+        {
+          "name": "Mind-Brain Identity",
+          "count": 12
+        },
+        {
+          "name": "First-Order",
+          "count": 10
+        }
+      ]
+    },
+    "kuhn_landscape": {
+      "heading_count": 219,
+      "named_position_count": 209,
+      "overview_count": 10,
+      "title_screen_counts": {
+        "not-applicable": 10,
+        "possible-match": 48,
+        "likely-present": 27,
+        "not-matched": 134
+      },
+      "by_category": [
+        {
+          "name": "Materialist and physicalist theories",
+          "count": 107
+        },
+        {
+          "name": "Anomalous and altered-state theories",
+          "count": 21
+        },
+        {
+          "name": "Dualisms",
+          "count": 20
+        },
+        {
+          "name": "Quantum theories",
+          "count": 16
+        },
+        {
+          "name": "Idealisms",
+          "count": 15
+        },
+        {
+          "name": "Monisms",
+          "count": 12
+        },
+        {
+          "name": "Panpsychisms",
+          "count": 12
+        },
+        {
+          "name": "Challenge theories",
+          "count": 8
+        },
+        {
+          "name": "Non-reductive physicalism",
+          "count": 6
+        },
+        {
+          "name": "Integrated information theory",
+          "count": 2
+        }
+      ]
+    },
+    "tsc_scope_taxonomy": {
+      "topic_count": 102,
+      "group_count": 6,
+      "by_group": [
+        {
+          "name": "Neuroscience",
+          "count": 23
+        },
+        {
+          "name": "Cognitive Science and Psychology",
+          "count": 20
+        },
+        {
+          "name": "Philosophy",
+          "count": 16
+        },
+        {
+          "name": "Physical and Biological Sciences",
+          "count": 16
+        },
+        {
+          "name": "Culture and Humanities",
+          "count": 15
+        },
+        {
+          "name": "Experiential Approaches",
+          "count": 12
+        }
+      ],
+      "role": "Research-scope control frame; not a theory catalog or completeness denominator"
+    }
+  }
+}

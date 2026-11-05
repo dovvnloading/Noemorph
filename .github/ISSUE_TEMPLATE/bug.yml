@@ -1,0 +1,18 @@
+name: Bug report
+description: Report a problem with Noemorph.
+title: '[Bug]: '
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include your operating system, browser or application version, and any useful error messages.
+    validations:
+      required: true

@@ -1,0 +1,781 @@
+{
+  "collection": {
+    "title": "Awareness, selfhood, metacognition, social cognition, comparative cognition, and machine-mind gap audit",
+    "created": "2026-08-30",
+    "record_count": 16,
+    "phase": "collection-only",
+    "scope": "Provisional records absent from the 2026-08-29 Noemorph base catalog. The collection prioritizes awareness, metacognition, selfhood, developmental and comparative social cognition, and machine theory-of-mind. One adjacent attention theory is retained with an explicit boundary note.",
+    "method": "Exact-name and keyword audit of the base catalog followed by source verification against DOI publisher records, official proceedings, and peer-reviewed primary or authoritative review literature.",
+    "attribution_policy": "Each record preserves its own proponents, claim scope, evidence profile, and citations. No inter-theory relationship, convergence, or synthesis claim is asserted.",
+    "review_state": "provisional"
+  },
+  "records": [
+    {
+      "id": "candidate-partial-awareness-hypothesis",
+      "name": "Partial Awareness Hypothesis",
+      "aliases": ["PAH", "partial awareness"],
+      "kind": "Scientific theory",
+      "domain": "Attention & conscious access",
+      "tradition": "Experimental consciousness research / hierarchical representation",
+      "status": "active and contested hypothesis",
+      "status_note": "The proposal remains a live account of graded and level-specific access, but evidence depends on how representational level, report, and subjective visibility are operationalized.",
+      "summary": "Conscious access can occur independently at different levels of a representational hierarchy. An observer may therefore access some features of a stimulus while lacking access to higher-level identity or a fully integrated object representation, yielding partial rather than wholly present or absent awareness.",
+      "proponents": ["Sid Kouider", "Vincent de Gardelle", "Jérôme Sackur", "Emmanuel Dupoux"],
+      "year": 2010,
+      "era": "2010–present",
+      "boundary_note": "This is a hypothesis about the grain and level of conscious access. It is not the same claim as phenomenal overflow, and it does not by itself specify a neural mechanism or a metaphysics of consciousness.",
+      "claim_scope": "Human visual awareness under masking and related psychophysical manipulations; specifically, whether access is graded across independently accessible representational levels.",
+      "evidence_profile": "Psychophysical visibility reports, objective discrimination, masking, and manipulations of task-relevant processing level.",
+      "open_questions": [
+        "Which experimental signatures uniquely distinguish partial awareness from response noise or mixed all-or-none states?",
+        "How stable is level-specific awareness across stimulus classes, report formats, and no-report measures?",
+        "Does partial access generalize beyond visual perception?"
+      ],
+      "keywords": ["partial awareness", "graded awareness", "visual consciousness", "hierarchical representation", "conscious access"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "How rich is consciousness? The partial awareness hypothesis",
+          "authors": "Sid Kouider; Vincent de Gardelle; Jérôme Sackur; Emmanuel Dupoux",
+          "year": 2010,
+          "venue": "Trends in Cognitive Sciences 14(7): 301–307",
+          "url": "https://doi.org/10.1016/j.tics.2010.04.006",
+          "doi": "10.1016/j.tics.2010.04.006",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Subjective visibility depends on level of processing",
+          "authors": "Bert Windey; Wim Gevers; Axel Cleeremans",
+          "year": 2013,
+          "venue": "Cognition 129(2): 404–409",
+          "url": "https://doi.org/10.1016/j.cognition.2013.07.012",
+          "doi": "10.1016/j.cognition.2013.07.012",
+          "authority": "primary-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nelson-narens-monitoring-control-framework",
+      "name": "Nelson–Narens Monitoring–Control Framework",
+      "aliases": ["meta-level/object-level framework", "monitoring–control model of metacognition"],
+      "kind": "Model or framework",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Cognitive psychology / metamemory",
+      "status": "foundational framework · actively used",
+      "status_note": "The two-level architecture remains foundational in metacognition research, while particular monitoring cues and control policies are modeled differently across tasks.",
+      "summary": "Cognition is organized into an object level and a meta level. Information flowing from the object level to the meta level supports monitoring, while control signals from the meta level modify object-level operations such as study, retrieval, reporting, or termination.",
+      "proponents": ["Thomas O. Nelson", "Louis Narens", "Asher Koriat", "Morris Goldsmith"],
+      "year": 1990,
+      "era": "1990–present",
+      "boundary_note": "The framework was developed for metacognition and metamemory. It does not entail that every monitoring signal is phenomenally conscious, nor is it a general theory of phenomenal consciousness.",
+      "claim_scope": "Monitoring and strategic control of first-order cognitive operations, especially learning, memory retrieval, confidence, and voluntary reporting.",
+      "evidence_profile": "Judgments of learning, feeling-of-knowing reports, confidence, optional reporting, study-time allocation, retrieval termination, and accuracy–quantity tradeoffs.",
+      "open_questions": [
+        "Which monitoring signals are consciously accessible and which remain implicit?",
+        "How should reciprocal monitoring and control be implemented computationally across cognitive domains?",
+        "When do reports reflect monitoring quality rather than control policy or response incentives?"
+      ],
+      "keywords": ["metacognition", "metamemory", "monitoring", "control", "meta-level", "object-level"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Metamemory: A theoretical framework and new findings",
+          "authors": "Thomas O. Nelson; Louis Narens",
+          "year": 1990,
+          "venue": "Psychology of Learning and Motivation 26: 125–173",
+          "url": "https://doi.org/10.1016/S0079-7421(08)60053-5",
+          "doi": "10.1016/S0079-7421(08)60053-5",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Monitoring and control processes in the strategic regulation of memory accuracy",
+          "authors": "Asher Koriat; Morris Goldsmith",
+          "year": 1996,
+          "venue": "Psychological Review 103(3): 490–517",
+          "url": "https://doi.org/10.1037/0033-295X.103.3.490",
+          "doi": "10.1037/0033-295X.103.3.490",
+          "authority": "primary-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-meta-d-prime-metacognitive-efficiency",
+      "name": "Meta-d′ and Metacognitive-Efficiency Framework",
+      "aliases": ["meta-d-prime", "M-ratio", "type-2 signal detection framework"],
+      "kind": "Model or framework",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Signal detection theory / computational psychophysics",
+      "status": "widely used measurement framework · assumptions actively debated",
+      "status_note": "Meta-d′ and meta-d′/d′ are standard tools for separating confidence sensitivity from first-order performance, but estimates depend on signal-detection assumptions, trial counts, rating structure, and model specification.",
+      "summary": "Meta-d′ expresses how much first-order signal, in d′ units, would be required for an ideal observer to produce the observed confidence discrimination between correct and incorrect decisions. Dividing meta-d′ by d′ yields an estimate of metacognitive efficiency relative to task sensitivity.",
+      "proponents": ["Brian Maniscalco", "Hakwan Lau", "Stephen M. Fleming"],
+      "year": 2012,
+      "era": "2012–present",
+      "boundary_note": "This is an inferential and measurement framework, not a substantive theory that confidence constitutes consciousness. High or low meta-d′ alone does not establish the presence or absence of phenomenal awareness.",
+      "claim_scope": "Quantification of metacognitive sensitivity and efficiency from confidence or other type-2 judgments while controlling for first-order task sensitivity and response bias.",
+      "evidence_profile": "Confidence-rating distributions, type-1 and type-2 receiver-operating characteristics, hierarchical model fits, and cross-task or cross-population comparisons.",
+      "open_questions": [
+        "How robust are efficiency estimates when equal-variance and stationarity assumptions fail?",
+        "Which latent processes—evidence loss, additional noise, criterion variability, or post-decisional evidence—produce a given meta-d′ deficit?",
+        "How should meta-d′ be adapted for continuous, multi-alternative, or nonverbal reports?"
+      ],
+      "keywords": ["meta-d-prime", "metacognitive efficiency", "confidence", "signal detection theory", "M-ratio"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A signal detection theoretic approach for estimating metacognitive sensitivity from confidence ratings",
+          "authors": "Brian Maniscalco; Hakwan Lau",
+          "year": 2012,
+          "venue": "Consciousness and Cognition 21(1): 422–430",
+          "url": "https://doi.org/10.1016/j.concog.2011.09.021",
+          "doi": "10.1016/j.concog.2011.09.021",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "How to measure metacognition",
+          "authors": "Stephen M. Fleming; Hakwan C. Lau",
+          "year": 2014,
+          "venue": "Frontiers in Human Neuroscience 8: 443",
+          "url": "https://doi.org/10.3389/fnhum.2014.00443",
+          "doi": "10.3389/fnhum.2014.00443",
+          "authority": "authoritative-methodological",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-bayesian-self-evaluation-framework",
+      "name": "Bayesian Second-Order Self-Evaluation Framework",
+      "aliases": ["Bayesian framework for metacognitive computation", "second-order confidence inference"],
+      "kind": "Scientific theory",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Computational metacognition / Bayesian decision theory",
+      "status": "active computational framework",
+      "status_note": "The framework provides a normative account of confidence and error monitoring, while the brain's approximations, evidence sources, and task-specific departures from optimality remain under investigation.",
+      "summary": "Self-evaluation is modeled as Bayesian inference about the performance of a coupled but distinct first-order decision system. Confidence and error detection combine a separate evidence sample with information about one's own choice, allowing dissociations between decision accuracy and metacognitive judgment without treating confidence as a direct readout of the decision variable.",
+      "proponents": ["Stephen M. Fleming", "Nathaniel D. Daw", "Florent Meyniel", "Mariano Sigman", "Zachary F. Mainen"],
+      "year": 2017,
+      "era": "2015–present",
+      "boundary_note": "This decision self-evaluation framework is distinct from the cataloged Higher-Order State Space account: its target is confidence and error monitoring about decisions, not the higher-order inference proposed to generate awareness itself.",
+      "claim_scope": "Human confidence, error detection, and metacognitive calibration in perceptual and value-based decisions.",
+      "evidence_profile": "Bayesian ideal-observer modeling, confidence distributions, error reports, performance–confidence dissociations, and comparison of fitted latent evidence variables.",
+      "open_questions": [
+        "What neural computations approximate the proposed second-order inference?",
+        "When does confidence use the same evidence as choice versus post-decisional or action-related evidence?",
+        "How does the framework generalize to memory, learning, and social self-evaluation?"
+      ],
+      "keywords": ["Bayesian metacognition", "self-evaluation", "confidence", "error monitoring", "second-order inference"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Self-evaluation of decision-making: A general Bayesian framework for metacognitive computation",
+          "authors": "Stephen M. Fleming; Nathaniel D. Daw",
+          "year": 2017,
+          "venue": "Psychological Review 124(1): 91–114",
+          "url": "https://doi.org/10.1037/rev0000045",
+          "doi": "10.1037/rev0000045",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Confidence as Bayesian Probability: From Neural Origins to Behavior",
+          "authors": "Florent Meyniel; Mariano Sigman; Zachary F. Mainen",
+          "year": 2015,
+          "venue": "Neuron 88(1): 78–92",
+          "url": "https://doi.org/10.1016/j.neuron.2015.09.039",
+          "doi": "10.1016/j.neuron.2015.09.039",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-self-memory-system",
+      "name": "Self-Memory System",
+      "aliases": ["SMS model of autobiographical memory", "working-self and autobiographical-knowledge model"],
+      "kind": "Model or framework",
+      "domain": "Awareness & selfhood",
+      "tradition": "Autobiographical memory / cognitive psychology of self",
+      "status": "influential active framework",
+      "status_note": "The Self-Memory System continues to organize research on autobiographical remembering, identity, and goal regulation; its component structure and neural implementation are still refined.",
+      "summary": "Autobiographical memories are transient constructions produced by interaction between an autobiographical knowledge base and a working self composed of current goals and self-images. The knowledge base constrains who one has been and can be, while the working self regulates access to memory in the service of coherence and adaptive correspondence.",
+      "proponents": ["Martin A. Conway", "Christopher W. Pleydell-Pearce", "Jefferson A. Singer", "Angela Tagini"],
+      "year": 2000,
+      "era": "2000–present",
+      "boundary_note": "The framework explains autobiographical memory and diachronic self-representation. It does not reduce all selfhood to narrative memory and does not claim that memory construction alone explains phenomenal consciousness.",
+      "claim_scope": "Construction, retrieval, organization, and self-regulation of autobiographical memories and their contribution to temporally extended identity.",
+      "evidence_profile": "Autobiographical recall, memory specificity, goal effects, clinical and neuropsychological dissociations, lifespan development, and neuroimaging of autobiographical remembering.",
+      "open_questions": [
+        "How are working-self goals implemented and updated neurally?",
+        "How does the system balance accurate correspondence with self-coherence under conflict?",
+        "Which parts of autobiographical construction require autonoetic consciousness?"
+      ],
+      "keywords": ["self-memory system", "autobiographical memory", "working self", "identity", "autonoetic consciousness"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The construction of autobiographical memories in the self-memory system",
+          "authors": "Martin A. Conway; Christopher W. Pleydell-Pearce",
+          "year": 2000,
+          "venue": "Psychological Review 107(2): 261–288",
+          "url": "https://doi.org/10.1037/0033-295X.107.2.261",
+          "doi": "10.1037/0033-295X.107.2.261",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Memory and the self",
+          "authors": "Martin A. Conway",
+          "year": 2005,
+          "venue": "Journal of Memory and Language 53(4): 594–628",
+          "url": "https://doi.org/10.1016/j.jml.2005.08.005",
+          "doi": "10.1016/j.jml.2005.08.005",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-neisser-multiple-selves-framework",
+      "name": "Neisser's Multiple-Selves Framework",
+      "aliases": ["five kinds of self-knowledge", "ecological and interpersonal self framework"],
+      "kind": "Model or framework",
+      "domain": "Awareness & selfhood",
+      "tradition": "Ecological and developmental psychology",
+      "status": "foundational taxonomy · continuing influence",
+      "status_note": "The taxonomy remains influential in developmental and embodied-self research, though the proposed informational separability and direct-perception claims are not a settled consensus.",
+      "summary": "Self-knowledge arises from multiple informational sources rather than a single self-representation. Neisser distinguishes ecological, interpersonal, extended, private, and conceptual selves; the ecological and interpersonal selves are proposed to emerge early through information specifying one's relation to the physical and social environment.",
+      "proponents": ["Ulric Neisser"],
+      "year": 1988,
+      "era": "1988–present",
+      "boundary_note": "The ecological and interpersonal self are perceptual organizations of self-related information, not equivalent to explicit self-concept, narrative identity, mirror recognition, or reflective phenomenal self-consciousness.",
+      "claim_scope": "Sources and developmental trajectories of self-knowledge, especially directly perceived bodily–environmental and interpersonal relations.",
+      "evidence_profile": "Ecological perception, visual–proprioceptive contingency, infant social interaction, developmental observation, and conceptual analysis of distinct self-information sources.",
+      "open_questions": [
+        "To what degree are ecological and interpersonal self-information directly specified rather than inferentially represented?",
+        "How do the five proposed selves interact across development?",
+        "Which components are necessary for explicit or phenomenal self-awareness?"
+      ],
+      "keywords": ["ecological self", "interpersonal self", "extended self", "private self", "conceptual self", "self-knowledge"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Five kinds of self-knowledge",
+          "authors": "Ulric Neisser",
+          "year": 1988,
+          "venue": "Philosophical Psychology 1(1): 35–59",
+          "url": "https://doi.org/10.1080/09515088808572924",
+          "doi": "10.1080/09515088808572924",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Two perceptually given aspects of the self and their development",
+          "authors": "Ulric Neisser",
+          "year": 1991,
+          "venue": "Developmental Review 11(3): 197–209",
+          "url": "https://doi.org/10.1016/0273-2297(91)90009-D",
+          "doi": "10.1016/0273-2297(91)90009-D",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-joint-attention",
+      "name": "Joint Attention",
+      "aliases": ["shared attention", "triadic joint attention"],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "tradition": "Developmental psychology / communication",
+      "status": "core active developmental construct",
+      "status_note": "Joint attention is a mature research domain, but definitions and measures distinguish gaze following, responding to joint attention, initiating joint attention, and sustained joint engagement.",
+      "summary": "Joint attention is the coordination of two individuals' attention with respect to an object or event, including behavior that follows, directs, or sustains another's attention and, in stronger formulations, represents the focus as shared. It is a major developmental context for communication and social learning.",
+      "proponents": ["Michael Scaife", "Jerome S. Bruner", "Malinda Carpenter", "Katherine Nagell", "Michael Tomasello"],
+      "year": 1975,
+      "era": "1975–present",
+      "boundary_note": "Gaze following alone need not demonstrate awareness that attention is mutually shared. Joint attention is related to, but not identical with, full belief attribution, shared intentionality, or phenomenal consciousness.",
+      "claim_scope": "Development and function of coordinated attention in infant–caregiver interaction, communication, reference, learning, and later social cognition.",
+      "evidence_profile": "Gaze and point following, alternating gaze, declarative and imperative gestures, joint engagement, longitudinal language outcomes, and developmental or clinical comparison.",
+      "open_questions": [
+        "Which behavioral criteria distinguish shared-attention representation from directional cue following?",
+        "How do initiating and responding to joint attention rely on different mechanisms?",
+        "Which aspects are shared with nonhuman animals and which depend on human communicative norms?"
+      ],
+      "keywords": ["joint attention", "gaze following", "joint engagement", "social learning", "communication", "intersubjectivity"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The capacity for joint visual attention in the infant",
+          "authors": "Michael Scaife; Jerome S. Bruner",
+          "year": 1975,
+          "venue": "Nature 253: 265–266",
+          "url": "https://doi.org/10.1038/253265a0",
+          "doi": "10.1038/253265a0",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Social cognition, joint attention, and communicative competence from 9 to 15 months of age",
+          "authors": "Malinda Carpenter; Katherine Nagell; Michael Tomasello",
+          "year": 1998,
+          "venue": "Monographs of the Society for Research in Child Development 63(4): i–143",
+          "url": "https://doi.org/10.2307/1166214",
+          "doi": "10.2307/1166214",
+          "authority": "primary-developmental",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-false-belief-understanding",
+      "name": "False-Belief Understanding",
+      "aliases": ["false-belief task", "unexpected-transfer paradigm", "Sally–Anne paradigm"],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "tradition": "Developmental theory-of-mind research",
+      "status": "foundational paradigm · interpretation actively contested",
+      "status_note": "Explicit false-belief tasks remain central operational measures, but performance is influenced by language, executive demand, task format, and population-specific factors; task failure is not a sufficient diagnosis of absent theory of mind.",
+      "summary": "False-belief understanding is the capacity to represent that another agent's belief can differ from reality and from one's own knowledge, and to use that attributed belief when predicting or explaining the agent's action. Classic unexpected-transfer tasks operationalize explicit belief attribution.",
+      "proponents": ["Heinz Wimmer", "Josef Perner", "Simon Baron-Cohen", "Alan M. Leslie", "Uta Frith"],
+      "year": 1983,
+      "era": "1983–present",
+      "boundary_note": "This record catalogs a target construct and experimental family, not a unitary theory of mind. A correct response does not exhaust theory-of-mind competence, and an incorrect response does not by itself establish mindblindness or lack of social understanding.",
+      "claim_scope": "Explicit tracking and action prediction based on another person's mistaken belief, principally in developmental and clinical experimental tasks.",
+      "evidence_profile": "Unexpected-transfer and unexpected-contents tasks, verbal prediction and explanation, anticipatory behavior, developmental trajectories, task-manipulation studies, and clinical comparisons.",
+      "open_questions": [
+        "How much performance variance reflects belief representation versus language and executive control?",
+        "Do implicit and explicit false-belief paradigms measure the same capacity?",
+        "How should tasks be adapted without treating neurodivergent social cognition as a global deficit?"
+      ],
+      "keywords": ["false belief", "belief attribution", "theory of mind", "unexpected transfer", "development"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception",
+          "authors": "Heinz Wimmer; Josef Perner",
+          "year": 1983,
+          "venue": "Cognition 13(1): 103–128",
+          "url": "https://doi.org/10.1016/0010-0277(83)90004-5",
+          "doi": "10.1016/0010-0277(83)90004-5",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Does the autistic child have a ‘theory of mind’?",
+          "authors": "Simon Baron-Cohen; Alan M. Leslie; Uta Frith",
+          "year": 1985,
+          "venue": "Cognition 21(1): 37–46",
+          "url": "https://doi.org/10.1016/0010-0277(85)90022-8",
+          "doi": "10.1016/0010-0277(85)90022-8",
+          "authority": "primary-historical-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-teleological-stance",
+      "name": "Teleological Stance and Naïve Theory of Rational Action",
+      "aliases": ["teleological reasoning account", "naïve rational-action theory"],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "tradition": "Developmental cognitive science",
+      "status": "influential developmental account · actively debated",
+      "status_note": "Evidence supports early sensitivity to goal efficiency and situational constraints, while debate continues over whether those findings require teleological representation, mental-state attribution, lower-level perceptual mechanisms, or learned expectations.",
+      "summary": "Young infants interpret actions by relating an observed movement, a goal state, and situational constraints through a principle of rational action: agents are expected to select an efficient available means to their goal. The early teleological stance is proposed as nonmentalistic and developmentally prior to a later stance that represents beliefs and desires.",
+      "proponents": ["Gergely Csibra", "György Gergely"],
+      "year": 1998,
+      "era": "1998–present",
+      "boundary_note": "The teleological stance explicitly analyzes action without initially attributing propositional mental states. It is therefore distinct from Dennett's intentional stance, full belief–desire mindreading, and the cataloged Theory-Theory family.",
+      "claim_scope": "Infant and adult interpretation of goal-directed action under constraints, especially expectations of rational efficiency.",
+      "evidence_profile": "Habituation and violation-of-expectation paradigms, goal-change and constraint manipulations, referential action studies, and developmental comparison.",
+      "open_questions": [
+        "What evidence distinguishes principle-based teleological reasoning from perceptual novelty or learned action regularities?",
+        "When and how does nonmentalistic teleology develop into explicit belief–desire attribution?",
+        "How domain-specific is the rational-action principle?"
+      ],
+      "keywords": ["teleological stance", "rational action", "goal attribution", "infant cognition", "action understanding"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The teleological origins of mentalistic action explanations: A developmental hypothesis",
+          "authors": "Gergely Csibra; György Gergely",
+          "year": 1998,
+          "venue": "Developmental Science 1(2): 255–259",
+          "url": "https://doi.org/10.1111/1467-7687.00039",
+          "doi": "10.1111/1467-7687.00039",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Teleological reasoning in infancy: The naïve theory of rational action",
+          "authors": "György Gergely; Gergely Csibra",
+          "year": 2003,
+          "venue": "Trends in Cognitive Sciences 7(7): 287–292",
+          "url": "https://doi.org/10.1016/S1364-6613(03)00128-1",
+          "doi": "10.1016/S1364-6613(03)00128-1",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-bayesian-theory-of-mind",
+      "name": "Bayesian Theory of Mind and Inverse Planning",
+      "aliases": ["Bayesian Theory of Mind", "Bayesian inverse-planning account of mentalizing"],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "tradition": "Computational cognitive science / probabilistic mentalizing",
+      "status": "active computational research program",
+      "status_note": "The framework quantitatively predicts judgments in controlled action-understanding tasks, while its approximate-rationality assumptions and generalization to natural social behavior remain active research issues.",
+      "summary": "Observers are modeled as inverting a generative model in which an agent plans approximately rationally given its beliefs, desires, percepts, and environment. Bayesian inference combines observed actions with priors to recover probability distributions over those latent mental states.",
+      "proponents": ["Chris L. Baker", "Rebecca Saxe", "Joshua B. Tenenbaum", "Julian Jara-Ettinger"],
+      "year": 2009,
+      "era": "2009–present",
+      "boundary_note": "This is a specific probabilistic formalization of mental-state inference. It is not merely an alias for Theory-Theory, Dennett's intentional stance, or the teleological stance, and model success does not establish that people explicitly compute the fitted Bayesian quantities.",
+      "claim_scope": "Quantitative attribution of goals, beliefs, desires, and percepts from observed action under a generative model of approximately rational planning.",
+      "evidence_profile": "Behavioral probability judgments, animated-maze and choice tasks, generative model comparison, inverse planning, and quantitative prediction of belief–desire attribution.",
+      "open_questions": [
+        "How are priors and subjective models of other agents learned?",
+        "How does inference handle irrationality, habit, emotion, communication, and norm-following?",
+        "Which computational approximations can scale to continuous, multi-agent social environments?"
+      ],
+      "keywords": ["Bayesian Theory of Mind", "inverse planning", "mentalizing", "belief attribution", "goal inference", "probabilistic cognition"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Action understanding as inverse planning",
+          "authors": "Chris L. Baker; Rebecca Saxe; Joshua B. Tenenbaum",
+          "year": 2009,
+          "venue": "Cognition 113(3): 329–349",
+          "url": "https://doi.org/10.1016/j.cognition.2009.07.005",
+          "doi": "10.1016/j.cognition.2009.07.005",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Rational quantitative attribution of beliefs, desires and percepts in human mentalizing",
+          "authors": "Chris L. Baker; Julian Jara-Ettinger; Rebecca Saxe; Joshua B. Tenenbaum",
+          "year": 2017,
+          "venue": "Nature Human Behaviour 1: 0064",
+          "url": "https://doi.org/10.1038/s41562-017-0064",
+          "doi": "10.1038/s41562-017-0064",
+          "authority": "primary-extension",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-mindshaping-account",
+      "name": "Mindshaping Account of Social Cognition",
+      "aliases": ["mindshaping framework", "regulative social-cognition account"],
+      "kind": "Philosophical position",
+      "domain": "Social cognition & intersubjectivity",
+      "tradition": "Philosophy of cognitive science / cultural evolution",
+      "status": "active minority framework",
+      "status_note": "Mindshaping is a developed alternative emphasis within social-cognition theory, but the claimed explanatory priority of regulative practices over sophisticated mindreading remains contested.",
+      "summary": "Human social cognition relies not only on reading already formed minds but on practices that shape dispositions, expectations, narratives, and norms so that behavior becomes easier to coordinate and interpret. On the stronger account, sophisticated propositional-attitude attribution depends developmentally and evolutionarily on prior mindshaping practices.",
+      "proponents": ["Matteo Mameli", "Tadeusz Wiesław Zawidzki"],
+      "year": 2001,
+      "era": "2001–present",
+      "boundary_note": "Mindshaping is not an alias for mindreading, interaction theory, social conformity, or collective intentionality. Its distinctive claim concerns the explanatory and evolutionary role of practices that make minds behaviorally interpretable.",
+      "claim_scope": "Developmental, cultural, and evolutionary functions of imitation, pedagogy, norm enforcement, expectation, and narrative in stabilizing socially interpretable cognition and behavior.",
+      "evidence_profile": "Philosophical argument drawing on developmental psychology, social psychology, cultural evolution, niche construction, pedagogy, imitation, norm conformity, and narrative self-constitution.",
+      "open_questions": [
+        "How should mindshaping be operationalized independently of mindreading and ordinary social influence?",
+        "Which regulative practices are necessary for propositional-attitude attribution?",
+        "What comparative and developmental evidence would distinguish causal priority from reciprocal co-development?"
+      ],
+      "keywords": ["mindshaping", "mindreading", "norms", "social regulation", "cultural evolution", "niche construction"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Mindreading, Mindshaping, and Evolution",
+          "authors": "Matteo Mameli",
+          "year": 2001,
+          "venue": "Biology & Philosophy 16(5): 595–626",
+          "url": "https://doi.org/10.1023/A:1012203830990",
+          "doi": "10.1023/A:1012203830990",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mindshaping: A New Framework for Understanding Human Social Cognition",
+          "authors": "Tadeusz Wiesław Zawidzki",
+          "year": 2013,
+          "venue": "The MIT Press, 344 pp., ISBN 9780262019019",
+          "url": "https://mitpress.mit.edu/9780262019019/mindshaping/",
+          "isbn": "9780262019019",
+          "authority": "primary-self-exposition",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-natural-pedagogy",
+      "name": "Natural Pedagogy",
+      "aliases": ["natural pedagogical system", "ostensive–referential learning account"],
+      "kind": "Theory of mind / social cognition",
+      "domain": "Social cognition & intersubjectivity",
+      "tradition": "Developmental and evolutionary cognitive science",
+      "status": "influential active account · debated",
+      "status_note": "Sensitivity to ostensive communication is well studied, while the strength of kind-generalization biases, cultural universality, human specificity, and status as an evolved adaptation remain debated.",
+      "summary": "Human communication is proposed to include a specialized system for transmitting generic, cognitively opaque cultural knowledge. Infants are receptive to ostensive signals that mark communication, expect a referential target, and tend to interpret ostensive demonstrations as conveying kind-relevant and generalizable information.",
+      "proponents": ["Gergely Csibra", "György Gergely"],
+      "year": 2009,
+      "era": "2009–present",
+      "boundary_note": "Natural pedagogy is a theory of communicative social learning, not a general theory of consciousness. It is distinct from all teaching behavior, imitation alone, shared intentionality, and the broader claim that learning is social.",
+      "claim_scope": "Infant and human receptivity to ostensive–referential communication and the transmission of generic cultural knowledge.",
+      "evidence_profile": "Eye contact and infant-directed communication, gaze and reference, imitation of causally opaque actions, object-function learning, generalization tests, and cross-cultural or comparative studies.",
+      "open_questions": [
+        "When do ostensive cues promote generic learning versus episodic or person-specific learning?",
+        "How culturally variable are the cues and resulting inductive biases?",
+        "Does evidence support a human-specific evolved adaptation rather than interacting general mechanisms?"
+      ],
+      "keywords": ["natural pedagogy", "ostensive communication", "social learning", "generic knowledge", "infant cognition", "cultural transmission"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Natural pedagogy",
+          "authors": "Gergely Csibra; György Gergely",
+          "year": 2009,
+          "venue": "Trends in Cognitive Sciences 13(4): 148–153",
+          "url": "https://doi.org/10.1016/j.tics.2009.01.005",
+          "doi": "10.1016/j.tics.2009.01.005",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Natural pedagogy as evolutionary adaptation",
+          "authors": "Gergely Csibra; György Gergely",
+          "year": 2011,
+          "venue": "Philosophical Transactions of the Royal Society B 366(1567): 1149–1157",
+          "url": "https://doi.org/10.1098/rstb.2010.0319",
+          "doi": "10.1098/rstb.2010.0319",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-mirror-self-recognition",
+      "name": "Mirror Self-Recognition and the Mark Test",
+      "aliases": ["MSR", "mirror test", "mark test", "rouge test"],
+      "kind": "Phenomenological construct",
+      "domain": "Awareness & selfhood",
+      "tradition": "Comparative cognition / developmental psychobiology",
+      "status": "widely used paradigm · construct interpretation contested",
+      "status_note": "The mark test is a historically important operational assay of visual self-recognition. Species conclusions and inferences from task success or failure remain sensitive to sensory ecology, motivation, experience, and the definition of self-awareness.",
+      "summary": "After experience with a mirror, an individual may use the reflected image to inspect or touch a covert mark that cannot otherwise be seen. Such mark-directed behavior is treated as evidence that the subject relates the image to its own body rather than treating it only as another individual.",
+      "proponents": ["Gordon G. Gallup Jr.", "Beulah Amsterdam"],
+      "year": 1970,
+      "era": "1970–present",
+      "boundary_note": "Mirror self-recognition is an operational indicator of visual self-recognition, not a sufficient test of phenomenal consciousness, a unitary self-concept, or general self-awareness. Failure cannot rule out nonvisual forms of self-knowledge.",
+      "claim_scope": "Visual recognition of one's reflected body in human development and comparative animal cognition.",
+      "evidence_profile": "Mirror exposure, contingency testing, covert-mark behavior, developmental sequences, species comparison, modified sensory paradigms, and replication or critique of mark-directed responses.",
+      "open_questions": [
+        "What cognitive representation is minimally required for mark-directed behavior?",
+        "How should the paradigm be adapted for species whose primary sensory ecology is not visual?",
+        "Which aspects of self-recognition generalize beyond mirrors and body appearance?"
+      ],
+      "keywords": ["mirror self-recognition", "mark test", "self-awareness", "comparative cognition", "development"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Chimpanzees: Self-Recognition",
+          "authors": "Gordon G. Gallup Jr.",
+          "year": 1970,
+          "venue": "Science 167(3914): 86–87",
+          "url": "https://doi.org/10.1126/science.167.3914.86",
+          "doi": "10.1126/science.167.3914.86",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mirror self-image reactions before age two",
+          "authors": "Beulah Amsterdam",
+          "year": 1972,
+          "venue": "Developmental Psychobiology 5(4): 297–305",
+          "url": "https://doi.org/10.1002/dev.420050403",
+          "doi": "10.1002/dev.420050403",
+          "authority": "primary-developmental",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-comparative-animal-metacognition",
+      "name": "Comparative Animal Metacognition and Uncertainty Monitoring",
+      "aliases": ["animal metacognition", "uncertainty-monitoring paradigm", "opt-out metacognition"],
+      "kind": "Model or framework",
+      "domain": "Metacognition & higher-order awareness",
+      "tradition": "Comparative cognition / animal learning",
+      "status": "active and methodologically contested research program",
+      "status_note": "Multiple species show adaptive uncertainty or information-seeking behavior, but whether particular results require metacognitive monitoring rather than associative, behavioral-cue, or response-competition accounts is evaluated paradigm by paradigm.",
+      "summary": "Comparative metacognition research tests whether nonhuman animals monitor the strength or availability of their own perceptual and memory information. Subjects may decline difficult trials, seek information, or selectively take memory tests; transfer and cue-control procedures aim to distinguish internal monitoring from learned external associations.",
+      "proponents": ["Robert R. Hampton", "J. David Smith", "Wendy E. Shields", "David A. Washburn"],
+      "year": 2001,
+      "era": "1995–present",
+      "boundary_note": "Adaptive uncertainty responses do not automatically establish explicit metarepresentation, human-like self-reflection, or phenomenal consciousness. The record concerns a research framework and target capacity, not a single mechanism shared across species.",
+      "claim_scope": "Behavioral monitoring of uncertainty, perceptual difficulty, memory availability, and information need in nonhuman animals.",
+      "evidence_profile": "Uncertainty-response and opt-out tasks, prospective and retrospective wagering, information seeking, optional memory tests, transfer tests, cue controls, species comparison, and associative-model challenges.",
+      "open_questions": [
+        "Which paradigms exclude public-cue and reinforcement-history explanations most convincingly?",
+        "Do uncertainty monitoring and metamemory share a domain-general process within individual animals?",
+        "What level of self-representation, if any, is required for successful performance?"
+      ],
+      "keywords": ["animal metacognition", "uncertainty monitoring", "metamemory", "comparative cognition", "information seeking"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Rhesus monkeys know when they remember",
+          "authors": "Robert R. Hampton",
+          "year": 2001,
+          "venue": "Proceedings of the National Academy of Sciences 98(9): 5359–5362",
+          "url": "https://doi.org/10.1073/pnas.071600998",
+          "doi": "10.1073/pnas.071600998",
+          "authority": "primary-empirical",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The comparative psychology of uncertainty monitoring and metacognition",
+          "authors": "J. David Smith; Wendy E. Shields; David A. Washburn",
+          "year": 2003,
+          "venue": "Behavioral and Brain Sciences 26(3): 317–339",
+          "url": "https://doi.org/10.1017/S0140525X03000086",
+          "doi": "10.1017/S0140525X03000086",
+          "authority": "primary-programmatic",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-tomnet-machine-theory-of-mind",
+      "name": "ToMnet Machine Theory-of-Mind Architecture",
+      "aliases": ["ToMnet", "Machine Theory of Mind"],
+      "kind": "Model or framework",
+      "domain": "Cognitive architecture & AI",
+      "tradition": "Meta-learning / multi-agent artificial intelligence",
+      "status": "influential proof-of-concept · active research direction",
+      "status_note": "ToMnet established a learnable agent-modeling architecture in controlled gridworlds. Later machine-ToM research broadens tasks and evaluation, but general, grounded, and robust mental-state modeling remains unresolved.",
+      "summary": "A Theory-of-Mind network meta-learns to model agents from behavioral observations. A character network summarizes an agent across past episodes, a mental-state network represents the current episode, and a prediction network forecasts behavior and environment-relevant outcomes, including false-belief-sensitive behavior in simple worlds.",
+      "proponents": ["Neil C. Rabinowitz", "Frank Perbet", "H. Francis Song", "Chiyuan Zhang", "S. M. Ali Eslami", "Matthew Botvinick"],
+      "year": 2018,
+      "era": "2018–present",
+      "boundary_note": "ToMnet is a functional predictive architecture for modeling other agents. Passing a gridworld analogue of a false-belief task does not establish phenomenal consciousness, genuine belief possession, human-equivalent social understanding, or a transparent symbolic representation of mental states.",
+      "claim_scope": "Few-shot prediction and latent characterization of artificial agents from observed trajectories in simplified multi-agent environments.",
+      "evidence_profile": "Held-out agent prediction, gridworld trajectories, consumption and action forecasts, meta-learning generalization, latent-character probes, and synthetic false-belief tasks.",
+      "open_questions": [
+        "Do learned representations support systematic generalization beyond training populations and environment structure?",
+        "How should machine-ToM be evaluated without relying on superficial task cues?",
+        "Can the architecture represent communication, norms, emotion, recursive beliefs, and real human behavioral variability?"
+      ],
+      "keywords": ["ToMnet", "machine theory of mind", "meta-learning", "agent modeling", "multi-agent AI", "false belief"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Machine Theory of Mind",
+          "authors": "Neil C. Rabinowitz; Frank Perbet; H. Francis Song; Chiyuan Zhang; S. M. Ali Eslami; Matthew Botvinick",
+          "year": 2018,
+          "venue": "Proceedings of the 35th International Conference on Machine Learning, PMLR 80: 4218–4227",
+          "url": "https://proceedings.mlr.press/v80/rabinowitz18a.html",
+          "authority": "primary-original",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Theory of Mind and Preference Learning at the Interface of Cognitive Science, Neuroscience, and AI: A Review",
+          "authors": "Christelle Langley; Bogdan Ionut Cirstea; Fabio Cuzzolin; Barbara J. Sahakian",
+          "year": 2022,
+          "venue": "Frontiers in Artificial Intelligence 5: 778852",
+          "url": "https://doi.org/10.3389/frai.2022.778852",
+          "doi": "10.3389/frai.2022.778852",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "candidate-feature-integration-theory",
+      "name": "Feature Integration Theory of Attention",
+      "aliases": ["FIT", "feature-integration theory"],
+      "kind": "Scientific theory",
+      "domain": "Attention & conscious access",
+      "tradition": "Experimental visual attention / object perception",
+      "status": "foundational historical theory · revised and actively tested",
+      "status_note": "Feature Integration Theory established a major research program on binding and visual search. Strong serial-versus-parallel formulations do not exhaust current findings, and later versions introduced richer spatial selection and object-file mechanisms.",
+      "summary": "Basic visual features are initially registered in parallel in separate feature maps. Focused spatial attention selects a location and binds co-located features into an object representation, explaining conjunction-search costs and illusory conjunctions when attention is limited.",
+      "proponents": ["Anne M. Treisman", "Garry Gelade"],
+      "year": 1980,
+      "era": "1980–present",
+      "boundary_note": "This is an adjacent theory of visual attention and feature binding, not a general theory of consciousness. Its relevance is limited to mechanisms that organize perceptual content and to claims about when focal attention is required for binding.",
+      "claim_scope": "Visual feature registration, spatial selection, feature binding, object formation, visual search, and illusory conjunctions.",
+      "evidence_profile": "Feature and conjunction search, reaction-time set-size functions, divided-attention manipulations, illusory conjunctions, spatial cueing, and object-file experiments.",
+      "open_questions": [
+        "Which bindings require focal spatial attention and which can arise through other grouping mechanisms?",
+        "How should the theory accommodate efficient conjunction search and scene structure?",
+        "What is the relationship between feature binding, reportability, and conscious perceptual organization?"
+      ],
+      "keywords": ["feature integration", "visual attention", "binding", "conjunction search", "illusory conjunction", "object files"],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A feature-integration theory of attention",
+          "authors": "Anne M. Treisman; Garry Gelade",
+          "year": 1980,
+          "venue": "Cognitive Psychology 12(1): 97–136",
+          "url": "https://doi.org/10.1016/0010-0285(80)90005-5",
+          "doi": "10.1016/0010-0285(80)90005-5",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Features and objects: The fourteenth Bartlett memorial lecture",
+          "authors": "Anne Treisman",
+          "year": 1988,
+          "venue": "Quarterly Journal of Experimental Psychology Section A 40(2): 201–237",
+          "url": "https://doi.org/10.1080/02724988843000104",
+          "doi": "10.1080/02724988843000104",
+          "authority": "primary-self-exposition",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}

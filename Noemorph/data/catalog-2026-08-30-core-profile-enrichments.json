@@ -1,0 +1,494 @@
+{
+  "collection": {
+    "name": "Core consciousness-theory research-profile enrichments",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "profile_count": 16,
+    "purpose": "Deepen high-centrality foundational records whose original entries had citations and summaries but lacked explicit claim boundaries, evidence limitations, and open research questions needed for defensible semantic comparison.",
+    "selection_policy": "This first tranche prioritizes major scientific theory families and shared explananda that recur throughout consciousness research. It does not rank or endorse them.",
+    "identity_policy": "Enrichments may not change record identity, name, kind, domain, tradition, proponents, status, summary, or original citations. New evidence may only be appended with an exact locator.",
+    "synthesis_policy": "No relation among records is asserted. Profiles remain provisional collection objects pending specialist review."
+  },
+  "profiles": [
+    {
+      "id": "seed-026-global-workspace-theory-gwt",
+      "scope": "Cognitive architecture of conscious access and the broad availability of selected information.",
+      "boundary_note": "GWT is a functional cognitive architecture. It should not be treated as identical to the later neuronal ignition claims of GNWT, nor as a complete theory of phenomenal character.",
+      "claim_scope": {
+        "target": "How selected information becomes globally available to otherwise specialized processors.",
+        "level": "Functional and cognitive-architectural.",
+        "does_not_establish": "A unique neural implementation, that global availability is sufficient for phenomenality, or that every conscious content is reportable."
+      },
+      "evidence_profile": {
+        "basis": [
+          "A broad family of limited-capacity access, working-memory, report, and flexible-control phenomena is consistent with global availability.",
+          "The architecture generated explicit computational and neuronal descendants that can be tested more narrowly."
+        ],
+        "limitations": [
+          "Many behavioral signatures are compatible with attention, working memory, or executive control without uniquely identifying a global workspace.",
+          "Functional descriptions underdetermine both the physical implementation and the relation to subjective experience."
+        ],
+        "independence": "The retained review compares GWT with other theory families; framework-specific evidence is distributed across heterogeneous paradigms."
+      },
+      "open_questions": [
+        "Which forms of availability are necessary rather than merely correlated with conscious access?",
+        "Can global access be operationalized independently of overt report and executive demand?",
+        "Which implementations count as the same workspace architecture across biological and artificial systems?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-027-global-neuronal-workspace-theory-gnwt",
+      "scope": "Neuronal mechanisms proposed to support conscious access through nonlinear ignition and widespread broadcasting.",
+      "boundary_note": "GNWT has changed across formulations. Frontoparietal ignition, sustained activity, broadcasting, access, and report-related activity must be coded as separable claims rather than one undifferentiated signature.",
+      "claim_scope": {
+        "target": "The transition by which a represented content becomes consciously accessible.",
+        "level": "Large-scale cortical dynamics, long-range connectivity, and cognitive access.",
+        "does_not_establish": "That every late frontoparietal response is conscious ignition, that report is constitutive of consciousness, or a full explanation of qualitative character."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Masking, threshold, electrophysiology, imaging, and computational studies report nonlinear and widespread activity associated with conscious access.",
+          "The theory makes differentiable predictions about ignition, sustained representation, and inter-areal communication."
+        ],
+        "limitations": [
+          "Report, attention, task relevance, and confidence can contribute to canonical late signatures.",
+          "The 2025 adversarial collaboration found results compatible with some predictions while challenging offset ignition and parts of the proposed prefrontal representation profile."
+        ],
+        "independence": "The appended Cogitate Consortium study was designed by proponents and theory-neutral researchers and preregistered divergent predictions; it does not deliver a binary verdict on GNWT."
+      },
+      "open_questions": [
+        "Which ignition signatures survive no-report and task-irrelevant designs?",
+        "How should GNWT distinguish conscious broadcasting from attention, decision, memory, and motor preparation?",
+        "Which anatomical commitments belong to current GNWT rather than earlier versions?"
+      ],
+      "review_state": "provisional",
+      "citation_additions": [
+        {
+          "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+          "authors": "Cogitate Consortium and collaborators",
+          "year": 2025,
+          "venue": "Nature",
+          "doi": "10.1038/s41586-025-08888-1",
+          "url": "https://doi.org/10.1038/s41586-025-08888-1",
+          "authority": "independent-preregistered-theory-test",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "seed-028-integrated-information-theory-iit",
+      "scope": "Versioned constitutive theory identifying experience with a maximally irreducible intrinsic cause-effect structure.",
+      "boundary_note": "IIT 3.0 and IIT 4.0 use materially different formal objects and must be versioned. PCI, neural complexity, differentiation, and ordinary information integration are not direct computations of a full IIT Φ-structure.",
+      "claim_scope": {
+        "target": "The intrinsic physical conditions and structure proposed to be identical with phenomenal existence.",
+        "level": "Phenomenological axioms, causal formalism, and constitutive physical postulates.",
+        "does_not_establish": "That tractable brain-complexity proxies compute IIT quantities, that high functional integration is sufficient, or that the full formalism has been validated in realistic brains."
+      },
+      "evidence_profile": {
+        "basis": [
+          "IIT supplies explicit versioned axioms, postulates, formal definitions, and worked model systems.",
+          "Perturbational and complexity findings motivate integration-and-differentiation research but generally test auxiliary or proxy claims rather than full IIT structures."
+        ],
+        "limitations": [
+          "Full calculations are intractable for realistic systems and depend on contested choices of substrate, grain, and maximal complex.",
+          "The 2025 adversarial collaboration supported some selected predictions while challenging sustained posterior synchronization; it did not test or refute the entire IIT 4.0 formalism."
+        ],
+        "independence": "The defining formal papers are self-expositions. COGITATE used preregistered predictions jointly specified by proponents and theory-neutral researchers, reducing but not eliminating auxiliary-assumption and interpretation problems."
+      },
+      "open_questions": [
+        "Which feasible observation uniquely discriminates IIT 4.0 from recurrent, workspace, or generic complexity accounts?",
+        "How can causal structures be estimated without substituting an invalid proxy for Φ?",
+        "How should failed prediction components update a versioned theory rather than generate a binary verdict?"
+      ],
+      "review_state": "provisional",
+      "citation_additions": [
+        {
+          "title": "Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms",
+          "authors": "Larissa Albantakis and collaborators",
+          "year": 2023,
+          "venue": "PLOS Computational Biology",
+          "doi": "10.1371/journal.pcbi.1011465",
+          "url": "https://doi.org/10.1371/journal.pcbi.1011465",
+          "authority": "primary-versioned-formalization",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory",
+          "authors": "Cogitate Consortium",
+          "year": 2023,
+          "venue": "PLOS ONE",
+          "doi": "10.1371/journal.pone.0268577",
+          "url": "https://doi.org/10.1371/journal.pone.0268577",
+          "authority": "primary-preregistered-protocol",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+          "authors": "Cogitate Consortium and collaborators",
+          "year": 2025,
+          "venue": "Nature",
+          "doi": "10.1038/s41586-025-08888-1",
+          "url": "https://doi.org/10.1038/s41586-025-08888-1",
+          "authority": "independent-preregistered-theory-test",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "seed-030-higher-order-thought-hot-theory",
+      "scope": "Higher-order representation account of when first-order mental states are conscious.",
+      "boundary_note": "Occurrent HOT theory is one higher-order position. It must remain distinct from dispositional HOT, inner-sense, higher-order global-state, and higher-order state-space accounts.",
+      "claim_scope": {
+        "target": "What makes a first-order mental state conscious rather than unconscious.",
+        "level": "Representational and metacognitive architecture, with proposed neural implementations.",
+        "does_not_establish": "That accurate introspection is required, that higher-order representation must be linguistically structured, or that prefrontal activity uniquely realizes a HOT."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Metacognitive dissociations, confidence manipulations, and some prefrontal findings motivate a role for higher-order representation.",
+          "The account offers explicit explanations of misrepresentation and apparently empty higher-order states."
+        ],
+        "limitations": [
+          "Metacognitive performance is not equivalent to phenomenal consciousness and may rely on post-perceptual processes.",
+          "First-order, recurrent, and global-access theories can explain portions of the same evidence."
+        ],
+        "independence": "One retained empirical review is coauthored by central proponents; adversarial tests require theory-neutral operationalizations of higher-order representation."
+      },
+      "open_questions": [
+        "What representational relation is minimally sufficient for a HOT?",
+        "Can higher-order representation be measured without using report or confidence as a proxy for consciousness?",
+        "How should the theory handle conscious states in infants, animals, and impaired metacognition?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-036-attended-intermediate-level-representation-air-theory",
+      "scope": "Perceptual-consciousness theory combining intermediate-level representational content with attention.",
+      "boundary_note": "AIR is specifically an attended intermediate-level representation account. It should not be generalized into the claim that any attended representation is conscious or that consciousness is identical to attention.",
+      "claim_scope": {
+        "target": "The representational level and attentional condition associated with perceptual experience.",
+        "level": "Perceptual representation, attention, and cognitive neuroscience.",
+        "does_not_establish": "A theory of all conscious thought, that attention and awareness never dissociate, or a uniquely identified neural locus."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Intermediate visual representations plausibly preserve viewpoint-sensitive detail while supporting stable object-level contents.",
+          "Attention strongly modulates perceptual visibility and intermediate visual processing."
+        ],
+        "limitations": [
+          "Evidence for attention without awareness and awareness under reduced attention challenges a simple constitutive requirement.",
+          "Intermediate-level content and attentional selection are difficult to operationalize independently."
+        ],
+        "independence": "The primary monograph states the theory; the retained comparative review places it within a broader contested theory family."
+      },
+      "open_questions": [
+        "Which level of a perceptual hierarchy is genuinely intermediate across modalities?",
+        "What kind of attention is constitutive rather than enabling or report-related?",
+        "Can AIR explain nonperceptual experience and contentless states?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-039-attention-schema-theory-ast",
+      "scope": "Internal-model account of awareness attribution and the control of attention.",
+      "boundary_note": "AST explains why systems model and report awareness through a simplified model of attention. Whether that exhausts phenomenal consciousness is a further philosophical and empirical claim.",
+      "claim_scope": {
+        "target": "Awareness attribution to self and others and model-based control of attention.",
+        "level": "Cognitive, computational, social-cognitive, and proposed temporoparietal neural mechanisms.",
+        "does_not_establish": "That attention itself is consciousness, that awareness reports are always accurate, or that an attention schema resolves phenomenal character."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Social attribution, attentional control, body-schema analogies, and modeling work motivate a simplified internal description of attention.",
+          "The theory generates intervention predictions linking disruption of the schema to altered awareness attribution and control."
+        ],
+        "limitations": [
+          "Empirical findings often support component functions without uniquely demonstrating an attention schema.",
+          "The account risks explaining beliefs and reports about awareness while leaving experience itself underdetermined."
+        ],
+        "independence": "Both retained defining sources are authored by principal proponents; independent preregistered tests remain comparatively limited."
+      },
+      "open_questions": [
+        "What neural or computational signature distinguishes an attention schema from ordinary metacognitive modeling?",
+        "Can nonverbal organisms possess the proposed schema?",
+        "Which perturbations selectively alter awareness modeling without simply impairing attention?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-041-sensorimotor-contingency-theory",
+      "scope": "Constitutive role of embodied skill and lawful action-dependent sensory change in perceptual experience.",
+      "boundary_note": "Sensorimotor contingency theory is primarily a theory of perceptual experience. Mastery, exercise of mastery, bodily dependence, and the status of internal simulation vary across formulations.",
+      "claim_scope": {
+        "target": "Why perceptual experience has modality-specific and world-presenting character.",
+        "level": "Embodied skill, perception-action dynamics, and philosophy of perception.",
+        "does_not_establish": "That online movement is required for every experience, that neural activity is irrelevant, or an account of all conscious thought and affect."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Active perception, sensory substitution, adaptation, and action-dependent changes support a constitutive or enabling role for sensorimotor structure.",
+          "The framework explains modality-specific qualities through distinct laws of sensorimotor dependence."
+        ],
+        "limitations": [
+          "Dreams, imagery, paralysis, and passive experience challenge strong online-action readings.",
+          "Behavioral mastery may not by itself distinguish conscious from sophisticated unconscious control."
+        ],
+        "independence": "The primary formulation and authoritative embodied-cognition review support the family while documenting substantial internal variation."
+      },
+      "open_questions": [
+        "Is actual exercise, counterfactual availability, or learned mastery of a contingency required?",
+        "How are sensorimotor laws represented or enacted in dreams and imagery?",
+        "What differentiates conscious mastery from nonconscious skilled control?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-044-dynamic-core-theory",
+      "scope": "Reentrant thalamocortical integration and differentiation as a rapidly changing neural substrate of experience.",
+      "boundary_note": "Dynamic Core theory historically precedes IIT. Shared language about integration and differentiation does not make its reentrant functional-cluster proposal mathematically or metaphysically identical to later IIT formulations.",
+      "claim_scope": {
+        "target": "Neural organization associated with unified and differentiated conscious scenes.",
+        "level": "Thalamocortical systems, reentrant dynamics, and large-scale functional clustering.",
+        "does_not_establish": "A validated scalar consciousness measure, identity with IIT, or why integrated neural dynamics have phenomenal character."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Conscious states depend on both differentiated repertoires and integration across distributed thalamocortical systems.",
+          "Reentrant and effective-connectivity findings motivate transient functional coalitions rather than a fixed anatomical center."
+        ],
+        "limitations": [
+          "Integration and differentiation are operationalized in many nonequivalent ways.",
+          "Similar dynamics can occur outside consciousness, and direct tests of a uniquely bounded dynamic core are limited."
+        ],
+        "independence": "The defining source is by a principal architect; the retained scoping review independently identifies the model but does not validate its mechanism."
+      },
+      "open_questions": [
+        "How should a dynamic core be delimited in space and time?",
+        "Which measures distinguish conscious reentry from unconscious recurrent coordination?",
+        "Which predictions remain unique after separating the theory from IIT?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-057-affective-brainstem-theory-of-consciousness",
+      "scope": "Subcortical and affective foundations proposed to generate a basic form of conscious feeling.",
+      "boundary_note": "The proposal prioritizes affective consciousness and upper-brainstem organization. It should not be conflated with the claim that cortex is unnecessary for every conscious content or with clinical affect-awareness constructs.",
+      "claim_scope": {
+        "target": "The minimal neurobiological basis of sentience and felt affect.",
+        "level": "Upper brainstem, subcortical affective systems, homeostasis, and neuropsychoanalysis.",
+        "does_not_establish": "That all cortical contributions are merely cognitive, that decorticate behavior proves human-like experience, or the content of every conscious state."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Brainstem damage, arousal systems, affective circuitry, and preserved motivated behavior motivate a subcortical contribution to sentience.",
+          "Homeostatic and valence-centered formulations connect consciousness with organismic need and action."
+        ],
+        "limitations": [
+          "Arousal, motivated behavior, and affective processing do not independently demonstrate phenomenal experience.",
+          "Clinical lesions rarely isolate the proposed generators, and cortical-subcortical interactions are extensive."
+        ],
+        "independence": "Both retained sources are theory-developing works by proponents; independent discriminating tests against cortical and distributed accounts remain needed."
+      },
+      "open_questions": [
+        "Which subcortical mechanisms are sufficient for valenced experience rather than arousal or action readiness?",
+        "How can basic affective consciousness be assessed without report?",
+        "How do cortical contents become bound to the proposed affective subject?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-060-predictive-processing-approaches-to-consciousness",
+      "scope": "Family of consciousness proposals using hierarchical generative models, prediction error, precision, and counterfactual control.",
+      "boundary_note": "Generic predictive processing is not itself a single consciousness theory. Precision, model depth, temporal thickness, counterfactual richness, and global availability are distinct consciousness-specific extensions that require separate attribution.",
+      "claim_scope": {
+        "target": "How generative inference may shape conscious content, presence, and access.",
+        "level": "Computational, representational, cognitive, and systems-neural.",
+        "does_not_establish": "That prediction-error minimization is sufficient for consciousness, that all predictive-processing formulations agree, or a unique phenomenal marker."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Perceptual inference, expectation, precision, and hierarchical feedback robustly influence reported experience.",
+          "The framework supplies formal tools for modeling hypotheses about content and conscious access."
+        ],
+        "limitations": [
+          "Predictive-processing explanations are highly flexible and often fit both conscious and unconscious inference.",
+          "Different proposals assign incompatible consciousness-making roles to precision, errors, representations, or action."
+        ],
+        "independence": "The retained papers explicitly distinguish a broad predictive framework from a mature, singular theory of consciousness."
+      },
+      "open_questions": [
+        "Which predictive quantity changes specifically with consciousness rather than perception or attention?",
+        "What observation would falsify a consciousness-specific predictive account?",
+        "How should competing precision-, depth-, and counterfactual-based variants be compared?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-061-interoceptive-inference-beast-machine-account",
+      "scope": "Predictive regulation of bodily signals as a basis for emotion, embodied selfhood, and felt presence.",
+      "boundary_note": "Interoceptive inference is a framework for embodied self and affect. Broader claims about all phenomenal consciousness must not be inferred from evidence about interoception alone.",
+      "claim_scope": {
+        "target": "How generative models of internal bodily causes contribute to feeling and embodied selfhood.",
+        "level": "Interoceptive, computational, autonomic, affective, and self-representational.",
+        "does_not_establish": "That interoception is necessary for every conscious content, that predictive regulation uniquely explains subjectivity, or that physiological accuracy equals awareness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Interoceptive manipulations, autonomic predictions, emotion research, and body-ownership phenomena support model-based bodily inference.",
+          "The framework links perception and action through homeostatic and allostatic regulation."
+        ],
+        "limitations": [
+          "Interoceptive task performance has contested reliability and may not measure awareness directly.",
+          "The same observations can support constructionist, appraisal, predictive, or lower-level physiological accounts."
+        ],
+        "independence": "The retained sources are closely related primary formulations, so independent model comparison remains especially important."
+      },
+      "open_questions": [
+        "Which interoceptive representations are conscious and which remain regulatory?",
+        "How are bodily predictions related to phenomenal ownership and first-person perspective?",
+        "Can causal manipulations distinguish interoceptive inference from rival emotion frameworks?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-149-predictive-global-neuronal-workspace-pgnw",
+      "scope": "Formal active-inference implementation of workspace ignition and conscious visual access.",
+      "boundary_note": "PGNW is a specific computational synthesis. It neither establishes equivalence between active inference and GNWT nor licenses transferring empirical support between the parent frameworks.",
+      "claim_scope": {
+        "target": "How ignition, expectation, and precision may jointly determine conscious visual access.",
+        "level": "Hierarchical Bayesian computation and global-workspace architecture.",
+        "does_not_establish": "That the simulation uniquely implements GNWT, that variational inference is conscious, or that the model covers affective and nonvisual experience."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The model formalizes qualitative ignition and expectation effects in a generative architecture.",
+          "It produces manipulable predictions relating prior expectation and precision to access."
+        ],
+        "limitations": [
+          "Simulation success does not show that the brain uses the same representation or optimization process.",
+          "The model inherits unsettled operational assumptions from both GNWT and active inference."
+        ],
+        "independence": "The retained locators identify the same primary paper rather than independent empirical validation; the evidence base therefore remains model-proposer dependent."
+      },
+      "open_questions": [
+        "Which predictions differ from ordinary Bayesian perception without a workspace?",
+        "Can model parameters be identified from neural and behavioral data?",
+        "How should PGNW be updated in light of empirical challenges to canonical GNWT signatures?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-171-phenomenal-consciousness",
+      "scope": "Explanandum concerning what-it-is-like character, distinguished from access, report, and behavioral function.",
+      "boundary_note": "Phenomenal consciousness is a contested construct, not one theory. Using it does not commit the catalog to irreducible qualia, phenomenal overflow, or a particular metaphysics.",
+      "claim_scope": {
+        "target": "The experiential character of mental states.",
+        "level": "Phenomenological and philosophical construct used across empirical and metaphysical debates.",
+        "does_not_establish": "A measurement method, a neural mechanism, metaphysical nonphysicality, or that phenomenal and access consciousness dissociate."
+      },
+      "evidence_profile": {
+        "basis": [
+          "First-person reports and philosophical analysis motivate distinguishing experience from availability and performance.",
+          "The construct organizes empirical disputes about report, overflow, and unconscious processing."
+        ],
+        "limitations": [
+          "Its extension depends on contested judgments about absent report, marginal cases, and what counts as experience.",
+          "Behavioral and neural evidence requires bridging assumptions that can import a favored theory."
+        ],
+        "independence": "The retained primary and authoritative sources define and contextualize the construct; they do not provide an independent detector of phenomenality."
+      },
+      "open_questions": [
+        "Can phenomenal consciousness be operationalized without collapsing it into access or report?",
+        "What evidence could discriminate phenomenal overflow from rich unconscious representation?",
+        "How should the construct extend to nonhuman and artificial systems?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-172-access-consciousness",
+      "scope": "Availability of information for reasoning, flexible control, and report, contrasted with phenomenal character.",
+      "boundary_note": "Access consciousness is a functional construct, not automatically a global-workspace mechanism. Availability, actual access, reportability, working memory, and executive control must remain analytically distinct.",
+      "claim_scope": {
+        "target": "The functional availability of represented information to multiple cognitive systems.",
+        "level": "Cognitive architecture, reasoning, action control, and report.",
+        "does_not_establish": "Phenomenal character, one neural implementation, a sharp access threshold, or equivalence with verbal report."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Reasoning, flexible behavior, working memory, and report paradigms provide operational access measures.",
+          "The distinction clarifies which theory predictions concern functional availability rather than experience."
+        ],
+        "limitations": [
+          "Most access measures combine perception, attention, memory, decision, metacognition, and motor response.",
+          "A system may be poised for use without exercising or externally revealing that capacity."
+        ],
+        "independence": "The primary source introduces the distinction; the retained review compares its use across consciousness theories."
+      },
+      "open_questions": [
+        "Which consumer systems and counterfactual uses are required for access?",
+        "Is access graded, multidimensional, or governed by a discrete transition?",
+        "Can access be measured in nonverbal systems without circular behavioral assumptions?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-175-awareness-and-attention-distinction",
+      "scope": "Conceptual and empirical separation of selective prioritization from conscious awareness.",
+      "boundary_note": "Attention and awareness each name heterogeneous families. Apparent dissociations depend on how attention, awareness, performance, and residual processing are operationalized.",
+      "claim_scope": {
+        "target": "Whether and how attentional selection differs from conscious experience and access.",
+        "level": "Cognitive, psychophysical, neural, and conceptual.",
+        "does_not_establish": "Complete independence, that attention is never necessary, or that one paradigm directly measures awareness without selection."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Dual-task, masking, cueing, inattentional-blindness, and no-report paradigms show partial behavioral and neural dissociations.",
+          "The distinction prevents attentional enhancement from being treated automatically as an NCC."
+        ],
+        "limitations": [
+          "Residual attention is difficult to exclude and awareness measures commonly require attention and decision.",
+          "Different studies contrast distinct forms of spatial, feature-based, endogenous, or exogenous attention."
+        ],
+        "independence": "The retained sources establish the conceptual landscape but do not settle the strength or direction of every dissociation."
+      },
+      "open_questions": [
+        "Which kinds of attention are necessary for which kinds of awareness?",
+        "How can awareness be measured without introducing attentional and report demands?",
+        "Do attention and awareness have separable causal neural signatures across modalities?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-179-unity-of-consciousness",
+      "scope": "Phenomenal, representational, spatial, temporal, and subject unity as distinct explanatory targets.",
+      "boundary_note": "Unity is a family of explananda. Evidence for integration, synchrony, or one behavioral controller does not by itself establish phenomenal unity or a single conscious subject.",
+      "claim_scope": {
+        "target": "The respects in which simultaneous and temporally extended experiences belong together for a subject.",
+        "level": "Phenomenological, representational, metaphysical, cognitive, and systems-neural.",
+        "does_not_establish": "A single neural binder, an indivisible Cartesian subject, or that all conscious contents are mutually accessible."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Ordinary experience, binding phenomena, multisensory integration, temporal continuity, and split-brain cases motivate separable unity questions.",
+          "Competing theories make different predictions about integration, access, and subject-level organization."
+        ],
+        "limitations": [
+          "Behavioral coordination and neural integration are indirect evidence for phenomenal co-consciousness.",
+          "Split-brain, neglect, dissociation, and local processing do not yield a simple count of conscious subjects."
+        ],
+        "independence": "The authoritative source distinguishes multiple unity problems; the theory review shows that proposed neural solutions are not interchangeable."
+      },
+      "open_questions": [
+        "Which unity relations are necessary for a single conscious field?",
+        "How should subject unity be inferred in split or partially disconnected systems?",
+        "Can unity be graded without collapsing into generic connectivity?"
+      ],
+      "review_state": "provisional"
+    }
+  ]
+}

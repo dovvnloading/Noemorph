@@ -1,0 +1,632 @@
+{
+  "collection": {
+    "name": "The Science of Consciousness 2024 topic taxonomy",
+    "source": "https://consciousness.arizona.edu/sites/consciousness.arizona.edu/files/2024-02/NEW%20TAXONOMY%20for%20TSC_2024.pdf",
+    "publisher": "University of Arizona Center for Consciousness Studies",
+    "retrieved": "2026-08-30",
+    "role": "Research-scope control frame; not a theory catalog or completeness denominator",
+    "item_count": 102,
+    "group_counts": {
+      "Philosophy": 16,
+      "Neuroscience": 23,
+      "Cognitive Science and Psychology": 20,
+      "Physical and Biological Sciences": 16,
+      "Experiential Approaches": 12,
+      "Culture and Humanities": 15
+    }
+  },
+  "items": [
+    {
+      "id": "tsc-01-01",
+      "code": "01.01",
+      "group": "Philosophy",
+      "label": "The concept of consciousness"
+    },
+    {
+      "id": "tsc-01-02",
+      "code": "01.02",
+      "group": "Philosophy",
+      "label": "Materialism and dualism"
+    },
+    {
+      "id": "tsc-01-03",
+      "code": "01.03",
+      "group": "Philosophy",
+      "label": "Panpsychism and cosmopsychism"
+    },
+    {
+      "id": "tsc-01-04",
+      "code": "01.04",
+      "group": "Philosophy",
+      "label": "Ontology of consciousness"
+    },
+    {
+      "id": "tsc-01-05",
+      "code": "01.05",
+      "group": "Philosophy",
+      "label": "Qualia"
+    },
+    {
+      "id": "tsc-01-06",
+      "code": "01.06",
+      "group": "Philosophy",
+      "label": "Machine consciousness"
+    },
+    {
+      "id": "tsc-01-07",
+      "code": "01.07",
+      "group": "Philosophy",
+      "label": "Mental causation and the function of consciousness"
+    },
+    {
+      "id": "tsc-01-08",
+      "code": "01.08",
+      "group": "Philosophy",
+      "label": "The \"hard problem\" and the explanatory gap"
+    },
+    {
+      "id": "tsc-01-09",
+      "code": "01.09",
+      "group": "Philosophy",
+      "label": "Philosophical theories of consciousness"
+    },
+    {
+      "id": "tsc-01-10",
+      "code": "01.10",
+      "group": "Philosophy",
+      "label": "Epistemology and philosophy of science"
+    },
+    {
+      "id": "tsc-01-11",
+      "code": "01.11",
+      "group": "Philosophy",
+      "label": "Personal identity and the self"
+    },
+    {
+      "id": "tsc-01-12",
+      "code": "01.12",
+      "group": "Philosophy",
+      "label": "Free will and agency"
+    },
+    {
+      "id": "tsc-01-13",
+      "code": "01.13",
+      "group": "Philosophy",
+      "label": "Intentionality and representation"
+    },
+    {
+      "id": "tsc-01-14",
+      "code": "01.14",
+      "group": "Philosophy",
+      "label": "Philosophy of perception"
+    },
+    {
+      "id": "tsc-01-15",
+      "code": "01.15",
+      "group": "Philosophy",
+      "label": "Neutral monism and idealism"
+    },
+    {
+      "id": "tsc-01-16",
+      "code": "01.16",
+      "group": "Philosophy",
+      "label": "Miscellaneous"
+    },
+    {
+      "id": "tsc-02-01",
+      "code": "02.01",
+      "group": "Neuroscience",
+      "label": "Neural correlates of consciousness (general)"
+    },
+    {
+      "id": "tsc-02-02",
+      "code": "02.02",
+      "group": "Neuroscience",
+      "label": "Methodologies (fMRI, EEG etc.)"
+    },
+    {
+      "id": "tsc-02-03",
+      "code": "02.03",
+      "group": "Neuroscience",
+      "label": "Neuroscience of vision"
+    },
+    {
+      "id": "tsc-02-04",
+      "code": "02.04",
+      "group": "Neuroscience",
+      "label": "Other sensory modalities"
+    },
+    {
+      "id": "tsc-02-05",
+      "code": "02.05",
+      "group": "Neuroscience",
+      "label": "Motor control"
+    },
+    {
+      "id": "tsc-02-06",
+      "code": "02.06",
+      "group": "Neuroscience",
+      "label": "Memory and learning"
+    },
+    {
+      "id": "tsc-02-07",
+      "code": "02.07",
+      "group": "Neuroscience",
+      "label": "Blindsight"
+    },
+    {
+      "id": "tsc-02-08",
+      "code": "02.08",
+      "group": "Neuroscience",
+      "label": "Neurology, neuropsychology and neuropathology"
+    },
+    {
+      "id": "tsc-02-09",
+      "code": "02.09",
+      "group": "Neuroscience",
+      "label": "Coma and vegetative states"
+    },
+    {
+      "id": "tsc-02-10",
+      "code": "02.10",
+      "group": "Neuroscience",
+      "label": "Anesthesia"
+    },
+    {
+      "id": "tsc-02-11",
+      "code": "02.11",
+      "group": "Neuroscience",
+      "label": "Cellular and sub-neural processes"
+    },
+    {
+      "id": "tsc-02-12",
+      "code": "02.12",
+      "group": "Neuroscience",
+      "label": "Quantum brain biology"
+    },
+    {
+      "id": "tsc-02-13",
+      "code": "02.13",
+      "group": "Neuroscience",
+      "label": "Brain networks, synchrony and scale"
+    },
+    {
+      "id": "tsc-02-14",
+      "code": "02.14",
+      "group": "Neuroscience",
+      "label": "Emotion"
+    },
+    {
+      "id": "tsc-02-15",
+      "code": "02.15",
+      "group": "Neuroscience",
+      "label": "Sleep and waking"
+    },
+    {
+      "id": "tsc-02-16",
+      "code": "02.16",
+      "group": "Neuroscience",
+      "label": "Brain stimulation techniques"
+    },
+    {
+      "id": "tsc-02-17",
+      "code": "02.17",
+      "group": "Neuroscience",
+      "label": "Specific brain areas"
+    },
+    {
+      "id": "tsc-02-18",
+      "code": "02.18",
+      "group": "Neuroscience",
+      "label": "Neurolinguistics"
+    },
+    {
+      "id": "tsc-02-19",
+      "code": "02.19",
+      "group": "Neuroscience",
+      "label": "Psychedelics and psychopharmacology"
+    },
+    {
+      "id": "tsc-02-20",
+      "code": "02.20",
+      "group": "Neuroscience",
+      "label": "Neurobiological theories of consciousness"
+    },
+    {
+      "id": "tsc-02-21",
+      "code": "02.21",
+      "group": "Neuroscience",
+      "label": "Pharmacology and psychopharmacology"
+    },
+    {
+      "id": "tsc-02-22",
+      "code": "02.22",
+      "group": "Neuroscience",
+      "label": "Traveling waves and oscillations"
+    },
+    {
+      "id": "tsc-02-23",
+      "code": "02.23",
+      "group": "Neuroscience",
+      "label": "Miscellaneous"
+    },
+    {
+      "id": "tsc-03-01",
+      "code": "03.01",
+      "group": "Cognitive Science and Psychology",
+      "label": "Attention"
+    },
+    {
+      "id": "tsc-03-02",
+      "code": "03.02",
+      "group": "Cognitive Science and Psychology",
+      "label": "Vision"
+    },
+    {
+      "id": "tsc-03-03",
+      "code": "03.03",
+      "group": "Cognitive Science and Psychology",
+      "label": "Other sensory modalities"
+    },
+    {
+      "id": "tsc-03-04",
+      "code": "03.04",
+      "group": "Cognitive Science and Psychology",
+      "label": "Memory, learning and synaptic plasticity"
+    },
+    {
+      "id": "tsc-03-05",
+      "code": "03.05",
+      "group": "Cognitive Science and Psychology",
+      "label": "Emotion"
+    },
+    {
+      "id": "tsc-03-06",
+      "code": "03.06",
+      "group": "Cognitive Science and Psychology",
+      "label": "Language"
+    },
+    {
+      "id": "tsc-03-07",
+      "code": "03.07",
+      "group": "Cognitive Science and Psychology",
+      "label": "Mental imagery"
+    },
+    {
+      "id": "tsc-03-08",
+      "code": "03.08",
+      "group": "Cognitive Science and Psychology",
+      "label": "Implicit and explicit processes"
+    },
+    {
+      "id": "tsc-03-09",
+      "code": "03.09",
+      "group": "Cognitive Science and Psychology",
+      "label": "Unconscious/conscious processes"
+    },
+    {
+      "id": "tsc-03-10",
+      "code": "03.10",
+      "group": "Cognitive Science and Psychology",
+      "label": "Sleep and dreaming"
+    },
+    {
+      "id": "tsc-03-11",
+      "code": "03.11",
+      "group": "Cognitive Science and Psychology",
+      "label": "Cognitive development"
+    },
+    {
+      "id": "tsc-03-12",
+      "code": "03.12",
+      "group": "Cognitive Science and Psychology",
+      "label": "Artificial intelligence and robotics"
+    },
+    {
+      "id": "tsc-03-13",
+      "code": "03.13",
+      "group": "Cognitive Science and Psychology",
+      "label": "Neural networks and connectionism"
+    },
+    {
+      "id": "tsc-03-14",
+      "code": "03.14",
+      "group": "Cognitive Science and Psychology",
+      "label": "Cognitive architectures"
+    },
+    {
+      "id": "tsc-03-15",
+      "code": "03.15",
+      "group": "Cognitive Science and Psychology",
+      "label": "Ethology"
+    },
+    {
+      "id": "tsc-03-16",
+      "code": "03.16",
+      "group": "Cognitive Science and Psychology",
+      "label": "Self-consciousness and metacognition"
+    },
+    {
+      "id": "tsc-03-17",
+      "code": "03.17",
+      "group": "Cognitive Science and Psychology",
+      "label": "Temporal consciousness"
+    },
+    {
+      "id": "tsc-03-18",
+      "code": "03.18",
+      "group": "Cognitive Science and Psychology",
+      "label": "Intelligence and creativity"
+    },
+    {
+      "id": "tsc-03-19",
+      "code": "03.19",
+      "group": "Cognitive Science and Psychology",
+      "label": "Cognitive theories of consciousness"
+    },
+    {
+      "id": "tsc-03-20",
+      "code": "03.20",
+      "group": "Cognitive Science and Psychology",
+      "label": "Miscellaneous"
+    },
+    {
+      "id": "tsc-04-01",
+      "code": "04.01",
+      "group": "Physical and Biological Sciences",
+      "label": "Quantum physics, collapse and the measurement problem"
+    },
+    {
+      "id": "tsc-04-02",
+      "code": "04.02",
+      "group": "Physical and Biological Sciences",
+      "label": "Quantum field approaches"
+    },
+    {
+      "id": "tsc-04-03",
+      "code": "04.03",
+      "group": "Physical and Biological Sciences",
+      "label": "Space, time and the nature of reality"
+    },
+    {
+      "id": "tsc-04-04",
+      "code": "04.04",
+      "group": "Physical and Biological Sciences",
+      "label": "Cosmology and integrative models"
+    },
+    {
+      "id": "tsc-04-05",
+      "code": "04.05",
+      "group": "Physical and Biological Sciences",
+      "label": "Emergence, nonlinear dynamics and complexity"
+    },
+    {
+      "id": "tsc-04-06",
+      "code": "04.06",
+      "group": "Physical and Biological Sciences",
+      "label": "Hierarchies, scale-invariance and 1/f systems"
+    },
+    {
+      "id": "tsc-04-07",
+      "code": "04.07",
+      "group": "Physical and Biological Sciences",
+      "label": "Logic and computational theory"
+    },
+    {
+      "id": "tsc-04-08",
+      "code": "04.08",
+      "group": "Physical and Biological Sciences",
+      "label": "Quantum brain biology"
+    },
+    {
+      "id": "tsc-04-09",
+      "code": "04.09",
+      "group": "Physical and Biological Sciences",
+      "label": "Biophysics and coherence"
+    },
+    {
+      "id": "tsc-04-10",
+      "code": "04.10",
+      "group": "Physical and Biological Sciences",
+      "label": "Origin and nature of life"
+    },
+    {
+      "id": "tsc-04-11",
+      "code": "04.11",
+      "group": "Physical and Biological Sciences",
+      "label": "Consciousness and evolution"
+    },
+    {
+      "id": "tsc-04-12",
+      "code": "04.12",
+      "group": "Physical and Biological Sciences",
+      "label": "Medicine and healing"
+    },
+    {
+      "id": "tsc-04-13",
+      "code": "04.13",
+      "group": "Physical and Biological Sciences",
+      "label": "Brain stimulation techniques"
+    },
+    {
+      "id": "tsc-04-14",
+      "code": "04.14",
+      "group": "Physical and Biological Sciences",
+      "label": "Quantum theories of consciousness"
+    },
+    {
+      "id": "tsc-04-15",
+      "code": "04.15",
+      "group": "Physical and Biological Sciences",
+      "label": "Photons and entanglement in the brain"
+    },
+    {
+      "id": "tsc-04-16",
+      "code": "04.16",
+      "group": "Physical and Biological Sciences",
+      "label": "Miscellaneous"
+    },
+    {
+      "id": "tsc-05-01",
+      "code": "05.01",
+      "group": "Experiential Approaches",
+      "label": "Phenomenology"
+    },
+    {
+      "id": "tsc-05-02",
+      "code": "05.02",
+      "group": "Experiential Approaches",
+      "label": "Meditation and mindfulness"
+    },
+    {
+      "id": "tsc-05-03",
+      "code": "05.03",
+      "group": "Experiential Approaches",
+      "label": "Hypnosis"
+    },
+    {
+      "id": "tsc-05-04",
+      "code": "05.04",
+      "group": "Experiential Approaches",
+      "label": "Psychedelic and other altered states of consciousness"
+    },
+    {
+      "id": "tsc-05-05",
+      "code": "05.05",
+      "group": "Experiential Approaches",
+      "label": "Transpersonal and humanistic psychology"
+    },
+    {
+      "id": "tsc-05-06",
+      "code": "05.06",
+      "group": "Experiential Approaches",
+      "label": "Psychoanalysis and psychotherapy"
+    },
+    {
+      "id": "tsc-05-07",
+      "code": "05.07",
+      "group": "Experiential Approaches",
+      "label": "Lucid dreaming"
+    },
+    {
+      "id": "tsc-05-08",
+      "code": "05.08",
+      "group": "Experiential Approaches",
+      "label": "Near-death and anomalous experiences"
+    },
+    {
+      "id": "tsc-05-09",
+      "code": "05.09",
+      "group": "Experiential Approaches",
+      "label": "Parapsychology"
+    },
+    {
+      "id": "tsc-05-10",
+      "code": "05.10",
+      "group": "Experiential Approaches",
+      "label": "Contemplation and mysticism"
+    },
+    {
+      "id": "tsc-05-11",
+      "code": "05.11",
+      "group": "Experiential Approaches",
+      "label": "Virtual reality"
+    },
+    {
+      "id": "tsc-05-12",
+      "code": "05.12",
+      "group": "Experiential Approaches",
+      "label": "Miscellaneous"
+    },
+    {
+      "id": "tsc-06-01",
+      "code": "06.01",
+      "group": "Culture and Humanities",
+      "label": "Literature and hermeneutics"
+    },
+    {
+      "id": "tsc-06-02",
+      "code": "06.02",
+      "group": "Culture and Humanities",
+      "label": "Aesthetics"
+    },
+    {
+      "id": "tsc-06-03",
+      "code": "06.03",
+      "group": "Culture and Humanities",
+      "label": "Music"
+    },
+    {
+      "id": "tsc-06-04",
+      "code": "06.04",
+      "group": "Culture and Humanities",
+      "label": "Religion and spirituality"
+    },
+    {
+      "id": "tsc-06-05",
+      "code": "06.05",
+      "group": "Culture and Humanities",
+      "label": "Mythology"
+    },
+    {
+      "id": "tsc-06-06",
+      "code": "06.06",
+      "group": "Culture and Humanities",
+      "label": "Sociology"
+    },
+    {
+      "id": "tsc-06-07",
+      "code": "06.07",
+      "group": "Culture and Humanities",
+      "label": "Anthropology"
+    },
+    {
+      "id": "tsc-06-08",
+      "code": "06.08",
+      "group": "Culture and Humanities",
+      "label": "Information technology"
+    },
+    {
+      "id": "tsc-06-09",
+      "code": "06.09",
+      "group": "Culture and Humanities",
+      "label": "Ethics and legal studies"
+    },
+    {
+      "id": "tsc-06-10",
+      "code": "06.10",
+      "group": "Culture and Humanities",
+      "label": "Education"
+    },
+    {
+      "id": "tsc-06-11",
+      "code": "06.11",
+      "group": "Culture and Humanities",
+      "label": "Entertainment"
+    },
+    {
+      "id": "tsc-06-12",
+      "code": "06.12",
+      "group": "Culture and Humanities",
+      "label": "Visual Art Forms"
+    },
+    {
+      "id": "tsc-06-13",
+      "code": "06.13",
+      "group": "Culture and Humanities",
+      "label": "Poetry"
+    },
+    {
+      "id": "tsc-06-14",
+      "code": "06.14",
+      "group": "Culture and Humanities",
+      "label": "Dance"
+    },
+    {
+      "id": "tsc-06-15",
+      "code": "06.15",
+      "group": "Culture and Humanities",
+      "label": "Miscellaneous"
+    }
+  ]
+}

@@ -1,0 +1,1515 @@
+{
+  "collection": {
+    "name": "Kuhn sections 17–18: anomalous proposals and explanatory challenges",
+    "date": "2026-08-30",
+    "record_count": 22,
+    "source_frames": [
+      "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+      "https://loc.closertotruth.com/theory"
+    ],
+    "method": "Manual identity and boundary selection from the reproducible Closer To Truth discovery registry; source descriptions were paraphrased and all entries retain exact frame locators.",
+    "phase_policy": "Collection only; no conceptual relationship edges or synthesis claims."
+  },
+  "records": [
+    {
+      "id": "kac-001-combs-s-chaotic-attractor-and-autopoietic-systems",
+      "name": "Combs’s Chaotic Attractor and Autopoietic Systems",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Conscious states are modeled as self-organizing, dynamically stable patterns near the edge of chaos, with transitions between states treated as changes among attractor regimes.",
+      "proponents": [
+        "Allan Combs"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Conscious states are modeled as self-organizing, dynamically stable patterns near the edge of chaos, with transitions between states treated as changes among attractor regimes."
+      },
+      "boundary_note": "This is a nonlinear-dynamics framing of conscious-state organization, not evidence that a specific chaotic variable is necessary or sufficient for phenomenal experience.",
+      "evidence_profile": {
+        "Current standing": "Conceptual and dynamical-systems proposal; neural operationalization remains limited.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Which measurable state variables define the proposed attractors?",
+        "What result would distinguish this account from generic brain-state dynamics?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Combs’s Chaotic Attractor and Autopoietic Systems",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/combs-s-chaotic-attractor-and-autopoietic-systems",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Autopoiesis and Cognition: The Realization of the Living",
+          "authors": "Humberto R. Maturana, Francisco J. Varela",
+          "year": 1980,
+          "url": "https://doi.org/10.1007/978-94-009-8947-4",
+          "venue": "Dordrecht: D. Reidel",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-002-dops-s-consciousness-research-and-theory",
+      "name": "DOPS’s Consciousness Research and Theory",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "The University of Virginia DOPS research program treats reports of survival, reincarnation, near-death experience, and related phenomena as a joint evidential challenge to brain-production accounts of mind.",
+      "proponents": [
+        "Edward Kelly"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "The University of Virginia DOPS research program treats reports of survival, reincarnation, near-death experience, and related phenomena as a joint evidential challenge to brain-production accounts of mind."
+      },
+      "boundary_note": "DOPS is a research program and family of interpretations, not one mechanistic theory; cataloging it does not validate survival or psi claims.",
+      "evidence_profile": {
+        "Current standing": "Long-running but highly contested anomalous-experience research program.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Which claims survive prospective, blinded, and independently replicated designs?",
+        "What positive mechanism links the heterogeneous phenomena in the program?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "DOPS’s Consciousness Research and Theory",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/dops-s-consciousness-research-and-theory",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Explanatory models for near-death experiences",
+          "authors": "B. Greyson, E.W. Kelly, E.F. Kelly",
+          "year": 2009,
+          "url": "https://doi.org/10.5040/9798400661389.ch-010",
+          "venue": "J.M. Holden, B. Greyson, D. James (Eds.), The Handbook of Near-Death Experiences, Praeger/ABC-CLIO, pp. 213-234",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-003-graboi-s-three-aspect-model",
+      "name": "Graboi’s Three-Aspect Model",
+      "aliases": [],
+      "kind": "Philosophical position",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "The proposal distinguishes physical, nonconscious mental, and conscious aspects while treating them as coordinated expressions within a broader ontology.",
+      "proponents": [
+        "Daniel G. Graboi"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "The proposal distinguishes physical, nonconscious mental, and conscious aspects while treating them as coordinated expressions within a broader ontology."
+      },
+      "boundary_note": "This named three-aspect proposal is kept separate from Pereira's triple-aspect monism and generic dual-aspect theories; its independent scholarly footprint is small.",
+      "evidence_profile": {
+        "Current standing": "Speculative metaphysical proposal with sparse independent assessment.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "What individuates the three aspects without turning them into substances?",
+        "Does the model yield empirical consequences beyond other aspect monisms?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Graboi’s Three-Aspect Model",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/graboi-s-three-aspect-model",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "A three-aspect model for consciousness",
+          "authors": "Daniel G. Graboi",
+          "year": 2023,
+          "url": "https://doi.org/10.31275/20232873",
+          "venue": "J. Sci. Explor., 37 (3)",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-004-grinberg-s-syntergic-neuronal-field-theory",
+      "name": "Grinberg’s Syntergic/Neuronal Field Theory",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Syntergic theory proposes that neural activity transforms or interacts with an informational lattice to generate experienced reality, combining neurophysiological and field-like claims.",
+      "proponents": [
+        "Jacobo Grinberg"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Syntergic theory proposes that neural activity transforms or interacts with an informational lattice to generate experienced reality, combining neurophysiological and field-like claims."
+      },
+      "boundary_note": "The neural-field and lattice claims are not established by standard neuroscience; controversial transferred-potential reports do not by themselves verify the full theory.",
+      "evidence_profile": {
+        "Current standing": "Historically documented, non-mainstream field proposal with disputed evidence.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Can the lattice construct be independently operationalized?",
+        "Can preregistered replications separate ordinary coupling and artifact from the proposed interaction?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Grinberg’s Syntergic/Neuronal Field Theory",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/grinberg-s-syntergic-neuronal-field-theory",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "The transformation of neuronal activity into conscious experience: the syntergic theory",
+          "authors": "Jacobo Grinberg-Zylberbaum",
+          "year": 1981,
+          "url": "https://www.sciencedirect.com/science/article/pii/S014017508180036X",
+          "venue": "J. Soc. Biol. Struct., 4, pp. 201-210",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-005-harp-s-universal-or-god-consciousness",
+      "name": "Harp’s Universal or God Consciousness",
+      "aliases": [],
+      "kind": "Philosophical position",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "The account places individual consciousness within or in relation to a universal divine consciousness and uses that ontology to interpret finite minds.",
+      "proponents": [
+        "Dennis Harp"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "The account places individual consciousness within or in relation to a universal divine consciousness and uses that ontology to interpret finite minds."
+      },
+      "boundary_note": "This is a theological-metaphysical proposal, not a neuroscientific model or an empirically confirmed cosmology.",
+      "evidence_profile": {
+        "Current standing": "Speculative theological position with limited independent literature.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "How is individual subjectivity individuated within universal consciousness?",
+        "What would count against the proposed universal-consciousness ontology?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Harp’s Universal or God Consciousness",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/harp-s-universal-or-god-consciousness",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-006-hiller-s-eternal-discarnate-consciousness",
+      "name": "Hiller’s Eternal Discarnate Consciousness",
+      "aliases": [],
+      "kind": "Philosophical position",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "The proposal treats consciousness as fundamentally nonphysical and capable of existing independently of embodied brains, with embodiment constraining rather than producing it.",
+      "proponents": [
+        "Jack H. Hiller"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "The proposal treats consciousness as fundamentally nonphysical and capable of existing independently of embodied brains, with embodiment constraining rather than producing it."
+      },
+      "boundary_note": "Claims of discarnate persistence are metaphysical and remain unsupported by a generally accepted evidential protocol.",
+      "evidence_profile": {
+        "Current standing": "Non-mainstream survival-oriented metaphysics.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "What establishes personal continuity without neural realization?",
+        "Which observation would discriminate discarnate consciousness from brain-dependent alternatives?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Hiller’s Eternal Discarnate Consciousness",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/hiller-s-eternal-discarnate-consciousness",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-007-josephson-s-psi-informed-models",
+      "name": "Josephson’s Psi-Informed Models",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Josephson explores whether physics must be extended to accommodate mind, biological organization, and reported psi phenomena, using quantum and complex-systems ideas as conceptual resources.",
+      "proponents": [
+        "Brian Josephson"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Josephson explores whether physics must be extended to accommodate mind, biological organization, and reported psi phenomena, using quantum and complex-systems ideas as conceptual resources."
+      },
+      "boundary_note": "A Nobel Prize in condensed-matter physics does not confer empirical support on these later consciousness and psi proposals; quantum terminology is not itself a mechanism.",
+      "evidence_profile": {
+        "Current standing": "Physics-inspired speculative program outside mainstream consciousness science.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Can the proposal specify a quantitative interaction law?",
+        "Are any psi-linked predictions robust under independent high-powered replication?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Josephson’s Psi-Informed Models",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/josephson-s-psi-informed-models",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "How we might be able to Understand the Brain",
+          "authors": "Brian Josephson",
+          "year": 2004,
+          "url": "https://web-archive.southampton.ac.uk/cogprints.org/5225/02/ICCS2004.paper.pdf",
+          "venue": "Google Scholar",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-008-jung-s-collective-unconscious-and-synchronicity",
+      "name": "Jung’s Collective Unconscious and Synchronicity",
+      "aliases": [],
+      "kind": "Historical tradition",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Jungian psychology posits inherited archetypal structures in a collective unconscious and uses synchronicity to describe meaningful acausal correspondences between psychic and external events.",
+      "proponents": [
+        "Carl Jung"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Jungian psychology posits inherited archetypal structures in a collective unconscious and uses synchronicity to describe meaningful acausal correspondences between psychic and external events."
+      },
+      "boundary_note": "The collective unconscious is a depth-psychology construct; synchronicity is not an accepted causal mechanism in contemporary psychology or physics.",
+      "evidence_profile": {
+        "Current standing": "Historically influential interpretive framework with contested empirical status.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Can archetypal regularities be separated from cultural transmission and interpretive flexibility?",
+        "Can synchronicity generate prospective predictions rather than retrospective meaning?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Jung’s Collective Unconscious and Synchronicity",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/jung-s-collective-unconscious-and-synchronicity",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Quantum Approaches to Consciousness",
+          "authors": "Harald Atmanspacher",
+          "year": 2020,
+          "url": "https://plato.stanford.edu/archives/sum2020/entries/qt-consciousness/",
+          "venue": "Stanford Encyclopedia of Philosophy Archive",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-009-radin-s-challenge-to-materialism",
+      "name": "Radin’s Challenge to Materialism",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Radin argues that experimental parapsychology and anomalous experience undermine strictly brain-bound materialist accounts of consciousness.",
+      "proponents": [
+        "Dean Radin"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Radin argues that experimental parapsychology and anomalous experience undermine strictly brain-bound materialist accounts of consciousness."
+      },
+      "boundary_note": "This is an evidential challenge, not a positive theory of consciousness; the underlying meta-analytic methods and claimed effects remain disputed.",
+      "evidence_profile": {
+        "Current standing": "Contested parapsychological argument against materialism.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Do claimed effects persist under adversarial collaboration and preregistration?",
+        "Even if an anomaly were established, which ontology would it favor?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Radin’s Challenge to Materialism",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/radin-s-challenge-to-materialism",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Is consciousness irreducible?",
+          "authors": "Dean Radin",
+          "year": 2007,
+          "url": "https://closertotruth.com/contributor/dean",
+          "venue": "Closer To Truth,  closertotruth.com/video/radde-009/?referrer=7845. Dean Radin on Closer To Truth—7 CTT TV episodes and 12 CTT videos",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-010-sheldrake-s-morphic-fields",
+      "name": "Sheldrake’s Morphic Fields",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Morphic-resonance theory proposes that self-organizing systems inherit form and behavioral tendencies through nonlocal similarities to prior systems rather than through ordinary local causes alone.",
+      "proponents": [
+        "Rupert Sheldrake"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Morphic-resonance theory proposes that self-organizing systems inherit form and behavioral tendencies through nonlocal similarities to prior systems rather than through ordinary local causes alone."
+      },
+      "boundary_note": "Morphic fields are not accepted biological fields, and the proposal should not be conflated with developmental morphogen gradients or standard learning effects.",
+      "evidence_profile": {
+        "Current standing": "Well-known but non-mainstream and frequently criticized hypothesis.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Can morphic resonance be isolated from genetic, environmental, and publication effects?",
+        "What physical or informational quantity carries the proposed influence?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Sheldrake’s Morphic Fields",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2026,
+          "url": "https://loc.closertotruth.com/theory/sheldrake-s-morphic-fields",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Resonance and Morphic Fields—an Introduction.",
+          "authors": "Rupert Sheldrake",
+          "year": "n.d.",
+          "url": "https://www.sheldrake.org/research/morphic-resonance/introduction",
+          "venue": "Google Scholar",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-011-swimme-s-cosmogenesis",
+      "name": "Swimme’s Cosmogenesis",
+      "aliases": [],
+      "kind": "Philosophical position",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Cosmogenesis presents consciousness and value within an evolving-universe narrative in which cosmological, biological, and cultural creativity form a continuous developmental story.",
+      "proponents": [
+        "Brian Swimme"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Cosmogenesis presents consciousness and value within an evolving-universe narrative in which cosmological, biological, and cultural creativity form a continuous developmental story."
+      },
+      "boundary_note": "This is a synthetic cosmological philosophy and spiritual narrative, not a discriminating scientific theory of phenomenal consciousness.",
+      "evidence_profile": {
+        "Current standing": "Interpretive evolutionary-cosmology framework.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Which claims are metaphorical, theological, or empirically testable?",
+        "How does the narrative explain subjectivity rather than situate it historically?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Swimme’s Cosmogenesis",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/swimme-s-cosmogenesis",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-012-campbell-s-theory-of-everything",
+      "name": "T. Campbell’s Theory of Everything",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Campbell's model treats physical reality as a virtual information environment embedded in a larger consciousness system whose evolution is described in information-processing terms.",
+      "proponents": [
+        "Thomas Campbell"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Campbell's model treats physical reality as a virtual information environment embedded in a larger consciousness system whose evolution is described in information-processing terms."
+      },
+      "boundary_note": "This self-authored virtual-reality cosmology is not established by computer science or physics and is distinct from simulation arguments that do not posit primordial consciousness.",
+      "evidence_profile": {
+        "Current standing": "Non-mainstream informational metaphysics.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "What formal dynamics govern the larger consciousness system?",
+        "Which observation uniquely favors this model over other simulation or idealist accounts?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "T. Campbell’s Theory of Everything",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2026,
+          "url": "https://loc.closertotruth.com/theory/campbell-s-theory-of-everything",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "My big toe: a Trilogy unifying philosophy, physics, and metaphysics: awakening, discovery, inner workings. Lightning strike books. My big toe",
+          "authors": "Thomas Campbell",
+          "year": 2007,
+          "url": "https://www.my-big-toe.com",
+          "venue": "(n.d.) website",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-013-tart-s-emergent-interactionism",
+      "name": "Tart’s Emergent Interactionism",
+      "aliases": [],
+      "kind": "Philosophical position",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Tart's pragmatic dualism proposes consciousness as a system property emerging from interaction between brain-body processes and a distinct mental or life system, with psi assigned an interaction role.",
+      "proponents": [
+        "Charles Tart"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Tart's pragmatic dualism proposes consciousness as a system property emerging from interaction between brain-body processes and a distinct mental or life system, with psi assigned an interaction role."
+      },
+      "boundary_note": "The account depends on controversial psi claims and differs from ordinary emergent physicalism because one interacting system is explicitly nonphysical.",
+      "evidence_profile": {
+        "Current standing": "Historically documented, non-mainstream interactionist proposal.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "How are the physical and mental-life systems individuated and coupled?",
+        "Can auto-psi and allo-psi be operationalized without circular appeal to anomalies?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Tart’s Emergent Interactionism",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/tart-s-emergent-interactionism",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-014-wilber-s-integral-theory",
+      "name": "Wilber’s Integral Theory",
+      "aliases": [],
+      "kind": "Model or framework",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Integral theory organizes subjective, behavioral, cultural, and social perspectives together with developmental levels, states, and types in a broad map of consciousness and human development.",
+      "proponents": [
+        "Ken Wilber"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Integral theory organizes subjective, behavioral, cultural, and social perspectives together with developmental levels, states, and types in a broad map of consciousness and human development."
+      },
+      "boundary_note": "It is a synthetic metatheory and classificatory framework, not one neural mechanism or a single experimentally adjudicable theory of phenomenal consciousness.",
+      "evidence_profile": {
+        "Current standing": "Influential in transpersonal and integral communities; limited uptake in mainstream experimental science.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Which components have independent operational definitions and validation?",
+        "How should incompatible source traditions be integrated without erasing their differences?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Wilber’s Integral Theory",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/wilber-s-integral-theory",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Integral theory",
+          "authors": "Wikipedia",
+          "year": 2024,
+          "url": "https://en.wikipedia.org/wiki/Integral_theory",
+          "venue": "Wikipedia, the free Encyclopedia",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-015-bitbol-s-phenomenological-ontology",
+      "name": "Bitbol’s Phenomenological Ontology",
+      "aliases": [],
+      "kind": "Philosophical position",
+      "domain": "Anomalous and altered-state proposals",
+      "tradition": "Anomalous & Altered States",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Bitbol uses a radical phenomenological stance to suspend objectivist assumptions and examine whether consciousness is a condition for articulating ontology rather than another object within it.",
+      "proponents": [
+        "Michel Bitbol"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Bitbol uses a radical phenomenological stance to suspend objectivist assumptions and examine whether consciousness is a condition for articulating ontology rather than another object within it."
+      },
+      "boundary_note": "This is an epistemic and phenomenological interpretation, not a claim that altered-state reports directly prove a new physical entity.",
+      "evidence_profile": {
+        "Current standing": "Contemporary phenomenological philosophy with interpretive, not mechanistic, aims.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "How does methodological suspension constrain positive ontological claims?",
+        "Can the stance guide empirical comparison without presupposing objectivism?"
+      ],
+      "keywords": [
+        "Anomalous & Altered States",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Bitbol’s Phenomenological Ontology",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2026,
+          "url": "https://loc.closertotruth.com/theory/bitbol-s-phenomenological-ontology",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Vers une ontologie indirecte: sources et enjeux critiques de l'appel à l'ontologie chez Merleau-Ponty",
+          "authors": "Emmanuel de Saint Aubert",
+          "year": 2006,
+          "url": "https://philpapers.org/rec/AUBVUO",
+          "venue": "Vrin",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-016-nagel-s-mind-and-cosmos",
+      "name": "Nagel’s Mind and Cosmos",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Nagel argues that reductive materialist naturalism has not adequately explained consciousness, cognition, and value and considers teleological or otherwise expanded naturalistic alternatives.",
+      "proponents": [
+        "Thomas Nagel"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Nagel argues that reductive materialist naturalism has not adequately explained consciousness, cognition, and value and considers teleological or otherwise expanded naturalistic alternatives."
+      },
+      "boundary_note": "The argument challenges explanatory sufficiency; it does not supply a worked neural theory or establish any specific nonmaterialist ontology.",
+      "evidence_profile": {
+        "Current standing": "Prominent and controversial philosophical critique of reductive naturalism.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Can a nonintentional teleology be made scientifically precise?",
+        "Which expanded naturalism best explains consciousness without explanatory regress?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Nagel’s Mind and Cosmos",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/nagel-s-mind-and-cosmos",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "What Is It Like to Be a Bat?",
+          "authors": "Thomas Nagel",
+          "year": 1974,
+          "url": "https://doi.org/10.2307/2183914",
+          "venue": "Phil. Rev., 83 (4), pp. 435-450",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-017-eagleman-s-possibilianism",
+      "name": "Eagleman’s Possibilianism",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Possibilianism recommends holding multiple live metaphysical possibilities open when current evidence underdetermines questions about mind, reality, and existence.",
+      "proponents": [
+        "David Eagleman"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Possibilianism recommends holding multiple live metaphysical possibilities open when current evidence underdetermines questions about mind, reality, and existence."
+      },
+      "boundary_note": "This is an epistemic attitude toward uncertainty, not a substantive theory of consciousness.",
+      "evidence_profile": {
+        "Current standing": "Public-facing methodological stance rather than a research theory.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "What evidential thresholds move a possibility into or out of serious consideration?",
+        "How does the stance avoid treating poorly supported options as evidential peers?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Eagleman’s Possibilianism",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2026,
+          "url": "https://loc.closertotruth.com/theory/eagleman-s-possibilianism",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "What is Consciousness? David Eagleman",
+          "authors": "Eagleman, David",
+          "year": "n.d.",
+          "url": "https://eagleman.com/podcast/what-is-consciousness/",
+          "venue": "Google Scholar",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-018-tallis-s-anti-neuromania-skepticism",
+      "name": "Tallis’s Anti-Neuromania Skepticism",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Tallis argues that neural descriptions are routinely overextended into explanations of consciousness, agency, culture, and personhood that they do not yet provide.",
+      "proponents": [
+        "Raymond Tallis"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Tallis argues that neural descriptions are routinely overextended into explanations of consciousness, agency, culture, and personhood that they do not yet provide."
+      },
+      "boundary_note": "The critique targets explanatory overreach; it does not deny neural dependence or itself constitute a positive consciousness mechanism.",
+      "evidence_profile": {
+        "Current standing": "Philosophical critique of reductionist explanatory claims.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Which bridge principles would make neural explanations genuinely constitutive?",
+        "Where is the boundary between useful neural explanation and category error?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Tallis’s Anti-Neuromania Skepticism",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2026,
+          "url": "https://loc.closertotruth.com/theory/tallis-s-anti-neuromania-skepticism",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "You won't find consciousness in the brain",
+          "authors": "Raymond Tallis",
+          "year": 2010,
+          "url": "https://www.newscientist.com/article/mg20527427-100-you-wont-find-consciousness-in-the-brain/",
+          "venue": "New Sci.",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-019-nagasawa-s-mind-body-problem-in-an-infinitely-decomposable-universe",
+      "name": "Nagasawa’s Mind-Body Problem in an Infinitely Decomposable Universe",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Nagasawa asks whether endless physical decomposability blocks any final microphysical level from grounding a complete reductive explanation of consciousness.",
+      "proponents": [
+        "Yujin Nagasawa"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Nagasawa asks whether endless physical decomposability blocks any final microphysical level from grounding a complete reductive explanation of consciousness."
+      },
+      "boundary_note": "This is a conditional metaphysical challenge based on infinite decomposition, not empirical evidence that the physical world is infinitely decomposable.",
+      "evidence_profile": {
+        "Current standing": "Analytic philosophical challenge to bottom-up reduction.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Does reduction require a fundamental physical level?",
+        "Would grounding or structural explanation survive infinite decomposition?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Nagasawa’s Mind-Body Problem in an Infinitely Decomposable Universe",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/nagasawa-s-mind-body-problem-in-an-infinitely-decomposable-universe",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Anything non-physical about the mind? Closer to truth",
+          "authors": "Yujin Nagasawa",
+          "year": 2012,
+          "url": "https://closertotruth.com/video/nagyu-004/?referrer=7955",
+          "venue": "Yujin Nagasawa on Closer To Truth—31 CTT videos and 9 CTT TV episodes— Google Scholar",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-020-musser-s-is-it-really-so-hard",
+      "name": "Musser’s “Is It Really So Hard?”",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Musser examines whether relational, predictive, and self-modeling approaches can reframe why consciousness appears uniquely difficult rather than treating the hard problem as methodologically isolated.",
+      "proponents": [
+        "George Musser"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Musser examines whether relational, predictive, and self-modeling approaches can reframe why consciousness appears uniquely difficult rather than treating the hard problem as methodologically isolated."
+      },
+      "boundary_note": "This is a comparative synthesis and challenge framing, not one independently specified theory.",
+      "evidence_profile": {
+        "Current standing": "Science-synthesis perspective requiring theory-by-theory evaluation.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Which reframings make novel predictions rather than rename the explanatory gap?",
+        "Can relational accounts explain phenomenal character as well as access and report?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Musser’s “Is It Really So Hard?”",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2026,
+          "url": "https://loc.closertotruth.com/theory/musser-s-is-it-really-so-hard",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Reality is your brain's best guess",
+          "authors": "George Musser",
+          "year": 2023,
+          "url": "https://nautil.us/reality-is-your-brains-best-guess-312269/",
+          "venue": "Nautilus",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-021-davies-s-consciousness-in-the-cosmos",
+      "name": "Davies’s Consciousness in the Cosmos",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Davies situates consciousness within questions about information, biological organization, cosmology, and whether current physics exhausts the principles needed to explain observers.",
+      "proponents": [
+        "Paul Davies"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Davies situates consciousness within questions about information, biological organization, cosmology, and whether current physics exhausts the principles needed to explain observers."
+      },
+      "boundary_note": "The cosmological framing does not establish that consciousness is fundamental or that information alone is conscious.",
+      "evidence_profile": {
+        "Current standing": "Speculative physics-informed challenge and research question.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "What additional principle links information processing to subjectivity?",
+        "Can cosmological claims produce observations unavailable to biological theories?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "Davies’s Consciousness in the Cosmos",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/davies-s-consciousness-in-the-cosmos",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "Is consciousness fundamental?",
+          "authors": "Paul Davies",
+          "year": 2006,
+          "url": "https://closertotruth.com/video/davpa-013/?referrer=8141",
+          "venue": "Closer To Truth",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "kac-022-s-harris-s-mystery-of-consciousness",
+      "name": "S. Harris’s Mystery of Consciousness",
+      "aliases": [],
+      "kind": "Argument / challenge",
+      "domain": "Meta-theoretical challenges",
+      "tradition": "Challenge",
+      "status": "documented · contested · non-consensus",
+      "status_note": "Included for landscape coverage; inclusion is not evidential endorsement.",
+      "summary": "Harris emphasizes that correlations between brain activity and experience leave unresolved why physical processing is accompanied by first-person consciousness at all.",
+      "proponents": [
+        "Sam Harris"
+      ],
+      "era": "20th–21st century",
+      "scope": "Kuhn landscape sections 17–18 and dedicated source profile",
+      "claim_scope": {
+        "Core scope": "Harris emphasizes that correlations between brain activity and experience leave unresolved why physical processing is accompanied by first-person consciousness at all."
+      },
+      "boundary_note": "This restates an explanatory challenge and contemplative motivation; it is not a distinct mechanism and should not be merged with Harris's other positions.",
+      "evidence_profile": {
+        "Current standing": "Public philosophical formulation of the explanatory mystery.",
+        "Collection basis": "Named in Kuhn's inclusive taxonomy and retained in a dedicated Closer To Truth source profile.",
+        "Review limit": "This pass establishes identity, attribution, scope, and locators; it does not adjudicate truth, replication, or evidential weight."
+      },
+      "open_questions": [
+        "Does the formulation differ substantively from the hard problem or explanatory gap?",
+        "What evidence could discriminate its favored interpretations?"
+      ],
+      "keywords": [
+        "Challenge",
+        "Kuhn landscape",
+        "non-consensus proposal"
+      ],
+      "citations": [
+        {
+          "title": "S. Harris’s Mystery of Consciousness",
+          "authors": "Closer To Truth, Landscape of Consciousness",
+          "year": 2025,
+          "url": "https://loc.closertotruth.com/theory/s-harris-s-mystery-of-consciousness",
+          "venue": "Landscape of Consciousness",
+          "authority": "authoritative-secondary",
+          "verification": "human-verified",
+          "retrieved": "2026-08-30",
+          "note": "Exact named-theory profile and retained reference trail."
+        },
+        {
+          "title": "A Landscape of Consciousness: Toward a Taxonomy of Explanations and Implications",
+          "authors": "Robert Lawrence Kuhn",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/j.pbiomolbio.2023.12.003",
+          "doi": "10.1016/j.pbiomolbio.2023.12.003",
+          "venue": "Progress in Biophysics and Molecular Biology",
+          "authority": "authoritative-secondary",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30",
+          "note": "Inclusive landscape source; inclusion is not endorsement."
+        },
+        {
+          "title": "The mystery of consciousness. Part I, October 11, 2011; Part II, October 19, 2011",
+          "authors": "Sam Harris",
+          "year": 2011,
+          "url": "https://www.samharris.org/blog/the-mystery-of-consciousness",
+          "venue": "SamHarris.org",
+          "authority": "referenced-source-locator",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ],
+      "review_state": "provisional"
+    }
+  ]
+}

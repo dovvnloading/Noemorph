@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "title": "Focused prior-art screen for selected semantic candidates",
+    "screened_at": "2026-08-30",
+    "method": "Focused web and scholarly-source screen. This is not a systematic review.",
+    "epistemic_note": "A focused search can locate prior art; failure to locate a direct comparison does not establish novelty.",
+    "entry_count": 14
+  },
+  "entries": [
+    {
+      "record_ids": [
+        "cross-breadth-057",
+        "cross-breadth-058"
+      ],
+      "status": "normalize-record-before-relation-review",
+      "direct_comparison": "No focused pairwise comparison was located. A broad 2026 review places several Pacific and Native Hawaiian models in one comparative synthesis while preserving culture-specific meanings.",
+      "assessment": "The thematic resemblance is real but the Native Hawaiian endpoint appears to combine distinct concepts and named models. Split it into source-specific records before evaluating a relationship.",
+      "caution": "Do not infer equivalence, lineage, or cultural interchangeability from shared relational-health vocabulary.",
+      "recommended_relation_tag": "artifact-risk",
+      "sources": [
+        {
+          "title": "He awa whiria: weaving Indigenous health and wellbeing models into the mainstream",
+          "authors": "Qina'au et al.",
+          "year": 2026,
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1809539/full",
+          "role": "Broad comparative review; not a focused equivalence claim"
+        },
+        {
+          "title": "Pacific peoples and mental health: A paper for the Pacific Health and Disability Action Plan review",
+          "authors": "New Zealand Ministry of Health",
+          "year": 2008,
+          "url": "https://www.health.govt.nz/system/files/2011-12/pacific-peoples-and-menta-health-may08.pdf",
+          "role": "Authoritative description of the Fonofale model"
+        },
+        {
+          "title": "I Ola Lahui: An Integral Model of Care for Native Hawaiians",
+          "authors": "Daniels et al.",
+          "year": 2022,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9783813/",
+          "role": "Native Hawaiian system-of-care account centered on land, relation, and collective wellbeing"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "candidate-comparative-animal-metacognition",
+        "states-clinical-050-judgement-bias"
+      ],
+      "status": "retain-as-cross-paradigm-research-lead",
+      "direct_comparison": "No direct comparison of the two named paradigm families was located in the focused screen.",
+      "assessment": "Both use decisions under uncertainty, but they target different constructs. The useful lead is a rival-explanation or within-subject test: affective state may alter apparent uncertainty monitoring without demonstrating metarepresentation.",
+      "caution": "Do not treat judgment bias and metacognitive monitoring as measures of the same state.",
+      "recommended_relation_tag": "possible-contrast",
+      "sources": [
+        {
+          "title": "Uncertainty Monitoring and Metacognition by Animals",
+          "authors": "Smith and Washburn",
+          "year": 2005,
+          "url": "https://www.psychologicalscience.org/journals/current-directions/j.0963-7214.2005.00327.x/",
+          "role": "Comparative metacognition and uncertainty-monitoring review"
+        },
+        {
+          "title": "Animal behaviour: Cognitive bias and affective state",
+          "authors": "Harding, Paul, and Mendl",
+          "year": 2004,
+          "url": "https://www.nature.com/articles/427312a",
+          "role": "Foundational judgment-bias experiment"
+        },
+        {
+          "title": "A meta-analysis of animal studies on judgment bias",
+          "authors": "Lagisz et al.",
+          "year": 2020,
+          "url": "https://www.sciencedirect.com/science/article/pii/S0149763420304735",
+          "role": "Evidence synthesis for welfare and affective-state effects"
+        },
+        {
+          "title": "The emergence of metacognition: affect and uncertainty in animals",
+          "authors": "Carruthers and Ritchie",
+          "year": 2012,
+          "url": "https://academic.oup.com/book/11865/chapter-abstract/160986183",
+          "role": "Affective first-order rival explanation for apparent metacognitive performance"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "candidate-affective-computing-framework",
+        "candidate-process-model-emotion-regulation"
+      ],
+      "status": "direct-prior-art-confirmed",
+      "direct_comparison": "Direct prior art was located: Gross's emotion-regulation theory has been explicitly formalized as a computational model for artificial and virtual agents within affective computing.",
+      "assessment": "This is an established implementation bridge, not a new connection discovered by the embedding run.",
+      "caution": "Affective computing is a broad engineering field; Gross's process model is one psychological account and the two are not equivalent.",
+      "recommended_relation_tag": "possible-lineage",
+      "sources": [
+        {
+          "title": "Affective Computing",
+          "authors": "Rosalind Picard",
+          "year": 1995,
+          "url": "https://vismod.media.mit.edu/tech-reports/TR-321.pdf",
+          "role": "Foundational definition of affective computing"
+        },
+        {
+          "title": "The emerging field of emotion regulation: An integrative review",
+          "authors": "James J. Gross",
+          "year": 1998,
+          "url": "https://doi.org/10.1037/1089-2680.2.3.271",
+          "role": "Primary process-model source"
+        },
+        {
+          "title": "A computational model based on Gross' emotion regulation theory",
+          "authors": "Bosse, Pontier, and Treur",
+          "year": 2010,
+          "url": "https://www.sciencedirect.com/science/article/pii/S1389041709000448",
+          "role": "Explicit computational implementation bridge"
+        },
+        {
+          "title": "Designing for emotion regulation interventions: an agenda for HCI theory and research",
+          "authors": "Slovak et al.",
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2204.00118",
+          "role": "Technology-intervention agenda organized around the process model"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "states-clinical-043-pas",
+        "states-clinical-056-no-report"
+      ],
+      "status": "established-methodological-bridge",
+      "direct_comparison": "No dedicated head-to-head validation was located. Existing reviews place subjective visibility scales and no-report methods within the same measurement problem.",
+      "assessment": "The pair is a useful methodological contrast and calibration dependency: one collects graded report, while the other reduces overt reporting but normally depends on report-calibrated indicators.",
+      "caution": "Do not infer that a no-report condition removes every post-perceptual process or that PAS directly validates every no-report proxy.",
+      "recommended_relation_tag": "shared-method",
+      "sources": [
+        {
+          "title": "Introspection and subliminal perception",
+          "authors": "Ramsøy and Overgaard",
+          "year": 2004,
+          "url": "https://pure.au.dk/portal/en/publications/introspection-and-subliminal-perception/",
+          "role": "Introduction of the Perceptual Awareness Scale"
+        },
+        {
+          "title": "No-Report Paradigms: Extracting the True Neural Correlates of Consciousness",
+          "authors": "Tsuchiya et al.",
+          "year": 2015,
+          "url": "https://www.sciencedirect.com/science/article/pii/S1364661315002521",
+          "role": "Canonical no-report methods proposal"
+        },
+        {
+          "title": "What Is Wrong with the No-Report Paradigm and How to Fix It",
+          "authors": "Ned Block",
+          "year": 2019,
+          "url": "https://www.sciencedirect.com/science/article/pii/S1364661319302360",
+          "role": "Methodological criticism of no-report inference"
+        },
+        {
+          "title": "The Role of Report in the Neuroscience of Consciousness",
+          "authors": "Duman et al.",
+          "year": 2022,
+          "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2022.861517/full",
+          "role": "Review of report and no-report inference limits"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "gap-neuro-003-kolmogorov-theory-consciousness",
+        "seed-062-free-energy-principle-active-inference"
+      ],
+      "status": "direct-conceptual-comparison-found",
+      "direct_comparison": "Ruffini explicitly describes predictive processing as closely related to the Kolmogorov account while distinguishing algorithmic description length from Bayesian inference. No formal equivalence with active-inference policy selection was located.",
+      "assessment": "This is established conceptual prior art with an unresolved formal question, not evidence that Kolmogorov complexity and variational complexity are identical.",
+      "caution": "The models use different mathematical notions of complexity. A relation stronger than conceptual comparison requires a formal derivation and divergent predictions.",
+      "recommended_relation_tag": "possible-convergence",
+      "sources": [
+        {
+          "title": "An algorithmic information theory of consciousness",
+          "authors": "Giulio Ruffini",
+          "year": 2017,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6007168/",
+          "role": "Primary account and explicit predictive-processing comparison"
+        },
+        {
+          "title": "The free-energy principle: a unified brain theory?",
+          "authors": "Karl Friston",
+          "year": 2010,
+          "url": "https://www.nature.com/articles/nrn2787",
+          "role": "Primary free-energy formulation and variational-complexity context"
+        },
+        {
+          "title": "The predictive global neuronal workspace: a formal active inference model of visual consciousness",
+          "authors": "Whyte and Smith",
+          "year": 2021,
+          "url": "https://link.springer.com/article/10.1007/s13164-021-00579-w",
+          "role": "Active-inference consciousness model and qualification of current scope"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "frontier-science-004-pure-awareness-entropy",
+        "seed-060-predictive-processing-approaches-to-consciousness"
+      ],
+      "status": "direct-conceptual-lineage-confirmed",
+      "direct_comparison": "The Pure-Awareness Entropy Model is explicitly developed within an active-inference and predictive-processing lineage. A 2021 precursor had already applied predictive processing to deconstructive meditation and pure or nondual awareness. The focused screen did not locate independent head-to-head validation of the 2026 model's state-specific entropy claims against predictive-processing accounts generally.",
+      "assessment": "This is established conceptual lineage rather than a new embedding-discovered connection. The reviewable question is whether the model adds discriminating state-level predictions beyond the predictive-processing framework it inherits.",
+      "caution": "A predictive-processing foundation does not by itself validate the proposed entropy trajectory, minimal-phenomenology interpretation, or neural implementation.",
+      "recommended_relation_tag": "possible-lineage",
+      "sources": [
+        {
+          "title": "Pure awareness, entropy, and the foundation of perception",
+          "authors": "Mago, Chandaria, Miller, and Laukkonen",
+          "year": 2026,
+          "url": "https://doi.org/10.1016/j.neucom.2026.133443",
+          "role": "Primary state-specific model and proposed simulation"
+        },
+        {
+          "title": "A beautiful loop: An active inference theory of consciousness",
+          "authors": "Laukkonen, Friston, and Chandaria",
+          "year": 2025,
+          "url": "https://doi.org/10.1016/j.neubiorev.2025.106296",
+          "role": "Direct active-inference theory in the model's conceptual lineage"
+        },
+        {
+          "title": "From many to (n)one: Meditation and the plasticity of the predictive mind",
+          "authors": "Laukkonen and Slagter",
+          "year": 2021,
+          "url": "https://doi.org/10.1016/j.neubiorev.2021.06.021",
+          "role": "Predictive-processing precursor for deconstructive meditation and pure or nondual awareness"
+        },
+        {
+          "title": "Predictive processing as a systematic basis for identifying the neural correlates of consciousness",
+          "authors": "Hohwy and Seth",
+          "year": 2020,
+          "url": "https://doi.org/10.33735/phimisci.2020.II.64",
+          "role": "Primary predictive-processing framework for consciousness research"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "frontier-science-004-pure-awareness-entropy",
+        "gap-neuro-003-kolmogorov-theory-consciousness"
+      ],
+      "status": "direct-shared-explanandum-prior-art-confirmed",
+      "direct_comparison": "A separate 2026 peer-reviewed paper directly applies the algorithmic-agent and algorithmic-information program to pure awareness and minimal experience, and proposes predictive-processing whole-brain models. No formal head-to-head comparison with the Pure-Awareness Entropy Model was located.",
+      "assessment": "Direct prior art therefore exists for the algorithmic-information-to-pure-awareness bridge; the embedding did not discover that connection. A still-useful discriminating test is to analyze the same simulated or empirical time series with dynamical-entropy and algorithmic-compressibility proxies, asking whether increased variability diverges from structured, recursively generated complexity.",
+      "caution": "Shannon or dynamical entropy is not Kolmogorov complexity; apparent entropy can coexist with algorithmic compressibility. Reduced phenomenal content also does not entail lower or higher neural entropy without an explicit measurement model.",
+      "recommended_relation_tag": "possible-convergence",
+      "sources": [
+        {
+          "title": "Pure awareness, entropy, and the foundation of perception",
+          "authors": "Mago, Chandaria, Miller, and Laukkonen",
+          "year": 2026,
+          "url": "https://doi.org/10.1016/j.neucom.2026.133443",
+          "role": "Primary model proposing an entropy trajectory for minimal phenomenal experience"
+        },
+        {
+          "title": "An algorithmic information theory of consciousness",
+          "authors": "Giulio Ruffini",
+          "year": 2017,
+          "url": "https://doi.org/10.1093/nc/nix019",
+          "role": "Primary algorithmic-complexity account and explicit distinction from ordinary entropy"
+        },
+        {
+          "title": "An algorithmic agent model of pure awareness and minimal experiences",
+          "authors": "Lopez-Sola, Sanchez-Todo, Vohryzek, and Ruffini",
+          "year": 2026,
+          "url": "https://doi.org/10.33735/phimisci.2026.12136",
+          "role": "Direct algorithmic-agent application to pure awareness and proposed predictive-processing implementation path"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "emerging-breadth-027-universality-criterion",
+        "frontier-science-001-multiple-generator-hypothesis"
+      ],
+      "status": "retain-as-meta-theoretical-compatibility-question",
+      "direct_comparison": "No direct comparison between the Universality Criterion and the Multiple Generator Hypothesis was located in the focused primary-source screen.",
+      "assessment": "The productive question is whether universality can operate as a meta-level requirement that admits multiple independently sufficient generators, or whether a universal theory must identify one generator-independent principle that constrains them all.",
+      "caution": "Universality across possible systems and plurality of sufficient generators within human brains are different analytical axes. Their coexistence, tension, or incompatibility requires explicit formal criteria rather than semantic proximity.",
+      "recommended_relation_tag": "possible-contrast",
+      "sources": [
+        {
+          "title": "Toward a universal theory of consciousness",
+          "authors": "Kanai and Fujisawa",
+          "year": 2024,
+          "url": "https://doi.org/10.1093/nc/niae022",
+          "role": "Primary universality criterion and cross-system scope argument"
+        },
+        {
+          "title": "The multiple generator hypothesis of consciousness",
+          "authors": "Kirkeby-Hinrup, Fink, and Overgaard",
+          "year": 2025,
+          "url": "https://doi.org/10.1093/nc/niaf035",
+          "role": "Primary generator-plurality hypothesis"
+        },
+        {
+          "title": "Methodological issues in consciousness research: theory comparison, the role of empirical evidence, and a replication crisis",
+          "authors": "Kirkeby-Hinrup, Stephens, Sjostrand, and Overgaard",
+          "year": 2025,
+          "url": "https://doi.org/10.3389/fpsyg.2025.1633907",
+          "role": "Methodological placement of multiple-generator pluralism among theory-comparison alternatives"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "frontier-science-003-attentional-modulation-energy",
+        "seed-036-attended-intermediate-level-representation-air-theory"
+      ],
+      "status": "retain-as-mechanism-contrast",
+      "direct_comparison": "No direct comparison between Attentional Modulation of Energy Theory and AIR theory was located in the focused screen. Both assign a constitutive role to attention, but the named mechanisms and explanatory targets differ.",
+      "assessment": "The pair is best treated as a discriminating contrast: Attentional Modulation of Energy Theory proposes that attention detects self-state and modulates an organ-of-attention energy level, whereas AIR makes conscious perceptual content depend on attention making intermediate-level representations available for working memory.",
+      "caution": "Shared attention vocabulary does not establish a shared mechanism. The energy-modulation proposal remains a hypothesis-level account, while AIR's representational level and availability claims require their own tests.",
+      "recommended_relation_tag": "possible-contrast",
+      "sources": [
+        {
+          "title": "The why of the phenomenal aspect of consciousness: Its main functions and the mechanisms underpinning it",
+          "authors": "Giorgio Marchetti",
+          "year": 2022,
+          "url": "https://doi.org/10.3389/fpsyg.2022.913309",
+          "role": "Primary exposition of the attention-and-energy account"
+        },
+        {
+          "title": "The Conscious Brain",
+          "authors": "Jesse Prinz",
+          "year": 2012,
+          "url": "https://doi.org/10.1093/acprof:oso/9780195314595.001.0001",
+          "role": "Primary monograph for Attended Intermediate-Level Representation theory"
+        },
+        {
+          "title": "Theories of consciousness",
+          "authors": "Seth and Bayne",
+          "year": 2022,
+          "url": "https://doi.org/10.1038/s41583-022-00587-4",
+          "role": "Independent review locating AIR among contemporary consciousness theories"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "emerging-breadth-032-neurophenomenal-structuralism",
+        "frontier-science-002-process-meta-representation"
+      ],
+      "status": "retain-as-formalization-lead",
+      "direct_comparison": "No direct comparison between Neurophenomenal Structuralism and the Process Meta-Representation and Qualia-Space Hypothesis was located in the focused primary-source screen.",
+      "assessment": "A defensible bridge would require mapping the process model's relational qualia-space geometry onto independently measured phenomenal similarity structure and neural relational structure. That would turn a vocabulary-level resemblance into a falsifiable structural comparison.",
+      "caution": "The process-meta-representation paper is a proof of concept that excludes activation dynamics, while Neurophenomenal Structuralism addresses content-specific Q-N structure rather than a complete account of generic consciousness. Current semantic proximity is not evidence of structural isomorphism.",
+      "recommended_relation_tag": "possible-convergence",
+      "sources": [
+        {
+          "title": "Neurophenomenal structuralism. A philosophical agenda for a structuralist neuroscience of consciousness",
+          "authors": "Holger Lyre",
+          "year": 2022,
+          "url": "https://doi.org/10.1093/nc/niac012",
+          "role": "Primary structuralist program relating phenomenal and neural relational spaces"
+        },
+        {
+          "title": "How-tests for consciousness and direct neurophenomenal structuralism",
+          "authors": "Sascha Benjamin Fink",
+          "year": 2024,
+          "url": "https://doi.org/10.3389/fpsyg.2024.1352272",
+          "role": "Independent methodological development of direct structural comparisons"
+        },
+        {
+          "title": "Meta-representations as representations of processes",
+          "authors": "Kanai, Takatsuki, and Fujisawa",
+          "year": 2025,
+          "url": "https://doi.org/10.1093/nc/niaf038",
+          "role": "Primary process-meta-representation framework and qualia-space proof of concept"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "emerging-breadth-001-joint-determinant-theory",
+        "frontier-science-001-multiple-generator-hypothesis"
+      ],
+      "status": "direct-prior-art-confirmed",
+      "direct_comparison": "Direct prior art was located: the primary Multiple Generator Hypothesis paper explicitly discusses Joint Determinant Theory, and the 2025 methodology paper places both among distinct pluralist alternatives to exclusive winner-take-all theory comparison.",
+      "assessment": "This is an established methodological comparison, not a newly discovered connection. Joint Determinant Theory proposes that multiple mechanisms or aspects jointly determine conscious experience; the Multiple Generator Hypothesis allows more than one independently sufficient principle or neural generator.",
+      "caution": "Joint contribution and independent sufficiency are not equivalent pluralisms. Their empirical predictions and units of analysis must remain separate.",
+      "recommended_relation_tag": "possible-contrast",
+      "sources": [
+        {
+          "title": "Towards a pluralistic neurobiological understanding of consciousness",
+          "authors": "Biyu J. He",
+          "year": 2023,
+          "url": "https://doi.org/10.1016/j.tics.2023.02.001",
+          "role": "Primary Joint Determinant Theory statement"
+        },
+        {
+          "title": "The multiple generator hypothesis of consciousness",
+          "authors": "Kirkeby-Hinrup, Fink, and Overgaard",
+          "year": 2025,
+          "url": "https://doi.org/10.1093/nc/niaf035",
+          "role": "Primary Multiple Generator Hypothesis statement"
+        },
+        {
+          "title": "Methodological issues in consciousness research: theory comparison, the role of empirical evidence, and a replication crisis",
+          "authors": "Kirkeby-Hinrup, Stephens, Sjostrand, and Overgaard",
+          "year": 2025,
+          "url": "https://doi.org/10.3389/fpsyg.2025.1633907",
+          "role": "Direct methodological discussion of both pluralist proposals"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "gap-cont-xc-007-milton-double-empathy",
+        "gap-cont-xc-008-neurodiversity-paradigm"
+      ],
+      "status": "direct-conceptual-alignment-confirmed",
+      "direct_comparison": "Direct literature explicitly situates the Double Empathy Problem within neurodiversity-compatible and neurodiversity-affirming scholarship, while the 2026 author-led clarification defines it as a sociological and relational framework rather than a social-cognitive theory of autism.",
+      "assessment": "The compatibility is established prior art, not a new semantic discovery. Double Empathy supplies a relational account of some cross-disposition interaction failures; the Neurodiversity Paradigm is a broader descriptive, normative, political, and research framework.",
+      "caution": "The records are not interchangeable. Alignment with neurodiversity does not establish universal symmetry, erase individual impairment or support needs, or turn the broader paradigm into an empirical mechanism of consciousness or social cognition.",
+      "recommended_relation_tag": "possible-convergence",
+      "sources": [
+        {
+          "title": "What the Double Empathy Problem Is (and Is Not)",
+          "authors": "Kilgallon et al.",
+          "year": 2026,
+          "url": "https://doi.org/10.1177/25739581261456653",
+          "role": "Author-led clarification of the framework's relational, sociological, and power-aware scope"
+        },
+        {
+          "title": "The double empathy problem and the problem of empathy: neurodiversifying phenomenology",
+          "authors": "David Ekdahl",
+          "year": 2024,
+          "url": "https://doi.org/10.1080/09687599.2023.2220180",
+          "role": "Direct conceptual alignment between Double Empathy and neurodiversity-informed phenomenology"
+        },
+        {
+          "title": "Neurodiversity as Politics",
+          "authors": "Ne'eman and Pellicano",
+          "year": 2022,
+          "url": "https://doi.org/10.1159/000524277",
+          "role": "Broader normative and political scope of the Neurodiversity Paradigm"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "frontier-science-005-algorithmic-agent-pure-awareness",
+        "gap-neuro-003-kolmogorov-theory-consciousness"
+      ],
+      "status": "direct-lineage-confirmed",
+      "direct_comparison": "The 2026 Algorithmic Agent Model of Pure Awareness explicitly develops the earlier algorithmic-information account of structured experience, includes Ruffini as a coauthor, and applies that framework to minimal and nondual experience.",
+      "assessment": "This is direct intellectual and model lineage, not a novel relationship generated by semantic analysis. The later record should remain separate because it adds a state-specific self-model-of-modeling hypothesis and proposed contemplative and predictive-processing tests.",
+      "caution": "The lineage source is not independent confirmation. Application of the algorithmic-agent framework to pure awareness does not validate the general consciousness theory or show that its mechanism is necessary or sufficient.",
+      "recommended_relation_tag": "possible-lineage",
+      "sources": [
+        {
+          "title": "An algorithmic agent model of pure awareness and minimal experiences",
+          "authors": "Lopez-Sola, Sanchez-Todo, Vohryzek, and Ruffini",
+          "year": 2026,
+          "url": "https://doi.org/10.33735/phimisci.2026.12136",
+          "role": "Primary state-specific development of the algorithmic-agent framework"
+        },
+        {
+          "title": "An algorithmic information theory of consciousness",
+          "authors": "Giulio Ruffini",
+          "year": 2017,
+          "url": "https://doi.org/10.1093/nc/nix019",
+          "role": "Foundational algorithmic-information and compressive-model account"
+        }
+      ]
+    },
+    {
+      "record_ids": [
+        "frontier-science-004-pure-awareness-entropy",
+        "frontier-science-005-algorithmic-agent-pure-awareness"
+      ],
+      "status": "retain-as-head-to-head-model-comparison",
+      "direct_comparison": "Both peer-reviewed 2026 models target pure awareness and minimal phenomenal experience, but no formal head-to-head comparison or cross-validation between them was located in the focused screen.",
+      "assessment": "This is a high-value discriminating comparison, not evidence of convergence. The entropy model emphasizes hierarchical precision redistribution, epistemic depth, and synthetic EEG entropy; the algorithmic-agent model emphasizes compressive world models and an agent's model of its own modeling process. Applying both measurement and simulation recipes to the same prospectively identified episodes could expose divergent predictions.",
+      "caution": "Shared predictive-processing vocabulary and a shared explanandum do not make the mechanisms equivalent. Shannon or dynamical entropy, algorithmic complexity, compressibility, epistemic depth, and metamodeling must be operationalized separately.",
+      "recommended_relation_tag": "possible-contrast",
+      "sources": [
+        {
+          "title": "Pure awareness, entropy, and the foundation of perception",
+          "authors": "Mago, Chandaria, Miller, and Laukkonen",
+          "year": 2026,
+          "url": "https://doi.org/10.1016/j.neucom.2026.133443",
+          "role": "Primary precision-entropy model and in-silico synthetic-signal proposal"
+        },
+        {
+          "title": "An algorithmic agent model of pure awareness and minimal experiences",
+          "authors": "Lopez-Sola, Sanchez-Todo, Vohryzek, and Ruffini",
+          "year": 2026,
+          "url": "https://doi.org/10.33735/phimisci.2026.12136",
+          "role": "Primary self-model-of-modeling and algorithmic-agent proposal"
+        },
+        {
+          "title": "The Minimal Phenomenal Experience questionnaire (MPE-92M): Towards a phenomenological profile of pure awareness experiences in meditators",
+          "authors": "Gamma and Metzinger",
+          "year": 2021,
+          "url": "https://doi.org/10.1371/journal.pone.0253694",
+          "role": "Independent phenomenology and measurement source for the shared explanandum"
+        }
+      ]
+    }
+  ]
+}

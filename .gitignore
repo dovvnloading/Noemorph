@@ -1,0 +1,33 @@
+# Local environments, build output, and editor state
+.vs/
+.vscode/
+.runtime-atlas-check/
+**/.runtime/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+*.py[cod]
+*.log
+**/node_modules/
+**/dist/
+*.tsbuildinfo
+
+# Third-party full-text copies and scraped source registry: obtain locally only
+/research/kuhn_landscape_2024.pdf
+/research/kuhn_landscape_2024.txt
+/Noemorph/data/discovery-closer-to-truth.json
+
+# Generated local research caches and reviewer state
+/Noemorph/data/semantic/embedding-cache/
+/Noemorph/data/semantic/*.sqlite3
+/Noemorph/data/semantic/*.sqlite3-*
+
+# Environment credentials
+.env
+.env.*
+!.env.example
+
+# The public Site is intentionally buildless and deployed from these files.
+!public-site/dist/
+!public-site/dist/**

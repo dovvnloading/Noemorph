@@ -1,0 +1,2790 @@
+{
+  "collection": {
+    "title": "Noemorph emerging scientific and formal consciousness breadth packet",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "base_catalog": "data/catalog.json plus registered catalog supplements present on 2026-08-30",
+    "record_count": 35,
+    "purpose": "Provisional, citation-first additions for recent and underrepresented scientific, computational, formal, methodological, and artificial-consciousness proposals that were absent from the merged Noemorph corpus.",
+    "selection_policy": "Each record is an attributable named proposal or bounded framework, is checked against names and aliases in the merged catalog, retains at least two exact HTTPS scholarly locators, and states what its sources do not establish.",
+    "source_policy": "Defining primary papers and publisher DOI records are preferred. Independent reviews, comparisons, or empirical developments are labeled by role. Two arXiv sources are retained only for the explicitly preprint-stage Digital Consciousness Model and its comparison framework.",
+    "deduplication_note": "Existing entries for free-energy/active inference, predictive processing, criticality, integrated information, global workspace, recurrent processing, functionalism, and AI theory-derived indicators were treated as collision constraints. Near-neighbor additions are bounded to a later named proposal, formal extension, or distinct methodological claim.",
+    "temporal_note": "Snapshot as of 2026-08-30. Publication year follows the earliest dated Crossref publication event; online-first papers may precede their issue year.",
+    "synthesis_policy": "No cross-theory relation, ranking, endorsement, or synthetic conclusion is asserted. All records remain provisional collection objects pending domain and citation review."
+  },
+  "records": [
+    {
+      "id": "emerging-breadth-001-joint-determinant-theory",
+      "name": "Joint Determinant Theory",
+      "aliases": [
+        "JDT",
+        "Joint Determinant framework of consciousness"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Neural mechanisms & computational architecture",
+      "tradition": "Pluralistic systems neuroscience",
+      "status": "explicit 2023 framework · peer-reviewed · discriminating program not yet mature",
+      "status_note": "JDT is an attributable pluralistic proposal, not a consensus synthesis. Its determinant-by-aspect matrix still requires prospective tests against single-mechanism accounts.",
+      "summary": "Joint Determinant Theory proposes that different aspects and contents of consciousness are jointly fixed by multiple circuit mechanisms rather than one universal neural signature. It treats conscious state as a position in a multidimensional space and asks which combinations of local and large-scale determinants control each dimension.",
+      "proponents": [
+        "Biyu J. He"
+      ],
+      "era": "2023–present",
+      "year": 2023,
+      "scope": "Pluralistic neurobiological framework relating circuit determinants to distinct dimensions of consciousness.",
+      "keywords": [
+        "pluralism",
+        "joint determinants",
+        "state space",
+        "circuit mechanisms",
+        "conscious contents"
+      ],
+      "boundary_note": "JDT is not permission to blend theories or their evidence. It is a specific proposal that determinant requirements vary by conscious aspect, with each mapping requiring independent attribution and testing.",
+      "claim_scope": {
+        "target": "Neural determinants of conscious level, contents, and qualitative dimensions.",
+        "level": "Circuit, systems-neural, and multidimensional state-space.",
+        "does_not_establish": "A complete determinant matrix, that every extant theory is partly correct, or a solution to why neural activity is experiential."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Dissociations across level, content, report, and phenomenological dimensions challenge one-marker explanations.",
+          "The framework specifies circuit-scale pluralism and a state-space research program rather than a verbal eclecticism."
+        ],
+        "limitations": [
+          "No completed prospective comparison has yet identified unique joint-determinant signatures.",
+          "Flexible determinant sets could become post hoc unless candidate dimensions and mechanisms are preregistered."
+        ],
+        "independence": "Both citations are by the proposer; the motivating dissociation literature is broader, but framework-specific independent tests are not yet available."
+      },
+      "open_questions": [
+        "Which dimensions admit stable, measurable coordinates across species and states?",
+        "What determinant combinations uniquely predict changes in content rather than report or task demand?",
+        "Can JDT exclude mechanisms rather than continually add determinants?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Towards a pluralistic neurobiological understanding of consciousness",
+          "authors": "Biyu J. He",
+          "year": 2023,
+          "venue": "Trends in Cognitive Sciences",
+          "doi": "10.1016/j.tics.2023.02.001",
+          "url": "https://doi.org/10.1016/j.tics.2023.02.001",
+          "authority": "primary-framework-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "On the role of theories in consciousness science",
+          "authors": "Biyu J. He",
+          "year": 2025,
+          "venue": "Communications Psychology",
+          "doi": "10.1038/s44271-025-00361-z",
+          "url": "https://doi.org/10.1038/s44271-025-00361-z",
+          "authority": "primary-theory-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-002-concrit",
+      "name": "ConCrit Framework",
+      "aliases": [
+        "ConCrit",
+        "Critical-brain unification framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Neural dynamics & integration",
+      "tradition": "Criticality and complex-systems neuroscience",
+      "status": "explicit 2025 framework · peer-reviewed · theory-specific evidence preliminary",
+      "status_note": "ConCrit organizes critical dynamics as a mechanistic bridge among theories; evidence that near-criticality tracks conscious capacity does not yet validate all of its proposed links.",
+      "summary": "ConCrit proposes that near-critical brain dynamics supply a shared mechanistic regime in which sensitivity, integration, differentiation, metastability, and flexible broadcasting can coexist. It uses criticality to translate otherwise differently worded consciousness theories into testable dynamical requirements.",
+      "proponents": [
+        "Inbal Algom",
+        "Oren Shriki"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Critical-dynamics framework for comparing and potentially linking mechanistic requirements of consciousness theories.",
+      "keywords": [
+        "criticality",
+        "metastability",
+        "integration",
+        "complexity",
+        "theory comparison"
+      ],
+      "boundary_note": "ConCrit is more specific than the general criticality hypothesis already represented in the catalog: its identity is the proposed cross-theory mechanistic translation, not merely the claim that conscious brains operate near a phase transition.",
+      "claim_scope": {
+        "target": "A common dynamical regime capable of supporting multiple proposed functions of consciousness.",
+        "level": "Network dynamics, statistical physics, and theory architecture.",
+        "does_not_establish": "That criticality is sufficient for experience, that all theories become equivalent, or that current criticality estimators uniquely measure consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Anesthesia, sleep, disorders of consciousness, and psychedelics often alter complexity or criticality-adjacent measures.",
+          "The framework maps integration, differentiation, availability, and flexibility onto explicit dynamical features."
+        ],
+        "limitations": [
+          "Criticality estimators can be confounded by sampling, preprocessing, and finite-size effects.",
+          "Many adaptive nonconscious systems can exhibit critical-like dynamics."
+        ],
+        "independence": "The independent review supports criticality as a research framework but does not test ConCrit's specific unification claims."
+      },
+      "open_questions": [
+        "Which criticality measure prospectively discriminates conscious from matched nonconscious processing?",
+        "Do different contents require different distances or directions from criticality?",
+        "What finding would falsify the proposed cross-theory bridge?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The concrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness",
+          "authors": "Inbal Algom; Oren Shriki",
+          "year": 2025,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "doi": "10.1016/j.neubiorev.2025.106483",
+          "url": "https://doi.org/10.1016/j.neubiorev.2025.106483",
+          "authority": "primary-framework-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Self-organized criticality as a framework for consciousness: A review study",
+          "authors": "Nike Walter; Thilo Hinterberger",
+          "year": 2022,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2022.911620",
+          "url": "https://doi.org/10.3389/fpsyg.2022.911620",
+          "authority": "authoritative-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-003-minimal-active-inference",
+      "name": "Minimal Active-Inference Theory of Consciousness",
+      "aliases": [
+        "Minimal active-inference account of consciousness",
+        "MAITC"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Neural mechanisms & computational architecture",
+      "tradition": "Active inference / predictive processing",
+      "status": "explicit 2025 theory extraction · peer-reviewed · necessity tests beginning",
+      "status_note": "The proposal extracts shared commitments from heterogeneous active-inference accounts. Those commitments remain candidates rather than established necessary or sufficient conditions.",
+      "summary": "The minimal active-inference theory identifies the smallest commitments about consciousness shared across active-inference proposals: embodied generative models maintain temporally deep, counterfactual, precision-sensitive control over hidden causes relevant to an agent. It is intended to expose common testable consequences without treating the full free-energy formalism as automatically consciousness-entailing.",
+      "proponents": [
+        "Christopher J. Whyte",
+        "Andrew W. Corcoran",
+        "Jonathan Robinson",
+        "Ryan Smith",
+        "Rosalyn Moran",
+        "Thomas Parr",
+        "Karl J. Friston",
+        "Anil K. Seth",
+        "Jakob Hohwy"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Minimal shared commitments of active-inference approaches to conscious awareness.",
+      "keywords": [
+        "active inference",
+        "generative model",
+        "precision",
+        "counterfactual depth",
+        "awareness"
+      ],
+      "boundary_note": "This record does not duplicate the catalog's Free-Energy Principle entry. It captures a 2025 attempt to isolate consciousness-specific commitments and candidate tests from the much broader theory of self-organizing systems.",
+      "claim_scope": {
+        "target": "Computational properties proposed as minimally required for conscious awareness within active inference.",
+        "level": "Computational, algorithmic, and embodied systems.",
+        "does_not_establish": "That free-energy minimization is sufficient for consciousness, that all predictive systems are conscious, or a unique biological implementation."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The theory is derived by comparing explicit active-inference consciousness proposals and extracting overlapping commitments.",
+          "A preregistered experimental protocol tests whether active inference is necessary for changes in consciously perceived content."
+        ],
+        "limitations": [
+          "Shared commitments may be too weak to discriminate active-inference accounts from other generative-model frameworks.",
+          "Evidence for active inference in perception does not by itself identify the phenomenal component."
+        ],
+        "independence": "The empirical protocol includes overlapping authorship with the theory paper; decisive independent replications are not yet available."
+      },
+      "open_questions": [
+        "Which minimal commitment is necessary when report and action are controlled?",
+        "Can a system satisfy the formal commitments without any plausible consciousness attribution?",
+        "What neural perturbation uniquely tests counterfactual depth or precision control?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "On the minimal theory of consciousness implicit in active inference",
+          "authors": "Christopher J. Whyte; Andrew W. Corcoran; Jonathan Robinson; Ryan Smith; Rosalyn J. Moran; Thomas Parr; Karl J. Friston; Anil K. Seth; Jakob Hohwy",
+          "year": 2025,
+          "venue": "Physics of Life Reviews",
+          "doi": "10.1016/j.plrev.2025.11.002",
+          "url": "https://doi.org/10.1016/j.plrev.2025.11.002",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The role of active inference in conscious awareness",
+          "authors": "Jonathan Edward Robinson; Andrew W. Corcoran; Christopher J. Whyte; András Sárközy; Anil K. Seth; Gyula Kovács; Karl J. Friston; Cyriel M. A. Pennartz; Giulio Tononi; Jakob Hohwy; TWCF: INTREPID Consortium",
+          "year": 2025,
+          "venue": "PLOS One",
+          "doi": "10.1371/journal.pone.0328836",
+          "url": "https://doi.org/10.1371/journal.pone.0328836",
+          "authority": "primary-empirical-protocol",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-004-biological-computationalism",
+      "name": "Biological Computationalism",
+      "aliases": [
+        "Biological computationalist theory of consciousness",
+        "Hybrid biological computation account"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Biological naturalism / computational neuroscience",
+      "status": "explicit 2025 proposal · peer-reviewed · substrate conditions unsettled",
+      "status_note": "The account identifies biologically distinctive computational organization, but no agreed test yet shows which physical or metabolic properties are constitutive rather than enabling.",
+      "summary": "Biological Computationalism argues that consciousness depends on computation as living nervous systems actually realize it: hybrid discrete-continuous dynamics integrated across temporal and spatial scales, inseparable from physical structure, metabolism, and plasticity. It rejects both simple substrate-independence and a noncomputational biological essence.",
+      "proponents": [
+        "Borjan Milinkovic",
+        "Jaan Aru"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Substrate-sensitive computational account distinguishing biological consciousness from ordinary digital implementation.",
+      "keywords": [
+        "biological computation",
+        "substrate dependence",
+        "hybrid dynamics",
+        "metabolism",
+        "artificial consciousness"
+      ],
+      "boundary_note": "The proposal is neither generic computational functionalism nor the claim that only carbon can be conscious. Its catalog identity is the scale-integrated, dynamico-structural and metabolically embedded character assigned to biological computation.",
+      "claim_scope": {
+        "target": "Properties of biological computation proposed to matter for conscious processing and artificial realization.",
+        "level": "Biophysical, dynamical, computational, and systems-neural.",
+        "does_not_establish": "A proof that digital systems cannot be conscious, a complete implementation recipe, or which biological feature is individually necessary."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Neural computation combines biochemical, electrical, structural, and plastic processes across nested scales.",
+          "Neuroscience-based assessments identify implementation gaps between current AI and candidate mechanisms in nervous systems."
+        ],
+        "limitations": [
+          "The proposal currently groups several biological differences without isolating their causal contributions.",
+          "Substrate-sensitive simulations and replacement experiments remain largely conceptual."
+        ],
+        "independence": "One source states the proposal and the other independently surveys neuroscience constraints on artificial consciousness; neither provides a decisive substrate comparison."
+      },
+      "open_questions": [
+        "Which biological property survives intervention as necessary for conscious capacity?",
+        "Can nonbiological hardware reproduce the required hybrid multi-scale dynamics?",
+        "How would the account classify neuromorphic and biohybrid systems?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "On biological and artificial consciousness: A case for biological computationalism",
+          "authors": "Borjan Milinkovic; Jaan Aru",
+          "year": 2025,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "doi": "10.1016/j.neubiorev.2025.106524",
+          "url": "https://doi.org/10.1016/j.neubiorev.2025.106524",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The feasibility of artificial consciousness through the lens of neuroscience",
+          "authors": "Jaan Aru; Matthew E. Larkum; James M. Shine",
+          "year": 2023,
+          "venue": "Trends in Neurosciences",
+          "doi": "10.1016/j.tins.2023.09.009",
+          "url": "https://doi.org/10.1016/j.tins.2023.09.009",
+          "authority": "authoritative-analysis",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-005-irruption-theory",
+      "name": "Irruption Theory",
+      "aliases": [
+        "Irruption-and-absorption framework",
+        "Enactive irruption account"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Embodied cognition, judgment & agency",
+      "tradition": "Enactivism / dynamical systems",
+      "status": "explicit 2023 proposal · peer-reviewed · empirically speculative",
+      "status_note": "Irruption Theory offers a formal vocabulary for subjective involvement but has not yet established a measure that discriminates agential underdetermination from noise or model error.",
+      "summary": "Irruption Theory proposes that an agent's motivated, subjective involvement appears within physical descriptions as context-sensitive underdetermination: departures from expected trajectories that alter possibilities without functioning as ordinary efficient causes. Absorption denotes the complementary way such irruptions become constrained and expressed by embodied dynamics.",
+      "proponents": [
+        "Tom Froese"
+      ],
+      "era": "2023–present",
+      "year": 2023,
+      "scope": "Enactive black-box framework for relating subjective agency to measurable dynamical underdetermination.",
+      "keywords": [
+        "irruption",
+        "absorption",
+        "enactivism",
+        "agency",
+        "underdetermination"
+      ],
+      "boundary_note": "This is not the generic statement that behavior is noisy or unpredictable. The proposal assigns theoretical significance to context-sensitive deviations attributable to subjective motivation, a stronger claim requiring its own tests.",
+      "claim_scope": {
+        "target": "How motivated subjective activity can make a difference within embodied physical dynamics.",
+        "level": "Enactive, dynamical, informational, and philosophy-of-mind.",
+        "does_not_establish": "A causal mechanism connecting mind and matter, that stochasticity entails consciousness, or a validated consciousness detector."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The framework derives operational quantities from deviations between modeled and observed trajectories.",
+          "A follow-up paper clarifies complementary irruption and absorption processes in a black-box causal vocabulary."
+        ],
+        "limitations": [
+          "Underdetermination can reflect incomplete modeling, environmental inputs, or ordinary stochasticity.",
+          "No controlled experiment has uniquely linked the proposed quantity to reported subjective involvement."
+        ],
+        "independence": "Both defining sources are by the proposer; independent operationalization and adversarial testing are absent."
+      },
+      "open_questions": [
+        "What observation distinguishes irruption from hidden-variable model error?",
+        "Can motivated changes be predicted prospectively without circular attribution?",
+        "How does absorption map onto specific organism-environment dynamics?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Irruption Theory: A Novel Conceptualization of the Enactive Account of Motivated Activity",
+          "authors": "Tom Froese",
+          "year": 2023,
+          "venue": "Entropy",
+          "doi": "10.3390/e25050748",
+          "url": "https://doi.org/10.3390/e25050748",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Irruption and Absorption: A ‘Black-Box’ Framework for How Mind and Matter Make a Difference to Each Other",
+          "authors": "Tom Froese",
+          "year": 2024,
+          "venue": "Entropy",
+          "doi": "10.3390/e26040288",
+          "url": "https://doi.org/10.3390/e26040288",
+          "authority": "primary-theory-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-006-phenomenal-interface-theory",
+      "name": "Phenomenal Interface Theory",
+      "aliases": [
+        "PIT",
+        "Basal phenomenal-interface model"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Evolutionary biology / comparative cognition",
+      "tradition": "Realizer functionalism / comparative neurobiology",
+      "status": "explicit 2025 basal-consciousness model · peer-reviewed · comparative tests pending",
+      "status_note": "The theory specifies a candidate biological function for minimal consciousness, but the proposed interface and multi-objective values are not yet validated as sufficient for experience.",
+      "summary": "Phenomenal Interface Theory proposes that basal consciousness is realized by a biological interface that converts heterogeneous sensory and internal signals into a common evaluative format. This format supports comparison among incommensurable needs through multi-objective action values while preserving viewpoint-centered distinctions relevant to what an outcome is like for the organism.",
+      "proponents": [
+        "Colin Klein",
+        "Andrew B. Barron"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Functional and neurobiological model of minimal consciousness in small nervous systems.",
+      "keywords": [
+        "basal consciousness",
+        "common currency",
+        "multi-objective value",
+        "insects",
+        "realizer functionalism"
+      ],
+      "boundary_note": "PIT is not the claim that any reinforcement learner is conscious. It requires a biologically realized interface with a particular integrative and perspective-preserving role, whose criteria remain to be sharpened.",
+      "claim_scope": {
+        "target": "Minimal phenomenal consciousness and its proposed adaptive function in biological decision systems.",
+        "level": "Functional, computational, comparative-neural, and evolutionary.",
+        "does_not_establish": "That insects are conclusively conscious, that scalar reward alone suffices, or a mechanism for the qualitative character of every modality."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Comparative neuroanatomy identifies insect central-complex organization compatible with integrated, egocentric action selection.",
+          "The 2025 theory states explicit functional requirements beyond flexible behavior alone."
+        ],
+        "limitations": [
+          "Behavioral competence can often be modeled without phenomenal assumptions.",
+          "The proposed multi-objective interface lacks a theory-specific intervention test across species."
+        ],
+        "independence": "The precursor and defining paper share proponents; independent comparative tests of the phenomenal-interface criteria have not yet been reported."
+      },
+      "open_questions": [
+        "Which neural operation implements the proposed common evaluative interface?",
+        "Can PIT separate conscious from nonconscious multi-objective control?",
+        "What comparative pattern would falsify the proposed evolutionary distribution?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Phenomenal interface theory: a model for basal consciousness",
+          "authors": "Colin Klein; Andrew B. Barron",
+          "year": 2025,
+          "venue": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+          "doi": "10.1098/rstb.2024.0301",
+          "url": "https://doi.org/10.1098/rstb.2024.0301",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "What insects can tell us about the origins of consciousness",
+          "authors": "Andrew B. Barron; Colin Klein",
+          "year": 2016,
+          "venue": "Proceedings of the National Academy of Sciences",
+          "doi": "10.1073/pnas.1520084113",
+          "url": "https://doi.org/10.1073/pnas.1520084113",
+          "authority": "primary-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-007-maps-of-meaning",
+      "name": "Maps of Meaning Consciousness Theory",
+      "aliases": [
+        "Maps of Meaning theory",
+        "MoM consciousness theory"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Embodied cognition, judgment & agency",
+      "tradition": "Goal-directed cognitive architecture",
+      "status": "explicit 2024 proposal · peer-reviewed · no independent discriminating tests",
+      "status_note": "The proposal supplies an integrative goal-centered architecture, but its core mechanisms remain broadly described and empirically overlap with established control and predictive frameworks.",
+      "summary": "Maps of Meaning theory proposes that consciousness is constituted by nested, learned goal structures that continuously organize salience, interpretation, and action. Moment-to-moment experience reflects adjudication among goals at multiple timescales, with affect indicating progress, obstruction, or conflict within the active meaning map.",
+      "proponents": [
+        "Scott Andersen"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Goal-architectural account linking meaning, affect, attention, and conscious organization.",
+      "keywords": [
+        "goal hierarchy",
+        "meaning",
+        "salience",
+        "affect",
+        "conscious organization"
+      ],
+      "boundary_note": "The named theory is distinct from generic semantic networks and from Jordan Peterson's similarly titled book. Its catalog identity is Andersen's attributable 2024 consciousness proposal.",
+      "claim_scope": {
+        "target": "Organization and functional role of conscious experience around nested goals.",
+        "level": "Cognitive architecture, motivational psychology, and systems-level function.",
+        "does_not_establish": "That goal pursuit is sufficient for phenomenality, a unique neural implementation, or quantitative predictions separating it from control theories."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The proposal integrates well-established links among goals, salience, affect, attention, and action selection.",
+          "It states a coherent architecture spanning multiple temporal scales."
+        ],
+        "limitations": [
+          "The defining article is primarily synthetic and offers few theory-unique predictions.",
+          "Goal-like organization is widespread in models not committed to consciousness."
+        ],
+        "independence": "The theory has a single principal exposition; the general review provides field context but not independent support for its constitutive claim."
+      },
+      "open_questions": [
+        "Which manipulation of goal hierarchy uniquely changes conscious organization?",
+        "Can unconscious goal pursuit satisfy the architecture's stated conditions?",
+        "How are competing goal maps measured neurally and behaviorally?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The maps of meaning consciousness theory",
+          "authors": "Scott Andersen",
+          "year": 2024,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2024.1161132",
+          "url": "https://doi.org/10.3389/fpsyg.2024.1161132",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Theories of consciousness",
+          "authors": "Anil K. Seth; Tim Bayne",
+          "year": 2022,
+          "venue": "Nature Reviews Neuroscience",
+          "doi": "10.1038/s41583-022-00587-4",
+          "url": "https://doi.org/10.1038/s41583-022-00587-4",
+          "authority": "authoritative-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-009-iterative-affective-calibration",
+      "name": "Iterative Affective Calibration Theory",
+      "aliases": [
+        "IACT",
+        "Qualia as preemptive constructs theory"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Affect, valuation & motivation",
+      "tradition": "Functional and evolutionary theories of qualia",
+      "status": "explicit 2025 proposal · peer-reviewed · speculative and singly authored",
+      "status_note": "IACT assigns qualia an anticipatory calibration function, but no theory-specific behavioral or neural tests have yet established the proposed iterative mechanism.",
+      "summary": "Iterative Affective Calibration Theory treats qualia as anticipatory, affectively weighted constructs that repeatedly calibrate action before consequences fully unfold. Conscious qualities are proposed to compress organism-relevant significance into a form that can reshape future attention, valuation, and behavior across learning cycles.",
+      "proponents": [
+        "Bin Li"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Functional proposal for qualia as anticipatory affective control signals.",
+      "keywords": [
+        "qualia",
+        "affective calibration",
+        "anticipation",
+        "learning",
+        "functional consciousness"
+      ],
+      "boundary_note": "IACT is not the general claim that feelings influence behavior. It posits an iterative, preemptive calibration role for phenomenal qualities, which must be distinguished from nonconscious value prediction.",
+      "claim_scope": {
+        "target": "Adaptive function of phenomenal qualities in anticipatory valuation and behavioral calibration.",
+        "level": "Functional, cognitive, affective, and evolutionary.",
+        "does_not_establish": "That affective prediction requires phenomenality, a neural mechanism, or that all qualia reduce to scalar value."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The account synthesizes evidence that affective feelings can alter learning, attention, and choice before explicit deliberation.",
+          "Independent functional analysis argues that phenomenal experience can have causal and learning value."
+        ],
+        "limitations": [
+          "The same behavioral functions may be implemented by nonconscious reinforcement and predictive mechanisms.",
+          "The theory currently lacks quantitative predictions or intervention-specific neural candidates."
+        ],
+        "independence": "Only the general functional-value source is independent; it does not validate IACT's specific calibration cycle."
+      },
+      "open_questions": [
+        "What task dissociates phenomenal calibration from unconscious value updating?",
+        "How are qualitative differences represented in the proposed loop?",
+        "Which perturbation selectively interrupts iterative calibration while preserving cognition?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Qualia as preemptive constructs: A functional theory of consciousness distinct from cognitive intelligence",
+          "authors": "Bin Li",
+          "year": 2025,
+          "venue": "Social Sciences & Humanities Open",
+          "doi": "10.1016/j.ssaho.2025.101876",
+          "url": "https://doi.org/10.1016/j.ssaho.2025.101876",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Consciousness matters: phenomenal experience has functional value",
+          "authors": "Axel Cleeremans; Catherine Tallon-Baudry",
+          "year": 2022,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niac007",
+          "url": "https://doi.org/10.1093/nc/niac007",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-010-awareness-first",
+      "name": "Awareness-First Theory",
+      "aliases": [
+        "Awareness-First coherence theory",
+        "Awareness-First active-inference framework"
+      ],
+      "kind": "Philosophical position",
+      "kind_codes": [
+        "PP",
+        "NF"
+      ],
+      "domain": "Metaphysics, ontology & philosophy of mind",
+      "tradition": "Awareness-first metaphysics / active inference",
+      "status": "explicit 2026 foundational proposal · peer-reviewed · highly speculative",
+      "status_note": "The theory begins from a substantive awareness-first coherence principle. Its connections to active inference and physics are formal analogies until independent empirical consequences are demonstrated.",
+      "summary": "Awareness-First Theory treats awareness as ontologically primitive and proposes a coherence principle from which agent-like inference and aspects of physical law can be described. Rather than deriving experience from objective dynamics, it interprets stable worlds and active-inference organization as constraints on relations within awareness.",
+      "proponents": [
+        "Jason Clarke"
+      ],
+      "era": "2026–present",
+      "year": 2026,
+      "scope": "Foundational awareness-first proposal linking coherence, active inference, and physical description.",
+      "keywords": [
+        "awareness-first",
+        "coherence principle",
+        "active inference",
+        "foundations",
+        "ontology"
+      ],
+      "boundary_note": "The proposal must not be presented as an empirical consequence of the Free-Energy Principle. It reverses explanatory priority by assuming awareness is fundamental and is therefore cataloged as a philosophical position, not a validated scientific theory.",
+      "claim_scope": {
+        "target": "Metaphysical priority of awareness and constraints proposed to yield stable agents and worlds.",
+        "level": "Foundational, formal, and metaphysical.",
+        "does_not_establish": "Independent evidence that awareness is fundamental, a derivation of known physics accepted by physicists, or an assay for consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper states explicit axiomatic commitments and relates them to established active-inference formalisms.",
+          "Minimal active-inference work supplies a separately attributable scientific comparison point."
+        ],
+        "limitations": [
+          "The starting principle is not independently measured and risks accommodating observations retrospectively.",
+          "Shared mathematics does not establish ontological identity or explanatory priority."
+        ],
+        "independence": "The active-inference citation is independent but does not endorse awareness-first metaphysics; direct external tests are absent."
+      },
+      "open_questions": [
+        "Which observation would favor awareness-first coherence over physicalist active inference?",
+        "Can the coherence principle derive quantitative predictions without imported physical assumptions?",
+        "How are multiple subjects individuated within primitive awareness?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The Awareness-First Theory: A Coherence Principle Underlying Active Inference and Physical Law",
+          "authors": "Jason Clarke",
+          "year": 2026,
+          "venue": "Entropy",
+          "doi": "10.3390/e28030306",
+          "url": "https://doi.org/10.3390/e28030306",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "On the minimal theory of consciousness implicit in active inference",
+          "authors": "Christopher J. Whyte; Andrew W. Corcoran; Jonathan Robinson; Ryan Smith; Rosalyn J. Moran; Thomas Parr; Karl J. Friston; Anil K. Seth; Jakob Hohwy",
+          "year": 2025,
+          "venue": "Physics of Life Reviews",
+          "doi": "10.1016/j.plrev.2025.11.002",
+          "url": "https://doi.org/10.1016/j.plrev.2025.11.002",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-011-local-prospect-theory",
+      "name": "Local Prospect Theory of Consciousness",
+      "aliases": [
+        "LPT consciousness theory",
+        "Local Prospect Theory"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Neural mechanisms & computational architecture",
+      "tradition": "Decision theory / uncertainty-based cognition",
+      "status": "explicit 2025 proposal · peer-reviewed · direct evidence limited",
+      "status_note": "LPT supplies an uncertainty-centered alternative to prediction-error minimization, but its proposed link to consciousness has not yet been isolated experimentally.",
+      "summary": "Local Prospect Theory proposes that consciousness is functionally tied to decision under irreducible local uncertainty. Rather than globally minimizing prediction error, a conscious agent evaluates context-dependent gains, losses, and prospects around a moving reference point, preserving uncertainty needed for exploration and flexible choice.",
+      "proponents": [
+        "Francis Heylighen",
+        "Shima Beigi"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Uncertainty- and decision-theoretic account of the functional role of consciousness.",
+      "keywords": [
+        "prospect theory",
+        "uncertainty",
+        "reference point",
+        "decision",
+        "predictive processing"
+      ],
+      "boundary_note": "This is not standard Kahneman–Tversky prospect theory applied descriptively to choices. It is an attributable consciousness proposal that elevates local, reference-dependent uncertainty management to a constitutive functional role.",
+      "claim_scope": {
+        "target": "Why conscious cognition preserves and exploits uncertainty during adaptive choice.",
+        "level": "Decision-theoretic, computational, and functional.",
+        "does_not_establish": "That prospect-like choice bias is sufficient for experience, a neural implementation, or that predictive processing always eliminates uncertainty."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper derives contrasts between local prospect evaluation and global predictive-error minimization.",
+          "Comparative information-versus-inference analysis motivates separating uncertainty-handling commitments among theories."
+        ],
+        "limitations": [
+          "The central consciousness claim is presently theoretical rather than based on unique data.",
+          "Nonconscious systems can implement reference-dependent choice and exploration."
+        ],
+        "independence": "The comparison source is independent but predates and does not test LPT; framework-specific evidence is absent."
+      },
+      "open_questions": [
+        "Which behavior uniquely requires consciously maintained uncertainty?",
+        "How are local reference points represented and updated in neural systems?",
+        "Can LPT predict state or content changes beyond ordinary decision models?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Why Uncertainty Is Essential for Consciousness: Local Prospect Theory vs. Predictive Processing",
+          "authors": "Francis Heylighen; Shima Beigi",
+          "year": 2025,
+          "venue": "Entropy",
+          "doi": "10.3390/e27020140",
+          "url": "https://doi.org/10.3390/e27020140",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "What Is Consciousness? Integrated Information vs. Inference",
+          "authors": "James E. Cooke",
+          "year": 2021,
+          "venue": "Entropy",
+          "doi": "10.3390/e23081032",
+          "url": "https://doi.org/10.3390/e23081032",
+          "authority": "comparative-theory-analysis",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-012-modular-constitutive-conscious-vision",
+      "name": "Modular-Constitutive Model of Conscious Vision",
+      "aliases": [
+        "Modular/constitutive model",
+        "Conscious-vision test-case model"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Perception, memory, concepts & attention",
+      "tradition": "Evolutionary visual neuroscience",
+      "status": "explicit 2026 model · peer-reviewed · bounded visual test case",
+      "status_note": "The model makes a deliberately restricted proposal about conscious vision and its functions; it is not yet supported by direct theory-discriminating experiments.",
+      "summary": "The modular-constitutive model uses vision as a test case in which conscious processing combines attention-guided control with memory formation and retrieval. It proposes that these modules jointly constitute the adaptive role of conscious seeing rather than one module alone serving as a universal consciousness engine.",
+      "proponents": [
+        "Thurston Lacalli"
+      ],
+      "era": "2024–present",
+      "year": 2026,
+      "scope": "Evolutionary functional model of conscious visual processing, attention control, and memory.",
+      "keywords": [
+        "conscious vision",
+        "attention",
+        "memory",
+        "modularity",
+        "evolution"
+      ],
+      "boundary_note": "This bounded visual model should not be generalized to all modalities or states without new evidence. It is distinct from the catalog's broad attention and working-memory mechanisms.",
+      "claim_scope": {
+        "target": "Adaptive functions jointly constituting conscious vision.",
+        "level": "Functional, cognitive, evolutionary, and visual-neural.",
+        "does_not_establish": "A universal theory of phenomenal consciousness, that attention and memory are each sufficient, or a unique neural circuit."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Comparative and evolutionary constraints motivate separating attention-control from memory functions.",
+          "The model states a concrete visual test case instead of inferring one function for all consciousness."
+        ],
+        "limitations": [
+          "The two sources are conceptual works by the same author.",
+          "Component functions occur in unconscious visual processing and require discriminating conjunction tests."
+        ],
+        "independence": "No independent model-specific test has yet been identified; the packet therefore treats the proposal as provisional."
+      },
+      "open_questions": [
+        "Which conjunction of attention and memory operations predicts conscious seeing?",
+        "Does the model generalize to audition, interoception, or dream experience?",
+        "What evolutionary comparison separates constitutive modules from enabling capacities?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The function(s) of consciousness revisited: insights from a modular/constitutive model using vision as a test case",
+          "authors": "Thurston Lacalli",
+          "year": 2026,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2026.1829430",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1829430",
+          "authority": "primary-theory-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The function(s) of consciousness: an evolutionary perspective",
+          "authors": "Thurston Lacalli",
+          "year": 2024,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2024.1493423",
+          "url": "https://doi.org/10.3389/fpsyg.2024.1493423",
+          "authority": "primary-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-013-extended-information-theory",
+      "name": "Extended Information Theory",
+      "aliases": [
+        "EIT of consciousness",
+        "Forti's Extended Information Theory"
+      ],
+      "kind": "Scientific theory",
+      "kind_codes": [
+        "CT",
+        "NF"
+      ],
+      "domain": "Neural mechanisms & computational architecture",
+      "tradition": "Functional information theory",
+      "status": "explicit 2025 theory · peer-reviewed · single-author program with limited testing",
+      "status_note": "EIT provides an attributable functional account, but it has not yet produced a validated measure or independent evidence that distinguishes it from other information-processing proposals.",
+      "summary": "Extended Information Theory proposes that consciousness is an information-bearing process whose phenomenal character contributes to mental function by making organism-relevant distinctions available in a unified, action-guiding format. The 2025 statement extends an earlier causal-functional argument about how phenomenal differences could influence cognition.",
+      "proponents": [
+        "Bruno Forti"
+      ],
+      "era": "2009–present",
+      "year": 2025,
+      "scope": "Functional information account of what consciousness is and what it contributes to cognition.",
+      "keywords": [
+        "extended information",
+        "phenomenal function",
+        "mental causation",
+        "information",
+        "action guidance"
+      ],
+      "boundary_note": "Despite the acronym, EIT is not Integrated Information Theory and does not use IIT's phi formalism. Its identity is Forti's distinct functional-information proposal.",
+      "claim_scope": {
+        "target": "Informational character and causal-functional contribution of phenomenal consciousness.",
+        "level": "Functional, informational, and philosophical.",
+        "does_not_establish": "A quantitative consciousness measure, that all information processing is phenomenal, or an independently established neural mechanism."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The theory develops a continuous argument from phenomenal distinctions to their possible role in mental function.",
+          "The precursor explicitly addresses causal involvement rather than treating experience as an inert correlate."
+        ],
+        "limitations": [
+          "The central account remains conceptual and has not yielded unique experimental contrasts.",
+          "Informational and action-guiding functions can be attributed to unconscious systems."
+        ],
+        "independence": "Both defining sources are authored by the proposer; independent tests or replications are not available."
+      },
+      "open_questions": [
+        "What formal quantity distinguishes extended information from ordinary accessible information?",
+        "Which intervention would remove the proposed phenomenal function while preserving computation?",
+        "How are qualitative differences predicted from the information structure?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "What is consciousness and what it is for. An introduction to extended information theory",
+          "authors": "Bruno Forti",
+          "year": 2025,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2025.1627289",
+          "url": "https://doi.org/10.3389/fpsyg.2025.1627289",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "How could phenomenal consciousness be involved in mental function?",
+          "authors": "Bruno Forti",
+          "year": 2008,
+          "venue": "New Ideas in Psychology",
+          "doi": "10.1016/j.newideapsych.2008.10.001",
+          "url": "https://doi.org/10.1016/j.newideapsych.2008.10.001",
+          "authority": "primary-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-019-functional-value-phenomenal-experience",
+      "name": "Functional-Value Account of Phenomenal Experience",
+      "aliases": [
+        "Phenomenal functional-value account",
+        "Consciousness Matters account"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Affect, valuation & motivation",
+      "tradition": "Functional consciousness / learned redescriptions",
+      "status": "explicit 2022 proposal · peer-reviewed · causal role debated",
+      "status_note": "The proposal assigns intrinsic learning and control value to qualitative experience; demonstrating that the relevant function depends on phenomenality rather than access remains an open challenge.",
+      "summary": "The account argues that phenomenal experience has functional value because qualitative, valenced states serve as globally learnable targets that shape future decisions, attention, and self-models. Conscious qualities are not treated as an inert by-product but as dispositions through which a system learns what matters to itself.",
+      "proponents": [
+        "Axel Cleeremans",
+        "Catherine Tallon-Baudry"
+      ],
+      "era": "2022–present",
+      "year": 2022,
+      "scope": "Functional proposal for the causal and learning value of phenomenal experience.",
+      "keywords": [
+        "phenomenal value",
+        "learning",
+        "valence",
+        "self-model",
+        "mental causation"
+      ],
+      "boundary_note": "This record is narrower than the catalog's Self-Organizing Metarepresentational Account: it concerns the proposed functional value of phenomenality, not the complete mechanism by which awareness is learned.",
+      "claim_scope": {
+        "target": "Adaptive and learning functions specifically attributed to phenomenal qualities.",
+        "level": "Functional, cognitive, affective, and metacognitive.",
+        "does_not_establish": "That every useful signal is phenomenal, that verbal report defines experience, or a decisive answer to causal exclusion."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Affective and qualitative feedback can guide learning and flexible control beyond immediate stimulus-response mappings.",
+          "The precursor learning theory supplies an explicit mechanism of learned redescriptions and metarepresentation."
+        ],
+        "limitations": [
+          "Behavioral utility may be captured by access, valuation, or metacognition without phenomenal commitment.",
+          "No intervention presently isolates qualitative feel from all functional access."
+        ],
+        "independence": "Both papers include Cleeremans; the proposal remains a coherent proponent-led program rather than independently confirmed theory."
+      },
+      "open_questions": [
+        "What learning advantage uniquely requires phenomenal quality?",
+        "Can the account predict which artificial systems possess functionally valuable experience?",
+        "How are qualitative and valence dimensions causally coupled?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Consciousness matters: phenomenal experience has functional value",
+          "authors": "Axel Cleeremans; Catherine Tallon-Baudry",
+          "year": 2022,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niac007",
+          "url": "https://doi.org/10.1093/nc/niac007",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Learning to Be Conscious",
+          "authors": "Axel Cleeremans; Dalila Achoui; Arnaud Beauny; Lars Keuninckx; Jean-Remy Martin; Santiago Muñoz-Moldes; Laurène Vuillaume; Adélaïde de Heering",
+          "year": 2019,
+          "venue": "Trends in Cognitive Sciences",
+          "doi": "10.1016/j.tics.2019.11.011",
+          "url": "https://doi.org/10.1016/j.tics.2019.11.011",
+          "authority": "primary-theory-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-022-construct-first",
+      "name": "Construct-First Approach to Consciousness Science",
+      "aliases": [
+        "Construct-first framework",
+        "Construct-first consciousness methodology"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Psychological construct validation",
+      "status": "explicit 2023 methodological framework · peer-reviewed · uptake emerging",
+      "status_note": "The approach proposes construct validation before theory comparison; its practical success depends on achieving measurement invariance and agreement about target constructs.",
+      "summary": "The Construct-First Approach recommends defining and validating tractable consciousness-related constructs before testing large theories. Researchers should establish what a measure tracks, its nomological network, reliability, and invariance, then ask which theories explain the validated construct rather than treating one task as consciousness itself.",
+      "proponents": [
+        "Péter Fazekas",
+        "Axel Cleeremans",
+        "Morten Overgaard"
+      ],
+      "era": "2023–present",
+      "year": 2023,
+      "scope": "Methodological framework for construct validation and theory testing in consciousness science.",
+      "keywords": [
+        "construct validity",
+        "measurement",
+        "theory testing",
+        "operationalization",
+        "methodology"
+      ],
+      "boundary_note": "Construct-first is a research-order proposal, not a substantive theory of consciousness and not permission to fragment the phenomenon indefinitely. Catalog records and claims remain source-attributed.",
+      "claim_scope": {
+        "target": "Validity of consciousness constructs used in experiments and theory comparisons.",
+        "level": "Methodological, psychometric, and philosophy-of-science.",
+        "does_not_establish": "A privileged construct set, that theory can be postponed without limit, or a solution to first-person measurement."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Psychometric construct validation offers explicit checks on reliability, convergent validity, and measurement invariance.",
+          "Field surveys reveal that identical terms and tasks are routinely assigned different theoretical meanings."
+        ],
+        "limitations": [
+          "Construct selection can itself embed theoretical assumptions.",
+          "Highly private or species-general phenomena may resist conventional psychometrics."
+        ],
+        "independence": "The field survey independently documents the fragmentation the approach targets, but implementation studies remain limited."
+      },
+      "open_questions": [
+        "Which constructs can be validated independently of a favored theory?",
+        "How should first-person and behavioral measures enter one nomological network?",
+        "When is a construct mature enough for adversarial theory testing?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A construct-first approach to consciousness science",
+          "authors": "Peter Fazekas; Axel Cleeremans; Morten Overgaard",
+          "year": 2023,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "doi": "10.1016/j.neubiorev.2023.105480",
+          "url": "https://doi.org/10.1016/j.neubiorev.2023.105480",
+          "authority": "primary-methodological-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "An academic survey on theoretical foundations, common assumptions and the current state of consciousness science",
+          "authors": "Jolien C Francken; Lola Beerendonk; Dylan Molenaar; Johannes J Fahrenfort; Julian D Kiverstein; Anil K Seth; Simon van Gaal",
+          "year": 2022,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niac011",
+          "url": "https://doi.org/10.1093/nc/niac011",
+          "authority": "field-survey",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-023-commensurability-common-denominators",
+      "name": "Commensurability and Common-Denominator Framework",
+      "aliases": [
+        "Theory-commensurability framework",
+        "Common-denominator assessment of consciousness theories"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Comparative theory methodology",
+      "status": "explicit 2024 framework · peer-reviewed · primarily conceptual",
+      "status_note": "The authors do not claim one universal common denominator. The framework uses probing questions to determine when comparison, integration, or differentiation is justified.",
+      "summary": "The framework assesses whether consciousness theories are genuinely commensurable by examining their explananda, levels, terms, evidence, and intended scope. Candidate common denominators are treated as diagnostic tools: they may reveal overlap, translation problems, or only superficial verbal similarity.",
+      "proponents": [
+        "Kris Evers",
+        "Michele Farisco",
+        "Cyriel M. A. Pennartz"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Method for determining whether and how theories of consciousness can be compared or integrated.",
+      "keywords": [
+        "commensurability",
+        "common denominators",
+        "theory comparison",
+        "integration",
+        "explananda"
+      ],
+      "boundary_note": "The paper explicitly resists assuming that one denominator will unify all theories. No inter-theory edge should be inferred merely because two records share a term.",
+      "claim_scope": {
+        "target": "Conditions under which theory claims, concepts, and evidence can be meaningfully compared.",
+        "level": "Methodological, conceptual, and philosophy-of-science.",
+        "does_not_establish": "That leading theories are mutually translatable, a validated unification, or empirical support for any compared theory."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The framework states structured questions covering explananda, levels, constructs, and evidence.",
+          "Independent comparison methodology identifies similar problems of incompatible assumptions and predictions."
+        ],
+        "limitations": [
+          "Answers can require judgments the framework does not mechanically resolve.",
+          "Commensurability analysis can clarify disagreement without generating new empirical predictions."
+        ],
+        "independence": "The comparison source is independent and converges on the need for explicit contrastive methodology."
+      },
+      "open_questions": [
+        "Which theory pairs are only verbally rather than empirically commensurable?",
+        "Can common-denominator analysis be coded reproducibly across reviewers?",
+        "When does partial overlap license integration rather than coexistence?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Assessing the commensurability of theories of consciousness: On the usefulness of common denominators in differentiating, integrating and testing hypotheses",
+          "authors": "K. Evers; M. Farisco; C.M.A. Pennartz",
+          "year": 2024,
+          "venue": "Consciousness and Cognition",
+          "doi": "10.1016/j.concog.2024.103668",
+          "url": "https://doi.org/10.1016/j.concog.2024.103668",
+          "authority": "primary-methodological-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Comparing theories of consciousness: why it matters and how to do it",
+          "authors": "Simon Hviid Del Pin; Zuzanna Skóra; Kristian Sandberg; Morten Overgaard; Michał Wierzchoń",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab019",
+          "url": "https://doi.org/10.1093/nc/niab019",
+          "authority": "authoritative-methodological-analysis",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-024-quantified-empirical-support",
+      "name": "Quantified Empirical-Support Framework",
+      "aliases": [
+        "QES framework",
+        "Quantifying empirical support for consciousness theories"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Formal epistemology / theory assessment",
+      "status": "tentative 2024 framework · peer-reviewed · validation pending",
+      "status_note": "The author labels the framework tentative. Quantification can improve transparency but cannot remove judgments about prediction specificity, auxiliary assumptions, and evidence dependence.",
+      "summary": "The framework proposes a structured method for assigning and aggregating empirical support to consciousness theories. It distinguishes confirmation of a predicted observation from evidence that discriminates among rivals, and asks assessors to record prediction specificity, evidential dependence, and alternative explanations.",
+      "proponents": [
+        "Asger Kirkeby-Hinrup"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Tentative formal method for tracking empirical support and discrimination among theories.",
+      "keywords": [
+        "empirical support",
+        "quantification",
+        "theory comparison",
+        "confirmation",
+        "evidence"
+      ],
+      "boundary_note": "Scores are audit aids, not objective truth values or theory rankings. Applying this framework before adequate source collection would create false precision.",
+      "claim_scope": {
+        "target": "Transparent representation of how empirical findings support or discriminate consciousness theories.",
+        "level": "Methodological, formal-epistemic, and evidence-synthesis.",
+        "does_not_establish": "A consensus weighting scheme, independence of evidence, or that accumulated compatible findings uniquely confirm a theory."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The proposal formalizes distinctions between predicted, compatible, and discriminating evidence.",
+          "Independent theory-comparison work supplies cases where shared predictions inflate apparent support."
+        ],
+        "limitations": [
+          "Numerical choices and dependency corrections remain judgment-sensitive.",
+          "Published evidence is affected by selective reporting and theory-flexible interpretation."
+        ],
+        "independence": "The method is singly proposed; the independent comparison paper motivates its problem but does not validate its scoring rules."
+      },
+      "open_questions": [
+        "How should correlated evidence and shared auxiliary assumptions be discounted?",
+        "Can independent raters reproduce support assignments?",
+        "How should failed replications and null results update a theory's profile?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Quantifying empirical support for theories of consciousness: a tentative methodological framework",
+          "authors": "Asger Kirkeby-Hinrup",
+          "year": 2024,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2024.1341430",
+          "url": "https://doi.org/10.3389/fpsyg.2024.1341430",
+          "authority": "primary-methodological-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Comparing theories of consciousness: why it matters and how to do it",
+          "authors": "Simon Hviid Del Pin; Zuzanna Skóra; Kristian Sandberg; Morten Overgaard; Michał Wierzchoń",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab019",
+          "url": "https://doi.org/10.1093/nc/niab019",
+          "authority": "authoritative-methodological-analysis",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-025-formal-falsification-hierarchies",
+      "name": "Formal Falsification Across Computational Hierarchies",
+      "aliases": [
+        "Computational-hierarchy falsification framework",
+        "Formal falsification framework for consciousness theories"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "AC",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Computational modeling / falsification",
+      "status": "formal 2021 challenge framework · peer-reviewed · scope actively debated",
+      "status_note": "The framework exposes implementation and hierarchy ambiguities but its conclusions depend on how a theory fixes causal grain and implementation constraints.",
+      "summary": "The framework asks consciousness theories to state claims at explicit computational hierarchy levels and tests whether transformations at lower levels preserve the theory's predicted consciousness assignment. If a theory permits functionally or behaviorally equivalent implementations with divergent assignments, the relevant causal and computational commitments must be made explicit enough to falsify.",
+      "proponents": [
+        "Jake R. Hanson",
+        "Sara I. Walker"
+      ],
+      "era": "2021–present",
+      "year": 2021,
+      "scope": "Formal method for locating falsifiable consciousness claims across implementation and computational levels.",
+      "keywords": [
+        "falsification",
+        "computational hierarchy",
+        "implementation",
+        "unfolding",
+        "causal structure"
+      ],
+      "boundary_note": "This is a methodological challenge, not a proof that every causal-structure theory is false. Its force varies with a theory's explicit implementation and grain commitments.",
+      "claim_scope": {
+        "target": "Falsifiability of consciousness assignments under computational and causal transformations.",
+        "level": "Formal, computational, causal, and philosophy-of-science.",
+        "does_not_establish": "That functional equivalence is sufficient for consciousness, a universal no-go theorem, or the empirical absence of causal-structure effects."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper gives a hierarchy-sensitive formalization of theory predictions.",
+          "The Unfolding Argument provides a concrete implementation-equivalence challenge motivating the framework."
+        ],
+        "limitations": [
+          "Results depend on contested definitions of implementation, equivalence, and causal grain.",
+          "A theory can answer by adding constraints, though unconstrained additions risk ad hoc rescue."
+        ],
+        "independence": "The two papers come from different author teams and develop related but not identical challenges."
+      },
+      "open_questions": [
+        "Which equivalence class is scientifically relevant for each theory?",
+        "Can empirical interventions fix the appropriate causal grain?",
+        "When is an implementation constraint independently motivated rather than theory-protective?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Formalizing falsification for theories of consciousness across computational hierarchies",
+          "authors": "Jake R Hanson; Sara I Walker",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab014",
+          "url": "https://doi.org/10.1093/nc/niab014",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The unfolding argument: Why IIT and other causal structure theories cannot explain consciousness",
+          "authors": "Adrien Doerig; Aaron Schurger; Kathryn Hess; Michael H. Herzog",
+          "year": 2019,
+          "venue": "Consciousness and Cognition",
+          "doi": "10.1016/j.concog.2019.04.002",
+          "url": "https://doi.org/10.1016/j.concog.2019.04.002",
+          "authority": "primary-argument",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-026-explanatory-profiles",
+      "name": "Explanatory Profiles Framework",
+      "aliases": [
+        "Explanatory profiles of consciousness models",
+        "E-profile classification"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Systematic model classification",
+      "status": "explicit 2021 classification · peer-reviewed · coding reliability still developing",
+      "status_note": "The framework creates multidimensional profiles rather than a winner ranking; categories require reviewer judgment and continued updating as theories change.",
+      "summary": "Explanatory Profiles classifies consciousness models by the kinds of explanation they attempt, including phenomenology, function, mechanism, computation, ontology, and prediction. Displaying these dimensions separately helps prevent a model strong on one explanandum from being treated as a complete answer to all others.",
+      "proponents": [
+        "Camilo Miguel Signorelli",
+        "Joanna Szczotka",
+        "Robert Prentner"
+      ],
+      "era": "2021–present",
+      "year": 2021,
+      "scope": "Multidimensional classification of what consciousness models explain and how.",
+      "keywords": [
+        "explanatory profile",
+        "classification",
+        "models",
+        "explananda",
+        "taxonomy"
+      ],
+      "boundary_note": "Profiles describe explanatory commitments; they do not establish truth, equivalence, or evidential ranking. Categories must retain citations to each theory's own writers.",
+      "claim_scope": {
+        "target": "Differences in explanatory aim, level, mechanism, and scope among models of consciousness.",
+        "level": "Taxonomic, methodological, and philosophy-of-science.",
+        "does_not_establish": "That profile dimensions are exhaustive, that similar profiles imply identical theories, or empirical validation of any model."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The authors apply a systematic multidimensional coding scheme to a broad model sample.",
+          "An independent scoping review documents the field's theoretical diversity and classification need."
+        ],
+        "limitations": [
+          "Coding complex theories into fixed dimensions can flatten internal variants.",
+          "Inter-rater reliability and temporal stability of profiles require further study."
+        ],
+        "independence": "The scoping review is independent and corroborates fragmentation, while using a different classification approach."
+      },
+      "open_questions": [
+        "Which dimensions are reliable across independent coders?",
+        "How should evolving theory variants be versioned?",
+        "Can profiles identify genuinely missing explanations without implying synthesis?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Explanatory profiles of models of consciousness - towards a systematic classification",
+          "authors": "Camilo Miguel Signorelli; Joanna Szczotka; Robert Prentner",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab021",
+          "url": "https://doi.org/10.1093/nc/niab021",
+          "authority": "primary-classification-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Theoretical Models of Consciousness: A Scoping Review",
+          "authors": "Davide Sattin; Francesca Giulia Magnani; Laura Bartesaghi; Milena Caputo; Andrea Veronica Fittipaldo; Martina Cacciatore; Mario Picozzi; Matilde Leonardi",
+          "year": 2021,
+          "venue": "Brain Sciences",
+          "doi": "10.3390/brainsci11050535",
+          "url": "https://doi.org/10.3390/brainsci11050535",
+          "authority": "systematic-scoping-review",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-027-universality-criterion",
+      "name": "Universality Criterion for Consciousness Theories",
+      "aliases": [
+        "Universal-theory criterion",
+        "Substrate- and species-universal consciousness framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Comparative and artificial consciousness methodology",
+      "status": "explicit 2024 program · peer-reviewed · criteria not yet decisive",
+      "status_note": "The proposal calls for theories that generalize beyond adult human report; it does not provide a settled universal test.",
+      "summary": "The universality program argues that an adequate consciousness theory should apply across species, developmental stages, altered states, and artificial systems without silently importing human-specific report capacities. It asks theories to separate universal principles from contingent biological implementations and to state cross-system measurement bridges.",
+      "proponents": [
+        "Ryota Kanai",
+        "Ippei Fujisawa"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Methodological criteria for substrate- and species-general theories of consciousness.",
+      "keywords": [
+        "universality",
+        "comparative consciousness",
+        "artificial consciousness",
+        "measurement bridge",
+        "substrate"
+      ],
+      "boundary_note": "Universality is an adequacy criterion, not the claim that one existing theory already spans every system or that implementation differences are irrelevant.",
+      "claim_scope": {
+        "target": "Generalizability of consciousness principles and measures across biological and artificial cases.",
+        "level": "Methodological, comparative, computational, and cross-species.",
+        "does_not_establish": "A universal consciousness metric, substrate independence, or consciousness in any particular machine or animal."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Human report-centered paradigms cannot directly answer many comparative and artificial-consciousness questions.",
+          "The building-block meta-theory independently motivates decomposable attributes that can be inspected across systems."
+        ],
+        "limitations": [
+          "Very broad scope can trade precision for portability.",
+          "Cross-system measures may not preserve the same construct or causal role."
+        ],
+        "independence": "The building-block paper is independent and complementary but does not validate universality as a sufficient adequacy test."
+      },
+      "open_questions": [
+        "Which theoretical principles remain invariant across substrates?",
+        "How can construct equivalence be established without shared behavior?",
+        "When should implementation-specific detail override universality?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Toward a universal theory of consciousness",
+          "authors": "Ryota Kanai; Ippei Fujisawa",
+          "year": 2024,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niae022",
+          "url": "https://doi.org/10.1093/nc/niae022",
+          "authority": "primary-methodological-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Building the Blocks of Being: The Attributes and Qualities Required for Consciousness",
+          "authors": "Izak Tait; Joshua Bensemann; Trung Nguyen",
+          "year": 2023,
+          "venue": "Philosophies",
+          "doi": "10.3390/philosophies8040052",
+          "url": "https://doi.org/10.3390/philosophies8040052",
+          "authority": "primary-meta-theory",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-028-relational-category-framework",
+      "name": "Relational Category-Theoretic Framework of Consciousness",
+      "aliases": [
+        "Categorical relational approach",
+        "Category-theoretic levels-and-contents framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Formal, mathematical & information-theoretic models",
+      "tradition": "Category theory / relational science",
+      "status": "explicit 2021 formal framework · peer-reviewed · empirical mapping preliminary",
+      "status_note": "The framework provides a precise relational language, but category-theoretic representability alone does not select a neural mechanism or prove phenomenality.",
+      "summary": "The relational framework uses category theory to describe levels and contents of consciousness through structures of objects, morphisms, and relations rather than intrinsic labels alone. It aims to compare phenomenal and neural organizations at an abstract level where structure-preserving mappings can be stated and tested.",
+      "proponents": [
+        "Naotsugu Tsuchiya",
+        "Hayato Saigo"
+      ],
+      "era": "2021–present",
+      "year": 2021,
+      "scope": "Category-theoretic representation of relations among conscious levels, contents, and candidate physical structures.",
+      "keywords": [
+        "category theory",
+        "relations",
+        "structure preserving",
+        "contents",
+        "levels"
+      ],
+      "boundary_note": "This is not a claim that mathematical category structure by itself generates experience. It is a formal descriptive and comparison framework whose empirical interpretation must be separately specified.",
+      "claim_scope": {
+        "target": "Relational organization shared or mapped between phenomenal and physical descriptions.",
+        "level": "Formal, mathematical, phenomenological, and neural-representational.",
+        "does_not_establish": "A unique category for consciousness, a neural realization, or that any structure-preserving map is explanatory."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Category theory explicitly represents compositional relations and structure-preserving translations.",
+          "Later mathematical work develops global phenomenal structures using related formal tools."
+        ],
+        "limitations": [
+          "Multiple inequivalent categorical models may fit the same qualitative observations.",
+          "Operational data needed to identify phenomenal morphisms are sparse."
+        ],
+        "independence": "The later global-structure paper includes Tsuchiya and extends rather than independently tests the program."
+      },
+      "open_questions": [
+        "Which empirical operations instantiate phenomenal morphisms?",
+        "What equivalence criteria compare neural and phenomenal categories?",
+        "Can the framework generate a risky prediction unavailable to ordinary representational geometry?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A relational approach to consciousness: categories of level and contents of consciousness",
+          "authors": "Naotsugu Tsuchiya; Hayato Saigo",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab034",
+          "url": "https://doi.org/10.1093/nc/niab034",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Towards a Mathematical Structure of Global Phenomenal Consciousness",
+          "authors": "Zoe Lee-Youngzie; Naotsugu Tsuchiya; Michael Robinson; Donna Dietz; Martin M. Monti",
+          "year": 2026,
+          "venue": "Entropy",
+          "doi": "10.3390/e28060615",
+          "url": "https://doi.org/10.3390/e28060615",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-030-mathematical-structure-experience",
+      "name": "Mathematical Structure of Conscious Experience Program",
+      "aliases": [
+        "MSC experience-structure program",
+        "Formal phenomenal-structure approach"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Formal, mathematical & information-theoretic models",
+      "tradition": "Phenomenal-structure mathematics",
+      "status": "explicit 2024 formal program · peer-reviewed · empirical foundations unsettled",
+      "status_note": "The program refines what it means to assign structure to experience, while acknowledging that many features of experience are private and not directly collatable across subjects.",
+      "summary": "The program investigates which mathematical structures can legitimately represent conscious experience, distinguishing labels imposed by an investigator from relations available within experience. It treats non-collatability across subjects as a formal constraint and asks how experiential similarity, composition, and transformations can be grounded operationally.",
+      "proponents": [
+        "Johannes Kleiner",
+        "Tim Ludwig"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Formal analysis of experiential state spaces, relations, transformations, and intersubjective non-collatability.",
+      "keywords": [
+        "phenomenal structure",
+        "non-collatability",
+        "experience space",
+        "mathematics",
+        "qualia"
+      ],
+      "boundary_note": "This record is narrower than the general Mathematical Models framework: it concerns the structure of the phenomenal domain itself, not the full psychophysical model linking experience to physical systems.",
+      "claim_scope": {
+        "target": "Mathematically legitimate structure assigned to conscious experience.",
+        "level": "Phenomenological, mathematical, and epistemic.",
+        "does_not_establish": "That qualia can be numerically compared across people, a neural mapping, or a unique mathematical object for experience."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper separates operationally justified relations from arbitrary labels and coordinates.",
+          "The general mathematical framework provides explicit requirements for linking an experience domain to models."
+        ],
+        "limitations": [
+          "First-person accessibility does not automatically yield stable quantitative operations.",
+          "Non-collatability may underdetermine cross-subject model testing."
+        ],
+        "independence": "The two sources form one author-overlapping program; outside formal critique and empirical implementation remain needed."
+      },
+      "open_questions": [
+        "Which experiential relations are invariant and empirically elicitable?",
+        "How can cross-subject tests respect non-collatability?",
+        "What neural mapping preserves justified phenomenal structure rather than imposed coordinates?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "What is a mathematical structure of conscious experience?",
+          "authors": "Johannes Kleiner; Tim Ludwig",
+          "year": 2024,
+          "venue": "Synthese",
+          "doi": "10.1007/s11229-024-04503-4",
+          "url": "https://doi.org/10.1007/s11229-024-04503-4",
+          "authority": "primary-formal-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mathematical Models of Consciousness",
+          "authors": "Johannes Kleiner",
+          "year": 2020,
+          "venue": "Entropy",
+          "doi": "10.3390/e22060609",
+          "url": "https://doi.org/10.3390/e22060609",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-031-consciousness-only-process-model",
+      "name": "Consciousness-Only Process Model",
+      "aliases": [
+        "Compositional Consciousness-Only model",
+        "Consciousness-Only process theory"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Formal, mathematical & information-theoretic models",
+      "tradition": "Experience-first process theory",
+      "status": "explicit 2021 formal model · peer-reviewed · speculative foundations",
+      "status_note": "The model is mathematically articulated, but its consciousness-only starting assumptions and correspondence with physical data have not received discriminating empirical support.",
+      "summary": "The Consciousness-Only model uses compositional process theory to treat conscious experiences and their transformations as primary elements. Physical descriptions are modeled through stable relational and compositional patterns among experiential processes rather than experience being added to an independently complete physical ontology.",
+      "proponents": [
+        "Camilo Miguel Signorelli",
+        "Quanlong Wang",
+        "Ilyas Khan"
+      ],
+      "era": "2021–present",
+      "year": 2021,
+      "scope": "Experience-first compositional process model relating conscious events and physical descriptions.",
+      "keywords": [
+        "consciousness-only",
+        "process theory",
+        "composition",
+        "experience-first",
+        "formal ontology"
+      ],
+      "boundary_note": "This model's experience-first ontology is a substantive assumption, not a conclusion of category theory. It is distinct from the neutral relational framework, which need not privilege consciousness ontologically.",
+      "claim_scope": {
+        "target": "Compositional organization of experiences and the derivation of stable world-like relations.",
+        "level": "Formal, process-theoretic, phenomenological, and metaphysical.",
+        "does_not_establish": "Independent evidence for consciousness-only ontology, a unique physical mapping, or an empirical consciousness measure."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper specifies compositional operations and uses process-theoretic tools rather than relying only on verbal idealism.",
+          "The category-theoretic relational framework independently demonstrates how relational formalisms can organize levels and contents."
+        ],
+        "limitations": [
+          "Formal consistency does not decide whether experience or physical structure is ontologically primary.",
+          "The mapping from private experiential processes to public measurements remains underconstrained."
+        ],
+        "independence": "The relational source is independent but does not endorse the model's consciousness-only ontology."
+      },
+      "open_questions": [
+        "Which empirical pattern differs from a structurally equivalent physical-first model?",
+        "How are individual subjects and their boundaries represented compositionally?",
+        "What observations constrain the allowed process category?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "A Compositional Model of Consciousness Based on Consciousness-Only",
+          "authors": "Camilo Miguel Signorelli; Quanlong Wang; Ilyas Khan",
+          "year": 2021,
+          "venue": "Entropy",
+          "doi": "10.3390/e23030308",
+          "url": "https://doi.org/10.3390/e23030308",
+          "authority": "primary-formal-model",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A relational approach to consciousness: categories of level and contents of consciousness",
+          "authors": "Naotsugu Tsuchiya; Hayato Saigo",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab034",
+          "url": "https://doi.org/10.1093/nc/niab034",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-032-neurophenomenal-structuralism",
+      "name": "Neurophenomenal Structuralism",
+      "aliases": [
+        "NPS",
+        "Direct neurophenomenal structuralism"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Formal, mathematical & information-theoretic models",
+      "tradition": "Structural realism / neurophenomenology",
+      "status": "active philosophical research program · peer-reviewed · empirical protocols emerging",
+      "status_note": "NPS proposes structure-preserving neural–phenomenal mappings; evidence for local correspondences does not yet establish a global isomorphism or constitutive identity.",
+      "summary": "Neurophenomenal Structuralism seeks explanatory matches between relational structures in experience and relational structures in neural activity. Rather than assigning one neural variable to one quale, it asks whether similarity, ordering, topology, and transformations are preserved across phenomenal and neural domains.",
+      "proponents": [
+        "Holger Lyre",
+        "Sascha Benjamin Fink"
+      ],
+      "era": "2022–present",
+      "year": 2022,
+      "scope": "Structuralist program for direct mappings between phenomenological and neural relational organization.",
+      "keywords": [
+        "neurophenomenal structuralism",
+        "structural correspondence",
+        "isomorphism",
+        "phenomenology",
+        "neural geometry"
+      ],
+      "boundary_note": "A structural correspondence is not automatically identity, causation, or explanation. NPS differs from generic representational-similarity analysis by assigning explicit neurophenomenal explanatory significance to preserved structure.",
+      "claim_scope": {
+        "target": "Structural relations between conscious experience and neural dynamics.",
+        "level": "Phenomenological, systems-neural, mathematical, and philosophical.",
+        "does_not_establish": "A complete phenomenal structure, global neural–phenomenal isomorphism, or why structural correspondence is experiential."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The program defines a structuralist explanatory agenda and candidate correspondence relations.",
+          "Independent development proposes 'how-tests' for direct neurophenomenal structure rather than simple correlation."
+        ],
+        "limitations": [
+          "Phenomenal structures depend on elicitation and reporting methods.",
+          "Many neural representational geometries can be fitted by flexible transformations."
+        ],
+        "independence": "Fink's methodological development is independent of Lyre and tests the program's explanatory commitments rather than merely repeating them."
+      },
+      "open_questions": [
+        "Which transformations count as structure-preserving rather than convenient fits?",
+        "Can interventions test phenomenal topology independently of report geometry?",
+        "How local structural matches combine into one experiential field?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Neurophenomenal structuralism. A philosophical agenda for a structuralist neuroscience of consciousness",
+          "authors": "Holger Lyre",
+          "year": 2022,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niac012",
+          "url": "https://doi.org/10.1093/nc/niac012",
+          "authority": "primary-programmatic-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "How-tests for consciousness and direct neurophenomenal structuralism",
+          "authors": "Sascha Benjamin Fink",
+          "year": 2024,
+          "venue": "Frontiers in Psychology",
+          "doi": "10.3389/fpsyg.2024.1352272",
+          "url": "https://doi.org/10.3389/fpsyg.2024.1352272",
+          "authority": "independent-methodological-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-034-integrated-information-decomposition",
+      "name": "Integrated Information Decomposition Account",
+      "aliases": [
+        "PhiID account",
+        "Integrated-information-decomposition consciousness framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Formal, mathematical & information-theoretic models",
+      "tradition": "Multivariate information dynamics",
+      "status": "active formal and empirical program · peer-reviewed · consciousness interpretation conditional",
+      "status_note": "PhiID decomposes information dynamics rigorously and has empirical neural applications; treating particular atoms as consciousness-relevant remains a theoretical interpretation rather than a settled result.",
+      "summary": "Integrated Information Decomposition, or PhiID, decomposes temporal information flow into redundant, unique, and synergistic atoms across past and future variables. Consciousness applications propose that combinations of integration and differentiation—especially synergistic global availability—can characterize emergent mental organization more precisely than one aggregate complexity score.",
+      "proponents": [
+        "Andrea I. Luppi",
+        "Pedro A. M. Mediano",
+        "Fernando E. Rosas",
+        "Daniel Bor",
+        "Emmanuel A. Stamatakis"
+      ],
+      "era": "2021–present",
+      "year": 2021,
+      "scope": "Multivariate information-dynamic decomposition applied to emergent mental phenomena and conscious workspace organization.",
+      "keywords": [
+        "PhiID",
+        "synergy",
+        "redundancy",
+        "information dynamics",
+        "workspace"
+      ],
+      "boundary_note": "PhiID is not IIT's phi measure and does not inherit IIT's identity claim. It is an information-decomposition formalism whose consciousness interpretation must be independently justified.",
+      "claim_scope": {
+        "target": "Information-dynamic modes proposed to support integration, differentiation, and global conscious availability.",
+        "level": "Formal, computational, network-neural, and empirical.",
+        "does_not_establish": "That high synergy is sufficient for phenomenality, an exclusion postulate, or consciousness in every synergistic system."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The framework yields explicit information atoms with estimators and testable network interpretations.",
+          "Human neuroimaging work reports synergistic organization associated with a consciousness-relevant workspace."
+        ],
+        "limitations": [
+          "Finite-data estimation is difficult and sensitive to variable choice and temporal scale.",
+          "Synergy supports complex computation in systems not ordinarily considered conscious."
+        ],
+        "independence": "The empirical development substantially overlaps the formal account's author team; independent replications are beginning but not established here."
+      },
+      "open_questions": [
+        "Which PhiID atoms are necessary across conscious states and contents?",
+        "How robust are results to parcellation, estimator, and temporal embedding?",
+        "Can causal perturbation dissociate synergy from task complexity?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "What it is like to be a bit: an integrated information decomposition account of emergent mental phenomena",
+          "authors": "Andrea I Luppi; Pedro A M Mediano; Fernando E Rosas; David J Harrison; Robin L Carhart-Harris; Daniel Bor; Emmanuel A Stamatakis",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab027",
+          "url": "https://doi.org/10.1093/nc/niab027",
+          "authority": "primary-formal-account",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A synergistic workspace for human consciousness revealed by Integrated Information Decomposition",
+          "authors": "Andrea I Luppi; Pedro AM Mediano; Fernando E Rosas; Judith Allanson; John Pickard; Robin L Carhart-Harris; Guy B Williams; Michael M Craig; Paola Finoia; Adrian M Owen; Lorina Naci; David K Menon; Daniel Bor; Emmanuel A Stamatakis",
+          "year": 2023,
+          "venue": "eLife",
+          "doi": "10.7554/elife.88173",
+          "url": "https://doi.org/10.7554/eLife.88173",
+          "authority": "primary-empirical-development",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-037-global-phenomenal-category-structure",
+      "name": "Global Phenomenal Category-Structure Framework",
+      "aliases": [
+        "Mathematical structure of global phenomenal consciousness",
+        "GPC category framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Formal, mathematical & information-theoretic models",
+      "tradition": "Category theory / global phenomenology",
+      "status": "explicit 2026 formal framework · peer-reviewed · no independent empirical test",
+      "status_note": "The new framework proposes mathematical organization for the whole phenomenal field; empirical operations needed to identify its category remain at an early stage.",
+      "summary": "The framework models global phenomenal consciousness—the structured whole of an experience—using categorical relations among phenomenal components, transformations, and contexts. It aims to capture unity without reducing the field to an unstructured set of contents or assuming that pairwise similarity alone exhausts global organization.",
+      "proponents": [
+        "Zoe Lee-Youngzie",
+        "Naotsugu Tsuchiya",
+        "Michael Robinson",
+        "Donna Dietz",
+        "Martin M. Monti"
+      ],
+      "era": "2026–present",
+      "year": 2026,
+      "scope": "Category-theoretic model of the compositional and global structure of a phenomenal field.",
+      "keywords": [
+        "global phenomenology",
+        "category theory",
+        "unity",
+        "composition",
+        "phenomenal field"
+      ],
+      "boundary_note": "This 2026 global-field construction is a specific extension of the broader relational category framework; neither mathematics nor global unity alone establishes consciousness in a physical system.",
+      "claim_scope": {
+        "target": "Composition and relational organization of the whole phenomenal field.",
+        "level": "Phenomenological, categorical, mathematical, and methodological.",
+        "does_not_establish": "A neural correlate, a unique phenomenal category, or evidence that category structure constitutes experience."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper states formal objects and relations for representing global phenomenal organization.",
+          "The earlier relational approach supplies the levels-and-contents framework from which it develops."
+        ],
+        "limitations": [
+          "Formal choices remain underdetermined by available first-person data.",
+          "No independent empirical study has yet discriminated the framework from alternative geometrical descriptions."
+        ],
+        "independence": "The defining and precursor papers share Tsuchiya; the second source establishes lineage rather than independent confirmation."
+      },
+      "open_questions": [
+        "Which first-person operations identify global compositional relations?",
+        "How does the category change across dreaming, anesthesia, or divided attention?",
+        "What physical mapping preserves global rather than only local structure?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Towards a Mathematical Structure of Global Phenomenal Consciousness",
+          "authors": "Zoe Lee-Youngzie; Naotsugu Tsuchiya; Michael Robinson; Donna Dietz; Martin M. Monti",
+          "year": 2026,
+          "venue": "Entropy",
+          "doi": "10.3390/e28060615",
+          "url": "https://doi.org/10.3390/e28060615",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A relational approach to consciousness: categories of level and contents of consciousness",
+          "authors": "Naotsugu Tsuchiya; Hayato Saigo",
+          "year": 2021,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niab034",
+          "url": "https://doi.org/10.1093/nc/niab034",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-039-nonseparability-foundation",
+      "name": "Physical Non-Separability Foundation of Consciousness",
+      "aliases": [
+        "Non-separability theory of consciousness",
+        "Physical-system non-separability account"
+      ],
+      "kind": "Philosophical position",
+      "kind_codes": [
+        "PP",
+        "NF"
+      ],
+      "domain": "Metaphysics, ontology & philosophy of mind",
+      "tradition": "Physical holism / foundational information theory",
+      "status": "explicit 2022 foundational proposal · peer-reviewed · highly speculative",
+      "status_note": "The proposal links consciousness to physical non-separability, but non-separability is widespread and no validated criterion identifies which forms are experience-bearing.",
+      "summary": "The account proposes that the unity and privacy of consciousness are grounded in physical systems whose relevant states cannot be decomposed into independently specified parts. Non-separability is offered as a physical foundation for intrinsic unity rather than treating consciousness as an aggregate of externally related computations.",
+      "proponents": [
+        "Anton Arkhipov"
+      ],
+      "era": "2022–present",
+      "year": 2022,
+      "scope": "Foundational physical-holist proposal for unity and intrinsic subjecthood.",
+      "keywords": [
+        "non-separability",
+        "holism",
+        "unity",
+        "physical foundation",
+        "subject"
+      ],
+      "boundary_note": "Non-separability here is a proposed necessary foundation, not a demonstration that quantum entanglement or any correlated physical system is conscious.",
+      "claim_scope": {
+        "target": "Physical basis of unified, intrinsic conscious subjecthood.",
+        "level": "Foundational physics, metaphysics, and information structure.",
+        "does_not_establish": "That non-separability is sufficient, a quantitative consciousness measure, or a demonstrated neural realization."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper distinguishes intrinsic physical unity from externally imposed aggregation and states formal motivations.",
+          "General mathematical-model work supplies a neutral framework for asking how physical and experiential structures would be linked."
+        ],
+        "limitations": [
+          "Many non-separable or strongly correlated physical systems lack plausible signs of consciousness.",
+          "The proposed psychophysical bridge has not produced discriminating experiments."
+        ],
+        "independence": "The mathematical-framework source is independent but methodologically neutral toward non-separability."
+      },
+      "open_questions": [
+        "Which kind and scale of non-separability is necessary?",
+        "How are multiple subjects individuated within larger non-separable systems?",
+        "What observation distinguishes the theory from integration-based alternatives?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Non-Separability of Physical Systems as a Foundation of Consciousness",
+          "authors": "Anton Arkhipov",
+          "year": 2022,
+          "venue": "Entropy",
+          "doi": "10.3390/e24111539",
+          "url": "https://doi.org/10.3390/e24111539",
+          "authority": "primary-foundational-proposal",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Mathematical Models of Consciousness",
+          "authors": "Johannes Kleiner",
+          "year": 2020,
+          "venue": "Entropy",
+          "doi": "10.3390/e22060609",
+          "url": "https://doi.org/10.3390/e22060609",
+          "authority": "primary-formal-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-040-free-energy-causal-flow-ai",
+      "name": "Free-Energy Causal-Flow Criterion for Artificial Consciousness",
+      "aliases": [
+        "FEP causal-flow criterion",
+        "Free-energy criterion for artificial consciousness"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "AC",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Free-Energy Principle / mechanistic realization",
+      "status": "explicit 2024 argument · peer-reviewed · criterion conditional",
+      "status_note": "The proposal sharpens simulation-versus-realization questions but depends on unresolved assumptions about which causal flows matter for consciousness.",
+      "summary": "The criterion argues that an artificial implementation should reproduce the relevant causal organization of an active-inference system, not merely calculate an abstract free-energy expression. Embodied exchanges, counterfactual dynamics, and internal–external causal flow may therefore matter to whether a machine realizes rather than simulates a candidate conscious process.",
+      "proponents": [
+        "Wanja Wiese"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Mechanistic realization criterion for artificial consciousness inspired by the Free-Energy Principle.",
+      "keywords": [
+        "artificial consciousness",
+        "free energy",
+        "causal flow",
+        "realization",
+        "simulation"
+      ],
+      "boundary_note": "The criterion does not claim that free-energy minimization is sufficient or that current AI is conscious. It is distinct from the catalog's general Free-Energy Principle record and from indicator checklists.",
+      "claim_scope": {
+        "target": "Causal and embodied conditions under which an artificial system could realize an FEP-based consciousness mechanism.",
+        "level": "Mechanistic, computational, embodied, and philosophical.",
+        "does_not_establish": "A working architecture, evidence of machine experience, or agreement that the specified causal flow is necessary."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The argument distinguishes mathematical simulation from causal realization and states implementation-relevant conditions.",
+          "Neuroscience analysis independently identifies mechanistic gaps between current AI and biological consciousness candidates."
+        ],
+        "limitations": [
+          "The consciousness-relevant causal grain remains theory-dependent.",
+          "Free-energy descriptions can apply at many scales, risking permissive classification."
+        ],
+        "independence": "The neuroscience source is independent and broadly cautionary, not validation of the FEP criterion."
+      },
+      "open_questions": [
+        "Which causal flow must be physically reproduced rather than simulated?",
+        "Can neuromorphic or embodied agents satisfy the criterion?",
+        "How would a matched causal intervention distinguish realization from emulation?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Artificial consciousness: a perspective from the free energy principle",
+          "authors": "Wanja Wiese",
+          "year": 2024,
+          "venue": "Philosophical Studies",
+          "doi": "10.1007/s11098-024-02182-y",
+          "url": "https://doi.org/10.1007/s11098-024-02182-y",
+          "authority": "primary-argument",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "The feasibility of artificial consciousness through the lens of neuroscience",
+          "authors": "Jaan Aru; Matthew E. Larkum; James M. Shine",
+          "year": 2023,
+          "venue": "Trends in Neurosciences",
+          "doi": "10.1016/j.tins.2023.09.009",
+          "url": "https://doi.org/10.1016/j.tins.2023.09.009",
+          "authority": "authoritative-analysis",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-041-dynamical-relevance-no-go",
+      "name": "Dynamical-Relevance No-Go Theorem for Consciousness on Commodity Chips",
+      "aliases": [
+        "Case-for-neurons no-go theorem",
+        "Consciousness-on-a-chip no-go theorem"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "AC",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Dynamical systems / implementation theory",
+      "status": "conditional 2024 no-go theorem · peer-reviewed · premises contested",
+      "status_note": "The theorem is valid only under explicit assumptions, especially that consciousness is dynamically relevant and implementation hardware suppresses the relevant physical deviations.",
+      "summary": "The no-go argument holds that if conscious properties make a dynamical difference not fixed by an abstract computation, implementations on ordinary error-corrected digital chips may systematically eliminate the relevant deviations. Under those premises, functional simulation would not suffice for consciousness even when input–output behavior matches.",
+      "proponents": [
+        "Johannes Kleiner",
+        "Tim Ludwig"
+      ],
+      "era": "2024–present",
+      "year": 2024,
+      "scope": "Conditional formal limitation on consciousness realized by conventional digital computation.",
+      "keywords": [
+        "no-go theorem",
+        "neurons",
+        "digital chips",
+        "dynamical relevance",
+        "implementation"
+      ],
+      "boundary_note": "This is not an unconditional proof that computers cannot be conscious. Its conclusion must always travel with its dynamical-relevance and hardware premises.",
+      "claim_scope": {
+        "target": "Whether conventional digital implementations can preserve consciousness-relevant physical dynamics.",
+        "level": "Formal, dynamical, implementation-theoretic, and philosophical.",
+        "does_not_establish": "That biological neurons are sufficient, that neuromorphic hardware is conscious, or that functionalism is empirically false."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper states a conditional theorem and identifies how error-corrected implementation can erase dynamically relevant variation.",
+          "The FEP causal-flow argument independently emphasizes realization rather than abstract calculation."
+        ],
+        "limitations": [
+          "Dynamical relevance of consciousness is not established.",
+          "Commodity chips, analog hardware, and hybrid systems may not form one relevant implementation class."
+        ],
+        "independence": "Wiese's argument is independent and converges on causal implementation while using different premises."
+      },
+      "open_questions": [
+        "What evidence would establish dynamically relevant phenomenal properties?",
+        "Which hardware interventions preserve candidate deviations?",
+        "Does the theorem apply to neuromorphic, analog, or biological–digital hybrids?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "The case for neurons: a no-go theorem for consciousness on a chip",
+          "authors": "Johannes Kleiner; Tim Ludwig",
+          "year": 2024,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niae037",
+          "url": "https://doi.org/10.1093/nc/niae037",
+          "authority": "primary-formal-argument",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Artificial consciousness: a perspective from the free energy principle",
+          "authors": "Wanja Wiese",
+          "year": 2024,
+          "venue": "Philosophical Studies",
+          "doi": "10.1007/s11098-024-02182-y",
+          "url": "https://doi.org/10.1007/s11098-024-02182-y",
+          "authority": "primary-argument",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-042-behavioral-inference-principle",
+      "name": "Behavioral Inference Principle for Machine Consciousness",
+      "aliases": [
+        "BIP for machine consciousness",
+        "Behavior-first inference principle"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Behavioral science / comparative inference",
+      "status": "explicit 2026 methodological principle · peer-reviewed · no application consensus",
+      "status_note": "The principle offers an epistemic method for machine cases, not a claim that sophisticated behavior proves consciousness.",
+      "summary": "The Behavioral Inference Principle argues that consciousness attribution to machines should use controlled behavioral evidence in the same abductive spirit used for humans and animals, while explicitly accounting for training history, prompt sensitivity, architectural shortcuts, and adversarial imitation. Computational equivalence alone is neither necessary nor sufficient for the inference.",
+      "proponents": [
+        "Stefano Palminteri",
+        "Charley M. Wu"
+      ],
+      "era": "2026–present",
+      "year": 2026,
+      "scope": "Epistemic framework for drawing calibrated machine-consciousness inferences from behavior.",
+      "keywords": [
+        "machine consciousness",
+        "behavior",
+        "inference",
+        "abduction",
+        "artificial intelligence"
+      ],
+      "boundary_note": "BIP is an inference policy, not a behavioral sufficient condition and not a Turing-test verdict. Behavioral displays remain vulnerable to imitation and training contamination.",
+      "claim_scope": {
+        "target": "Quality and calibration of evidence used to infer consciousness in artificial systems.",
+        "level": "Methodological, behavioral, comparative, and epistemic.",
+        "does_not_establish": "Consciousness in any existing model, that internals are irrelevant, or that one benchmark can establish phenomenality."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper identifies concrete failures of purely computational equivalence and purely dismissive behavioral standards.",
+          "The AI indicator framework supplies a complementary architecture-based method against which behavior-first inference can be compared."
+        ],
+        "limitations": [
+          "Machine behavior may be optimized to mimic reports without corresponding mechanisms.",
+          "Cross-system priors about consciousness remain controversial and can dominate the inference."
+        ],
+        "independence": "The indicator source is independent and complementary; it does not validate BIP or privilege behavior over mechanisms."
+      },
+      "open_questions": [
+        "Which behaviors resist memorization, prompting, and reward-model shaping?",
+        "How should architectural evidence update behavioral likelihoods?",
+        "What calibration standard transfers fairly across humans, animals, and machines?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Beyond computational equivalence: the behavioral inference principle for machine consciousness",
+          "authors": "Stefano Palminteri; Charley M Wu",
+          "year": 2026,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niag002",
+          "url": "https://doi.org/10.1093/nc/niag002",
+          "authority": "primary-methodological-principle",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+          "authors": "Patrick Butlin; Robert Long; Eric Elmoznino; Yoshua Bengio; Jonathan Birch; Axel Constant; George Deane; Stephen M. Fleming; Chris Frith; Xu Ji; Ryota Kanai; Colin Klein; Grace Lindsay; Matthias Michel; Liad Mudrik; Megan A. K. Peters; Eric Schwitzgebel; Jonathan Simon; Rufin VanRullen",
+          "year": 2023,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2308.08708",
+          "authority": "authoritative-preprint-framework",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-043-mechanistic-implementation-ai-consciousness",
+      "name": "Mechanistic Implementation Framework for Artificial Consciousness",
+      "aliases": [
+        "Implementing Artificial Consciousness framework",
+        "Mechanistic computationalist implementation account"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Mechanistic explanation / computational functionalism",
+      "status": "explicit 2025 framework · peer-reviewed · implementation criteria debated",
+      "status_note": "The framework argues for mechanistically constrained computational implementation; it neither presents a conscious machine nor settles substrate-dependence disputes.",
+      "summary": "The framework proposes that artificial consciousness research should move from abstract functional similarity to mechanistic implementation: specify organized components, activities, levels, and counterfactual dependencies that realize a consciousness theory. Computational descriptions are useful only when anchored to a mechanism with the right causal organization.",
+      "proponents": [
+        "Leonard Dung",
+        "Luke Kersten"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Mechanistic framework for translating computational consciousness theories into artificial implementations.",
+      "keywords": [
+        "artificial consciousness",
+        "mechanism",
+        "implementation",
+        "computationalism",
+        "causal organization"
+      ],
+      "boundary_note": "This is not an architecture and not evidence that current AI is conscious. It is a methodology for specifying what implementation would amount to under a mechanistic computationalist stance.",
+      "claim_scope": {
+        "target": "Conditions for implementing rather than merely describing a computational consciousness mechanism.",
+        "level": "Mechanistic, computational, engineering, and philosophical.",
+        "does_not_establish": "A settled mechanism of consciousness, substrate independence, or a successful artificial realization."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper combines mechanistic-explanation constraints with computational implementation requirements.",
+          "Wiese independently emphasizes causal realization over equation-level simulation."
+        ],
+        "limitations": [
+          "Different consciousness theories posit incompatible mechanisms and levels.",
+          "Mechanistic completeness can remain underspecified for large learned systems."
+        ],
+        "independence": "Wiese's paper is independent and converges on realization constraints from an FEP perspective."
+      },
+      "open_questions": [
+        "What level of mechanism is sufficient for implementation claims?",
+        "How are learned, distributed components individuated?",
+        "Which counterfactual interventions establish realization of a candidate mechanism?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Implementing artificial consciousness",
+          "authors": "Leonard Dung; Luke Kersten",
+          "year": 2024,
+          "venue": "Mind & Language",
+          "doi": "10.1111/mila.12532",
+          "url": "https://doi.org/10.1111/mila.12532",
+          "authority": "primary-mechanistic-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Artificial consciousness: a perspective from the free energy principle",
+          "authors": "Wanja Wiese",
+          "year": 2024,
+          "venue": "Philosophical Studies",
+          "doi": "10.1007/s11098-024-02182-y",
+          "url": "https://doi.org/10.1007/s11098-024-02182-y",
+          "authority": "primary-argument",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-044-digital-consciousness-model",
+      "name": "Digital Consciousness Model",
+      "aliases": [
+        "DCM",
+        "Probabilistic Digital Consciousness Model"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Bayesian evidence aggregation / AI assessment",
+      "status": "2026 preprint model · proof-of-concept · not peer reviewed",
+      "status_note": "DCM is included as a clearly marked emerging preprint. Initial outputs demonstrate a workflow, not validated probabilities of machine consciousness.",
+      "summary": "The Digital Consciousness Model aggregates uncertain evidence from consciousness theories, architecture reports, behavioral observations, and evaluator judgments into an explicit probabilistic assessment. It aims to expose assumptions and sensitivity rather than issue a binary verdict about whether an artificial system is conscious.",
+      "proponents": [
+        "Derek Shiller",
+        "Laura Duffy",
+        "Arvo Muñoz Morán",
+        "Adrià Moret",
+        "Chris Percy",
+        "Hayley Clatterbuck"
+      ],
+      "era": "2026–present",
+      "year": 2026,
+      "scope": "Probabilistic evidence-aggregation model for auditing artificial-consciousness assessments.",
+      "keywords": [
+        "digital consciousness",
+        "Bayesian assessment",
+        "artificial intelligence",
+        "evidence aggregation",
+        "uncertainty"
+      ],
+      "boundary_note": "DCM is an assessment model, not a new constitutive theory and not evidence that evaluated systems are conscious. Its numerical outputs inherit theory choice, priors, and source quality.",
+      "claim_scope": {
+        "target": "Transparent aggregation and sensitivity analysis of heterogeneous evidence about artificial consciousness.",
+        "level": "Methodological, probabilistic, and artificial-system assessment.",
+        "does_not_establish": "Objective consciousness probabilities, peer-reviewed validation, independence from evaluator assumptions, or machine phenomenality."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The preprint states an auditable probabilistic workflow and reports initial proof-of-concept results.",
+          "The theory-derived indicators report supplies an independently authored, source-grounded set of candidate AI properties."
+        ],
+        "limitations": [
+          "The primary source is a 2026 arXiv preprint and has not passed peer review.",
+          "Priors, dependencies among indicators, and theory selection can dominate posterior values."
+        ],
+        "independence": "The indicator framework is independent but itself preprint-stage; no external validation of DCM calibration exists."
+      },
+      "open_questions": [
+        "How should correlated theory indicators be modeled?",
+        "Can forecasts be calibrated without known consciousness ground truth?",
+        "How stable are conclusions under alternate priors and source-quality weights?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Initial results of the Digital Consciousness Model",
+          "authors": "Derek Shiller; Laura Duffy; Arvo Muñoz Morán; Adrià Moret; Chris Percy; Hayley Clatterbuck",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2601.17060",
+          "authority": "primary-preprint-model",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+          "authors": "Patrick Butlin; Robert Long; Eric Elmoznino; Yoshua Bengio; Jonathan Birch; Axel Constant; George Deane; Stephen M. Fleming; Chris Frith; Xu Ji; Ryota Kanai; Colin Klein; Grace Lindsay; Matthias Michel; Liad Mudrik; Megan A. K. Peters; Eric Schwitzgebel; Jonathan Simon; Rufin VanRullen",
+          "year": 2023,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2308.08708",
+          "authority": "authoritative-preprint-framework",
+          "verification": "locator-recorded",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-045-structural-turn-functionalism",
+      "name": "Structural Turn in Computational Functionalism",
+      "aliases": [
+        "Structural-turn framework",
+        "Structural computational functionalism"
+      ],
+      "kind": "Argument / challenge",
+      "kind_codes": [
+        "AC",
+        "NF"
+      ],
+      "domain": "Artificial, computational & machine consciousness",
+      "tradition": "Computational functionalism / structural explanation",
+      "status": "explicit 2025 critical framework · peer-reviewed · programmatic",
+      "status_note": "The structural turn identifies limits of accommodating data with abstract functions alone; it does not yet select one structural theory or settle implementation debates.",
+      "summary": "The structural-turn framework argues that computational functionalist theories of consciousness need constraints from the internal structure of experience and its realizing mechanisms, not only successful task functions. It distinguishes merely accommodating behavioral and neural data from explaining why a particular relational organization corresponds to a particular phenomenal organization.",
+      "proponents": [
+        "Francesco Ellia",
+        "Naotsugu Tsuchiya"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Critical program adding phenomenal and mechanistic structure to computational functionalist explanation.",
+      "keywords": [
+        "structural turn",
+        "computational functionalism",
+        "phenomenal structure",
+        "accommodation",
+        "explanation"
+      ],
+      "boundary_note": "This is a critical program, not a standalone positive consciousness theory and not a rejection of all computation. It asks computational theories to specify structure-sensitive realization and explanation.",
+      "claim_scope": {
+        "target": "Explanatory adequacy of computational functionalist theories with respect to phenomenal structure.",
+        "level": "Computational, structural, mechanistic, and philosophical.",
+        "does_not_establish": "A unique phenomenal–computational mapping, a proof against functionalism, or consciousness in any artificial system."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper identifies cases where functional accommodation leaves structure-to-structure explanation open.",
+          "The mechanistic implementation framework independently supplies causal-organization constraints for artificial realization."
+        ],
+        "limitations": [
+          "Phenomenal structure is difficult to measure independently of task and report.",
+          "Structural similarity can be fitted at multiple grains and may not establish constitution."
+        ],
+        "independence": "The mechanistic framework is independent and complementary but does not validate the structural-turn program."
+      },
+      "open_questions": [
+        "Which phenomenal structures impose nontrivial computational constraints?",
+        "How are structure-preserving maps tested across subjects?",
+        "Can a structural functionalist theory yield predictions beyond behavioral accommodation?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Beyond accommodation: on the structural turn in computational functionalist theories of consciousness",
+          "authors": "Francesco Ellia; Naotsugu Tsuchiya",
+          "year": 2025,
+          "venue": "Neuroscience of Consciousness",
+          "doi": "10.1093/nc/niaf014",
+          "url": "https://doi.org/10.1093/nc/niaf014",
+          "authority": "primary-critical-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "Implementing artificial consciousness",
+          "authors": "Leonard Dung; Luke Kersten",
+          "year": 2024,
+          "venue": "Mind & Language",
+          "doi": "10.1111/mila.12532",
+          "url": "https://doi.org/10.1111/mila.12532",
+          "authority": "primary-mechanistic-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-046-energy-mass-information-model",
+      "name": "Energy–Mass–Information Model",
+      "aliases": [
+        "EMI model",
+        "Scale-Free EMI framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Biophysics / neuroscience",
+      "tradition": "Multiscale biophysics / field and attractor models",
+      "status": "explicit 2025–2026 framework · peer-reviewed · highly speculative synthesis",
+      "status_note": "EMI unifies many biophysical motifs in one scale-free proposal, but several claimed links—from membrane fields to phenomenal unity and environmental resonance—lack independent discriminating evidence.",
+      "summary": "The Energy–Mass–Information model describes consciousness, cognition, and behavior as multiscale coherent attractors formed by coupled energetic, material, and informational dynamics. It emphasizes lipid membranes, electromagnetic and hydrodynamic configurations, embodied regulation, and organism–environment coupling rather than brain computation at one privileged scale.",
+      "proponents": [
+        "Tommaso Firaux",
+        "Jack A. Tuszynski",
+        "Marco Cavaglià"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Scale-free biophysical synthesis of coherent attractors proposed to underlie consciousness and cognition.",
+      "keywords": [
+        "energy-mass-information",
+        "multiscale coherence",
+        "membranes",
+        "fields",
+        "attractors"
+      ],
+      "boundary_note": "EMI is not established by the mass–energy equivalence or by the fact that information processing costs energy. Its broad field, holographic, and environmental claims are hypotheses requiring separate tests.",
+      "claim_scope": {
+        "target": "Biophysical organization proposed to produce unified conscious and cognitive states across scales.",
+        "level": "Molecular, membrane, electromagnetic, hydrodynamic, organismal, and environmental.",
+        "does_not_establish": "That Schumann resonance controls experience, that coherence is sufficient, a validated consciousness metric, or consensus biophysical mechanism."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The peer-reviewed model states candidate physical components, scales, and measurable coherence variables.",
+          "A closely related holographic framework develops the membrane and field mechanisms on which EMI builds."
+        ],
+        "limitations": [
+          "The framework combines many mechanisms and traditions, making unique prediction difficult.",
+          "Several components are supported only indirectly or at scales far from conscious reports."
+        ],
+        "independence": "The two papers have overlapping authors and form one research program; independent replication or theory-specific intervention evidence is not established."
+      },
+      "open_questions": [
+        "Which EMI variable prospectively distinguishes conscious from nonconscious matched dynamics?",
+        "What membrane or field intervention selectively changes predicted experience?",
+        "Which scale couplings are necessary rather than optional narrative additions?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "EMI model: A scale free biophysical framework for human consciousness, cognition and behaviour",
+          "authors": "Tommaso Firaux; Jack A. Tuszynski; Marco Cavaglià",
+          "year": 2025,
+          "venue": "BioSystems",
+          "doi": "10.1016/j.biosystems.2025.105674",
+          "url": "https://doi.org/10.1016/j.biosystems.2025.105674",
+          "authority": "primary-theory-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A Unified Holographic Framework for neural computation and consciousness: From lipid membranes to the Schumann resonance",
+          "authors": "Marco Cavaglià; Jack A. Tuszynski",
+          "year": 2025,
+          "venue": "BioSystems",
+          "doi": "10.1016/j.biosystems.2025.105669",
+          "url": "https://doi.org/10.1016/j.biosystems.2025.105669",
+          "authority": "primary-biophysical-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-047-five-level-access-consciousness",
+      "name": "Five-Level Model of Access Consciousness",
+      "aliases": [
+        "Five-level access-consciousness model",
+        "Gac model"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Perception, memory, concepts & attention",
+      "tradition": "Psychometrics / individual-differences research",
+      "status": "explicit 2026 model · peer-reviewed · psychometric tests not yet reported",
+      "status_note": "The model proposes a measurable positive manifold of access capacities, but the article reports no direct validation of the five-level hierarchy or general factor.",
+      "summary": "The model reconceptualizes access consciousness as a graded cognitive ability spanning sensory, perceptual, causal, intentional, and meta-conscious access. It predicts structural dependencies among levels and a possible general access-consciousness factor, Gac, that could be studied with psychometric and developmental methods.",
+      "proponents": [
+        "Gilles E. Gignac"
+      ],
+      "era": "2026–present",
+      "year": 2026,
+      "scope": "Five-level psychometric hierarchy of information availability for reasoning, control, and metacognition.",
+      "keywords": [
+        "access consciousness",
+        "intelligence",
+        "psychometrics",
+        "metaconsciousness",
+        "individual differences"
+      ],
+      "boundary_note": "The model concerns access consciousness in Block's sense and does not claim to measure phenomenal consciousness or explain why accessible information is experienced.",
+      "claim_scope": {
+        "target": "Individual differences and developmental hierarchy in capacities for conscious access.",
+        "level": "Cognitive, psychometric, developmental, and metacognitive.",
+        "does_not_establish": "A validated Gac factor, phenomenal consciousness, strict stage progression, or a neural mechanism."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper derives a five-level hierarchy from structural dependencies among kinds of information availability.",
+          "Block's foundational distinction supplies the conceptual boundary between access and phenomenal consciousness."
+        ],
+        "limitations": [
+          "No direct psychometric dataset tests the hierarchy in the defining paper.",
+          "Access measures may be confounded by intelligence, language, task control, and report capacity."
+        ],
+        "independence": "The conceptual precursor is independent and authoritative but does not validate the five-level psychometric model."
+      },
+      "open_questions": [
+        "Does a Gac factor emerge after controlling general intelligence and metacognition?",
+        "Are levels invariant across development, culture, and neurodiversity?",
+        "Which measures capture access without presupposing verbal report?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Reconceptualizing consciousness as an intelligence: A five-level model of access consciousness",
+          "authors": "Gilles E. Gignac",
+          "year": 2026,
+          "venue": "Intelligence",
+          "doi": "10.1016/j.intell.2026.102039",
+          "url": "https://doi.org/10.1016/j.intell.2026.102039",
+          "authority": "primary-model-statement",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "On a confusion about a function of consciousness",
+          "authors": "Ned Block",
+          "year": 1995,
+          "venue": "Behavioral and Brain Sciences",
+          "doi": "10.1017/s0140525x00038188",
+          "url": "https://doi.org/10.1017/S0140525X00038188",
+          "authority": "authoritative-conceptual-precursor",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "emerging-breadth-048-building-block-approach",
+      "name": "Descriptive–Normative Building-Block Approach",
+      "aliases": [
+        "Building-block approach to consciousness theories",
+        "Lopez–Wiese building-block framework"
+      ],
+      "kind": "Model or framework",
+      "kind_codes": [
+        "MF",
+        "NF"
+      ],
+      "domain": "Taxonomy, comparison & synthesis methods",
+      "tradition": "Theory construction / conceptual analysis",
+      "status": "explicit 2025 methodological framework · peer-reviewed · early application",
+      "status_note": "The approach is a proposal for working at the level of theory components. Its candidate blocks—illustrated with attention and information generation—remain contested and are not consciousness criteria.",
+      "summary": "The approach distinguishes descriptive building blocks that recur in existing theories from normative building blocks that a mature theory arguably should contain. By examining components such as attention and information generation separately, it aims to improve theory assessment and construction without committing prematurely to an entire package.",
+      "proponents": [
+        "Azenet Lopez",
+        "Wanja Wiese"
+      ],
+      "era": "2025–present",
+      "year": 2025,
+      "scope": "Descriptive and normative method for analyzing and constructing theories from simpler conceptual components.",
+      "keywords": [
+        "building blocks",
+        "theory construction",
+        "attention",
+        "information generation",
+        "methodology"
+      ],
+      "boundary_note": "This 2025 method is distinct from the 2023 Building Blocks of Being meta-theory, which enumerates candidate system attributes. Here the blocks are elements of theories and may be descriptive or normative; neither framework supplies a consciousness checklist.",
+      "claim_scope": {
+        "target": "Simpler theoretical notions and assumptions used to assess, compare, or construct consciousness theories.",
+        "level": "Methodological, conceptual, and philosophy-of-science.",
+        "does_not_establish": "That attention or information generation is sufficient, a canonical block list, or successful unification of theories."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The paper defines descriptive and normative roles and applies them to two concrete candidate blocks.",
+          "Construct-first methodology independently supports validating lower-level constructs before adjudicating whole theories."
+        ],
+        "limitations": [
+          "Normative block selection can reintroduce favored-theory assumptions.",
+          "Decomposing theories may lose dependencies that give components their original meaning."
+        ],
+        "independence": "The construct-first source is independent and complementary but does not validate this paper's block selection."
+      },
+      "open_questions": [
+        "Which blocks recur robustly across independently coded theories?",
+        "How can normative blocks be justified without circularity?",
+        "When can blocks be recombined without changing their theoretical role?"
+      ],
+      "review_state": "provisional",
+      "citations": [
+        {
+          "title": "Building blocks for theories of consciousness",
+          "authors": "Azenet Lopez; Wanja Wiese",
+          "year": 2025,
+          "venue": "Consciousness and Cognition",
+          "doi": "10.1016/j.concog.2025.103919",
+          "url": "https://doi.org/10.1016/j.concog.2025.103919",
+          "authority": "primary-methodological-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        },
+        {
+          "title": "A construct-first approach to consciousness science",
+          "authors": "Peter Fazekas; Axel Cleeremans; Morten Overgaard",
+          "year": 2023,
+          "venue": "Neuroscience & Biobehavioral Reviews",
+          "doi": "10.1016/j.neubiorev.2023.105480",
+          "url": "https://doi.org/10.1016/j.neubiorev.2023.105480",
+          "authority": "primary-methodological-framework",
+          "verification": "doi-resolved",
+          "retrieved": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}

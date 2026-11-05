@@ -1,0 +1,1258 @@
+{
+  "batch": {
+    "name": "Cross-cultural and historically underrepresented mind/self/awareness acquisition proposals",
+    "generated_at": "2026-08-30",
+    "catalog_screened": 577,
+    "proposal_count": 26,
+    "promotion_ready_count": 8,
+    "backlog_only_count": 18,
+    "status": "acquisition-proposals-only",
+    "catalog_mutation": false,
+    "method": "Title, alias, scope, and neighboring-record screening against the complete local catalog, followed by source-led proposal drafting. These records are candidates for expert review, not accepted catalog claims.",
+    "promotion_gate": "Promotion-ready means at least two exact authoritative, primary, or scholarly locators; a proposed kind in the catalog RECORD_KINDS allowlist; no unresolved translation or community-governance blocker; and a sufficiently bounded claim. Backlog-only items remain acquisition leads, not publishable catalog records.",
+    "non_equivalence_rule": "Similarity in vocabulary, embedding space, or topic does not establish conceptual equivalence, historical influence, or shared ontology across traditions."
+  },
+  "excluded_as_existing": [
+    {
+      "candidate": "Viśiṣṭādvaita intentional consciousness",
+      "catalog_record_id": "seed-115-visis-advaita-intentional-consciousness",
+      "reason": "Exact named position already cataloged."
+    },
+    {
+      "candidate": "Pratyabhijñā recognition philosophy",
+      "catalog_record_id": "seed-116-pratyabhijna-recognition-philosophy",
+      "reason": "Exact named position already cataloged."
+    },
+    {
+      "candidate": "Jaina jīva as unobstructed consciousness",
+      "catalog_record_id": "seed-092-jaina-jiva-as-unobstructed-consciousness",
+      "reason": "Exact named position already cataloged."
+    },
+    {
+      "candidate": "Cārvāka/Lokāyata embodied materialism",
+      "catalog_record_id": "seed-112-carvaka-and-lokayata-embodied-materialism",
+      "reason": "Exact named position already cataloged."
+    },
+    {
+      "candidate": "Theravāda bhavaṅga",
+      "catalog_record_id": "cross-breadth-005",
+      "reason": "Exact named construct already cataloged."
+    },
+    {
+      "candidate": "Dignāga-Dharmakīrti reflexive awareness",
+      "catalog_record_id": "seed-114-dignaga-dharmakirti-reflexive-awareness",
+      "reason": "Exact named debate already cataloged."
+    },
+    {
+      "candidate": "Dzogchen rigpa and pristine awareness",
+      "catalog_record_id": "seed-121-dzogchen-rigpa-and-pristine-awareness",
+      "reason": "Exact named position already cataloged."
+    },
+    {
+      "candidate": "Wang Yangming's School of Heart-Mind",
+      "catalog_record_id": "seed-123-wang-yangming-s-school-of-heart-mind",
+      "reason": "Exact named position already cataloged."
+    },
+    {
+      "candidate": "Te Whare Tapa Whā",
+      "catalog_record_id": "gap-breadth-054-te-whare-tapa-wha",
+      "reason": "Exact named Māori health model already cataloged."
+    },
+    {
+      "candidate": "Suhrawardī's knowledge by presence",
+      "catalog_record_id": "seed-117-suhrawardi-s-knowledge-by-presence",
+      "reason": "Exact named epistemic position already cataloged."
+    },
+    {
+      "candidate": "Mullā Ṣadrā's graded consciousness and unity of knower and known",
+      "catalog_record_id": "seed-118-mulla-sadra-s-graded-consciousness-and-unity-of-knower-and-known",
+      "reason": "Exact named position already cataloged."
+    }
+  ],
+  "proposals": [
+    {
+      "proposal_id": "xc-prop-001",
+      "name": "Wiredu's Akan conceptual account of mind",
+      "region_family": "African philosophies / Akan conceptual philosophy",
+      "suggested_kind": "translation-sensitive concept family",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Akan technical vocabulary and the English term 'mind' require specialist translation review."],
+      "scope": "Kwasi Wiredu's analysis of Akan language and concepts concerning mind, thought, feeling, and personhood, with attention to the mismatch between English psychological vocabulary and Akan conceptual resources.",
+      "why_distinct_from_catalog": "The catalog contains Akan theories of personhood, but not Wiredu's narrower conceptual analysis of mind and the methodological consequences of translating mental vocabulary.",
+      "cultural_translation_boundary": "This is a particular Akan conceptual analysis by Wiredu, not a pan-African theory. The English word 'mind' is part of the translation problem and must not be treated as a transparent equivalent.",
+      "non_equivalence_boundary": "Do not collapse this proposal into Cartesian substance dualism, physicalism, or the existing general Akan personhood record.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-124-akan-theories-of-personhood",
+          "name": "Akan theories of personhood",
+          "relationship": "Same broad intellectual setting; scope neighbor only, not equivalence."
+        }
+      ],
+      "citations": [
+        {
+          "title": "The Concept of Mind",
+          "authors": "Kwasi Wiredu",
+          "year": "1995",
+          "url": "https://philpapers.org/rec/WIRTCO-2",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Chapter in Readings in African Philosophy: An Akan Collection, pp. 125-150."
+        },
+        {
+          "title": "Kwasi Wiredu",
+          "authors": "Internet Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://iep.utm.edu/wiredu/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Overview of Wiredu's conceptual decolonization method and Akan philosophical work."
+        }
+      ],
+      "review_questions": [
+        "Which Akan terms should remain untranslated in the catalog record?",
+        "Does the record clearly separate Wiredu's own analysis from claims about Akan speakers generally?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-002",
+      "name": "Oyěwùmí's seniority-centered critique of gendered social personhood",
+      "region_family": "African feminist thought / Ọ̀yọ́-Yorùbá social ontology",
+      "suggested_kind": "contested social-personhood thesis",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "Oyèrónkẹ́ Oyěwùmí's argument that colonial gender categories can distort analysis of precolonial Ọ̀yọ́-Yorùbá social organization, where seniority and relational position were central axes.",
+      "why_distinct_from_catalog": "Existing Yorùbá records concern person components; this proposal concerns a historically specific critique of how embodied sex, social rank, and personhood are interpreted.",
+      "cultural_translation_boundary": "Scope is Oyěwùmí's reconstruction of precolonial Ọ̀yọ́-Yorùbá society. It must not be generalized to all Yorùbá communities, all African societies, or a claim that gender was absent everywhere.",
+      "non_equivalence_boundary": "Do not equate seniority with Western age hierarchy or treat the thesis as uncontested ethnographic consensus.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-hist-015-yoruba-person-components",
+          "name": "Yorùbá conceptions of person: ara, ẹ̀mí, orí and ọkàn",
+          "relationship": "Shared cultural-linguistic setting; distinct question and level of analysis."
+        }
+      ],
+      "citations": [
+        {
+          "title": "The Invention of Women: Making an African Sense of Western Gender Discourses",
+          "authors": "Oyèrónkẹ́ Oyěwùmí",
+          "year": "1997",
+          "url": "https://www.jstor.org/stable/10.5749/j.ctttt0vh",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Primary statement of the argument."
+        },
+        {
+          "title": "Yorubas Don't Do Gender: A Critical Review of Oyèrónkẹ́ Oyěwùmí's The Invention of Women",
+          "authors": "Bibi Bakare-Yusuf",
+          "year": "2004",
+          "url": "https://www.africabib.org/rec.php?RID=A00009157",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded",
+          "note": "Required counter-source documenting internal critique and limits."
+        }
+      ],
+      "review_questions": [
+        "Can the title avoid presenting a contested thesis as settled fact?",
+        "Has an expert checked orthography and the historical scope of 'Ọ̀yọ́-Yorùbá'?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-003",
+      "name": "Biko's Black Consciousness as psychological liberation and self-reclamation",
+      "region_family": "South African Black Consciousness thought",
+      "suggested_kind": "political-psychological liberation framework",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["The two recorded locators are manifestations of the same primary source; add an independent scholarly locator."],
+      "scope": "Steve Biko's account of liberation as requiring the rejection of imposed inferiority and the rebuilding of Black self-definition, solidarity, and agency under apartheid.",
+      "why_distinct_from_catalog": "The catalog includes Du Bois and Fanon but not the South African Black Consciousness formulation developed by Biko and SASO.",
+      "cultural_translation_boundary": "The proposal is situated in apartheid South Africa and the Black Consciousness movement; it is not a generic racial-identity theory or a substitute for other African liberation traditions.",
+      "non_equivalence_boundary": "Do not infer identity with Du Boisian double consciousness or Fanonian epidermal schema despite historically relevant comparison points.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-breadth-038-du-bois-double-consciousness",
+          "name": "Du Boisian double consciousness",
+          "relationship": "Comparative neighbor; no equivalence or direct derivation implied."
+        },
+        {
+          "id": "gap-breadth-039-fanon-epidermal-schema",
+          "name": "Fanon's epidermal racial schema and embodied subjectivity",
+          "relationship": "Historically relevant interlocutor; distinct political setting and formulation."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Defining Black Consciousness",
+          "authors": "Steve Biko",
+          "year": "1971",
+          "url": "https://sahistory.org.za/article/defining-black-consciousness",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Archived address published in the September 1971 SASO Newsletter."
+        },
+        {
+          "title": "Defining Black Consciousness (archival source scan)",
+          "authors": "Steve Biko / South African Students' Organisation",
+          "year": "1971",
+          "url": "https://www.sahistory.org.za/sites/default/files/archive-files2/remar72.4.pdf",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Archival document supporting exact wording and date."
+        }
+      ],
+      "review_questions": [
+        "Does the record preserve Biko's movement-specific use of 'Black'?",
+        "Are political strategy, social identity, and claims about consciousness kept analytically distinct?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-004",
+      "name": "Ibn Bājja's solitary intellect and conjunction with the Active Intellect",
+      "region_family": "Andalusi Islamic philosophy / falsafa",
+      "suggested_kind": "intellective perfection model",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["The available primary translation locator is Russian; Arabic terminology and an English specialist translation require review."],
+      "scope": "Ibn Bājja's account of the solitary philosopher's intellectual ascent and ittiṣāl, conjunction with the Active Intellect, as human perfection and felicity amid an imperfect polity.",
+      "why_distinct_from_catalog": "The catalog covers Avicenna, Ibn al-Haytham, Suhrawardī, and Mullā Ṣadrā, but not Ibn Bājja's Andalusi account of solitary intellectual perfection.",
+      "cultural_translation_boundary": "The 'solitary' belongs to Andalusi falsafa and political-philosophical soteriology; it does not mean modern loneliness, introversion, or clinical social isolation.",
+      "non_equivalence_boundary": "Do not merge ittiṣāl with Sufi fanāʾ, mystical union in general, or later Averroist theories of intellect without explicit historical evidence.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-093-avicennian-immaterial-rational-soul-flying-man",
+          "name": "Avicennian immaterial rational soul / Flying Man",
+          "relationship": "Shared falsafa background; distinct philosopher, argument, and intellectual architecture."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Ibn Bājja",
+          "authors": "Josep Puig Montada",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/ibn-bajja/index.html",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Scholarly overview of the Regime of the Solitary and conjunction doctrine."
+        },
+        {
+          "title": "Ibn Bajja: Conjunction of [Active] Intellect with Man",
+          "authors": "Ibn Bājja; translated and introduced by N. V. Efremova",
+          "year": "2024",
+          "url": "https://doi.org/10.22311/2074-1529-2024-20-4-93-120",
+          "authority": "primary-translation",
+          "verification": "doi-resolved",
+          "note": "Russian translation from Arabic with scholarly introduction; use alongside an English-language specialist check."
+        }
+      ],
+      "review_questions": [
+        "Which Arabic technical terms require transliteration rather than English substitution?",
+        "Can the record distinguish political solitude from intellectual conjunction?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-005",
+      "name": "Miskawayh's tripartite soul and ethical refinement",
+      "region_family": "Buyid-era Islamic ethics and philosophical psychology",
+      "suggested_kind": "ethical psychology model",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Arabic primary-text claims need a checked scholarly translation and passage-level locators."],
+      "scope": "Miskawayh's Tahdhīb al-Akhlāq account of rational, spirited, and appetitive powers and the cultivation of character, balance, happiness, justice, and friendship.",
+      "why_distinct_from_catalog": "No existing record centers Miskawayh's philosophical psychology or its integration of soul structure with ethical habituation.",
+      "cultural_translation_boundary": "This is a Buyid-era Persian-Islamic philosophical synthesis drawing on Greek and Islamic materials, not a unitary or timeless 'Islamic psychology.'",
+      "non_equivalence_boundary": "Do not equate the three powers with Freud's structural model, contemporary personality traits, or Plato without tracing Miskawayh's transformations.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-093-avicennian-immaterial-rational-soul-flying-man",
+          "name": "Avicennian immaterial rational soul / Flying Man",
+          "relationship": "Broad Islamic philosophical-psychology neighbor; distinct ethical project."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Tahdhīb al-Akhlāq",
+          "authors": "Aḥmad ibn Muḥammad Miskawayh",
+          "year": "11th century",
+          "url": "https://sites.dlib.nyu.edu/viewer/books/auc_aco000027/display?lang=en",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Digitized Arabic primary text."
+        },
+        {
+          "title": "Miskawayh's Tahḏīb al-Aḫlāq: Happiness, Justice, and Friendship",
+          "authors": "Ufuk Topkara",
+          "year": "2022",
+          "url": "https://www.routledge.com/Miskawayhs-Tahdib-al-ahlaq-Happiness-Justice-and-Friendship/Topkara/p/book/9781138580442",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded",
+          "note": "Specialist monograph for interpretation and historical framing."
+        }
+      ],
+      "review_questions": [
+        "Has the account separated soul taxonomy from its ethical and political aims?",
+        "Are Greek inheritances documented without reducing Miskawayh to a transmitter?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-006",
+      "name": "Avicenna's five internal senses and estimative perception",
+      "region_family": "Islamic philosophy / Avicennian psychology",
+      "suggested_kind": "faculty-psychology model",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Wahm and maʿnā remain translation-sensitive, and a passage-level primary locator has not yet been selected."],
+      "scope": "Avicenna's taxonomy of internal senses, including common sense, image retention, imagination, estimation (wahm), and memory, and the apprehension of non-sensible intentions (maʿānī).",
+      "why_distinct_from_catalog": "The existing Avicennian record focuses on the immaterial rational soul and Flying Man; this proposal concerns the internal-sense architecture of animal and human perception.",
+      "cultural_translation_boundary": "Wahm and maʿnā are technical Arabic terms with contested translations. Latin scholastic reception must be distinguished from Avicenna's Arabic texts.",
+      "non_equivalence_boundary": "Do not translate wahm as modern 'intuition,' theory of mind, or affective appraisal without qualification.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-093-avicennian-immaterial-rational-soul-flying-man",
+          "name": "Avicennian immaterial rational soul / Flying Man",
+          "relationship": "Same author; a separate subsystem and evidential basis."
+        },
+        {
+          "id": "gap-breadth-041-ibn-al-haytham-perception",
+          "name": "Ibn al-Haytham's intromission and inferential visual perception",
+          "relationship": "Medieval Arabic perception neighbor; distinct faculty theory."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Ibn Sina [Avicenna]",
+          "authors": "Dimitri Gutas and contributors",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/ibn-sina/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "System-level scholarly orientation."
+        },
+        {
+          "title": "Arabic and Islamic Philosophy of Mind",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/arabic-islamic-mind/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Comparative scholarly account of internal senses and estimation."
+        }
+      ],
+      "review_questions": [
+        "Which recension and translation of Avicenna's De Anima will anchor the final claims?",
+        "Are Arabic and Latin taxonomies kept separate?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-007",
+      "name": "Bhartṛhari's sphoṭa and pratibhā account of unified linguistic awareness",
+      "region_family": "South Asian philosophy / Sanskrit grammatical tradition",
+      "suggested_kind": "language-consciousness model",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Sphoṭa and pratibhā need primary Sanskrit passage selection and translation review."],
+      "scope": "Bhartṛhari's account of unitary linguistic meaning, sphoṭa, and holistic intuitive comprehension, pratibhā, in the Vākyapadīya tradition.",
+      "why_distinct_from_catalog": "No existing record treats the Sanskrit grammarian tradition's account of unified sentence meaning and linguistic awareness.",
+      "cultural_translation_boundary": "Sphoṭa and pratibhā are contested Sanskrit technical terms. This is not a generic Indian doctrine, and neither term has a single context-free English equivalent.",
+      "non_equivalence_boundary": "Do not equate the theory with modern Gestalt psychology, natural-language processing, or panpsychism.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-116-pratyabhijna-recognition-philosophy",
+          "name": "Pratyabhijñā recognition philosophy",
+          "relationship": "Later South Asian language-consciousness comparisons may be relevant; no identity or lineage is assumed here."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Bhartṛhari",
+          "authors": "Internet Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://iep.utm.edu/bhartrihari/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Scholarly introduction to sphoṭa, sentence meaning, and consciousness."
+        },
+        {
+          "title": "Literal and Non-Literal Meaning in Classical Indian Philosophy",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/literal-nonliteral-india/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Contextualizes Bhartṛhari within Sanskrit theories of linguistic meaning."
+        }
+      ],
+      "review_questions": [
+        "Should sphoṭa and pratibhā be modeled as separate linked constructs?",
+        "Which Vākyapadīya translation will support exact claims?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-008",
+      "name": "Abhinavagupta's rasa as generalized aesthetic savoring",
+      "region_family": "South Asian aesthetics / Kashmir Śaiva thought",
+      "suggested_kind": "aesthetic-consciousness model",
+      "proposed_catalog_kind": "Phenomenological construct",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Primary Abhinavabhāratī passages and translation have not yet been fixed."],
+      "scope": "Abhinavagupta's account of rasa as a de-individualized or generalized savoring of affect in a prepared spectator, developed in commentary on Sanskrit dramaturgy and connected to his wider nondual philosophy.",
+      "why_distinct_from_catalog": "The catalog contains Pratyabhijñā recognition philosophy but not Abhinavagupta's aesthetic account of the spectator's transformed awareness.",
+      "cultural_translation_boundary": "Rasa belongs to Sanskrit dramaturgical and Kashmir Śaiva interpretive contexts. 'Aesthetic emotion' is only an approximation and must not erase sādhāraṇīkaraṇa or camatkāra.",
+      "non_equivalence_boundary": "Do not equate rasa with everyday emotion, hedonic reward, empathy, or a modern neural aesthetic response.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-116-pratyabhijna-recognition-philosophy",
+          "name": "Pratyabhijñā recognition philosophy",
+          "relationship": "Same major thinker and intellectual setting; distinct textual corpus and explanandum."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Towards a Tantric Nondualist Ethics through Abhinavagupta's Notion of Rasa",
+          "authors": "Loriliai Biernacki",
+          "year": "2011",
+          "url": "https://doi.org/10.1093/jhs/hir032",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "note": "Peer-reviewed analysis of universalization, subjectivity, and rasa in Abhinavagupta."
+        },
+        {
+          "title": "Rasa Theory",
+          "authors": "Oxford Bibliographies",
+          "year": "living entry",
+          "url": "https://academic.oup.com/reference/62382/reference-article-abstract/566568637",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Bibliographic orientation for primary text and translation selection."
+        }
+      ],
+      "review_questions": [
+        "Which Abhinavabhāratī passages and translation will anchor the record?",
+        "Does the account distinguish Bharata, Bhaṭṭa Nāyaka, Ānandavardhana, and Abhinavagupta?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-009",
+      "name": "Nyāya and Navya-Nyāya anuvyavasāya account of subsequent cognition",
+      "region_family": "South Asian philosophy / Nyāya epistemology",
+      "suggested_kind": "higher-order awareness model",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Anuvyavasāya remains translation-sensitive and no passage-level primary source is attached."],
+      "scope": "The Nyāya account on which a cognition becomes known through a subsequent cognition, anuvyavasāya, with special attention to later Navya-Nyāya analysis associated with Gaṅgeśa.",
+      "why_distinct_from_catalog": "The catalog includes Mīmāṃsā rival accounts and Buddhist reflexive-awareness debates, but not the positive Nyāya subsequent-cognition model in its own right.",
+      "cultural_translation_boundary": "Anuvyavasāya is a school-specific Sanskrit technical term; 'apperception' and 'higher-order cognition' are heuristic translations, not exact identities.",
+      "non_equivalence_boundary": "Do not identify it with modern metacognition, higher-order thought theory, introspectionism, or Buddhist self-luminosity.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-hist-009-mimamsa-self-awareness-rivals",
+          "name": "Mīmāṃsā rival accounts of self-awareness",
+          "relationship": "Direct classical debate neighbor; rival positions must remain separately attributed."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Gaṅgeśa",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/gangesa/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Authoritative orientation to Navya-Nyāya epistemology."
+        },
+        {
+          "title": "Perception in Classical Indian Philosophy",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/perception-india/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Places subsequent cognition within inter-school debates about awareness."
+        }
+      ],
+      "review_questions": [
+        "Should early Nyāya and Gaṅgeśa's Navya-Nyāya analysis be separate child records?",
+        "Can the final record cite a primary Sanskrit edition and specialist translation?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-010",
+      "name": "Ambedkar's anti-caste account of socially degraded selfhood and democratic self-respect",
+      "region_family": "Dalit thought / modern South Asian political philosophy",
+      "suggested_kind": "social-political account of selfhood",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "B. R. Ambedkar's analysis of caste as a system that organizes graded inequality, social separation, and degraded standing, and his reconstruction of self-respect, fraternity, and associated democratic life.",
+      "why_distinct_from_catalog": "The catalog lacks Ambedkar's account of how caste structures agency, social recognition, and the conditions for democratic personhood.",
+      "cultural_translation_boundary": "This is an anti-caste and Dalit political-philosophical intervention grounded in colonial and postcolonial South Asia, not a general South Asian metaphysics of self.",
+      "non_equivalence_boundary": "Do not reduce caste to class, race, status, or stigma; comparisons require explicit historical and structural qualification.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-breadth-038-du-bois-double-consciousness",
+          "name": "Du Boisian double consciousness",
+          "relationship": "Possible comparative social-self neighbor; no equivalence across caste and race."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Annihilation of Caste",
+          "authors": "B. R. Ambedkar",
+          "year": "1936",
+          "url": "https://ccnmtl.columbia.edu/projects/mmt/ambedkar/web/readings/aoc_print_2004.pdf",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Primary text in a Columbia University-hosted educational archive."
+        },
+        {
+          "title": "Ambedkar's Political Philosophy: A Grammar of Public Life from the Social Margins",
+          "authors": "Valerian Rodrigues",
+          "year": "2024",
+          "url": "https://academic.oup.com/book/57546",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded",
+          "note": "Recent specialist monograph for public-life and democratic-self framing."
+        }
+      ],
+      "review_questions": [
+        "Does the proposal preserve Ambedkar's distinctions among caste, class, race, and religion?",
+        "Which concepts belong in a mind/self catalog rather than only political history?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-011",
+      "name": "Tibetan Buddhist mind-wind dependence",
+      "region_family": "Tibetan Buddhist tantric and medical psychologies",
+      "suggested_kind": "subtle-body mind-dependence model",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Tantric and Sowa Rigpa senses of rlung must be disambiguated by a Tibetan-language specialist."],
+      "scope": "Accounts in which mental states and subtle winds, sems and rlung, are mutually implicated, with doctrinal and practical variants across Tibetan Buddhist tantric and Sowa Rigpa medical sources.",
+      "why_distinct_from_catalog": "Existing Tibetan Buddhist records focus on reflexive awareness, emptiness, luminosity, and pristine awareness rather than mind-wind dependence.",
+      "cultural_translation_boundary": "Tantric Buddhist and Sowa Rigpa uses of rlung overlap but are not identical. 'Wind' is a technical translation and does not denote atmospheric air or a biomedical substance.",
+      "non_equivalence_boundary": "Do not assert equivalence with breath, autonomic arousal, neural energy, interoception, or Western psychosomatic models.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-120-mahamudra-empty-luminous-mind",
+          "name": "Mahāmudrā empty-luminous mind",
+          "relationship": "Tibetan contemplative neighbor; distinct subtle-body explanatory layer."
+        }
+      ],
+      "citations": [
+        {
+          "title": "rLung, Mind, and Mental Health: The Notion of 'Wind' in Tibetan Conceptions of Mind and Mental Illness",
+          "authors": "Susannah Deane",
+          "year": "2019",
+          "url": "https://doi.org/10.1007/s10943-019-00775-0",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "note": "Peer-reviewed treatment of conceptual and clinical contexts."
+        },
+        {
+          "title": "Key to Essential Points of Wind and Mind",
+          "authors": "Rangjung Dorjé; translated in The Gathering of Intentions",
+          "year": "14th century / modern translation",
+          "url": "https://www.jstor.org/stable/10.7312/salg17994.46",
+          "authority": "primary-translation",
+          "verification": "locator-recorded",
+          "note": "Primary lineage text in scholarly translation; lineage attribution must be retained."
+        }
+      ],
+      "review_questions": [
+        "Should tantric and Sowa Rigpa variants be separate linked records?",
+        "Has a Tibetan-language specialist reviewed sems, rlung, and related terms?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-012",
+      "name": "Shinran's shinjin and Other Power transformation of self-understanding",
+      "region_family": "Japanese Buddhist thought / Jōdo Shinshū",
+      "suggested_kind": "soteriological self-transformation account",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Both locators come from one translation corpus, and shinjin requires lineage-informed translation review."],
+      "scope": "Shinran's account of shinjin, entrusting realized through Amida's Other Power, and the reorientation of self-understanding away from self-generated salvific capacity.",
+      "why_distinct_from_catalog": "No existing record treats Shinran's account of entrusting and transformed selfhood within Pure Land Buddhism.",
+      "cultural_translation_boundary": "Shinjin is Jōdo Shinshū-specific and is not exhausted by 'faith,' belief, confidence, trust, or self-esteem. Other Power is not passive fatalism.",
+      "non_equivalence_boundary": "Do not equate shinjin with Protestant faith, therapeutic surrender, non-agency, or generic Buddhist no-self.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-090-abhidharma-no-self-and-momentary-mind-analysis",
+          "name": "Abhidharma no-self and momentary mind analysis",
+          "relationship": "Broad Buddhist selfhood neighbor; different canon, school, and soteriological grammar."
+        }
+      ],
+      "citations": [
+        {
+          "title": "The Collected Works of Shinran",
+          "authors": "Shinran; Jōdo Shinshū Hongwanji-ha translation project",
+          "year": "modern scholarly translation",
+          "url": "https://shinranworks.com/",
+          "authority": "primary-translation",
+          "verification": "locator-recorded",
+          "note": "Official English collection with textual apparatus."
+        },
+        {
+          "title": "What We Call Other Power",
+          "authors": "Shinran",
+          "year": "13th century / modern translation",
+          "url": "https://shinranworks.com/letters/a-collection-of-letters-zensho-text/what-we-call-other-power/",
+          "authority": "primary-translation",
+          "verification": "locator-recorded",
+          "note": "Focused primary passage for the Other Power distinction."
+        }
+      ],
+      "review_questions": [
+        "Will the record distinguish shinjin from adjacent Jōdo Shinshū terms?",
+        "Has a lineage-informed reviewer assessed translation choices?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-013",
+      "name": "Milindapañha chariot analogy and conventional person designation",
+      "region_family": "Early Buddhist scholastic-dialogical literature",
+      "suggested_kind": "personhood analysis",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Pāli and Chinese witness differences and the translation of conventional designation require textual review."],
+      "scope": "The Milindapañha's dialogue in which Nāgasena uses the chariot analogy to analyze personal naming and conventional designation without positing a discoverable self among constituent parts.",
+      "why_distinct_from_catalog": "The catalog contains Abhidharma no-self and Pudgalavāda, but not this text-specific dialogical analysis of person designation.",
+      "cultural_translation_boundary": "The text is layered and survives in differing Pāli and Chinese witnesses. Its dialogical and historical setting must be retained rather than treating it as a timeless summary of all Buddhism.",
+      "non_equivalence_boundary": "Conventional designation does not by itself establish modern eliminativism, mereological reductionism, systems theory, or identity with later Abhidharma positions.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-090-abhidharma-no-self-and-momentary-mind-analysis",
+          "name": "Abhidharma no-self and momentary mind analysis",
+          "relationship": "Doctrinal neighbor; text-specific arguments and chronology remain distinct."
+        },
+        {
+          "id": "cross-breadth-007",
+          "name": "Pudgalavāda person theory",
+          "relationship": "Personhood debate neighbor; no claim that the Milindapañha settles that debate."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Discussion on the Self in Milindapañha on Chariot: New Translation and Comments",
+          "authors": "Lev I. Titlin",
+          "year": "2021",
+          "url": "https://doi.org/10.22363/2313-2302-2021-25-2-260-275",
+          "authority": "primary-translation-with-commentary",
+          "verification": "doi-resolved",
+          "note": "New translation with explicit discussion of reductionist readings."
+        },
+        {
+          "title": "Milindapañha",
+          "authors": "Encyclopedia of Buddhism",
+          "year": "reference entry",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/milindapanha",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Textual and historical orientation; final cataloging should prefer a specialist critical edition."
+        }
+      ],
+      "review_questions": [
+        "Which witness and edition supports the exact chariot passage used?",
+        "Does the record avoid retrojecting analytic metaphysics onto the dialogue?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-014",
+      "name": "Jonang other-emptiness interpretation",
+      "region_family": "Tibetan Buddhist philosophy / Jonang",
+      "suggested_kind": "school-specific emptiness interpretation",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Only one locator is an independent scholarly authority; add a primary Dölpopa translation and specialist review."],
+      "scope": "The Jonang tradition's gzhan stong, or 'other-emptiness,' especially Dölpopa's distinction between empty conventional phenomena and an ultimate not empty of its own enlightened qualities.",
+      "why_distinct_from_catalog": "The catalog contains tathāgatagarbha, Mahāmudrā, Dzogchen, and Tsongkhapa, but not a bounded Jonang account of gzhan stong.",
+      "cultural_translation_boundary": "Gzhan stong is internally plural across Tibetan lineages. This proposal is limited to the Jonang/Dölpopa formulation unless variants are separately sourced.",
+      "non_equivalence_boundary": "Do not merge it with all tathāgatagarbha, Yogācāra, Mahāmudrā, or Nyingma presentations, and do not translate it as an unqualified substantial self.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-119-tathagatagarbha-and-luminous-mind-family",
+          "name": "Tathāgatagarbha and luminous-mind family",
+          "relationship": "Important doctrinal neighbor; not a synonym for Jonang gzhan stong."
+        },
+        {
+          "id": "cross-breadth-010",
+          "name": "Tsongkhapa's denial of reflexive awareness and foundational consciousness",
+          "relationship": "Tibetan philosophical contrast neighbor; relation needs precise textual sourcing."
+        }
+      ],
+      "citations": [
+        {
+          "title": "The Jonang Tradition",
+          "authors": "Oxford Research Encyclopedia of Religion",
+          "year": "living entry",
+          "url": "https://academic.oup.com/edited-volume/62249/chapter-abstract/551373044",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Scholarly historical and doctrinal framing."
+        },
+        {
+          "title": "Other-Emptiness",
+          "authors": "Jonang Foundation",
+          "year": "living resource",
+          "url": "https://jonangfoundation.org/jonangpa_blog/other-emptiness/",
+          "authority": "lineage-context-source",
+          "verification": "locator-recorded",
+          "note": "Lineage-context explanation; pair with critical scholarship rather than use alone."
+        }
+      ],
+      "review_questions": [
+        "Which Dölpopa primary text and translation will anchor the claims?",
+        "Should later Jonang and non-Jonang gzhan stong variants become separate records?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-015",
+      "name": "Guo Xiang's self-transformation and self-so spontaneity",
+      "region_family": "Chinese philosophy / early medieval Xuanxue",
+      "suggested_kind": "agency and transformation account",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Zihua/duhua and ziran need Chinese passage-level and translation review."],
+      "scope": "Guo Xiang's Zhuangzi commentary on self-transformation (zihua or duhua), self-so spontaneity (ziran), and the immanent coordination of beings without an external creator.",
+      "why_distinct_from_catalog": "The catalog includes Zhuangzian heart-mind fasting but not Guo Xiang's distinctive commentary-based ontology of transformation and situated spontaneity.",
+      "cultural_translation_boundary": "This is Guo Xiang's early medieval commentary tradition, not 'Daoism in general.' Ziran is not simply modern nature, authenticity, or liberal autonomy.",
+      "non_equivalence_boundary": "Do not identify self-transformation with autopoiesis, emergence, individualism, or spontaneous neural dynamics.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-122-zhuangzian-heart-mind-fasting-and-responsive-awareness",
+          "name": "Zhuangzian heart-mind fasting and responsive awareness",
+          "relationship": "Shared textual matrix; Guo Xiang's commentary is a historically distinct philosophical construction."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Neo-Daoism",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/neo-daoism/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Historical framing for Xuanxue and Guo Xiang."
+        },
+        {
+          "title": "Guo Xiang",
+          "authors": "Internet Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://iep.utm.edu/guoxiang/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Focused overview of self-transformation, ziran, and commentary method."
+        }
+      ],
+      "review_questions": [
+        "Which Chinese terms require both characters and romanization?",
+        "Can the record distinguish Guo Xiang's voice from the received Zhuangzi text?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-016",
+      "name": "Jeong Yak-yong's autonomous moral heart-mind",
+      "region_family": "Korean philosophy / late Joseon Confucian thought",
+      "suggested_kind": "moral-agency model",
+      "proposed_catalog_kind": "Historical tradition",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Korean terms and the second citation's exact metadata require specialist verification; no primary locator is attached."],
+      "scope": "Jeong Yak-yong's account of the heart-mind (sim), its spiritual clarity (yeongche), capacity for weighing or adjudication (gwonhyeong), and accountable moral choice.",
+      "why_distinct_from_catalog": "The catalog contains the Korean Four-Seven debate and Nishida, but not Tasan's later Joseon reconstruction of moral agency and heart-mind.",
+      "cultural_translation_boundary": "The Korean terms sim, yeongche, and gwonhyeong require philological review in Jeong's late Joseon context. The account must not be collapsed into Chinese Neo-Confucianism.",
+      "non_equivalence_boundary": "Do not equate Jeong's moral autonomy with Kantian autonomy, executive control, or free will in a modern analytic sense.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "cross-breadth-025",
+          "name": "Korean Four-Seven debate on mind and emotion",
+          "relationship": "Earlier Korean Confucian debate neighbor; Jeong's reconstruction is historically and conceptually distinct."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Korean Philosophy",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/korean-philosophy/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Places Jeong Yak-yong in Korean, rather than derivative Chinese, philosophical history."
+        },
+        {
+          "title": "Jeong Yakyong on Human Nature, Mind, and Moral Agency",
+          "authors": "Philip J. Ivanhoe",
+          "year": "2016",
+          "url": "https://academic.oup.com/book/12263/chapter-abstract/161765595",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded",
+          "note": "Specialist chapter; exact title metadata should be checked during promotion."
+        }
+      ],
+      "review_questions": [
+        "Has a Korean philosophy specialist verified the romanization and conceptual glosses?",
+        "Which Jeong primary text and translation should be cited?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-017",
+      "name": "Nishitani's field of emptiness and radical subjectivity",
+      "region_family": "Japanese philosophy / Kyoto School",
+      "suggested_kind": "phenomenological-religious account of subjectivity",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Japanese terms for nothingness and emptiness need edition-specific translation review before publication."],
+      "scope": "Nishitani Keiji's movement through nihilism toward the field of emptiness, where self and things are encountered non-objectifyingly at their own ground.",
+      "why_distinct_from_catalog": "The catalog contains Nishida's pure experience but not Nishitani's later analysis of nihilism, emptiness, and non-objectified subjectivity.",
+      "cultural_translation_boundary": "This is a twentieth-century Kyoto School dialogue among Zen Buddhist and Western philosophical sources. It is not a replacement for Indian or Tibetan analyses of śūnyatā.",
+      "non_equivalence_boundary": "Do not equate the field of emptiness with nothingness, dissociation, ego death, or generic nondual awareness.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-hist-010-nishida-pure-experience-jikaku",
+          "name": "Nishida's pure experience and later self-awareness",
+          "relationship": "Kyoto School lineage neighbor; distinct author and philosophical problem."
+        }
+      ],
+      "citations": [
+        {
+          "title": "The Kyoto School",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/kyoto-school/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Historical and conceptual orientation, including Nishitani."
+        },
+        {
+          "title": "Religion and Nothingness",
+          "authors": "Nishitani Keiji; translated by Jan Van Bragt",
+          "year": "1982 English translation",
+          "url": "https://www.ucpress.edu/books/religion-and-nothingness/paper",
+          "authority": "primary-translation",
+          "verification": "locator-recorded",
+          "note": "Primary English translation; original Japanese publication history should be recorded on promotion."
+        }
+      ],
+      "review_questions": [
+        "Does the record distinguish Nishitani's uses of nihilism, nothingness, and emptiness?",
+        "Is the Kyoto School's wartime and political context represented in the interpretive record?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-018",
+      "name": "Diné hózhó relational wellness and personhood framework",
+      "region_family": "Diné thought and health knowledge",
+      "suggested_kind": "community-grounded relational wellness construct",
+      "proposed_catalog_kind": "Model or framework",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Community review is required to confirm public scope and prevent extraction of sacred or restricted knowledge."],
+      "scope": "Hózhó as a Diné framework of balance, beauty, harmony, relationality, and right living, considered only at the level supported by public community-informed health scholarship.",
+      "why_distinct_from_catalog": "The catalog includes Native Hawaiian lōkahi and ethnographic Indigenous-personhood records, but not a Diné-specific public account of hózhó.",
+      "cultural_translation_boundary": "Hózhó is Diné-specific and cannot stand for all Indigenous philosophies. Public health descriptions do not authorize extraction of sacred, ceremonial, clan-specific, or restricted knowledge.",
+      "non_equivalence_boundary": "Do not equate hózhó with homeostasis, wellness branding, positive psychology, or a clinical theory of consciousness.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "cross-breadth-058",
+          "name": "Native Hawaiian lōkahi and mauli-ola relational health model",
+          "relationship": "Both are community-grounded relational health frameworks; no pan-Indigenous equivalence."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Hózhó: A Diné Concept of Balance and Beauty",
+          "authors": "Teresa Kahn-John and Mary Koithan",
+          "year": "2015",
+          "url": "https://doi.org/10.7453/gahmj.2015.044",
+          "authority": "community-informed-scholarly-secondary",
+          "verification": "doi-resolved",
+          "note": "Open-access health scholarship by authors working in Diné nursing and integrative health contexts."
+        },
+        {
+          "title": "Defining Wellness in a Diné Context: Hózhó Násháádóóji",
+          "authors": "Teresa Kahn-John",
+          "year": "2010",
+          "url": "https://doi.org/10.1097/ANS.0b013e3181dbc658",
+          "authority": "community-informed-scholarly-secondary",
+          "verification": "doi-resolved",
+          "note": "Concept analysis; does not substitute for community governance or ceremonial authority."
+        }
+      ],
+      "review_questions": [
+        "Has a Diné reviewer approved the public scope and terminology?",
+        "Does the record explicitly exclude sacred or restricted knowledge and avoid a consciousness-theory label?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-019",
+      "name": "Kohn's ecology of selves",
+      "region_family": "Anthropology / Runa-grounded semiotic analysis",
+      "suggested_kind": "anthropological model of nonhuman selfhood",
+      "proposed_catalog_kind": "Model or framework",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "Eduardo Kohn's semiotic anthropology of how living beings in an Amazonian forest ecology represent the world and participate in an 'ecology of selves,' developed through fieldwork with Runa communities.",
+      "why_distinct_from_catalog": "The catalog includes Amerindian perspectivism and Hallowell's Ojibwe account but not Kohn's Peircean semiotic model of nonhuman selfhood.",
+      "cultural_translation_boundary": "This is an anthropologist's theoretical construction from Runa-grounded fieldwork, not a timeless or direct statement of Runa doctrine and not a model for all Amazonian peoples.",
+      "non_equivalence_boundary": "Do not equate semiotic selfhood with human reflective consciousness, panpsychism, animism as a catch-all, or Viveiros de Castro's perspectivism.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "cross-breadth-059",
+          "name": "Viveiros de Castro's Amerindian perspectivism",
+          "relationship": "Amazonian anthropology neighbor; distinct theoretical apparatus and fieldwork basis."
+        },
+        {
+          "id": "gap-breadth-055-hallowell-northern-ojibwe-persons",
+          "name": "Hallowell's ethnographic account of Northern Ojibwe other-than-human persons",
+          "relationship": "Comparative anthropological neighbor; no cross-community equivalence."
+        }
+      ],
+      "citations": [
+        {
+          "title": "How Forests Think: Toward an Anthropology Beyond the Human",
+          "authors": "Eduardo Kohn",
+          "year": "2013",
+          "url": "https://www.ucpress.edu/book/9780520276116/how-forests-think",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Primary monograph presenting the ecology-of-selves argument."
+        },
+        {
+          "title": "Anthropology of Ontologies",
+          "authors": "Eduardo Kohn",
+          "year": "2015",
+          "url": "https://doi.org/10.1146/annurev-anthro-102214-014127",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "note": "Author's later field-level framing; use with published critiques."
+        }
+      ],
+      "review_questions": [
+        "Does the record distinguish Runa statements from Kohn's Peircean analysis?",
+        "Are critics and alternative readings represented before graphing relations?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-020",
+      "name": "Descola's four modes of identification",
+      "region_family": "Comparative anthropology",
+      "suggested_kind": "analytical typology of identification",
+      "proposed_catalog_kind": "Model or framework",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "Philippe Descola's comparative typology of animism, naturalism, totemism, and analogism based on distributions of perceived interiority and physicality between humans and nonhumans.",
+      "why_distinct_from_catalog": "The catalog contains particular ethnographic and perspectivist accounts but not Descola's explicit comparative typology.",
+      "cultural_translation_boundary": "These are the anthropologist's ideal-typical modes, not self-descriptions by every community placed within them. Individual societies may combine, shift, or resist the categories.",
+      "non_equivalence_boundary": "Do not treat the four modes as exhaustive cultures, cognitive modules, evolutionary stages, or direct theories of phenomenal consciousness.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "cross-breadth-059",
+          "name": "Viveiros de Castro's Amerindian perspectivism",
+          "relationship": "Major comparative-anthropology interlocutor; not a synonym or superset."
+        },
+        {
+          "id": "gap-breadth-055-hallowell-northern-ojibwe-persons",
+          "name": "Hallowell's ethnographic account of Northern Ojibwe other-than-human persons",
+          "relationship": "Ethnographic source tradition relevant to later typology; keep analyst and community levels distinct."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Beyond Nature and Culture",
+          "authors": "Philippe Descola; translated by Janet Lloyd",
+          "year": "2013 English translation",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/B/bo9826233.html",
+          "authority": "primary-translation",
+          "verification": "locator-recorded",
+          "note": "Primary English statement of the comparative framework."
+        },
+        {
+          "title": "Modes of Being and Forms of Predication",
+          "authors": "Philippe Descola",
+          "year": "2014",
+          "url": "https://www.journals.uchicago.edu/doi/10.14318/hau4.1.012",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "note": "Concise authorial restatement in an anthropological journal."
+        }
+      ],
+      "review_questions": [
+        "Will the catalog label this as an analyst's typology rather than a community ontology?",
+        "Which critiques of category fit and colonial knowledge should accompany it?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-021",
+      "name": "Levinasian ethical subjectivity as responsibility prior to sovereignty",
+      "region_family": "Phenomenology / ethics",
+      "suggested_kind": "ethical-subjectivity account",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["Technical uses of face, Other, and substitution need work- and translation-specific review."],
+      "scope": "Emmanuel Levinas's account of subjectivity as constituted through asymmetrical responsibility to the Other, challenging the model of a self-sufficient, sovereign knowing subject.",
+      "why_distinct_from_catalog": "The catalog contains phenomenology of empathy and being-in-the-world but not Levinas's responsibility-first account of subject formation.",
+      "cultural_translation_boundary": "Terms such as face, Other, substitution, and responsibility are technical within Levinas's phenomenological and Jewish philosophical corpus and shift across his works.",
+      "non_equivalence_boundary": "The 'face' is not literal facial perception, and responsibility is not cognitive empathy, prosocial affect, or a theory-of-mind mechanism.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-111-stein-s-phenomenology-of-empathy",
+          "name": "Stein's phenomenology of empathy",
+          "relationship": "Phenomenological alterity neighbor; distinct account of access and obligation."
+        },
+        {
+          "id": "gap-breadth-036-heidegger-being-in-world",
+          "name": "Heideggerian being-in-the-world and disclosedness",
+          "relationship": "Historical phenomenological background and target of critique; not equivalence."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Emmanuel Levinas",
+          "authors": "Stanford Encyclopedia of Philosophy",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/levinas/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Scholarly overview of the development from Totality and Infinity to Otherwise than Being."
+        },
+        {
+          "title": "Totality and Infinity: An Essay on Exteriority",
+          "authors": "Emmanuel Levinas; translated by Alphonso Lingis",
+          "year": "1969 English translation",
+          "url": "https://books.google.com/books/about/Totality_and_Infinity_an_Essay_on_Exteri.html?id=asqyzwEACAAJ",
+          "authority": "primary-translation",
+          "verification": "locator-recorded",
+          "note": "Primary text locator; exact claims must cite edition and pages."
+        }
+      ],
+      "review_questions": [
+        "Should early and late Levinas be represented as separate phases?",
+        "Are ethical constitution and phenomenal consciousness kept distinct?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-022",
+      "name": "Beauvoir's situated, embodied, and ambiguous subjectivity",
+      "region_family": "Existential phenomenology / feminist philosophy",
+      "suggested_kind": "situated-subjectivity account",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "Simone de Beauvoir's account of embodied freedom as situated and ambiguous, and of how social conditions can position subjects as Other while leaving agency neither absolute nor erased.",
+      "why_distinct_from_catalog": "The catalog lacks Beauvoir's integrated phenomenology of embodiment, oppression, ambiguity, and situated agency.",
+      "cultural_translation_boundary": "The account is historically situated in twentieth-century French existential phenomenology and feminism; Beauvoir's treatments of race and non-European women require critical contextualization.",
+      "non_equivalence_boundary": "Do not universalize 'woman,' reduce ambiguity to uncertainty, or equate situated freedom with either unconstrained choice or social determinism.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-breadth-036-heidegger-being-in-world",
+          "name": "Heideggerian being-in-the-world and disclosedness",
+          "relationship": "Phenomenological background; Beauvoir's gendered and ethical reconstruction is distinct."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Simone de Beauvoir",
+          "authors": "Debra Bergoffen and Megan Burke",
+          "year": "living entry",
+          "url": "https://plato.stanford.edu/entries/beauvoir/",
+          "authority": "authoritative-secondary",
+          "verification": "locator-recorded",
+          "note": "Scholarly overview with attention to embodiment, ambiguity, and later criticism."
+        },
+        {
+          "title": "Simone de Beauvoir and the Politics of Ambiguity",
+          "authors": "Sonia Kruks",
+          "year": "2012",
+          "url": "https://academic.oup.com/book/11006",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded",
+          "note": "Oxford University Press specialist monograph on ambiguity, embodied freedom, oppression, and political action."
+        }
+      ],
+      "review_questions": [
+        "Which edition and translation of The Second Sex and The Ethics of Ambiguity will anchor the record?",
+        "Are known racial and colonial limits made visible rather than footnoted away?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-023",
+      "name": "Lugones's world-traveling and plural self",
+      "region_family": "Latina feminist philosophy / Women-of-Color philosophy",
+      "suggested_kind": "relational-plural self account",
+      "proposed_catalog_kind": "Philosophical position",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "María Lugones's account of moving among differently structured social 'worlds,' where one may be differently constituted, perceived, and able to act, and her ethics of loving, playful perception.",
+      "why_distinct_from_catalog": "No current record captures Lugones's technical account of world-traveling, plural identity, and resistant perception.",
+      "cultural_translation_boundary": "Lugones writes from Latina and Women-of-Color feminist political philosophy. A 'world' is a technical social-experiential construction, not a nation, fantasy setting, or merely a viewpoint.",
+      "non_equivalence_boundary": "Plural selfhood is not dissociative identity, code-switching alone, multiple personality, or a generic postmodern claim that identity is fluid.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "gap-breadth-038-du-bois-double-consciousness",
+          "name": "Du Boisian double consciousness",
+          "relationship": "Potential social-self comparison; distinct genealogy, structure, and normative project."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Playfulness, 'World'-Travelling, and Loving Perception",
+          "authors": "María Lugones",
+          "year": "1987",
+          "url": "https://doi.org/10.1111/j.1527-2001.1987.tb01062.x",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "note": "Original article introducing the core framework."
+        },
+        {
+          "title": "Pilgrimages/Peregrinajes: Theorizing Coalition against Multiple Oppressions",
+          "authors": "María Lugones",
+          "year": "2003",
+          "url": "https://www.bloomsbury.com/us/pilgrimagesperegrinajes-9780742514584/",
+          "authority": "primary-original",
+          "verification": "locator-recorded",
+          "note": "Book-length development of plurality, resistance, and coalition."
+        }
+      ],
+      "review_questions": [
+        "Does the record define 'world' using Lugones's criteria rather than everyday usage?",
+        "Are critical responses from Women-of-Color and Latina feminist scholarship included?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-024",
+      "name": "Milton's Double Empathy Problem",
+      "region_family": "Autism studies / disability and neurodiversity scholarship",
+      "suggested_kind": "reciprocal social-understanding account",
+      "proposed_catalog_kind": "Theory of mind / social cognition",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "Damian Milton's proposal that many autistic-nonautistic social difficulties arise from reciprocal mismatches in experience, communication, and expectations rather than a one-sided autistic deficit alone.",
+      "why_distinct_from_catalog": "The catalog includes social-cognition theories and submentalizing challenges, but not this autistic-led reciprocity framework.",
+      "cultural_translation_boundary": "The proposal arose in autism and disability scholarship and should remain accountable to autistic experience and heterogeneous communication contexts.",
+      "non_equivalence_boundary": "It does not claim every mismatch is symmetric, that individual impairments never exist, or that autistic people have no support needs.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-098-interaction-theory-of-social-cognition",
+          "name": "Interaction Theory of social cognition",
+          "relationship": "Interactional neighbor; distinct disability-theory origin and evidential claims."
+        },
+        {
+          "id": "seed-141-submentalizing-challenge",
+          "name": "Submentalizing challenge",
+          "relationship": "Relevant critique-of-deficit neighbor; not the same argument."
+        }
+      ],
+      "citations": [
+        {
+          "title": "On the Ontological Status of Autism: The 'Double Empathy Problem'",
+          "authors": "Damian E. M. Milton",
+          "year": "2012",
+          "url": "https://doi.org/10.1080/09687599.2012.710008",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "note": "Original formulation in Disability & Society."
+        },
+        {
+          "title": "The 'Double Empathy Problem': Ten Years On",
+          "authors": "Damian Milton, Emine Gurbuz, and Beatriz López",
+          "year": "2022",
+          "url": "https://doi.org/10.1177/13623613221129123",
+          "authority": "scholarly-secondary",
+          "verification": "doi-resolved",
+          "note": "Retrospective assessment of the framework and evidence."
+        }
+      ],
+      "review_questions": [
+        "Does the record distinguish the original theoretical claim from later empirical findings?",
+        "Are autistic and non-speaking perspectives represented in the evidence review?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-025",
+      "name": "Monotropism as an attention-distribution model",
+      "region_family": "Autism studies / neurodiversity scholarship",
+      "suggested_kind": "attention-allocation model",
+      "proposed_catalog_kind": "Model or framework",
+      "promotion_readiness": "backlog-only",
+      "promotion_blockers": ["The second empirical citation's title and author metadata require verification before promotion."],
+      "scope": "The monotropism account associated with Dinah Murray, Mike Lesser, and Wenn Lawson, which models autistic experience in terms of a tightly concentrated distribution of attention and difficulty reallocating attention across competing demands.",
+      "why_distinct_from_catalog": "The catalog has an awareness-attention distinction but no autistic-led model of attentional concentration and interest systems.",
+      "cultural_translation_boundary": "Monotropism is an autistic-led theory emerging from autism scholarship. Later community usage and empirical operationalizations are not automatically identical to the 2005 formulation.",
+      "non_equivalence_boundary": "It is not a diagnosis, not a universal autistic profile, and not equivalent to hyperfocus, restricted interests, executive dysfunction, or attention tunnel vision.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-175-awareness-and-attention-distinction",
+          "name": "Awareness and attention distinction",
+          "relationship": "General attention-theory neighbor; monotropism has a distinct population, construct, and explanatory purpose."
+        }
+      ],
+      "citations": [
+        {
+          "title": "Attention, Monotropism and the Diagnostic Criteria for Autism",
+          "authors": "Dinah Murray, Mike Lesser, and Wenn Lawson",
+          "year": "2005",
+          "url": "https://doi.org/10.1177/1362361305051398",
+          "authority": "primary-original",
+          "verification": "doi-resolved",
+          "note": "Original peer-reviewed formulation."
+        },
+        {
+          "title": "Monotropism and the Predictive Value of the Monotropism Questionnaire",
+          "authors": "Contemporary empirical literature",
+          "year": "2024",
+          "url": "https://doi.org/10.1177/27546330241237883",
+          "authority": "empirical-secondary",
+          "verification": "doi-resolved",
+          "note": "Emerging empirical operationalization; title and authors should be metadata-checked before promotion."
+        }
+      ],
+      "review_questions": [
+        "Which claims are theoretical, self-report based, or experimentally supported?",
+        "Does the record include contrary or limited-convergence findings rather than advocacy sources alone?"
+      ]
+    },
+    {
+      "proposal_id": "xc-prop-026",
+      "name": "Neurodiversity paradigm",
+      "region_family": "Disability studies / neurodiversity movement and scholarship",
+      "suggested_kind": "normative-interpretive paradigm",
+      "proposed_catalog_kind": "Model or framework",
+      "promotion_readiness": "promotion-ready",
+      "promotion_blockers": [],
+      "scope": "The neurodiversity paradigm's reframing of neurological variation as part of human diversity while analyzing disability through interactions among embodiment, environment, institutions, and support needs.",
+      "why_distinct_from_catalog": "The catalog lacks a record that separates neurodiversity as biological fact, social movement, and normative paradigm while preserving its collective activist origins.",
+      "cultural_translation_boundary": "Neurodiversity is not a single author's invention or a unitary empirical theory. Its terminology emerged collectively in autistic community networks and has changed across activist, clinical, and academic settings.",
+      "non_equivalence_boundary": "Do not claim that the paradigm denies disability, eliminates impairment, makes every trait advantageous, or makes medical and support interventions illegitimate.",
+      "likely_catalog_neighbors": [
+        {
+          "id": "seed-098-interaction-theory-of-social-cognition",
+          "name": "Interaction Theory of social cognition",
+          "relationship": "Possible interactional framing neighbor; neurodiversity is broader and normatively distinct."
+        }
+      ],
+      "citations": [
+        {
+          "title": "The Neurodiversity Concept Was Developed Collectively: An Overdue Correction on the Origins of Neurodiversity Theory",
+          "authors": "Monique Botha, Robert Chapman, Morénike Giwa Onaiwu, Steven K. Kapp, Abs Stannard Ashley, and Nick Walker",
+          "year": "2024",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/13623613241237871",
+          "authority": "community-historical-scholarship",
+          "verification": "doi-resolved",
+          "note": "Required provenance correction against single-founder narratives; author metadata should be imported directly on promotion."
+        },
+        {
+          "title": "Neurodiversity as Politics",
+          "authors": "Ari Ne'eman and Elizabeth Pellicano",
+          "year": "2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9881465/",
+          "authority": "scholarly-secondary",
+          "verification": "locator-recorded",
+          "note": "Clarifies the paradigm's political and normative dimensions."
+        }
+      ],
+      "review_questions": [
+        "Does the record distinguish neurodiversity, the neurodiversity movement, and the neurodiversity paradigm?",
+        "Are collective origins, disability, and high support needs all represented without tokenism?"
+      ]
+    }
+  ]
+}

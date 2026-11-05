@@ -1,0 +1,553 @@
+{
+  "collection": {
+    "name": "Core consciousness-theory research-profile enrichments, tranche 2",
+    "generated_at": "2026-08-30",
+    "phase": "collection",
+    "profile_count": 15,
+    "purpose": "Deepen a second set of foundational but shallow records with explicit claim boundaries, evidence limits, and open questions suitable for cautious semantic comparison.",
+    "selection_policy": "This tranche covers cellular, computational, higher-order, self-model, metacognitive, and phenomenal-construct records that recur in the catalog but lacked full research profiles. It does not rank or endorse them.",
+    "identity_policy": "Enrichments preserve record identity and original citations. Where a retained locator is incomplete or mismatched, the profile records that limitation rather than silently repairing or relying on it.",
+    "synthesis_policy": "Conceptual exposition, component-level plausibility, and independent discriminating evidence are separated. No relation among records is asserted, and every profile remains provisional pending specialist review."
+  },
+  "profiles": [
+    {
+      "id": "seed-054-adaptive-resonance-theory-art-account-of-consciousness",
+      "status_note": "ART is a broad learning-and-recognition architecture; its consciousness-specific extension is a proponent formulation, not an independently established consequence of resonance alone.",
+      "scope": "Computational and neural-network account linking conscious recognition to a stable resonance between bottom-up input and learned top-down expectations.",
+      "keywords": [
+        "Scientific theory",
+        "Neural networks / computational neuroscience",
+        "ART",
+        "adaptive resonance",
+        "top-down matching",
+        "stable learning"
+      ],
+      "boundary_note": "ART also addresses category learning, attention, prediction, and catastrophic forgetting. Evidence for those functions does not by itself establish that a resonant match is necessary or sufficient for consciousness, and ART resonance should not be treated as equivalent to generic recurrent processing.",
+      "claim_scope": {
+        "target": "How a learned system may stabilize an attended recognition through reciprocal bottom-up and top-down matching.",
+        "level": "Computational architecture, neural-network dynamics, attention, learning, and recognition.",
+        "does_not_establish": "That all resonant neural activity is conscious, that resonance uniquely explains phenomenal character, or that ART is the only architecture capable of stable recognition."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Grossberg paper develops the consciousness-specific ART account and synthesizes modeling and empirical phenomena relevant to attention, learning, and recognition.",
+          "The retained scoping review independently confirms ART's place in the consciousness-theory landscape but does not test its mechanism."
+        ],
+        "limitations": [
+          "Component successes in categorization or stable learning are not discriminating tests of the consciousness claim.",
+          "Resonance, attention, expectation matching, and report can covary, making the proposed consciousness-making contribution difficult to isolate."
+        ],
+        "independence": "The defining retained source is authored by ART's principal developer. The second retained source is an independent classification review, not an independent empirical test of ART against rival consciousness theories."
+      },
+      "open_questions": [
+        "Which measurable ART-specific resonance property distinguishes conscious recognition from unconscious recurrent categorization?",
+        "Can an intervention selectively disrupt the proposed resonance while preserving input processing, learning, and report requirements?",
+        "How does the account extend beyond recognition to affective, bodily, or content-minimal experience?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-051-apical-amplification-theory",
+      "status_note": "Apical amplification is related to, but not interchangeable with, Dendritic Integration Theory or the LaBerge-Kasevich Apical Dendrite Theory; identity and prediction transfer require explicit source support.",
+      "scope": "Cellular-neuroscience proposal in which context-sensitive apical input modulates the impact of basal sensory drive in cortical pyramidal neurons during conscious perception and conscious-state regulation.",
+      "keywords": [
+        "Scientific theory",
+        "Cellular neuroscience",
+        "apical amplification",
+        "pyramidal neurons",
+        "contextual modulation",
+        "arousal"
+      ],
+      "boundary_note": "The account proposes a cellular contribution to conscious processing, not a complete theory of phenomenal content. Apical modulation may be permissive, amplifying, or attention-related rather than constitutive, and evidence about arousal or anesthesia cannot by itself decide among those roles.",
+      "claim_scope": {
+        "target": "How apical contextual signals can amplify selected feedforward activity in a state-dependent manner relevant to conscious perception.",
+        "level": "Cortical pyramidal-cell physiology, dendrite-soma coupling, contextual modulation, and conscious state.",
+        "does_not_establish": "That apical amplification is sufficient for experience, that it operates identically across cortical areas and modalities, or that large-scale access and recurrent mechanisms are unnecessary."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained 2016 paper develops the link between arousal, apical amplification, and conscious state from established properties of pyramidal-cell integration.",
+          "The retained 2021 paper clarifies the proposed mechanism and its relation to conscious perception."
+        ],
+        "limitations": [
+          "The retained papers are theory-developing syntheses; cellular plausibility is not equivalent to a direct causal test of consciousness.",
+          "Manipulations of apical coupling can also alter attention, arousal, sensory gain, and behavior, creating substantial auxiliary-assumption problems."
+        ],
+        "independence": "Both retained citations contribute to the same proponent-associated theoretical lineage. No independent preregistered comparison with cellular or network-level rivals is retained here."
+      },
+      "open_questions": [
+        "Is apical amplification necessary for conscious contents across sensory modalities, sleep, anesthesia, and nonmammalian systems?",
+        "Which causal manipulation would separate a consciousness-specific role from changes in arousal, attention, or response gain?",
+        "How do local apical events coordinate with recurrent processing and global availability without duplicating those theories' claims?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-201-apical-dendrite-theory-adt",
+      "status_note": "ADT here is the specific 2007 apical-dendrite formulation identified by the retained primary paper; it must remain distinct from later apical-amplification and dendritic-integration proposals.",
+      "scope": "Cellular-neuroscience theory assigning apical dendritic integration a central role in coordinating contextual feedback with feedforward activity relevant to conscious processing.",
+      "keywords": [
+        "Scientific theory",
+        "Neural dynamics & integration",
+        "ADT",
+        "apical dendrites",
+        "contextual feedback",
+        "cellular integration"
+      ],
+      "boundary_note": "Shared emphasis on apical dendrites does not make ADT identical to Apical Amplification or Dendritic Integration Theory. The retained source defines a particular theoretical architecture, while the catalog's broader cellular summary should not be read as evidence that any apical event is conscious.",
+      "claim_scope": {
+        "target": "The proposed contribution of apical dendritic activity to integrating contextual and feedforward signals in conscious processing.",
+        "level": "Pyramidal-cell compartments, cortical feedback, and cellular-to-system coordination.",
+        "does_not_establish": "That apical activity alone produces phenomenal experience, that the proposal generalizes to every conscious state, or that later dendritic theories inherit ADT's evidence."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained 2007 paper is the primary theoretical exposition of the named account.",
+          "The retained 2021 scoping review independently records ADT within the range of consciousness models."
+        ],
+        "limitations": [
+          "A formal or mechanistic proposal at the cellular level requires bridge principles connecting dendritic events to conscious content and level.",
+          "The scoping review establishes coverage, not empirical confirmation, and the retained trail contains no direct theory-discriminating intervention."
+        ],
+        "independence": "The only retained source making the substantive ADT claim is the primary theory paper; the independent source is taxonomic rather than a validation study."
+      },
+      "open_questions": [
+        "Which prediction belongs uniquely to the 2007 ADT formulation rather than to later apical accounts?",
+        "What spatial and temporal pattern of apical activity would count as the proposed conscious integration event?",
+        "Can selective perturbation distinguish a constitutive role from attention, feedback, or arousal modulation?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-032-dispositional-higher-order-thought-theory",
+      "status_note": "The catalog's book locator is a discovery lead with incomplete metadata; the exact Carruthers formulation and edition must be verified before claim-level quotation.",
+      "scope": "Higher-order account on which a first-order perceptual representation is conscious in virtue of an appropriate disposition to elicit or be available to higher-order thought.",
+      "keywords": [
+        "Scientific theory",
+        "Philosophy of mind / cognitive architecture",
+        "dispositional HOT",
+        "higher-order thought",
+        "perceptual representation"
+      ],
+      "boundary_note": "A disposition to generate a higher-order thought is weaker than tokening an occurrent HOT. The account should not be collapsed into standard HOT, global availability, or generic reportability, and later Carruthers formulations may revise the relevant disposition.",
+      "claim_scope": {
+        "target": "What makes a first-order perceptual representation conscious when no occurrent higher-order thought need be present.",
+        "level": "Representational architecture and counterfactual availability to higher-order cognition.",
+        "does_not_establish": "That mere behavioral reportability is sufficient, that an actual metacognitive judgment occurs, or that one neural implementation uniquely realizes the disposition."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Stanford Encyclopedia entry provides an authoritative map of dispositional and occurrent higher-order positions.",
+          "The retained Cambridge book page is intended to identify a book-length primary formulation, but its metadata remains pending review."
+        ],
+        "limitations": [
+          "The retained sources support conceptual attribution, not an independent empirical demonstration of the relevant counterfactual disposition.",
+          "Operational measures of metacognition, confidence, or report do not uniquely determine whether a first-order state had the theory's specified disposition."
+        ],
+        "independence": "No independent empirical theory test is retained. The primary locator must be bibliographically verified before the record can support fine-grained version comparisons."
+      },
+      "open_questions": [
+        "What exact counterfactual conditions constitute the required higher-order disposition?",
+        "How can the disposition be measured independently of report, confidence, or executive access?",
+        "How does the theory classify infant, animal, and impaired-metacognition experience?"
+      ],
+      "review_state": "needs-review"
+    },
+    {
+      "id": "seed-031-higher-order-perception-inner-sense-theory-hop",
+      "status_note": "HOP posits perception-like higher-order monitoring and therefore differs from conceptual higher-order-thought and dispositional accounts.",
+      "scope": "Representational theory in which a first-order mental state becomes conscious through an occurrent, perception-like higher-order monitoring state.",
+      "keywords": [
+        "Scientific theory",
+        "Philosophy of mind",
+        "HOP",
+        "inner sense",
+        "higher-order perception",
+        "monitoring"
+      ],
+      "boundary_note": "Inner sense is an analogy for a nonordinary monitoring mechanism, not a claim that introspection is literally an external sense. HOP must remain distinct from conceptual HOT, ordinary introspective judgment, and self-representational same-order theories.",
+      "claim_scope": {
+        "target": "How a perception-like higher-order representation confers consciousness on a first-order mental state.",
+        "level": "Philosophical representational architecture with possible metacognitive and neural implementations.",
+        "does_not_establish": "That conscious subjects accurately introspect their states, that the monitor is conceptually structured, or that evidence for metacognition uniquely supports HOP."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Lycan's retained monograph is a primary philosophical exposition of the inner-sense account.",
+          "The retained Stanford Encyclopedia entry independently locates HOP within the higher-order theory family and documents competing formulations."
+        ],
+        "limitations": [
+          "The retained trail is conceptual and taxonomic rather than a direct empirical test.",
+          "Confidence, introspective report, and monitoring-related neural activity can be explained by post-perceptual metacognition without showing that monitoring constitutes experience."
+        ],
+        "independence": "The secondary source is independent but expository. No retained experiment discriminates perception-like monitoring from HOT, first-order recurrent, or global-access accounts."
+      },
+      "open_questions": [
+        "What makes the higher-order state perception-like rather than inferential or conceptual?",
+        "Can HOP be tested without treating introspective report as both mechanism and measurement?",
+        "How does the account avoid regress while accommodating nonconceptual and nonhuman experience?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-033-higher-order-global-states-hogs-model",
+      "status_note": "The retained Gennaro locator is bibliographic and pending metadata review; edition and passage-level attribution are required before detailed version claims.",
+      "scope": "Higher-order account in which consciousness involves a complex global representation of oneself as being in a first-order mental state.",
+      "keywords": [
+        "Scientific theory",
+        "Philosophy of mind",
+        "HOGS",
+        "higher-order representation",
+        "self-representation",
+        "global state"
+      ],
+      "boundary_note": "The word global in HOGS concerns the structure or reach of a higher-order self-representing state and should not be assumed to denote a neuronal workspace broadcast. HOGS also differs from simple HOT, inner-sense, and same-order self-representational theories.",
+      "claim_scope": {
+        "target": "How a complex higher-order representation of oneself in a first-order state constitutes that state's consciousness.",
+        "level": "Philosophical representational architecture involving higher-order and self-representational structure.",
+        "does_not_establish": "A global-workspace mechanism, that explicit self-concept is required, or that a particular brain-wide activation pattern realizes the HOGS relation."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Stanford Encyclopedia entry supplies an authoritative overview of higher-order theories and the place of HOGS within that family.",
+          "The retained PhilPapers record points to a primary book-length source but lacks verified edition and authorship metadata in the catalog."
+        ],
+        "limitations": [
+          "The present trail establishes conceptual provenance only; it contains no independent empirical test of a HOGS-specific mechanism.",
+          "Self-attribution, global access, and metacognitive report are not interchangeable operationalizations of the proposed higher-order global state."
+        ],
+        "independence": "The authoritative secondary source is independent but expository. The primary bibliographic record requires metadata review, so fine-grained claims should remain provisional."
+      },
+      "open_questions": [
+        "What informational or representational features make a higher-order state global in the HOGS sense?",
+        "Is implicit self-representation sufficient, including in infants and nonhuman animals?",
+        "Which observation could distinguish HOGS from ordinary HOT and global-workspace accounts?"
+      ],
+      "review_state": "needs-review"
+    },
+    {
+      "id": "seed-145-higher-order-state-space-account-hoss",
+      "status_note": "HOSS is a specific Bayesian higher-order inference model; the retained journal article and preprint are two versions of the same primary work, not independent replications.",
+      "scope": "Computational account of awareness reports as higher-order Bayesian inference over a generative state space representing the presence or absence of first-order perceptual content.",
+      "keywords": [
+        "Scientific theory",
+        "Metacognition & higher-order awareness",
+        "HOSS",
+        "Bayesian inference",
+        "generative model",
+        "awareness report"
+      ],
+      "boundary_note": "HOSS models higher-order inference and awareness report, which may concern metacognitive access rather than phenomenal character. It should not be generalized to all predictive processing or treated as empirical support for every higher-order theory.",
+      "claim_scope": {
+        "target": "How a higher-order generative model can infer whether first-order perceptual content is present and thereby structure awareness reports.",
+        "level": "Bayesian computation, perceptual decision, metacognition, and report.",
+        "does_not_establish": "That Bayesian inference is sufficient for experience, that report and phenomenality are identical, or that the modeled state space has a unique neural implementation."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained peer-reviewed paper provides an explicit computational formulation and relates it to perceptual and metacognitive phenomena.",
+          "The retained preprint supplies provenance for the same model's development."
+        ],
+        "limitations": [
+          "Agreement with report behavior can support a decision or metacognitive model without establishing a constitutive theory of consciousness.",
+          "Model flexibility and unobserved higher-order states complicate parameter identification and comparison with first-order Bayesian alternatives."
+        ],
+        "independence": "The two retained locators are publication stages of one proponent-authored work. They do not constitute independent empirical validation or replication."
+      },
+      "open_questions": [
+        "Which preregistered behavioral or neural prediction uniquely favors HOSS over first-order signal-detection or metacognitive models?",
+        "Can latent higher-order state-space parameters be recovered reliably across tasks and observers?",
+        "How does HOSS address no-report consciousness and nonperceptual experience?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-034-self-representational-same-order-theory",
+      "status_note": "Self-representational and same-order positions form a family; retained attribution supports a central formulation but not identity among every member.",
+      "scope": "Family of theories on which a conscious state represents its apparent object while also representing its own occurrence within the same overall representational complex.",
+      "keywords": [
+        "Scientific theory",
+        "Analytic philosophy / phenomenology",
+        "self-representation",
+        "same-order theory",
+        "subjectivity",
+        "phenomenal character"
+      ],
+      "boundary_note": "Same-order self-representation need not be a separate higher-order state, an explicit judgment about oneself, or introspective attention. Family members disagree about whether self-representation is intrinsic, peripheral, relational, or part of phenomenal character.",
+      "claim_scope": {
+        "target": "How a conscious state's representation of its own occurrence may account for subjective or for-me character.",
+        "level": "Philosophical representation, phenomenology, and theories of subjectivity.",
+        "does_not_establish": "That every experience contains a conceptual self, that self-representation is empirically measurable by introspective accuracy, or that all same-order formulations are equivalent."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Kriegel's retained monograph is a primary systematic defense of a self-representational account of subjective consciousness.",
+          "The retained Stanford Encyclopedia entry situates self-representational views within broader debates about consciousness and intentionality."
+        ],
+        "limitations": [
+          "The retained evidence is principally conceptual and phenomenological rather than an independent experimental test.",
+          "Reports of mineness, ownership, or introspective access underdetermine whether a state literally represents itself."
+        ],
+        "independence": "The secondary source provides independent philosophical context, not empirical confirmation of the primary account."
+      },
+      "open_questions": [
+        "What representational structure distinguishes same-order self-representation from a separate higher-order state?",
+        "Can the account accommodate moods, pain, and apparently objectless or selfless experiences?",
+        "What empirical consequence follows from self-representation rather than from access, attention, or memory?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-038-fame-in-the-brain",
+      "status_note": "Cerebral fame is Dennett's distributed functional characterization related to Multiple Drafts; it is neither a literal popularity metric nor automatically identical to global workspace broadcasting.",
+      "scope": "Distributed functional account in which a content is conscious insofar as it acquires wide and consequential influence over ongoing cognitive and behavioral processes without a final central presentation.",
+      "keywords": [
+        "Scientific theory",
+        "Philosophy / cognitive science",
+        "cerebral fame",
+        "distributed processing",
+        "multiple drafts",
+        "functional influence"
+      ],
+      "boundary_note": "The metaphor of fame describes graded influence within a distributed architecture and does not specify one anatomical hub, fixed threshold, or unique network statistic. Relation to Multiple Drafts is best treated as a refinement or variant, not record identity.",
+      "claim_scope": {
+        "target": "How some contents become conscious by exerting sufficiently broad and durable influence across distributed processes.",
+        "level": "Functional cognitive architecture and philosophical interpretation of distributed neural processing.",
+        "does_not_establish": "A quantitative fame threshold, that all globally influential information is phenomenal, or that a central workspace or observer exists."
+      },
+      "evidence_profile": {
+        "basis": [
+          "Dennett's retained 2001 paper is the primary statement of the cerebral-fame formulation and its explanatory aims.",
+          "The retained Stanford Encyclopedia entry supplies independent philosophical context for distributed and functional approaches to consciousness."
+        ],
+        "limitations": [
+          "The formulation is not operationalized by a unique quantitative measure, so ordinary access, memory, report, and executive influence can be mistaken for the target property.",
+          "Distributed influence may explain cognitive availability while leaving disputes about phenomenal character unresolved."
+        ],
+        "independence": "The retained primary source is theoretical exposition; the encyclopedia is an independent overview, not a discriminating experimental test."
+      },
+      "open_questions": [
+        "How can cerebral fame be measured without reducing it to reportability or workspace access?",
+        "Which prediction distinguishes this formulation from Multiple Drafts and global-workspace architectures?",
+        "Can a content be phenomenally present yet locally influential, or globally influential yet unconscious, on this account?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-064-information-closure-theory-of-consciousness-ict",
+      "status_note": "ICT's authors present an incomplete formal proposal; informational closure at a selected scale is a theoretical construct, not yet an empirically validated consciousness measure.",
+      "scope": "Information-theoretic theory proposing that conscious processes exhibit non-trivial informational closure relative to their environment at an appropriate coarse-grained scale.",
+      "keywords": [
+        "Scientific theory",
+        "Information theory / computational neuroscience",
+        "ICT",
+        "information closure",
+        "coarse-graining",
+        "conscious process"
+      ],
+      "boundary_note": "Information closure is not ordinary causal isolation, thermodynamic closure, mutual information, or IIT's integrated information. Claims about level and content depend on selecting system boundaries, environmental variables, temporal scales, and coarse-grainings.",
+      "claim_scope": {
+        "target": "Whether non-trivially closed informational processes can identify conscious systems and characterize their level or content.",
+        "level": "Information theory, dynamical processes, system-environment relations, and computational modeling.",
+        "does_not_establish": "That closure is sufficient for phenomenality, that one privileged coarse-graining is available from data, or that formal examples validate the measure in brains."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained 2020 primary paper defines the proposal and develops its formal motivation.",
+          "The retained 2021 classification paper independently analyzes ICT's explanatory profile relative to other consciousness models."
+        ],
+        "limitations": [
+          "Formal coherence and model examples do not show that estimated closure tracks consciousness rather than autonomy, predictability, or model choice.",
+          "Empirical estimation is sensitive to unobserved variables, finite data, boundary selection, temporal resolution, and coarse-graining."
+        ],
+        "independence": "The independent retained source is a systematic classification, not a direct empirical validation. No retained adversarial or preregistered test establishes ICT-specific predictions."
+      },
+      "open_questions": [
+        "How can the relevant system boundary and coarse-graining be selected without using consciousness labels circularly?",
+        "Which feasible observation distinguishes ICT from integrated-information, predictive, or generic autonomy measures?",
+        "Can ICT recover changes in conscious level and content across anesthesia, sleep, and disorders of consciousness with out-of-sample validation?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-103-minimal-self-and-narrative-self-distinction",
+      "status_note": "The minimal/narrative distinction is a conceptual framework rather than one neural theory; the retained Gallagher DOI locator is truncated and must be repaired before claim-level use.",
+      "scope": "Phenomenological and cognitive distinction between immediate first-personal ownership or agency and temporally extended autobiographical, interpretive, and socially mediated selfhood.",
+      "keywords": [
+        "Phenomenological construct",
+        "Awareness & selfhood",
+        "minimal self",
+        "narrative self",
+        "ownership",
+        "agency"
+      ],
+      "boundary_note": "Minimal self, ownership, agency, first-person perspective, bodily self, and pre-reflective self-awareness are related but nonidentical constructs. Narrative selfhood likewise includes multiple autobiographical, social, linguistic, and diachronic capacities.",
+      "claim_scope": {
+        "target": "The distinction between immediate first-personal aspects of experience and temporally extended self-interpretation.",
+        "level": "Phenomenology, philosophy of mind, cognitive science, development, and clinical self-research.",
+        "does_not_establish": "Two separable brain modules, that the minimal self is metaphysically irreducible, or that narrative capacity is required for consciousness."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Stanford Encyclopedia entry provides authoritative context on forms of self-consciousness relevant to the distinction.",
+          "The catalog intends to retain a Gallagher primary source, but its DOI and URL are truncated and presently cannot support precise attribution."
+        ],
+        "limitations": [
+          "A useful conceptual distinction does not by itself establish natural psychological kinds or dissociable mechanisms.",
+          "Measures of ownership, agency, autobiography, and self-report sample different components and should not be pooled as one self variable."
+        ],
+        "independence": "The present source trail is insufficient for claim-level empirical adjudication because the primary locator is malformed; the surviving authoritative source is expository."
+      },
+      "open_questions": [
+        "Which minimal-self components dissociate empirically, and which are prerequisites for the others?",
+        "How do developmental, linguistic, and cultural variation reshape the boundary between minimal and narrative selfhood?",
+        "Can first-personal structure be assessed in nonverbal subjects without equating it with agency or body ownership?"
+      ],
+      "review_state": "needs-review"
+    },
+    {
+      "id": "seed-159-self-model-theory-of-subjectivity-and-phenomenal-self-model",
+      "status_note": "Transparency, phenomenal self-modeling, the modeled self-world relation, and Metzinger's no-substantial-self conclusion are separable claims; both retained source records require metadata review.",
+      "scope": "Neurophilosophical account explaining first-person subjectivity through a transparent phenomenal self-model and a modeled relation between the organism and its world.",
+      "keywords": [
+        "Philosophical position",
+        "Embodied self & affect",
+        "phenomenal self-model",
+        "transparency",
+        "subjectivity",
+        "self-representation"
+      ],
+      "boundary_note": "The theory is more specific than the generic claim that brains model the body or self. Phenomenal transparency, identification with model content, subjectivity, and the metaphysical rejection of a substantial self require distinct arguments and should not inherit support from one another automatically.",
+      "claim_scope": {
+        "target": "How transparent self-representational content and an organism-world model may generate the phenomenal sense of being a subject.",
+        "level": "Neurophilosophy, representational architecture, phenomenology, embodiment, and selfhood.",
+        "does_not_establish": "That the self-model is a localized brain object, that all self-processing is conscious, or that empirical evidence for body representation proves the theory's metaphysical conclusions."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained MIT Press record identifies Metzinger's book-length primary exposition.",
+          "The retained PubMed record provides a second synopsis-level locator associated with the theory's presentation."
+        ],
+        "limitations": [
+          "Both retained entries have pending metadata, so exact claim-to-source mapping has not been completed.",
+          "Empirical work on body ownership, agency, perspective, or self-recognition may motivate components while remaining compatible with other self-representational theories."
+        ],
+        "independence": "The retained trail is proponent-centered exposition and synopsis rather than independent empirical validation of the full phenomenal-self-model account."
+      },
+      "open_questions": [
+        "How can phenomenal transparency be operationalized independently of retrospective report?",
+        "Which intervention distinguishes a phenomenal self-model from ordinary body, agency, and perspective representations?",
+        "How does the theory classify selfless, content-minimal, dissociative, and nonhuman experiences?"
+      ],
+      "review_state": "needs-review"
+    },
+    {
+      "id": "seed-181-meta-awareness-and-mind-wandering-awareness",
+      "status_note": "Meta-awareness is explicit awareness of ongoing experience or cognition, not a requirement for every conscious state; the retained Schooler DOI locator is truncated and needs repair.",
+      "scope": "Metacognitive construct concerning explicit awareness of current mental contents or processes, including noticing that attention has shifted into mind-wandering.",
+      "keywords": [
+        "Phenomenological construct",
+        "Metacognition & higher-order awareness",
+        "meta-awareness",
+        "mind-wandering",
+        "experience sampling",
+        "introspection"
+      ],
+      "boundary_note": "Meta-awareness must be separated from first-order experience, attention to external tasks, introspective accuracy, confidence, and the ability to report retrospectively. Mind-wandering may occur with or without contemporaneous recognition that the mind has wandered.",
+      "claim_scope": {
+        "target": "When and how a subject becomes explicitly aware of an ongoing mental state or cognitive process.",
+        "level": "Metacognition, introspection, experience sampling, attention, and phenomenology.",
+        "does_not_establish": "That unreported experience lacks consciousness, that probe response is a transparent measure of prior awareness, or that meta-awareness is one unitary capacity."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Schooler record is intended to identify an influential primary treatment of dissociations between experience and meta-awareness.",
+          "The retained Stanford Encyclopedia entry supplies authoritative conceptual context on introspection."
+        ],
+        "limitations": [
+          "The primary DOI and URL are truncated, preventing reliable claim-level verification until repaired.",
+          "Experience-sampling probes interrupt the target process and rely on retrospective categorization, while self-caught events select for episodes already reaching report."
+        ],
+        "independence": "The current citation trail supports a provisional construct profile only. It does not retain an independently replicated measurement-validation study, and one primary locator is malformed."
+      },
+      "open_questions": [
+        "Which behavioral or physiological marker tracks meta-awareness before an explicit report is requested?",
+        "How do probe-caught and self-caught mind-wandering differ in bias, timing, and underlying process?",
+        "Is meta-awareness graded, intermittent, or composed of separable monitoring and control capacities?"
+      ],
+      "review_state": "needs-review"
+    },
+    {
+      "id": "seed-177-qualia-and-phenomenal-character",
+      "status_note": "Catalog use of qualia is ontologically neutral and does not assume intrinsic, ineffable, private, nonrepresentational, or nonphysical properties.",
+      "scope": "Family of constructs concerning the experienced character of states such as color, pain, taste, mood, and bodily sensation, together with disputes about how such character is individuated.",
+      "keywords": [
+        "Phenomenological construct",
+        "Awareness & selfhood",
+        "qualia",
+        "phenomenal character",
+        "what-it-is-like",
+        "experience"
+      ],
+      "boundary_note": "Qualia can refer broadly to phenomenal character or narrowly to properties stipulated as intrinsic, ineffable, private, and directly apprehensible. Those usages must not be merged, and using the term does not decide between representationalist, relational, physicalist, or nonphysicalist accounts.",
+      "claim_scope": {
+        "target": "The qualitative or phenomenal character by which experiences feel the way they do.",
+        "level": "Phenomenology, philosophy of mind, semantics of experience, and empirical bridging constructs.",
+        "does_not_establish": "A metaphysical ontology, an objective measurement procedure, that phenomenal properties are nonrepresentational, or that all uses of qualia denote the same feature."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Stanford Encyclopedia entries provide authoritative maps of the term's competing definitions and its place in consciousness debates.",
+          "Ordinary and scientific reports of perceptual, affective, and bodily experience motivate an explanandum but do not select one theory of qualia."
+        ],
+        "limitations": [
+          "The retained citations are conceptual reference works rather than empirical tests of a unitary qualia construct.",
+          "First-person discrimination, report, and neural decoding require bridge assumptions and cannot by themselves decide the ontology of phenomenal character."
+        ],
+        "independence": "Both retained sources are authoritative secondary expositions. They clarify contested meanings but provide no source-independent detector or adjudication of qualia."
+      },
+      "open_questions": [
+        "Which definition of qualia is being used in each theoretical and empirical claim?",
+        "How can similarities and differences in phenomenal character be studied without presupposing a disputed metaphysics?",
+        "What evidence could responsibly extend phenomenal-character attribution to nonverbal animals or artificial systems?"
+      ],
+      "review_state": "provisional"
+    },
+    {
+      "id": "seed-189-phenomenal-overflow-hypothesis",
+      "status_note": "The retained Roskies citation concerns free will and responsibility, not phenomenal overflow, and must not be used as support; a dedicated primary overflow source is required.",
+      "scope": "Contested hypothesis that phenomenal consciousness contains more information or detail than is available for report, working memory, or flexible cognitive access.",
+      "keywords": [
+        "Phenomenological construct",
+        "Attention & conscious access",
+        "phenomenal overflow",
+        "access consciousness",
+        "partial report",
+        "working memory"
+      ],
+      "boundary_note": "Overflow concerns a proposed relation between phenomenal and access consciousness, not merely the familiar fact that sensory processing exceeds working-memory capacity. Rich experience, fragile memory, unconscious representation, iconic persistence, and decision limits are competing interpretations of relevant paradigms.",
+      "claim_scope": {
+        "target": "Whether the content or determinacy of phenomenal experience exceeds what can be accessed, remembered, or reported.",
+        "level": "Philosophy of consciousness, visual cognition, attention, memory, and report methodology.",
+        "does_not_establish": "A numerical capacity of phenomenality, that inaccessible information is conscious, or that subjective richness cannot be an inference or reconstruction."
+      },
+      "evidence_profile": {
+        "basis": [
+          "The retained Stanford Encyclopedia entry provides general authoritative context for phenomenal versus access-consciousness debates.",
+          "The record's summary captures a recognized hypothesis, but the present catalog does not retain a valid dedicated primary citation for it."
+        ],
+        "limitations": [
+          "The Roskies article currently attached to the record is topically mismatched and supplies no evidence for overflow.",
+          "Partial-report and change-detection results require contested inferences from performance and memory to the prior richness of experience."
+        ],
+        "independence": "No claim-level empirical or primary philosophical source can be credited from the current trail beyond general encyclopedia context; source repair is required before semantic synthesis."
+      },
+      "open_questions": [
+        "Which experiment distinguishes phenomenal overflow from rich unconscious representation, iconic memory, or post-perceptual loss?",
+        "How can phenomenal detail be estimated without using access or report as the sole criterion?",
+        "What dedicated primary and critical sources should replace the mismatched citation before this record is compared semantically?"
+      ],
+      "review_state": "needs-review"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "run_id": "semrun-049c04318631b0fe3b61",
+  "created_at": "2026-08-31T02:52:02Z",
+  "status": "ready",
+  "record_count": 595,
+  "pair_count": 176715,
+  "candidate_count": 600,
+  "confidence_tiers": {
+    "T1": 102,
+    "T0": 498
+  },
+  "relation_types": {
+    "methodological_bridge": 68,
+    "question_relevance": 139,
+    "cross_tradition_analogy": 200,
+    "conceptual_affinity": 161,
+    "possible_duplicate": 5,
+    "shared_explanandum": 27
+  },
+  "flags": {
+    "cross-domain": 515,
+    "cross-tradition": 556,
+    "independent-record-sources": 544,
+    "cross-model-neighbour": 553,
+    "scope-barrier-signal": 239,
+    "shared-source": 56,
+    "shared-proponent": 16,
+    "semantic-hub-risk": 32,
+    "shallow-profile": 97
+  },
+  "prior_art_screen": {
+    "file": "prior-art-screen.json",
+    "status": "focused-screen",
+    "entry_count": 14,
+    "sha256": "104669112e598946e12b21d45f14677cd9ea0b0deeff2457ab04f725aac4e954",
+    "screened_at": "2026-08-30",
+    "method": "Focused web and scholarly-source screen. This is not a systematic review.",
+    "epistemic_note": "A focused search can locate prior art; failure to locate a direct comparison does not establish novelty."
+  },
+  "screened_candidate_count": 14,
+  "catalog_hash": "84abd8c978917332fc32b94cff18db6cb17e4f66d35e98921355514cdbc98ab6",
+  "catalog_files": [
+    {
+      "file": "catalog.json",
+      "sha256": "0f651ac80860c4a6d303f6c7b104ec94871c7d70c2e0d051cbac822c891ff5b1",
+      "bytes": 493723
+    },
+    {
+      "file": "catalog-2026-08-30-neuroscience.json",
+      "sha256": "3e83d13b0a66739dfc24973f42c95f5e823ac922934a8736184a1991547b5dc6",
+      "bytes": 52888
+    },
+    {
+      "file": "catalog-2026-08-30-awareness-social.json",
+      "sha256": "56b467e55e08aa900c79f5adfab0500ee1a6ccfae0601effb7b3af9dd8a59d19",
+      "bytes": 53627
+    },
+    {
+      "file": "catalog-2026-08-30-philosophy-history.json",
+      "sha256": "d193da0d260176a6fbefe9ce7888eabb2daec001ec0d93b91ee3e8da6d067a47",
+      "bytes": 60030
+    },
+    {
+      "file": "catalog-2026-08-30-anomalous-challenge.json",
+      "sha256": "25b861966e2954f01d6030e215f2eec07056bb74116d8d71f589b5190c9ad3eb",
+      "bytes": 87595
+    },
+    {
+      "file": "catalog-2026-08-30-neuroscience-breadth.json",
+      "sha256": "10cceb1d3433a9b7af0bef97bbdef46005d533469f9083c89f0ab5e13179715b",
+      "bytes": 178067
+    },
+    {
+      "file": "catalog-2026-08-30-cognitive-breadth.json",
+      "sha256": "6ea4718cfd6c07ff935509f39b4fb65c7e31956bc5792a0ca68b7cf4a93ebe90",
+      "bytes": 127611
+    },
+    {
+      "file": "catalog-2026-08-30-philosophy-breadth.json",
+      "sha256": "29f458d7bb3a21b0e3699866da10c01eb86af5ea35cb3b5f1e96f1bcc9d0b374",
+      "bytes": 162290
+    },
+    {
+      "file": "catalog-2026-08-30-states-clinical-breadth.json",
+      "sha256": "0af82276c1cbd4c89f9fc8e20f7d0ded9d88e1d3505e6c466e04a7d98f9f44a7",
+      "bytes": 229556
+    },
+    {
+      "file": "catalog-2026-08-30-cross-cultural-breadth.json",
+      "sha256": "608e5b0ab8b3e3d21e68b49319d168eb042ab2d2c3c3e4174bfad05a559ed7dc",
+      "bytes": 241667
+    },
+    {
+      "file": "catalog-2026-08-30-emerging-breadth.json",
+      "sha256": "1108d3b4e5d807db37d0aadb3948558e15669e93ff6be3ab62e6c5ae2c9750cc",
+      "bytes": 151627
+    },
+    {
+      "file": "catalog-2026-08-30-contemporary-continuation.json",
+      "sha256": "169104b630c6a5a625b614f570e060ffe7ad701ea0af445faa75be44c1a17993",
+      "bytes": 18728
+    },
+    {
+      "file": "catalog-2026-08-30-crosscultural-continuation.json",
+      "sha256": "51c5a830aad870d776c05005a5557120ade22f1c631b7a9c957697498ab01d5d",
+      "bytes": 41908
+    },
+    {
+      "file": "catalog-2026-08-30-frontier-science-continuation.json",
+      "sha256": "dfa6764de018599f26ccf3c230bf7287e43797f7ab21661c0d4c3e8f9734b3b7",
+      "bytes": 36813
+    },
+    {
+      "file": "catalog-2026-08-30-core-profile-enrichments.json",
+      "sha256": "9eda724fbb576648ffedd124bdd97977ff3006ea2e5764d162b04db264337105",
+      "bytes": 34435
+    },
+    {
+      "file": "catalog-2026-08-30-core-profile-enrichments-2.json",
+      "sha256": "364d887b8e0d90fe64e372048fe66968d7d5f7db05963fc0d29a02d6f1c64e1f",
+      "bytes": 42301
+    }
+  ],
+  "models": {
+    "provider": "Ollama local",
+    "name": "nomic-embed-text:latest",
+    "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+    "dimensions": 768,
+    "effective_context_length": 2048,
+    "primary": {
+      "name": "nomic-embed-text:latest",
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "dimensions": 768,
+      "effective_context_length": 2048,
+      "task_prefixes": {
+        "symmetric": "clustering:",
+        "query": "search_query:",
+        "document": "search_document:"
+      }
+    },
+    "sensitivity": {
+      "name": "mxbai-embed-large:latest",
+      "digest": "468836162de7f81e041c43663fedbbba921dcea9b9fefea135685a39b2d83dd8",
+      "dimensions": 1024,
+      "effective_context_length": 512,
+      "use": "neighbour-rank agreement only"
+    },
+    "ollama_version": "0.33.2"
+  },
+  "recipe": {
+    "version": "semantic-candidates-v1",
+    "metric": "cosine",
+    "prefix": "clustering:",
+    "text_fields": [
+      "summary",
+      "scope",
+      "claim_scope",
+      "evidence_profile",
+      "open_questions",
+      "boundary_note",
+      "status_note"
+    ],
+    "view_fields": {
+      "conceptual": [
+        "summary",
+        "scope",
+        "claim_scope excluding does_not_establish",
+        "evidence_profile excluding limitations",
+        "open_questions"
+      ],
+      "negative_controls": [
+        "boundary_note",
+        "status_note",
+        "claim_scope.does_not_establish",
+        "evidence_profile.limitations"
+      ],
+      "excluded_from_conceptual_vectors": [
+        "name",
+        "aliases",
+        "proponents",
+        "citations",
+        "domain",
+        "tradition",
+        "status"
+      ]
+    },
+    "comparison": "exact all-pairs",
+    "record_count": 595,
+    "pair_count": 176715,
+    "calibration": "empirical percentile within sufficiently large kind/completeness strata; CSLS retained as a hubness diagnostic",
+    "review_priority": "within-run queue rank after multi-view, reciprocal-neighbour, cross-model, source-overlap, hubness, profile-depth, relation-diversity, and corpus-coverage controls; not confidence",
+    "review_queue_selection": "completed prior-art screens retained first without raising confidence, then half priority-first, best candidates exposing previously unrepresented endpoints, and priority fill; coverage selection does not raise confidence",
+    "prior_art_screen": {
+      "file": "prior-art-screen.json",
+      "status": "focused-screen",
+      "entry_count": 14,
+      "sha256": "104669112e598946e12b21d45f14677cd9ea0b0deeff2457ab04f725aac4e954",
+      "screened_at": "2026-08-30",
+      "method": "Focused web and scholarly-source screen. This is not a systematic review.",
+      "epistemic_note": "A focused search can locate prior art; failure to locate a direct comparison does not establish novelty."
+    },
+    "guardrail": "machine candidates are not accepted relationships or novelty claims"
+  },
+  "database": "C:\\Users\\Admin\\source\\repos\\Noemorph\\Noemorph\\data\\semantic\\semantic.sqlite3",
+  "epistemic_status": "All rows are machine-generated research candidates. Embedding proximity does not establish correlation, causation, influence, equivalence, support, refutation, or novelty."
+}
