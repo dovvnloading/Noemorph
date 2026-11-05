@@ -67,7 +67,8 @@ async function boot(locationHref = 'https://example.org/Noemorph/') {
     }
   }
   const ids = ['#records', '#results-status', '#search', '#kind',
-    '#domain', '#tradition', '#review', '#verification', '#reset-filters', '#pagination'];
+    '#domain', '#tradition', '#review', '#verification', '#reset-filters', '#pagination',
+    '#comparison', '#comparison-status', '#clear-comparison'];
   const elements = Object.fromEntries(ids.map(id => [id, new FakeElement()]));
   const selectedSummary = new FakeElement();
   const downloaded = [];
@@ -98,7 +99,8 @@ async function boot(locationHref = 'https://example.org/Noemorph/') {
 
 test('public HTML exposes every filter and labeled results', () => {
   for (const id of ['search', 'kind', 'domain', 'tradition', 'review',
-    'verification', 'reset-filters', 'records', 'results-status']) {
+    'verification', 'reset-filters', 'records', 'results-status',
+    'comparison', 'comparison-status', 'clear-comparison']) {
     assert.ok(html.includes('id="' + id + '"'), 'Missing #' + id);
   }
   assert.match(html, /aria-live="polite"/);
@@ -136,6 +138,55 @@ test('claim review leads remain visibly unverified in the public catalog', async
   assert.match(app.elements['#records'].innerHTML, /Claim-level source review leads/);
   assert.match(app.elements['#records'].innerHTML, /do not verify support/);
   assert.match(app.elements['#records'].innerHTML, /source URL only/i);
+});
+
+
+test('valid comparison permalinks render both independent records and preserve citation caveats', async () => {
+  const app = await boot('https://example.org/Noemorph/?compare=record-one%2Crecord-two#catalog');
+  const html = app.elements['#comparison'].innerHTML;
+  assert.equal(app.elements['#comparison'].hidden, false);
+  assert.equal(app.elements['#comparison'].focused, true);
+  assert.match(html, /Global Neuronal Workspace/);
+  assert.match(html, /Panpsychism/);
+  assert.match(html, /Citation status: human-verified/);
+  assert.match(html, /Citation status: doi-resolved/);
+  assert.match(html, /not evidence of convergence/);
+  assert.match(html, /Open shareable comparison permalink/);
+  assert.match(app.elements['#comparison-status'].textContent, /2 of 2 selected/);
+});
+
+test('comparison selections are explicit, reversible, and reflected in the address', async () => {
+  const app = await boot();
+  const select = id => {
+    const target = new app.FakeElement();
+    target.dataset.compare = id;
+    app.elements['#records'].listeners.click({ target });
+  };
+  select('record-one');
+  assert.match(app.elements['#comparison-status'].textContent, /1 of 2 selected/);
+  assert.equal(app.elements['#comparison'].hidden, true);
+  select('record-two');
+  assert.equal(app.elements['#comparison'].hidden, false);
+  assert.equal(new URL(app.window.location.href).searchParams.get('compare'), 'record-one,record-two');
+  assert.match(app.elements['#records'].innerHTML, /aria-pressed="true"/);
+  app.elements['#clear-comparison'].listeners.click();
+  assert.equal(app.elements['#comparison'].hidden, true);
+  assert.equal(new URL(app.window.location.href).searchParams.has('compare'), false);
+  assert.equal(app.elements['#clear-comparison'].hidden, true);
+});
+
+test('invalid, repeated or unknown comparison IDs never render a misleading pair', async () => {
+  for (const query of [
+    '?compare=record-one%2Crecord-one',
+    '?compare=record-one%2Cmissing',
+    '?compare=record-one%2Crecord-two%2Cthird',
+    '?compare=%3Cscript%3E%2Crecord-two',
+    '?compare=record-one%2Crecord-two&compare=record-one%2Crecord-two',
+  ]) {
+    const app = await boot('https://example.org/Noemorph/' + query);
+    assert.equal(app.elements['#comparison'].hidden, true, query);
+    assert.equal(app.elements['#comparison'].innerHTML, '', query);
+  }
 });
 
 test('citation export retains recorded provenance without inventing a publication year', async () => {
