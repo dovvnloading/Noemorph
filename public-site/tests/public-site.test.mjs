@@ -8,6 +8,7 @@ import vm from 'node:vm';
 const dist = resolve(dirname(fileURLToPath(import.meta.url)), '../dist');
 const script = readFileSync(resolve(dist, 'app.js'), 'utf8');
 const discoveryScript = readFileSync(resolve(dist, 'discovery.js'), 'utf8');
+const atlasScript = readFileSync(resolve(dist, 'atlas.js'), 'utf8');
 const curated = JSON.parse(readFileSync(resolve(dist, 'discovery-journeys.json'), 'utf8'));
 const curatedIds = [...new Set([
   ...curated.journeys.flatMap(path => path.steps.map(step => step.record_id)),
@@ -71,11 +72,18 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
       this.dataset = {};
       this.listeners = {};
       this.children = [];
+      this.attributes = {};
+      this.disabled = false;
     }
     addEventListener(type, callback) { this.listeners[type] = callback; }
     append(child) { this.children.push(child); }
     click() { this.clicked = true; }
     remove() {}
+    setAttribute(name, value) { this.attributes[name] = String(value); }
+    getAttribute(name) { return this.attributes[name] ?? null; }
+    getBoundingClientRect() { return { width: 1000, height: 600 }; }
+    setPointerCapture() {}
+    releasePointerCapture() {}
     closest() { return this; }
     focus() { this.focused = true; }
     scrollIntoView() { this.scrolled = true; }
@@ -83,15 +91,21 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
       if (selector === 'details[open] summary' && this.innerHTML.includes(' open>')) {
         return selectedSummary;
       }
+      if (selector === '#atlas-viewport-transform') return atlasTransform;
       return null;
     }
   }
   const ids = ['#records', '#results-status', '#search', '#kind',
     '#domain', '#tradition', '#review', '#verification', '#reset-filters', '#pagination',
     '#comparison', '#comparison-status', '#clear-comparison',
-    '#discover', '#discovery-choices', '#discovery-stage', '#discovery-status'];
+    '#discover', '#discovery-choices', '#discovery-stage', '#discovery-status',
+    '#atlas-svg', '#atlas-node-list', '#atlas-status', '#atlas-kind-filter',
+    '#atlas-search', '#atlas-record-detail', '#atlas-back', '#atlas-home',
+    '#atlas-previous', '#atlas-next', '#atlas-page-label',
+    '#atlas-zoom-in', '#atlas-zoom-out', '#atlas-zoom-reset'];
   const elements = Object.fromEntries(ids.map(id => [id, new FakeElement()]));
   const selectedSummary = new FakeElement();
+  const atlasTransform = new FakeElement();
   const downloaded = [];
   const links = [];
   class FakeURL extends URL {}
@@ -133,9 +147,10 @@ async function boot(locationHref = 'https://example.org/Noemorph/', options = {}
     },
   };
   vm.runInNewContext(discoveryScript, context, { filename: 'public-site/dist/discovery.js' });
+  vm.runInNewContext(atlasScript, context, { filename: 'public-site/dist/atlas.js' });
   vm.runInNewContext(script, context, { filename: 'public-site/dist/app.js' });
   await new Promise(resolve => setImmediate(resolve));
-  return { elements, selectedSummary, downloaded, links, FakeElement, window };
+  return { elements, selectedSummary, atlasTransform, downloaded, links, FakeElement, window };
 }
 
 test('public HTML exposes every filter and labeled results', () => {
