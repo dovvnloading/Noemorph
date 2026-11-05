@@ -36,6 +36,7 @@ npm run dev
 - `Noemorph/data/catalog-2026-08-30-states-clinical-breadth.json` contributes 56 sharply bounded state constructs, assessment instruments, experimental paradigms, and neural measures; it does not relabel every measure as a causal theory.
 - `Noemorph/data/catalog-2026-08-30-cross-cultural-breadth.json` contributes 65 source-bounded positions across South Asian, Buddhist, Sikh, Jaina, East Asian, Arabic-Islamic, Jewish, African, Indigenous American, Pacific, and ancient traditions with explicit translation and community-attribution limits.
 - `Noemorph/data/catalog-2026-08-30-emerging-breadth.json` contributes 35 recent scientific, formal, methodological, and artificial-consciousness proposals; 24 date from 2024–2026.
+- `Noemorph/data/catalog-2026-11-05-profile-depth-tranche-1.json` adds source-bounded research depth to 10 existing records across philosophy, neural frameworks, mindreading, phenomenological distinctions, and clinical states; it adds no theories or new citation locators and does not increase source verification.
 - The optional local `Noemorph/data/discovery-closer-to-truth.json` is a separate 474-entry acquisition registry crawled from the Closer To Truth Landscape index. It is excluded from the public repository because it contains third-party source text. It retains categories, people named on each page, exact source pages, 1,489 key-takeaway statements, 1,499 reference entries, and 1,909 clean reference locators without automatically promoting candidates into the reviewed catalog.
 - `Noemorph/data/discovery-kuhn-landscape.json` retains all 219 named headings from Kuhn's landscape audit (209 named positions and 10 section overviews) with conservative title-screen results.
 - `Noemorph/data/scope-tsc-taxonomy.json` indexes the University of Arizona TSC 2024 taxonomy's 102 research topics across six groups. These are scope controls, not theories, and are never added to the theory count.
@@ -45,7 +46,7 @@ npm run dev
 - `research/build_catalog.py` regenerates the JSON artifact and enriches DOI metadata through Crossref.
 - The merged reviewed collection currently contains 595 uniquely named and identified records, 1,256 retained citations, and 1,045 unique source records. It distinguishes scientific theories, philosophical positions, historical traditions, phenomenological constructs, clinical/state models, methodological frameworks, social-cognition accounts, and arguments or challenges.
 
-The current corpus includes 453 deep research profiles. Each retains a claim scope, a boundary note, an evidence profile, open questions, source roles, and exact citation locators. The additions include recent active-inference and evolutionary proposals, criticality and neural-hierarchy accounts, clinical complexity and state-transition models, attention and memory architectures, agency and affect models, social and comparative cognition, explanatory arguments, and carefully bounded historical or living traditions. These additions increase coverage; they do not make a claim of exhaustiveness.
+The current corpus includes 463 deep research profiles. Each retains a claim scope, a boundary note, an evidence profile, open questions, source roles, and exact citation locators. The additions include recent active-inference and evolutionary proposals, criticality and neural-hierarchy accounts, clinical complexity and state-transition models, attention and memory architectures, agency and affect models, social and comparative cognition, explanatory arguments, and carefully bounded historical or living traditions. These additions increase coverage; they do not make a claim of exhaustiveness.
 
 When the optional local acquisition registry is available, it is visible under **Record catalog → Discovery screening**, with match status kept separate from reviewed-record status. Each source profile can be inspected without leaving the catalog table; the inspector exposes the retained description, named people, page claims, lexical match evidence, and reference locators only on demand. Rebuild or reconcile the source frames with:
 
@@ -67,6 +68,21 @@ The checked-in `Noemorph/data/claim-review-2026-11-05-core-theories.json` regist
 The public site and desktop inspector show these as **unreviewed bibliography leads**. Their `source-url-only` locators are not passage locators; even a DOI-resolved or bibliographically human-verified citation does **not** establish that the work supports or refutes a specific claim. No claim-level human verification, source support/refutation edges, or theory-to-theory relationships are published by this tranche. The API retains the original numeric source IDs for compatibility and additionally returns a deterministic `source_uid` for future source identity work.
 
 Reviewers should consult the original work, identify an exact in-source passage or page, check work identity and interpretation, and record a substantive determination **in a future independent review mechanism**, not by changing `review_state` in this lead file. The loader rejects attempts to mark these leads verified or to reference a source absent from the record. The next milestone is a reviewer-aware, append-only claim evidence ledger.
+
+## Research-profile quality and editorial priorities
+
+The merged collection currently has **463 records with all four required profile fields** (`claim_scope`, `boundary_note`, `evidence_profile`, `open_questions`) and **132 still requiring profile work**. The new 10-record enrichment tranche remains `provisional`: its descriptions are editorial syntheses bounded by retained sources, not source-passage verification or endorsements of contested positions.
+
+A deterministic, current-collection audit lives in `Noemorph/data/profile-quality-report.json`. To regenerate it, run:
+
+```powershell
+python Noemorph/research/build_profile_quality_report.py
+python Noemorph/research/build_profile_quality_report.py --check
+```
+
+The same information is available through the read-only `/api/profile-quality` endpoint and the desktop **Collection audit → Research profile depth** section. The report counts missing fields by record kind, tracks unresolved citation metadata as a distinct concern, and lists the remaining records in a transparent *editorial workload* queue. Its `triage_priority` formula is documented in the report; it is **not** a judgment of a theory's correctness, an evidence score, or a fixed denominator for consciousness research. A complete profile is not a verified claim.
+
+The historical 577-record audit remains archived as a snapshot. `Noemorph/data/coverage-report.json` and the new profile report track the current merged corpus; automated checks now reject stale profile report snapshots.
 
 ## Local claim evidence review ledger
 
