@@ -14,7 +14,7 @@
   const clearComparison = document.querySelector('#clear-comparison');
   const comparisonTools = document.querySelector('#comparison-tools');
   const heroCount = document.querySelector('#hero-record-count');
-  const pageSize = 12;
+  const pageSize = 8;
   let records = [], page = 1;
   let requestedRecordId = new URL(window.location.href).searchParams.get('record');
   function parseComparisonIds(search) {
