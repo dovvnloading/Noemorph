@@ -53,12 +53,22 @@ def apply_claim_review_supplement(
     The caller loads this after profile enrichments, so source URLs and field
     values reflect the fully merged record. No canonical catalog claims change.
     """
-    if not isinstance(payload, dict):
-        raise ClaimReviewIntegrityError("Claim review supplement must be an object")
+    if not isinstance(payload, dict) or set(payload) != {"collection", "records"}:
+        raise ClaimReviewIntegrityError(
+            "Claim review supplement must contain only collection and records"
+        )
     collection = payload.get("collection")
     items = payload.get("records")
     if not isinstance(collection, dict) or not isinstance(items, list):
         raise ClaimReviewIntegrityError("Claim review needs collection and records")
+    required_metadata = {"name", "created", "review_state", "method", "limits"}
+    if set(collection) != required_metadata or any(
+        not isinstance(collection[key], str) or not collection[key].strip()
+        for key in required_metadata
+    ):
+        raise ClaimReviewIntegrityError(
+            "Claim review metadata must contain only complete descriptive fields"
+        )
     if collection.get("review_state") != "unreviewed-source-leads":
         raise ClaimReviewIntegrityError(
             "Claim review supplement must explicitly remain unreviewed-source-leads"
