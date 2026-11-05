@@ -15,6 +15,7 @@ export function parseComparisonIds(search: string): string[] {
 
 export function publicComparisonUrl(ids: string[]): string | undefined {
   if (ids.length !== 2 || ids[0] === ids[1]) return undefined
+  if (ids.some((id) => !/^[A-Za-z0-9_-]{1,160}$/.test(id))) return undefined
   const url = new URL(PUBLIC_ATLAS_URL)
   url.searchParams.set('compare', ids.join(','))
   url.hash = 'catalog'
