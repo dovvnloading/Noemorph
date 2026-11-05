@@ -8,14 +8,16 @@
   <title>Noemorph — an open atlas of mind &amp; consciousness</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="discovery.css">
+  <link rel="stylesheet" href="atlas.css">
   <script src="discovery.js" defer></script>
+  <script src="atlas.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="brand" href="#top" aria-label="Noemorph home"><span class="brand-mark" aria-hidden="true">✳</span><span>noemorph</span></a>
-  <nav aria-label="Main navigation"><a href="#discover">Discovery</a><a href="#approach">Approach</a><a href="#catalog">Explore the atlas</a><a href="#participate">Contribute <span aria-hidden="true">↗</span></a></nav>
+  <nav aria-label="Main navigation"><a href="#discover">Discovery</a><a href="#atlas">Visual atlas</a><a href="#approach">Approach</a><a href="#catalog">Browse records</a><a href="#participate">Contribute <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main id="main">
 <section class="hero" id="top">
@@ -40,9 +42,71 @@
     <noscript><p>The interactive journeys require JavaScript. You can still <a href="#catalog">browse the full research atlas</a>.</p></noscript>
   </div>
 </section>
-<section class="intro section-wrap" id="approach"><div class="section-tag"><span>02</span> THE PURPOSE</div><div><h2>One question.<br><em>Many ways in.</em></h2><div class="intro-grid"><p class="lead">Consciousness is studied across disciplines, traditions, and scales. No single map can settle the question.</p><div><p>Noemorph brings records and their citations into one browsable collection. It is designed to help curious readers find their bearings, follow a source, and see where a claim begins and ends.</p><p>This is a collection in progress—not a finished synthesis or a claim to completeness. Inclusion of a position is not endorsement.</p></div></div></div></section>
-<section class="principles"><div class="section-wrap"><div class="principles-head"><div class="section-tag"><span>03</span> OUR APPROACH</div><h2>A map with<br><em>its edges showing.</em></h2><p>Good research makes its sources visible and its uncertainties legible. These are the principles behind the collection.</p></div><div class="principle-grid"><article><span>01 / TRACE</span><h3>Follow the source.</h3><p>Each record points to retained citations, with source roles and verification states where available. A recorded locator is a starting point, not proof that a source supports every claim.</p></article><article><span>02 / DISTINGUISH</span><h3>Keep differences intact.</h3><p>Scientific theories, philosophical positions, lived traditions, constructs, and clinical models are separately typed rather than treated as interchangeable theories.</p></article><article><span>03 / QUESTION</span><h3>Leave room for review.</h3><p>The collection has no fixed denominator. Relationships between ideas remain locked until the coverage protocol and independent review are complete.</p></article></div></div></section>
-<section class="catalog-section section-wrap" id="catalog"><div class="catalog-heading"><div><div class="section-tag"><span>04</span> THE COLLECTION</div><h2>Explore the <em>atlas.</em></h2></div><p>Start with a question, a name, or a discipline. Open a record to examine its description, limits, and citations, then share it or export its references.</p></div>
+<section class="atlas-section" id="atlas" aria-labelledby="atlas-heading">
+  <div class="section-wrap atlas-layout">
+    <header class="atlas-heading">
+      <div>
+        <div class="section-tag"><span>02</span> THE VISUAL ATLAS</div>
+        <h2 id="atlas-heading">Find your place<br><em>among ideas.</em></h2>
+      </div>
+      <div>
+        <p class="lead">Explore the collection like a constellation.</p>
+        <p>Choose a research type, zoom into its domains, and open a record. Every line shows <strong>category membership only</strong>, not agreement or evidence between theories.</p>
+        <p class="atlas-heading-caveat">595 indexed entries · organization, not conceptual synthesis</p>
+      </div>
+    </header>
+    <div class="atlas-explorer">
+      <div class="atlas-toolbar">
+        <div class="atlas-breadcrumbs">
+          <button type="button" id="atlas-home">All record types</button>
+          <button type="button" id="atlas-back" disabled>← Go up one level</button>
+        </div>
+        <div class="atlas-filters">
+          <label for="atlas-kind-filter">Research type
+            <select id="atlas-kind-filter"><option value="">All record types</option></select>
+          </label>
+          <label for="atlas-search">Find an idea
+            <input type="search" id="atlas-search" placeholder="Search any record or domain" autocomplete="off">
+          </label>
+        </div>
+      </div>
+      <div class="atlas-main-grid">
+        <div class="atlas-map-column">
+          <p id="atlas-status" class="atlas-status" tabindex="-1" role="status" aria-live="polite">Preparing the visual atlas…</p>
+          <div class="atlas-canvas-shell">
+            <svg id="atlas-svg" viewBox="0 0 1000 600" role="group" aria-label="Interactive taxonomic constellation. Use Tab to focus a node and Enter to explore, or use the matching list beside the map. Arrow keys pan; plus and minus zoom." preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="atlas-zoom-controls" aria-label="Map viewport controls">
+              <button type="button" id="atlas-zoom-in" aria-label="Zoom in">+</button>
+              <button type="button" id="atlas-zoom-out" aria-label="Zoom out">−</button>
+              <button type="button" id="atlas-zoom-reset">100% · Reset view</button>
+            </div>
+          </div>
+          <div class="atlas-map-footer">
+            <p>Drag to pan · Scroll to zoom · Tab to select nodes. No theory-to-theory links are shown.</p>
+            <div class="atlas-pages">
+              <button type="button" id="atlas-previous" disabled>← Previous</button>
+              <span id="atlas-page-label">Page 1</span>
+              <button type="button" id="atlas-next" disabled>Next →</button>
+            </div>
+          </div>
+        </div>
+        <aside class="atlas-explorer-sidebar" aria-label="Accessible atlas categories and records">
+          <h3>Explore the visible nodes</h3>
+          <p>Every selectable node also appears here for keyboard and screen-reader navigation.</p>
+          <ol id="atlas-node-list" class="atlas-node-list"></ol>
+          <div id="atlas-record-detail" class="atlas-record-detail">
+            <p>Choose a record to inspect its source trail.</p>
+          </div>
+        </aside>
+      </div>
+      <p class="atlas-policy">Organizational spokes connect the current collection category to its members. They never represent a scientific relationship, source support, endorsement, or a verified theory link. The research-synthesis gate remains locked.</p>
+    </div>
+    <noscript><p>The interactive map requires JavaScript; the <a href="#catalog">full catalog</a> is still browsable.</p></noscript>
+  </div>
+</section>
+<section class="intro section-wrap" id="approach"><div class="section-tag"><span>03</span> THE PURPOSE</div><div><h2>One question.<br><em>Many ways in.</em></h2><div class="intro-grid"><p class="lead">Consciousness is studied across disciplines, traditions, and scales. No single map can settle the question.</p><div><p>Noemorph brings records and their citations into one browsable collection. It is designed to help curious readers find their bearings, follow a source, and see where a claim begins and ends.</p><p>This is a collection in progress—not a finished synthesis or a claim to completeness. Inclusion of a position is not endorsement.</p></div></div></div></section>
+<section class="principles"><div class="section-wrap"><div class="principles-head"><div class="section-tag"><span>04</span> OUR APPROACH</div><h2>A map with<br><em>its edges showing.</em></h2><p>Good research makes its sources visible and its uncertainties legible. These are the principles behind the collection.</p></div><div class="principle-grid"><article><span>01 / TRACE</span><h3>Follow the source.</h3><p>Each record points to retained citations, with source roles and verification states where available. A recorded locator is a starting point, not proof that a source supports every claim.</p></article><article><span>02 / DISTINGUISH</span><h3>Keep differences intact.</h3><p>Scientific theories, philosophical positions, lived traditions, constructs, and clinical models are separately typed rather than treated as interchangeable theories.</p></article><article><span>03 / QUESTION</span><h3>Leave room for review.</h3><p>The collection has no fixed denominator. Relationships between ideas remain locked until the coverage protocol and independent review are complete.</p></article></div></div></section>
+<section class="catalog-section section-wrap" id="catalog"><div class="catalog-heading"><div><div class="section-tag"><span>05</span> THE COLLECTION</div><h2>Explore the <em>atlas.</em></h2></div><p>Start with a question, a name, or a discipline. Open a record to examine its description, limits, and citations, then share it or export its references.</p></div>
 <div class="notice"><span aria-hidden="true">✳</span><p><strong>A note on interpretation.</strong> Records are provisional research entries. Citation locators and DOI resolution do not by themselves verify that a source supports a claim. Non-consensus positions are included for study, not endorsement.</p></div>
 <div class="catalog-controls" role="search" aria-label="Filter catalog records">
   <label class="search-label" for="search">Search the collection<span class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try attention, self, or a researcher" autocomplete="off"></span></label>
@@ -73,7 +137,7 @@
 <section id="comparison" class="public-comparison" aria-label="Read-only side-by-side record comparison" tabindex="-1" hidden></section>
 <div class="catalog-meta"><p id="results-status" aria-live="polite" tabindex="-1">Loading the collection…</p><span>SELECT A RECORD TO EXPLORE ↓</span></div><div id="records" class="records"></div><div id="pagination" class="pagination"></div><noscript><p>The catalog search requires JavaScript. The complete catalog is available in the project source.</p></noscript>
 </section>
-<section class="participate" id="participate"><div class="section-wrap participate-grid"><div><div class="section-tag"><span>05</span> AN OPEN INVITATION</div><h2>Better questions<br>are a <em>shared effort.</em></h2></div><div><p class="lead">Help make the atlas more useful, more careful, and more accessible.</p><p>Suggest a source, identify a gap, improve an entry, or help review its evidence. Contributions from different disciplines and communities can make the collection stronger.</p><a class="button button-dark repo-link" href="https://github.com/dovvnloading/Noemorph">Explore the repository <span aria-hidden="true">↗</span></a><p class="small-note">Please bring context, citations, and a willingness to question assumptions.</p></div></div></section>
+<section class="participate" id="participate"><div class="section-wrap participate-grid"><div><div class="section-tag"><span>06</span> AN OPEN INVITATION</div><h2>Better questions<br>are a <em>shared effort.</em></h2></div><div><p class="lead">Help make the atlas more useful, more careful, and more accessible.</p><p>Suggest a source, identify a gap, improve an entry, or help review its evidence. Contributions from different disciplines and communities can make the collection stronger.</p><a class="button button-dark repo-link" href="https://github.com/dovvnloading/Noemorph">Explore the repository <span aria-hidden="true">↗</span></a><p class="small-note">Please bring context, citations, and a willingness to question assumptions.</p></div></div></section>
 </main>
 <footer><div class="footer-top"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✳</span><span>noemorph</span></a><p>An open research atlas for<br>mind and consciousness.</p><a href="#top">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>BUILT FOR CURIOSITY &amp; CAREFUL RESEARCH</span><span>COLLECTION PHASE · OPEN TO CONTRIBUTION</span></div></footer>
 </body></html>
