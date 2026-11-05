@@ -68,6 +68,32 @@ The public site and desktop inspector show these as **unreviewed bibliography le
 
 Reviewers should consult the original work, identify an exact in-source passage or page, check work identity and interpretation, and record a substantive determination **in a future independent review mechanism**, not by changing `review_state` in this lead file. The loader rejects attempts to mark these leads verified or to reference a source absent from the record. The next milestone is a reviewer-aware, append-only claim evidence ledger.
 
+## Local claim evidence review ledger
+
+The first 20 claim-to-bibliography links are **unreviewed source leads**. They remain unchanged in the public catalog. PR #5 adds an **optional, local-only SQLite ledger** for recording human interpretations of a specifically located source passage. Review decisions are not verified publication content and never unlock conceptual relationships.
+
+Initialize the untracked review database from the repository root:
+
+```powershell
+python Noemorph/research/review_claim_evidence.py init
+python Noemorph/research/review_claim_evidence.py status
+python Noemorph/research/review_claim_evidence.py show --record-id seed-026-global-workspace-theory-gwt --claim-id seed-026-global-workspace-theory-gwt:scope
+```
+
+Append a review only **after reading the original source**. Replace the bracketed values with a real, exact source passage locator and a reasoned assessment:
+
+```powershell
+python Noemorph/research/review_claim_evidence.py record --record-id seed-026-global-workspace-theory-gwt --claim-id seed-026-global-workspace-theory-gwt:scope --citation-url "https://doi.org/10.1016/S0079-6123%2805%2950004-9" --reviewer-id reviewer-001 --decision inconclusive --locator-kind section --locator "[exact section and paragraph]" --note "Reviewed the specified passage; the claim-level implication remains uncertain."
+```
+
+Decisions are \`supports\`, \`challenges\`, \`contextualizes\`, \`inconclusive\`, or \`not-relevant\`. Every event requires an exact **in-source** page/section/paragraph/figure/table/line/time locator and a review note; \`supports\` and \`challenges\` additionally require a short reviewer-supplied passage excerpt (maximum 280 characters). A DOI or URL alone is **not** a passage locator.
+
+Events are append-only, with previous-event and current-event hashes. A new entry by the same reviewer supersedes that reviewer's earlier decision **for summary calculations**, without deleting history. A changed claim text or source lead makes older evidence snapshots stale; those rows remain visible but do not count as current. Two distinct self-declared reviewer labels with matching latest determinations yield the status *recorded concordance*; disagreement is visible. **Reviewer labels are self-declared, not authenticated identities**, so recorded agreement is not independent certification, nor permission to promote a claim.
+
+The local file is \`Noemorph/data/reviews/claim-evidence.sqlite3\` and is excluded from Git. Keep its contents private and back it up securely; the hash chain detects edits or removals that break a retained chain, but **cannot detect a truncated tail without an external hash anchor** and is not tamper-proof against wholesale database replacement or chain rewriting. No review passages are checked into the public repository by this workflow. The desktop app can **read** local history using \`GET /api/claim-evidence/status\` and \`GET /api/claim-evidence/records/{record_id}/claims/{claim_id}\`; these endpoints are loopback-only and return \`Cache-Control: no-store\`. The API offers **no** evidence-review write endpoint. Reviews are entered explicitly through the local CLI.
+
+No \`claim_reviews[].review_state\`, source metadata verification, theory relationship, coverage gate, or public export changes when a reviewer records a decision. True independent review requires authenticated reviewer identity, separate bibliographic verification, and a documented publication process in a future tranche.
+
 ## Local semantic candidate analysis
 
 The **Relationship review** workspace is a separate, review-only queue. It does not draw semantic edges on the Taxonomic Atlas and it does not unlock `/api/graph/relationships`. Every row is a machine-generated research lead; embedding proximity is not represented as correlation, causation, influence, equivalence, support, refutation, or novelty.

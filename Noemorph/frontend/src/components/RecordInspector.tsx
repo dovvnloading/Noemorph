@@ -1,6 +1,7 @@
 import { openResearchSource } from '../desktop'
 import type { TheoryRecord } from '../types'
 import { ResearchProfileValue } from './ResearchProfileValue'
+import { ClaimEvidenceHistory } from './ClaimEvidenceHistory'
 
 const authorityLabels: Record<string, string> = {
   'primary-original': 'Primary original',
@@ -94,6 +95,7 @@ export function RecordInspector({ record, onClose, mobileOpen, currentView, onLo
                     )
                   })}
                 </ul>
+                <ClaimEvidenceHistory recordId={record.id} claimId={claim.id} />
               </li>
             ))}
           </ol>

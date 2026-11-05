@@ -40,6 +40,48 @@ export interface ClaimReview {
   review_state: 'unreviewed'
 }
 
+export type ClaimEvidenceDecision =
+  | 'supports' | 'challenges' | 'contextualizes' | 'inconclusive' | 'not-relevant'
+
+export interface ClaimEvidenceEvent {
+  event_id: string
+  record_id: string
+  claim_id: string
+  claim_hash: string
+  source_uid: string
+  citation_url: string
+  reviewer_id: string
+  decision: ClaimEvidenceDecision
+  locator_kind: string
+  locator: string
+  excerpt: string | null
+  note: string
+  created_at: string
+  event_hash: string
+  previous_hash: string
+  current: boolean
+}
+
+export interface ClaimEvidenceHistory {
+  record_id: string
+  claim_id: string
+  claim_text: string
+  claim_hash: string
+  database_state: 'absent' | 'ready'
+  publication_state: 'review-only'
+  relationships_locked: true
+  identity_note: string
+  sources: Array<{
+    source_uid: string
+    citation_url: string
+    status: string
+    active_reviewer_count: number
+    distinct_decisions: ClaimEvidenceDecision[]
+    recorded_agreement_is_not_verification: true
+  }>
+  events: ClaimEvidenceEvent[]
+}
+
 export type ResearchProfileValue =
   | string
   | string[]

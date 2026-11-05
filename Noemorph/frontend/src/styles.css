@@ -2623,3 +2623,12 @@ a { color: inherit; }
   .editorial-shell .source-table th:nth-child(3) { width: 118px; }
   .editorial-shell .source-table th:last-child { width: 44px; }
 }
+
+/* Read-only local claim evidence ledger */
+.claim-evidence-history{margin:1rem 0;padding:1rem;border:1px solid var(--line, #64746b);border-radius:.5rem}
+.claim-evidence-history strong{font-size:.82rem}
+.claim-evidence-history p{font-size:.78rem;line-height:1.55;margin:.4rem 0}
+.claim-evidence-history ol{margin:.6rem 0;padding-left:1.4rem}
+.claim-evidence-history li{margin-bottom:1rem}
+.claim-evidence-history blockquote{margin:.6rem 0;padding-left:.7rem;border-left:2px solid currentColor}
+.claim-evidence-state{font-size:.76rem;opacity:.8}
