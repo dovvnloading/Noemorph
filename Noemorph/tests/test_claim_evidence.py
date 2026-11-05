@@ -46,6 +46,9 @@ class PublishedClaimReviewTests(unittest.TestCase):
             for claim in record["claim_reviews"]:
                 with self.subTest(record=record["id"], claim=claim["id"]):
                     self.assertTrue(claim["text"])
+                    if claim["kind"] == "scope":
+                        self.assertEqual(claim["field"], "summary")
+                        self.assertEqual(claim["text"], record["summary"])
                     self.assertEqual(claim["review_state"], "unreviewed")
                     self.assertTrue(claim["id"].startswith(record["id"] + ":"))
                     self.assertEqual(len(claim["citations"]), 1)
