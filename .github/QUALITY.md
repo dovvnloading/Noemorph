@@ -21,7 +21,9 @@ after establishing a passing baseline.
 
 ## Repository settings still required
 
-Enable GitHub's Dependency Graph and set `NOEMORPH_DEPENDENCY_GRAPH_ENABLED=true` before requiring the dependency-review job. The action fails otherwise with a repository-unsupported error.\n\nGitHub branch rules are configured in the repository settings, not by checked-in
+Enable GitHub's Dependency Graph and set `NOEMORPH_DEPENDENCY_GRAPH_ENABLED=true` before requiring the dependency-review job. The action fails otherwise with a repository-unsupported error.
+
+GitHub branch rules are configured in the repository settings, not by checked-in
 workflow YAML. Protect `main` by requiring:
 1. PRs for changes; do not permit force pushes or branch deletion.
 2. Existing Python, public export, frontend build and public-site smoke jobs,
