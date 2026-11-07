@@ -36,6 +36,11 @@ VERIFICATION_STATES = {
     "human-verified",
     "pending-metadata-review",
 }
+def _identity_text(value: Any) -> str:
+    """Normalize comparison text, never overwrite the original bibliography."""
+    return " ".join(str(value or "").casefold().split())
+
+
 DISCOVERY_MATCH_STATES = {
     "likely-present",
     "possible-match",
@@ -407,9 +412,22 @@ class CatalogRepository:
                         "uses": [],
                         "authority_roles": [],
                         "verification_states": [],
+                        "_bibliographic_uses": [],
                     }
                     source_by_key[source_key] = source
                 source_by_key[source_key]["used_by"].append(record_id)
+                source_by_key[source_key]["_bibliographic_uses"].append(
+                    {
+                        "record_id": record_id,
+                        "title": citation["title"],
+                        "authors": citation["authors"],
+                        "year": citation["year"],
+                        "url": citation["url"],
+                        "doi": citation.get("doi"),
+                        "venue": citation.get("venue"),
+                        "retrieved": citation.get("retrieved"),
+                    }
+                )
                 source_by_key[source_key]["uses"].append(
                     {
                         "record_id": record_id,
@@ -433,6 +451,42 @@ class CatalogRepository:
             )
             source["verification_states"] = sorted(
                 {use["verification"] for use in source["uses"]}
+            )
+            bibliographic_uses = source.pop("_bibliographic_uses")
+            conflict_fields = [
+                field
+                for field in ("title", "year")
+                if len({_identity_text(use[field]) for use in bibliographic_uses}) > 1
+            ]
+            source["metadata_conflict_fields"] = conflict_fields
+            source["work_identity_review_state"] = (
+                "needs-review" if conflict_fields else "unreviewed"
+            )
+            # Keep legacy first-use display metadata and source IDs unchanged.
+            # Record every conflicting variant so a scholar can reconcile it;
+            # no variant is silently promoted to canonical or human-verified.
+            variants: dict[str, dict[str, Any]] = {}
+            if conflict_fields:
+                for use in bibliographic_uses:
+                    metadata = {
+                        field: use[field]
+                        for field in ("title", "authors", "year", "url", "doi", "venue", "retrieved")
+                    }
+                    signature = json.dumps(metadata, sort_keys=True, ensure_ascii=False)
+                    if signature not in variants:
+                        variants[signature] = {**metadata, "record_ids": []}
+                    variants[signature]["record_ids"].append(use["record_id"])
+            source["metadata_variants"] = sorted(
+                [
+                    {**variant, "record_ids": sorted(set(variant["record_ids"]))}
+                    for variant in variants.values()
+                ],
+                key=lambda variant: (
+                    _identity_text(variant["title"]),
+                    _identity_text(variant["year"]),
+                    _identity_text(variant["authors"]),
+                    variant["url"],
+                ),
             )
 
         normalized_records = tuple(by_id.values())
