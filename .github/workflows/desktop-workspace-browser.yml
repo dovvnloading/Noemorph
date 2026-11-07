@@ -30,7 +30,7 @@ jobs:
           npm ci
           npm run build
       - name: Install pinned browser test runtime
-        run: npm install --no-save --prefix Noemorph/frontend @playwright/test@1.65.0
+        run: npm install --no-save --prefix Noemorph/frontend @playwright/test@1.65.0 @axe-core/playwright@4.14.0
       - name: Install Chromium
         run: ./Noemorph/frontend/node_modules/.bin/playwright install --with-deps chromium
       - name: Test optional failure and recovery in real desktop and mobile Chromium
