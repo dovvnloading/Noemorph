@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "fixture_kind": "synthetic_ci_smoke",
+  "warning": "INVENTED IDs AND LABELS FOR SOFTWARE REGRESSION ONLY. These are not independent scientific reviews.",
+  "candidates": [
+    {"record_a_id": "synthetic-a", "record_b_id": "synthetic-b", "review_priority": 0.95, "cross_domain": false},
+    {"record_a_id": "synthetic-c", "record_b_id": "synthetic-d", "review_priority": 0.91, "cross_domain": true},
+    {"record_a_id": "synthetic-e", "record_b_id": "synthetic-f", "review_priority": 0.86, "cross_domain": true},
+    {"record_a_id": "synthetic-g", "record_b_id": "synthetic-h", "review_priority": 0.70, "cross_domain": false}
+  ],
+  "adjudications": [
+    {"record_a_id": "synthetic-a", "record_b_id": "synthetic-b", "case_type": "near_duplicate", "reviewer_a": "related", "reviewer_b": "related", "adjudicated_label": "related"},
+    {"record_a_id": "synthetic-c", "record_b_id": "synthetic-d", "case_type": "cross_tradition", "reviewer_a": "related", "reviewer_b": "unrelated", "adjudicated_label": "unrelated"},
+    {"record_a_id": "synthetic-e", "record_b_id": "synthetic-f", "case_type": "related", "reviewer_a": "related", "reviewer_b": "related", "adjudicated_label": "related"},
+    {"record_a_id": "synthetic-i", "record_b_id": "synthetic-j", "case_type": "unrelated", "reviewer_a": "unrelated", "reviewer_b": "unrelated", "adjudicated_label": "unrelated"}
+  ]
+}
