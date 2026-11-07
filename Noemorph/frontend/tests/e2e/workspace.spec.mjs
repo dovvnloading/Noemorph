@@ -133,3 +133,52 @@ test('taxonomic atlas renders; record inspection works on mobile and trace opens
   }
   expect(pageErrors).toEqual([]);
 });
+
+test('desktop record search finds aliases, keywords and taxonomy terms', async ({ page }) => {
+  // This fixture is injected only into the test API; it is not published research.
+  const fixture = {
+    ...catalog.records[0],
+    id: 'search-field-fixture',
+    name: 'Search Field Fixture',
+    kind: 'Scientific theory',
+    domain: 'Lattice Research Field',
+    tradition: 'Archive Tradition',
+    summary: 'A provisional research record.',
+    aliases: ['Orchid Lantern'],
+    keywords: ['Bluebird Transmission'],
+    proponents: ['Example Researcher'],
+    claim_scope: undefined,
+    boundary_note: undefined,
+    evidence_profile: undefined,
+    open_questions: [],
+  };
+  const records = [catalog.records[0], catalog.records[1], fixture];
+  await page.route('**/api/**', (route) => {
+    const pathname = new URL(route.request().url()).pathname;
+    if (pathname === '/api/catalog') {
+      return route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify({ items: records, total: records.length, offset: 0, limit: records.length }),
+      });
+    }
+    return route.fulfill({ status: 503, body: 'Optional service unavailable' });
+  });
+  // Two IDs in the URL begin in catalog view, avoiding the WebGL atlas.
+  await page.goto('/?compare=unknown-record-a%2Cunknown-record-b');
+  await expect(page.locator('.catalog-view')).toBeVisible();
+
+  for (const query of [
+    'ORCHID lantern',
+    'bluebird TRANSMISSION',
+    'LATTICE archive',
+    'scientific ORCHID',
+  ]) {
+    await page.locator('#corpus-search').fill(query);
+    await expect(page.locator('.catalog-table tbody tr')).toHaveCount(1);
+    await expect(page.locator('.catalog-table tbody')).toContainText('Search Field Fixture');
+  }
+
+  await page.locator('#corpus-search').fill('bibliography-only-sentinel');
+  await expect(page.locator('.catalog-table tbody tr')).toHaveCount(0);
+});

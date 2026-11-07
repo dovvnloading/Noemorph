@@ -721,6 +721,9 @@ class CatalogRepository:
                     [
                         str(record.get("name", "")),
                         str(record.get("summary", "")),
+                        str(record.get("kind", "")),
+                        str(record.get("domain", "")),
+                        str(record.get("tradition", "")),
                         " ".join(record.get("aliases", [])),
                         " ".join(record.get("proponents", [])),
                         " ".join(record.get("keywords", [])),

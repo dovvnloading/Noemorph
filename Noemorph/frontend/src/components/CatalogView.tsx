@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { DiscoveryEntry, TheoryRecord } from '../types'
-import { researchProfileText } from './ResearchProfileValue'
+import { recordMatches } from './atlasModel'
 import { RecordComparison } from './RecordComparison'
 
 const DISCOVERY_MATCH_LABELS: Record<DiscoveryEntry['catalog_match']['status'], string> = {
@@ -56,23 +56,11 @@ export function CatalogView({
   const canCompare = comparisonRecords.length === 2 && comparisonRecords.every((item): item is TheoryRecord => Boolean(item))
   const kinds = [...new Set(records.map((record) => record.kind))].sort()
   const discoveryCategories = [...new Set(discovery.map((entry) => entry.category))].sort()
-  const filtered = records.filter((record) => {
-    if (selectedKind !== 'All records' && record.kind !== selectedKind) return false
-    if (!query.trim()) return true
-    const haystack = [
-      record.name,
-      record.summary,
-      record.domain,
-      ...record.proponents,
-      researchProfileText(record.claim_scope),
-      record.boundary_note ?? '',
-      researchProfileText(record.evidence_profile),
-      ...(record.open_questions ?? []),
-    ]
-      .join(' ')
-      .toLocaleLowerCase()
-    return query.toLocaleLowerCase().split(/\s+/).every((term) => haystack.includes(term))
-  })
+  // Catalog and atlas now apply the same identity, taxonomy and research-field search.
+  const filtered = records.filter((record) => (
+    (selectedKind === 'All records' || record.kind === selectedKind)
+    && recordMatches(record, query)
+  ))
   const sorted = useMemo(() => [...filtered].sort((left, right) => {
     const values: Record<typeof sortKey, [string | number, string | number]> = {
       name: [left.name, right.name],
