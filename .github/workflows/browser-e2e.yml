@@ -1,0 +1,42 @@
+name: Public real-browser tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-browser:
+    name: Playwright public reader (desktop and mobile)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Generate the current validated public export
+        run: python public-site/build.py
+      - name: Install pinned browser test runtime
+        run: npm install --no-save --prefix public-site @playwright/test@1.65.0
+      - name: Install Chromium and system dependencies
+        run: ./public-site/node_modules/.bin/playwright install --with-deps chromium
+      - name: Exercise public reader in real desktop/mobile Chromium
+        run: ./public-site/node_modules/.bin/playwright test --config=public-site/playwright.config.mjs
+      - name: Retain traces and screenshots when the run fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-browser-debug
+          path: |
+            public-site/playwright-report/
+            public-site/test-results/
+          retention-days: 7
+          if-no-files-found: ignore
