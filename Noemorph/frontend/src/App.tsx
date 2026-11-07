@@ -57,6 +57,7 @@ export default function App() {
   const [catalogScope, setCatalogScope] = useState<'catalog' | 'discovery'>('catalog')
   const [selectedId, setSelectedId] = useState<string>()
   const [inspectorOpen, setInspectorOpen] = useState(false)
+  const [traceRequest, setTraceRequest] = useState(0)
   const [data, setData] = useState<WorkspaceData | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [sources, setSources] = useState<SourceRecord[] | null>(null)
@@ -298,6 +299,7 @@ export default function App() {
         <AtlasView
           records={records}
           selectedId={selectedId}
+          traceRequest={traceRequest}
           onSelect={handleSelect}
           onClearSelection={() => {
             setSelectedId(undefined)
@@ -461,6 +463,11 @@ export default function App() {
       {view === 'atlas' && inspectorVisible && selectedRecord && (
         <AtlasInspector
           record={selectedRecord}
+          onViewTrace={() => {
+            // Keep the current selection while dismissing the mobile inspector.
+            setInspectorOpen(false)
+            setTraceRequest((current) => current + 1)
+          }}
           onClose={() => { setInspectorOpen(false); setSelectedId(undefined) }}
           onViewCatalog={(record) => inspectRecordIn(record, 'catalog')}
         />

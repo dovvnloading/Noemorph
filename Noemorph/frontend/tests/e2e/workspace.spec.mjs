@@ -120,9 +120,11 @@ test('taxonomic atlas renders; record inspection works on mobile and trace opens
   await firstRecord.click();
   await expect(page.getByRole('heading', { name: 'Aberrant Salience Hypothesis' })).toBeVisible();
   if (testInfo.project.name === 'mobile-chromium') {
-    // Mobile intentionally opens a full-screen inspector that covers the atlas
-    // projection switch. Verify the usable inspection flow, not a hidden control.
-    await expect(page.getByRole('button', { name: 'Close record details' })).toBeVisible();
+    // The mobile full-screen inspector offers an accessible direct path
+    // to the trace; no hidden projection switch or force-click is needed.
+    await page.getByRole('button', { name: 'View evidence trace' }).click();
+    await expect(page.locator('.atlas-trace')).toBeVisible();
+    await expect(page.locator('.research-drawer-shell')).toHaveCount(0);
   } else {
     const trace = page.locator('.atlas-projection-switch').getByRole('button', { name: 'Trace' });
     await expect(trace).toBeEnabled();

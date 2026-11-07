@@ -19,6 +19,7 @@ const verificationLabels: Record<NonNullable<Citation['verification']>, string> 
 interface AtlasInspectorProps {
   record: TheoryRecord
   onClose: () => void
+  onViewTrace: () => void
   onViewCatalog: (record: TheoryRecord) => void
 }
 
@@ -51,7 +52,7 @@ function CitationEntry({ citation }: { citation: Citation }) {
   )
 }
 
-export function AtlasInspector({ record, onClose, onViewCatalog }: AtlasInspectorProps) {
+export function AtlasInspector({ record, onClose, onViewTrace, onViewCatalog }: AtlasInspectorProps) {
   const date = record.year ?? record.era ?? 'Not established'
   const hasResearchDepth = Boolean(
     record.claim_scope
@@ -143,6 +144,7 @@ export function AtlasInspector({ record, onClose, onViewCatalog }: AtlasInspecto
       </div>
 
       <footer className="research-drawer-footer">
+        <button type="button" onClick={onViewTrace}>View evidence trace</button>
         <button type="button" onClick={() => onViewCatalog(record)}>View full catalog record</button>
       </footer>
     </aside>
