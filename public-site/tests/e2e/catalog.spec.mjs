@@ -2,11 +2,13 @@ import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 
 const GWT = 'seed-026-global-workspace-theory-gwt';
+const mergedCatalog = JSON.parse(await readFile(new URL('../../dist/catalog.json', import.meta.url), 'utf8'));
+const catalogRecordCount = mergedCatalog.records.length;
 
 test('search-first homepage responds to real text entry and filters', async ({ page }) => {
   await page.goto('/');
-  await expect(page.locator('#hero-record-count')).toHaveText('595');
-  await expect(page.locator('#results-status')).toContainText('595 records');
+  await expect(page.locator('#hero-record-count')).toHaveText(String(catalogRecordCount));
+  await expect(page.locator('#results-status')).toContainText(`${catalogRecordCount} records`);
 
   await page.getByRole('searchbox', { name: 'Search the collection' }).fill('global workspace');
   await page.locator('#hero-search-form button[type="submit"]').click();
@@ -17,7 +19,7 @@ test('search-first homepage responds to real text entry and filters', async ({ p
   await page.locator('#kind').selectOption({ label: 'Scientific theory' });
   await expect(page.locator('#records details.record').first()).toBeVisible();
   await page.locator('#reset-filters').click();
-  await expect(page.locator('#results-status')).toContainText('595 records');
+  await expect(page.locator('#results-status')).toContainText(`${catalogRecordCount} records`);
 });
 
 test('permalink opens real source-rich record and citation export downloads', async ({ page }) => {
