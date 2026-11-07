@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import Sigma from 'sigma'
 import type { CameraState } from 'sigma/types'
-import { NodeSquareProgram } from '@sigma/node-square'
+import { layerFill, sdfSquare } from 'sigma/rendering'
 import type { TheoryRecord } from '../types'
 import {
   ATLAS_COBALT,
@@ -276,24 +276,38 @@ export function AtlasView({
     const container = containerRef.current
     if (!container || projection !== 'field') return
     const renderer = new Sigma<TaxonomicFieldNodeAttributes, TaxonomicFieldEdgeAttributes>(field.graph, container, {
-      allowInvalidContainer: true,
-      defaultNodeColor: ATLAS_GRAPHITE,
-      defaultNodeType: 'square',
-      enableCameraRotation: false,
-      hideEdgesOnMove: true,
-      hideLabelsOnMove: true,
-      labelRenderedSizeThreshold: 999,
-      minCameraRatio: 0.32,
-      maxCameraRatio: 1.8,
-      nodeProgramClasses: { square: NodeSquareProgram },
-      renderLabels: false,
-      stagePadding: 54,
-      zIndex: true,
-      nodeReducer: (_node, data) => {
-        const recordId = data.recordId
+      primitives: {
+        nodes: {
+          shapes: [sdfSquare()],
+          layers: [layerFill()],
+        },
+      },
+      styles: {
+        nodes: [{
+          color: { attribute: 'color' },
+          size: { attribute: 'size' },
+          shape: 'square',
+        }],
+      },
+      settings: {
+        allowInvalidContainer: true,
+        enableCameraRotation: false,
+        hideEdgesOnMove: true,
+        hideLabelsOnMove: true,
+        labelRenderedSizeThreshold: 999,
+        minCameraRatio: 0.32,
+        maxCameraRatio: 1.8,
+        renderLabels: false,
+        stagePadding: 54,
+        itemSizesReference: 'screen',
+      },
+      nodeReducer: (node, data) => {
+        // Sigma 4's display data excludes custom graph attributes.
+        const attributes = field.graph.getNodeAttributes(node)
+        const recordId = attributes.recordId
         const queryActive = Boolean(queryRef.current)
         const matches = !queryActive || matchesRef.current.has(recordId)
-        const inScope = !activeGroupRef.current || data.group === activeGroupRef.current
+        const inScope = !activeGroupRef.current || attributes.group === activeGroupRef.current
         const selected = selectedRef.current === recordId
         const hovered = hoveredRef.current === recordId
         let color = ATLAS_GRAPHITE

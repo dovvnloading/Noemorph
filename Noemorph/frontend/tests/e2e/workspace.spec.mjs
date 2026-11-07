@@ -89,3 +89,45 @@ test('failed required catalog request presents a clear service error', async ({ 
   await expect(page.getByText('Research service unavailable')).toBeVisible();
   await expect(page.getByText('Catalog unavailable in integration test')).toBeVisible();
 });
+
+test('taxonomic atlas renders; record inspection works on mobile and trace opens on desktop', async ({ page }, testInfo) => {
+  const pageErrors = [];
+  page.on('pageerror', (error) => pageErrors.push(error.message));
+
+  await page.route('**/api/**', (route) => {
+    const path = new URL(route.request().url()).pathname;
+    if (path === '/api/catalog') {
+      return route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify({
+          items: catalog.records,
+          total: catalog.records.length,
+          offset: 0,
+          limit: catalog.records.length,
+        }),
+      });
+    }
+    return route.fulfill({ status: 503, body: 'Optional service unavailable' });
+  });
+
+  await page.goto('/');
+  await expect(page.locator('.atlas-instrument')).toBeVisible();
+  await expect(page.locator('.atlas-field-sigma canvas').first()).toBeAttached();
+  await page.getByRole('button', { name: 'Open record index' }).click();
+  const firstRecord = page.locator('.atlas-result-list button').first();
+  await expect(firstRecord).toBeVisible();
+  await firstRecord.click();
+  await expect(page.getByRole('heading', { name: 'Aberrant Salience Hypothesis' })).toBeVisible();
+  if (testInfo.project.name === 'mobile-chromium') {
+    // Mobile intentionally opens a full-screen inspector that covers the atlas
+    // projection switch. Verify the usable inspection flow, not a hidden control.
+    await expect(page.getByRole('button', { name: 'Close record details' })).toBeVisible();
+  } else {
+    const trace = page.locator('.atlas-projection-switch').getByRole('button', { name: 'Trace' });
+    await expect(trace).toBeEnabled();
+    await trace.click();
+    await expect(page.locator('.atlas-trace')).toBeVisible();
+  }
+  expect(pageErrors).toEqual([]);
+});
