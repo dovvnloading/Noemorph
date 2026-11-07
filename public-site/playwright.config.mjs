@@ -1,4 +1,5 @@
 import { defineConfig } from '@playwright/test';
+import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -16,7 +17,8 @@ export default defineConfig({
     { name: 'mobile-chromium', use: { browserName: 'chromium', viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true } },
   ],
   webServer: {
-    command: 'python3 -m http.server 4173 --bind 127.0.0.1 --directory public-site/dist',
+    command: 'python3 -m http.server 4173 --bind 127.0.0.1 --directory dist',
+    cwd: fileURLToPath(new URL('.', import.meta.url)),
     url: 'http://127.0.0.1:4173',
     reuseExistingServer: !process.env.CI,
     timeout: 30_000,
