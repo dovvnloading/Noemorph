@@ -188,8 +188,8 @@
           '" role="button" tabindex="0" data-atlas-type="' + esc(point.type) +
           '" data-atlas-value="' + esc(point.value) +
           '" aria-label="' + esc(point.type === 'record'
-            ? 'Inspect record ' + point.label
-            : 'Explore ' + point.label + ', ' + point.count + ' records') + '">' +
+            ? 'Inspect record ' + nodeLabel + ' (full name: ' + point.label + ')'
+            : 'Explore ' + nodeLabel + ' (full name: ' + point.label + '), ' + point.count + ' records') + '">' +
           '<title>' + esc(point.label) + '</title>' +
           '<circle cx="' + point.x + '" cy="' + point.y +
           '" r="' + size + '"></circle>' +

@@ -140,7 +140,7 @@ export function CatalogView({
         <div className="catalog-control-group">
           <div className="context-controls select-wrap">
             <label htmlFor="catalog-scope">Collection</label>
-            <select id="catalog-scope" value={scope} onChange={(event) => onScopeChange(event.target.value as 'catalog' | 'discovery')}>
+            <select id="catalog-scope" aria-label="Collection" value={scope} onChange={(event) => onScopeChange(event.target.value as 'catalog' | 'discovery')}>
               <option value="catalog">Reviewed catalog</option>
               <option value="discovery">Discovery screening</option>
             </select>
@@ -148,7 +148,7 @@ export function CatalogView({
           {scope === 'catalog' ? (
             <div className="context-controls select-wrap">
               <label htmlFor="kind-filter">Record type</label>
-              <select id="kind-filter" value={selectedKind} onChange={(event) => onKindChange(event.target.value)}>
+              <select id="kind-filter" aria-label="Record type" value={selectedKind} onChange={(event) => onKindChange(event.target.value)}>
                 <option>All records</option>
                 {kinds.map((kind) => <option key={kind}>{kind}</option>)}
               </select>
@@ -156,7 +156,7 @@ export function CatalogView({
           ) : (
             <div className="context-controls select-wrap">
               <label htmlFor="discovery-category">Source category</label>
-              <select id="discovery-category" value={selectedDiscoveryCategory} onChange={(event) => setSelectedDiscoveryCategory(event.target.value)}>
+              <select id="discovery-category" aria-label="Source category" value={selectedDiscoveryCategory} onChange={(event) => setSelectedDiscoveryCategory(event.target.value)}>
                 <option>All categories</option>
                 {discoveryCategories.map((category) => <option key={category}>{category}</option>)}
               </select>

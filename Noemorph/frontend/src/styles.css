@@ -2682,3 +2682,15 @@ a { color: inherit; }
 .comparison-table .research-profile-structure dd{margin-left:0;margin-bottom:.6rem}
 .comparison-unavailable{font-style:italic;color:#657164}
 @media(max-width:900px){.comparison-heading{flex-direction:column}.comparison-actions{flex-direction:row;flex-wrap:wrap}.comparison-selection{align-items:start;flex-direction:column}}
+
+/* Automated WCAG contrast and touch-target baseline for the editorial workspace. */
+.editorial-shell .context-title > span,
+.editorial-shell .eyebrow { color: #4d594e; }
+.editorial-shell .atlas-scope-control > span,
+.editorial-shell .atlas-axis-name,
+.editorial-shell .atlas-row-label > span,
+.editorial-shell .atlas-column-axis > button > span { color: #505b50; }
+@media (max-width: 760px) {
+  .mobile-workspace-switcher > span { color: #50594f; }
+  .editorial-shell .atlas-scope-control select { min-height: 28px; }
+}

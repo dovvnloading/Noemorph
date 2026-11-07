@@ -577,7 +577,7 @@ export function AtlasView({
         {projection === 'field' && (
           <label className="atlas-scope-control">
             <span>Perspective</span>
-            <select value={activeGroup ?? ''} onChange={(event) => changeGroup(event.target.value || null)}>
+            <select aria-label="Research perspective" value={activeGroup ?? ''} onChange={(event) => changeGroup(event.target.value || null)}>
               <option value="">All eight perspectives</option>
               {field.columns.map((column) => <option key={column.group} value={column.group}>{column.group}</option>)}
             </select>
@@ -612,7 +612,7 @@ export function AtlasView({
           </aside>
 
           <div className="atlas-field-canvas">
-            <div ref={containerRef} className="atlas-field-sigma" tabIndex={0} aria-label="Taxonomic field. Records are positioned by perspective and explicit record class. Use the record index for keyboard navigation." />
+            <div ref={containerRef} className="atlas-field-sigma" role="group" tabIndex={0} aria-label="Taxonomic field. Records are positioned by perspective and explicit record class. Use the record index for keyboard navigation." />
             <div className="atlas-mobile-key" role="note" aria-label="Taxonomic field axes">
               <span><b>X</b> research perspective</span>
               <span><b>Y</b> record class</span>
@@ -640,7 +640,7 @@ export function AtlasView({
                   className={activeGroup === column.group ? 'active' : activeGroup ? 'muted' : ''}
                   style={{ left: column.x, top: Math.max(7, column.y - 42), '--column-color': activeGroup === column.group ? ATLAS_COBALT : column.color } as CSSProperties}
                   onClick={() => changeGroup(activeGroup === column.group ? null : column.group)}
-                  aria-label={`${column.group}: ${column.recordCount} records across ${column.domainCount} domains`}
+                  aria-label={`${column.shortLabel} — ${column.group}: ${column.recordCount} records across ${column.domainCount} domains`}
                   title={`${column.group}: ${column.recordCount} records across ${column.domainCount} domains`}
                 >
                   <i /><strong>{column.shortLabel}</strong><span>{column.recordCount}</span>
