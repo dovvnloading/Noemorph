@@ -31,7 +31,8 @@ export function SourcesView({ sources, records, query, onInspectRecord }: Source
     if (authority !== 'All authority roles' && !source.authority_roles.includes(authority)) return false
     if (!query.trim()) return true
     const usedByNames = source.used_by.map((id) => recordById[id]?.name ?? id).join(' ')
-    const haystack = `${source.title} ${source.authors} ${source.venue ?? ''} ${source.doi ?? ''} ${usedByNames}`.toLocaleLowerCase()
+    const variants = source.metadata_variants.map((variant) => `${variant.title} ${variant.authors} ${variant.year}`).join(' ')
+    const haystack = `${source.title} ${source.authors} ${source.venue ?? ''} ${source.doi ?? ''} ${usedByNames} ${variants}`.toLocaleLowerCase()
     return query.toLocaleLowerCase().split(/\s+/).every((term) => haystack.includes(term))
   })
 
@@ -72,6 +73,20 @@ export function SourcesView({ sources, records, query, onInspectRecord }: Source
                   <td>
                     <strong>{source.title}</strong>
                     <small>{source.authors}{source.venue ? ` · ${source.venue}` : ''}</small>
+                    {source.work_identity_review_state === 'needs-review' && (
+                      <details>
+                        <summary>Bibliography variants require review ({source.metadata_variants.length})</summary>
+                        <p>These entries share a work locator but have differing {source.metadata_conflict_fields.join(' / ')} metadata. The first-listed metadata is provisional; no claim support is established.</p>
+                        <ul>
+                          {source.metadata_variants.map((variant) => (
+                            <li key={`${variant.url}|${variant.title}|${variant.year}|${variant.authors}`}>
+                              <strong>{variant.title}</strong> · {variant.authors} · {variant.year}
+                              <small> Cited by {variant.record_ids.map((id) => recordById[id]?.name ?? id).join(', ')}</small>
+                            </li>
+                          ))}
+                        </ul>
+                      </details>
+                    )}
                   </td>
                   <td className="source-year">{source.year}</td>
                   <td>

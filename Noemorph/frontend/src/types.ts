@@ -128,6 +128,17 @@ export interface SourceUse {
 }
 
 // Bibliographic source metadata is distinct from a citation's role and review state.
+export interface SourceMetadataVariant {
+  title: string
+  authors: string
+  year: number | string
+  url: string
+  doi: string | null
+  venue: string | null
+  retrieved: string | null
+  record_ids: string[]
+}
+
 export interface SourceRecord extends Omit<Citation, 'authority' | 'verification'> {
   id: string
   source_uid: string
@@ -135,6 +146,10 @@ export interface SourceRecord extends Omit<Citation, 'authority' | 'verification
   uses: SourceUse[]
   authority_roles: string[]
   verification_states: Array<NonNullable<Citation['verification']>>
+  /** Bibliography review leads; never evidence or claim-verification states. */
+  work_identity_review_state: 'unreviewed' | 'needs-review'
+  metadata_conflict_fields: Array<'title' | 'year'>
+  metadata_variants: SourceMetadataVariant[]
 }
 
 export interface SourcesResponse {
