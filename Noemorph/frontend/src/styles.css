@@ -2682,3 +2682,48 @@ a { color: inherit; }
 .comparison-table .research-profile-structure dd{margin-left:0;margin-bottom:.6rem}
 .comparison-unavailable{font-style:italic;color:#657164}
 @media(max-width:900px){.comparison-heading{flex-direction:column}.comparison-actions{flex-direction:row;flex-wrap:wrap}.comparison-selection{align-items:start;flex-direction:column}}
+
+/* Automated WCAG contrast and touch-target baseline for the editorial workspace. */
+.editorial-shell .context-title > span,
+.editorial-shell .eyebrow { color: #4d594e; }
+.editorial-shell .atlas-scope-control > span,
+.editorial-shell .atlas-axis-name,
+.editorial-shell .atlas-row-label > span,
+.editorial-shell .atlas-column-axis > button > span { color: #505b50; }
+@media (max-width: 760px) {
+  .mobile-workspace-switcher > span { color: #50594f; }
+  .editorial-shell .atlas-scope-control select { min-height: 28px; }
+}
+
+/* Follow-on axe findings: readable counters/labels, and a full-width mobile selector. */
+.editorial-shell .context-title > span strong { color: #36493d; }
+.editorial-shell .context-controls label { color: #4c574c; }
+.editorial-shell .folio-corpus-count > small { color: #4f5c51; }
+@media (max-width: 760px) {
+  .editorial-shell .atlas-instrument-bar {
+    height: auto;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    min-height: 46px;
+  }
+  .editorial-shell .atlas-projection-switch { height: 44px; }
+  .editorial-shell .atlas-scope-control {
+    height: 44px;
+    min-width: 120px;
+    flex: 1 1 120px;
+    padding: 0 10px;
+  }
+  .editorial-shell .atlas-scope-control select {
+    min-width: 100px;
+    width: 100%;
+    min-height: 30px;
+  }
+  .editorial-shell .atlas-instrument-actions {
+    height: 40px;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-left: 0;
+    border-top: 1px solid var(--rule);
+    justify-content: flex-end;
+  }
+}
