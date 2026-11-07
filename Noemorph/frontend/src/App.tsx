@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
-import { loadDiscovery, loadWorkspace } from './api'
+import { loadCatalog, loadCoverage, loadDiscovery, loadMetadata, loadSources } from './api'
 import { AtlasInspector } from './components/AtlasInspector'
 import { CatalogView } from './components/CatalogView'
 import { DiscoveryInspector } from './components/DiscoveryInspector'
@@ -13,7 +13,6 @@ import type {
   CoverageResponse,
   DiscoveryEntry,
   SourceRecord,
-  TaxonomyGraph,
   TheoryRecord,
   ViewKey,
 } from './types'
@@ -24,10 +23,10 @@ const SemanticReviewView = lazy(() => import('./components/semantic/SemanticRevi
 
 interface WorkspaceData {
   records: TheoryRecord[]
-  sources: SourceRecord[]
-  coverage: CoverageResponse
-  metadata: CatalogMetadata
-  graph: TaxonomyGraph
+}
+
+function requestError(reason: unknown): string {
+  return reason instanceof Error ? reason.message : 'The research service could not be reached.'
 }
 
 const NAV_ITEMS: Array<{ id: ViewKey; label: string; shortcut: string }> = [
@@ -60,6 +59,15 @@ export default function App() {
   const [inspectorOpen, setInspectorOpen] = useState(false)
   const [data, setData] = useState<WorkspaceData | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [sources, setSources] = useState<SourceRecord[] | null>(null)
+  const [sourcesError, setSourcesError] = useState<string | null>(null)
+  const [sourceRetry, setSourceRetry] = useState(0)
+  const [coverage, setCoverage] = useState<CoverageResponse | null>(null)
+  const [coverageError, setCoverageError] = useState<string | null>(null)
+  const [coverageRetry, setCoverageRetry] = useState(0)
+  const [metadata, setMetadata] = useState<CatalogMetadata | null>(null)
+  const [metadataError, setMetadataError] = useState<string | null>(null)
+  const [metadataRetry, setMetadataRetry] = useState(0)
   const [discovery, setDiscovery] = useState<DiscoveryEntry[]>([])
   const [discoveryState, setDiscoveryState] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [discoveryError, setDiscoveryError] = useState<string | null>(null)
@@ -67,26 +75,58 @@ export default function App() {
   const discoveryRequestActive = useRef(false)
 
   useEffect(() => {
-    let cancelled = false
-    loadWorkspace()
-      .then((workspace) => {
-        if (cancelled) return
-        setData({
-          records: workspace.catalog.items,
-          sources: workspace.sources.items,
-          coverage: workspace.coverage,
-          metadata: workspace.metadata,
-          graph: workspace.graph,
-        })
+    const controller = new AbortController()
+    loadCatalog(controller.signal)
+      .then((catalog) => {
+        if (!controller.signal.aborted) setData({ records: catalog.items })
       })
       .catch((reason: unknown) => {
-        if (cancelled) return
-        setError(reason instanceof Error ? reason.message : 'The research service could not be reached.')
+        if (!controller.signal.aborted) setError(requestError(reason))
       })
-    return () => {
-      cancelled = true
-    }
+    return () => controller.abort()
   }, [])
+
+  useEffect(() => {
+    if (!data || view !== 'sources' || sources) return
+    const controller = new AbortController()
+    setSourcesError(null)
+    loadSources(controller.signal)
+      .then((response) => {
+        if (!controller.signal.aborted) setSources(response.items)
+      })
+      .catch((reason: unknown) => {
+        if (!controller.signal.aborted) setSourcesError(requestError(reason))
+      })
+    return () => controller.abort()
+  }, [data, view, sources, sourceRetry])
+
+  useEffect(() => {
+    if (!data || view !== 'coverage' || coverage) return
+    const controller = new AbortController()
+    setCoverageError(null)
+    loadCoverage(controller.signal)
+      .then((response) => {
+        if (!controller.signal.aborted) setCoverage(response)
+      })
+      .catch((reason: unknown) => {
+        if (!controller.signal.aborted) setCoverageError(requestError(reason))
+      })
+    return () => controller.abort()
+  }, [data, view, coverage, coverageRetry])
+
+  useEffect(() => {
+    if (!data || view !== 'methods' || metadata) return
+    const controller = new AbortController()
+    setMetadataError(null)
+    loadMetadata(controller.signal)
+      .then((response) => {
+        if (!controller.signal.aborted) setMetadata(response)
+      })
+      .catch((reason: unknown) => {
+        if (!controller.signal.aborted) setMetadataError(requestError(reason))
+      })
+    return () => controller.abort()
+  }, [data, view, metadata, metadataRetry])
 
   const requestDiscovery = () => {
     if (discoveryRequestActive.current || discoveryState === 'loading') return
@@ -225,6 +265,16 @@ export default function App() {
 
   const inspectorVisible = inspectorOpen && (view === 'atlas' || view === 'catalog')
 
+  const auxiliaryState = (label: string, failure: string | null, retry: () => void) => (
+    <div className={failure ? 'service-state service-error' : 'service-state'} role={failure ? 'alert' : 'status'}>
+      <div>
+        <strong>{failure ? `${label} unavailable` : `Loading ${label.toLowerCase()}`}</strong>
+        <p>{failure ?? 'Retrieving this optional workspace. The research catalog remains available.'}</p>
+        {failure && <button type="button" onClick={retry}>Retry {label.toLowerCase()}</button>}
+      </div>
+    </div>
+  )
+
   const renderView = () => {
     if (error) {
       return (
@@ -298,20 +348,25 @@ export default function App() {
       )
     }
     if (view === 'sources') {
+      if (!sources) return auxiliaryState('Source register', sourcesError, () => setSourceRetry((current) => current + 1))
       return (
         <SourcesView
-          sources={data.sources}
+          sources={sources}
           records={records}
           query={sourceQuery}
           onInspectRecord={(record) => inspectRecordIn(record, 'catalog')}
         />
       )
     }
-    if (view === 'coverage') return <CoverageView coverage={data.coverage} onInspectRecord={(recordId) => {
-      const match = records.find((record) => record.id === recordId)
-      if (match) inspectRecordIn(match, 'catalog')
-    }} />
-    return <MethodsView metadata={data.metadata} onNavigate={changeView} />
+    if (view === 'coverage') {
+      if (!coverage) return auxiliaryState('Collection audit', coverageError, () => setCoverageRetry((current) => current + 1))
+      return <CoverageView coverage={coverage} onInspectRecord={(recordId) => {
+        const match = records.find((record) => record.id === recordId)
+        if (match) inspectRecordIn(match, 'catalog')
+      }} />
+    }
+    if (!metadata) return auxiliaryState('Research method', metadataError, () => setMetadataRetry((current) => current + 1))
+    return <MethodsView metadata={metadata} onNavigate={changeView} />
   }
 
   const viewTitle = VIEW_TITLES[view]
