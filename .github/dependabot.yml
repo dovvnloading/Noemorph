@@ -15,8 +15,8 @@ updates:
           - "minor"
           - "patch"
 
-  # Update the same Python dependency in app and research manifests together.
-  # Keep different packages separate for more focused compatibility review.
+  # Use fixed group names across both manifests for repeated dependencies.
+  # Avoid dynamic group-by names until Dependabot's rebase bug is resolved.
   - package-ecosystem: "pip"
     directories:
       - "/Noemorph"
@@ -26,10 +26,18 @@ updates:
       day: "tuesday"
     open-pull-requests-limit: 3
     groups:
-      python-by-dependency:
+      python-numpy:
+        patterns:
+          - "numpy"
+      python-pypdf:
+        patterns:
+          - "pypdf"
+      python-routine:
         patterns:
           - "*"
-        group-by: "dependency-name"
+        update-types:
+          - "minor"
+          - "patch"
 
   # React and its DOM/types packages must move together to satisfy peer deps.
   # Keep Sigma and other major frontend upgrades individually reviewable.
