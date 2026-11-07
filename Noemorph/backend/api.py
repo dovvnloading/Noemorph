@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from ipaddress import ip_address
 from pathlib import Path
+from urllib.parse import urlsplit
 from typing import Annotated, Any, Literal
 
 from fastapi import FastAPI, HTTPException, Query, Request, Response, WebSocket
@@ -248,12 +249,56 @@ def create_app(
         except EvidenceReviewError as exc:
             raise HTTPException(status_code=404, detail=str(exc)) from exc
 
+    def require_local_semantic_access(
+        request: Request, response: Response, *, write: bool = False
+    ) -> None:
+        """Keep local candidate notes and decisions off network-exposed API mode.
+
+        Both the actual peer and the HTTP Host must be loopback. The Host check
+        also rejects requests made through DNS-rebinding hostnames. Browser
+        writes must originate from this instance or the local Vite dev server.
+        """
+        def loopback_host(value: str) -> bool:
+            if value.casefold() == "localhost":
+                return True
+            try:
+                return ip_address(value).is_loopback
+            except ValueError:
+                return False
+
+        peer = request.client.host if request.client is not None else ""
+        if not loopback_host(peer) or not loopback_host(request.url.hostname or ""):
+            raise HTTPException(
+                status_code=403, detail="Semantic review is available only on localhost"
+            )
+
+        if write:
+            origin = request.headers.get("origin")
+            if origin is not None:
+                allowed_origins = {
+                    str(request.base_url).rstrip("/"),
+                    "http://127.0.0.1:5173",
+                    "http://localhost:5173",
+                }
+                parsed_origin = urlsplit(origin)
+                if (
+                    parsed_origin.scheme not in {"http", "https"}
+                    or origin not in allowed_origins
+                ):
+                    raise HTTPException(
+                        status_code=403, detail="Untrusted semantic review origin"
+                    )
+        response.headers["Cache-Control"] = "no-store"
+
     @app.get("/api/semantic/status")
-    def semantic_status() -> dict[str, Any]:
+    def semantic_status(request: Request, response: Response) -> dict[str, Any]:
+        require_local_semantic_access(request, response)
         return semantic_repository.status()
 
     @app.get("/api/semantic/candidates")
     def semantic_candidates(
+        request: Request,
+        response: Response,
         q: str | None = None,
         disposition: Annotated[list[str] | None, Query()] = None,
         relation_tag: Annotated[list[str] | None, Query()] = None,
@@ -265,6 +310,7 @@ def create_app(
         offset: int = Query(default=0, ge=0),
         limit: int = Query(default=100, ge=1, le=500),
     ) -> dict[str, Any]:
+        require_local_semantic_access(request, response)
         try:
             items, total, run = semantic_repository.list_candidates(
                 query=q,
@@ -290,7 +336,10 @@ def create_app(
         }
 
     @app.get("/api/semantic/candidates/{candidate_id}")
-    def semantic_candidate(candidate_id: str) -> dict[str, Any]:
+    def semantic_candidate(
+        candidate_id: str, request: Request, response: Response
+    ) -> dict[str, Any]:
+        require_local_semantic_access(request, response)
         item = semantic_repository.get_candidate(candidate_id)
         if item is None:
             raise HTTPException(status_code=404, detail="Semantic candidate not found")
@@ -298,8 +347,10 @@ def create_app(
 
     @app.patch("/api/semantic/candidates/{candidate_id}")
     def review_semantic_candidate(
-        candidate_id: str, patch: SemanticReviewPatch
+        candidate_id: str, patch: SemanticReviewPatch,
+        request: Request, response: Response,
     ) -> dict[str, Any]:
+        require_local_semantic_access(request, response, write=True)
         changes: dict[str, Any] = {}
         if "disposition" in patch.model_fields_set:
             changes["disposition"] = patch.disposition
