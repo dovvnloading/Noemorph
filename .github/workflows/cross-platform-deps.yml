@@ -1,0 +1,50 @@
+name: Cross-platform dependency smoke
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows-launcher:
+    name: Windows launcher and runtime imports
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: Noemorph/requirements.txt
+      - name: Install pinned Windows application dependencies
+        run: python -m pip install -r Noemorph/requirements.txt
+      - name: Validate runtime imports, CLR and dependency compatibility
+        run: |
+          python -m pip check
+          python -c "import fastapi, numpy, uvicorn, webview, pythonnet; import clr; print('Windows runtime imports OK')"
+      - name: Run launcher correctness regressions without starting WebView2
+        working-directory: Noemorph
+        run: python -m unittest tests.test_launcher -v
+
+  research-dependencies:
+    name: Research dependency imports and package consistency
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: Noemorph/research/requirements.txt
+      - name: Install independently pinned research dependencies
+        run: python -m pip install -r Noemorph/research/requirements.txt
+      - name: Verify Python dependencies and library imports
+        run: |
+          python -m pip check
+          python -c "import bs4, numpy, pypdf; print('Research dependency imports OK')"
