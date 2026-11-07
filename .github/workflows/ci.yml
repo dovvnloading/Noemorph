@@ -39,6 +39,16 @@ jobs:
         run: python -m unittest discover -s public-site/tests -p 'test_*.py' -v
       - name: Check deterministic profile quality report
         run: python Noemorph/research/build_profile_quality_report.py --check
+      - name: Generate data quality audit
+        run: |
+          python Noemorph/research/audit_data_quality.py --output data-quality.json
+          python Noemorph/research/audit_data_quality.py --output data-quality.json --check
+      - name: Upload read-only quality report
+        uses: actions/upload-artifact@v4
+        with:
+          name: noemorph-data-quality-report
+          path: data-quality.json
+          retention-days: 14
       - name: Package rendered static preview for visual QA
         uses: actions/upload-artifact@v4
         with:
