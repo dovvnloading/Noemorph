@@ -41,13 +41,13 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw 'npm ci failed' }
           npm run build
           if ($LASTEXITCODE -ne 0) { throw 'Vite build failed' }
-      - name: Download locked Windows wheels for offline use
+      - name: Build resolved Windows wheelhouse for offline use
         shell: pwsh
         run: |
           $wheelhouse = Join-Path $env:RUNNER_TEMP 'noemorph-win-wheels'
           New-Item -ItemType Directory -Force -Path $wheelhouse | Out-Null
-          python -m pip download --only-binary=:all: --dest $wheelhouse -r Noemorph/requirements.txt
-          if ($LASTEXITCODE -ne 0) { throw 'Locked Windows wheel download failed' }
+          python -m pip wheel --wheel-dir $wheelhouse -r Noemorph/requirements.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Windows wheelhouse build failed' }
       - name: Assemble versioned source-and-wheel bundle
         shell: pwsh
         run: |

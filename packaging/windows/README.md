@@ -3,7 +3,7 @@
 This is a **versioned, unsigned portable source-and-wheel bundle**, not a Windows
 installer, signed executable or certified offline WebView2 package. It contains
 the prebuilt Vite desktop UI, the curated research catalog, tracked application
-sources, and Python wheels downloaded for 64-bit Windows Python 3.14.
+sources, and a Windows Python 3.14 wheelhouse. A compatible wheel for the \`proxy_tools\`\ntransitive dependency is built from its source distribution on the CI runner.
 
 ## Requirements
 
@@ -37,11 +37,11 @@ publish or migrate them automatically. Never upload these local files to GitHub.
 
 ## Validation limits
 
-The CI package job builds the Vite UI, downloads pinned Windows wheels, installs
+The CI package job builds the Vite UI, resolves the pinned top-level application requirements and builds transitive\n  wheels as needed, installs
 them in a clean virtual environment **offline**, checks imports and launcher
 regressions, and uploads a versioned ZIP as a GitHub Actions artifact.
 
-It does **not** simulate an interactive WebView2 session, prove that WebView2 is
+The direct application dependencies are pinned in \`requirements.txt\`, but some\ntransitive dependencies are not hash-pinned. The release manifest records exact\nwheel SHA-256 digests for auditing; it is not a signed supply-chain attestation.\n\nIt does **not** simulate an interactive WebView2 session, prove that WebView2 is
 installed on a user's machine, sign software, run a Windows installer, or certify
 that all research claims and external source links are independently reviewed.
 These remain tracked under issues #19, #17 and #15 as appropriate.
