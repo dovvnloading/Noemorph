@@ -11,13 +11,12 @@
   "dependencies": {
     "@fontsource/dm-mono": "5.3.0",
     "@fontsource/manrope": "5.3.0",
-    "@sigma/node-square": "^3.0.0",
     "graphology": "^0.26.0",
     "lucide-react": "1.37.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "recharts": "3.10.1",
-    "sigma": "^3.0.3"
+    "sigma": "^4.0.4"
   },
   "devDependencies": {
     "@types/react": "19.3.0",
