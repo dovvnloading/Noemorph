@@ -1,18 +1,61 @@
 version: 2
 updates:
+  # Keep CI action majors reviewable on their own, while grouping routine updates.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 3
+    groups:
+      actions-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  # Update the same Python dependency in app and research manifests together.
+  # Keep different packages separate for more focused compatibility review.
   - package-ecosystem: "pip"
-    directory: "/Noemorph"
+    directories:
+      - "/Noemorph"
+      - "/Noemorph/research"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "pip"
-    directory: "/Noemorph/research"
-    schedule:
-      interval: "weekly"
+      day: "tuesday"
+    open-pull-requests-limit: 3
+    groups:
+      python-by-dependency:
+        patterns:
+          - "*"
+        group-by: "dependency-name"
+
+  # React and its DOM/types packages must move together to satisfy peer deps.
+  # Keep Sigma and other major frontend upgrades individually reviewable.
   - package-ecosystem: "npm"
     directory: "/Noemorph/frontend"
     schedule:
       interval: "weekly"
+      day: "wednesday"
+    open-pull-requests-limit: 3
+    groups:
+      react-runtime-and-types:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      frontend-minor-patch:
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+          - "sigma"
+          - "@sigma/*"
+        update-types:
+          - "minor"
+          - "patch"
