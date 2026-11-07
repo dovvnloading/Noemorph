@@ -36,6 +36,8 @@ VERIFICATION_STATES = {
     "human-verified",
     "pending-metadata-review",
 }
+
+
 def _identity_text(value: Any) -> str:
     """Normalize comparison text, never overwrite the original bibliography."""
     return " ".join(str(value or "").casefold().split())
@@ -468,13 +470,17 @@ class CatalogRepository:
             variants: dict[str, dict[str, Any]] = {}
             if conflict_fields:
                 for use in bibliographic_uses:
-                    metadata = {
+                    bibliographic_metadata = {
                         field: use[field]
                         for field in ("title", "authors", "year", "url", "doi", "venue", "retrieved")
                     }
-                    signature = json.dumps(metadata, sort_keys=True, ensure_ascii=False)
+                    signature = json.dumps(
+                        bibliographic_metadata, sort_keys=True, ensure_ascii=False
+                    )
                     if signature not in variants:
-                        variants[signature] = {**metadata, "record_ids": []}
+                        variants[signature] = {
+                            **bibliographic_metadata, "record_ids": []
+                        }
                     variants[signature]["record_ids"].append(use["record_id"])
             source["metadata_variants"] = sorted(
                 [
