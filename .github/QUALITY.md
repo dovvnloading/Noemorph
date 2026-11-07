@@ -15,9 +15,12 @@ Additional checks:
   run does not mean every dependency is free of known advisories.
 - **Dependabot:** staggered weekly updates with an open version-PR limit of three per
   configured ecosystem. Routine minor/patch updates are grouped where appropriate,
-  React/runtime/types move together, and the same Python package can be updated
-  across application and research manifests in one PR. Individual major updates
-  still require compatibility review. Grouping is not an auto-merge policy.
+  React/runtime/types move together, while fixed `python-numpy` and
+  `python-pypdf` groups cover both Python manifests. Other Python minor/patch
+  updates use a routine group; unrelated Python major updates remain separate.
+  Individual major updates still require compatibility review. Grouping is not
+  an auto-merge policy. Avoid Dependabot's dynamic `group-by: dependency-name`
+  until its reported rebase issue is fixed (dependabot/dependabot-core#14780).
 
 When reviewing dependency PRs:
 - Treat skipped dependency review as **not assessed**, even when CI is green.
