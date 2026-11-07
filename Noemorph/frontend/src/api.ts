@@ -14,7 +14,6 @@ import type {
   SemanticRun,
   SemanticStatus,
   SourcesResponse,
-  TaxonomyGraph,
 } from './types'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
@@ -40,14 +39,14 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   return response.json() as Promise<T>
 }
 
-async function loadCatalog(): Promise<CatalogResponse> {
+export async function loadCatalog(signal?: AbortSignal): Promise<CatalogResponse> {
   const pageSize = 1000
   const items: CatalogResponse['items'] = []
   let offset = 0
   let total = Number.POSITIVE_INFINITY
 
   while (items.length < total) {
-    const page = await request<CatalogResponse>(`/api/catalog?offset=${offset}&limit=${pageSize}`)
+    const page = await request<CatalogResponse>(`/api/catalog?offset=${offset}&limit=${pageSize}`, { signal })
     items.push(...page.items)
     total = page.total
     offset += page.items.length
@@ -167,13 +166,16 @@ export function loadProfileQuality(signal?: AbortSignal): Promise<ProfileQuality
   return request<ProfileQualityReport>('/api/profile-quality', { signal })
 }
 
-export async function loadWorkspace() {
-  const [catalog, sources, coverage, metadata, graph] = await Promise.all([
-    loadCatalog(),
-    request<SourcesResponse>('/api/sources'),
-    request<CoverageResponse>('/api/coverage'),
-    request<CatalogMetadata>('/api/meta'),
-    request<TaxonomyGraph>('/api/graph/taxonomy'),
-  ])
-  return { catalog, sources, coverage, metadata, graph }
+// The catalog is the only required workspace request. Supplemental panels
+// load independently when opened, so their failure never blocks reading records.
+export function loadSources(signal?: AbortSignal): Promise<SourcesResponse> {
+  return request<SourcesResponse>('/api/sources', { signal })
+}
+
+export function loadCoverage(signal?: AbortSignal): Promise<CoverageResponse> {
+  return request<CoverageResponse>('/api/coverage', { signal })
+}
+
+export function loadMetadata(signal?: AbortSignal): Promise<CatalogMetadata> {
+  return request<CatalogMetadata>('/api/meta', { signal })
 }
