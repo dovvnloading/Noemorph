@@ -77,6 +77,14 @@ jobs:
         run: |
           python Noemorph/research/audit_data_quality.py --output data-quality.json
           python Noemorph/research/audit_data_quality.py --output data-quality.json --check
+      - name: Export unreviewed editorial triage worklist
+        run: python Noemorph/research/build_editorial_triage.py --output editorial-triage.json
+      - name: Upload unreviewed editorial queue
+        uses: actions/upload-artifact@v7
+        with:
+          name: noemorph-editorial-triage
+          path: editorial-triage.json
+          retention-days: 14
       - name: Upload read-only quality report
         uses: actions/upload-artifact@v7
         with:
