@@ -9,6 +9,7 @@ or submit a focused pull request with enough context for another person to revie
 
 - Give a stable primary or authoritative source and an exact locator for each
   substantive claim. Explain what the source supports and what it does not.
+- Follow the [editorial evidence-review protocol](Noemorph/research/EDITORIAL_REVIEW_PROTOCOL.md) for bibliographic corrections, claim assessments and independent publication decisions. A local reviewer label or a resolved DOI does not certify a claim.
 - Distinguish a theory, a measure, a historical tradition, and a challenge or
   argument. Describe the scope and limits of a record without presenting an
   unsettled interpretation as consensus.
