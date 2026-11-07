@@ -138,7 +138,7 @@
       // Facets apply to the same citation use, not an invented source-wide status.
       return source.uses.some(use =>
         (!role.value || use.citation.authority === role.value)
-        && (!verification.value || use.citation.verification === verification.value)
+        && (!verification.value || (use.citation.verification || 'pending-metadata-review') === verification.value)
       );
     });
   }
@@ -167,7 +167,6 @@
   }
 
   function clearSelection() {
-    if (!requestedId) return;
     requestedId = null;
     const url = new URL(window.location.href);
     if (url.searchParams.has('source')) {
@@ -180,7 +179,7 @@
     if (!results || !status || !search || !role || !verification || !reset || !pagination) return;
     sources = buildIndex(records);
     populate(role, sources.flatMap(source => source.uses.map(use => use.citation.authority)));
-    populate(verification, sources.flatMap(source => source.uses.map(use => use.citation.verification)));
+    populate(verification, sources.flatMap(source => source.uses.map(use => use.citation.verification || 'pending-metadata-review')));
     const url = new URL(window.location.href);
     const ids = url.searchParams.getAll('source');
     requestedId = ids.length === 1 && !url.searchParams.has('record')
