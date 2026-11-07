@@ -39,3 +39,12 @@ test('public taxonomy atlas expanded state has no serious/critical automated WCA
   await expect(page.locator('#atlas-svg')).toBeVisible();
   await checkSeriousWcagViolations(page);
 });
+
+test('public bibliography search and expanded source entry have no serious/critical automated WCAG violations', async ({ page }) => {
+  test.setTimeout(90_000);
+  await page.goto('/#sources');
+  await expect(page.locator('#source-status')).toContainText('source locators');
+  await page.locator('#source-results details.source-entry').first().locator(':scope > summary').click();
+  await expect(page.locator('#source-results details.source-entry[open]')).toHaveCount(1);
+  await checkSeriousWcagViolations(page);
+});

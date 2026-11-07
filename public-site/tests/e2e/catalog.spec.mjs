@@ -80,3 +80,45 @@ test('failed catalog download shows a recoverable error instead of blank content
   await expect(page.locator('#results-status')).toHaveText('The collection could not be loaded.');
   await expect(page.locator('#records')).toContainText(/reload/i);
 });
+
+test('public source library searches citation metadata and traces back to records', async ({ page }) => {
+  const grouped = new Map();
+  for (const record of mergedCatalog.records) {
+    for (const citation of record.citations) {
+      if (!citation.source_uid) continue;
+      const uses = grouped.get(citation.source_uid) || [];
+      uses.push(record.id);
+      grouped.set(citation.source_uid, uses);
+    }
+  }
+  const shared = [...grouped.entries()].find(([, recordIds]) => new Set(recordIds).size > 1);
+  expect(shared).toBeDefined();
+  const [sourceUid, recordIds] = shared;
+
+  await page.goto('/?source=' + encodeURIComponent(sourceUid) + '#sources');
+  await expect(page.locator('#source-status')).toContainText('source locators');
+  const entry = page.locator('#source-results details.source-entry[open]');
+  await expect(entry).toHaveCount(1);
+  await expect(entry.locator('.source-record-links a')).toHaveCount(recordIds.length);
+  await expect(entry).toContainText('not verified evidence of support');
+  const firstLink = entry.locator('.source-record-links a').first();
+  const recordHref = await firstLink.getAttribute('href');
+  const firstLinkedRecordId = new URL(recordHref).searchParams.get('record');
+  expect(recordIds).toContain(firstLinkedRecordId);
+  await firstLink.click();
+
+  const record = page.locator('details.record[data-record-id="' + firstLinkedRecordId + '"]');
+  await expect(record).toHaveAttribute('open', '');
+  await record.locator('details.record-depth > summary').click();
+  const trace = record.locator('a.source-trace-link').first();
+  await expect(trace).toHaveAttribute('href', /source=.*#sources/);
+  await trace.click();
+  await expect(page.locator('#source-results details.source-entry[open]')).toHaveCount(1);
+
+  const search = page.locator('#source-search');
+  await search.fill('never-a-real-source-phrase');
+  await expect(page.locator('#source-status')).toContainText('0 source locators');
+  await page.locator('#source-reset').click();
+  await expect(page.locator('#source-status')).toContainText('source locators');
+});
+

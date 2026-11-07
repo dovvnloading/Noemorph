@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="discovery.css">
   <link rel="stylesheet" href="atlas.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="sources.css">
   <script src="discovery.js" defer></script>
   <script src="atlas.js" defer></script>
+  <script src="sources.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -19,6 +21,7 @@
   <a class="brand" href="#top" aria-label="noemorph / the mind index — home"><span class="brand-mark" aria-hidden="true">✳</span>noemorph<span class="brand-suffix"> / the mind index</span></a>
   <nav aria-label="Main navigation">
     <a href="#catalog">Explore</a>
+    <a href="#sources">Sources</a>
     <a href="#discover">Guided paths</a>
     <a href="#atlas">Map</a>
     <a class="nav-repo" href="https://github.com/dovvnloading/Noemorph">GitHub <span aria-hidden="true">↗</span></a>
@@ -86,6 +89,29 @@
     <div id="pagination" class="pagination"></div>
     <p class="catalog-integrity"><span aria-hidden="true">ⓘ</span> Inclusion is not endorsement. A citation or DOI is a lead to investigate, not proof that a specific claim is supported.</p>
     <noscript><p>The search and record expansion require JavaScript. The full dataset is available in the <a href="https://github.com/dovvnloading/Noemorph">repository</a>.</p></noscript>
+  </section>
+
+  <section class="source-library section-wrap" id="sources" aria-labelledby="sources-heading">
+    <header class="source-heading">
+      <div><p class="eyebrow eyebrow-dark">THE BIBLIOGRAPHY / 02</p><h2 id="sources-heading">Trace the sources.</h2></div>
+      <p>Find a paper, author, or DOI, then follow its citation uses back to the records that reference it. Keep the original research in view.</p>
+    </header>
+    <div class="source-controls" role="search" aria-label="Search retained bibliography">
+      <label for="source-search">Title, author, DOI, or citing record
+        <input type="search" id="source-search" placeholder="Search the bibliography…" autocomplete="off">
+      </label>
+      <label for="source-role">Citation role
+        <select id="source-role"><option value="">All roles</option></select>
+      </label>
+      <label for="source-verification">Citation metadata
+        <select id="source-verification"><option value="">All statuses</option></select>
+      </label>
+      <button type="button" id="source-reset" class="source-reset">Reset</button>
+    </div>
+    <div class="source-meta"><p id="source-status" role="status" aria-live="polite" tabindex="-1">Preparing the bibliography…</p><small>OPEN A SOURCE TO SEE WHERE IT IS CITED</small></div>
+    <div id="source-results" class="source-results" aria-label="Bibliography search results"></div>
+    <nav id="source-pagination" class="source-pagination" aria-label="Source result pages"></nav>
+    <p class="source-caveat">Entries are grouped by retained DOI or URL for navigation only. Matching a locator does not settle work or edition identity, and a citation’s metadata status does not verify claim-level support.</p>
   </section>
 
   <section class="secondary-tools section-wrap" aria-label="Optional ways to explore">
@@ -156,7 +182,7 @@
 </main>
 <footer>
   <div class="footer-inner"><div><a class="brand" href="#top">✳ noemorph</a><p>An open index of mind and consciousness.</p></div>
-  <nav aria-label="Footer links"><a href="#catalog">Research catalog</a><a href="#discover">Guided paths</a><a href="https://github.com/dovvnloading/Noemorph">Source and contributions ↗</a></nav></div>
+  <nav aria-label="Footer links"><a href="#catalog">Research catalog</a><a href="#sources">Sources</a><a href="#discover">Guided paths</a><a href="https://github.com/dovvnloading/Noemorph">Source and contributions ↗</a></nav></div>
   <p class="footer-small">COLLECTION PHASE · OPEN TO REVISION</p>
 </footer>
 </body>
