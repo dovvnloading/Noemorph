@@ -1,0 +1,56 @@
+name: Public Firefox and WebKit exploratory tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-crossbrowser:
+    name: Public Firefox/WebKit discovery (non-blocking)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Generate the validated public export
+        run: python public-site/build.py
+      - name: Install pinned browser test runtime
+        run: npm install --no-save --prefix public-site @playwright/test@1.65.0 @axe-core/playwright@4.14.0
+      - name: Install Firefox and WebKit with system dependencies
+        run: ./public-site/node_modules/.bin/playwright install --with-deps firefox webkit
+      - name: Exercise critical public reader journeys in Firefox and WebKit
+        id: crossbrowser
+        continue-on-error: true
+        run: ./public-site/node_modules/.bin/playwright test --config=public-site/playwright.crossbrowser.config.mjs
+      - name: Report exploratory result
+        if: always()
+        env:
+          RESULT: ${{ steps.crossbrowser.outcome }}
+        run: |
+          if [ "$RESULT" = "failure" ]; then
+            echo "::warning::Firefox/WebKit discovery failed; inspect traces and triage before making this a required check."
+            echo "### Firefox/WebKit exploratory regression: FAIL (non-blocking)" >> "$GITHUB_STEP_SUMMARY"
+            echo "The Chromium quality gate is unchanged. Reproduce failures before promoting this check." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### Firefox/WebKit exploratory regression: $RESULT" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Retain failure reports, traces and screenshots
+        if: steps.crossbrowser.outcome == 'failure'
+        uses: actions/upload-artifact@v7
+        with:
+          name: public-firefox-webkit-debug
+          path: |
+            public-site/playwright-report/
+            public-site/test-results/
+          retention-days: 7
+          if-no-files-found: ignore
