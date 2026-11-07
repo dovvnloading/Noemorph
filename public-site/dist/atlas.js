@@ -178,25 +178,25 @@
         '<line x1="500" y1="300" x2="' + point.x + '" y2="' + point.y +
         '" class="atlas-membership-spoke"></line>'
       ).join('');
-      const nodes = points.map(point => {
+      const nodes = points.map((point, index) => {
         const size = point.type === 'record' ? 15 : 22 + Math.min(13, Math.sqrt(point.count));
         const nodeLabel = point.label.length > 28
           ? point.label.slice(0, 26) + '…' : point.label;
         const selected = point.type === 'record' && state.record === point.value;
+        const labelId = 'atlas-node-visible-label-' + index;
+        const countId = 'atlas-node-visible-count-' + index;
         return '<g class="atlas-visual-node atlas-node-' + point.type +
           (selected ? ' atlas-node-selected' : '') +
           '" role="button" tabindex="0" data-atlas-type="' + esc(point.type) +
           '" data-atlas-value="' + esc(point.value) +
-          '" aria-label="' + esc(point.type === 'record'
-            ? 'Inspect record ' + nodeLabel + ' (full name: ' + point.label + ')'
-            : 'Explore ' + nodeLabel + ' (full name: ' + point.label + '), ' + point.count + ' records') + '">' +
+          '" aria-labelledby="' + labelId + (point.type === 'record' ? '' : ' ' + countId) + '">' +
           '<title>' + esc(point.label) + '</title>' +
           '<circle cx="' + point.x + '" cy="' + point.y +
           '" r="' + size + '"></circle>' +
-          '<text x="' + point.x + '" y="' + (point.y + size + 18) +
+          '<text id="' + labelId + '" x="' + point.x + '" y="' + (point.y + size + 18) +
           '" text-anchor="middle">' + esc(nodeLabel) + '</text>' +
           (point.type === 'record' ? '' :
-            '<text class="atlas-node-count" x="' + point.x + '" y="' +
+            '<text id="' + countId + '" class="atlas-node-count" x="' + point.x + '" y="' +
             (point.y + 4) + '" text-anchor="middle">' + point.count + '</text>') +
           '</g>';
       }).join('');

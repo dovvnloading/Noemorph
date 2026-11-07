@@ -631,7 +631,7 @@ export function AtlasView({
               </svg>
             )}
 
-            <div className="atlas-column-axis" aria-label="Research perspective axis">
+            <div className="atlas-column-axis" role="group" aria-label="Research perspective axis">
               <span className="atlas-axis-name">RESEARCH PERSPECTIVE</span>
               {guideLayout?.columns.map((column) => (
                 <button
@@ -640,7 +640,7 @@ export function AtlasView({
                   className={activeGroup === column.group ? 'active' : activeGroup ? 'muted' : ''}
                   style={{ left: column.x, top: Math.max(7, column.y - 42), '--column-color': activeGroup === column.group ? ATLAS_COBALT : column.color } as CSSProperties}
                   onClick={() => changeGroup(activeGroup === column.group ? null : column.group)}
-                  aria-label={`${column.shortLabel} — ${column.group}: ${column.recordCount} records across ${column.domainCount} domains`}
+                  aria-label={`${column.shortLabel} ${column.recordCount} — ${column.group}: ${column.domainCount} domains`}
                   title={`${column.group}: ${column.recordCount} records across ${column.domainCount} domains`}
                 >
                   <i /><strong>{column.shortLabel}</strong><span>{column.recordCount}</span>

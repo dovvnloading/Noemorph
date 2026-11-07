@@ -2694,3 +2694,36 @@ a { color: inherit; }
   .mobile-workspace-switcher > span { color: #50594f; }
   .editorial-shell .atlas-scope-control select { min-height: 28px; }
 }
+
+/* Follow-on axe findings: readable counters/labels, and a full-width mobile selector. */
+.editorial-shell .context-title > span strong { color: #36493d; }
+.editorial-shell .context-controls label { color: #4c574c; }
+.editorial-shell .folio-corpus-count > small { color: #4f5c51; }
+@media (max-width: 760px) {
+  .editorial-shell .atlas-instrument-bar {
+    height: auto;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    min-height: 46px;
+  }
+  .editorial-shell .atlas-projection-switch { height: 44px; }
+  .editorial-shell .atlas-scope-control {
+    height: 44px;
+    min-width: 120px;
+    flex: 1 1 120px;
+    padding: 0 10px;
+  }
+  .editorial-shell .atlas-scope-control select {
+    min-width: 100px;
+    width: 100%;
+    min-height: 30px;
+  }
+  .editorial-shell .atlas-instrument-actions {
+    height: 40px;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-left: 0;
+    border-top: 1px solid var(--rule);
+    justify-content: flex-end;
+  }
+}

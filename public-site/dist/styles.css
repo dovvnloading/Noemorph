@@ -126,7 +126,7 @@ button:disabled { cursor: not-allowed; }
 .record-summary-main { display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
 .record-name { font: 400 clamp(1.13rem, 1.8vw, 1.47rem)/1.25 'DM Serif Display', Georgia, serif; letter-spacing: -.018em; }
 .record-summary-text { font-size: .76rem; line-height: 1.5; color: #65736a; overflow-wrap: anywhere; }
-.record-kind { font-size: .66rem; color: #6a7b6d; white-space: nowrap; padding: .3rem .5rem; border: 1px solid var(--line); }
+.record-kind { font-size: .66rem; color: #52665a; white-space: nowrap; padding: .3rem .5rem; border: 1px solid var(--line); }
 .record-toggle { font-size: 1.2rem; font-weight: 400; color: #58715e; }
 .record[open] .record-toggle { transform: rotate(45deg); }
 .record > summary:hover .record-name { text-decoration: underline; text-decoration-color: #9cbaa0; text-underline-offset: 4px; }
