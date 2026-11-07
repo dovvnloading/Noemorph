@@ -32,9 +32,17 @@ updates:
       python-pypdf:
         patterns:
           - "pypdf"
+      python-web-runtime:
+        patterns:
+          - "fastapi"
+          - "uvicorn"
       python-routine:
         patterns:
           - "*"
+        exclude-patterns:
+          - "fastapi"
+          - "uvicorn"
+          - "pythonnet"
         update-types:
           - "minor"
           - "patch"
