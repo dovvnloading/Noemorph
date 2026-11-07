@@ -10,6 +10,15 @@ Additional checks:
 - **CodeQL (blocking once GitHub's code scanning is available):** static security
   analysis for Python and JavaScript/TypeScript.
 - **Dependency review (requires repository setup):** detects newly introduced vulnerable dependencies on PRs. It is disabled until the GitHub Dependency Graph is enabled under Settings → Security and analysis, and the repository Actions variable `NOEMORPH_DEPENDENCY_GRAPH_ENABLED` is set to `true`. An unset variable causes the job to be skipped, not passed.
+- **Windows desktop smoke (blocking when enabled):** a Windows-hosted Python 3.14
+  environment installs the pinned application requirements, validates CLR and
+  WebView2 Python wrapper imports, and runs portable launcher regression tests.
+  This verifies dependency installability, not real WebView2 UI or a packaged
+  offline install; those remain tracked in #19.
+- **Research dependency smoke (blocking when enabled):** independently install
+  the research requirements, run `pip check`, and import NumPy, pypdf, and
+  Beautiful Soup. This covers dependencies that the application-only Python
+  test installation does not exercise.
 - **Python and npm advisories (non-blocking baseline):** these checks deliberately
   continue on error until existing advisories have been triaged. A successful CI
   run does not mean every dependency is free of known advisories.
