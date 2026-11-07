@@ -1,0 +1,92 @@
+name: Windows portable release smoke
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/windows-portable.yml'
+      - 'packaging/windows/**'
+      - 'Noemorph/requirements.txt'
+      - 'Noemorph/Noemorph.py'
+      - 'Noemorph/backend/**'
+      - 'Noemorph/frontend/**'
+      - 'Noemorph/data/**'
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  windows-portable:
+    name: Build and verify offline Windows portable ZIP
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: Noemorph/frontend/package-lock.json
+      - name: Build precompiled desktop UI
+        shell: pwsh
+        working-directory: Noemorph/frontend
+        run: |
+          npm ci
+          if ($LASTEXITCODE -ne 0) { throw 'npm ci failed' }
+          npm run build
+          if ($LASTEXITCODE -ne 0) { throw 'Vite build failed' }
+      - name: Download locked Windows wheels for offline use
+        shell: pwsh
+        run: |
+          $wheelhouse = Join-Path $env:RUNNER_TEMP 'noemorph-win-wheels'
+          New-Item -ItemType Directory -Force -Path $wheelhouse | Out-Null
+          python -m pip download --only-binary=:all: --dest $wheelhouse -r Noemorph/requirements.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Locked Windows wheel download failed' }
+      - name: Assemble versioned source-and-wheel bundle
+        shell: pwsh
+        run: |
+          & .\packaging\windows\Build-Portable.ps1 -OutputDirectory "$env:RUNNER_TEMP\noemorph-release" -Wheelhouse "$env:RUNNER_TEMP\noemorph-win-wheels" -CommitSha "$env:GITHUB_SHA"
+      - name: Test extracted package with offline-only dependency install
+        shell: pwsh
+        run: |
+          $release = Join-Path $env:RUNNER_TEMP 'noemorph-release'
+          $zip = @(Get-ChildItem -LiteralPath $release -File -Filter 'Noemorph-Windows-v*.zip')
+          if ($zip.Count -ne 1) { throw 'Expected exactly one versioned release ZIP' }
+          $verify = Join-Path $env:RUNNER_TEMP 'noemorph-offline-check'
+          New-Item -ItemType Directory -Force -Path $verify | Out-Null
+          Expand-Archive -LiteralPath $zip[0].FullName -DestinationPath $verify -Force
+          if (-not (Test-Path (Join-Path $verify 'Noemorph\frontend\dist\index.html'))) {
+            throw 'Release ZIP has no compiled frontend'
+          }
+          if (-not (Test-Path (Join-Path $verify 'release-manifest.json'))) {
+            throw 'Release ZIP has no manifest'
+          }
+          $venv = Join-Path $env:RUNNER_TEMP 'noemorph-fresh-venv'
+          python -m venv $venv
+          if ($LASTEXITCODE -ne 0) { throw 'Creating clean Windows venv failed' }
+          $py = Join-Path $venv 'Scripts\python.exe'
+          & $py -m pip install --disable-pip-version-check --no-input --no-index --find-links (Join-Path $verify 'wheelhouse') -r (Join-Path $verify 'Noemorph\requirements.txt')
+          if ($LASTEXITCODE -ne 0) { throw 'Offline requirements install failed' }
+          & $py -m pip check
+          if ($LASTEXITCODE -ne 0) { throw 'Offline requirements are inconsistent' }
+          & $py -c "import fastapi, numpy, pythonnet, clr, uvicorn, webview; print('Offline Windows imports OK')"
+          if ($LASTEXITCODE -ne 0) { throw 'Offline Windows import test failed' }
+          Push-Location (Join-Path $verify 'Noemorph')
+          try {
+            & $py -m unittest tests.test_launcher -v
+            if ($LASTEXITCODE -ne 0) { throw 'Release launcher regressions failed' }
+          }
+          finally { Pop-Location }
+      - name: Upload versioned portable Windows artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: noemorph-windows-portable-${{ github.sha }}
+          path: ${{ runner.temp }}/noemorph-release/Noemorph-Windows-v*.zip
+          if-no-files-found: error
+          retention-days: 21
