@@ -25,6 +25,40 @@ jobs:
         working-directory: Noemorph
         run: python -m unittest discover -s tests -v
 
+  python-quality:
+    name: Python critical lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Install pinned Ruff
+        run: python -m pip install ruff==0.12.1
+      - name: Check undefined names and critical Python errors
+        run: ruff check --select E9,F63,F7,F82 Noemorph research public-site
+
+  dependency-audit:
+    name: Dependency advisory baseline (non-blocking)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Install Python dependency auditor
+        run: python -m pip install pip-audit==2.9.0
+      - name: Audit locked Python application dependencies
+        continue-on-error: true
+        run: pip-audit -r Noemorph/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Audit JavaScript production dependencies
+        working-directory: Noemorph/frontend
+        continue-on-error: true
+        run: npm audit --audit-level=high --omit=dev
+
   public-export:
     name: Public export and coverage integrity
     runs-on: ubuntu-latest
