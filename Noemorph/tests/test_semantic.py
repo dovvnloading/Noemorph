@@ -212,7 +212,7 @@ class SemanticApiTests(SemanticRepositoryTests):
             serve_frontend=False,
             semantic_db_path=self.db_path,
         )
-        with TestClient(app) as client:
+        with TestClient(app, base_url="http://127.0.0.1:8765", client=("127.0.0.1", 5555)) as client:
             status = client.get("/api/semantic/status")
             self.assertEqual(status.status_code, 200)
             self.assertEqual(status.json()["state"], "ready")
@@ -253,6 +253,65 @@ class SemanticApiTests(SemanticRepositoryTests):
             relationship_graph = client.get("/api/graph/relationships")
             self.assertEqual(relationship_graph.status_code, 423)
             self.assertIn("do not constitute graph edges", relationship_graph.text)
+
+
+    def test_semantic_review_rejects_remote_clients_and_untrusted_origins(self) -> None:
+        self._create_valid_artifact()
+        app = create_app(APP_DIR, serve_frontend=False, semantic_db_path=self.db_path)
+        review = {
+            "disposition": "needs-review",
+            "reviewer_note": "A locally reviewed candidate; no scientific conclusion.",
+        }
+        with TestClient(
+            app, base_url="http://127.0.0.1:8765",
+            client=("127.0.0.1", 5555),
+        ) as local:
+            status = local.get("/api/semantic/status")
+            self.assertEqual(status.status_code, 200)
+            self.assertEqual(status.headers["cache-control"], "no-store")
+            self.assertEqual(
+                local.get("/api/semantic/candidates").headers["cache-control"],
+                "no-store",
+            )
+            self.assertEqual(
+                local.get("/api/semantic/candidates/pair-test").headers["cache-control"],
+                "no-store",
+            )
+            for origin in ("https://attacker.example", "null"):
+                denied = local.patch(
+                    "/api/semantic/candidates/pair-test",
+                    json=review, headers={"Origin": origin},
+                )
+                self.assertEqual(denied.status_code, 403)
+            self.assertEqual(
+                local.get(
+                    "/api/semantic/candidates/pair-test",
+                    headers={"Host": "attacker.example"},
+                ).status_code,
+                403,
+            )
+            self.assertEqual(
+                local.patch(
+                    "/api/semantic/candidates/pair-test", json=review,
+                    headers={"Origin": "http://127.0.0.1:5173"},
+                ).status_code,
+                200,
+            )
+        with TestClient(
+            app, base_url="http://127.0.0.1:8765",
+            client=("192.0.2.22", 4321),
+        ) as remote:
+            for endpoint in (
+                "/api/semantic/status",
+                "/api/semantic/candidates",
+                "/api/semantic/candidates/pair-test",
+            ):
+                self.assertEqual(remote.get(endpoint).status_code, 403)
+            self.assertEqual(
+                remote.patch("/api/semantic/candidates/pair-test", json=review).status_code,
+                403,
+            )
+            self.assertEqual(remote.get("/api/catalog", params={"limit": 1}).status_code, 200)
 
 
 if __name__ == "__main__":
