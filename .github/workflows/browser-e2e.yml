@@ -32,7 +32,7 @@ jobs:
         run: ./public-site/node_modules/.bin/playwright test --config=public-site/playwright.config.mjs
       - name: Retain traces and screenshots when the run fails
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: public-browser-debug
           path: |

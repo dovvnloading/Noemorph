@@ -37,7 +37,7 @@ jobs:
         run: ./Noemorph/frontend/node_modules/.bin/playwright test --config=Noemorph/frontend/playwright.config.mjs
       - name: Retain failure traces and screenshots
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: desktop-workspace-browser-debug
           path: |
