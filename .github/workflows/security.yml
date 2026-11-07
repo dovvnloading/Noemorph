@@ -31,7 +31,9 @@ jobs:
 
   dependency-review:
     name: Check newly introduced dependencies
-    if: github.event_name == 'pull_request'
+    # Enable only after Dependency Graph is turned on in repository settings.
+    # A repository variable explicitly records that admin-side prerequisite.
+    if: github.event_name == 'pull_request' && vars.NOEMORPH_DEPENDENCY_GRAPH_ENABLED == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
