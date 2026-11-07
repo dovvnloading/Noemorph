@@ -105,6 +105,62 @@ class CatalogIntegrityTests(unittest.TestCase):
                 {source["id"] for source in repository.list_sources(authority="scholarly-secondary")},
             )
 
+    def test_record_search_matches_taxonomy_aliases_and_keywords(self) -> None:
+        """Search fields must match what the public and desktop readers expose."""
+        record = {
+            "id": "search-field-fixture",
+            "name": "Search Field Fixture",
+            "kind": "Scientific theory",
+            "domain": "Lattice Research Field",
+            "tradition": "Archive Tradition",
+            "status": "provisional",
+            "summary": "A provisional research record.",
+            "aliases": ["Orchid Lantern"],
+            "keywords": ["Bluebird Transmission"],
+            "proponents": ["Example Researcher"],
+            "citations": [
+                {
+                    "title": "Bibliography Sentinel",
+                    "authors": "Example Researcher",
+                    "year": 2024,
+                    "url": "https://example.org/search-source-one",
+                    "authority": "primary-original",
+                },
+                {
+                    "title": "Second Citation",
+                    "authors": "Example Researcher",
+                    "year": 2025,
+                    "url": "https://example.org/search-source-two",
+                    "authority": "scholarly-secondary",
+                },
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "catalog.json"
+            path.write_text(
+                json.dumps({"metadata": {"version": "search-fixture"}, "records": [record]}),
+                encoding="utf-8",
+            )
+            repository = CatalogRepository(path)
+            for query in (
+                "search field",
+                "SCIENTIFIC",
+                "lattice research",
+                "ARCHIVE tradition",
+                "ORCHID lantern",
+                "bluebird transmission",
+                "scientific ORCHID archive",
+            ):
+                matches, total = repository.list_records(query=query)
+                self.assertEqual(total, 1, query)
+                self.assertEqual([item["id"] for item in matches], [record["id"]], query)
+
+            # Citations are provenance, not searchable claims or record identity.
+            bibliography_matches, total = repository.list_records(
+                query="Bibliography Sentinel"
+            )
+            self.assertEqual((bibliography_matches, total), ([], 0))
+
     def test_awareness_clinical_and_comparative_strata_are_present(self) -> None:
         names = {record["name"] for record in self.records}
         expected = {

@@ -36,6 +36,7 @@ const records = [
     kind: 'Scientific theory', domain: 'Neuroscience',
     tradition: 'Contemporary', review_state: 'provisional',
     summary: 'A theory of conscious access.', proponents: [],
+    aliases: ['Orchid Lantern'], keywords: ['Bluebird Transmission'],
     claim_reviews: [{
       id: 'record-one:scope', kind: 'scope', field: 'claim_scope.target',
       text: 'A theory of conscious access.', review_state: 'unreviewed',
@@ -190,6 +191,26 @@ test('filters combine without confusing citation states with claim verification'
   elements['#reset-filters'].listeners.click();
   assert.match(elements['#results-status'].textContent, /^2 records/);
   assert.equal(elements['#verification'].value, '');
+});
+
+
+test('public catalog searches aliases, keywords and taxonomy fields', async () => {
+  const app = await boot();
+  for (const query of [
+    'ORCHID lantern',
+    'bluebird TRANSMISSION',
+    'NEUROSCIENCE contemporary',
+    'scientific ORCHID',
+  ]) {
+    app.elements['#search'].value = query;
+    app.elements['#search'].listeners.input();
+    assert.match(app.elements['#results-status'].textContent, /^1 record/, query);
+    assert.match(app.elements['#records'].innerHTML, /Global Neuronal Workspace/, query);
+    assert.doesNotMatch(app.elements['#records'].innerHTML, /Panpsychism/, query);
+  }
+  app.elements['#search'].value = 'Original model';
+  app.elements['#search'].listeners.input();
+  assert.match(app.elements['#results-status'].textContent, /^0 records/);
 });
 
 test('a permanent record URL expands and focuses its entry', async () => {
