@@ -21,6 +21,7 @@ import {
 interface AtlasViewProps {
   records: TheoryRecord[]
   selectedId?: string
+  traceRequest: number
   onSelect: (record: TheoryRecord) => void
   onClearSelection?: () => void
   onOpenTrace?: () => void
@@ -215,6 +216,7 @@ function buildGuideLayout(
 export function AtlasView({
   records,
   selectedId,
+  traceRequest,
   onSelect,
   onClearSelection,
   onOpenTrace,
@@ -233,6 +235,7 @@ export function AtlasView({
   const guideFrameRef = useRef<number | null>(null)
   const fieldCameraRef = useRef<CameraState | null>(null)
   const [projection, setProjection] = useState<Projection>('field')
+  const handledTraceRequestRef = useRef(traceRequest)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
   const [activeGroup, setActiveGroup] = useState<string | null>(null)
   const [indexOpen, setIndexOpen] = useState(false)
@@ -271,6 +274,12 @@ export function AtlasView({
       setCameraRatio(renderer.getCamera().getState().ratio)
     })
   }, [field])
+
+  useEffect(() => {
+    if (traceRequest === handledTraceRequestRef.current) return
+    handledTraceRequestRef.current = traceRequest
+    if (selectedId) setProjection('trace')
+  }, [traceRequest, selectedId])
 
   useEffect(() => {
     const container = containerRef.current
