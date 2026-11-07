@@ -37,6 +37,7 @@ class SourceIdentityVariantTests(unittest.TestCase):
     def test_review_leads_preserve_source_id_and_per_use_roles(self) -> None:
         records = [make_record("a", "Proposed title", 2025), make_record("b", "Revised title", 2026)]
         report = CatalogRepository._validate({"metadata": {"version": "test"}, "records": records})
+        self.assertEqual(report.metadata, {"version": "test"})
         shared = next(source for source in report.sources if source["doi"] == "10.1000/shared-work")
         self.assertEqual(shared["id"], "src-0001")
         self.assertEqual(shared["metadata_conflict_fields"], ["title", "year"])
