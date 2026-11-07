@@ -14,7 +14,7 @@ async function checkSeriousWcagViolations(page) {
     .map((violation) => ({
       rule: violation.id,
       impact: violation.impact,
-      targets: violation.nodes.slice(0, 4).map((node) => node.target),
+      targets: violation.nodes.slice(0, 4).map((node) => ({ target: node.target, summary: node.failureSummary, html: node.html.slice(0, 500) })),
     }));
   expect(failures).toEqual([]);
 }
