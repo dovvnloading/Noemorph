@@ -184,7 +184,10 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
             APP_DIR, serve_frontend=False,
             claim_evidence_db_path=self.db,
         )
-        with TestClient(app, client=("127.0.0.1", 5555)) as client:
+        with TestClient(
+            app, base_url="http://127.0.0.1:8765",
+            client=("127.0.0.1", 5555),
+        ) as client:
             status = client.get("/api/claim-evidence/status")
             self.assertEqual(status.status_code, 200)
             self.assertEqual(status.json()["event_count"], 1)
@@ -209,7 +212,30 @@ class ClaimEvidenceLedgerTests(unittest.TestCase):
             self.assertEqual(relation.status_code, 423)
             self.assertEqual(self.ledger.status()["event_count"], 1)
 
-        with TestClient(app, client=("192.0.2.22", 4321)) as remote:
+            # A loopback client may send a rebinding Host header; it must
+            # not receive private reviewer notes or evidence excerpts.
+            for hostname in (
+                "attacker.example",
+                "localhost.attacker.example",
+                "127.0.0.1.attacker.example",
+            ):
+                for endpoint in (
+                    "/api/claim-evidence/status",
+                    f"/api/claim-evidence/records/{self.record_id}/claims/{self.claim_id}",
+                ):
+                    denied = client.get(endpoint, headers={"Host": hostname})
+                    self.assertEqual(denied.status_code, 403, (hostname, endpoint))
+            for hostname in ("localhost", "127.0.0.1", "[::1]"):
+                allowed = client.get(
+                    "/api/claim-evidence/status", headers={"Host": hostname}
+                )
+                self.assertEqual(allowed.status_code, 200, hostname)
+                self.assertEqual(allowed.headers["cache-control"], "no-store")
+
+        with TestClient(
+            app, base_url="http://127.0.0.1:8765",
+            client=("192.0.2.22", 4321),
+        ) as remote:
             denied = remote.get("/api/claim-evidence/status")
             self.assertEqual(denied.status_code, 403)
             denied_history = remote.get(

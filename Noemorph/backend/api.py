@@ -68,6 +68,16 @@ class SemanticReviewPatch(BaseModel):
         return self
 
 
+def _is_loopback_host(value: str) -> bool:
+    """Accept localhost and numeric loopback addresses, not DNS aliases."""
+    if value.casefold() == "localhost":
+        return True
+    try:
+        return ip_address(value).is_loopback
+    except ValueError:
+        return False
+
+
 def create_app(
     project_root: Path,
     *,
@@ -222,15 +232,14 @@ def create_app(
         return repository.taxonomy_graph()
 
     def require_local_evidence_reader(request: Request, response: Response) -> None:
-        """Local review notes and short excerpts must not leak via network API mode."""
-        try:
-            peer = request.client.host if request.client is not None else ""
-            if not ip_address(peer).is_loopback:
-                raise HTTPException(status_code=403, detail="Local review history is loopback-only")
-        except ValueError as exc:
+        """Keep private review notes off remote APIs and DNS-rebinding hosts."""
+        peer = request.client.host if request.client is not None else ""
+        if not _is_loopback_host(peer) or not _is_loopback_host(
+            request.url.hostname or ""
+        ):
             raise HTTPException(
                 status_code=403, detail="Local review history is loopback-only"
-            ) from exc
+            )
         response.headers["Cache-Control"] = "no-store"
 
     @app.get("/api/claim-evidence/status")
@@ -258,16 +267,10 @@ def create_app(
         also rejects requests made through DNS-rebinding hostnames. Browser
         writes must originate from this instance or the local Vite dev server.
         """
-        def loopback_host(value: str) -> bool:
-            if value.casefold() == "localhost":
-                return True
-            try:
-                return ip_address(value).is_loopback
-            except ValueError:
-                return False
-
         peer = request.client.host if request.client is not None else ""
-        if not loopback_host(peer) or not loopback_host(request.url.hostname or ""):
+        if not _is_loopback_host(peer) or not _is_loopback_host(
+            request.url.hostname or ""
+        ):
             raise HTTPException(
                 status_code=403, detail="Semantic review is available only on localhost"
             )
