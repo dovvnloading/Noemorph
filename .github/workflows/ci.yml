@@ -78,13 +78,13 @@ jobs:
           python Noemorph/research/audit_data_quality.py --output data-quality.json
           python Noemorph/research/audit_data_quality.py --output data-quality.json --check
       - name: Upload read-only quality report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: noemorph-data-quality-report
           path: data-quality.json
           retention-days: 14
       - name: Package rendered static preview for visual QA
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: noemorph-public-ux-preview
           path: public-site/dist/
