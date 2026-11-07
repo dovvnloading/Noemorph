@@ -49,7 +49,7 @@ test('comparison stays explicitly read-only, navigable, and reversible', async (
   await page.locator('#search').fill('panpsychism');
   await expect(page.locator('#records details.record').first()).toBeVisible();
   const second = page.locator('#records details.record').first();
-  await second.locator('summary').click();
+  await second.locator(':scope > summary').click();
   await second.getByRole('button', { name: 'Compare this record' }).click();
   await expect(page.locator('#comparison')).toBeVisible();
   await expect(page.locator('#comparison .comparison-card')).toHaveCount(2);
