@@ -1,6 +1,6 @@
 import type { Citation, ResearchProfileValue as ProfileValue, TheoryRecord } from '../types'
 import { ResearchProfileValue } from './ResearchProfileValue'
-import { publicComparisonUrl } from './recordComparison'
+import { publicComparisonUrl } from './comparisonLinks'
 
 function FieldValue({ value }: { value?: ProfileValue }) {
   return value ? <ResearchProfileValue value={value} /> : <span className="comparison-unavailable">Not profiled</span>
