@@ -114,6 +114,7 @@ def _frontend_fingerprint() -> str:
         FRONTEND_DIR / "index.html",
         FRONTEND_DIR / "vite.config.ts",
     ]
+    inputs.extend(sorted(FRONTEND_DIR.glob("tsconfig*.json")))
     inputs.extend(sorted((FRONTEND_DIR / "src").rglob("*")))
     for path in inputs:
         if path.is_file():
@@ -288,7 +289,8 @@ def _bootstrap_frontend(*, skip_install: bool, skip_build: bool) -> None:
 
 
 def _reserve_socket(host: str, port: int) -> socket.socket:
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    family = socket.AF_INET6 if ":" in host else socket.AF_INET
+    sock = socket.socket(family, socket.SOCK_STREAM)
     try:
         if os.name == "nt" and hasattr(socket, "SO_EXCLUSIVEADDRUSE"):
             sock.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
@@ -299,6 +301,12 @@ def _reserve_socket(host: str, port: int) -> socket.socket:
         sock.close()
         raise
     return sock
+
+
+def _api_base_url(host: str, port: int) -> str:
+    """Format a URL for either IPv4/hostnames or bracketed IPv6 literals."""
+    host_for_url = f"[{host}]" if ":" in host else host
+    return f"http://{host_for_url}:{port}"
 
 
 def _start_server(host: str, port: int, *, serve_frontend: bool):
@@ -464,7 +472,7 @@ def main(arguments: Sequence[str] | None = None) -> int:
             preliminary.port,
             serve_frontend=not preliminary.api_only,
         )
-        base_url = f"http://{preliminary.host}:{selected_port}"
+        base_url = _api_base_url(preliminary.host, selected_port)
         _wait_for_server(f"{base_url}/api/health", server_thread, server_errors)
         LOGGER.info("Research API ready at %s", base_url)
 
