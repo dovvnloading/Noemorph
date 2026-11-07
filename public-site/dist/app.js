@@ -155,10 +155,12 @@
     const citations = (r.citations || []).map(c => {
       const url = safeUrl(c.url);
       const title = esc(c.title || 'Retained source');
+      const sourceLink = window.NoemorphSources?.href(c);
       return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${title} ↗</a>` : title}
         <div class="citation-meta">${esc([c.authors, c.year, c.venue].filter(Boolean).join(' · '))}
         ${c.verification ? ` · ${esc(c.verification)}` : ''}
-        ${c.authority ? ` · ${esc(c.authority)}` : ''}</div></li>`;
+        ${c.authority ? ` · ${esc(c.authority)}` : ''}</div>
+        ${sourceLink ? `<a class="source-trace-link" href="${esc(sourceLink)}">Trace citation in source library</a>` : ''}</li>`;
     }).join('');
     const summary = String(r.summary || '').trim();
     const preview = summary.length > 160
@@ -284,6 +286,11 @@
     fillSelect(tradition, records.map(r => r.tradition));
     fillSelect(review, records.map(r => r.review_state));
     draw();
+    // The read-only source explorer reuses the already loaded catalog, with no second download.
+    try { window.NoemorphSources?.mount(records); } catch {
+      const sourceStatus = document.querySelector('#source-status');
+      if (sourceStatus) sourceStatus.textContent = 'The source explorer is unavailable.';
+    }
     // Discovery is optional: a missing or invalid reading path never blocks the catalog.
     void window.NoemorphDiscovery?.mount(records);
     try { window.NoemorphAtlas?.mount(records); } catch { /* Map is optional. */ }
@@ -296,5 +303,7 @@
     recordsEl.innerHTML = '<p class="empty">Please reload the page, or visit the repository to explore the source data.</p>';
     const discoveryStatus = document.querySelector('#discovery-status');
     if (discoveryStatus) discoveryStatus.textContent = 'Discovery paths require the catalog. Please try reloading the page.';
+    const sourceStatus = document.querySelector('#source-status');
+    if (sourceStatus) sourceStatus.textContent = 'The bibliography could not be loaded.';
   });
 })();
