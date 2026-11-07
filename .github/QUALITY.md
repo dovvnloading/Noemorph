@@ -13,7 +13,20 @@ Additional checks:
 - **Python and npm advisories (non-blocking baseline):** these checks deliberately
   continue on error until existing advisories have been triaged. A successful CI
   run does not mean every dependency is free of known advisories.
-- **Dependabot:** weekly update proposals, requiring ordinary CI and review.
+- **Dependabot:** staggered weekly updates with an open version-PR limit of three per
+  configured ecosystem. Routine minor/patch updates are grouped where appropriate,
+  React/runtime/types move together, and the same Python package can be updated
+  across application and research manifests in one PR. Individual major updates
+  still require compatibility review. Grouping is not an auto-merge policy.
+
+When reviewing dependency PRs:
+- Treat skipped dependency review as **not assessed**, even when CI is green.
+- Revalidate against current `main`, including relevant browser/desktop or Windows
+  integration tests that may not have existed when an older PR first ran.
+- Review lockfile peer dependencies together; do not use `--force` or
+  `--legacy-peer-deps` to conceal an incompatible React/types combination.
+- Keep major UI/graph-library updates separate until their integrations are migrated,
+  and verify the user-visible behavior before merging.
 
 Before release, review non-blocking advisory output and create tracked remediation
 issues for confirmed reachable vulnerabilities. Promote audit steps to blocking
