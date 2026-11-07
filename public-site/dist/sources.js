@@ -132,15 +132,20 @@
   }
 
   function filteredSources() {
-    const terms = search.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
-    return sources.filter(source => {
-      if (!terms.every(term => source.searchText.includes(term))) return false;
-      // Facets apply to the same citation use, not an invented source-wide status.
-      return source.uses.some(use =>
-        (!role.value || use.citation.authority === role.value)
-        && (!verification.value || (use.citation.verification || 'pending-metadata-review') === verification.value)
-      );
-    });
+    const query = search.value.trim().toLocaleLowerCase();
+    const terms = query.split(/\s+/).filter(Boolean);
+    // Facets apply to the same citation use, not an invented source-wide status.
+    const candidates = sources.filter(source => source.uses.some(use =>
+      (!role.value || use.citation.authority === role.value)
+      && (!verification.value || (use.citation.verification || 'pending-metadata-review') === verification.value)
+    ));
+    // Prefer a real phrase when one exists; otherwise accept terms across fields.
+    // This avoids matching "Second Record" merely from "Second Author" + "First Record".
+    if (query.includes(' ')) {
+      const exactPhrase = candidates.filter(source => source.searchText.includes(query));
+      if (exactPhrase.length) return exactPhrase;
+    }
+    return candidates.filter(source => terms.every(term => source.searchText.includes(term)));
   }
 
   function draw() {
