@@ -9,7 +9,7 @@ Additional checks:
   baseline, not a substitute for broader lint and formatting rules.
 - **CodeQL (blocking once GitHub's code scanning is available):** static security
   analysis for Python and JavaScript/TypeScript.
-- **Dependency review (requires repository setup):** detects newly introduced vulnerable dependencies on PRs. It is disabled until the GitHub Dependency Graph is enabled under Settings → Security and analysis, and the repository Actions variable `NOEMORPH_DEPENDENCY_GRAPH_ENABLED` is set to `true`. An unset variable causes the job to be skipped, not passed.
+- **Dependency review:** detects newly introduced vulnerable dependencies on PRs. It requires GitHub's Dependency Graph and the repository Actions variable `NOEMORPH_DEPENDENCY_GRAPH_ENABLED=true`. An unset variable causes the job to be skipped, not passed.
 - **Windows desktop smoke (blocking when enabled):** a Windows-hosted Python 3.14
   environment installs the pinned application requirements, validates CLR and
   WebView2 Python wrapper imports, and runs portable launcher regression tests.
@@ -44,9 +44,9 @@ Before release, review non-blocking advisory output and create tracked remediati
 issues for confirmed reachable vulnerabilities. Promote audit steps to blocking
 after establishing a passing baseline.
 
-## Repository settings still required
+## Repository settings
 
-Enable GitHub's Dependency Graph and set `NOEMORPH_DEPENDENCY_GRAPH_ENABLED=true` before requiring the dependency-review job. The action fails otherwise with a repository-unsupported error.
+Keep GitHub's Dependency Graph enabled and `NOEMORPH_DEPENDENCY_GRAPH_ENABLED=true` set. Verify that dependency review succeeds on a pull request before requiring it; the action fails with a repository-unsupported error if the graph is unavailable.
 
 GitHub branch rules are configured in the repository settings, not by checked-in
 workflow YAML. Protect `main` by requiring:
