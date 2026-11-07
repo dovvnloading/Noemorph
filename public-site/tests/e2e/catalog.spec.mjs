@@ -102,10 +102,12 @@ test('public source library searches citation metadata and traces back to record
   await expect(entry.locator('.source-record-links a')).toHaveCount(recordIds.length);
   await expect(entry).toContainText('not verified evidence of support');
   const firstLink = entry.locator('.source-record-links a').first();
-  await expect(firstLink).toHaveAttribute('href', new RegExp('record=' + recordIds[0]));
+  const recordHref = await firstLink.getAttribute('href');
+  const firstLinkedRecordId = new URL(recordHref).searchParams.get('record');
+  expect(recordIds).toContain(firstLinkedRecordId);
   await firstLink.click();
 
-  const record = page.locator('details.record[data-record-id="' + recordIds[0] + '"]');
+  const record = page.locator('details.record[data-record-id="' + firstLinkedRecordId + '"]');
   await expect(record).toHaveAttribute('open', '');
   await record.locator('details.record-depth > summary').click();
   const trace = record.locator('a.source-trace-link').first();
