@@ -14,8 +14,9 @@ concurrency:
 
 jobs:
   changes:
-    # Decides whether the browser tests need to run for this change. A job
-    # skipped by its `if` reports success, so required checks never hang.
+    if: github.event_name == 'workflow_dispatch'
+    # Chromium runs only on an explicit manual dispatch. Automatic events
+    # retain the required check names with an honest skipped conclusion.
     name: Detect browser-relevant changes
     runs-on: ubuntu-latest
     timeout-minutes: 5
@@ -52,7 +53,7 @@ jobs:
 
   desktop-web-browser:
     needs: changes
-    if: needs.changes.outputs.browser == 'true'
+    if: github.event_name == 'workflow_dispatch' && needs.changes.outputs.browser == 'true'
     name: Desktop workspace optional API failures (Chromium)
     runs-on: ubuntu-latest
     timeout-minutes: 20
